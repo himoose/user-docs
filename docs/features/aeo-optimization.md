@@ -2,14 +2,14 @@
 
 ## What this helps you do
 
-Get an **AI Engine Optimization (AEO) analysis** that shows exactly how AI systems like ChatGPT, Perplexity, and Gemini will interpret, extract, and potentially cite your content. Hi, Moose's AEO tools:
+Get an **AI Engine Optimization (AEO) analysis** that shows how AI systems like ChatGPT, Perplexity, and Gemini will interpret, extract, and potentially cite your content. Hi, Moose's AEO tools:
 
 - **Analyze your content through AI's lens** using the same data sources AI engines use
 - **Pull live Google AI Overview data** to see what Google's AI says about your topic
 - **Use OpenAI web search** to understand how AI-powered search sees your content
-- **Test with Google Gemini's grounding queries** to reveal what AI actually searches for when analyzing your topic
+- **Test with Google Gemini's grounding queries** to reveal what AI searches for when analyzing your topic
 - **Generate specific, copy-paste fixes** instead of vague suggestions
-- **Score AEO factors** that determine if AI will cite, summarize, or recommend your content
+- **Score AEO factors** that will help determine if AI will cite, summarize, or recommend your content
 - **Create rewritten sections** that are optimized for both human readers and AI systems
 
 This means you get **actionable intelligence** about how AI engines interpret your content right now—not generic best practices. You'll see exactly what to fix, why it matters for AI visibility, and get ready-to-use improvements.
@@ -24,7 +24,7 @@ This means you get **actionable intelligence** about how AI engines interpret yo
 - **When Google shows an AI Overview for your keyword** and you want to understand how to compete
 - **For high-value content** that should be cited by AI systems (product/feature pages, guides, resources, data-driven articles)
 - **When content feels unclear or hard to scan** and you need structural improvements
-- **To audit competitor content** and see what makes it AI-friendly
+- **To audit competitor content** and see what likely makes it AI-friendly
 
 ---
 
@@ -38,14 +38,14 @@ This means you get **actionable intelligence** about how AI engines interpret yo
 - For **paid plans**: Unlimited AEO analyses (token-based usage)
 
 ### What Hi, Moose analyzes
-Hi, Moose evaluates your content across **10 AI Engine Optimization categories**:
+Hi, Moose evaluates your content across **10 SEO and Answer Engine Optimization categories**:
 
 1. **Freshness**: Does your content show clear publication/update dates that AI systems can detect?
 2. **Structure**: Are headings, lists, tables, and paragraphs well-organized for AI extraction?
 3. **Semantic Clarity**: Does your content directly align with the target query using natural language?
 4. **Extractability**: Can AI easily pull quotes, facts, definitions, and key points?
-5. **Citation Potential**: Does your content include data, sources, and factual statements AI engines cite?
-6. **Comprehensiveness**: Does your content cover topics Google's AI Overview identifies as important?
+5. **Citation Potential**: Does your content include data, sources, and factual statements LLMs cite?
+6. **Comprehensiveness**: Does your content cover topics Google's AI Overview identifies as relevant?
 7. **Factual Accuracy**: Are claims verifiable, specific, and backed by evidence?
 8. **Engagement**: Is content scannable, readable, and formatted for quick comprehension?
 9. **Entity Recognition**: Are proper nouns, brands, and specific entities clearly identified?
@@ -58,7 +58,7 @@ Each factor gets a **score from 0-100**, with an **overall AEO score** showing y
 ## Step-by-step (in Hi, Moose)
 
 ### 1. Navigate to AEO Tools
-- From your project dashboard, select **AEO Tools** (or find it in your project sidebar)
+- From your project dashboard, select **AEO** (SEO Mode) or **Improve a Page** (Marketer Mode)
 - You'll see the AEO analysis form
 
 ### 2. Enter Your Target Prompt/Query
@@ -101,7 +101,7 @@ You'll see real-time progress indicators showing:
 ### 5. Review Your AEO Score
 Once complete, you'll see:
 
-**Overall AEO Score** (0-100):
+**Overall AEO Score** (0-100) (Marketer Mode):
 - **80-100**: Excellent AI readiness—content is highly extractable and cite-worthy
 - **60-79**: Good but needs improvement—AI can understand it but may skip citing it
 - **0-59**: Needs significant work—AI struggles to extract or trust this content
@@ -115,7 +115,7 @@ Once complete, you'll see:
 - **SEO Mode** shows all 10 categories with detailed summaries
 
 ### 6. Review Actionable Recommendations
-Scroll to the **"Tactics to Improve Your Content"** section (or **"What to Fix"** in Marketer Mode).
+Scroll to the **"Suggested Improvements"** section (or **"What to Fix"** in Marketer Mode).
 
 Recommendations are organized by priority:
 - **High Priority** (red): Fix these first—they have the biggest impact on AI visibility
@@ -129,13 +129,13 @@ Each recommendation includes:
 - **Implementation**: Exactly how to fix it
 
 ### 7. View AI-Generated Content Improvements
-Scroll to the **"Suggested Content Improvements"** section (or **"Copy-Paste Fixes"** in Marketer Mode).
+Scroll to the **"Specific Content Improvements"** section (or **"Fixes for Your Content"** in Marketer Mode).
 
 Hi, Moose generates **specific, rewritten sections** of your content that:
-- **Show the original text** (what you have now)
-- **Show the improved version** (AI-optimized rewrite)
-- **Explain why** the change improves AEO
-- **Include a copy button** to instantly copy the improved version
+- **Current Text** (what you have now)
+- **Improved Text** (optimized rewrite)
+- **Why fix this** to explain why this the change improves AEO
+- **Copy button** to copy the improved version to your clipboard
 
 Common improvements include:
 - Rewriting vague paragraphs with clearer language
@@ -149,20 +149,22 @@ Common improvements include:
 - If a suggestion recommends adding FAQs, you'll see a **"Generate FAQs"** button linking to the FAQ Generator
 - If a suggestion recommends adding Key Points/TL;DR, you'll see a **"Generate Key Points"** button linking to the Key Points feature
 
-### 8. Analyze Keyword Coverage (Advanced)
-Click the **"Keyword Coverage"** tab to see **Google Gemini's grounding queries**.
+### 8. Analyze Keyword Coverage 
+(SEO Mode) Click the **"Citation Alignment"** tab to see how well you cover the grounding queries and to view the  **Grounding queries by intent**.
+
+(Marketer Mode) Click the **"What Google Looks For"** tab to see what grounding queries Google used and how well you cover those queries currently. 
 
 This shows:
-- **What AI actually searches for** when processing your target query
+- **What Google Gemini/AI Mode actually searches for** when processing your target query
 - **Coverage analysis**: Which grounding queries your content addresses
 - **Gaps**: Topics AI expects but your content doesn't cover
 - **Alignment score**: How well your content matches AI's research process
 
-**Why this matters**: When Gemini generates a response, it first searches Google using "grounding queries." If your content covers these queries, you're more likely to be cited.
+**Why this matters**: When Gemini generates a response, depending on the query, it may need to do additional searches to "ground" its response. It often makes sense to try to cover those grounding queries with your content, either on the page you're analyzing or on another page.
 
 ### 9. Compare with AI Search Results
-Click the **"AI Search Comparison"** tab to see:
-- What AI-powered search engines (OpenAI, ChatGPT Search) return for your query
+Look for the **"Alignment Overview"** (SEO Mode) or **"How You Content Matches"** (Marketer Mode) to see:
+- What AI-powered search engines return for your query
 - How your content compares to what AI considers relevant
 - Gaps between your content and what AI prioritizes
 
@@ -176,7 +178,7 @@ Click the **"AI Search Comparison"** tab to see:
 ## What you get
 
 ### 1. Overall AEO Score (0-100)
-A single metric showing your content's AI-readiness. Higher scores mean AI engines can easily extract, understand, and cite your content.
+A single metric showing your content's AI-readiness. Higher scores mean AI engines can more easily extract, understand, and cite your content.
 
 ### 2. 10 Category Scores
 Individual scores for:
@@ -230,17 +232,17 @@ If an AI Overview exists for your query, you'll see:
 
 ## Tips for best results
 
-- **Use natural language queries**: Write your target query as a real person would ask it, not SEO keyword stuffing
+- **Use natural language queries**: Write your target query as a real person would ask it
 - **Test specific pages**: Analyze individual pages rather than entire sites—each page should have a clear target query
 - **Prioritize high-priority fixes first**: These have the biggest impact on AI visibility
 - **Copy-paste improvements carefully**: Review AI-generated rewrites to ensure they maintain your brand voice and accuracy
-- **Combine with other Hi, Moose tools**: Use FAQ Generator and Key Points features when improvements suggest adding those elements
+- **Combine with other Hi, Moose tools**: Use FAQ Generator, Key Points, Podcast Generator features when improvements suggest adding those elements
 - **Analyze URL mode for published content**: This captures dates, schema, and meta tags that paste mode can't see
 - **Use paste mode for iterative testing**: Make a fix, paste the updated content, re-analyze to see score changes
 - **Check Keyword Coverage for comprehensive content**: If Gemini's grounding queries reveal gaps, add sections addressing those topics
 - **Re-analyze after updates**: Run a new analysis after implementing fixes to measure improvement
 - **Compare competitors**: Analyze top-ranking competitor pages to see what makes their content AI-friendly
-- **Focus on extractability**: Tables, lists, clear headings, and TL;DR sections dramatically improve AI extraction
+- **Focus on extractability**: Tables, lists, clear headings, and TL;DR sections improve AI extraction
 - **Add dates prominently**: AI systems heavily weight freshness—make publication/update dates visible and machine-readable
 - **Address Google AI Overview topics**: If an AI Overview exists, ensure your content covers those key themes
 
@@ -330,23 +332,9 @@ If your query doesn't trigger an AI Overview, you may have *less* competition fr
 
 ## FAQs
 
-### How is this different from SEO audits?
-
-**SEO audits** focus on traditional search ranking factors (keywords, backlinks, page speed, meta tags).
-
-**AEO analysis** evaluates how **AI engines** (ChatGPT, Perplexity, Gemini, Claude) will interpret, extract, and potentially cite your content.
-
-Hi, Moose's AEO tools use:
-- **Google Gemini's grounding queries** to show what AI searches for when processing your topic
-- **Google AI Overview data** to see what Google's AI says
-- **OpenAI web search** to understand AI-powered search results
-- **10 AI-specific factors** (extractability, citation potential, semantic clarity) that traditional SEO tools don't measure
-
-You need both SEO (to rank in search) and AEO (to get cited by AI).
-
 ### What's the difference between "Marketer Mode" and "SEO Mode"?
 
-Both modes analyze your content the same way. The difference is **presentation**:
+Both modes analyze your content the same way. The difference is presentation and assuming different workflows for the differing roles:
 
 **Marketer Mode**:
 - Simplified language ("What would someone type to find this page?" instead of "Target Prompt/Query")
@@ -370,16 +358,16 @@ Switch modes anytime via the toggle in your project navigation. Your analysis re
 - Structural patterns you can adopt
 - Gaps you can fill
 
-**Ethics note**: Use this for competitive analysis and learning, not to copy their content verbatim.
+**Ethics note**: Use this for competitive analysis and learning, not to copy their content verbatim. Add something new to the conversation. 
 
 ### Why does my content need to be optimized for AI engines?
 
-AI engines (ChatGPT, Perplexity, Gemini, Claude) are increasingly how people find information. If your content isn't AI-optimized:
-- **You won't be cited** when users ask AI assistants questions in your niche
-- **You'll lose traffic** as AI-generated answers replace traditional search results
+AI engines (ChatGPT, Perplexity, Gemini, Claude) are increasingly how people find information. If your content isn't optimized:
+- **You less likely be cited** when users ask AI assistants questions in your niche
+- **You'll lose mindshare and traffic** as AI-generated answers replace traditional search results
 - **You'll miss conversions** from users who trust AI recommendations over browsing search results
 
-AEO is becoming as important as SEO for content visibility.
+AEO is part of SEO, and is becoming critical for brand visibility.
 
 ### How accurate is the "Keyword Coverage" analysis?
 
@@ -388,6 +376,7 @@ Keyword Coverage uses **Google Gemini's actual grounding queries**—the searche
 **Accuracy**: Very high for understanding what AI searches for.
 
 **Limitation**: Gemini's grounding queries may vary slightly based on:
+- Not all queries trigger grounding queries
 - Geographic location
 - Search history
 - Real-time data availability
@@ -411,20 +400,19 @@ AEO recommendations are **data-driven suggestions**, not requirements. Use your 
 - If a suggestion doesn't fit your content goals, ignore it
 - If a score seems wrong, focus on specific recommendations you agree with
 
-The goal is to make your content **more AI-friendly**, not to follow every suggestion blindly.
+The goal is to make your content **more search friendly**, not to follow every suggestion blindly.
 
 ### How often should I re-analyze content?
 
 **For evergreen content**: Re-analyze every **6-12 months** or when:
 - You make significant updates
-- Google launches new AI Overview features
+- Google launches core updates or new AI Overview features
 - Your target query starts triggering AI Overviews
-- You notice traffic declines
+- You notice citations, mentions, or traffic (organic or direct) decline
 
 **For trending content**: Re-analyze **every 3 months** or when:
 - New data/statistics become available (update freshness)
-- Competitors publish new content
-- AI Overviews for your query change
+- Citations and grounding queries start to drift
 
 **For new content**: Analyze **before publishing** to catch issues early.
 
@@ -434,7 +422,7 @@ The goal is to make your content **more AI-friendly**, not to follow every sugge
 
 But AI citation also depends on:
 - **Authority**: Do you have credible sources and data?
-- **Backlinks**: Do other sites link to you? (AI engines use this as a trust signal)
+- **Backlinks**: Do other relevant and reputable sites link to or mention you? 
 - **Domain reputation**: Is your domain known and trusted?
 - **Recency**: Is your content current and updated?
 
@@ -452,12 +440,8 @@ Results stay in your project permanently unless manually deleted.
 
 ### Can I export AEO reports?
 
-Currently, AEO reports are viewable within Hi, Moose. We're working on:
-- PDF export for client reporting
-- Shareable links for stakeholders
-- CSV export of scores and recommendations
+Yes, you can export to PDF the full report.
 
-For now, use screenshots or copy-paste recommendations into your own docs.
 
 ---
 
