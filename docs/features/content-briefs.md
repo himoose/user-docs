@@ -12,25 +12,24 @@ Generate **AI-powered content briefs** that pull from **real-time data sources**
 - **Captures People Also Ask questions** to address searcher intent
 - **Generates structured briefs** tailored to your content template (blog, landing page, product page)
 
-This means you get **current competitive intelligence** and **data-backed recommendations** that ChatGPT alone can't provide, because it doesn't have access to live search results, competitor content, or AI Overview extraction.
 
 ---
 
 ## When to use this
 
-- **Planning new content** and need to know what's ranking now
-- **Updating existing content** to match current search landscape
-- **Entering a new topic area** and want competitive analysis
 - **Delegating content creation** to writers who need clear direction
 - **Optimizing for featured snippets** by understanding AI Overviews
 - **Scaling content production** with data-driven briefs
+- **Planning new content** and need to know what's ranking now
+- **Updating existing content** to match current search landscape
+- **Entering a new topic area** and want competitive analysis
+
 
 ---
 
 ## Before you start
 
 ### Requirements
-- A Hi, Moose project with **SEO Mode enabled** (briefs are an SEO Mode feature)
 - Your **primary target keyword** identified (e.g., "best accounting software for small business")
 - For **Depth analysis**: A paid subscription plan (Starter, Growth, or Enterprise)
 
@@ -39,16 +38,16 @@ This means you get **current competitive intelligence** and **data-backed recomm
 - **5 briefs per month** maximum
 - Depth analysis unlocked on paid plans (analyzes 5+ URLs)
 
+
 ---
 
 ## Step-by-step (in Hi, Moose)
 
 ### 1. Navigate to Content Brief Creator
-- Go to **Content Brief Creator** from your project sidebar
-- Make sure you're in **SEO Mode** (toggle in top navigation if needed)
+- Go to **Content Brief Creator** (SEO Mode) or **SEO for AI Content** (Marketer Mode) from your project sidebar
 
 ### 2. Enter Your Primary Target Keyword
-- In the **"Primary Target Keyword"** field, enter your main SEO keyword
+- In the **"Primary Target Keyword"** field, enter your main SEO keyword. If using Marketer Mode, look for the **What should this content rank for?** field
 - Be specific and use natural language (e.g., "how to choose email marketing software" not just "email marketing")
 - Use **long-tail keywords** for more targeted briefs
 
@@ -62,7 +61,7 @@ The template shapes the brief structure and recommendations.
 
 ### 4. Choose Your Analysis Depth
 - **Speed**: Faster results, analyzes **3 top-ranking URLs** (available on all plans including Free)
-- **Depth**: Comprehensive analysis, analyzes **5+ top-ranking URLs** plus AI Overview citations (requires paid plan)
+- **Depth**: Comprehensive analysis, analyzes **5+ top-ranking URLs** plus AI Overview citations
 
 Depth analysis provides more secondary keywords, deeper competitive insights, and citation analysis.
 
@@ -91,8 +90,9 @@ Once complete, you'll see:
 ### 7. Export Your Brief
 Choose your export format:
 - **Copy to clipboard**: Quick paste into your content tool
-- **Download as PDF**: Shareable format for writers/stakeholders
-- **Download as Markdown**: Import into Notion, Obsidian, or other markdown editors
+- **Download as PDF or as a Microsoft Doc**: Shareable format for writers/stakeholders
+- **Download as Text**: Import into Notion, or other tools
+
 
 ---
 
@@ -138,20 +138,18 @@ Choose your export format:
    - Additional citations and sources
    - Current information beyond training cutoff
 
+
 ---
 
 ## Tips for best results
 
-- **Use specific, natural language keywords**: "best CRM for real estate agents" > "CRM software"
 - **Choose the right template**: Blog for informational, Landing Page for commercial, Product Page for transactional
 - **Use Depth analysis for competitive niches**: More data = better insights in crowded markets
 - **Review secondary keywords before writing**: Organize by priority to focus your content
-- **Address PAA questions in your content**: Creates opportunities for featured snippets
-- **Match or exceed recommended word count**: Based on what's currently ranking
-- **Update briefs for evergreen content**: Re-run briefs quarterly to catch SERP changes
-- **Check AI Overview data**: If Google shows an AI Overview, study it to understand how to rank
-- **Export for your team**: PDFs work great for briefing freelance writers
+- **Address PAA questions in your content**: Creates opportunities for featured snippets and AI overviews
+- **Export for your team**: PDFs or Doc files work great for briefing freelance writers
 - **Combine with Brand Voice**: Reference your brand voice guidelines when writing from the brief
+
 
 ---
 
@@ -179,7 +177,7 @@ Choose your export format:
 ### Recommended word count seems too high/low
 **Explanation**: Word count is calculated by averaging the top-ranking competitor pages.  
 **Context**: If your competitors have outliers (one 5,000-word guide, others ~1,500 words), the average can skew.  
-**Solution**: Check the "Analyzed URLs" section to see individual competitor word counts. Use your judgment based on your content goals and resources.
+**Solution**: Check the "Analyzed URLs" section to see individual competitor word counts. Use your judgment based on your content goals and resources. It's not really about reaching a specific word count but instead, your content matching the users' search intent with helpful content. If you can do this in less words, great!
 
 ### Brief generation failed with generic error
 **Common causes**:
@@ -201,17 +199,17 @@ Choose your export format:
 **Cause**: Brief generation may still be in progress, or JavaScript error.  
 **Solution**: Wait until status shows "Complete" with 100% progress. Refresh the page if needed. If problem persists, try a different browser or clear cache.
 
+
 ---
 
 ## FAQs
 
 ### How is this different from just asking ChatGPT to create a content brief?
 
-**Hi, Moose pulls from live data sources that ChatGPT doesn't have access to:**
-- **Real-time Google search results** (ChatGPT's training data has a cutoff date)
-- **Current competitor content** via automated URL crawling (ChatGPT can't browse websites unless explicitly connected to web)
+**Hi, Moose pulls from live data sources that ChatGPT doesn't have access to or often fails to pull:**
+- **Real-time Google search results** (ChatGPT's training data has a cutoff date. It may use RAG as need to ground its response however.)
+- **Current competitor content** via automated URL crawling (In the basic ChatGPT experience, generally it will not crawl the competing sites already ranking well.)
 - **Google AI Overviews** extracted from live SERPs (ChatGPT doesn't know what Google's AI is saying today)
-- **ChatGPT Search** with web citations (different from regular ChatGPT)
 - **People Also Ask questions** from actual SERPs (not predicted)
 - **Secondary keywords** extracted from what's actually ranking now (not guessed from training data)
 
@@ -233,7 +231,7 @@ Choose Speed for faster results or low-competition topics. Choose Depth for comp
 
 ### Can I regenerate a brief with different settings?
 
-Yes! Content briefs are saved to your project, but you can generate a new brief for the same keyword with:
+Yes. Content briefs are saved to your project, but you can generate a new brief for the same keyword with:
 - Different content template (blog → landing page)
 - Different analysis depth (Speed → Depth)
 
@@ -241,9 +239,9 @@ This gives you a fresh brief with updated data. Search results change over time,
 
 ### Why does my brief include some URLs marked as "AI Overview Citation" or "ChatGPT Citation"?
 
-These sources come from **Google's AI Overview** or **ChatGPT Search API** citations, showing what Google's AI or ChatGPT's web-connected search considers authoritative for your keyword.
+These sources come from **Google's AI Overview** or **ChatGPT Search** citations, showing what Google's AI or ChatGPT's web-connected search considers authoritative for your keyword.
 
-**Why this matters**: If Google or ChatGPT cite a source, it's likely high-quality and relevant. Analyzing these gives you insight into what AI systems prioritize, which can inform your own content strategy.
+**Why this matters**: If Google or ChatGPT cite a source, it's likely perceived as high-quality and relevant. Analyzing these gives you insight into what AI systems prioritize, which can inform your own content strategy.
 
 ### How accurate is the recommended word count?
 
@@ -267,7 +265,7 @@ If your keyword doesn't trigger an AI Overview:
 
 ### Can I use these briefs for my content team or freelancers?
 
-**Absolutely!** That's a primary use case. Export as **PDF** to share with:
+**Absolutely!** That's a primary use case. Export as **PDF** or **DOC** files to share with:
 - Freelance writers (gives them data-backed direction)
 - Content managers (shows competitive landscape)
 - SEO stakeholders (demonstrates research depth)
@@ -302,6 +300,7 @@ Yes! All generated briefs are automatically saved to your project. Access them a
 - Compare briefs over time to see how SERPs evolved
 
 Briefs stay in your project permanently unless manually deleted.
+
 
 ---
 
