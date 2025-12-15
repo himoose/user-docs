@@ -1,0 +1,19 @@
+name = "himoose-docs-router"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Account ID (replace with your Cloudflare account ID)
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+
+# Workers route configuration
+routes = [
+  { pattern = "himoose.com/docs", custom_domain = true },
+  { pattern = "himoose.com/docs/*", custom_domain = true }
+]
+
+# Environment variables
+[env.production]
+vars = { FIREBASE_HOSTING_URL = "https://himoose-user-docs.web.app" }
+
+[env.staging]
+vars = { FIREBASE_HOSTING_URL = "https://himoose-user-docs.web.app" }

@@ -1,0 +1,105 @@
+site_name: User Documentation
+site_url: https://docs.himoose.com
+site_description: User documentation for Hi, Moose - AI search optimization platform
+site_author: Hi, Moose Team
+
+# Repository
+repo_url: https://github.com/himoose/user-docs
+repo_name: himoose/user-docs
+edit_uri: ""  
+
+theme:
+  name: shadcn
+  logo: assets/logo-dark.svg
+  favicon: assets/favicon.ico
+  custom_dir: overrides
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/custom.js
+
+# Extensions
+markdown_extensions:
+  - admonition              # Call-out blocks
+  - pymdownx.details        # Collapsible admonitions
+  - pymdownx.superfences    # Code blocks with syntax highlighting
+  - pymdownx.tabbed:        # Content tabs
+      alternate_style: true
+  - pymdownx.highlight:     # Code highlighting
+      anchor_linenums: true
+  - pymdownx.inlinehilite   # Inline code highlighting
+  - pymdownx.snippets       # Include snippets
+  - pymdownx.emoji          # Emoji support
+  - attr_list               # Add HTML attributes to markdown
+  - md_in_html              # Markdown in HTML
+  - toc:                    # Table of contents
+      permalink: "¶"
+      permalink_class: "headerlink"
+      toc_depth: 3
+  - tables                  # Tables
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - minify:
+      minify_html: true
+
+# Extra
+extra:
+  homepage: https://himoose.com
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/himoose
+      name: Hi, Moose on Github
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/hi-moose/
+      name: Hi, Moose on LinkedIn
+  
+  analytics:
+    provider: google
+    property: G-LLKF73LHRJ
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Projects: projects.md
+      - Settings: settings.md
+      - Brand Voice: brand-voice.md
+      - Team Management: team-management.md
+  - Content Features:
+      - SEO Content Briefs: features/content-briefs.md
+      - AEO Optimization: features/aeo-optimization.md
+      - Versus Pages: features/versus-pages.md
+      - FAQ Generator: features/faq-generator.md
+      - Key Points Extractor: features/key-points.md
+      - Podcast Generator: features/podcast-generator.md
+  - Analysis & Monitoring:
+      - Topical Authority Builder: features/topical-authority.md
+      - LLM Beacon (Brand Visibility): features/llm-beacon.md
+  - Integrations:
+      - WordPress: integrations/wordpress.md
+      - Webflow: integrations/webflow.md
+
+# Copyright
+copyright: Copyright &copy; 2025 Hi, Moose

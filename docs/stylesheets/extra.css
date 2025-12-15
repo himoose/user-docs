@@ -1,0 +1,48 @@
+/* Hide permalink anchors by default, show on hover */
+.headerlink {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    margin-left: 0.5em;
+    text-decoration: none;
+}
+
+h1:hover .headerlink,
+h2:hover .headerlink,
+h3:hover .headerlink,
+h4:hover .headerlink,
+h5:hover .headerlink,
+h6:hover .headerlink {
+    opacity: 1;
+}
+
+/* Hide GitHub star count */
+.md-source__facts {
+    display: none !important;
+}
+
+/* Keep just the GitHub icon button */
+.md-source {
+    display: inline-flex !important;
+}
+
+/* Logo customization for shadcn theme */
+/* Hide the default theme logo SVG (diagonal lines icon with viewBox="0 0 256 256") */
+svg[viewBox="0 0 256 256"] {
+    display: none !important;
+}
+
+/* Replace with custom Hi, Moose logo on the parent span */
+span.size-8.flex.flex-row.justify-center.items-center:has(svg[viewBox="0 0 256 256"]) {
+    background-image: url("../assets/logo-dark.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 140px !important;
+    height: 32px !important;
+    margin-right: 10px;
+}
+
+/* Dark mode logo - light colored version */
+.dark span.size-8.flex.flex-row.justify-center.items-center:has(svg[viewBox="0 0 256 256"]) {
+    background-image: url("../assets/logo-light.svg");
+}
