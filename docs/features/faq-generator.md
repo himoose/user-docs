@@ -2,13 +2,14 @@
 
 ## What this helps you do
 
-Create FAQ sections that answer real questions your audience asks. Hi, Moose generates natural, conversational questions (not robotic chatbot output) and provides concise answers based on your content.
+Create FAQ sections that answer real questions your audience asks. Hi, Moose generates natural, conversational questions and provides concise answers based on your content.
 
 **Why Hi, Moose FAQs are better than generic AI:**
 - **Gap-filling intelligence** — Identifies questions readers would ask that aren't explicitly answered yet
 - **Brand voice integration** — FAQs match your tone and style automatically
-- **SEO-ready schema markup** — Includes structured data for Google rich results
+- **SEO-ready schema markup** — Includes JSON-LD structured data for Google rich results
 - **Question quality** — Natural language questions real humans would ask, not keyword-stuffed queries
+- **FAQs at scale** — Using Webflow or Sitemap.xml, generate FAQs at scale and auto update 
 
 FAQs improve user experience, reduce support requests, and boost SEO by answering user intent directly on the page.
 
@@ -20,6 +21,7 @@ FAQs improve user experience, reduce support requests, and boost SEO by answerin
 - **Documentation** — Supplement technical content with accessible FAQs
 - **Landing pages** — Address objections and build trust
 - **Support content** — Reduce repetitive customer service inquiries
+- **Producing FAQs at scale** — Generate FAQs at scale
 
 Best for pages with substantial content (300+ words). FAQs work on any page where visitors have questions.
 
@@ -29,14 +31,14 @@ Best for pages with substantial content (300+ words). FAQs work on any page wher
 - A project selected in Hi, Moose
 - Either:
   - A published webpage URL (publicly accessible), OR
-  - Content ready to paste manually
+  - A draft ready to paste manually
 
 ### Optional
 - Brand Voice settings configured (FAQs will match your tone)
 - Webflow API key (if you want automatic updates to Webflow CMS)
 
-### Note on API keys
-- **Free & Standard plans**: Use Hi, Moose's API keys automatically
+### Note on OpenAI API keys
+- **Free & Paid plans**: Use Hi, Moose's API keys automatically
 - **BYOK plans**: Your OpenAI API key must be saved in Settings
 
 ## Step-by-step (in Hi, Moose)
@@ -68,7 +70,6 @@ Best for pages with substantial content (300+ words). FAQs work on any page wher
 #### 4. Review extracted content
 - You'll see your content in a gray box
 - Character count displays (e.g., "Content (3,456 chars)")
-- Verify content is complete
 
 #### 5. Edit FAQs (optional)
 - Use the rich text editor to modify questions or answers
@@ -91,8 +92,7 @@ Best for pages with substantial content (300+ words). FAQs work on any page wher
 
 **Option B - Copy Schema:**
 - Click **Copy Schema** button to copy structured data
-- Paste schema markup in your page's `<head>` section
-- Enables Google FAQ rich results in search
+- Paste schema markup in your page's `<head>` or `<body>` section (both are valid)
 
 **Pro tip**: Use both — HTML for visible FAQs and schema for SEO.
 
@@ -162,8 +162,7 @@ Best for pages with substantial content (300+ words). FAQs work on any page wher
 ### Schema markup (FAQPage)
 - Structured data in JSON-LD format
 - Follows Google's FAQPage guidelines
-- Enables rich results in search
-- Includes all questions and answers
+- Includes all questions and answers used on-page
 - Pre-validated and ready to use
 
 ### Example schema
@@ -215,17 +214,20 @@ Best for pages with substantial content (300+ words). FAQs work on any page wher
 
 ### Schema implementation
 **Where to place schema:**
-- WordPress: Use schema plugin or paste in `<head>` via theme
-- Webflow: Add in Page Settings → Custom Code → Head
-- Shopify: Add to theme.liquid file in `<head>` section
-- Custom sites: Paste before closing `</head>` tag
+
+JSON-LD structured data can be placed in either `<head>` or `<body>` — both are valid and supported by Google.
+
+- WordPress: Use schema plugin, or paste in theme's `<head>` or within page content
+- Webflow: Add in Page Settings → Custom Code (Head or Body section)
+- Shopify: Add to theme.liquid file in `<head>` or page templates
+- Custom sites: Paste in `<head>` or anywhere in `<body>` (near related content)
 
 **Schema best practices:**
 - Only one FAQPage schema per page
 - Don't include schema for fake/marketing FAQs
 - Questions should actually appear on the page
 - Answers must match visible content
-- Test with Google's Rich Results Test tool
+- Test with Google's [Rich Results Test tool](https://search.google.com/test/rich-results){:target="_blank" rel="noopener noreferrer"}
 
 ### CMS implementation
 - **WordPress**: Paste HTML in "Text" editor mode (not Visual)
@@ -243,7 +245,7 @@ Best for pages with substantial content (300+ words). FAQs work on any page wher
 Hi, Moose generates questions that:
 - **Fill gaps** — Address topics not explicitly covered
 - **Anticipate intent** — What readers would naturally ask
-- **Avoid duplication** — Don't restate existing headings
+- **Avoid duplication** — Avoids restating existing headings
 - **Sound human** — Natural language, not robotic
 
 ## Troubleshooting
@@ -256,7 +258,7 @@ Hi, Moose generates questions that:
 - Try in incognito browser to test access
 - Remove URL parameters (`?preview=true`, etc.)
 - Switch to **Paste Content** tab and paste manually
-- If page loads content via JavaScript, manual paste required
+- If page loads content via JavaScript, manual paste is required
 - Check for bot protection (Cloudflare, captchas)
 
 ---
@@ -326,20 +328,6 @@ Hi, Moose generates questions that:
 
 ---
 
-### ❌ Google not showing FAQ rich results
-**Problem**: Schema markup doesn't produce rich results in search.
-
-**Fix**:
-- Test schema with Google's Rich Results Test tool
-- Ensure schema is in page `<head>` or `<body>` (not external file)
-- FAQs must actually appear on the page (visible to users)
-- Google may not show rich results for every query
-- Page must be indexed (check Google Search Console)
-- Can take 2-4 weeks for Google to process new schema
-- Verify schema follows Google's guidelines exactly
-
----
-
 ### ❌ "Team ID mismatch" or permission error
 **Problem**: Authentication or team access issue.
 
@@ -350,6 +338,7 @@ Hi, Moose generates questions that:
 - If using BYOK plan, ensure API key is saved
 - Contact account owner if you're a team member
 - Try logging out completely and back in
+- Reach out to us at support@himoose.com if the above steps do not resolve your issue
 
 ---
 
@@ -372,12 +361,12 @@ Hi, Moose generates questions that:
 **Problem**: Process takes longer than 60 seconds.
 
 **Fix**:
-- Wait up to 2 minutes for long content
+- Wait up to 3 minutes for long content
 - Check internet connection
 - Refresh page and try again
 - Test with different URL (may be site-specific issue)
 - Use manual paste method instead
-- Very long content (10,000+ words) may timeout
+- Very long content (15,000+ words) may timeout. In this case, paste the content instead and that should resolve the issue.
 
 ## FAQs
 
@@ -402,13 +391,13 @@ Hi, Moose FAQs:
 - **Question quality** — Avoids duplicating obvious headings
 - **Smart analysis** — Understands user intent beyond surface keywords
 
-Generic AI just summarizes what's there. Hi, Moose finds what's missing.
+Generic AI just summarizes what's there, if/when it can actually access your content. Hi, Moose finds what's missing.
 
 ### Do FAQs update automatically if I change my page?
-No. FAQs are generated once from a snapshot of your content. If you update your page significantly, regenerate FAQs by entering the URL again.
+No. FAQs are generated once from a snapshot of your content. If you update your page significantly, regenerate FAQs by entering the URL and generating again.
 
 ### What's the difference between "From URL" and "Paste Content"?
-- **From URL**: Hi, Moose automatically extracts content from a live webpage
+- **From URL**: Hi, Moose attempts to automatically extract content from a live webpage
 - **Paste Content**: You manually copy/paste content (useful for drafts, protected content, or when extraction fails)
 
 Both methods produce identical FAQ quality.
@@ -445,30 +434,27 @@ Use CSS to target `#faq-section`. Example:
 ```
 
 ### Can I generate FAQs for multiple pages at once?
-For single pages, use this feature. For bulk processing of many URLs, use the Batch Sitemap Processor (separate feature).
+For single pages, use this feature. For bulk processing of many URLs, use the Batch Sitemap Processor (separate feature), or if your website is on Webflow you can connect to Collections, generate, and update all in one bulk job.
+
+### If I use Webflow, how does the automatic update work?
+Once you've added your Webflow API Key, you can select which Collection to pull from which Collection Items to generate FAQs for and select the field you want to insert the FAQs into. If you choose to insert the FAQs into your main content field, it will insert the FAQs at the bottom of that content using a structure that is Webflow-friendly. If you already have Hi, Moose generated FAQs in the content, it will attempt to update those FAQs so you don't have to manually replace. Keep in mind, this replaces any Hi, Moose FAQs already present, so save the new FAQs into a new field if you want to keep them intact. Once your Collection is fully updated, you can review and publish.
 
 ### Will this work with password-protected pages?
 No. URL extraction only works with publicly accessible pages. For password-protected or draft content, use **Paste Content** method.
 
 ### What is FAQ schema markup and why does it matter?
-Schema markup is structured data that helps Google understand your FAQs. Benefits:
-- Enables FAQ rich results in search (blue expandable boxes)
-- Increases click-through rates
-- Improves visibility in search results
-- Helps Google index your content better
-
-Not all pages will show rich results (Google decides), but schema increases the likelihood.
+Schema markup is structured data that helps search engines understand your FAQs.
 
 ### How do I test if my schema is working?
 Use Google's Rich Results Test tool:
 1. Copy your page URL
-2. Go to: https://search.google.com/test/rich-results
+2. Go to: [https://search.google.com/test/rich-results](https://search.google.com/test/rich-results){:target="_blank" rel="noopener noreferrer"}
 3. Enter URL and test
 4. Check for FAQPage validation
 5. Fix any errors shown
 
 ### Can I edit FAQs after saving them?
-Yes, saved FAQs are stored in your project history. Access History tab to view previous generations and edit again if needed.
+Yes, saved FAQs are stored in your project history. Access History tab to view previous generations and edit again if needed. 
 
 ### Does the "Manual" label affect the output?
 No, the "Manual" label just indicates content source (pasted vs. URL). Manual and URL-extracted content are processed identically by the AI.
@@ -476,7 +462,6 @@ No, the "Manual" label just indicates content source (pasted vs. URL). Manual an
 ### How often should I regenerate FAQs?
 - **Minimal content changes**: No need to regenerate
 - **Major updates** (new features, pricing, etc.): Regenerate
-- **Every 6-12 months**: Refresh to keep current
 - **When adding new pages**: Generate for each new page
 
 ### What if I need more than 8 FAQs?
