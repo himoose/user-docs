@@ -4,7 +4,8 @@
 
 Projects are organizational containers in Hi, Moose where each one holds your competitors, comparisons, content briefs, brand voice settings, and platform integrations (Webflow, WordPress, CSV).
 
-By creating projects, you can:
+### By creating projects, you can:
+
 - **Organize by website**: One project per client or website.
 - **Separate campaigns**: Different projects for different products or services.
 - **Isolate competitors**: Each project has its own competitor set.
@@ -20,7 +21,7 @@ Projects keep your workspace tidy and ensure content generation uses the right c
 - **Multiple brands**: Separate projects for each brand you manage.
 - **Testing**: Create a test project to experiment with features before applying them to production.
 - **Platform-specific workflows**: One project for Webflow sites, another for WordPress, another for CSV exports.
-- **Team collaboration**: Share specific projects with team members (requires team plan).
+- **Team collaboration**: Share specific projects with team members (all plans support team members).
 
 Create a new project whenever you're working on a distinct website, brand, or campaign that needs its own competitor analysis and content strategy.
 
@@ -34,12 +35,12 @@ Create a new project whenever you're working on a distinct website, brand, or ca
 
 2. **Subscription limits**: Your plan determines how many projects you can create:
    - **Free**: 1 project
-   - **Starter**: 3 projects
-   - **Growth**: 10 projects
-   - **Enterprise**: 30 projects
+   - **Standard**: 10 projects
+   - **Professional**: 20 projects
+   - **Premium**: 30 projects
 
 3. **For platform integrations** (optional):
-   - **Webflow**: API key and Site ID from Webflow.
+   - **Webflow**: API key from Webflow.
    - **WordPress**: Domain name (to generate API key for WordPress plugin).
 
 ### Important Notes
@@ -85,7 +86,7 @@ Each project card shows:
    - **Domain Name** (optional): Your website domain (e.g., "acmecorp.com"). Required for WordPress integration.
    - **Platform** (required): Choose:
      - **Webflow**: For Webflow CMS sites.
-     - **CSV**: For CSV exports (no platform integration).
+     - **CSV**: For CSV and HTML exports (works for most CMS).
      - **WordPress**: For WordPress sites with Hi, Moose plugin.
 
 3. Click **Create Project**.
@@ -95,7 +96,7 @@ Each project card shows:
 **What happens next?**
 - If you chose **Webflow**: You'll need to add your Webflow API key (see Step 4).
 - If you chose **WordPress**: You'll need to generate an API key (see Step 5).
-- If you chose **CSV**: You're ready to use the project—no setup needed.
+- If you chose **CSV**: You're ready to use the project—no extra setup needed.
 
 ---
 
@@ -107,20 +108,15 @@ Each project card shows:
 
 1. On the **Manage Projects** page, find the project you want to work on.
 2. Click **Select Project** (blue arrow button).
-3. The project is now active. You'll see **Current Project** (green checkmark) on the card.
+3. The project is now active. You'll see **Current Project** (purple border) on the card.
 
-**Where the active project is used**:
-- Content Brief Creator (uses this project's competitors).
-- AEO Tools (references this project's brand voice).
-- Versus Content Wizard (uses this project's competitors).
-- Webflow Content Manager (connects to this project's Webflow site).
-- LLM Beacon (tracks this project's brand).
+You can also select your project from the Projects drop-down select menu in the top left corner on the left side navigation.
 
 ---
 
 ### 4. Edit a Project
 
-**Why edit?** To change the name, slug, platform, domain, or add/update API keys.
+**Why edit?** To change the name, slug, platform, domain, or add/regenerate your Hi, Moose API key for that project.
 
 #### How to Edit
 
@@ -164,7 +160,7 @@ Each project card shows:
 - Links this project to a specific Webflow site.
 - Enables Webflow Content Manager and Versus Content Wizard export to Webflow.
 
-**Security note**: Your Webflow API key is **encrypted** before storage.
+**Security note**: Your Webflow API key is **encrypted** before storage and is no longer accessible from the frontend. 
 
 ---
 
@@ -261,7 +257,7 @@ After managing your projects, you have:
 
 7. **Check project limits before scaling**: If you're approaching your limit (e.g., 8/10 projects), consider upgrading **before** you hit the cap.
 
-8. **Use CSV for flexibility**: If you don't use Webflow or WordPress, choose CSV—you can export data and import it anywhere.
+8. **Use CSV for flexibility**: If you don't use Webflow or WordPress, choose CSV—you can export data and import it nearly anywhere.
 
 9. **Delete unused projects**: If a client project is complete, delete it to free up space for new projects (team owners only).
 
@@ -316,14 +312,14 @@ After managing your projects, you have:
 **Why**: You only have 1 project left, or you're a team member (not the owner).
 
 **Fix**:
-- **Last project**: You cannot delete your only project—create a new project first, then delete the old one.
+- **Last project**: You cannot delete your only project. Create a new project first, then delete the old one.
 - **Team member**: Only the **team owner** can delete projects. Ask your team owner to delete it.
 
 ---
 
 ### 5. WordPress API key doesn't work in plugin
 
-**Why**: The key was regenerated, or there's a typo.
+**Why**: The key was regenerated, there's a typo, or the domain was saved incorrectly.
 
 **Fix**:
 1. In Hi, Moose, click **Reveal Key** to see the current key.
@@ -331,6 +327,7 @@ After managing your projects, you have:
 3. Go to your WordPress site → **Settings → Hi, Moose**.
 4. Paste the key **exactly** (no spaces or line breaks).
 5. Save and test the connection.
+6. Make sure the domain matches the domain of your production domain where you will use audio player
 
 If it still fails:
 - Regenerate the key in Hi, Moose.
@@ -345,7 +342,6 @@ If it still fails:
 **Fix**:
 - This is intentional—Webflow settings are platform-specific.
 - If you switch back to "Webflow," you'll need to re-enter your API key and site.
-- **Workaround**: Create a new project for the new platform instead of changing the existing one.
 
 ---
 
@@ -356,7 +352,7 @@ If it still fails:
 **Fix**:
 - **Project Name**: Displayed in the UI only (project cards, headers).
 - **Slug**: Used in URLs (e.g., `/projects/acme-corp`). Edit the slug separately if you want to change it.
-- Changing the name doesn't affect existing data—all competitors, comparisons, and settings remain intact.
+- Changing the name doesn't affect existing data. All competitors, comparisons, and settings remain intact.
 
 ---
 
@@ -398,17 +394,6 @@ If it still fails:
 
 ## Frequently Asked Questions
 
-### How many projects can I have?
-
-- **Free**: 1 project
-- **Starter**: 3 projects
-- **Growth**: 10 projects
-- **Enterprise**: 30 projects
-
-**BYOK plans** have the same limits as their corresponding standard tiers.
-
----
-
 ### What's the difference between "Project Name" and "Slug"?
 
 - **Project Name**: The display name (e.g., "Acme Corp Website").
@@ -448,7 +433,7 @@ No. Deletion is **permanent** and **cannot be undone**. Make sure you export any
 
 ### What's the "Current Project" badge?
 
-The **Current Project** badge (green checkmark) shows which project is currently active. This is the context used by all AI features:
+The **Current Project** badge (highlighted in purple) shows which project is currently active. This is the context used by all AI features:
 - Content Brief Creator uses this project's competitors.
 - AEO Tools references this project's brand voice.
 - Versus Content Wizard generates comparisons for this project.
@@ -471,9 +456,7 @@ Yes. All team members with access to the team workspace see all projects.
 
 **Editing permissions**:
 - **Team Owner**: Full edit/delete access.
-- **Admins**: Full edit access (cannot delete projects).
 - **Members**: Full edit access (cannot delete projects).
-- **Viewers**: Read-only access.
 
 ---
 
@@ -485,14 +468,14 @@ Yes. All team members with access to the team workspace see all projects.
 - Enables Webflow Content Manager and Versus Content Wizard export.
 
 **CSV**:
-- Exports data as CSV files.
+- Exports data as CSV files and HTML.
 - No platform integration required.
-- Most flexible—import CSV anywhere.
+- Most flexible. Import CSV or HTML manually nearly anywhere.
 
 **WordPress**:
-- Connects to Hi, Moose WordPress plugin.
+- Connects to Hi, Moose Text-to-Speech WordPress plugin.
 - Requires domain name and API key generation.
-- Enables WordPress content sync (coming soon).
+- Enables WordPress content sync (on the roadmap).
 
 ---
 
@@ -507,7 +490,7 @@ Yes. Edit the project and change the **Platform** dropdown. But:
 
 ### Why do I need a domain name for WordPress?
 
-The domain name is used to **validate** API requests from your WordPress site. It ensures only your WordPress installation can use the API key—not someone else who got your key.
+The domain name is used to **validate** API requests from your WordPress site. It ensures only your WordPress installation can use the API key and the audio player—not someone else who got your key.
 
 ---
 
@@ -530,10 +513,18 @@ The old key **stops working immediately**. You must update your WordPress plugin
 
 ### Can I export project data before deleting?
 
-Yes. Before deleting:
+In most cases you can, but not for all features. Before deleting:
 - **Versus Content Wizard**: Go to Step 7 (Export) and download CSV files.
 - **Webflow users**: Content is already in Webflow CMS—no export needed.
-- **Competitors**: No bulk export—take screenshots or manually copy data.
+- **Content Briefs**: Export each into the desired file format.
+- **AEO analyses**: Export each as PDF.
+- **Key Points**: Export each as CSV.
+- **FAQs**: Export each as CSV.
+
+At the time of this writing, the following features do not currently have export capabilities:
+- **Podcasts**
+- **LLM Beacon**
+- **Topical Authority Audits**
 
 ---
 
