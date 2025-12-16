@@ -2,7 +2,7 @@
 
 ## What this helps you do
 
-Track how your brand appears across **AI-powered search engines and chatbots** when people ask questions in your industry. Hi, Moose's LLM Beacon monitors:
+Track how your brand appears across various LLMs and AI chat when people ask questions in your industry. Hi, Moose's LLM Beacon monitors:
 
 - **Google AI Overview**: See if your content appears in Google's AI-generated answer boxes
 - **ChatGPT**: Track mentions in ChatGPT's conversational responses
@@ -19,13 +19,11 @@ Unlike traditional SEO tracking, LLM Beacon shows you **how AI systems respond**
 - **Who your competitors are** (other brands cited in the same responses)
 - **Weekly automated checks** so you can track changes over time
 
-This matters because AI-powered search is rapidly replacing traditional Google searches. If AI engines don't mention or cite your brand, you're invisible to a growing segment of searchers.
-
 ---
 
 ## When to use this
 
-- **Monitoring brand awareness in AI search**: See if AI engines know about your company
+- **Monitoring brand awareness in AI search**: See if AI engines know about your brand
 - **Tracking competitive positioning**: Discover which competitors AI systems cite alongside you
 - **Identifying visibility gaps**: Find queries where you should be mentioned but aren't
 - **Measuring content impact**: See if your content strategy improves AI visibility over time
@@ -38,7 +36,7 @@ This matters because AI-powered search is rapidly replacing traditional Google s
 ## Before you start
 
 ### Requirements
-- A paid Hi, Moose subscription (Starter, Growth, or Enterprise)
+- A paid Hi, Moose subscription
 - **Brand information configured** in your project:
   - Brand name (e.g., "Acme Industries")
   - Domain (e.g., "acmeindustries.com")
@@ -47,10 +45,7 @@ This matters because AI-powered search is rapidly replacing traditional Google s
 ### How Credits Work
 - Each **platform you track = 1 credit**
 - Example: Tracking 1 prompt across 3 platforms (AI Overview, ChatGPT, Claude) = 3 credits
-- Credits reset monthly based on your plan:
-  - **Starter**: 10 credits/month
-  - **Growth**: 25 credits/month
-  - **Enterprise**: 50+ credits/month
+- Credits do not accrue, tracking a prompt uses a credit, removing a prompt returns the credit:
 - **Weekly automatic checks**: Once added, prompts are checked automatically every week
 
 ### Free Plan Limitations
@@ -75,8 +70,6 @@ If you haven't set up your brand info yet:
 
 **Why this matters**: Hi, Moose uses your brand name and domain to detect mentions and citations across AI platforms. This is stored in your Brand Voice settings and used for all tracking prompts.
 
-**Pro tip**: You can update brand info anytime by clicking **"Edit"** next to your brand name in the Add Prompt modal, or by visiting **Brand Voice** settings.
-
 ### 3. Add a Prompt to Track
 Click **"Add a New Prompt"** (or **"Add Your First Prompt"** if this is your first one).
 
@@ -89,13 +82,17 @@ Click **"Add a New Prompt"** (or **"Add Your First Prompt"** if this is your fir
 **b) Enter Your Prompt**
 - In the **"Prompt to Track"** field, enter a natural language query (up to 500 characters)
 - Write it **as a real person would ask**, not as SEO keywords
-- Examples:
-  - ✅ "Find the best organic potting soil for starting raised vegetable beds this spring"
-  - ✅ "What are the top project management tools for remote teams?"
-  - ❌ "best potting soil" (too short/generic)
-  - ❌ "organic gardening SEO keywords" (not natural language)
 
-**Why natural language matters**: AI engines respond to conversational queries. Your prompts should mirror how real users ask questions.
+**Important**: AI typically will respond with a new or variation of a response when you use the same prompt repeatedly. For the data from LLM Beacon to be helpful, think of tracking your brand across LLMs in terms of topics. So, if you track several prompts that you consider high-value (what your customer will use), we strongly suggest tracking several variants of these prompts for a single topic. With several prompts used per topic, you can start to determine if your brand is surfacing for the topic you care about. LLM Beacon will serve as a jumping off point on where to take action.
+
+- Prompt Examples to Track by Topic:
+
+1. "What is email marketing?"
+2. "What is email marketing automation and how does it work?" 
+3. "Best email marketing platforms for small businesses"
+4. "Which email tools have the best A/B testing capabilities?"
+5. "What are the top alternatives to Mailchimp?"
+6. "Most affordable email marketing software SMB"
 
 **c) Select Platforms to Track**
 - Check the boxes for platforms you want to monitor:
@@ -103,19 +100,19 @@ Click **"Add a New Prompt"** (or **"Add Your First Prompt"** if this is your fir
   - **ChatGPT** (OpenAI's chatbot)
   - **Claude** (Anthropic's AI assistant)
   - **Perplexity** (AI-powered search engine)
-  - **Gemini** (Google's AI chatbot)
+  - **Gemini** (Google's AI chatbot / AI Mode uses Gemini)
   - **Grok** (X's AI assistant)
 - Each platform uses **1 credit**
 - You'll see: **"You have X credits remaining"**
 
-**Pro tip**: Start with 2-3 platforms to conserve credits. AI Overview and ChatGPT are the most popular, so prioritize those.
+**Pro tip**: Start with 2-3 platforms to conserve credits. AI Overview, Gemini, and ChatGPT are the most popular, so prioritize those.
 
 **d) Add the Prompt**
 - Click **"Add Prompt"**
 - Hi, Moose will:
   1. Create the tracking prompt
   2. Run an **initial check immediately** (results in 1-3 minutes)
-  3. Schedule **weekly automatic checks** going forward
+  3. Schedule **weekly automatic checks** going forward (these are auto scheduled)
 - You'll see: "Prompt added and initial check has started. Results may take a few minutes."
 
 ### 4. View Your Tracked Prompts
@@ -158,20 +155,13 @@ Scroll down to see **"Competitors Also Mentioned"**:
 - See who your competitors are in AI search results
 - Identify gaps where you should be mentioned but aren't
 
-### 8. Run On-Demand Checks
-Want to check a prompt immediately instead of waiting for the weekly schedule?
-- Click the **refresh icon** next to any prompt
-- Hi, Moose runs a fresh check across all platforms
-- Results appear in 1-3 minutes
-- **Use this when**: You've published new content and want to see if AI visibility improved
-
-### 9. Monitor Weekly Automated Checks
+### 8. Monitor Weekly Automated Checks
 Once added, prompts are checked **automatically every week**:
-- Hi, Moose distributes checks throughout the week to avoid rate limits
+- Hi, Moose distributes checks throughout the week
 - You don't need to do anything—just check back periodically
 - **Last Checked** timestamp shows when the most recent check ran
 
-### 10. Delete Prompts
+### 9. Delete Prompts
 To stop tracking a prompt and reclaim credits:
 - Click the **trash icon** on any prompt card
 - Confirm deletion
@@ -209,26 +199,27 @@ Weekly snapshots showing:
 
 ### 5. Context for Optimization
 By seeing **what AI says when you're NOT mentioned**, you can:
-- Identify content gaps
-- Understand what angles AI prefers
-- Create content that increases mention probability
+- Use the **AEO** tools (SEO mode), or **Improve a Page** (Marketer mode) to get specific actions to take
+
 
 ---
 
 ## Tips for best results
 
-- **Use natural, conversational prompts**: Write queries as real people ask them, not keyword strings
+- **Think of LLM tracking as Topic Tracking**: Write queries as real people ask them, try to avoid using a query to broad like "dogs"
 - **Track buyer-intent queries**: Focus on prompts potential customers would use when researching solutions
-- **Start with 2-3 platforms**: Conserve credits by tracking the most important platforms (AI Overview, ChatGPT)
+- **Start with 2-3 platforms**: Conserve credits by tracking the most important platforms (AI Overview, Gemini, ChatGPT)
 - **Check competitors' prompts**: Add prompts where competitors are mentioned to understand their AI visibility strategy
-- **Publish content addressing the query**: If you're not mentioned, create comprehensive content directly answering the prompt
-- **Include your domain visibly**: AI systems often cite pages with clear branding and URLs
+- **Publish content addressing the query topic**: If you're not mentioned, use the Hi, Moose AEO tools, Topic Authority Generator, Podcast Generator, FAQs, and Key Points, to optimize content for better AI visibility
 - **Run on-demand checks after publishing**: Published new content? Run a fresh check to see if AI picked it up
 - **Monitor weekly for trends**: Watch how visibility changes over weeks—this shows if your content strategy is working
 - **Study competitor citations**: See who's being mentioned and analyze their content to identify winning strategies
-- **Use specific prompts**: "Best CRM for real estate teams" performs better than generic "CRM software"
-- **Leverage AI Overview insights**: If no AI Overview exists, you have less competition from Google's AI
-- **Rotate prompts monthly**: Delete low-priority prompts and test new ones to maximize credit usage
+- **Consider off-site optimization**: Not currently supported on Hi, Moose. LLMs often cite user-generated content sites like StackOverflow, Reddit, Forums, YouTube, etc. Explore ways you can add to the conversation on these platforms, do not spam, but add meaningful contributions. If there is a natural place to introduce your brand, do so transparently and honestly. Make sure to follow the community guidelines to avoid the ban hammer. 
+
+Another opportunity may exist on reviews like G2, Capttera, and TrustPilot. These are great sources for third-party validation that LLMs often cite.
+
+Also, look for affiliate sites that have published "best of" listicles. Depending on the site, these are sometimes cited heavily and potentially a great opportunity for LLM inclusion. As you use LLM Beacon, look at the domains that are being cited to determine if there may be partnership opportunities.
+
 
 ---
 
@@ -260,26 +251,12 @@ By seeing **what AI says when you're NOT mentioned**, you can:
 - Refresh the page to see if results loaded
 - If still stuck after 10 minutes, click the refresh icon to re-run the check
 
-### "Not mentioned" result even though you know you have relevant content
-**Common reasons**:
-- AI systems use cached/outdated data—new content takes weeks to be indexed by AI models
-- Your content doesn't directly answer the query in a way AI can extract
-- Competitors have stronger authority signals (backlinks, domain age, citations)
-- Your domain/brand name isn't prominently featured on the page
-
-**Solutions**:
-- Wait 2-4 weeks for AI models to index new content
-- Create content that **directly answers** the query in the first paragraph
-- Include your brand name and domain visibly in the content
-- Build backlinks to increase domain authority
-- Use structured data (schema markup) to help AI extract information
-
 ### Weekly checks not running automatically
-**Cause**: Hi, Moose schedules checks throughout the week to avoid rate limits. Your prompt may not be due yet.  
+**Cause**: Hi, Moose schedules checks throughout the week. Your prompt may not be due yet.  
 **Solution**: 
 - Check the **"Last Checked"** timestamp—weekly means every 7 days from that date
 - Run an **on-demand check** if you need immediate results (click the refresh icon)
-- If no checks have run for 10+ days, contact support
+- If no checks have run for 10+ days, contact support@himoose.com
 
 ### Yellow info icon on AI Overview says "No AI Overview found"
 **Explanation**: This is **not an error**. Google doesn't show AI Overviews for all queries. They typically appear for:
@@ -290,14 +267,12 @@ By seeing **what AI says when you're NOT mentioned**, you can:
 **Action**: This is normal. Your prompt may not trigger an AI Overview. You can:
 - Still track other platforms (ChatGPT, Claude, etc.)
 - Focus on platforms that DO return results
-- Consider this a positive—less competition from Google's AI
 
 ### Prompt deleted accidentally
 **Cause**: Prompts are permanently deleted when you click the trash icon and confirm.  
 **Solution**: 
-- No recovery option—deleted prompts are gone
 - Re-add the prompt as a new tracking item
-- Historical results from the deleted prompt are also removed
+- Depending on how much time has passed, historic may be gone permenantly. The system will try to recover historic data, but it may not be available.
 
 ### "Check completed successfully" but no results appear
 **Cause**: Browser timeout while waiting for results, but the check is still processing in the background.  
@@ -329,12 +304,12 @@ If either appears in the AI's response, we flag it as "mentioned." If a URL to y
 ### Why do weekly checks matter?
 
 AI models update constantly, and your visibility changes as:
+- LLMs are fundamentally probabilistic, meaning they generate responses by predicting the most likely next word (token) based on patterns in training data. This core probability is why the same prompts can yield different responses.
 - New content is published (yours and competitors')
 - AI models retrain on fresh data
-- Search trends evolve
 - Competitors gain or lose citations
 
-Weekly tracking shows **trends over time**, helping you measure if your content strategy improves AI visibility.
+Weekly tracking shows **trends over time**, helping you measure if your content strategy improves AI visibility at a topic level with enough variations of prompt targeting the same topic.
 
 ### Can I track more than one brand?
 
@@ -343,76 +318,30 @@ Each Hi, Moose project tracks **one brand** (configured in Brand Voice settings)
 - Configure unique brand names/domains per project
 - Credits are per-project
 
-### How long does it take for new content to appear in AI results?
-
-**2-4 weeks** on average. AI models don't index the web in real-time. After publishing:
-- Wait 2 weeks minimum before expecting mentions
-- Run weekly checks to monitor when AI picks up your content
-- Promote your content (backlinks, social shares) to speed up discovery
-
 ### Why don't AI engines mention me even though I have great content?
 
 Common reasons:
-- **Content is too new**: AI hasn't indexed it yet (wait 2-4 weeks)
-- **Low domain authority**: AI favors established, trusted domains
-- **Content doesn't directly answer the query**: AI extracts clear, concise answers—vague or tangential content gets skipped
-- **Competitors have stronger signals**: More backlinks, better structured data, clearer authority
+- **Content is too new**: AI hasn't seen it
+- **Low domain and topic authority**: AI favors established, trusted domains
+- **Content doesn't directly answer the query**: AI extracts clear, concise answers—vague or tangential content is often skipped
+- **Competitors have stronger signals**: More domain and topical authority, optimized for extractability, and backlinks and mentions (with or without the link) across various domains with high authority
 
-**Solution**: Focus on direct answers, build authority, and give AI time to index your content.
+**Solution**: Focus on direct answers, build authority, and give search engines and AI time to learn about and train on your content.
 
 ### Can I change the platforms I'm tracking for an existing prompt?
 
 **Not currently**. To track different platforms:
-- Delete the existing prompt (frees credits)
 - Re-add the prompt with new platform selections
-- Historical results from the deleted prompt will be lost
-
-### What happens if I run out of credits mid-month?
-
-You **cannot add new prompts** until:
-- Your monthly credits reset (beginning of next billing cycle)
-- You delete existing prompts to free up credits
-- You upgrade to a plan with more credits
-
-**Existing prompts continue running** their weekly checks—you just can't add new ones.
-
-### Do on-demand checks use extra credits?
-
-**No**. On-demand checks (clicking the refresh icon) do **not** consume additional credits. You can run them as often as needed. Credits are only used when **adding a new prompt**.
-
-**Rate limits apply**: You can run a few on-demand checks per minute to avoid overload.
-
-### Why is my competitor mentioned but I'm not?
-
-Competitor mentions indicate:
-- They have content AI considers authoritative for that query
-- Their domain has stronger signals (backlinks, age, citations)
-- Their content directly answers the query in a way AI can extract
-
-**Use this as competitive intelligence**:
-- Study their cited content
-- Identify gaps in your content
-- Create better, more comprehensive answers
-- Build authority through backlinks and citations
+- You can delete the previous prompt, but you will lose the historic data
 
 ### How accurate are the results?
 
 Results reflect **what AI engines actually return** when queried. Accuracy factors:
-- AI models use slightly different data sources and training
-- Results can vary by geography, language, and user context
-- AI models update regularly, so today's result may differ from tomorrow's
+- AI models can use or prioritize different data sources and training
+- LLMs can use different search engines to make fan-out queries and ground responses
+- Results can vary by geography, language, and user-specific context
 
-**Hi, Moose shows you real AI responses**—this is what users see when they ask these questions.
-
-### Can I export LLM Beacon results?
-
-Not currently. You can:
-- View results in the Hi, Moose dashboard
-- Take screenshots for reporting
-- Copy full AI responses for analysis
-
-We're working on CSV/PDF export for client reporting.
 
 ---
 
-**Need help?** Contact support from your dashboard or email support@himoose.com. For LLM Beacon strategy questions or troubleshooting complex visibility issues, we're here to help you get cited by AI engines.
+**Need help?** Contact support from your dashboard or email support@himoose.com. For LLM Beacon strategy questions or troubleshooting complex visibility issues, we're here to help.
