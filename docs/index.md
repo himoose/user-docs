@@ -1,6 +1,6 @@
 # Welcome to Hi, Moose Documentation
 
-Welcome to the official user documentation for **Hi, Moose** - the AI-powered platform for Answer Engine Optimization (AEO) and next-generation search visibility.
+Welcome to the official user documentation for **Hi, Moose** - an affordable, no-BS search optimization platform for SMBs (not another LLM tracker).
 
 ## What is Hi, Moose?
 
@@ -10,21 +10,22 @@ Hi, Moose helps you optimize your content for AI-powered search engines like Cha
 
 ### 📊 Content Analysis & Creation
 
-- **[SEO Content Briefs](features/content-briefs.md)** - Generate data-driven content briefs from live search results
-- **[AEO Optimization](features/aeo-optimization.md)** - Optimize content for AI engines and chatbots
-- **[Versus Pages](features/versus-pages.md)** - Create comparison pages at scale
-- **[FAQ Generator](features/faq-generator.md)** - Generate natural Q&A sections with schema markup
-- **[Key Points Extractor](features/key-points.md)** - Extract scannable bullet points from long content
-- **[Podcast Generator](features/podcast-generator.md)** - Turn articles into conversational podcasts
+- **[SEO Content Briefs](features/content-briefs.md)** - Generate smart data-driven content briefs from live search results 
+- **[AEO Optimization](features/aeo-optimization.md)** - Optimize content for LLMs and AI search engines
+- **[Versus Pages](features/versus-pages.md)** - Create comparison pages at scale (programmatic SEO)
+- **[FAQ Generator](features/faq-generator.md)** - Generate natural Q&A sections with schema markup, at scale
+- **[Key Points Extractor](features/key-points.md)** - Extract and generate semantically-compressed key points (TL;DRs) from long-form content, at scale
+- **[Podcast Generator](features/podcast-generator.md)** - Turn articles and blogs into crawlable firsthand conversational podcasts
 
 ### 📈 Monitoring & Analysis
 
-- **[Topical Authority Builder](features/topical-authority.md)** - Build comprehensive topic coverage
-- **[LLM Beacon](features/llm-beacon.md)** - Monitor brand mentions across AI engines
+- **[Topical Authority Builder](features/topical-authority.md)** - Discover content gaps and build comprehensive topic coverage
+- **[LLM Beacon](features/llm-beacon.md)** - Monitor brand mentions across LLMs by topic
 
 ### 🔗 Integrations
 
-- **[Webflow](integrations/webflow.md)** - Direct CMS integration for content management
+- **[Webflow](integrations/webflow.md)** - Direct Webflow CMS integration for content management
+- **[WordPress](integrations/wordpress.md)** - WordPress plugin for easy podcast audio + transcript embedding
 
 ## Getting Started
 
@@ -35,16 +36,17 @@ Hi, Moose helps you optimize your content for AI-powered search engines like Cha
 
 ## Why Hi, Moose?
 
-- **🤖 AI Engine Optimization (AEO)**: Go beyond traditional SEO—optimize for how AI systems interpret and cite content
-- **📡 Live Data Sources**: Analysis uses real-time Google AI Overviews, ChatGPT Search, and Gemini grounding
-- **🎯 Actionable Intelligence**: Get specific, copy-paste fixes instead of vague suggestions
-- **⚡ Scale Content Creation**: Generate SEO briefs, comparisons, FAQs, and more in minutes
-- **👁️ Monitor AI Visibility**: Track brand mentions across ChatGPT, Claude, Perplexity, Gemini, and more
+- **🤖 AI Engine Optimization (AEO)**: Tools that help you optimize content for AI search.
+- - *Note: AEO is largely SEO, you're just prioritizing some of the tactical work differently. AI search may not have the traffic volume compared to Google Search, but it does play a role in the buyer journey for many different verticals. For this reason, it can't be ignored.*
+- **📡 Live Data Sources**: Analysis uses real-time SERP data, Google AI Overviews, ChatGPT Search, and Gemini.
+- **🎯 Actionable Intelligence**: Get specific, copy-paste fixes instead of vague suggestions.
+- **⚡ Scale a Helpful Content Workflow**: Generate data-driven SEO briefs, comparisons, FAQs, and more at scale. 
+- **👁️ Monitor AI Visibility**: Track brand mentions across Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini, and Grok.
 
 ## What Makes Hi, Moose Different?
 
-Unlike generic AI tools, Hi, Moose analyzes your content through the lens of AI search engines, showing you exactly how systems like ChatGPT and Google's AI will interpret, extract, and cite your content. You get data-backed recommendations based on current search results—not outdated training data.
+Unlike general AI tools, Hi, Moose analyzes your content through the lens of AI search engines, showing you how systems like ChatGPT and Google's AI will interpret, extract, and cite content. You get data-backed recommendations based on current search results—not outdated training data.
 
 ---
 
-**Ready to dominate AI search?** Start with [Projects](projects.md) to set up your workspace, or jump into [AEO Optimization](features/aeo-optimization.md) to optimize your first piece of content.
+**Ready to do more with AI search?** Start with [Projects](projects.md) to set up your workspace, or jump into [AEO Optimization](features/aeo-optimization.md) to optimize your first piece of content.
