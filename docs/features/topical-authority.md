@@ -4,7 +4,7 @@
 
 Analyze and improve your website's **topical authority**—how comprehensively and credibly your site covers a specific topic. Hi, Moose's Topic Authority Builder:
 
-- **Scans your entire domain** to discover all pages related to a topic
+- **Scans your entire domain** to discover up to 100 pages related to a specific topic
 - **Scores your topical coverage** from 0-100 based on depth, breadth, and relevance
 - **Identifies topic clusters** showing which subtopics you cover well (and which you don't)
 - **Reveals content gaps** where you're missing key subtopics competitors address
@@ -18,7 +18,7 @@ Analyze and improve your website's **topical authority**—how comprehensively a
 
 ## When to use this
 
-- **Planning content strategies** for a core topic you want to dominate
+- **Planning content strategies** for a core topic you want to lead
 - **Identifying content gaps** before competitors fill them
 - **Auditing existing content** to see how well you cover a topic
 - **Improving search rankings** by demonstrating comprehensive topical coverage
@@ -32,33 +32,33 @@ Analyze and improve your website's **topical authority**—how comprehensively a
 ## Before you start
 
 ### Requirements
-- A Hi, Moose project (any plan)
+- A Hi, Moose project (Paid and BYOK plans only)
 - Your **domain** (e.g., "example.com")
 - A **main topic** to analyze (e.g., "email marketing," "organic gardening," "project management software")
-- **Optional**: Related subtopics to include in analysis (e.g., for "email marketing": "automation," "segmentation," "A/B testing")
 
 ### How Analysis Works
 Hi, Moose:
-1. Scans your domain to find all publicly accessible pages
-2. Analyzes each page's content to determine if it relates to your main topic
+1. Scans to see how well your domain ranks for the topic on Google Search currently
+2. Analyzes a summary of each page's content to determine if it relates to your main topic
 3. Groups related pages into **topic clusters** (subtopic categories)
 4. Compares your coverage to comprehensive topic models
 5. Identifies **content gaps** where key subtopics are missing or underdeveloped
 6. Generates an **overall authority score** and **prioritized recommendations**
 
 ### Scan Depth Options
-- **Quick**: Analyzes top-level pages (faster, good for initial audits)
-- **Medium**: Balanced scan depth (recommended for most sites)
+- **Light**: Analyzes top-level pages (faster, good for initial audits or when you know your coverage is currently light)
+- **Standard**: Balanced scan depth (recommended for most sites)
 - **Deep**: Comprehensive scan including deeper site sections (slower, most thorough)
 
 ### What Gets Analyzed
+All indexed pages (up to 100) that are currently indexed for the topic:
 - Blog posts, articles, guides
 - Product/service pages
 - Landing pages
 - Resource pages
 - Any publicly accessible content on your domain
 
-**Not analyzed**: Login-protected pages, dynamic content requiring authentication, non-text content (videos, PDFs) unless text is extractable.
+**Not analyzed**: Pages with noindex directive, login-protected pages, dynamic content requiring authentication, non-text content (videos, audio) unless text is rendered on the page.
 
 ---
 
@@ -67,8 +67,8 @@ Hi, Moose:
 ### Part 1: Domain-Wide Topical Analysis
 
 #### 1. Navigate to Topic Authority Builder
-- From your project dashboard, select **Topic Authority Builder** from the sidebar
-- You'll see the **Topic Authority Analyzer** tab
+- From your project dashboard, select **Topic Authority Builder** (SEO Mode) or **Find Topic Gaps** (Marketer Mode) from the sidebar
+- You'll see the **Topic Authority Analyzer** form
 
 #### 2. Enter Your Domain
 - In the **Domain** field, enter your website domain
@@ -94,55 +94,41 @@ Hi, Moose:
 
 **Why this matters**: The main topic defines what content Hi, Moose looks for. Specific topics yield better insights than vague ones.
 
-#### 4. Add Related Subtopics (Optional)
-- In the **Related Subtopics** field, enter comma-separated subtopics
-- Example for "email marketing automation":
-  - `drip campaigns, lead nurturing, behavioral triggers, segmentation, analytics`
-- Leave blank if you want Hi, Moose to discover subtopics automatically
-
-**Pro tip**: Adding related subtopics helps Hi, Moose find nuanced content that might not mention the main topic explicitly.
-
-#### 5. Select Scan Depth
+#### 4. Select Scan Depth
 Choose your scan depth based on site size and time available:
 
-**Quick**:
-- Scans top-level pages and primary navigation
+**Light**:
+- Quick scan considering up to 30 indexed URLs
 - Best for: Small sites (< 50 pages), initial quick audits
 - Time: 1-2 minutes
 
-**Medium** (Recommended):
-- Balanced scan of main sections and deeper pages
+**Standard**:
+- Balanced scan considering up to 60 indexed URLs
 - Best for: Most sites, standard audits
 - Time: 2-4 minutes
 
 **Deep**:
-- Comprehensive scan including nested sections
+- Comprehensive scan including up to 100 indexed URLs
 - Best for: Large sites, in-depth analysis, competitive research
 - Time: 4-5 minutes
 
-#### 6. Start the Scan
+#### 5. Start the Scan
 - Click **"Scan for Topic Authority"**
 - You'll see progress:
   - "Scanning index of [your domain] for '[topic]' content..."
   - Progress percentage updates in real-time
   - Deep scans may take up to 5 minutes
 
-**What's happening**: Hi, Moose is crawling your domain, extracting content, analyzing relevance to your topic, and categorizing pages into topic clusters.
-
-#### 7. Review Your Authority Score
+#### 6. Review Your Authority Score
 Once complete, you'll see:
 
 **Overall Topical Authority Score** (0-100):
+Broad example:
 - **80-100**: Excellent Authority—comprehensive coverage, strong clustering
 - **60-79**: Good Authority—solid foundation, some gaps to fill
 - **0-59**: Needs Improvement—significant content gaps, weak topical depth
 
-**Score interpretation**:
-- **90+**: You're likely ranking well for most keywords in this topic
-- **70-89**: You have authority but competitors may outrank you on subtopics
-- **Below 70**: Major opportunities to build content and improve rankings
-
-#### 8. Review Key Metrics
+#### 7. Review Key Metrics
 You'll see three key metrics:
 
 **Pages Analyzed**:
@@ -158,7 +144,7 @@ You'll see three key metrics:
 - Number of important subtopics you're NOT covering (or covering poorly)
 - These are opportunities to create new content and improve authority
 
-#### 9. Review Recommended Actions
+#### 8. Review Recommended Actions
 Hi, Moose provides **prioritized action items**:
 
 **High Priority** (red):
@@ -174,14 +160,10 @@ Hi, Moose provides **prioritized action items**:
 - Nice-to-have additions
 - Advanced subtopics for completeness
 
-Each action includes:
-- **What to do** (e.g., "Create content about email segmentation strategies")
-- **Why it matters** (e.g., "This subtopic is covered by 8/10 competitors but missing from your site")
-
 ### Part 2: Topic Cluster Analysis
 
-#### 10. Navigate to the Topics Tab
-Click the **"Topics"** tab to see detailed cluster analysis.
+#### 9. Navigate to the Topics Tab
+Click the **"Topic Coverage"** tab to see detailed cluster analysis.
 
 **What you'll see**:
 - List of all topic clusters your content covers
@@ -194,28 +176,28 @@ Click the **"Topics"** tab to see detailed cluster analysis.
 - **60-79%** (yellow): Average coverage—you address this subtopic but could expand
 - **0-59%** (red): Poor coverage—major opportunity to create content
 
-#### 11. Explore Each Topic Cluster
+#### 10. Explore Each Topic Cluster
 Click any cluster to expand and see:
 - **Pages in this cluster**: URLs and titles of pages covering this subtopic
 - **Coverage assessment**: What you're doing well and what's missing
 - **Suggestions**: Specific content ideas to improve coverage
 
-#### 12. Analyze Individual Pages
+#### 11. Analyze Individual Pages
 For any page in a cluster:
 - Click **"Analyze This Page"** to see how well that specific page contributes to topical authority
 - This opens the **Page Optimizer** (see Part 3 below)
 
 ### Part 3: Content Gaps Analysis
 
-#### 13. Navigate to the Gaps Tab
-Click the **"Gaps"** tab to see missing or underdeveloped subtopics.
+#### 12. Navigate to the Gaps Tab
+Click the **"Content Gaps"** tab to see missing or underdeveloped subtopics.
 
 **What you'll see**:
 - List of subtopics you should cover but don't (or barely do)
 - Why each gap matters (competitive context, search demand, topical completeness)
 - Priority level (high/medium/low)
 
-#### 14. Prioritize Gap-Filling Content
+#### 13. Prioritize Gap-Filling Content
 For each gap:
 - **High-priority gaps**: Create content immediately—competitors cover these, and they're central to the topic
 - **Medium-priority gaps**: Add to content calendar for next quarter
@@ -223,30 +205,15 @@ For each gap:
 
 ### Part 4: Single Page Topical Analysis
 
-#### 15. Navigate to Page Optimizer Tab
-Click the **"Page Optimizer"** tab to analyze how well a specific page contributes to your topical authority.
+#### 14. Navigate to Page Optimizer Tab
+Click the **"Page Audit"** tab to analyze how well a specific page contributes to your topical authority.
 
-**Two ways to start**:
-1. **From topic clusters**: Click "Analyze This Page" on any page in your cluster view
-2. **Manually enter URL**: Analyze any page on your domain
+**Note**: a domain audit is required before you can run a page audit.
 
-#### 16. Select a Previous Analysis (or Enter New Context)
-If you've already run a domain-wide analysis:
-- **Select from dropdown**: Choose from previous topic analyses
-- Hi, Moose auto-fills domain, topic, and authority score
+1. Look for **Topic Audit**: drop down select field, and choose the topic you previously ran for your domain.
+2. **Manually enter URL**: Analyze any page on your domain for that chosen topic
 
-If this is your first page analysis:
-- You'll see: "Run a domain-wide analysis first to use Page Optimizer"
-- Or manually enter domain, topic, and a baseline authority score (if you know it from other tools)
-
-#### 17. Enter the Page URL
-- Paste the full URL of the page to analyze
-- Example: `https://example.com/blog/email-automation-guide`
-- Click **"Analyze URL"**
-
-**Domain validation**: Hi, Moose checks that the URL matches the domain from your analysis. If not, you'll see an error.
-
-#### 18. Review Page-Level Analysis
+#### 15. Review Page-Level Analysis
 You'll see:
 
 **Page Authority Score** (0-100):
@@ -314,11 +281,8 @@ For individual pages:
 - **Interlink cluster pages**: Connect related content to strengthen topical signals
 - **Re-analyze quarterly**: Track authority improvements after publishing new content
 - **Use Page Optimizer on new content**: Check if new pages strengthen your authority before publishing
-- **Compare competitor domains**: Run analyses on competitor sites to see their topical coverage strategy
-- **Address gaps before creating more content**: Filling gaps improves authority more than expanding already-strong clusters
-- **Include related subtopics**: Helps Hi, Moose find nuanced content that might be missed
 - **Analyze subdomains separately**: If you have `blog.example.com`, run a separate analysis for it
-- **Export analysis to your team**: Use results to prioritize content calendar and assign writing projects
+
 
 ---
 
@@ -436,7 +400,7 @@ A **topic cluster** is a group of pages on your site that all address the same s
 - **Many high-priority gaps**: Create new content to fill missing subtopics
 - **Few/no gaps but low coverage scores**: Improve existing content—make it more comprehensive
 
-**General rule**: Fill critical gaps first, then improve existing pages. Creating new content for already-covered subtopics dilutes authority; filling gaps expands it.
+**General rule**: Fill critical gaps first, then improve existing pages. Creating new content for already-covered subtopics dilutes authority and can cause duplicate content issues if you leave both live; filling gaps expands it.
 
 ### How often should I re-analyze topical authority?
 
@@ -445,15 +409,6 @@ A **topic cluster** is a group of pages on your site that all address the same s
 **Quarterly audits**: Run analyses every 3 months to track long-term trends.
 
 **When rankings drop**: If you notice ranking declines in a topic area, run an analysis to check if competitors improved their authority.
-
-### Can I analyze a competitor's domain?
-
-**Yes!** Enter any public domain to analyze their topical authority. Use this for:
-- **Competitive benchmarking**: See how your authority compares
-- **Content gap analysis**: Discover subtopics competitors cover that you don't
-- **Strategy insights**: Understand how leaders in your niche structure topical coverage
-
-**Ethics note**: Use competitor analysis for strategy and learning, not to copy content.
 
 ### What authority score should I aim for?
 
@@ -468,25 +423,16 @@ A **topic cluster** is a group of pages on your site that all address the same s
 
 **Yes**. AI engines (ChatGPT, Perplexity, Gemini) favor **comprehensive, authoritative sources** when generating responses. Sites with high topical authority are more likely to:
 - Be cited in AI-generated answers
-- Appear in AI search results
+- Mentioned in AI search results
 - Be recommended as sources
 
-Building topical authority helps with both traditional SEO and AI Engine Optimization (AEO).
+Building topical authority helps with both traditional SEO and Answer Engine Optimization (AEO).
 
 ### Why does my blog score lower than my main domain?
 
 If you analyzed `blog.example.com` separately from `example.com`, they're scored independently. **Subdomains are treated as separate sites** by search engines.
 
 **Solution**: If your blog is a subdomain, run separate analyses. If it's a subfolder (`example.com/blog`), analyze the main domain—the scan will include blog pages.
-
-### Can I use Page Optimizer without running a domain analysis first?
-
-**Technically yes**, but **not recommended**. Page Optimizer compares a page's authority score to your domain's overall authority. Without a domain analysis:
-- You won't have a baseline authority score
-- Recommendations will be less specific
-- You can't see how the page fits into your cluster strategy
-
-**Best practice**: Run domain analysis first, then use Page Optimizer to refine individual pages.
 
 ### What if I disagree with the authority score?
 
@@ -495,21 +441,7 @@ Topical authority scoring is **algorithmic and data-driven**, but not perfect. I
 - **Review content gaps**: Even if you *think* you cover a topic well, gaps may reveal missing angles
 - **Focus on recommendations, not just the score**: Actionable insights matter more than the number
 
-### How long does it take to improve topical authority?
-
-**Quick wins (4-8 weeks)**:
-- Publish 2-3 high-priority gap-filling posts
-- Improve internal linking between cluster pages
-- Re-analyze to see 5-15 point score increase
-
-**Long-term authority building (6-12 months)**:
-- Consistently publish comprehensive content
-- Build backlinks to cluster pages
-- Update and expand existing content
-- Expect 20-40+ point score increases
-
-**Topical authority is cumulative**: Every piece of quality content adds to your authority. The more you publish, the faster you build momentum.
 
 ---
 
-**Need help?** Contact support from your dashboard or email support@himoose.com. For content strategy questions or custom topical authority audits, we're here to help you dominate your niche.
+**Need help?** Contact support from your dashboard or email support@himoose.com. For content strategy questions or custom topical authority audits, we're here to help you lead your niche.
