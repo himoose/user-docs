@@ -2,9 +2,9 @@
 
 ## What This Helps You Do
 
-The Settings page lets you customize your Hi, Moose experience, manage your subscription, and configure AI services. 
+The Settings page lets you customize your Hi, Moose experience, manage your subscription, and for Bring Your Own Key (BYOK) users, configure AI services. 
 
-You can update your account info (email, password), choose between **Marketer Mode** (simplified) or **SEO Mode** (advanced), connect your own OpenAI API key for unlimited AI usage, monitor your token consumption, and manage billing.
+You can update your account info (email, password), choose between **Marketer Mode** or **SEO Mode**, connect your own OpenAI API key for unlimited AI usage (BYOK users), monitor your token consumption, and manage billing.
 
 This is your control center for personalizing Hi, Moose to match your workflow, budget, and technical expertise.
 
@@ -12,11 +12,11 @@ This is your control center for personalizing Hi, Moose to match your workflow, 
 
 ## When to Use This
 
-- **Switch experience modes**: Choose between Marketer Mode (for SMB teams) or SEO Mode (for SEO professionals) to adjust feature complexity.
+- **Switch experience modes**: Choose between Marketer Mode (for SMB marketing teams) or SEO Mode (for SEO professionals) to adjust feature complexity and workflows.
 - **Update account info**: Change your email, verify your email, or reset your password.
-- **Bring Your Own Key (BYOK)**: Connect your OpenAI API key to bypass monthly token limits and use your own billing.
-- **Select AI models**: Pick which GPT model to use (GPT-4.1, GPT-5, etc.) if you're on the BYOK plan.
-- **Monitor usage**: Track your monthly AI token consumption to avoid hitting limits.
+- **Bring Your Own Key (BYOK)**: Connect your OpenAI API key to bypass monthly token limits and use your own OpenAI and OpenRouter billing.
+- **Select AI models (BYOK)**: Pick which GPT model to use (GPT-4.1, GPT-5, etc.) if you're on the BYOK plan.
+- **Monitor usage (Non-BYOK Paid users)**: Track your monthly AI token consumption to avoid hitting limits.
 - **Manage subscription**: Update payment methods, change billing cycles, or cancel/reactivate your subscription.
 
 ---
@@ -35,8 +35,8 @@ This is your control center for personalizing Hi, Moose to match your workflow, 
 
 ### Important Notes
 
-- **Marketer Mode vs SEO Mode** affects the UI complexity—not your subscription features. Both modes have access to the same tools.
-- **BYOK plans** require you to bring your own OpenAI API key. Without it, AI features won't work.
+- **Marketer Mode vs SEO Mode** affects the UI complexity and some workflows-not your subscription features. Both modes have access to the same tools.
+- **BYOK plans** require you to bring your own OpenAI and OpenRouter API keys (OpenRouter is optional and used for the LLM Beacon). Without the OpenAI key, AI features won't work.
 - **Team members** inherit the team owner's subscription tier but can set their own experience mode and AI model preferences (if BYOK).
 
 ---
@@ -45,10 +45,9 @@ This is your control center for personalizing Hi, Moose to match your workflow, 
 
 ### 1. Access Settings
 
-1. Click your profile icon (top-right corner).
-2. Select **Settings** from the dropdown menu.
+1. Select **Settings** from the left hand side navigation.
 
-You'll see several sections: Account Information, Experience Mode, OpenAI API Key (if applicable), AI Model Settings, AI Services, and Subscription Management.
+You'll see several sections: Account Information, Experience Mode, OpenAI API Key (BYOK users - Owner only), AI Model Settings (BYOK users), AI Services, and Subscription Management.
 
 ---
 
@@ -82,7 +81,7 @@ If you see an **Unverified** badge next to your email:
 3. Check your inbox and click the link.
 4. Your email is now verified.
 
-**Why verify?** Verified emails are required for some features (like team invitations) and improve account security.
+**Why verify?** Verified emails are required for some features (like team invitations) and improved account security. If you haven't verified your email and it's using an incorrect email, you will not be able to reset your password once logged out.
 
 #### Reset Your Password
 
@@ -90,17 +89,17 @@ If you see an **Unverified** badge next to your email:
 
 1. Next to **Password**, click **reset**.
 2. A modal opens: Click **Send Password Reset Email**.
-3. Check your inbox for a reset link from Firebase.
+3. Check your inbox for a reset link from Hi, Moose.
 4. Click the link, enter a new password, and save.
 
 **For Google accounts**:
-- Your password is managed by Google. Click **Manage in Google** to update it there.
+- Your authentication is managed by Google. 
 
 ---
 
 ### 3. Choose Your Experience Mode
 
-**What this does**: Adjusts the UI complexity across Hi, Moose. This is a personal preference—it doesn't change your subscription features.
+**What this does**: Adjusts the UI complexity and various workflows across Hi, Moose. This is a personal preference—it doesn't change your subscription features.
 
 #### Two Modes Available
 
@@ -108,18 +107,20 @@ If you see an **Unverified** badge next to your email:
   - Simplified interface.
   - Best for SMB marketers, content teams, or non-technical users.
   - Hides advanced SEO jargon and focuses on practical results.
+  - Adjusts some of the features to align with common content marketer workflows.
 
 - **SEO Mode**:
   - Full-featured interface.
   - Best for SEO professionals, agencies, or power users.
   - Shows advanced metrics, technical details, and pro-level options.
+  - Adjusts some of the features to align with common SEO workflows.
 
 #### How to Switch Modes
 
 1. In the **Experience Mode** section, you'll see two cards: **Marketer Mode** and **SEO Mode**.
 2. Click the mode you want.
 3. The selected mode is highlighted with a green or purple border and checkmark.
-4. Your preference is saved automatically and applies immediately across the platform.
+4. Your preference is saved automatically and applies immediately across the platform. If you log in from a different browser or device, you may need to set this again as the setting is stored locally.
 
 **Can I change this anytime?** Yes. Switch back and forth as often as you like—no restrictions.
 
@@ -127,7 +128,7 @@ If you see an **Unverified** badge next to your email:
 
 ### 4. Connect Your OpenAI API Key (BYOK Users Only)
 
-**Who sees this section**: Users on the **BYOK (Bring Your Own Key)** plan only. If you're on Free, Starter, Growth, or Enterprise, skip this section.
+**Who sees this section**: Owner users on the **BYOK (Bring Your Own Key)** plan only. Non-members on the account do not have access to this section. If you're on Free, Standard, Professional, or Premium, you can skip this section.
 
 #### Why Use BYOK?
 
@@ -165,7 +166,7 @@ If you see an **Unverified** badge next to your email:
 2. Confirm removal.
 3. AI features will be disabled until you add a new key.
 
-**Security note**: Your API key is **encrypted** before storage. It's never sent to the browser or exposed to other users—even your team members.
+**Security note**: Your API key is **encrypted** before storage. It's never sent to the browser or exposed to other users—even your team members. 
 
 ---
 
@@ -179,23 +180,24 @@ Hi, Moose supports 8 OpenAI models:
 - **GPT-5, GPT-5 Mini, GPT-5 Nano**: Latest models (may return unexpected results for SEO tasks).
 - **GPT-4.1, GPT-4.1 Mini, GPT-4.1 Nano**: Recommended for SEO tasks (most consistent results).
 - **GPT-4o, GPT-4o Mini**: Optimized for speed and cost.
+- **GPT-5.2 coming soon**
 
 #### How to Select a Model
 
-1. In the **AI Model Settings** section, you'll see 8 model cards.
+1. In the **AI Model Settings** section, you'll see several model cards.
 2. Click the model you want to use.
 3. The selected model is highlighted with a blue border and radio button.
 4. Your preference is saved automatically.
 
-**Recommendation**: Use **GPT-4.1** or **GPT-4.1 Mini** for SEO tasks. GPT-5 models are powerful but may produce inconsistent results for content optimization.
+**Recommendation**: Use **GPT-4.1** or **GPT-4.1 Mini** for SEO tasks. GPT-5 models are powerful but may produce inconsistent results for some tasks, e.g., FAQs GPT-5, at times, struggles with JSON-LD schema markup.
 
-**Personal preference**: Your model selection applies only to your account. Team members must set their own models individually.
+**Personal preference**: Your model selection applies only to your account. Team members can set their own models individually.
 
 ---
 
-### 6. Monitor AI Token Usage (Managed Plans Only)
+### 6. Monitor AI Token Usage (Non-BYOK Paid Users only)
 
-**Who sees this section**: Users on Free, Starter, Growth, or Enterprise plans. BYOK users don't have token limits (they pay per OpenAI usage).
+**Who sees this section**: Users on Standard, Professional, and Premium paid plans. BYOK users don't have token limits (they pay per OpenAI and optionally OpenRouter usage).
 
 #### What Are Tokens?
 
@@ -223,7 +225,7 @@ Your plan includes a monthly token allowance. See [Plans](https://www.himoose.co
 - AI features (content generation, AEO analysis, LLM Beacon checks) will stop working until:
   - Your usage resets next month.
   - You upgrade to a higher plan.
-  - You switch to BYOK and use your own API key.
+  - You switch to BYOK and use your own API key. Keep in mind, there are some limitations with the BYOK plan if you're using the Podcast Generator as the BYOK plan allows for 15 podcast generations per month.
 
 **Warning at 75%**: You'll see a yellow alert when you hit 75% usage.  
 **Warning at 90%**: You'll see a red alert recommending an upgrade.
@@ -237,7 +239,6 @@ Your plan includes a monthly token allowance. See [Plans](https://www.himoose.co
 #### What You Can Do
 
 - Update payment methods.
-- Change billing cycle (monthly vs annual).
 - Upgrade to a higher plan.
 - Downgrade to a lower plan.
 - Cancel your subscription.
@@ -273,11 +274,14 @@ If you're on the **Free plan**, the **AI Services** section shows upgrade benefi
 
 **What you get with paid plans**:
 - Improved AI quality & faster processing.
-- Higher monthly token limits (up to 3,000,000 tokens on Enterprise).
+- Higher monthly token limits (up to 3,000,000 tokens on Premium).
 - Access to LLM Beacon (track brand mentions in AI platforms).
 - Advanced AEO optimization tools.
 - Batch processing & Webflow sync.
 - Brand voice & style guide control.
+- Unlimited content brief creation (based on AI token allowance)
+- Access to Topic Authority Builder
+- Podcast generation (free plans include a small lifetime amount)
 
 Click **View Upgrade Options** to see plan details and pricing.
 
@@ -300,13 +304,13 @@ Your settings apply immediately—no need to log out or refresh.
 
 ## Tips for Best Results
 
-1. **Start with Marketer Mode**: If you're new to Hi, Moose or SEO, use Marketer Mode. It's less overwhelming. Switch to SEO Mode when you're comfortable.
+1. **Start with Marketer Mode**: If you're newer to SEO, consider using Marketer Mode. It's less overwhelming. Switch to SEO Mode when you're comfortable.
 
-2. **Verify your email**: Verified emails unlock team features and improve security. Do this early.
+2. **Verify your email**: Verified emails improve security and account stability. Do this early.
 
 3. **BYOK users: Test your key first**: Click **Test & Save** before relying on your API key. If the test fails, check your OpenAI account for billing issues or key expiration.
 
-4. **Use GPT-4.1 for SEO tasks**: GPT-5 is newer but less consistent for content optimization. Stick with GPT-4.1 or GPT-4.1 Mini (BYOK users).
+4. **Use GPT-4.1 for SEO tasks**: GPT-5 is newer but less consistent for some content optimization. Stick with GPT-4.1 or GPT-4.1 Mini (BYOK users). GPT-5.2 access will be available soon.
 
 5. **Monitor token usage weekly**: Check your usage mid-month (around the 15th) to avoid surprises. If you're at 50%+ by mid-month, consider upgrading.
 
@@ -314,11 +318,11 @@ Your settings apply immediately—no need to log out or refresh.
 
 7. **Team members: Set your own preferences**: Even if you're on a team, you can set your own Experience Mode and AI model (if BYOK). These are personal settings.
 
-8. **BYOK cost control**: Set spending limits in your OpenAI account to avoid unexpected bills. Most Hi, Moose tasks use $0.01–$0.50 per request.
+8. **BYOK cost control**: Set spending limits in your OpenAI account to avoid unexpected bills. 
 
 9. **Cancel wisely**: If you cancel your subscription, you'll lose access to paid features at the end of your billing period—not immediately. Use this time to export important data.
 
-10. **Reactivate anytime**: Canceled your subscription by mistake? Click **Reactivate** in the Subscription Management section or visit the Stripe portal.
+10. **Reactivate anytime**: Canceled your subscription by mistake? Click **Reactivate** in the Subscription Management section or visit the Stripe portal. Keep in mind, historic data will be deleted once the account has been fully canceled.
 
 ---
 
@@ -343,7 +347,7 @@ Your settings apply immediately—no need to log out or refresh.
 **Fix**:
 - Check your spam/junk folder.
 - Wait 5 minutes and try clicking **verify** again.
-- Add `noreply@himoose.com` to your email contacts.
+- Add `support@mg.himoose.com` to your email contacts.
 - If still not received, contact [support@himoose.com](mailto:support@himoose.com).
 
 ---
@@ -407,11 +411,11 @@ Your settings apply immediately—no need to log out or refresh.
 
 ### 8. Token usage shows 0 tokens used (but I've been using AI features)
 
-**Why**: Usage data is delayed (can take 1–2 hours to sync).
+**Why**: Usage data may be delayed (can take 1–2 hours to sync).
 
 **Fix**:
 - Wait a few hours and check again.
-- If it's been 24+ hours and still shows 0, contact support—there may be a tracking issue.
+- If it's been 24+ hours and still shows 0, contact support so you do not lose access.
 
 ---
 
@@ -436,24 +440,6 @@ Your settings apply immediately—no need to log out or refresh.
 
 ---
 
-## Frequently Asked Questions
-
-### What's the difference between Marketer Mode and SEO Mode?
-
-**Marketer Mode**:
-- Simplified UI with less technical SEO jargon.
-- Focuses on practical results (traffic, conversions, rankings).
-- Best for small business owners, content marketers, or beginners.
-
-**SEO Mode**:
-- Full-featured UI with advanced metrics.
-- Shows technical SEO details (crawl depth, entity recognition, grounding queries).
-- Best for SEO professionals, agencies, or technical users.
-
-**Both modes have the same features**—only the presentation changes.
-
----
-
 ### Can I use both Marketer and SEO Mode?
 
 Not simultaneously—you pick one mode at a time. But you can switch back and forth anytime in Settings.
@@ -470,18 +456,15 @@ No. Experience Mode is **personal**—each user sets their own. Team members can
 
 - You'll keep access to paid features until the end of your current billing period.
 - After that, you're downgraded to Free (or the tier you selected).
-- Your projects, data, and content are preserved—you just lose access to premium features (AI generation, LLM Beacon, etc.).
+- Your projects are preserved—however you may lose data beyond a certain amount of time. Be mindful if you are actively using the podcast generator with a player embedded on your site, because these will eventually become unplayable.
 
-You can reactivate anytime by clicking **Manage Subscription** → **Reactivate**.
+You can reactivate anytime by clicking **Manage Subscription**.
 
 ---
 
 ### Can I change my email if I signed up with Google?
 
-No. Google-managed emails are tied to your Google account. To change it:
-1. Go to [myaccount.google.com](https://myaccount.google.com).
-2. Update your primary email there.
-3. Log out of Hi, Moose and log back in with the new email.
+No. Google-managed emails are tied to your Google account. 
 
 ---
 
@@ -508,11 +491,12 @@ Team owners don't see this badge—they see the full subscription controls.
 - Requires an OpenAI account and billing setup.
 - You're responsible for managing API costs.
 - No managed support if OpenAI has issues.
+- You may end up paying more depending on your usage.
 
 **Who should use BYOK**:
-- High-volume users (agencies, enterprises).
-- Users who want GPT-5 or specific models.
-- Users who prefer pay-as-you-go pricing.
+- Users familiar and comfortable with managing their OpenAI and OpenRouter API keys.
+- Users who want access to Hi, Moose but more model controls.
+- Users who prefer more pay-as-you-go pricing.
 
 **Who shouldn't use BYOK**:
 - Beginners or low-volume users (managed plans are simpler).
@@ -521,15 +505,6 @@ Team owners don't see this badge—they see the full subscription controls.
 ---
 
 ### How much does BYOK cost?
-
-BYOK plans have a small monthly fee (varies by tier), plus your OpenAI usage costs.
-
-**OpenAI pricing** (as of Dec 2024):
-- GPT-4.1: ~$0.03 per 1,000 input tokens, ~$0.06 per 1,000 output tokens.
-- GPT-4.1 Mini: ~$0.015 per 1,000 tokens (cheaper).
-- GPT-5: ~$0.05+ per 1,000 tokens (most expensive).
-
-**Example**: Generating 50 content briefs might use 250,000 tokens ≈ $7.50 (GPT-4.1).
 
 See [Plans](https://www.himoose.com/plans) for BYOK monthly fees.
 
@@ -553,42 +528,21 @@ If you signed up mid-month, you still get your full monthly allocation immediate
 
 ---
 
-### What models do managed plans use?
-
-- **Free**: Lower-tier models (slower, less accurate).
-- **Starter (Bronze)**: GPT-4.1 Mini.
-- **Growth (Silver)**: GPT-4.1.
-- **Enterprise (Gold)**: GPT-4.1 (optimized for speed).
-
-Hi, Moose automatically selects the best model for your tier—you can't change it on managed plans. Switch to BYOK if you want model control.
-
----
-
 ### Can I see my team's token usage?
 
-**Team owners**: Yes. Go to **Admin Dashboard** (if you're on a paid team plan) to see aggregate usage.
+**Team owners**: Yes. Go to **Settings** (if you're on a paid team plan) to see aggregate usage.
 
-**Team members**: No. You only see your personal usage. Ask your team owner for team-wide stats.
+**Team members**: Yes, within **Settings** you can see an overall token usage for the team.
 
 ---
 
 ### What happens to my data if I downgrade or cancel?
 
-- Your **projects, data, and content are preserved** for 90 days after downgrading to Free or canceling.
-- You can still access and export your data during this time.
-- After 90 days of inactivity, archived data may be deleted (per our data retention policy).
+- Your **projects, data, and content are preserved** for 30 days after downgrading to Free or canceling.
+- You can still access and export your data until your renewal date happens at which point your account data will be unavailable.
+- After 30 days of inactivity, archived data may be deleted (per our data retention policy).
 
 **Recommendation**: Export important data (CSV, Webflow, etc.) before canceling.
-
----
-
-### How do I export my data before canceling?
-
-- **Content Briefs**: Copy/paste content or use Webflow export.
-- **AEO Reports**: Take screenshots or save as PDF (browser print).
-- **LLM Beacon Reports**: Export to CSV (available in the feature).
-- **Versus Pages**: Export to CSV (Step 7 in wizard).
-- **Projects**: No bulk export—export feature-by-feature.
 
 ---
 
@@ -599,15 +553,13 @@ Yes. When you upgrade:
 - Your new limits (tokens, features) take effect instantly.
 - Your billing date stays the same.
 
-**Example**: Upgrade from Starter ($49/mo) to Growth ($99/mo) on the 15th. You're charged ~$25 (half the difference) immediately.
-
 ---
 
 ### Can I pause my subscription?
 
 No. Hi, Moose doesn't support pausing. You can:
 - **Cancel** (keeps access until period end, then downgrades to Free).
-- **Downgrade** to a cheaper plan (e.g., Growth → Starter).
+- **Downgrade** to a cheaper plan.
 
 If you need a temporary break, cancel and reactivate when you're ready.
 
@@ -628,8 +580,7 @@ Your data is encrypted and never stored on Hi, Moose's servers—only Stripe has
 ## Related Features
 
 - **Plans**: See all subscription tiers and pricing. Visit [Plans Page](https://www.himoose.com/plans).
-- **Admin Dashboard**: Team owners can manage team members, view usage, and control permissions (paid plans only).
-- **Projects**: Organize your work into projects with custom settings. See [How to Manage Projects](#).
+- **Owner Settings**: Team owners can manage team members, view usage, and control permissions (paid plans only).
 
 ---
 
