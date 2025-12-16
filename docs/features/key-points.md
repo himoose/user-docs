@@ -4,7 +4,7 @@
 
 Extract the most important points from articles and content as clean, scannable bullet points. This improves content accessibility, helps readers quickly grasp main ideas, and boosts SEO with structured content.
 
-Hi, Moose uses **semantic compression** — AI that understands meaning and context to identify what's truly important, not just what appears frequently. This means your key points capture the essence of your content, not just surface-level summaries.
+Hi, Moose uses **semantic compression** — AI that understands meaning and context to identify what's truly important, not just what appears frequently. This means your key points capture the essence of your content, not just surface-level or overly verbose summaries.
 
 Key points appear at the beginning of your content, giving busy readers instant value and encouraging them to read the full article.
 
@@ -27,10 +27,10 @@ Best for articles over 500 words. Shorter content may not have enough substance 
   - Content ready to paste manually
 
 ### Optional
-- Webflow API key (if you want automatic updates to Webflow CMS)
+- Webflow API key (if you want enable updating to Webflow CMS)
 
-### Note on API keys
-- **Free & Standard plans**: Use Hi, Moose's API keys automatically
+### Note on OpenAI API keys
+- **Free & Paid plans**: There are no API keys for you to manage in order to use AI 👍
 - **BYOK plans**: Your OpenAI API key must be saved in Settings
 
 ## Step-by-step (in Hi, Moose)
@@ -50,7 +50,7 @@ Best for articles over 500 words. Shorter content may not have enough substance 
 - Click **Generate Key Points** (or **Extract Key Points** in Marketer Mode)
 - Hi, Moose will:
   - Extract content from the URL
-  - Generate bullet-point key points using AI
+  - Semantically compress and generate bullet-point key points using AI
   - Display results in an editable preview
 
 **Status indicators**:
@@ -61,9 +61,8 @@ Best for articles over 500 words. Shorter content may not have enough substance 
 #### 4. Review extracted content
 - After extraction, you'll see your content in a gray box
 - Character count displays (e.g., "Content (5,234 chars)")
-- Verify the content looks complete and accurate
 
-#### 5. Edit key points (optional)
+#### 5. Edit Key Points (optional)
 - Use the rich text editor to modify generated points
 - Format text: **bold**, *italic*
 - Add or remove bullet points
@@ -74,10 +73,12 @@ Best for articles over 500 words. Shorter content may not have enough substance 
 - This saves your edits for future reference
 - Button shows "Saving..." while processing
 
-#### 7. Copy to your CMS
+#### 7. Copy to your CMS (or directly update in Webflow)
 - Click **Copy** button (purple) to copy HTML with proper wrapper
-- Paste at the beginning of your article in WordPress, Webflow, etc.
+- Paste at the beginning of your article in WordPress, Ghost, etc.
 - The HTML includes `<div id="key-points-paeo">` wrapper for styling
+- If your website uses Webflow, you update a Collection item directly from Hi, Moose
+
 
 ### Method 2: Paste Content
 
@@ -162,14 +163,13 @@ Best for articles over 500 words. Shorter content may not have enough substance 
 
 ### Editing best practices
 - **Keep points concise** — Aim for 1-2 sentences per point
-- **Action-oriented language** — "Learn how..." or "Discover why..."
 - **Front-load value** — Most important points first
 - **Maintain parallel structure** — All points should follow similar format
-- **Test with your audience** — What seems valuable to them?
+- **Test with your audience** — What seems valuable to them? (Tip: A great source for insight on what matters most to your audience are Sales and Support calls/logs. These can be a gold mine for SEO and Marketing teams. Of course, use responsibly.)
 
 ### CMS implementation
 - **WordPress**: Paste in "Text" or "HTML" editor mode, not Visual
-- **Webflow**: Use Rich Text or Embed element
+- **Webflow**: Use Rich Text or Code Embed element
 - **Shopify**: Use HTML content blocks
 - **Custom sites**: Place near the top of article content
 - **CSS styling**: Target `#key-points-paeo` for custom styles
@@ -215,7 +215,7 @@ Best for articles over 500 words. Shorter content may not have enough substance 
 - Try manual paste if extraction missed key sections
 - Regenerate — click input field and **Generate Key Points** again
 - Edit manually using the rich text editor
-- Check that article has clear structure (not just navigation/boilerplate)
+- Check that article has clear structure
 
 ---
 
@@ -304,19 +304,8 @@ Best for articles over 500 words. Shorter content may not have enough substance 
 - Refresh the page and try again
 - Try a different article to test if it's URL-specific
 - Use manual paste method as alternative
-- Very long content (10,000+ words) may timeout — split into sections
+- Very long content (15,000+ words) may timeout — split into sections or manually past the content instead
 
----
-
-### 📱 Editor not working on mobile
-**Problem**: Can't edit key points on phone or tablet.
-
-**Fix**:
-- Rich text editor works best on desktop browsers
-- Use laptop/desktop for editing
-- Mobile users: generate on desktop, copy to CMS from mobile
-- Alternatively, export CSV and edit offline
-- Consider using mobile browser's "Desktop site" mode
 
 ## FAQs
 
@@ -324,13 +313,13 @@ Best for articles over 500 words. Shorter content may not have enough substance 
 Key points use semantic compression to identify the most important ideas in your content. They're typically 85-95% accurate for well-structured content, capturing core meaning rather than just summarizing text. Always review and edit before publishing to ensure accuracy and tone match your brand.
 
 ### Can I generate multiple key points for different articles?
-Yes, there's no limit to single URL processing (within your token quota). For bulk processing of many URLs, use the Batch Sitemap Processor feature.
+Yes, there's no limit to single URL processing (within your token quota). For bulk processing of many URLs, use the Batch Sitemap Processor feature or Webflow Batch if your website content uses Webflow Collections.
 
 ### Do the key points update if I change my article?
 No. Key points are generated once from a snapshot of your content. If you update your article, regenerate key points by entering the URL again.
 
 ### How many key points should I aim for?
-Typically 4-6 points is ideal. Fewer than 3 may not provide enough value; more than 8 becomes overwhelming. It depends on article length and complexity.
+Typically 3-6 points is ideal. Fewer than 3 may not provide enough value; more than 8 becomes overwhelming. It depends on article length and complexity.
 
 ### Can I customize the format or style?
 Yes, edit directly in the rich text editor. You can change bullet styles, add bold/italic, adjust wording, or completely rewrite points. The `#key-points-paeo` wrapper allows custom CSS styling on your site.
@@ -357,7 +346,7 @@ Best practice: Place immediately after the title/intro paragraph, before the mai
 Common tags: `<div>`, `<h2>`, `<ul>`, `<li>`, `<p>`, `<strong>`, `<em>`. The output is sanitized HTML safe for all CMS platforms.
 
 ### Can I export key points for multiple URLs at once?
-For single URLs, use the Export CSV button. For batch processing and exports, use the Batch Sitemap Processor (separate feature).
+For single URLs, use the Export CSV button. For batch processing and exports, use the Sitemap Batch or Webflow Batch.
 
 ### Will this work with password-protected pages?
 No. The URL extractor can only access publicly available pages. For password-protected or draft content, use the **Paste Content** method.

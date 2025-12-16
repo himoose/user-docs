@@ -447,6 +447,7 @@ Schema markup is structured data that helps search engines understand your FAQs.
 
 ### How do I test if my schema is working?
 Use Google's Rich Results Test tool:
+
 1. Copy your page URL
 2. Go to: [https://search.google.com/test/rich-results](https://search.google.com/test/rich-results){:target="_blank" rel="noopener noreferrer"}
 3. Enter URL and test
