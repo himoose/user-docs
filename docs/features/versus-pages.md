@@ -2,23 +2,25 @@
 
 ## What This Helps You Do
 
-The Versus Content Wizard lets you create dozens (or hundreds) of **comparison pages** at scale—like "Product A vs Product B"—without writing each page from scratch.
+The Versus Content Wizard lets you create dozens (or hundreds) of **comparison pages** at scale—like "Brand A vs Brand B" without writing each page from scratch or update each individually.
 
-You define your comparison criteria once (pricing, features, integrations, etc.), add your competitors, and Hi, Moose generates AI-powered comparison content, hero images, and structured data for every possible pairing. Then you can export everything to CSV or push it directly to Webflow CMS.
+You define your comparison criteria once (pricing, features, integrations, etc.), add your competitors, and Hi, Moose generates unique, **no-slop content** in your brand's voice, along with branded visuals and structured data for every possible pairing. Then you can export everything to CSV or push it directly to Webflow CMS.
 
-This is programmatic SEO for comparison pages: capture high-intent search traffic (people researching "X vs Y") with unique, data-driven content that's optimized for both Google and AI Overviews.
+This is programmatic SEO for high-intent "competitor vs competitor" queries: capture search traffic from people actively researching "X vs Y" with helpful, factual content that's optimized for both Google and AI search engines.
+
+**You're in control**: Use AI when it helps (to draft content grounded in your data), or write everything manually. Hi, Moose handles the pairing logic, image generation, and CMS setup—you focus on the content quality.
 
 ---
 
 ## When to Use This
 
-- **SaaS comparison marketing**: Create "YourProduct vs Competitor" pages for every major competitor (e.g., "Slack vs Microsoft Teams," "HubSpot vs Salesforce").
-- **Ecommerce product comparisons**: Generate pages for "Product A vs Product B" across your catalog (useful for furniture, electronics, fashion).
-- **Service provider directories**: Compare agencies, consultants, or local services (e.g., "Agency A vs Agency B").
-- **Capture bottom-of-funnel traffic**: People searching "X vs Y" are close to buying—these pages convert.
-- **Competitive intelligence**: Document how your brand stacks up against competitors across dozens of attributes.
+- **Capture competitor comparison traffic**: Create "Competitor A vs Competitor B" pages (e.g., "Slack vs Microsoft Teams," "HubSpot vs Salesforce") where you can position YOUR brand as the alternative option to the other two brands in the content.
+- **Target unbranded, high-intent keywords**: Rank for searches like "Slack vs Teams" competing for your competitors' branded terms.
+- **Ecommerce product comparisons**: Generate pages for "Brand A vs Brand B" (competitors in your space) and mention your products as the alternative to Brand A and Brand B.
+- **Service provider directories**: Compare competing agencies or services, then highlight your brand's strengths in comparison with the competitors.
+- **Capture bottom-of-funnel traffic**: People searching "X vs Y" are actively comparing options—intercept them before they choose a competitor.
 
-Use this when you have **2+ competitors** and want to create **comparison content at scale**. If you only need one comparison page, you can still use this—but the real power is in generating 10, 50, or 100+ pages automatically.
+Use this when you have **2+ competitors** to compare against each other. The power is in creating multiple permutations (10 competitors = 45 comparison pages) where YOUR brand appears in the content as the recommended solution, without targeting your own brand name in the URLs.
 
 ---
 
@@ -30,19 +32,18 @@ Use this when you have **2+ competitors** and want to create **comparison conten
 
 2. **Comparison criteria**: Decide what attributes to compare (e.g., pricing, features, integrations, support, free trial, mobile app). These become your "schema."
 
-3. **Your brand's data** (optional but recommended): If you want to include your own brand in the comparisons (not just competitor-to-competitor), you'll add your brand info in Step 3.
+3. **Your brand's data**: Include your own brand in the comparisons (not just competitorA-to-competitorB), you'll add your brand info in Step 3.
 
-4. **Background image** (optional): A custom background for the auto-generated hero images. If you skip this, Hi, Moose uses a default.
+4. **Background image**: A custom background for the auto-generated hero images. If you skip this, Hi, Moose uses a default.
 
-5. **Subscription tier**:
-   - **Free**: Schema and data entry only—no AI content generation.
-   - **Starter, Growth, Enterprise**: Full AI content generation (intros, conclusions, hero images).
+5. **Brand voice guidelines** (optional): If you're using AI to generate content, provide your brand's tone and style preferences. The AI will draft content that matches your voice.
 
 6. **Webflow API key** (optional): Only needed if you want to export directly to Webflow CMS. Otherwise, export to CSV.
 
 ### Important Notes
 
 - The wizard has **8 steps**. You can jump between steps if you've already completed them (the wizard remembers your progress).
+- **AI is optional**: You can write all content manually or use AI as a starting point. You're always in control.
 - Content generation uses AI credits. Check your plan's limits before generating content for 100+ comparisons.
 - If you use **BYOK (Bring Your Own Key)**, you'll see estimated token costs before generating content.
 
@@ -111,8 +112,8 @@ Yes. The wizard loads your saved schema if you return to Step 1. You can add/rem
    - **Long Description**: A longer overview (optional). You can generate this with AI by clicking the **sparkle icon** (✨).
 
 3. Upload logos:
-   - **Full Logo URL**: Upload the competitor's full horizontal logo (e.g., logo with text).
-   - **Logo Mark URL**: Upload just the logo icon/mark (e.g., the Slack hashtag symbol).
+   - **Full Logo URL**: (optional, you can use text instead) Upload the competitor's full horizontal logo (e.g., logo with text).
+   - **Logo Mark URL**: (optional) Upload just the logo icon/mark (e.g., the Slack hashtag symbol).
    - If you don't upload a logo, Hi, Moose generates a text-based logo placeholder.
 
 4. Fill in the matrix data:
@@ -128,15 +129,15 @@ Yes. The wizard loads your saved schema if you return to Step 1. You can add/rem
 
 **Tips**:
 - Use the **AI Generate** button next to "Short Description" or "Long Description" to auto-generate copy based on the competitor name and website.
-- If you're adding many competitors, consider exporting a CSV template (you can import it later—this feature may vary by platform).
 
 ---
 
 ### Step 3: Your Brand
 
-**What this step does**: Add your own brand's data so it can be included in comparisons (e.g., "YourBrand vs Slack").
+**What this step does**: Add your own brand's data so it appears in the comparison content as the recommended alternative.
 
-This is optional—if you skip it, the wizard generates **competitor-to-competitor** comparisons only (e.g., "Slack vs Microsoft Teams").
+**Important**: Your brand does NOT appear in the page URL or title. Pages remain targeted at competitor keywords (e.g., `/slack-vs-microsoft-teams`). Your brand is positioned within the content as the potential superior option.
+
 
 #### How to Add Your Brand
 
@@ -152,17 +153,21 @@ This is optional—if you skip it, the wizard generates **competitor-to-competit
 3. Click **Save & Continue**.
 
 **Why include your brand?**  
-If you include it, Hi, Moose generates **three-way comparisons** where your brand is always positioned as the best choice. For example:
-- Intro: "Comparing Slack, Microsoft Teams, and YourBrand."
-- Conclusion: "While Slack and Teams are solid, YourBrand offers [unique advantages]."
+The AI-generated content mentions your brand as a third, potential superior option:
+- **Page URL**: `/slack-vs-microsoft-teams` (targets competitor keywords)
+- **Intro**: "Comparing Slack and Microsoft Teams for team collaboration..."
+- **Conclusion**: "While Slack and Teams are popular choices, [YourBrand] offers [unique advantages] that make it the best option for [use case]."
 
-If you skip this step, comparisons are neutral (just competitor A vs competitor B).
+This strategy lets you **capture traffic from competitor comparison searches** and redirect buyers to your solution.
+
 
 ---
 
 ### Step 4: Generate Comparisons
 
-**What this step does**: Hi, Moose creates a **comparison record** for every possible pairing of competitors.
+**What this step does**: Hi, Moose creates a **comparison record** for every possible pairing of your competitors.
+
+**Important**: These are always **competitor vs competitor** comparisons (e.g., "Slack vs Microsoft Teams"), NOT your brand vs competitors. Your brand (if included in Step 3) appears within the content, not in the page slug/URL.
 
 For example:
 - 3 competitors = 3 comparisons (A vs B, A vs C, B vs C)
@@ -172,7 +177,7 @@ For example:
 #### How to Generate Comparisons
 
 1. You'll see a summary:
-   - **Total Comparisons**: How many pairings will be created.
+   - **Total Comparisons**: How many competitor-to-competitor pairings will be created.
    - **Missing Comparisons**: If you've previously generated some, this shows what's left.
 
 2. Click **Generate Comparisons**.
@@ -182,7 +187,7 @@ For example:
 4. Once done, click **Next**.
 
 **What gets created?**  
-Each comparison is a **slug** (e.g., "slack-vs-microsoft-teams") with metadata pointing to the two competitors. No content yet—that happens in Step 5.
+Each comparison is a **slug** targeting competitor keywords (e.g., "slack-vs-microsoft-teams") with metadata pointing to the two competitors. Your brand is NOT in the slug. Content generation (Step 5) is where your brand gets mentioned as the superior alternative.
 
 **If you add more competitors later**: Return to Step 4 and click **Generate Comparisons** again. Hi, Moose only creates new pairings (doesn't duplicate existing ones).
 
@@ -190,32 +195,36 @@ Each comparison is a **slug** (e.g., "slack-vs-microsoft-teams") with metadata p
 
 ### Step 5: Generate Content
 
-**What this step does**: Hi, Moose writes AI-generated **intro** and **conclusion** paragraphs for each comparison page.
+**What this step does**: Generate (or write manually) **intro** and **conclusion** paragraphs for each comparison page in your brand's voice.
 
 #### How to Generate Content
 
 1. You'll see two tabs:
-   - **Introduction**: AI writes an opening paragraph explaining what's being compared.
-   - **Conclusion**: AI writes a closing paragraph summarizing the best choice (or highlighting key differences).
+   - **Introduction**: Opening paragraph explaining what's being compared.
+   - **Conclusion**: Closing paragraph summarizing the best choice (or highlighting key differences).
 
-2. Click **Generate All Introductions** or **Generate All Conclusions**.
-
-3. Hi, Moose generates content for all comparisons in batches:
+2. **Option A: Use AI** (Optional)
+   - Click **Generate All Introductions** or **Generate All Conclusions**.
+   - Hi, Moose drafts content grounded in your comparison data and brand voice.
    - You'll see a progress bar (e.g., "5/45 comparisons generated").
    - For BYOK users, you'll see estimated token usage and cost before confirming.
 
+3. **Option B: Write Manually**
+   - Click on any comparison and write the intro/conclusion yourself using the rich text editor.
+   - Great if you have specific messaging or want complete control.
+
 4. Once done, you can:
-   - **Preview** any comparison to see the generated intro/conclusion.
-   - **Edit** the content using the rich text editor.
-   - **Regenerate** individual comparisons if you don't like the output.
+   - **Preview** any comparison to review the content.
+   - **Edit** the content using the rich text editor (whether AI-generated or manual).
+   - **Regenerate** individual comparisons if you don't like the AI output.
 
 5. Click **Save & Continue** when satisfied.
 
 **What does the AI write?**  
-- **Introduction**: Explains what's being compared, who it's for, and what the reader will learn. Example: *"Slack and Microsoft Teams are both popular collaboration tools. This comparison helps teams decide which one fits their needs."*
-- **Conclusion**: Summarizes the winner (if your brand is included) or the best fit for different use cases. Example: *"Slack is best for startups prioritizing ease of use, while Teams excels for enterprises already using Microsoft 365."*
+- **Introduction**: Explains what's being compared, who it's for, and what the reader will learn. Grounded in your data (not generic fluff). Example: *"Slack and Microsoft Teams are both popular collaboration tools. This comparison helps teams decide which one fits their needs based on pricing, features, and integrations."*
+- **Conclusion**: Summarizes the winner or the best fit for different use cases. Example: *"Slack is best for startups prioritizing ease of use, while Teams excels for enterprises already using Microsoft 365."*
 
-**If your brand is included**: The conclusion will subtly position your brand as the best option, with Slack and Teams as alternatives.
+**When your brand is included**: The conclusion will subtly position your brand as the best option, with competitors as alternatives.
 
 **Tips**:
 - Generate all content at once, then edit a few manually if needed.
@@ -225,7 +234,7 @@ Each comparison is a **slug** (e.g., "slack-vs-microsoft-teams") with metadata p
 
 ### Step 6: Generate Images
 
-**What this step does**: Hi, Moose creates **hero images** for each comparison page—side-by-side competitor logos on a background.
+**What this step does**: Hi, Moose creates branded visuals for each comparison page—including **hero images** and **Open Graph images** for social sharing.
 
 #### How to Generate Images
 
@@ -240,11 +249,9 @@ Each comparison is a **slug** (e.g., "slack-vs-microsoft-teams") with metadata p
 
 3. Click **Generate All Images**.
 
-4. Hi, Moose creates a hero image for each comparison:
-   - Competitor A logo on the left.
-   - "vs" in the center.
-   - Competitor B logo on the right.
-   - Your background image behind everything.
+4. Hi, Moose creates visual assets for each comparison:
+   - **Hero/Feature Image**: Side-by-side competitor logos (Competitor A on left, "vs" in center, Competitor B on right) on your branded background. Perfect for page headers.
+   - **Open Graph Image**: Optimized for social media sharing (1200x630px). When someone shares your comparison page on Twitter, LinkedIn, or Slack, this image appears.
 
 5. Preview the images in the list. You can regenerate if needed.
 
@@ -254,7 +261,7 @@ Each comparison is a **slug** (e.g., "slack-vs-microsoft-teams") with metadata p
 Hi, Moose generates text-based placeholders (e.g., a colored square with the first letter).
 
 **Can I skip this step?**  
-Yes. Images are optional—you can export without them and add images manually later in Webflow or your CMS.
+Yes. Images are optional—you can export without them and add images manually later in Webflow or your CMS. However, branded visuals at scale are a key advantage of programmatic SEO.
 
 ---
 
@@ -327,12 +334,12 @@ After completing the wizard, you have:
 
 - **Competitor database**: Every competitor with structured matrix data (pricing, features, support, etc.).
 - **Comparison pages**: Every possible pairing (e.g., 10 competitors = 45 comparisons).
-- **AI-generated content**: Intros and conclusions for each comparison.
-- **Hero images**: Side-by-side logo images for each comparison.
+- **Unique, no-slop content**: Intros and conclusions grounded in your data and brand voice (AI-generated or manually written).
+- **Branded visuals at scale**: Hero images and Open Graph images for every comparison, featuring competitor logos on your custom background.
 - **CSV exports**: Downloadable data files for import into any CMS.
-- **Webflow CMS collections** (optional): Fully structured collections ready to display as comparison pages.
+- **Webflow CMS collections** (optional): Fully structured collections with auto-created fields, ready to display as comparison pages.
 
-You can now build a **programmatic SEO site** targeting long-tail "X vs Y" keywords at scale.
+You can now build a **programmatic SEO site** targeting high-intent "X vs Y" queries at scale—without spreadsheets or generic content.
 
 ---
 
@@ -340,15 +347,17 @@ You can now build a **programmatic SEO site** targeting long-tail "X vs Y" keywo
 
 1. **Start small, then scale**: Add 3–5 competitors first to test the workflow. Once you're happy with the schema and content quality, add the rest.
 
-2. **Use specific feature names**: Instead of "Feature 1," use "Mobile App" or "API Access." This makes AI-generated content more accurate.
+2. **Use specific feature names**: Instead of "Feature 1," use "Mobile App" or "API Access." This makes AI-generated content more accurate and grounded in real data.
 
-3. **Include your brand for positioning**: If you add your brand in Step 3, the conclusions will subtly favor your product—great for bottom-of-funnel content.
+3. **Include your brand for positioning**: When you add your brand in Step 3, the conclusions will try to subtly favor your product if the data supports it—great for bottom-of-funnel content.
 
-4. **Generate content in batches**: If you have 100+ comparisons, generate content for 10–20 at a time. This avoids rate limits and lets you review output quality before committing.
+4. **Define your brand voice**: Before generating content, document your brand's tone (e.g., "friendly and conversational" vs. "professional and authoritative").
 
-5. **Edit AI output**: The AI is good, but not perfect. Edit intros/conclusions to add your unique insights, customer quotes, or brand voice.
+5. **Generate content in batches**: If you have 100+ comparisons, generate content for 10–20 at a time. This avoids rate limits and lets you review output quality before committing.
 
-6. **Use high-quality logos**: Uploaded logos look more professional than auto-generated text logos. Aim for transparent PNGs (500x200px for full logos, 250x250px for marks).
+6. **Edit AI output (or write from scratch)**: AI is a starting point. Add your unique insights, customer quotes, or specific data points. Or skip AI entirely and write manually—you're in control.
+
+6. **Use high-quality logos (optional)**: Uploaded logos look more professional than auto-generated text logos. Aim for transparent PNGs (500x200px for full logos, 250x250px for marks). This is optional, you don't have to use logos if you prefer not to.
 
 7. **Choose a branded background**: Custom backgrounds make your hero images stand out. Use your brand's gradient, texture, or pattern.
 
@@ -356,7 +365,7 @@ You can now build a **programmatic SEO site** targeting long-tail "X vs Y" keywo
 
 9. **Update regularly**: If competitors change pricing or features, update their data in Step 2, then regenerate comparisons/content. The wizard preserves your edits where possible.
 
-10. **Track performance**: After publishing, monitor which comparison pages get traffic. Double down on high-performers by adding more detail or related content.
+10. **Track performance**: After publishing, monitor which comparison pages get traffic. Double down on high-performers by adding more detail or related content. Monitor those new conversions!
 
 ---
 
@@ -393,7 +402,7 @@ You can now build a **programmatic SEO site** targeting long-tail "X vs Y" keywo
 **Fix**:
 - **Check your credits**: Go to **Settings** → **Subscription** to see your remaining AI credits.
 - **Wait and retry**: If you hit a rate limit, wait 60 seconds and try again.
-- **Generate in smaller batches**: Instead of generating all 100 comparisons at once, do 10–20 at a time.
+- **Generate in smaller batches**: Instead of generating all 100+ comparisons at once, do 10–20 at a time.
 - **BYOK users**: Make sure your OpenAI API key is valid and has sufficient funds.
 
 ---
@@ -497,16 +506,17 @@ Make your choice in the modal, then confirm.
 The number of comparisons is calculated as:  
 **n × (n - 1) / 2**
 
-Where **n** = number of competitors.
+Where **n** = number of competitors (NOT including your brand).
 
 Examples:
-- 2 competitors = 1 comparison
-- 3 competitors = 3 comparisons
+- 2 competitors = 1 comparison (A vs B)
+- 3 competitors = 3 comparisons (A vs B, A vs C, B vs C)
 - 5 competitors = 10 comparisons
 - 10 competitors = 45 comparisons
 - 20 competitors = 190 comparisons
+- 40 competitors = 780 comparisons
 
-If you include your brand in Step 3, it's counted as one of the competitors.
+**Your brand is NOT counted** in the permutations because it only appears within the content, not in the page URLs/slugs. All comparison pages target competitor-to-competitor keywords.
 
 ---
 
@@ -526,6 +536,8 @@ If you delete a competitor:
 
 To delete a competitor, go to **Step 2: Add Competitors**, find the competitor, and click **Delete** (trash icon).
 
+- Note that you will need to regenerate comparisons and push that to Webflow or do a new CSV export.
+
 ---
 
 ### Can I regenerate content for just one comparison?
@@ -534,7 +546,7 @@ Yes. In **Step 5: Generate Content**, click on a specific comparison, then click
 
 ---
 
-### What if my competitors don't have logos?
+### What if my competitors don't have logos or we don't have permission to use them?
 
 Hi, Moose generates **text-based logo placeholders**:
 - **Full logo**: The competitor's name in bold text.
@@ -558,9 +570,13 @@ Just adjust your schema (Step 1) to fit your industry (e.g., "Price," "Location,
 
 ### Does the AI favor my brand in comparisons?
 
-**If you include your brand in Step 3**: Yes. The AI generates conclusions that subtly position your brand as the best choice while acknowledging competitor strengths. This is intentional—it's for **your** marketing site.
+**If you include your brand data that can validate it, then in Step 3**: Yes, subtly. The AI-generated content (intro and conclusion) mentions your brand as a third, superior option while comparing the two competitors in the page URL.
 
-**If you skip Step 3**: No. Comparisons are neutral and focus on helping the reader choose between competitors based on their needs.
+**Example**:
+- Page URL: `/slack-vs-microsoft-teams`
+- Content: Compares Slack and Teams, then concludes with "While both are solid options, [YourBrand] offers [advantages] that make it the best choice for [use case]."
+
+You'll be capturing traffic from competitor comparison searches and redirecting buyers to your solution.
 
 ---
 
@@ -622,14 +638,13 @@ Webflow is optional—it's just the fastest way to go from Hi, Moose to a live s
 
 ### How much does AI content generation cost?
 
-**For standard plans** (Starter, Growth, Enterprise):
+**For non-BYOK plans**:
 - AI credits are included in your subscription.
 - Check **Settings** → **Subscription** to see your limits.
 
 **For BYOK (Bring Your Own Key) users**:
 - You pay OpenAI directly (billed to your OpenAI account).
 - Before generating content, Hi, Moose shows estimated token usage and cost.
-- Example: 50 comparisons ≈ 25,000 tokens ≈ $0.25 (varies by model).
 
 ---
 
@@ -640,6 +655,7 @@ Yes. The AI is a starting point—you should **edit** the content to:
 - Adjust tone to match your brand voice.
 - Include specific data points or testimonials.
 - Fix any inaccuracies (AI sometimes hallucinates).
+- Be accurate with your comparisons. If your brand is not as superior in a specific area (compared to a competitor), do not claim it is.
 
 Use the **Edit** button in Step 5 to modify intros/conclusions with the rich text editor.
 
@@ -651,7 +667,7 @@ The wizard creates **pairwise comparisons** (A vs B). For three-way comparisons 
 - Manually create a custom page in Webflow or your CMS.
 - Pull data from multiple comparison records.
 
-Programmatic three-way comparisons aren't supported yet, but you can request this feature via [Support](https://www.himoose.com/contact).
+Programmatic three-way comparisons aren't supported yet, but you can request a custom implementation at [Support](https://www.himoose.com/contact).
 
 ---
 
@@ -667,41 +683,31 @@ Hi, Moose tracks timestamps to auto-detect stale comparisons.
 
 ### Can team members use the Versus Content Wizard?
 
-Yes. Team members (Admins and Members) can use the wizard. They inherit the project owner's subscription tier for AI features.
-
-**Permissions**:
-- **Admins**: Can edit all wizard steps, generate content, and export.
-- **Members**: Can view and edit (depending on project permissions).
-- **Viewers**: Read-only access (can't edit or generate).
+Yes. Team members (Owners and Members) can use the wizard. They inherit the project owner's subscription tier for AI features.
 
 ---
 
 ### How do I optimize comparison pages for SEO?
 
 **In Hi, Moose**:
-- Use descriptive slugs (e.g., "slack-vs-microsoft-teams," not "comp-1").
-- Write unique intros/conclusions—don't rely on AI alone.
-- Include your brand (Step 3) to differentiate from generic comparison sites.
+- Use descriptive slugs targeting competitor keywords (e.g., "slack-vs-microsoft-teams").
+- Write unique intros/conclusions that compare the two competitors, then position your brand.
+- Include your brand (Step 3) so the content offers a third option (yours).
 
 **In Webflow (or your CMS)**:
-- Set SEO titles: *"Slack vs Microsoft Teams: Which is Best for Your Team?"*
-- Write meta descriptions that include both competitor names and a CTA.
-- Add structured data (JSON-LD) for comparison pages—helps with rich snippets.
-- Interlink related comparisons (e.g., "See also: Slack vs Asana").
+- SEO-friendly titles are already provided/generated, but you can customize them further. Set SEO titles targeting competitor keywords: *"Slack vs Microsoft Teams: Which is Best for Your Team?"*
+- Meta descriptiosn are also provided already optimized and unique. You can optionally write meta descriptions either in the exported data, using the Webflow Content Manager in Hi, Moose, or within Webflow directly.
+- Interlink related competitor comparisons (e.g., "See also: Slack vs Asana").
 
-**Content tips**:
-- Expand matrix data into prose (don't just show a table).
-- Add screenshots or video demos.
-- Link to official competitor pages and reviews (builds trust).
+**The goal**: Rank for "Competitor A vs Competitor B" searches, then introduce and ultimately convert users to your brand.
 
 ---
 
 ## Related Features
 
-- **Content Brief Creator**: Generate data-driven content briefs for your comparison pages. See [SEO Content Briefs](content-briefs.md).
 - **AEO Tools**: Analyze how AI engines interpret your comparison pages. See [AEO Optimization](aeo-optimization.md).
 - **Webflow Content Manager**: Manage your Webflow CMS collections (including Comparisons pSEO) directly in Hi, Moose. See [Webflow Integration](../integrations/webflow.md).
 
 ---
 
-**Still stuck?** Check the [Support](https://www.himoose.com/contact) page or email support@himoose.com. Include your project ID and which wizard step you're on for faster help.
+**Still stuck?** Check the [Support](https://www.himoose.com/contact) page or email support@himoose.com. Include as much details as possible, e.g., which step you had trouble with and if possible, include a screenshot.
