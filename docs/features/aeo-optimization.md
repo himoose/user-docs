@@ -1,4 +1,4 @@
-# How to Optimize Content for AI Engines (AEO) in Hi, Moose
+# How to Use AI Search Optimization in Hi, Moose
 
 ## What this helps you do
 
