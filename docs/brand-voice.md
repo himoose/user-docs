@@ -2,7 +2,7 @@
 
 ## What This Helps You Do
 
-Brand Voice Settings let you customize how AI-generated content sounds—ensuring every content brief, AEO analysis, comparison page, or metadata suggestion reflects your brand's unique voice, tone, and terminology.
+Brand Voice Settings let you customize how AI-generated content sounds—ensuring every content brief, AEO analysis, versus page, or metadata suggestion reflects your brand's unique voice, tone, and terminology.
 
 You define your brand's personality (tone, style, audience), upload brand guidelines or sample content, and Hi, Moose uses this context whenever it generates text. This means you spend less time editing AI output to sound "like you"—the AI learns your voice upfront.
 
@@ -18,7 +18,7 @@ Think of it as a style guide for the AI: What words to use, what to avoid, and h
 - **Team alignment**: Give your team (and the AI) a shared reference for how content should sound.
 - **Onboarding**: Upload existing brand guidelines (PDFs, docs, or web pages) so the AI learns from your established voice.
 
-Use this **before** generating content at scale—it's easier to set your voice once than edit 50 AI-generated pieces later.
+Use this **before** generating content at scale—it's easier to set your voice once than edit 50 things later.
 
 ---
 
@@ -26,7 +26,7 @@ Use this **before** generating content at scale—it's easier to set your voice 
 
 ### What You Need
 
-1. **Paid subscription**: Brand Voice Settings require a **Starter, Growth, or Enterprise** plan. Free users see an upgrade prompt.
+1. **Paid subscription**: Brand Voice Settings require a Paid or BYOK plan. Free users see an upgrade prompt.
 
 2. **Brand information** (required):
    - **Brand Name**: Your company or product name.
@@ -83,6 +83,8 @@ You'll see three main sections:
 - Content Brief Creator (mentions your brand in competitor analysis).
 - Versus Content Wizard (adds your brand to comparisons).
 - AEO Tools (references your brand when analyzing content).
+- FAQ Generator / Audience Questions
+- Key Points Generator
 
 ---
 
@@ -145,8 +147,8 @@ You'll see three main sections:
 
 **What happens to the file?**
 - Hi, Moose extracts the text content.
-- The AI summarizes key points (tone, terminology, style).
-- The file is stored securely—only you and your team can access it.
+- Hi, Moose AI summarizes key points (tone, terminology, style).
+- The file contents are stored securely—only you and your team can access.
 
 **Limits**: You can upload **up to 5 files**. If you reach the limit, delete an existing file before adding a new one.
 
@@ -303,7 +305,7 @@ Your settings apply **automatically** to:
 
 **Fix**:
 - Click **Upgrade Now** to see plan options.
-- Choose **Starter, Growth, or Enterprise** to unlock this feature.
+- Choose a plan to unlock this feature.
 - Once upgraded, refresh the page and Brand Voice Settings will be accessible.
 
 ---
@@ -325,7 +327,7 @@ Your settings apply **automatically** to:
 **Why**: Brand Voice Settings only affect **new** AI generations—not previously generated content.
 
 **Fix**:
-- Regenerate old content (e.g., re-run Content Brief Creator, regenerate AEO suggestions).
+- Regenerate old content (e.g., re-run Content Brief Generator, regenerate versus pages).
 - Edit old content manually to match your new voice.
 - Brand Voice Settings are **forward-looking**—they don't retroactively update existing outputs.
 
@@ -338,7 +340,7 @@ Your settings apply **automatically** to:
 **Fix**:
 - Make sure team members are added to the project (not just the team).
 - If they still can't see settings, they may lack the right permissions—check team roles in Admin Dashboard.
-- Only **Admins** and **Members** can edit Brand Voice Settings. **Viewers** can only view (if at all).
+- Only **Owners** and **Members** can edit Brand Voice Settings. **Viewers** can only view (if at all).
 
 ---
 
@@ -375,7 +377,7 @@ Yes. Brand Voice Settings are used as context for:
 - **AEO Tools**: Metadata suggestions, content analysis.
 - **Versus Content Wizard**: Comparison intros/conclusions.
 - **Webflow Content Manager**: AI-generated field content, metadata.
-- **Any AI-generated text** in the project.
+- **Nearly all AI-generated text** in the project.
 
 They do **not** affect:
 - LLM Beacon prompts (those are user-defined).
@@ -444,7 +446,7 @@ You don't need to wait, refresh, or restart—just generate content and your voi
 
 ### Can I export my Brand Voice Settings?
 
-Not currently. Brand Voice Settings are stored in Firestore and tied to your project.
+Sorry, not currently. Brand Voice Settings are stored and tied to your project.
 
 **Workaround**: Copy/paste the text fields into a document for your records, or take screenshots.
 
@@ -467,51 +469,16 @@ All future AI generations will use the updated voice. Old content isn't retroact
 Yes. Brand Voice Settings are **shared** across all team members with access to the project.
 
 **Editing permissions**:
-- **Team Owner**: Full edit access.
-- **Admins**: Full edit access.
+- **Owner**: Full edit access.
 - **Members**: Full edit access (in most cases).
-- **Viewers**: Read-only or no access (depending on role).
 
 ---
 
 ### Can I use Brand Voice Settings on the Free plan?
 
-No. Brand Voice Settings require a **Starter, Growth, or Enterprise** subscription.
+No. Brand Voice Settings require a paid subscription.
 
 Free users see an upgrade prompt. Upgrade to unlock this feature.
-
----
-
-### What's the "Reference Materials" section in AI context?
-
-When the AI generates content, it includes:
-- **BRAND VOICE AND TONE GUIDELINES**: Your settings (tone, style, audience, etc.).
-- **REFERENCE MATERIALS**: Summaries of your uploaded documents (up to 3 documents per generation to avoid token overload).
-
-This context is invisible to you—it's added behind the scenes to guide the AI.
-
----
-
-### Why does the AI only use 3 of my 10 documents?
-
-**Token conservation**. Including all 10 documents in every AI request would consume thousands of tokens and slow down generation.
-
-Hi, Moose includes the **most relevant** 3 documents based on:
-- Recency (newer documents prioritized).
-- File size (smaller summaries prioritized).
-- Content type (brand guidelines prioritized over random blog posts).
-
-If you have 10 documents, all are still valuable—they just aren't all used simultaneously.
-
----
-
-### Can I use the same document in multiple projects?
-
-No. Documents are **project-specific**. If you want the same document in multiple projects:
-1. Go to each project.
-2. Upload the document separately.
-
-**Tip**: Use URLs instead of files when possible—you can add the same URL to multiple projects without re-uploading.
 
 ---
 
@@ -533,4 +500,4 @@ There's no "undo" for document deletion—be careful when clicking the trash ico
 
 ---
 
-**Still stuck?** Check the [Support](https://www.himoose.com/contact) page or email support@himoose.com. Include a screenshot of your Brand Voice Settings for faster help.
+**Still stuck?** Check the [Support](https://www.himoose.com/contact) page or email support@himoose.com. Include a screenshot of your Brand Voice Settings or any error messages for faster help.
