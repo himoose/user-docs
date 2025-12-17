@@ -4,6 +4,8 @@
 
 The Hi, Moose WordPress plugin lets you automatically convert your blog posts into engaging audio podcasts that visitors can listen to directly on your site. 
 
+**Get the Hi, Moose plugin on WordPress.org** ➡️ <a href="https://wordpress.org/plugins/listen-to-this-article/" target="_blank">Listen to This Article - Text to Speech WordPress Plugin</a>
+
 The **Listen to This Article** plugin integrates with Hi, Moose's Podcast Generator to:
 
 - **Transform written content into conversational audio** - Two AI voices discuss your article naturally
@@ -26,8 +28,6 @@ Unlike standalone text-to-speech tools, this creates natural, conversational pod
 - **News and updates** - Let busy readers listen on-the-go
 - **Educational content** - Provide audio learning alternatives
 
-Best for sites publishing regular long-form content (800-3000 words per article).
-
 ---
 
 ## Before You Start
@@ -35,25 +35,29 @@ Best for sites publishing regular long-form content (800-3000 words per article)
 ### Requirements
 
 1. **WordPress Installation**
-   - WordPress 5.0 or higher
+
+   - WordPress 6.0 or higher
    - PHP 7.4 or higher
    - Active WordPress site with admin access
 
 2. **Hi, Moose Account**
+
    - Free or paid Hi, Moose subscription
    - Domain configured in Hi, Moose settings
    - Access to Podcast Generator feature
 
 3. **Plugin Installation**
+
    - Ability to install plugins on your WordPress site
    - Plugins permission (Administrator role)
 
 ### Important Notes
 
 - The plugin currently supports the **Podcast Generator** feature only
-- Audio files are hosted by Hi, Moose (not on your WordPress server)
+- Audio files are hosted by Hi, Moose (not on your WordPress server) and use a global CDN
 - Your domain must be whitelisted in Hi, Moose to play audio
-- Each podcast generation uses Hi, Moose credits based on your plan
+- If you're on the Free or BYOK plan, each podcast generation uses podcast generation credits
+- For Paid plans, each podcast generation uses AI tokens
 
 ---
 
@@ -72,7 +76,7 @@ Best for sites publishing regular long-form content (800-3000 words per article)
 
 3. **Search for the plugin**
    - In the search box, type: `Listen to This Article`
-   - Look for the plugin by Hi, Moose
+   - Look for the plugin by Hi, Moose (look for the dog logo)
 
 4. **Install the plugin**
    - Click **Install Now** button
@@ -104,14 +108,16 @@ Best for sites publishing regular long-form content (800-3000 words per article)
 
 ### 1. Set Your Domain in Hi, Moose
 
-Before using the plugin, configure your domain in Hi, Moose:
+Before using the plugin, you must whitelist your domain in Hi, Moose:
 
 1. **Log in to Hi, Moose** at [himoose.com](https://himoose.com)
 2. **Go to Settings**
 3. **Enter your WordPress domain** (e.g., `yoursite.com`)
 4. **Save your settings**
 
-This whitelists your domain so audio files will play on your WordPress site.
+**Why this matters**: Audio files will only play on whitelisted domains. When you generate a podcast in Hi, Moose, you'll see a "Domain Whitelisted" confirmation showing which domains can access the audio (e.g., "This audio file will only be accessible from himoose.com and himoose.com").
+
+Without whitelisting, the audio player will not work on your WordPress site.
 
 ### 2. Access Plugin Settings
 
@@ -123,9 +129,9 @@ This whitelists your domain so audio files will play on your WordPress site.
 The plugin works out-of-the-box with default settings, but you can customize:
 
 - **Auto-embed**: Automatically add audio player to posts
-- **Player position**: Top or bottom of content
+- **Player position**: Anywhere within the body content
 - **Player style**: Customize appearance to match your theme
-- **Post types**: Which post types get audio (posts, pages, custom post types)
+- **Post types**: Which post types get audio (posts)
 
 ---
 
@@ -237,23 +243,27 @@ See how many people are listening:
 ### Plugin Issues
 
 **Audio player not showing:**
+
 - Verify domain is set in Hi, Moose settings
 - Check that post has a generated podcast
 - Clear WordPress cache
 - Check for JavaScript conflicts with other plugins
 
 **"Domain not whitelisted" error:**
+
 - Go to Hi, Moose settings
 - Add your WordPress domain (without http:// or https://)
 - Save and try again
 
 **Generation fails:**
-- Check your Hi, Moose account has available credits
+
+- Check your Hi, Moose account has available credits (if on a Free or BYOK plan)
 - Verify post has sufficient content (minimum 800 words recommended)
 - Ensure post is published and publicly accessible
-- Check Hi, Moose API connection
+- Check Hi, Moose API connection within the WordPress Settings
 
 **Player not styled correctly:**
+
 - Check for theme CSS conflicts
 - Try disabling other audio/media plugins temporarily
 - Clear browser cache
@@ -262,15 +272,18 @@ See how many people are listening:
 ### WordPress Compatibility
 
 **Theme conflicts:**
+
 - Most themes work out-of-the-box
 - If issues occur, try switching to a default WordPress theme temporarily
 - Contact support with your theme name
 
 **Page builder compatibility:**
+
 - Works with: Gutenberg, Classic Editor, Elementor, Divi
 - May need manual shortcode placement with some builders
 
 **Caching plugins:**
+
 - Clear cache after generating podcasts
 - Exclude audio player elements from caching if issues persist
 
@@ -280,19 +293,52 @@ See how many people are listening:
 
 ### Custom Voice Selection
 
-Choose different AI voices for your podcasts:
+Hi, Moose's Podcast Generator uses two AI voices for natural conversation:
 
-1. **Go to Hi, Moose** website
-2. **Generate a podcast** with your preferred voices
-3. **Copy the audio ID**
-4. **In WordPress**, use shortcode: `[himoose_podcast id="AUDIO_ID"]`
+**Host Voice**: The primary narrator who introduces topics and asks questions
+**Guest Voice**: The secondary voice who provides answers and additional context
+
+Available voices include options with different tones and personalities.
+
+To customize voices:
+
+1. **Go to Hi, Moose Podcast Generator** at himoose.com
+2. **Select your preferred Host and Guest voices** from the dropdowns
+3. **Generate the podcast** with your voice pairing
+4. **Copy the audio embed code** and use it in WordPress
+
+### Advanced Conversation Customization
+
+For more control over how the podcast sounds, Hi, Moose offers advanced customization options:
+
+**Podcast Length**:
+
+- Choose from: Short (4-5 minutes), Medium, or Long
+- Longer content = more detailed discussion
+- Shorter = focused on key takeaways
+
+**Conversation Guidance** (all optional):
+
+- **Host Direction**: Guide how the host should present (e.g., "friendly, confident, and curious")
+- **Guest Direction**: Direct the guest's style (e.g., "analytical, detail-oriented, but still friendly")
+- **The Scene**: Set the environment (e.g., "a quiet podcast studio that is warm")
+- **Conversation Style**: Overall tone (e.g., "warm", "professional", "casual")
+- **Conversation Pace**: Speed of dialogue (e.g., "medium", "fast", "slow")
+- **Accent**: Voice accent preference (e.g., "neutral US")
+- **More Context**: Additional instructions for the conversation (e.g., "the listener is a busy marketer who wants key takeaways on engagement, SEO and AEO")
+
+These advanced options are available when you generate podcasts directly in Hi, Moose. The WordPress plugin uses default settings but you can customize individual podcasts in the Hi, Moose dashboard.
 
 ### Language Support
 
 Generate podcasts in different languages:
 
-1. **Ensure your post content is in the target language**
-2. **In plugin settings**, select the language
+**Auto-detection (Recommended)**: Hi, Moose automatically detects your article's language and generates audio to match. This is the default and works for 24+ languages.
+
+**Manual selection**: If needed, you can manually select a language in Hi, Moose's Podcast Generator:
+
+1. **Go to Podcast Generator** at himoose.com
+2. **Select Language** from the dropdown (instead of "Auto-detect from article")
 3. **Generate podcast** - AI will speak in the selected language
 
 Supported languages include:
@@ -301,14 +347,24 @@ Supported languages include:
 - Arabic, Hindi, Dutch, Polish, Russian
 - And 12+ more languages
 
-### Custom Branding
+### Custom Player Branding
 
-For paid Hi, Moose plans:
+Customize the audio player's appearance to match your brand:
 
-1. **Upload your logo** in plugin settings
-2. **Set brand colors** to match your identity
-3. **Customize player text** (e.g., "Listen to this post")
-4. Audio players will reflect your branding
+**Player Colors**:
+
+1. **Primary Color**: Main player controls and progress bar color
+2. **Secondary Color (Gradient)**: Gradient accent for visual depth
+3. Use the color pickers in Hi, Moose Podcast Generator to match your brand
+
+**Player Title**:
+
+- Toggle "Show title above player" to display/hide the article title
+- Helps users identify what they're listening to
+
+**Preview**: Hi, Moose shows a live preview of your player as you customize it
+
+These settings apply to each podcast individually. You can choose different settings per podcast if you prefer.
 
 ---
 
@@ -317,39 +373,30 @@ For paid Hi, Moose plans:
 ### Content Optimization
 
 **Ideal post length:**
+
 - 800-3000 words works best
 - Shorter content feels rushed
 - Longer content should be split into series
 
-**Content structure:**
-- Use clear headings and sections
-- Write conversationally (reads well when spoken)
-- Avoid heavy jargon or complex formatting
-- Include natural transitions between topics
-
 ### User Experience
 
 **Player placement:**
+
 - Place at the **top** for maximum visibility
-- Place at **bottom** if you want readers to see content first
-- Consider sticky/floating player for long posts
+- Place at **bottom** if you want readers to see other content first
 
 **Call-to-action:**
-- Add a note: "Prefer to listen? Click play above!"
+
+- Add a custom title on the audio player: "Prefer to listen? Click play below!"
 - Encourage audio consumption in your intro
 - Mention podcast availability in social shares
 
 ### Performance
 
 **Generation timing:**
-- Generate podcasts during off-peak hours for bulk operations
+
 - Don't generate for very short posts (< 500 words)
 - Update podcasts only when content significantly changes
-
-**Credit management:**
-- Monitor your Hi, Moose usage in plugin analytics
-- Prioritize podcast generation for high-traffic posts
-- Consider which post types need audio (maybe not pages/archives)
 
 ---
 
@@ -358,29 +405,7 @@ For paid Hi, Moose plans:
 ### General Settings
 
 - **Enable plugin**: Turn podcast generation on/off site-wide
-- **Auto-embed**: Automatically add players to posts
-- **Default position**: Where player appears (top/bottom)
-- **Post types**: Which content types get podcasts
-
-### Player Settings
-
-- **Theme**: Light, dark, or auto (match system preference)
-- **Size**: Compact, standard, or full-width
-- **Controls**: Show/hide speed, volume, download, share
-- **Color scheme**: Primary and accent colors
-
-### Content Settings
-
-- **Minimum word count**: Don't generate for short posts
-- **Excluded categories**: Skip certain post categories
-- **Content filter**: Remove specific elements (comments, ads, etc.)
-
-### Advanced Settings
-
-- **API settings**: Connection to Hi, Moose
-- **Cache duration**: How long to cache audio files
-- **Custom CSS**: Your own player styling
-- **Debug mode**: Enable for troubleshooting
+- **Auto-embed**: Automatically add players to the top of the post body. The *himoose_podcast* shortcode will override this.
 
 ---
 
@@ -392,17 +417,9 @@ The WordPress plugin uses Hi, Moose's Podcast Generator:
 
 - **Direct control**: Generate and customize in Hi, Moose dashboard
 - **More options**: Advanced voice selection, tone adjustment
-- **Embed codes**: Get custom embed codes for manual placement
+- **Embed codes**: Get custom embed code for copy/paste placement
 
 See the [Podcast Generator](../features/podcast-generator.md) documentation for full feature details.
-
-### Brand Voice
-
-Customize how podcasts sound:
-
-- Set your brand's tone and style in Hi, Moose
-- Podcasts will match your brand voice automatically
-- See [Brand Voice Settings](../brand-voice.md) for configuration
 
 ---
 
@@ -411,55 +428,44 @@ Customize how podcasts sound:
 ### Getting Help
 
 **Plugin issues:**
+
 - Check WordPress.org plugin support forum
 - Search common issues in FAQ section
 - Contact Hi, Moose support
 
 **Feature requests:**
+
 - Submit ideas on [wordpress.org/plugins/listen-to-this-article](https://wordpress.org/plugins/listen-to-this-article/)
 - Vote on existing feature requests
 - Join Hi, Moose community discussions
 
 **Hi, Moose account issues:**
+
 - Email support@himoose.com
-- Check Hi, Moose settings and documentation
 - Verify subscription and credits
 
 ### Useful Links
 
-- **Plugin page**: [wordpress.org/plugins/listen-to-this-article](https://wordpress.org/plugins/listen-to-this-article/)
+- **Listen to this Article - Text to Speech WordPress Plugin page**: [wordpress.org/plugins/listen-to-this-article](https://wordpress.org/plugins/listen-to-this-article/)
 - **Hi, Moose dashboard**: [himoose.com/dashboard](https://himoose.com/dashboard)
 - **Podcast Generator docs**: [Podcast Generator](../features/podcast-generator.md)
-- **Support**: support@himoose.com
 
 ---
 
 ## FAQ
 
 **Q: Does this work with Gutenberg?**  
-A: Yes! The plugin works with Gutenberg, Classic Editor, and most page builders.
+A: Yes! The plugin works with Gutenberg (Block Editor), Classic Editor, and most page builders.
 
 **Q: Are audio files hosted on my server?**  
 A: No, audio is hosted by Hi, Moose. This saves your server storage and bandwidth.
 
-**Q: Can I download the audio files?**  
-A: Yes, both you and your visitors can download the MP3 files if enabled.
-
 **Q: Does this affect my site speed?**  
-A: No, audio is loaded on-demand. The player is lightweight and doesn't slow page loads.
-
-**Q: Can I use custom voices?**  
-A: Yes! Generate custom podcasts in Hi, Moose with your preferred voices, then embed using shortcode.
+A: No, audio is loaded on-demand and the player size is minimal. 
 
 **Q: How much does it cost?**  
-A: The WordPress plugin is **free**. Podcast generation uses your Hi, Moose plan credits.
-
-**Q: Can I generate podcasts for old posts?**  
-A: Absolutely! Use bulk generation to add audio to existing content.
-
-**Q: Does it work with WooCommerce?**  
-A: Yes, you can generate podcasts for product descriptions if enabled in settings.
+A: The WordPress plugin is **free**. Podcast generation uses AI tokens, or podcast generation credits if you're on the Free or BYOK plans.
 
 ---
 
-**Ready to make your content more accessible?** Install the plugin from [WordPress.org](https://wordpress.org/plugins/listen-to-this-article/) and start generating podcasts today!
+**Ready to make your content even more engaging?** Install the plugin from [WordPress.org](https://wordpress.org/plugins/listen-to-this-article/) and start generating podcasts.
