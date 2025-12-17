@@ -89,11 +89,13 @@ Once saved, return to your project and click **Webflow Content Manager** in the 
    - **Live** tab: Currently published version
 
 **To edit Draft (recommended)**:
+
 1. Select the **Draft** tab.
 2. Edit any field: plain text, rich text, images, etc.
 3. Click **Save Draft**. Your changes are staged but not live yet.
 
 **To edit Live directly**:
+
 1. Select the **Live** tab.
 2. Edit fields.
 3. Click **Save Live**. Changes go live **immediately** for this item.
@@ -163,6 +165,7 @@ When you're done editing collection items and page metadata, it's time to push e
 5. Hi, Moose sends a publish request to Webflow. This takes a few seconds.
 
 **What gets published**:
+
 - All staged collection items
 - All page metadata changes
 - Any other changes in your Webflow site (even if you made them in Webflow Designer)
@@ -205,6 +208,7 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 **Why**: Your project doesn't have a Webflow API key or Site ID saved yet.
 
 **Fix**:
+
 - Click **Go to Project Settings**.
 - Enter your Webflow API Key and Site ID.
 - Save the project.
@@ -217,6 +221,7 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 **Why**: Your API key doesn't have all the necessary scopes.
 
 **Fix**:
+
 1. Go to [Webflow Dashboard](https://webflow.com/dashboard/workspace/sites) → Workspace Settings → Integrations → API Access.
 2. Delete your old token.
 3. Create a new token with these permissions:
@@ -234,6 +239,7 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 **Why**: The collection or page may have been deleted in Webflow.
 
 **Fix**:
+
 - Click **Refresh** to reload the latest data from Webflow.
 - If the item was deleted in Webflow, it won't appear here.
 
@@ -244,6 +250,7 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 **Why**: Network issue, invalid data, or Webflow API rate limit.
 
 **Fix**:
+
 - Check your internet connection.
 - Make sure all required fields are filled in (look for * markers).
 - If you're making many rapid changes, wait 10–20 seconds and try again (Webflow rate limits apply).
@@ -256,6 +263,7 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 **Why**: You're on the Free plan or one or more of our AI service providers are temporarily unavailable.
 
 **Fix**:
+
 - If you're on the Free plan, consider upgrading to Pain plan to unlock AI features.
 - If you're a team member, ask the project owner to upgrade.
 - If you're on a Paid plan, it's like the AI service is unavailable. Give it a few minutes, refresh and try again. If you continue to have issues after 30 minutes, please contact Hi, Moose Support.
@@ -267,6 +275,7 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 **Why**: You saved to **Draft**, but didn't click **Publish Site** yet.
 
 **Fix**:
+
 - Go to the **Publish** tab.
 - Click **Publish Site**.
 - Wait a few seconds for Webflow to rebuild your site.
@@ -279,6 +288,7 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 **Why**: You edited or deleted a Webflow dynamic field variable (like `{post-title}`) in a page metadata field.
 
 **Fix**:
+
 - Look for the simplified variable in your text (e.g., `{post-title}`).
 - Make sure the variable name is exactly as it was originally.
 - You can edit text *around* the variable, but don't rename or delete the variable itself.
@@ -291,6 +301,7 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 **Why**: Webflow's publish process can take 30–60 seconds for large sites (especially if you have many pages or CMS items).
 
 **Fix**:
+
 - Wait patiently. Don't close the modal or refresh the page.
 - If it takes longer than 2 minutes, check [Webflow's status page](https://status.webflow.com/) for outages.
 - Try publishing directly in Webflow Designer to confirm the issue isn't site-specific.
@@ -302,6 +313,7 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 **Why**: This is intentional—the modal stays open so you can make multiple edits without reopening it each time.
 
 **Fix**:
+
 - Click the **X** or **Cancel** button to close manually when you're done.
 
 ---
@@ -311,6 +323,7 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 **Why**: Hi, Moose caches data to speed up loading. If the cache is stale, the first load may be slow. 
 
 **Fix**:
+
 - Click **Refresh** (with the spinning icon) to force a fresh fetch from Webflow.
 - Subsequent loads will be faster as the cache updates.
 - If it's still slow, check your Webflow site. Sites with 1,000+ pages may take longer to load.
@@ -340,6 +353,7 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 ### Does "Publish Site" only publish my Hi, Moose edits?
 
 No. **Publish Site** publishes **everything** that's staged in Webflow—including:
+
 - Hi, Moose edits (collection items, page metadata)
 - Changes made in Webflow Designer
 - Any unpublished changes from other integrations
@@ -389,6 +403,7 @@ Click **Refresh** to fetch fresh data from Webflow. This bypasses the cache.
 ### Can team members use the Webflow Content Manager?
 
 Yes. Team members inherit the project owner's subscription tier:
+
 - **Free plan**: Team members can view, edit, and publish collections/pages.
 - **Paid and BYOK plan**: Team members can view, edit, publish, and use AI features.
 
@@ -407,6 +422,7 @@ Also, some image fields are read-only.
 ### Does this replace the Webflow Designer?
 
 No. The Webflow Content Manager is for **content and metadata editing only**. You still need the Webflow Designer for:
+
 - Visual design and layout changes
 - Adding/removing page sections
 - Creating new collections, fields, or pages
@@ -422,6 +438,7 @@ Think of Hi, Moose as a **content management layer** on top of Webflow—optimiz
 Webflow's API has rate limits (60 requests per minute for most endpoints). If you're editing many items rapidly, you may hit this limit.
 
 **Fix**:
+
 - Wait 60 seconds, then try again.
 - Slow down your editing pace.
 - If you need to update hundreds of items, spread the work over multiple sessions or consider exporting your Collections data from Webflow to CSV, make edits to the CSV, and manually import to update. Note, this is a Webflow feature, not Hi, Moose.
