@@ -2,11 +2,11 @@
 
 ## What This Helps You Do
 
-The Webflow Content Manager lets you edit your Webflow CMS collections and page metadata directly in Hi, Moose—without opening the Webflow Designer. 
+The Webflow Content Manager lets you edit your Webflow CMS collections and page metadata directly in Hi, Moose without opening the Webflow Designer. 
 
 You get AI-powered suggestions for titles, descriptions, and content fields, so you can optimize for SEO and AI Overviews faster. This is especially useful if you're managing dozens (or hundreds) of blog posts, products, or landing pages.
 
-Unlike the Webflow Designer, you see **Draft** and **Live** versions side-by-side, so you can edit staged content or directly update published pages. When you're ready, you can **Publish Site** to push all changes live at once.
+You see **Draft** and **Live** versions side-by-side, so you can edit staged content or directly update published pages. When you're ready, you can **Publish Site** to push all changes live at once.
 
 ---
 
@@ -26,6 +26,7 @@ This tool is **not** for visual design changes (layouts, styling, components). F
 ### What You Need
 
 1. **Webflow API Key** with these permissions:
+
    - **Sites** → Read and Write
    - **CMS** → Read and Write (required for Collections)
    - **Pages** → Read and Write (required for page metadata)
@@ -33,13 +34,13 @@ This tool is **not** for visual design changes (layouts, styling, components). F
 
    To create an API key: Go to your [Webflow Dashboard](https://webflow.com/dashboard/workspace/sites) → Workspace Settings → Integrations → API Access → Create New Token.
 
-2. **Webflow Site ID**: You can find this in your Webflow site settings URL (e.g., `https://webflow.com/dashboard/sites/YOUR_SITE_ID/general`).
+2. **Webflow Site ID (we will automatically pull this)**: We will likely automatically pull this and you just need to select it from the drop down select field.
 
 3. **Hi, Moose project**: Create or open a project where you want to connect Webflow.
 
 4. **Subscription tier**:
-   - **Free**: View collections and pages only.
-   - **Starter, Growth, Enterprise**: Full editing + AI suggestions.
+   - **Free**: Full access to Webflow Content Manager without AI capabilities.
+   - **Paid Plans and BYOK users**: Full editing + AI suggestions.
 
 ### Important Notes
 
@@ -63,13 +64,13 @@ This tool is **not** for visual design changes (layouts, styling, components). F
 
 The platform field will automatically be set to "Webflow" so the Webflow menu item appears.
 
-Once saved, return to your project and click **Webflow Content Manager** in the left menu.
+Once saved, return to your project and click **Webflow Content Manager** in the left menu. If you do not see this in the navigation, then refresh page.
 
 ---
 
 ### 2. Edit Collection Items (Blog Posts, Products, etc.)
 
-**What are collections?** Collections are your CMS content types in Webflow—like blog posts, products, team members, or case studies.
+**What are collections?** Collections are your CMS content types in Webflow like blog posts, products, team members, or case studies.
 
 #### View and Filter Collections
 
@@ -104,7 +105,7 @@ Once saved, return to your project and click **Webflow Content Manager** in the 
 3. Review the suggestion and click **Accept** to use it, or keep typing to adjust.
 4. The field will show a blue "AI-modified" indicator. You can click **Undo** to revert.
 
-**Note**: AI suggestions require a paid plan (Starter+). Free users can edit manually.
+**Note**: AI suggestions require a paid plan. Free users can edit manually.
 
 #### Create a New Item
 
@@ -131,25 +132,18 @@ Once saved, return to your project and click **Webflow Content Manager** in the 
 
 1. Click **Edit Metadata** (pen icon) next to any page.
 2. A modal opens with these fields:
-   - **SEO Title**: The `<title>` tag for search engines.
+   - **SEO Title**: The `<title>` tag.
    - **Meta Description**: The meta description shown in search results.
    - **Open Graph Title**: Title shown when shared on social media.
    - **Open Graph Description**: Description shown on social shares.
-   - **Open Graph Image**: URL for the social share image (paste a URL).
 
 3. Edit any field manually, or use **AI Suggest** (sparkle icon) to generate optimized copy based on page content.
 
 **For static pages**: Hi, Moose can read your page content to generate suggestions.  
-**For collection template pages**: Suggestions are based on the template structure (e.g., `{post-title}` variable).
+**For collection template pages**: Suggestions are based on content already in fields.
 
 4. Click **Save Metadata**. Changes are staged (draft).
 5. Click **Publish Site** later to make them live.
-
-#### About Webflow Variables
-
-If your page uses Webflow dynamic fields (like `{post-title}` or `{name}`), Hi, Moose shows them in simplified form: `{post-title}`.
-
-**Do not rename or delete these variables**. You can edit the text around them, but keep the variable names intact. If you accidentally modify one, you'll see an error when saving.
 
 #### Publish vs. Save
 
@@ -192,17 +186,15 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 
 1. **Edit drafts, then publish**: Always edit the **Draft** version first so you can review changes before they go live. Use the **Live** tab only for urgent fixes.
 
-2. **Use AI for bulk optimization**: If you're updating 50 blog posts, let AI suggest meta descriptions—it's faster than writing them manually. Review each one, then save.
+2. **Use AI for bulk optimization**: If you're updating 50 blog posts, optionally let AI suggest meta descriptions—it's faster than writing them manually. Review each one closely however, watch for errors or hallcuinations from AI responses, then save.
 
-3. **Check variables before saving**: On collection template pages, make sure you don't accidentally delete Webflow variables like `{post-title}`. Hi, Moose will warn you if you do.
+3. **Check variables before saving**: On collection template pages, make sure you don't accidentally delete Webflow variables like `{post-title}`. 
 
-4. **Refresh when needed**: If you (or a teammate) made changes in Webflow Designer, click **Refresh** in Hi, Moose to sync the latest data.
+4. **Publish at the end**: Edit multiple items/pages, then publish once. This is faster and safer than publishing after every change.
 
-5. **Publish at the end**: Edit multiple items/pages, then publish once. This is faster and safer than publishing after every change.
+5. **Use search and filters**: If you have hundreds of items, use the search bar to find specific ones. You can also sort by name or date.
 
-6. **Use search and filters**: If you have hundreds of items, use the search bar to find specific ones. You can also sort by name or date.
-
-7. **Team permissions**: If you're a team member (not the project owner), you'll inherit the owner's subscription tier for AI features. Admins can edit; viewers can only view.
+6. **Team permissions**: If you're a team member (not the project owner), you'll inherit the owner's subscription tier for AI features.
 
 ---
 
@@ -239,10 +231,9 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 
 ### 3. Collection or page not found
 
-**Why**: The collection or page may have been deleted in Webflow, or the Site ID is incorrect.
+**Why**: The collection or page may have been deleted in Webflow.
 
 **Fix**:
-- Verify your **Site ID** in project settings.
 - Click **Refresh** to reload the latest data from Webflow.
 - If the item was deleted in Webflow, it won't appear here.
 
@@ -262,11 +253,12 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 
 ### 5. AI suggestions not working ("Upgrade to use AI features")
 
-**Why**: You're on the Free plan, or you're a team member and the project owner is on Free.
+**Why**: You're on the Free plan or one or more of our AI service providers are temporarily unavailable.
 
 **Fix**:
-- Upgrade to **Starter, Growth, or Enterprise** to unlock AI features.
+- If you're on the Free plan, consider upgrading to Pain plan to unlock AI features.
 - If you're a team member, ask the project owner to upgrade.
+- If you're on a Paid plan, it's like the AI service is unavailable. Give it a few minutes, refresh and try again. If you continue to have issues after 30 minutes, please contact Hi, Moose Support.
 
 ---
 
@@ -316,12 +308,12 @@ Changes appear in Webflow immediately after saving/publishing—no need to re-ex
 
 ### 10. Slow performance when loading collections or pages
 
-**Why**: Hi, Moose caches data to speed up loading. If the cache is stale, the first load may be slow.
+**Why**: Hi, Moose caches data to speed up loading. If the cache is stale, the first load may be slow. 
 
 **Fix**:
 - Click **Refresh** (with the spinning icon) to force a fresh fetch from Webflow.
 - Subsequent loads will be faster as the cache updates.
-- If it's still slow, check your Webflow site—sites with 1,000+ pages may take longer to load.
+- If it's still slow, check your Webflow site. Sites with 1,000+ pages may take longer to load.
 
 ---
 
@@ -356,39 +348,11 @@ It's a site-wide publish, not a selective publish.
 
 ---
 
-### How are AI suggestions generated?
-
-For **collection items**: Hi, Moose analyzes the item's existing fields (title, content, description) and generates contextually relevant copy.
-
-For **static pages**: Hi, Moose fetches the page HTML, extracts headings and text, and suggests metadata based on that content.
-
-For **collection template pages**: Suggestions are based on the template structure and dynamic fields (like `{post-title}`).
-
-AI uses your page context to generate copy optimized for search engines and AI Overviews—not generic templates.
-
----
-
 ### Is my Webflow API key secure?
 
-Yes. Your API key is **encrypted** before being stored in Firestore. Hi, Moose decrypts it only when making requests to Webflow on your behalf. It's never exposed in the browser or shared with third parties.
+Yes. Your API key is **encrypted** before being stored. It's never exposed in the browser or shared with third parties beyond Webflow.
 
 You can rotate your API key anytime in Webflow, then update it in Hi, Moose project settings.
-
----
-
-### Can I edit multiple items at once?
-
-Not yet. Currently, you edit one item or page at a time. Bulk editing is planned for a future release.
-
-**Workaround**: Use AI suggestions to speed up optimization. Click **AI Suggest** for each field, review, save, move to next item.
-
----
-
-### Can I create new collections or pages?
-
-You can **create new collection items** (e.g., add a new blog post to your Blog collection), but you **cannot create new collections or pages** from Hi, Moose.
-
-To create new collections or static pages, use the Webflow Designer.
 
 ---
 
@@ -425,25 +389,8 @@ Click **Refresh** to fetch fresh data from Webflow. This bypasses the cache.
 ### Can team members use the Webflow Content Manager?
 
 Yes. Team members inherit the project owner's subscription tier:
-- **Free tier**: Team members can view collections/pages but not edit.
-- **Paid tiers**: Team members can edit and use AI features.
-
-**Note**: Only the project owner can update the Webflow API key in project settings. Team members (including admins) cannot see or change the API key.
-
----
-
-### What if I make a mistake?
-
-- **Before publishing**: Just edit the Draft again and fix the mistake. Then publish.
-- **After publishing**: Edit the Live version to fix the mistake, save, then publish again.
-
-There's no "version history" in Hi, Moose. For safety, consider taking screenshots before big changes, or use Webflow's backup feature.
-
----
-
-### Can I schedule publishes?
-
-Not yet. You have to manually click **Publish Site** when you're ready. Scheduled publishing is planned for a future update.
+- **Free plan**: Team members can view, edit, and publish collections/pages.
+- **Paid and BYOK plan**: Team members can view, edit, publish, and use AI features.
 
 ---
 
@@ -452,6 +399,8 @@ Not yet. You have to manually click **Publish Site** when you're ready. Schedule
 Some fields in Webflow are system-managed (like **Created On**, **ID**, **Slug**). You can't edit these—even in Webflow Designer.
 
 If a custom field appears read-only, check its field settings in Webflow. It may be set to "Generated" or "Read-only."
+
+Also, some image fields are read-only.
 
 ---
 
@@ -475,7 +424,7 @@ Webflow's API has rate limits (60 requests per minute for most endpoints). If yo
 **Fix**:
 - Wait 60 seconds, then try again.
 - Slow down your editing pace.
-- If you need to update hundreds of items, spread the work over multiple sessions.
+- If you need to update hundreds of items, spread the work over multiple sessions or consider exporting your Collections data from Webflow to CSV, make edits to the CSV, and manually import to update. Note, this is a Webflow feature, not Hi, Moose.
 
 Hi, Moose automatically retries failed requests with exponential backoff, so most rate limit issues are temporary.
 
@@ -489,4 +438,4 @@ Hi, Moose automatically retries failed requests with exponential backoff, so mos
 
 ---
 
-**Still stuck?** Check the [Support](https://www.himoose.com/contact) page or email support@himoose.com. Include your project ID and a screenshot of the error for faster help.
+**Still stuck?** Check the [Support](https://www.himoose.com/contact) page or email support@himoose.com. Include your detailed information and a screenshot of the error, when possible, for faster help.
