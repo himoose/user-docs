@@ -48,6 +48,7 @@ This whitelists your domain so only your website can play the audio files.
 ### 3. Choose voices
 
 **Host Voice** and **Guest Voice**:
+
 - Select different voices from the dropdown menus
 - Click the play button (▶) next to each dropdown to preview voices
 - Host and Guest must use different voices
@@ -58,6 +59,7 @@ This whitelists your domain so only your website can play the audio files.
 ### 4. Set podcast length
 
 **Podcast Length** dropdown:
+
 - **Short (4-5 minutes)** — Best for news, quick updates, summaries
 - **Standard (8-10 minutes)** — Best for full articles, detailed content
 
@@ -66,6 +68,7 @@ Actual length depends on your article's word count.
 ### 5. Choose language (SEO Mode only)
 
 **Language** dropdown:
+
 - **Auto-detect from article (recommended)** — Hi, Moose detects the article's language
 - Or select a specific language from 24+ options
 
@@ -76,11 +79,13 @@ The generated script and audio will match the selected language. Speaker labels 
 Choose between **Basic Customization** or **Advanced Customization**:
 
 #### Basic Customization
+
 - **Basic Instructions** field: Provide simple directions for the conversation
 - Example: _"Focus on the key benefits for small businesses"_
 - Example: _"Emphasize the technical aspects and implementation details"_
 
 #### Advanced Customization
+
 More granular control over the conversation:
 
 - **Host Direction**: How the host should sound (e.g., _"Friendly, confident, and curious"_)
@@ -98,11 +103,13 @@ All advanced fields are optional. Only fill in what you need.
 **Player Customization** section:
 
 **Colors**:
+
 - **Primary Color**: Main player color (click color picker or enter hex code)
 - **Secondary Color (Gradient)**: Creates gradient effect with primary color
 - Default colors: Purple gradient (#667eea to #764ba2)
 
 **Title settings**:
+
 - Toggle **Show title above player** on/off
 - When enabled, optionally enter **Custom Title** (or leave blank to use article title)
 - Example custom title: _"Listen to this article as a podcast"_
@@ -114,6 +121,7 @@ All advanced fields are optional. Only fill in what you need.
 Click **Generate Podcast** button.
 
 **What happens next**:
+
 - Status shows: ⏳ **Pending** → ⚙️ **Processing** → ✅ **Ready**
 - Processing typically takes 5-10 minutes
 - You'll see estimated token cost breakdown
@@ -130,32 +138,37 @@ When status shows ✅ **Ready**:
 ### 10. Embed on your website
 
 **WordPress**:
-1. We highly recommend using the Hi, Moose WordPress plugin at https://wordpress.org/plugins/listen-to-this-article/, but it's optional.
+
+1. We highly recommend using the Hi, Moose WordPress plugin at [https://wordpress.org/plugins/listen-to-this-article/](https://wordpress.org/plugins/listen-to-this-article/), but it's optional.
 2. When not using the WordPress plugin, edit your article in WordPress.
 3. Switch to "HTML" or "Code" view.
 4. Paste the embed code where you want the player.
 5. Update/Publish the article.
 
 **Webflow**:
+
 1. Add a "Code Embed" element to your page.
 2. Paste the podcast embed code into the "Code Embed Editor - Custom Code:" textarea.
 3. Publish your site.
 
 **Other platforms (Shopify, Ghost, Squarespace, Wix, or custom)**:
-- Find the HTML/Code Editor: Edit the page or article where you want the player. Look for an option to add or edit HTML. This might be labeled as “Source Code”, “Code View”, “HTML”, or represented by a </> icon.
+
+- Find the HTML/Code Editor: Edit the page or article where you want the player. Look for an option to add or edit HTML. This might be labeled as “Source Code”, “Code View”, “HTML”, or represented by a code icon (slash-angle-bracket).
 - Paste the full embed code (including script tags) into the HTML/Code Editor.
 - Save and publish
 
-📝 Note: The exact steps vary by platform, but the core concept remains the same: find where you can add custom HTML and paste the embed code. If you're unsure, consult your CMS's documentation for “embedding custom HTML” or “adding custom code.” You can also reach out to <a href="https://app.himoose.com/support">Hi, Moose support here</a>.
+📝 Note: The exact steps vary by platform, but the core concept remains the same: find where you can add custom HTML and paste the embed code. If you're unsure, consult your CMS's documentation for "embedding custom HTML" or "adding custom code." You can also reach out to [Hi, Moose support here](https://app.himoose.com/support).
 
 ## What you get (outputs)
 
 ### Audio file
+
 - MP3 format, high-quality (128kbps)
 - Hosted on CDN (fast loading worldwide)
 - Domain-whitelisted (only plays on your website and himoose.com)
 
 ### Embed code
+
 - Fully functional audio player with controls
 - Transcript included (collapsible "View Transcript" section)
 - Responsive design (works on mobile, tablet, desktop)
@@ -163,6 +176,7 @@ When status shows ✅ **Ready**:
 - "Powered by Hi, Moose" attribution
 
 ### Player features
+
 - Play/Pause controls
 - Seek bar with progress indicator
 - Playback speed control (0.5x to 2.0x)
@@ -173,29 +187,34 @@ When status shows ✅ **Ready**:
 ## Tips for best results
 
 ### Content preparation
+
 - **Use well-structured articles** with clear headings and paragraphs
 - **Irrelevant sections** Hi, Moose automatically focuses on the body of your content and attempts to ignore navigation, ads, and sidebars. Worst case scenario, you can give a URL version of your content that excludes the non-core content and our crawler should pick it up.
 - **Ensure content is public** — Hi, Moose can't access password-protected pages
 - **Keep it focused** — 800-3000 words is the sweet spot
 
 ### Voice selection
+
 - **Test multiple voice combinations** — preview voices before generating
 - **Match voices to brand** — formal content = professional voices; casual content = relaxed voices
 - **Consider your audience** — regional preferences may matter for accent direction
 
 ### Customization strategy
+
 - **Start with Basic Customization** for most articles
 - **Use Advanced Customization** when you need specific tone/style control
 - **Be specific in directions** — _"enthusiastic and upbeat"_ is better than _"good"_
 - **Test with one article first** before generating in bulk
 
 ### Player placement
+
 - **Place player near the top** of articles for maximum visibility
 - **Test on mobile** — ensure player doesn't break responsive layout
 - **Keep default colors** if unsure — they work well on most sites
 - **Use custom title** to add context (e.g., "Listen while you work")
 
 ### Token management
+
 - **Shorter podcasts use fewer tokens** — use "Short" length when appropriate
 - **Preview estimated tokens** before generating
 - Each podcast shows token breakdown: base fee + script + audio generation
@@ -206,6 +225,7 @@ When status shows ✅ **Ready**:
 ## Troubleshooting
 
 ### ❌ "Domain Required" error
+
 **Problem**: You haven't set your website domain yet.
 
 **Fix**:
@@ -216,6 +236,7 @@ When status shows ✅ **Ready**:
 ---
 
 ### ❌ "Failed to extract content" error
+
 **Problem**: Hi, Moose couldn't access or parse your article.
 
 **Fix**:
@@ -228,6 +249,7 @@ When status shows ✅ **Ready**:
 ---
 
 ### ❌ "Host and Guest voices must be different"
+
 **Problem**: You selected the same voice for both speakers.
 
 **Fix**:
@@ -237,10 +259,11 @@ When status shows ✅ **Ready**:
 ---
 
 ### ❌ Player not showing on website
+
 **Problem**: Embed code pasted incorrectly or blocked by platform.
 
 **Fix**:
-- Make sure you pasted the FULL embed code (including `<script>` tags)
+- Make sure you pasted the FULL embed code (including script tags)
 - Confirm your CMS did not strip anything out. WordPress may do this if you toggle between "Visual" and "Code" tabs in the Classic Editor. We highly recommend using the WordPress plugin in this case.
 - Switch to HTML/Code view (not visual editor) when pasting
 - Check your platform allows custom HTML/scripts
@@ -250,6 +273,7 @@ When status shows ✅ **Ready**:
 ---
 
 ### ❌ "Content is too large" error
+
 **Problem**: Article exceeds token limits (very long content).
 
 **Fix**:
@@ -261,6 +285,7 @@ When status shows ✅ **Ready**:
 ---
 
 ### ❌ Podcast sounds robotic or unnatural
+
 **Problem**: Generated audio doesn't sound conversational.
 
 **Fix**:
@@ -273,6 +298,7 @@ When status shows ✅ **Ready**:
 ---
 
 ### ⏳ Generation taking too long
+
 **Problem**: Status stuck on "Processing" for 15+ minutes.
 
 **Fix**:
@@ -285,6 +311,7 @@ When status shows ✅ **Ready**:
 ---
 
 ### 🔊 Audio not playing on website
+
 **Problem**: Player loads but won't play audio.
 
 **Fix**:
@@ -297,6 +324,7 @@ When status shows ✅ **Ready**:
 ---
 
 ### 🎨 Player colors don't match preview
+
 **Problem**: Colors look different on your website.
 
 **Fix**:
@@ -308,23 +336,27 @@ When status shows ✅ **Ready**:
 ---
 
 ### 📱 Player breaks on mobile
+
 **Problem**: Player doesn't display correctly on phones/tablets.
 
 **Fix**:
 - Player is responsive by default — check for CSS conflicts on your site
-- Don't wrap player in narrow containers (<300px width)
+- Don't wrap player in narrow containers (less than 300px width)
 - Test on actual devices, not just browser dev tools
 - Check your theme's mobile CSS isn't overriding player styles
 
 ## FAQs
 
 ### How long does podcast generation take?
+
 Typically 5-10 minutes. Longer articles with more complex customization may take up to 10-15 minutes. You can leave the page and generation continues in background. Podcasts are available to access from the History tab.
 
 ### Can I edit the podcast after it's generated?
+
 No, but you can regenerate with different instructions and settings. Click **Create a New Podcast** when generation completes.
 
 ### How many podcasts can I generate?
+
 - **Free plan**: Limited lifetime podcasts (check your plan details)
 - **Paid plans**: Unlimited but based on token usage allowance per plan
 - **BYOK plans**: Monthly podcast limit (check Settings)

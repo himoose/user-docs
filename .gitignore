@@ -27,3 +27,6 @@ Thumbs.db
 
 # Dependencies
 node_modules/
+
+# Project-specific ignores
+README-SAM.md
