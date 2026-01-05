@@ -130,21 +130,23 @@ When status shows ✅ **Ready**:
 ### 10. Embed on your website
 
 **WordPress**:
-1. We highly recommend using the WordPress plugin at https://wordpress.org/plugins/listen-to-this-article/, but it's optional
-2. When not using the WordPress plugin, edit your article in WordPress
-3. Switch to "HTML" or "Code" view
-4. Paste the embed code where you want the player
-5. Update/Publish the article
+1. We highly recommend using the Hi, Moose WordPress plugin at https://wordpress.org/plugins/listen-to-this-article/, but it's optional.
+2. When not using the WordPress plugin, edit your article in WordPress.
+3. Switch to "HTML" or "Code" view.
+4. Paste the embed code where you want the player.
+5. Update/Publish the article.
 
 **Webflow**:
-1. Add a "Code Embed" element to your page
-2. Paste the embed code
-3. Publish your site
+1. Add a "Code Embed" element to your page.
+2. Paste the podcast embed code into the "Code Embed Editor - Custom Code:" textarea.
+3. Publish your site.
 
-**Other platforms**:
-- Look for "Custom HTML" or "Embed Code" blocks
-- Paste the full embed code (including script tags)
+**Other platforms (Shopify, Ghost, Squarespace, Wix, or custom)**:
+- Find the HTML/Code Editor: Edit the page or article where you want the player. Look for an option to add or edit HTML. This might be labeled as “Source Code”, “Code View”, “HTML”, or represented by a </> icon.
+- Paste the full embed code (including script tags) into the HTML/Code Editor.
 - Save and publish
+
+📝 Note: The exact steps vary by platform, but the core concept remains the same: find where you can add custom HTML and paste the embed code. If you're unsure, consult your CMS's documentation for “embedding custom HTML” or “adding custom code.” You can also reach out to <a href="https://app.himoose.com/support">Hi, Moose support here</a>.
 
 ## What you get (outputs)
 
