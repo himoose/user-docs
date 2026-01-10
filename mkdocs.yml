@@ -97,6 +97,7 @@ nav:
   - Analysis & Monitoring:
       - Topical Authority Builder: features/topical-authority.md
       - LLM Beacon (Brand Visibility): features/llm-beacon.md
+      - AEO Scoring Methodology: features/aeo-scoring-methodology.md
   - Integrations:
       - WordPress: integrations/wordpress.md
       - Webflow: integrations/webflow.md
