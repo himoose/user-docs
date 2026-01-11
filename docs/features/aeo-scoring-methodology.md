@@ -10,7 +10,7 @@ Your AEO score (0--100) estimates how likely a page is to be:
 -   Extracted into concise answers (quotable snippets, definitions, step lists)
 -   Selected as a trustworthy, citable source for answers
 
-We compute an overall score plus a category breakdown, then generate targeted recommendations based on the lowest-impact areas.
+We compute an overall score plus a category breakdown, then generate targeted recommendations based on the lowest-scoring categories (the highest-opportunity areas).
 
 ### Inputs we analyze (high level)
 
