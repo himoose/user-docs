@@ -6,6 +6,18 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [
+      {
+        "source": "/features/podcast-generator",
+        "destination": "/features/listen-to-this-article",
+        "type": 301
+      },
+      {
+        "source": "/features/podcast-generator/**",
+        "destination": "/features/listen-to-this-article/**",
+        "type": 301
+      }
+    ],
     "cleanUrls": true,
     "trailingSlash": false
   }

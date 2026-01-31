@@ -24,7 +24,6 @@ theme:
         name: Switch to dark mode
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
       primary: indigo
       accent: indigo
       toggle:
@@ -93,7 +92,7 @@ nav:
       - Versus Pages: features/versus-pages.md
       - FAQ Generator: features/faq-generator.md
       - Key Points Extractor: features/key-points.md
-      - Podcast Generator: features/podcast-generator.md
+      - Listen to this Article (Generator & Player): features/listen-to-this-article.md
   - Analysis & Monitoring:
       - Topical Authority Builder: features/topical-authority.md
       - LLM Beacon (Brand Visibility): features/llm-beacon.md

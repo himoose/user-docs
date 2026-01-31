@@ -210,7 +210,7 @@ By seeing **what AI says when you're NOT mentioned**, you can:
 - **Track buyer-intent queries**: Focus on prompts potential customers would use when researching solutions
 - **Start with 2-3 platforms**: Conserve credits by tracking the most important platforms (AI Overview, Gemini, ChatGPT)
 - **Check competitors' prompts**: Add prompts where competitors are mentioned to understand their AI visibility strategy
-- **Publish content addressing the query topic**: If you're not mentioned, use the Hi, Moose AEO tools, Topic Authority Generator, Podcast Generator, FAQs, and Key Points, to optimize content for better AI visibility
+- **Publish content addressing the query topic**: If you're not mentioned, use the Hi, Moose AEO tools, Topic Authority Generator, Listen to this Article, FAQs, and Key Points, to optimize content for better AI visibility
 - **Run on-demand checks after publishing**: Published new content? Run a fresh check to see if AI picked it up
 - **Monitor weekly for trends**: Watch how visibility changes over weeks—this shows if your content strategy is working
 - **Study competitor citations**: See who's being mentioned and analyze their content to identify winning strategies

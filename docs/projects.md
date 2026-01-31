@@ -220,7 +220,7 @@ You can also select your project from the Projects drop-down select menu in the 
    - All competitor data and logos.
    - All comparison matrices and content.
    - All associated files and configurations.
-   - All generated podcasts and analytics data.
+   - All generated Listen to this Article audio and analytics data.
 
 5. **Type the project name** exactly as shown (e.g., "Acme Corp Website") in the confirmation field.
 6. Click **Delete Project**.
@@ -415,7 +415,7 @@ Yes. Click **Edit** (pen icon) on the project card, change the **Project Name**,
 - All competitor data and logos.
 - All comparison matrices and content.
 - All brand voice settings and documents.
-- All generated podcasts and analytics.
+- All generated Listen to this Article audio and analytics.
 - All platform integrations (Webflow, WordPress).
 
 **Not deleted**:
@@ -522,7 +522,7 @@ In most cases you can, but not for all features. Before deleting:
 - **FAQs**: Export each as CSV.
 
 At the time of this writing, the following features do not currently have export capabilities:
-- **Podcasts**
+- **Listen to this Article audio**
 - **LLM Beacon**
 - **Topical Authority Audits**
 

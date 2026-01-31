@@ -46,3 +46,19 @@ span.size-8.flex.flex-row.justify-center.items-center:has(svg[viewBox="0 0 256 2
 .dark span.size-8.flex.flex-row.justify-center.items-center:has(svg[viewBox="0 0 256 256"]) {
     background-image: url("../assets/logo-light.svg");
 }
+
+/* Sidebar: allow multi-line nav items to have proper vertical padding.
+   The shadcn theme sets a fixed height (e.g. h-[30px]) on menu buttons, which
+   makes long labels like “Listen to this Article (Generator & Player)” look
+   cramped when they wrap to 2 lines. */
+div[data-slot="sidebar"] a[data-sidebar="menu-button"] {
+    height: auto !important;
+    min-height: 30px;
+    white-space: normal;
+    line-height: 1.25;
+}
+
+div[data-slot="sidebar"] a[data-sidebar="menu-button"][data-active="true"] {
+    padding-top: 0.65rem !important;
+    padding-bottom: 0.65rem !important;
+}

@@ -225,7 +225,7 @@ Your plan includes a monthly token allowance. See [Plans](https://www.himoose.co
 - AI features (content generation, AEO analysis, LLM Beacon checks) will stop working until:
   - Your usage resets next month.
   - You upgrade to a higher plan.
-  - You switch to BYOK and use your own API key. Keep in mind, there are some limitations with the BYOK plan if you're using the Podcast Generator as the BYOK plan allows for 15 podcast generations per month.
+   - You switch to BYOK and use your own API key. Keep in mind, there are some limitations with the BYOK plan if you're using Listen to this Article as the BYOK plan allows for 15 audio generations per month.
 
 **Warning at 75%**: You'll see a yellow alert when you hit 75% usage.  
 **Warning at 90%**: You'll see a red alert recommending an upgrade.
@@ -281,7 +281,7 @@ If you're on the **Free plan**, the **AI Services** section shows upgrade benefi
 - Brand voice & style guide control.
 - Unlimited content brief creation (based on AI token allowance)
 - Access to Topic Authority Builder
-- Podcast generation (free plans include a small lifetime amount)
+- Listen to this Article audio generation (free plans include a small lifetime amount)
 
 Click **View Upgrade Options** to see plan details and pricing.
 
@@ -456,7 +456,7 @@ No. Experience Mode is **personal**—each user sets their own. Team members can
 
 - You'll keep access to paid features until the end of your current billing period.
 - After that, you're downgraded to Free (or the tier you selected).
-- Your projects are preserved—however you may lose data beyond a certain amount of time. Be mindful if you are actively using the podcast generator with a player embedded on your site, because these will eventually become unplayable.
+- Your projects are preserved—however you may lose data beyond a certain amount of time. Be mindful if you are actively using Listen to this Article players embedded on your site, because these will eventually become unplayable.
 
 You can reactivate anytime by clicking **Manage Subscription**.
 

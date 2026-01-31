@@ -236,7 +236,7 @@ If an AI Overview exists for your query, you'll see:
 - **Test specific pages**: Analyze individual pages rather than entire sites—each page should have a clear target query
 - **Prioritize high-priority fixes first**: These have the biggest impact on AI visibility
 - **Copy-paste improvements carefully**: Review AI-generated rewrites to ensure they maintain your brand voice and accuracy
-- **Combine with other Hi, Moose tools**: Use FAQ Generator, Key Points, Podcast Generator features when improvements suggest adding those elements
+- **Combine with other Hi, Moose tools**: Use FAQ Generator, Key Points, and Listen to this Article when improvements suggest adding those elements
 - **Analyze URL mode for published content**: This captures dates, schema, and meta tags that paste mode can't see
 - **Use paste mode for iterative testing**: Make a fix, paste the updated content, re-analyze to see score changes
 - **Check Keyword Coverage for comprehensive content**: If Gemini's grounding queries reveal gaps, add sections addressing those topics

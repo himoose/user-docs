@@ -336,7 +336,7 @@ Yes, Hi, Moose supports 100+ languages. The AI will generate key points in the s
 ### What is semantic compression?
 Semantic compression is an AI technique that understands the meaning and context of your content to identify what's truly important. Unlike simple text summarization (which just shortens text), semantic compression analyzes relationships between ideas, identifies core concepts, and extracts insights that represent the essence of your content. This results in key points that capture real value, not just frequently mentioned topics.
 
-### Can I use this for video transcripts or podcasts?
+### Can I use this for video transcripts or audio?
 Yes, if you have a text transcript. Paste the transcript using the **Paste Content** tab. Key points work well for long-form transcripts.
 
 ### Where should I place key points on my webpage?

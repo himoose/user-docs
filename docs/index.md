@@ -15,7 +15,7 @@ Hi, Moose helps you optimize your content for AI-powered search engines like Cha
 - **[Versus Pages](features/versus-pages.md)** - Create comparison pages at scale (programmatic SEO)
 - **[FAQ Generator](features/faq-generator.md)** - Generate natural Q&A sections with schema markup, at scale
 - **[Key Points Extractor](features/key-points.md)** - Extract and generate semantically-compressed key points (TL;DRs) from long-form content, at scale
-- **[Podcast Generator](features/podcast-generator.md)** - Turn articles and blogs into crawlable firsthand conversational podcasts
+- **[Listen to this Article (Generator & Player)](features/listen-to-this-article.md)** - Turn articles into two-voice conversational audio with an embeddable player + transcript
 
 ### 📈 Monitoring & Analysis
 
@@ -25,7 +25,7 @@ Hi, Moose helps you optimize your content for AI-powered search engines like Cha
 ### 🔗 Integrations
 
 - **[Webflow](integrations/webflow.md)** - Direct Webflow CMS integration for content management
-- **[WordPress](integrations/wordpress.md)** - WordPress plugin for easy podcast audio + transcript embedding
+- **[WordPress](integrations/wordpress.md)** - WordPress plugin for easy “Listen to this Article” audio + transcript embedding
 
 ## Getting Started
 

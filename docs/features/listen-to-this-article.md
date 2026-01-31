@@ -1,10 +1,12 @@
-# How to Generate and Embed Podcasts in Hi, Moose
+# Listen to this Article: Generator & Player
+
+Generate two-voice conversational audio from any public article URL, then embed a branded player (with transcript) on your website.
 
 ## What this helps you do
 
-Turn any blog article or webpage into a two-person conversational podcast that your visitors can listen to. This increases content accessibility, improves engagement, and gives busy readers an audio alternative to reading.
+Turn any blog article or webpage into a two-person conversational audio experience that your visitors can listen to. This increases accessibility, improves engagement, and gives busy readers an audio alternative to reading.
 
-The podcast features natural conversation between two AI voices discussing your content, and you get a customizable player that matches your brand.
+Listen to this Article features a natural conversation between two AI voices discussing your content, plus a customizable player that matches your brand.
 
 ## When to use this
 
@@ -14,7 +16,7 @@ The podcast features natural conversation between two AI voices discussing your 
 - **Product announcements** — Reach audio-first audiences
 - **SEO content** — Add structured data and increase time-on-page metrics
 
-Best for articles between 800-3000 words. Shorter content may feel rushed; longer content should be split into multiple podcasts.
+Best for articles between 800-3000 words. Shorter content may feel rushed; longer content should be split into multiple audio episodes.
 
 ## Before you start (requirements)
 
@@ -56,9 +58,9 @@ This whitelists your domain so only your website can play the audio files.
 
 **Voice selection tip**: Choose contrasting voices (e.g., one deeper, one higher) for better listener experience.
 
-### 4. Set podcast length
+### 4. Set audio length
 
-**Podcast Length** dropdown:
+**Audio Length** dropdown:
 
 - **Short (4-5 minutes)** — Best for news, quick updates, summaries
 - **Standard (8-10 minutes)** — Best for full articles, detailed content
@@ -112,13 +114,13 @@ All advanced fields are optional. Only fill in what you need.
 
 - Toggle **Show title above player** on/off
 - When enabled, optionally enter **Custom Title** (or leave blank to use article title)
-- Example custom title: _"Listen to this article as a podcast"_
+- Example custom title: _"Listen to this article"_
 
 **Player Preview** updates in real-time as you adjust settings.
 
-### 8. Generate podcast
+### 8. Generate audio
 
-Click **Generate Podcast** button.
+Click **Generate**.
 
 **What happens next**:
 
@@ -131,7 +133,7 @@ Click **Generate Podcast** button.
 
 When status shows ✅ **Ready**:
 
-1. Preview your podcast using the player that appears
+1. Preview the audio using the player that appears
 2. Click **Copy Embed Code** button
 3. Paste the HTML code into your article (see installation steps below)
 
@@ -148,7 +150,7 @@ When status shows ✅ **Ready**:
 **Webflow**:
 
 1. Add a "Code Embed" element to your page.
-2. Paste the podcast embed code into the "Code Embed Editor - Custom Code:" textarea.
+2. Paste the player embed code into the "Code Embed Editor - Custom Code:" textarea.
 3. Publish your site.
 
 **Other platforms (Shopify, Ghost, Squarespace, Wix, or custom)**:
@@ -215,10 +217,10 @@ When status shows ✅ **Ready**:
 
 ### Token management
 
-- **Shorter podcasts use fewer tokens** — use "Short" length when appropriate
+- **Shorter audio uses fewer tokens** — use "Short" length when appropriate
 - **Preview estimated tokens** before generating
-- Each podcast shows token breakdown: base fee + script + audio generation
-- Free plan: Limited lifetime podcasts
+- Each generation shows token breakdown: base fee + script + audio generation
+- Free plan: Limited lifetime audio generations
 - Paid plans: Token-based usage
 - BYOK plan: The BYOK plan has a hard limit since the TTS model is using Hi, Moose keys for generation
 
@@ -277,14 +279,14 @@ When status shows ✅ **Ready**:
 **Problem**: Article exceeds token limits (very long content).
 
 **Fix**:
-- Split long articles into multiple shorter podcasts
+- Split long articles into multiple shorter audio episodes
 - Remove unnecessary sections (footnotes, references, author bios)
 - Use the "Short" length option
-- Typical limit: ~75,000 characters or ~100,000 tokens (most podcasts cost 10,000 to 20,000 tokens)
+- Typical limit: ~75,000 characters or ~100,000 tokens (most generations cost 10,000 to 20,000 tokens)
 
 ---
 
-### ❌ Podcast sounds robotic or unnatural
+### ❌ Audio sounds robotic or unnatural
 
 **Problem**: Generated audio doesn't sound conversational.
 
@@ -305,7 +307,7 @@ When status shows ✅ **Ready**:
 - Wait up to 20 minutes for long articles
 - Check "Estimated Token Cost" — very high tokens = longer processing
 - Refresh the page to check current status
-- If stuck 30+ minutes, generate a new podcast (click **Create a New Podcast**)
+- If stuck 30+ minutes, start a new generation (click **Create a New**)
 - Contact Support if issue persists
 
 ---
@@ -347,19 +349,19 @@ When status shows ✅ **Ready**:
 
 ## FAQs
 
-### How long does podcast generation take?
+### How long does audio generation take?
 
-Typically 5-10 minutes. Longer articles with more complex customization may take up to 10-15 minutes. You can leave the page and generation continues in background. Podcasts are available to access from the History tab.
+Typically 5-10 minutes. Longer articles with more complex customization may take up to 10-15 minutes. You can leave the page and generation continues in background. Audio episodes are available from the History tab.
 
-### Can I edit the podcast after it's generated?
+### Can I edit the audio after it's generated?
 
-No, but you can regenerate with different instructions and settings. Click **Create a New Podcast** when generation completes.
+No, but you can regenerate with different instructions and settings. Click **Create a New** when generation completes.
 
-### How many podcasts can I generate?
+### How many audio episodes can I generate?
 
-- **Free plan**: Limited lifetime podcasts (check your plan details)
+- **Free plan**: Limited lifetime audio generations (check your plan details)
 - **Paid plans**: Unlimited but based on token usage allowance per plan
-- **BYOK plans**: Monthly podcast limit (check Settings)
+- **BYOK plans**: Monthly audio generation limit (check Settings)
 
 ### What languages are supported?
 24+ languages including English, Spanish, French, German, Japanese, Chinese, Arabic, Hindi, and more. See the Language dropdown for full list.
@@ -368,7 +370,7 @@ No, but you can regenerate with different instructions and settings. Click **Cre
 Currently, you must use the provided voice options. We offer 30 AI voices with different characteristics.
 
 ### Do I need to credit Hi, Moose?
-The embed code includes "Podcast generated by Hi, Moose" attribution. This is greatly appreciated to leave in, but not required.
+The embed code includes "Audio generated by Hi, Moose" attribution. This is greatly appreciated to leave in, but not required.
 
 ### Can I download the MP3 file?
 Not directly through the UI. The audio is hosted on our CDN for optimal performance and includes domain whitelisting.
@@ -377,13 +379,13 @@ Not directly through the UI. The audio is hosted on our CDN for optimal performa
 Hi, Moose likely won't be able access password-protected or paywalled content. Make the article public temporarily during generation. You can optionally use a temporary URL the generator can use to fetch the content.
 
 ### Can I customize the transcript?
-To an extent you can. The transcript is auto-generated from the content, however, you can direct what you want the podcast script to exlucde/include before generating. To to make updates or changes, you will need to regenerate the podcast with different instructions.
+To an extent. The transcript is auto-generated from the content, but you can direct what you want the script to exclude/include before generating. To make updates or changes, regenerate the audio with different instructions.
 
 ### Does the player work on all browsers?
 Yes, modern browsers support the player. Minimum requirements: Chrome 60+, Firefox 55+, Safari 11+, Edge 79+.
 
-### How do I remove an old podcast?
-Embed codes remain functional until you remove them from your website. Simply delete the embed code from your article's HTML. If you're using the WordPress plugin, you can click the "Remove podcast" under the drop down select field.
+### How do I remove an old audio episode?
+Embed codes remain functional until you remove them from your website. Simply delete the embed code from your article's HTML. If you're using the WordPress plugin, use its removal option in the dropdown.
 
 ### Can I use this for videos or social media?
 The embed player is designed for web articles and pages. For other uses, contact Hi, Moose support about custom solutions.
@@ -392,7 +394,7 @@ The embed player is designed for web articles and pages. For other uses, contact
 First, update your domain in Hi, Moose Settings for the project. The final step is to contact Hi, Moose so we can update the domain whitelisting.
 
 ### How are tokens calculated?
-Tokens = base processing fee + script generation (based on article length) + audio generation (based on podcast length). An estimate is shown before generation.
+Tokens = base processing fee + script generation (based on article length) + audio generation (based on audio length). An estimate is shown before generation.
 
-### Can I generate podcasts in bulk?
-Currently, podcasts are generated one at a time. Webflow, WordPress, and by sitemap.xml is on the roadmap. Please contact us if you need bulk generation for multiple articles.
+### Can I generate audio in bulk?
+Currently, audio is generated one at a time. Webflow, WordPress, and by sitemap.xml is on the roadmap. Please contact us if you need bulk generation for multiple articles.

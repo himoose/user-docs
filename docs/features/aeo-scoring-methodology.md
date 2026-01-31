@@ -84,7 +84,7 @@ Checks whether key entities (products, organizations, concepts) are clearly name
 
 #### 10) Media Enrichment
 
-Looks for supporting media that improves understanding (images, diagrams, embeds). If your page includes the Hi, Moose "Listen as a Podcast" player + transcript, that also contributes because it adds crawlable, structured, first-hand content.
+Looks for supporting media that improves understanding (images, diagrams, embeds). If your page includes the Hi, Moose "Listen to this Article" player + transcript, that also contributes because it adds crawlable, structured, first-hand content.
 
 -   Improve it by adding relevant visuals with descriptive alt text and (when appropriate) adding the Hi, Moose player + transcript.
 
