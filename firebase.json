@@ -9,12 +9,117 @@
     "redirects": [
       {
         "source": "/features/podcast-generator",
-        "destination": "/features/listen-to-this-article",
+        "destination": "/legacy/listen-to-this-article",
         "type": 301
       },
       {
         "source": "/features/podcast-generator/**",
-        "destination": "/features/listen-to-this-article/**",
+        "destination": "/legacy/listen-to-this-article/**",
+        "type": 301
+      },
+      {
+        "source": "/features/topic-coverage",
+        "destination": "/legacy/topical-authority",
+        "type": 301
+      },
+      {
+        "source": "/features/topic-coverage/**",
+        "destination": "/legacy/topical-authority/**",
+        "type": 301
+      },
+      {
+        "source": "/features/workflows",
+        "destination": "/workflows/overview",
+        "type": 301
+      },
+      {
+        "source": "/features/workflows/**",
+        "destination": "/workflows/overview/**",
+        "type": 301
+      },
+      {
+        "source": "/features/visibility-monitoring",
+        "destination": "/visibility/overview",
+        "type": 301
+      },
+      {
+        "source": "/features/visibility-monitoring/**",
+        "destination": "/visibility/overview/**",
+        "type": 301
+      },
+      {
+        "source": "/features/operator-chat",
+        "destination": "/chat/overview",
+        "type": 301
+      },
+      {
+        "source": "/features/operator-chat/**",
+        "destination": "/chat/overview/**",
+        "type": 301
+      },
+      {
+        "source": "/features/listen-to-this-article",
+        "destination": "/legacy/listen-to-this-article",
+        "type": 301
+      },
+      {
+        "source": "/features/listen-to-this-article/**",
+        "destination": "/legacy/listen-to-this-article/**",
+        "type": 301
+      },
+      {
+        "source": "/features/versus-pages",
+        "destination": "/legacy/versus-pages",
+        "type": 301
+      },
+      {
+        "source": "/features/versus-pages/**",
+        "destination": "/legacy/versus-pages/**",
+        "type": 301
+      },
+      {
+        "source": "/projects",
+        "destination": "/getting-started/projects",
+        "type": 301
+      },
+      {
+        "source": "/settings",
+        "destination": "/getting-started/settings",
+        "type": 301
+      },
+      {
+        "source": "/brand-voice",
+        "destination": "/getting-started/context/brand-voice",
+        "type": 301
+      },
+      {
+        "source": "/getting-started/brand-voice",
+        "destination": "/getting-started/context/overview",
+        "type": 301
+      },
+      {
+        "source": "/team-management",
+        "destination": "/getting-started/team-management",
+        "type": 301
+      },
+      {
+        "source": "/features/aeo-optimization",
+        "destination": "/features/aeo-audits",
+        "type": 301
+      },
+      {
+        "source": "/features/aeo-scoring-methodology",
+        "destination": "/features/aeo-audits",
+        "type": 301
+      },
+      {
+        "source": "/features/llm-beacon",
+        "destination": "/visibility/overview",
+        "type": 301
+      },
+      {
+        "source": "/features/topical-authority",
+        "destination": "/legacy/topical-authority",
         "type": 301
       }
     ],

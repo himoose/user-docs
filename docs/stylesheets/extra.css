@@ -15,14 +15,17 @@ h6:hover .headerlink {
     opacity: 1;
 }
 
-/* Hide GitHub star count */
-.md-source__facts {
+/* Hide the GitHub repo link/star-count button in the header. Our docs
+   audience isn't primarily GitHub users, and a low star count on a small
+   internal docs repo doesn't reflect well next to the product. */
+a[href="https://github.com/himoose/user-docs"] {
     display: none !important;
 }
 
-/* Keep just the GitHub icon button */
-.md-source {
-    display: inline-flex !important;
+/* Hide the header separator that used to sit between the search box and
+   the GitHub button, now orphaned since the button above is hidden. */
+[data-slot="separator"]:has(+ a[href="https://github.com/himoose/user-docs"]) {
+    display: none !important;
 }
 
 /* Logo customization for shadcn theme */

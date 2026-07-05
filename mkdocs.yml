@@ -1,5 +1,5 @@
 site_name: User Documentation
-site_url: https://docs.himoose.com
+site_url: https://himoose.com/docs/
 site_description: User documentation for Hi, Moose - AI search optimization platform
 site_author: Hi, Moose Team
 
@@ -82,24 +82,56 @@ extra:
 nav:
   - Home: index.md
   - Getting Started:
-      - Projects: projects.md
-      - Settings: settings.md
-      - Brand Voice: brand-voice.md
-      - Team Management: team-management.md
-  - Content Features:
-      - SEO Content Briefs: features/content-briefs.md
-      - AI Search Optimization: features/aeo-optimization.md
-      - Versus Pages: features/versus-pages.md
+      - Installing & Signing In: getting-started/install-and-sign-in.md
+      - Account Types & Modes: getting-started/account-modes.md
+      - Projects & Workspace: getting-started/projects.md
+      - Settings: getting-started/settings.md
+      - Team Management: getting-started/team-management.md
+  - Inbox:
+      - Overview: inbox/overview.md
+      - Notifications: inbox/notifications.md
+  - Context:
+      - Overview: getting-started/context/overview.md
+      - Brand Voice: getting-started/context/brand-voice.md
+      - Brand Truth Profile: getting-started/context/brand-truth-profile.md
+      - About You: getting-started/context/about-you.md
+  - Visibility:
+      - Overview: visibility/overview.md
+      - Prompt Manager: visibility/prompt-manager.md
+      - Settings: visibility/settings.md
+  - Workflows:
+      - Overview: workflows/overview.md
+      - Recover Lost Visibility: workflows/recover-lost-visibility.md
+      - Create New Content: workflows/create-new-content.md
+  - Chat:
+      - Overview: chat/overview.md
+      - Chat Tools & Specialists: chat/tools-and-specialists.md
+      - Model Selection: chat/model-selection.md
+      - Chats (History): chat/chats-history.md
+  - Library:
+      - Overview: library/overview.md
+  - Agent Worksteams:
+      - AEO Audits: features/aeo-audits.md
+      - Content Briefs: features/content-briefs.md
       - FAQ Generator: features/faq-generator.md
       - Key Points Extractor: features/key-points.md
-      - Listen to this Article (Generator & Player): features/listen-to-this-article.md
-  - Analysis & Monitoring:
-      - Topical Authority Builder: features/topical-authority.md
-      - LLM Beacon (Brand Visibility): features/llm-beacon.md
-      - AEO Scoring Methodology: features/aeo-scoring-methodology.md
+      - AI Mode Grounding Queries: features/grounding-queries.md
+      - ChatGPT Fan-out Queries: features/fan-out-queries.md
+      - Blog Post Draft: features/blog-post-draft.md
+      - Glossary Post: features/glossary-post.md
+      - Landing Page Content: features/landing-page-content.md
+      - Product Page Content: features/product-page-content.md
+      - Drafts, Preview & Publishing: features/drafts-and-publishing.md
+      - Turn Content into Audio: legacy/listen-to-this-article.md
   - Integrations:
+      - Grav: integrations/grav.md
       - WordPress: integrations/wordpress.md
       - Webflow: integrations/webflow.md
+      - Google Search Console: integrations/google-search-console.md
+  - Legacy Web App:
+      - Listen to this Article (Audio Generation): legacy/listen-to-this-article.md
+      - Versus Pages (Programmatic SEO): legacy/versus-pages.md
+      - Topical Authority Builder: legacy/topical-authority.md
 
 # Copyright
-copyright: Copyright &copy; 2025 Hi, Moose
+copyright: Copyright &copy; 2026 Hi, Moose

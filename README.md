@@ -2,7 +2,7 @@
 
 Public user documentation for Hi, Moose - AI search optimization platform.
 
-This documentation site is built with **MkDocs**, deployed to **Firebase Hosting**, and served at `himoose.com/docs` via a **Cloudflare Worker**.
+This documentation site is built with **MkDocs** and deployed to **Firebase Hosting**, served at `docs.himoose.com`.
 
 ## 🚀 Quick Start
 
@@ -471,4 +471,4 @@ python -m http.server 8000        # Simple HTTP server
 
 ---
 
-Made with ❤️ by the Hi, Moose team
+Made in Austin, TX by the Hi, Moose team
