@@ -1,3 +1,13 @@
+/* The shadcn theme opts every page into the browser's native
+   cross-document View Transitions API (see its base.css:
+   "@view-transition { navigation: auto }"). Since MkDocs does a full page
+   reload on every nav click (no client-side router), this makes the whole
+   page cross-fade/morph on every click, which reads as a jarring "jump"
+   when the user was scrolled down on the previous page. Opt back out. */
+@view-transition {
+    navigation: none;
+}
+
 /* Hide permalink anchors by default, show on hover */
 .headerlink {
     opacity: 0;
