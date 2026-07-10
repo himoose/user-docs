@@ -2,7 +2,7 @@
 
 Public user documentation for Hi, Moose - the desktop-first AI visibility operations platform.
 
-This documentation site is built with **MkDocs** using the `shadcn` theme, and deployed to **Firebase Hosting**, served at `docs.himoose.com`.
+This documentation site is built with **MkDocs** using the `shadcn` theme, and deployed to **Firebase Hosting**, served at `himoose.com/docs/`.
 
 ## 🚀 Quick Start
 
@@ -132,7 +132,7 @@ mkdocs build
 firebase deploy --only hosting
 ```
 
-The site is served from the `docs.himoose.com` custom domain configured on this Firebase Hosting project.
+The site is served from the `himoose.com/docs/`.
 
 ## 📝 Content Guidelines
 

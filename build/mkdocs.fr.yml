@@ -1,0 +1,191 @@
+site_name: User Documentation
+site_url: http://localhost:8000/fr/
+site_description: User documentation for Hi, Moose - AI search optimization platform
+site_author: Hi, Moose Team
+repo_url: https://github.com/himoose/user-docs
+repo_name: himoose/user-docs
+edit_uri: ''
+theme:
+  name: shadcn
+  logo: assets/logo-dark.svg
+  favicon: assets/favicon.ico
+  custom_dir: C:\HiMoose\platform\docs-site\overrides
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+extra_css:
+- stylesheets/extra.css
+extra_javascript:
+- javascripts/custom.js
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.highlight:
+    anchor_linenums: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.emoji
+- attr_list
+- md_in_html
+- toc:
+    permalink: ¶
+    permalink_class: headerlink
+    toc_depth: 3
+- tables
+plugins:
+- search:
+    separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+    lang:
+    - fr
+- minify:
+    minify_html: true
+extra:
+  homepage: https://himoose.com
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/himoose
+    name: Hi, Moose on Github
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/company/hi-moose/
+    name: Hi, Moose on LinkedIn
+  analytics:
+    provider: google
+    property: G-LLKF73LHRJ
+  base_url: http://localhost:8000
+  locale: &id001
+    code: fr
+    tag: fr
+    label: Français
+    prefix: /fr
+  languages:
+  - code: en
+    tag: en
+    label: English
+    prefix: ''
+  - code: es
+    tag: es
+    label: Español
+    prefix: /es
+  - *id001
+  - code: de
+    tag: de
+    label: Deutsch
+    prefix: /de
+  - code: it
+    tag: it
+    label: Italiano
+    prefix: /it
+  - code: pt
+    tag: pt
+    label: Português
+    prefix: /pt
+  default_language: en
+  ui:
+    site:
+      name: User Documentation
+      description: User documentation for Hi, Moose - AI search optimization platform
+    header:
+      menu: Menu
+      toggleMenu: Toggle Menu
+      toggleTheme: Toggle theme
+      toggleLayout: Toggle layout
+    search:
+      label: Search documentation...
+      placeholder: Search documentation...
+      labelShort: Search...
+    toc:
+      onThisPage: On This Page
+    language:
+      menuAriaLabel: Choose a language
+      panelLabel: Language
+      availableAriaLabel: Available languages
+      currentStatus: Current
+    stale:
+      title: This page may be out of date
+      body: It was translated from an older version of the English page.
+      linkLabel: View in English
+    machineTranslated:
+      title: Machine translated
+      body: This page was translated by AI. The English version is the authoritative
+        one.
+      linkLabel: Read it in English
+    notTranslated:
+      title: Not translated yet
+      body: This page is not available in your language yet, so it is shown in English.
+  noindex_pages:
+    en: []
+    es: []
+    fr: []
+    de: []
+    it: []
+    pt: []
+nav:
+- Home: index.md
+- Getting Started:
+  - Installing & Signing In: getting-started/install-and-sign-in.md
+  - Account Types & Modes: getting-started/account-modes.md
+  - Projects & Workspace: getting-started/projects.md
+  - Settings: getting-started/settings.md
+  - Team Management: getting-started/team-management.md
+- Inbox:
+  - Overview: inbox/overview.md
+  - Notifications: inbox/notifications.md
+- Context:
+  - Overview: getting-started/context/overview.md
+  - Brand Voice: getting-started/context/brand-voice.md
+  - Brand Truth Profile: getting-started/context/brand-truth-profile.md
+  - About You: getting-started/context/about-you.md
+- Visibility:
+  - Overview: visibility/overview.md
+  - Prompt Manager: visibility/prompt-manager.md
+  - Settings: visibility/settings.md
+- Workflows:
+  - Overview: workflows/overview.md
+  - Recover Lost Visibility: workflows/recover-lost-visibility.md
+  - Create New Content: workflows/create-new-content.md
+- Chat:
+  - Overview: chat/overview.md
+  - Chat Tools & Specialists: chat/tools-and-specialists.md
+  - Model Selection: chat/model-selection.md
+  - Chats (History): chat/chats-history.md
+- Library:
+  - Overview: library/overview.md
+- Agent Worksteams:
+  - AEO Audits: features/aeo-audits.md
+  - Content Briefs: features/content-briefs.md
+  - FAQ Generator: features/faq-generator.md
+  - Key Points Extractor: features/key-points.md
+  - AI Mode Grounding Queries: features/grounding-queries.md
+  - ChatGPT Fan-out Queries: features/fan-out-queries.md
+  - Blog Post Draft: features/blog-post-draft.md
+  - Glossary Post: features/glossary-post.md
+  - Landing Page Content: features/landing-page-content.md
+  - Product Page Content: features/product-page-content.md
+  - Drafts, Preview & Publishing: features/drafts-and-publishing.md
+  - Turn Content into Audio: legacy/listen-to-this-article.md
+- Integrations:
+  - Grav: integrations/grav.md
+  - WordPress: integrations/wordpress.md
+  - Webflow: integrations/webflow.md
+  - Google Search Console: integrations/google-search-console.md
+- Legacy Web App:
+  - Listen to this Article (Audio Generation): legacy/listen-to-this-article.md
+  - Versus Pages (Programmatic SEO): legacy/versus-pages.md
+  - Topical Authority Builder: legacy/topical-authority.md
+copyright: Copyright &copy; 2026 Hi, Moose
+docs_dir: C:\HiMoose\platform\docs-site\build\docs-fr
+site_dir: C:\HiMoose\platform\docs-site\site\fr

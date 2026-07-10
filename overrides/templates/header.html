@@ -1,3 +1,13 @@
+{#
+  Copied from mkdocs-shadcn 0.9.8 (shadcn/templates/header.html), with the four
+  chrome strings localized and a language switcher added.
+  All of it degrades to English when config.extra is unset (plain `mkdocs serve`).
+#}
+{% set ui = config.extra.ui | default({}, true) %}
+{% set ui_header = ui.header | default({}, true) %}
+{% set ui_language = ui.language | default({}, true) %}
+{% set locale = config.extra.locale | default({}, true) %}
+{% set languages = config.extra.languages | default([], true) %}
 <header class="bg-background sticky top-0 z-50 w-full" view-transition-name="header">
     <div class="container-wrapper 3xl:fixed:px-0 px-6">
         <div class="3xl:fixed:container flex h-(--header-height) items-center gap-2 **:data-[slot=separator]:!h-4">
@@ -17,13 +27,13 @@
                         </svg>
                     </div>
 
-                    <span class="sr-only">Toggle Menu</span>
+                    <span class="sr-only">{{ ui_header.toggleMenu | default('Toggle Menu', true) }}</span>
                 </div>
-                <span class="flex h-8 items-center text-lg leading-none font-medium">Menu</span>
+                <span class="flex h-8 items-center text-lg leading-none font-medium">{{ ui_header.menu | default('Menu', true) }}</span>
             </button>
             <a data-slot="button"
                 class="items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-5 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 hidden h-8 lg:flex"
-                href="{{ config.extra.homepage or config.site_url.rstrip('/docs') or 'https://himoose.com' }}">
+                href="{{ (config.extra.homepage or 'https://himoose.com') }}{{ locale.prefix | default('', true) }}">
                 <span class="size-8 flex flex-row justify-center items-center">
                     {% include "components/icon.html" %}
                 </span>
@@ -55,13 +65,61 @@
                     </span>
                     {% endif %}
                 </a>
+                {# --- language switcher -------------------------------------------
+                   Ported from marketing-site/src/_includes/partials/nav.njk semantics:
+                   links (not JS), each carrying lang + hreflang, current one marked
+                   active. Uses <details> so it needs no theme JS.
+
+                   Slugs are untranslated (DOCS_I18N_PLAN.md D4), so switching is a
+                   prefix swap and the reader stays on the page they were reading.
+                   Every page exists in every locale thanks to the English fallback
+                   overlay, so no link here can dead-end.
+                #}
+                {% set current_lang = locale.code | default('en', true) %}
+                {% if languages | length > 1 %}
+                <details class="relative" data-slot="locale-switcher">
+                    <summary
+                        class="inline-flex cursor-pointer list-none items-center justify-center gap-1.5 whitespace-nowrap rounded-md px-3 h-8 text-sm font-medium transition-all outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50"
+                        aria-label="{{ ui_language.menuAriaLabel | default('Choose a language', true) }}">
+                        {{ locale.label | default('English', true) }}
+                        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.2" class="opacity-60">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </summary>
+                    <div
+                        class="bg-popover text-popover-foreground absolute right-0 z-50 mt-2 min-w-40 overflow-hidden rounded-md border shadow-md">
+                        <div class="text-muted-foreground px-3 pt-2 pb-1 text-xs">
+                            {{ ui_language.panelLabel | default('Language', true) }}
+                        </div>
+                        <div class="flex flex-col pb-1"
+                            aria-label="{{ ui_language.availableAriaLabel | default('Available languages', true) }}">
+                            {% for language in languages %}
+                            <a href="{{ config.extra.base_url }}{{ language.prefix }}/{{ page.url }}"
+                                lang="{{ language.tag }}" hreflang="{{ language.tag }}"
+                                class="hover:bg-accent hover:text-accent-foreground flex items-center justify-between gap-3 px-3 py-1.5 text-sm no-underline{% if language.code == current_lang %} font-medium{% endif %}"
+                                {% if language.code == current_lang %}aria-current="true" {% endif %}>
+                                <span>{{ language.label }}</span>
+                                {%- if language.code == current_lang %}
+                                <span class="sr-only">{{ ui_language.currentStatus | default('Current', true) }}</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5" class="opacity-70" aria-hidden="true">
+                                    <path d="M20 6 9 17l-5-5" />
+                                </svg>
+                                {%- endif %}
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </details>
+                {% endif %}
                 <div data-orientation="vertical" role="none" data-slot="separator"
                     class="bg-border shrink-0 data-[orientation=horizontal]:h-px data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-px 3xl:flex hidden">
                 </div>
                 <button data-slot="button"
                     class="items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-8 3xl:flex hidden"
-                    title="Toggle layout" onclick="toggleLayout(event)">
-                    <span class="sr-only">Toggle layout</span>
+                    title="{{ ui_header.toggleLayout | default('Toggle layout', true) }}" onclick="toggleLayout(event)">
+                    <span class="sr-only">{{ ui_header.toggleLayout | default('Toggle layout', true) }}</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="lucide lucide-gallery-horizontal">
@@ -75,7 +133,7 @@
                 </div>
                 <button data-slot="button"
                     class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 group/toggle extend-touch-target size-8"
-                    title="Toggle theme" onclick="onThemeSwitch(event)">
+                    title="{{ ui_header.toggleTheme | default('Toggle theme', true) }}" onclick="onThemeSwitch(event)">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="size-4.5">
@@ -86,7 +144,7 @@
                         <path d="M12 14.3l7.37 -7.37"></path>
                         <path d="M12 19.6l8.85 -8.85"></path>
                     </svg>
-                    <span class="sr-only">Toggle theme</span>
+                    <span class="sr-only">{{ ui_header.toggleTheme | default('Toggle theme', true) }}</span>
                 </button>
             </div>
         </div>

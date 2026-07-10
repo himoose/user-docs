@@ -1,0 +1,18 @@
+{#
+  Copied from mkdocs core (mkdocs/templates/sitemap.xml), with one change:
+  pages marked noindex (stale translations past the drift threshold) are omitted.
+
+  A page we tell crawlers to ignore must not appear in the sitemap, and must not
+  appear in any locale's hreflang cluster either -- see overrides/templates/seo.html.
+#}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for file in pages -%}
+    {% if not file.page.is_link and not file.page.meta.noindex and (file.page.abs_url or file.page.canonical_url) %}
+    <url>
+         <loc>{% if file.page.canonical_url %}{{ file.page.canonical_url|e }}{% else %}{{ file.page.abs_url|e }}{% endif %}</loc>
+         {% if file.page.update_date %}<lastmod>{{file.page.update_date}}</lastmod>{% endif %}
+    </url>
+    {%- endif -%}
+{% endfor %}
+</urlset>

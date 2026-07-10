@@ -1,0 +1,155 @@
+{#
+  Copied from mkdocs-shadcn 0.9.8 (shadcn/templates/seo.html), with the hreflang
+  cluster and og:locale appended.
+
+  Mirrors marketing-site/src/_includes/partials/head.njk: the cluster is
+  self-referential (every page lists every language, including itself) plus an
+  x-default pointing at English.
+
+  Because build_i18n.py overlays English under every locale, every page exists in
+  every locale, so the cluster is always complete.
+#}
+{% block seo %}
+
+{% if page.meta.title %}
+<title>{{ page.meta.title }}</title>
+{% else %}
+<title>{{ page.title }}</title>
+{% endif %}
+
+{% if page.meta.description %}
+<meta name="description" content="{{ page.meta.description }}">
+{% endif %}
+
+{% if page.meta.keywords %}
+<meta name="keywords" content="{{ page.meta.keywords }}">
+{% endif %}
+
+{% if page.meta.author %}
+<meta name="author" content="{{ page.meta.author }}">
+{% endif %}
+
+{% if page.canonical_url %}
+<link rel="canonical" href="{{ page.canonical_url }}">
+{% endif %}
+
+{# --- hreflang cluster ---------------------------------------------------- #}
+{#
+  Omitted entirely when this page is noindex: advertising alternates for a page
+  we are telling crawlers to ignore is contradictory. Individual alternates are
+  also skipped when that *other* locale's copy is noindex, which is why
+  config.extra.noindex_pages carries every locale's set, not just this one.
+#}
+{% set locale = config.extra.locale | default({}, true) %}
+{% set languages = config.extra.languages | default([], true) %}
+{% set noindex_pages = config.extra.noindex_pages | default({}, true) %}
+{% set current_lang = locale.code | default('en', true) %}
+{% set default_lang = config.extra.default_language | default('en', true) %}
+{% set base = config.extra.base_url | default('', true) %}
+
+{% if languages | length > 1 and not page.meta.noindex %}
+{% for language in languages %}
+{%- if page.url not in noindex_pages.get(language.code, []) %}
+<link rel="alternate" hreflang="{{ language.tag }}" href="{{ base }}{{ language.prefix }}/{{ page.url }}">
+{%- endif %}
+{% endfor %}
+{%- if page.url not in noindex_pages.get(default_lang, []) %}
+<link rel="alternate" hreflang="x-default" href="{{ base }}/{{ page.url }}">
+{%- endif %}
+{% endif %}
+
+<!-- Open Graph (Facebook, LinkedIn) -->
+<meta property="og:locale" content="{{ locale.tag | default('en', true) }}">
+{% for language in languages %}
+{%- if language.code != current_lang %}
+<meta property="og:locale:alternate" content="{{ language.tag }}">
+{%- endif %}
+{% endfor %}
+
+{% if page.meta.title %}
+<meta property="og:title" content="{{ page.meta.title }}">
+{% else %}
+<meta property="og:title" content="{{ page.title }}">
+{% endif %}
+
+{% if page.meta.description %}
+<meta property="og:description" content="{{ page.meta.description }}">
+{% endif %}
+
+{% if page.canonical_url %}
+<meta property="og:url" content="{{ page.canonical_url }}">
+{% endif %}
+
+{% if page.meta.image %}
+<meta property="og:image" content="{{ page.meta.image }}">
+{% endif %}
+
+{% if site_name %}
+<meta property="og:site_name" content="{{ site_name }}">
+{% endif %}
+
+<!-- Twitter Card -->
+{% if page.meta.title %}
+<meta name="twitter:title" content="{{ page.meta.title }}">
+{% else %}
+<meta name="twitter:title" content="{{ page.title }}">
+{% endif %}
+
+{% if page.meta.description %}
+<meta name="twitter:description" content="{{ page.meta.description }}">
+{% endif %}
+
+{% if page.meta.image %}
+<meta name="twitter:image" content="{{ page.meta.image }}">
+{% endif %}
+
+<!-- JSON-LD Structured Data -->
+{% if page.meta.title and page.meta.description %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{% if page.meta.title %}{{ page.meta.title }}{% else %}{{ page.title }}{% endif %}",
+    "url": "{{ page.canonical_url }}",
+    "inLanguage": "{{ locale.tag | default('en', true) }}",
+    "description": "{{ page.meta.description }}",
+    {% if page.meta.author %}
+    "author": {
+      "@type": "Person",
+      "name": "{{ page.meta.author }}"
+    },
+    {% endif %}
+    {% if site_name %}
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site_name }}",
+      {% if page.meta.image %}
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ page.meta.image }}"
+      }
+      {% endif %}
+    },
+    {% endif %}
+    {% if page.meta.date %}
+    "datePublished": "{{ page.meta.date }}",
+    {% endif %}
+    {% if page.canonical_url %}
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.canonical_url }}"
+    },
+    {% endif %}
+    {% if page.meta.image %}
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ page.meta.image }}",
+      "width": 1200,
+      "height": 630
+    }
+    {% endif %}
+  }
+  </script>
+{% endif %}
+
+{% endblock seo %}

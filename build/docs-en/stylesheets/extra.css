@@ -1,0 +1,77 @@
+/* The shadcn theme opts every page into the browser's native
+   cross-document View Transitions API (see its base.css:
+   "@view-transition { navigation: auto }"). Since MkDocs does a full page
+   reload on every nav click (no client-side router), this makes the whole
+   page cross-fade/morph on every click, which reads as a jarring "jump"
+   when the user was scrolled down on the previous page. Opt back out. */
+@view-transition {
+    navigation: none;
+}
+
+/* Hide permalink anchors by default, show on hover */
+.headerlink {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    margin-left: 0.5em;
+    text-decoration: none;
+}
+
+h1:hover .headerlink,
+h2:hover .headerlink,
+h3:hover .headerlink,
+h4:hover .headerlink,
+h5:hover .headerlink,
+h6:hover .headerlink {
+    opacity: 1;
+}
+
+/* Hide the GitHub repo link/star-count button in the header. Our docs
+   audience isn't primarily GitHub users, and a low star count on a small
+   internal docs repo doesn't reflect well next to the product. */
+a[href="https://github.com/himoose/user-docs"] {
+    display: none !important;
+}
+
+/* Hide the header separator that used to sit between the search box and
+   the GitHub button, now orphaned since the button above is hidden. */
+[data-slot="separator"]:has(+ a[href="https://github.com/himoose/user-docs"]) {
+    display: none !important;
+}
+
+/* Logo customization for shadcn theme */
+/* Hide the default theme logo SVG (diagonal lines icon with viewBox="0 0 256 256") */
+svg[viewBox="0 0 256 256"] {
+    display: none !important;
+}
+
+/* Replace with custom Hi, Moose logo on the parent span */
+span.size-8.flex.flex-row.justify-center.items-center:has(svg[viewBox="0 0 256 256"]) {
+    background-image: url("../assets/logo-dark.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 140px !important;
+    height: 32px !important;
+    margin-right: 10px;
+}
+
+/* Dark mode logo - light colored version */
+.dark span.size-8.flex.flex-row.justify-center.items-center:has(svg[viewBox="0 0 256 256"]) {
+    background-image: url("../assets/logo-light.svg");
+}
+
+/* Sidebar: allow multi-line nav items to have proper vertical padding.
+   The shadcn theme sets a fixed height (e.g. h-[30px]) on menu buttons, which
+   makes long labels like “Listen to this Article (Generator & Player)” look
+   cramped when they wrap to 2 lines. */
+div[data-slot="sidebar"] a[data-sidebar="menu-button"] {
+    height: auto !important;
+    min-height: 30px;
+    white-space: normal;
+    line-height: 1.25;
+}
+
+div[data-slot="sidebar"] a[data-sidebar="menu-button"][data-active="true"] {
+    padding-top: 0.65rem !important;
+    padding-bottom: 0.65rem !important;
+}

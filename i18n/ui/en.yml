@@ -1,0 +1,52 @@
+# Theme chrome strings.
+#
+# mkdocs-shadcn hardcodes these in English inside its own templates. We override
+# the four templates that contain them (see overrides/) and read the strings from
+# here instead, via config.extra.ui.
+#
+# This file is the source of truth for the key set. Every other i18n/ui/<lang>.yml
+# must define the same keys; build_i18n.py falls back to English for any that are
+# missing, and warns.
+
+site:
+  name: User Documentation
+  description: User documentation for Hi, Moose - AI search optimization platform
+
+header:
+  menu: Menu
+  toggleMenu: Toggle Menu
+  toggleTheme: Toggle theme
+  toggleLayout: Toggle layout
+
+search:
+  label: Search documentation...
+  placeholder: Search documentation...
+  labelShort: Search...
+
+toc:
+  onThisPage: On This Page
+
+language:
+  # Language switcher, ported from marketing-site nav.njk semantics.
+  menuAriaLabel: Choose a language
+  panelLabel: Language
+  availableAriaLabel: Available languages
+  currentStatus: Current
+
+stale:
+  # Shown at the top of a translated page whose English source has since changed.
+  title: This page may be out of date
+  body: It was translated from an older version of the English page.
+  linkLabel: View in English
+
+machineTranslated:
+  # Shown on every page that HAS a translation. English is authoritative.
+  title: Machine translated
+  body: This page was translated by AI. The English version is the authoritative one.
+  linkLabel: Read it in English
+
+notTranslated:
+  # Shown when a page has no translation yet and is served in English inside a
+  # localized section. It is NOT machine-translated, so it must not say it is.
+  title: Not translated yet
+  body: This page is not available in your language yet, so it is shown in English.

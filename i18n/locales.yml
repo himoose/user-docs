@@ -1,0 +1,43 @@
+# Supported locales for the docs site.
+#
+# This list MUST stay in sync with:
+#   - marketing-site/src/_data/locales.js  (supportedLanguageDefinitions)
+#   - desktop-app/src/renderer/services/i18n/locales/*.json
+#
+# `prefix` is the URL segment for the locale: empty for the default language
+# (served at the docs root), "/es" | "/fr" | ... for the rest.
+
+default: en
+
+languages:
+  - code: en
+    tag: en
+    label: English
+    prefix: ""
+  - code: es
+    tag: es
+    label: Español
+    prefix: /es
+  - code: fr
+    tag: fr
+    label: Français
+    prefix: /fr
+  - code: de
+    tag: de
+    label: Deutsch
+    prefix: /de
+  - code: it
+    tag: it
+    label: Italiano
+    prefix: /it
+  - code: pt
+    tag: pt
+    label: Português
+    prefix: /pt
+
+# Pages whose English source is frozen (the legacy web app is retired). These are
+# translated once and never drift, so they are exempt from the staleness checks.
+frozen:
+  - legacy/listen-to-this-article.md
+  - legacy/versus-pages.md
+  - legacy/topical-authority.md
