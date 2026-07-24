@@ -1,5 +1,5 @@
 site_name: User Documentation
-site_url: http://localhost:8000/
+site_url: https://himoose.com/docs/
 site_description: User documentation for Hi, Moose - AI search optimization platform
 site_author: Hi, Moose Team
 repo_url: https://github.com/himoose/user-docs
@@ -65,7 +65,7 @@ extra:
   analytics:
     provider: google
     property: G-LLKF73LHRJ
-  base_url: http://localhost:8000
+  base_url: https://himoose.com/docs
   locale: &id001
     code: en
     tag: en
