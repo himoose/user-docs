@@ -39,6 +39,9 @@ extra_css:
 
 extra_javascript:
   - javascripts/custom.js
+  # Cookieless PostHog pageviews (same project as the desktop app) — feeds
+  # the visitor-to-install funnel. Respects DNT/GPC; see the file header.
+  - javascripts/analytics.js
 
 # Extensions
 markdown_extensions:
@@ -77,10 +80,6 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/hi-moose/
       name: Hi, Moose on LinkedIn
-  
-  analytics:
-    provider: google
-    property: G-LLKF73LHRJ
 
 # Navigation structure
 nav:
