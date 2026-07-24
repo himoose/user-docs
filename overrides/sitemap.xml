@@ -1,10 +1,14 @@
-{#
+{#-
   Copied from mkdocs core (mkdocs/templates/sitemap.xml), with one change:
   pages marked noindex (stale translations past the drift threshold) are omitted.
 
   A page we tell crawlers to ignore must not appear in the sitemap, and must not
   appear in any locale's hreflang cluster either -- see overrides/templates/seo.html.
-#}
+
+  The dashes on this comment's open/close markers trim surrounding
+  whitespace so the XML declaration lands on line 1, column 1; anything
+  before it is an XML error.
+-#}
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {%- for file in pages -%}

@@ -498,6 +498,33 @@ def main() -> int:
             )
             return 1
 
+    # Sitemap index referencing every locale's sitemap (see DOCS_I18N_PLAN §9).
+    # Each locale build emits its own sitemap.xml; nothing ties them together
+    # for Search Console without this. The index needs a name other than
+    # sitemap.xml because the default locale build owns site/sitemap.xml.
+    # No leading whitespace before the XML declaration -- it must be the
+    # first bytes of the file or strict parsers reject the document.
+    index_entries = []
+    for lang in codes:
+        prefix = "" if lang == default else f"/{lang}"
+        sitemap_file = (SITE if lang == default else SITE / lang) / "sitemap.xml"
+        if not sitemap_file.exists():
+            print(f"error: {sitemap_file} missing, sitemap index would 404", file=sys.stderr)
+            return 1
+        index_entries.append(
+            f"    <sitemap>\n"
+            f"        <loc>{base_url}{prefix}/sitemap.xml</loc>\n"
+            f"    </sitemap>"
+        )
+    (SITE / "sitemap_index.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(index_entries)
+        + "\n</sitemapindex>\n",
+        encoding="utf-8",
+    )
+    print(f"sitemap index: {len(index_entries)} locale sitemap(s) in site/sitemap_index.xml")
+
     if warnings:
         print("warnings:")
         for warning in warnings:
