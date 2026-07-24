@@ -1,0 +1,80 @@
+{#
+  Custom 404 page. MkDocs renders any theme template named 404.html as a
+  static page at the site root, and Firebase Hosting serves /404.html for
+  every missing path automatically.
+
+  Two constraints shape this file:
+
+    1. It is served at arbitrary URL depths, so relative asset paths would
+       break. Every link and asset URL is absolute, built from site_url.
+       Root-relative paths are not safe here: the HTML minifier strips
+       attribute quotes and the himoose.com/docs worker only rewrites
+       quoted href="/..." values, so a bare /css/... would escape the
+       /docs prefix and hit the marketing site instead.
+
+    2. It renders without page context (page is None for static
+       templates), so it cannot extend main.html. It reuses the theme's
+       CSS and dark-mode script directly instead.
+#}
+<!DOCTYPE html>
+<html lang="en" class="layout-fixed">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Page not found - {{ config.site_name }}</title>
+    <link rel="icon" href="{{ config.site_url }}assets/favicon.ico">
+    {% include "templates/dark.html" %}
+    <link href="{{ config.site_url }}css/base.css" rel="stylesheet">
+    <link href="{{ config.site_url }}css/geist.css" rel="stylesheet">
+    <link href="{{ config.site_url }}stylesheets/extra.css" rel="stylesheet">
+    {#
+      The theme's Tailwind build is purged to the classes the theme itself
+      uses, so spacing/typography utilities (mt-*, mb-*, text-3xl, ...) are
+      absent from base.css. All layout for this page lives in the inline
+      styles below; only color/flex utilities verified present in base.css
+      are used as classes.
+
+      Logo naming: logo-dark.svg is the BLACK artwork (for light
+      backgrounds), logo-light.svg is the WHITE artwork (for dark
+      backgrounds).
+    #}
+    <style>
+        html.dark .nf-logo-for-light { display: none; }
+        html:not(.dark) .nf-logo-for-dark { display: none; }
+        .nf-wrap { min-height: 100svh; padding: 1.5rem; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+        .nf-logo { margin-bottom: 2rem; }
+        .nf-logo img { height: 2rem; width: auto; }
+        .nf-code { font-size: 0.875rem; font-weight: 500; letter-spacing: 0.2em; }
+        .nf-title { margin-top: 0.5rem; font-size: 1.875rem; line-height: 2.25rem; font-weight: 600; letter-spacing: -0.025em; }
+        .nf-text { margin-top: 0.75rem; max-width: 28rem; font-size: 1rem; line-height: 1.5rem; }
+        .nf-actions { margin-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.75rem; }
+        .nf-btn { display: inline-flex; align-items: center; height: 2.25rem; padding: 0 1rem; border-radius: 0.375rem; font-size: 0.875rem; font-weight: 500; box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); text-decoration: none; }
+        .nf-btn-outline { border: 1px solid; }
+    </style>
+</head>
+
+<body class="bg-background text-foreground font-sans antialiased">
+    <div class="nf-wrap">
+        <a href="{{ config.site_url }}" class="nf-logo inline-flex">
+            <img class="nf-logo-for-light" src="{{ config.site_url }}assets/logo-dark.svg" alt="{{ config.site_name }}">
+            <img class="nf-logo-for-dark" src="{{ config.site_url }}assets/logo-light.svg" alt="{{ config.site_name }}">
+        </a>
+        <p class="nf-code text-muted-foreground">404</p>
+        <h1 class="nf-title">Page not found</h1>
+        <p class="nf-text text-muted-foreground">
+            This page doesn't exist, or it moved when we reorganized the docs.
+        </p>
+        <div class="nf-actions">
+            <a href="{{ config.site_url }}" class="nf-btn bg-primary text-primary-foreground">
+                Go to the docs home
+            </a>
+            <a href="https://himoose.com/" class="nf-btn nf-btn-outline border-input">
+                Visit himoose.com
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

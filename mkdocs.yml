@@ -13,6 +13,10 @@ theme:
   logo: assets/logo-dark.svg
   favicon: assets/favicon.ico
   custom_dir: overrides
+  # Render overrides/404.html to site/404.html; Firebase Hosting serves it
+  # for every missing path. The shadcn theme doesn't declare this itself.
+  static_templates:
+    - 404.html
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
