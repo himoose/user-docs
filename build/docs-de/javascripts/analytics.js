@@ -22,7 +22,7 @@
 (function () {
   try {
     var TOKEN = 'phc_BhDU7TyEbHAjyCapZWwxM7qwSDEqgwA7qD6HnHTFR9KN';
-    var ENDPOINT = 'https://eu.i.posthog.com/i/v0/e/';
+    var ENDPOINT = 'https://r.himoose.com/i/v0/e/';
     var SITE = 'docs';
 
     if (navigator.doNotTrack === '1' || window.doNotTrack === '1' ||

@@ -45,6 +45,6 @@ The composer surfaces one-click quick starts for common jobs, including:
 - [Capture ChatGPT fan-out queries for a prompt](../features/fan-out-queries.md)
 - [Turn text content into audio](../legacy/listen-to-this-article.md)
 
-The grounding queries and fan-out queries quick starts reveal the hidden searches an AI engine actually ran while answering a prompt, plus the sources it cited. These are diagnostic capabilities that run a managed Gemini or OpenAI call behind the scenes, so they require a **paid managed workspace** — this holds even on BYOK plans, since the query-capture step itself uses Hi, Moose managed infrastructure rather than your local key.
+The grounding queries and fan-out queries quick starts show you the searches a web-grounded AI engine ran while answering a prompt, plus the sources it cited. Both work by making a managed Gemini or OpenAI call and reading back the searches that call performed, so they are a close proxy for what AI Mode and ChatGPT Search do rather than a capture of those products themselves. Because that call runs on our infrastructure, both require a **paid managed workspace**, and that holds even on BYOK plans, since the query-capture step uses Hi, Moose managed infrastructure rather than your local key.
 
 The audio quick start bridges to the [legacy web app](../legacy/listen-to-this-article.md), since audio generation hasn't moved into the desktop app yet.
