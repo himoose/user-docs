@@ -21,6 +21,19 @@
 
 <head>
     <script>
+        (function () {
+            var host = window.location.hostname;
+            if (/^himoose-user-docs\.(web\.app|firebaseapp\.com)$/.test(host)) {
+                window.location.replace(
+                    "https://himoose.com/docs" +
+                    window.location.pathname +
+                    window.location.search +
+                    window.location.hash
+                );
+            }
+        })();
+    </script>
+    <script>
         // for search plugin notably
         const base_url = "{{ config.site_url }}";
     </script>

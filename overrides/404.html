@@ -20,6 +20,19 @@
 <html lang="en" class="layout-fixed">
 
 <head>
+    <script>
+        (function () {
+            var host = window.location.hostname;
+            if (/^himoose-user-docs\.(web\.app|firebaseapp\.com)$/.test(host)) {
+                window.location.replace(
+                    "https://himoose.com/docs" +
+                    window.location.pathname +
+                    window.location.search +
+                    window.location.hash
+                );
+            }
+        })();
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
