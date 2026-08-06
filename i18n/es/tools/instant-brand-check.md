@@ -29,11 +29,11 @@ Cada motor recibe un veredicto:
 
 | Resultado | Significado |
 |---|---|
-| **Recommended** | Su marca se propuso como respuesta |
-| **Listed among others** | Aparece, junto a alternativas |
-| **Described neutrally** | Se la menciona sin recomendarla ni desaconsejarla |
-| **Described negatively** | Se la menciona de forma desfavorable |
-| **Not in the answer** | El motor no la mencionó |
+| **Recomendado** | Su marca se propuso como respuesta |
+| **Citado entre otros** | Aparece, junto a alternativas |
+| **Descrito de forma neutral** | Se la menciona sin recomendarla ni desaconsejarla |
+| **Descrito negativamente** | Se la menciona de forma desfavorable |
+| **No aparece en la respuesta** | El motor no la mencionó |
 
 También verá si cada motor **citó su sitio** concretamente y cuántas fuentes citó en total. Ser mencionado y ser citado son victorias distintas: aparecer nombrado en el texto no es lo mismo que ser la fuente sobre la que se construyó la respuesta.
 
@@ -41,7 +41,7 @@ Las consultas se etiquetan como **de marca** o **sin marca**. Las consultas sin 
 
 ## Convertir una comprobación en seguimiento
 
-La tarjeta de resultados incluye una acción **Add to tracked prompts**. Eso promueve la consulta a su [Prompt Manager](../visibility/prompt-manager.md), de modo que a partir de entonces se ejecute según su programación.
+La tarjeta de resultados incluye una acción **Añadir a los prompts monitorizados**. Eso promueve la consulta a su [Prompt Manager](../visibility/prompt-manager.md), de modo que a partir de entonces se ejecute según su programación.
 
 !!! note "Una comprobación es una instantánea, no una tendencia"
     Una comprobación instantánea le dice cómo está en este momento. Las respuestas de la IA varían entre ejecuciones, así que un único resultado no debe interpretarse como un cambio. Los prompts supervisados se ejecutan de forma programada y construyen la línea de tendencia que sí indica si algo se ha movido. Utilice las comprobaciones instantáneas para encontrar preguntas que merezca la pena supervisar y después supervíselas.

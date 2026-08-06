@@ -9,16 +9,16 @@ Les paramètres de Visibility déterminent à quelle fréquence Hi, Moose vérif
 
 ## Planification des exécutions
 
-- **Cadence** : quotidienne, jours ouvrés, hebdomadaire ou manuelle uniquement.
+- **Fréquence** : quotidienne, jours ouvrés, hebdomadaire ou manuelle uniquement.
 - **Heure d'exécution préférée** et, pour la cadence hebdomadaire, un **jour de la semaine**. Les exécutions ont lieu dans votre fuseau horaire local.
-- **Échantillons par prompt** : les exécutions planifiées peuvent répéter chaque prompt plusieurs fois et moyenner les résultats pour obtenir un taux de visibilité plus stable. Le bouton manuel **Run now** utilise toujours un seul échantillon. Augmenter cette valeur multiplie la consommation de jetons d'autant, et Hi, Moose vous avertit avant d'enregistrer une valeur plus élevée.
+- **Échantillons par prompt** : les exécutions planifiées peuvent répéter chaque prompt plusieurs fois et moyenner les résultats pour obtenir un taux de visibilité plus stable. Le bouton manuel **Exécuter maintenant** utilise toujours un seul échantillon. Augmenter cette valeur multiplie la consommation de jetons d'autant, et Hi, Moose vous avertit avant d'enregistrer une valeur plus élevée.
 
 !!! note "Les exécutions planifiées nécessitent que cet appareil soit allumé"
     Sur **Preview Mode** et les forfaits **BYOK**, la planification s'exécute en local sur votre machine : une exécution planifiée ne peut pas démarrer si l'ordinateur est éteint ou en veille, ou si Hi, Moose est complètement fermé. Gardez l'application ouverte (ou réduite dans la barre d'état système) pour que les exécutions planifiées puissent avoir lieu. Les **forfaits gérés** débloquent un planificateur cloud toujours actif, qui ne dépend pas de l'état de votre appareil. Les moteurs en interrogation locale exigent toujours que l'application soit ouverte, quel que soit le forfait, puisque ces vérifications partent de votre machine.
 
 ## Notifications par e-mail
 
-Activez **Scheduled visibility email reports** pour recevoir le rapport de visibilité par e-mail une fois les exécutions planifiées terminées. Il s'agit d'une préférence de notification personnelle, distincte des [réglages de notification de l'Inbox](../inbox/notifications.md).
+Activez **Rapports de visibilité planifiés par e-mail** pour recevoir le rapport de visibilité par e-mail une fois les exécutions planifiées terminées. Il s'agit d'une préférence de notification personnelle, distincte des [réglages de notification de l'Inbox](../inbox/notifications.md).
 
 ## Termes et domaines de marque secondaires
 
@@ -47,7 +47,7 @@ Les modèles gratuits d'OpenRouter ne sont plus proposés comme option de scorin
 
 ## Modèles par défaut pour les nouveaux prompts
 
-Choisissez quels moteurs sont présélectionnés chaque fois que vous ajoutez un prompt dans le [Prompt Manager](prompt-manager.md) ; vous pourrez ensuite modifier la sélection prompt par prompt. Les modèles marqués **Paid** nécessitent un forfait payant ou BYOK ; Preview Mode est limité aux modèles en interrogation locale. Chaque modèle coché ici compte dans la consommation de jetons lors des exécutions de visibilité.
+Choisissez quels moteurs sont présélectionnés chaque fois que vous ajoutez un prompt dans le [Prompt Manager](prompt-manager.md) ; vous pourrez ensuite modifier la sélection prompt par prompt. Les modèles marqués **Payant** nécessitent un forfait payant ou BYOK ; Preview Mode est limité aux modèles en interrogation locale. Chaque modèle coché ici compte dans la consommation de jetons lors des exécutions de visibilité.
 
 ## Refaire le parcours d'accueil
 

@@ -1,0 +1,40 @@
+# Brazilian Portuguese theme chrome, matching the desktop app catalog
+# (aplicativo, arquivo, gerenciar, compartilhar). Key set must match en.yml.
+
+site:
+  name: Documentação do usuário
+  description: Documentação do usuário do Hi, Moose - plataforma de otimização para busca com IA
+
+header:
+  menu: Menu
+  toggleMenu: Mostrar ou ocultar o menu
+  toggleTheme: Alternar tema
+  toggleLayout: Alternar layout
+
+search:
+  label: Pesquisar na documentação...
+  placeholder: Pesquisar na documentação...
+  labelShort: Pesquisar...
+
+toc:
+  onThisPage: Nesta página
+
+language:
+  menuAriaLabel: Escolha um idioma
+  panelLabel: Idioma
+  availableAriaLabel: Idiomas disponíveis
+  currentStatus: Atual
+
+stale:
+  title: Esta página pode estar desatualizada
+  body: Ela foi traduzida a partir de uma versão anterior da página em inglês.
+  linkLabel: Ver em inglês
+
+machineTranslated:
+  title: Tradução automática
+  body: Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
+  linkLabel: Ler em inglês
+
+notTranslated:
+  title: Ainda não traduzida
+  body: Esta página ainda não está disponível no seu idioma, por isso é exibida em inglês.

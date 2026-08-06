@@ -18,7 +18,7 @@ Chaque conversation enregistrée dans la liste affiche :
 - Sa date de dernière mise à jour.
 - Le [spécialiste](tools-and-specialists.md#specialistes) actif dans ce fil, le cas échéant.
 
-Cliquez sur **Open chat** pour rouvrir une session exactement là où vous l'aviez laissée, avec sa transcription complète restaurée.
+Cliquez sur **Ouvrir le chat** pour rouvrir une session exactement là où vous l'aviez laissée, avec sa transcription complète restaurée.
 
 ## Renommer une conversation
 
@@ -30,4 +30,4 @@ Supprimer une conversation efface définitivement sa transcription de l'historiq
 
 ## Repartir de zéro ou poursuivre
 
-Vous n'avez pas besoin d'ouvrir Chats à chaque fois : le champ de saisie du chat comporte lui-même un sélecteur de session affichant votre session en cours et des raccourcis vers les plus récentes, ainsi qu'une action **New chat** dès que vous souhaitez recommencer. Chats est là pour les moments où vous voulez la liste complète, ou devez retrouver quelque chose de plus ancien.
+Vous n'avez pas besoin d'ouvrir Chats à chaque fois : le champ de saisie du chat comporte lui-même un sélecteur de session affichant votre session en cours et des raccourcis vers les plus récentes, ainsi qu'une action **Nouveau chat** dès que vous souhaitez recommencer. Chats est là pour les moments où vous voulez la liste complète, ou devez retrouver quelque chose de plus ancien.

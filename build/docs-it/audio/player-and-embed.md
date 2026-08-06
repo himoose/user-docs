@@ -10,7 +10,7 @@ source_hash: b5d0a07f31228ccaaa2c18a76dddb8de404f3871f7b879591e111c89bae3e9c5
 
 ## A cosa serve
 
-Adattare l'aspetto del player audio incorporato alla pagina che lo ospiterà e poi copiare il codice di incorporamento. Lo apra da un episodio completato con **Customize player**, oppure dall'azione di incorporamento nella scheda **History**.
+Adattare l'aspetto del player audio incorporato alla pagina che lo ospiterà e poi copiare il codice di incorporamento. Lo apra da un episodio completato con **Personalizza il player**, oppure dall'azione di incorporamento nella scheda **Cronologia**.
 
 ## Opzioni del player
 
@@ -25,7 +25,7 @@ Un'anteprima dal vivo si aggiorna mentre modifica le impostazioni. Se lo script 
 
 ## Copiare il codice di incorporamento
 
-Faccia clic su **Copy embed code** e lo incolli nella sua pagina.
+Faccia clic su **Copia il codice di incorporamento** e lo incolli nella sua pagina.
 
 - **WordPress**: lo incolli nel blocco HTML o di codice dell'articolo, oppure usi il [plugin Listen to This Article](https://wordpress.org/plugins/listen-to-this-article/).
 - **Webflow**: lo incolli in un elemento Embed.
@@ -37,7 +37,7 @@ L'audio generato viene riprodotto soltanto sul dominio del sito del suo progetto
 
 ## Attribuzione dell'agenzia
 
-Nei piani con [personalizzazione white label](../agency/white-label.md), il player incorporato può riportare l'attribuzione della sua agenzia anziché quella di Hi, Moose. La imposti in **Impostazioni → Branding**:
+Nei piani con [personalizzazione white label](../agency/white-label.md), il player incorporato può riportare l'attribuzione della sua agenzia anziché quella di Hi, Moose. La imposti in **Impostazioni → Brand**:
 
 - **Attribuzione dell'incorporamento audio**: il testo mostrato sul player. Lo lasci vuoto per usare «Audio by» seguito dal nome della sua agenzia.
 - **Link di attribuzione**: un indirizzo `https://` completo. Lo lasci vuoto per riutilizzare il suo link di marca principale.

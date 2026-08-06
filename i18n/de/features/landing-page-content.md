@@ -5,9 +5,9 @@ source_hash: 74350e56e731651f6ec3d16f665469ed0f3a02cd5ed2fd4ddca3af2f63feb121
 
 ## Wofür das gut ist
 
-Aus einem [Content-Brief](content-briefs.md) conversionorientierten Landingpage-Text erzeugen: den Vorlagentyp **Landing page**.
+Aus einem [Content-Brief](content-briefs.md) conversionorientierten Landingpage-Text erzeugen: den Vorlagentyp **Landingpage**.
 
-Im [Chat](../chat/overview.md) führt Sie der Schnellstart **Create landing page content** durch die Bestätigung von Zielanfrage und Vorlagentyp, bevor Brief und erster Entwurf gemeinsam erzeugt werden.
+Im [Chat](../chat/overview.md) führt Sie der Schnellstart **Landingpage-Inhalte erstellen** durch die Bestätigung von Zielanfrage und Vorlagentyp, bevor Brief und erster Entwurf gemeinsam erzeugt werden.
 
 ## Struktur
 

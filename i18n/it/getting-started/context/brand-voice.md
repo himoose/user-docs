@@ -29,7 +29,7 @@ I campi a elenco (valori del marchio, terminologia, elementi di prova e simili) 
 
 ## Compilazione automatica dal suo sito
 
-Invece di compilare ogni campo a mano, può avviare **Auto fill**:
+Invece di compilare ogni campo a mano, può avviare **Compila automaticamente**:
 
 1. Confermi il dominio del sito del progetto (Hi, Moose glielo chiederà se non è ancora impostato).
 2. Hi, Moose scansiona il sito in locale, nell'app desktop.

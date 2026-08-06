@@ -18,12 +18,12 @@ Sostituisce i «consigli AEO» sparsi con un artefatto duraturo e confrontabile:
 
 Il punteggio complessivo è una combinazione ponderata di otto categorie, ciascuna valutata da 0 a 100:
 
-1. **Freshness**: segnali di attualità e aggiornamento.
-2. **Structure**: titoli, elenchi, tabelle e paragrafi che un motore di risposta possa analizzare.
+1. **Aggiornamento**: segnali di attualità e aggiornamento.
+2. **Struttura**: titoli, elenchi, tabelle e paragrafi che un motore di risposta possa analizzare.
 3. **Semantic Clarity**: quanto strettamente il contenuto corrisponde alla sua query obiettivo e al suo intento.
-4. **Extractability**: con quanta facilità un motore di risposta può estrarre una definizione, un dato o un punto chiave.
+4. **Estraibilità**: con quanta facilità un motore di risposta può estrarre una definizione, un dato o un punto chiave.
 5. **Citation Potential**: segnali di attribuzione e di fonti, ricavati dai link di riferimento esterni della pagina.
-6. **Comprehensiveness**: copertura dei sottotemi che persone e motori di risposta si attendono per quella query.
+6. **Completezza**: copertura dei sottotemi che persone e motori di risposta si attendono per quella query.
 7. **Trust Signals**: coerenza, concretezza e cautela delle affermazioni nel modo in cui la pagina presenta attribuzione e fonti. Questa categoria non verifica le affermazioni presso fonti esterne: misura quanto le affermazioni della pagina stessa siano ben attribuite e concrete.
 8. **Answer Readiness**: collocazione di una risposta diretta vicino all'inizio, un'idea per blocco, linguaggio referenziale chiaro (evitando «questo/esso/essi» generici) e denominazione coerente delle entità. La valutazione tiene conto della lingua per inglese, tedesco, spagnolo, francese, italiano e portoghese.
 
@@ -48,8 +48,8 @@ Accanto alla valutazione dei contenuti, ogni audit verifica se un motore di risp
 
 Ogni problema e ogni raccomandazione sono etichettati in base alla solidità dell'evidenza che li sostiene:
 
-- **Proven**: presupposti di recuperabilità con solido sostegno empirico (accesso dei crawler, rendering lato server, link funzionanti, indicizzazione nei motori di ricerca).
-- **Directional**: sostenuti da ricerche osservazionali su larga scala, ma senza garanzia (risposta collocata all'inizio, attualità, chiarezza strutturale).
+- **Dimostrato**: presupposti di recuperabilità con solido sostegno empirico (accesso dei crawler, rendering lato server, link funzionanti, indicizzazione nei motori di ricerca).
+- **Indicativo**: sostenuti da ricerche osservazionali su larga scala, ma senza garanzia (risposta collocata all'inizio, attualità, chiarezza strutturale).
 - **Best-practice**: plausibili e poco costosi, ma senza prova che spostino le citazioni dell'IA (aggiungere statistiche, citazioni testuali o rifinire le fonti).
 
 L'audit non raccomanda il markup schema/JSON-LD, i file `llms.txt` né le tattiche di accumulo di parole chiave come modi per migliorare le citazioni dell'IA, poiché la ricerca attuale non giustifica di trattarli come leve di citazione.

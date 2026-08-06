@@ -1,20 +1,25 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 685c1e28ae96f03a47645cdef302b5b0d4b54afda3810ab2ce0dae64df47c45a
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Inbox Notifications
+    [Ler em inglês](https://himoose.com/docs/inbox/notifications/)
 
-## What this helps you do
+# Notificações da Caixa de entrada
 
-Inbox notification preferences control how — and how urgently — you're alerted when new items land in a project's [Inbox](overview.md). These settings are per-project, so a low-priority test project doesn't have to notify you the same way a client's production site does.
+## Para que serve
 
-## Settings
+As preferências de notificação da Caixa de entrada controlam como, e com que urgência, você é avisado quando chegam itens novos à [Caixa de entrada](overview.md) de um projeto. Essas configurações são por projeto, então um projeto de teste de baixa prioridade não precisa avisar você do mesmo jeito que o site em produção de um cliente.
 
-- **Show inbox badge in this app** — when off, the sidebar and dock badge won't update for this project, even though items still arrive in the Inbox itself.
-- **Show desktop notifications** — native macOS or Windows notifications when an item meets the severity threshold below.
-- **Minimum severity for desktop notifications** — choose the lowest severity that should trigger a desktop notification (e.g. Warning). Items below that threshold still appear in the Inbox, they just won't interrupt you.
-- **Email me a daily digest** — the toggle is saved, but this digest is not sent yet; it's coming soon.
-- **Include informational AEO changes** — off by default, to keep the Inbox focused on things that matter. When on, low-impact AEO changes also get sent to the Inbox. Note that desktop notifications still respect the severity threshold above even if this is on.
+## Configurações
 
-## Why these are separate from severity itself
+- **Mostrar o indicador da Caixa de entrada neste aplicativo**: quando desativado, o indicador da barra lateral e do dock não é atualizado para este projeto, mesmo que os itens continuem chegando à Caixa de entrada.
+- **Mostrar notificações do sistema**: notificações nativas do macOS ou do Windows quando um item atinge o limite de gravidade definido abaixo.
+- **Gravidade mínima para notificações do sistema**: escolha a menor gravidade que deve disparar uma notificação. Os itens abaixo desse limite continuam aparecendo na Caixa de entrada, apenas não interrompem você.
+- **Enviar um resumo diário por e-mail**: a configuração é salva, mas esse resumo ainda não é enviado; vem em breve.
+- **Incluir alterações de AEO informativas**: desativado por padrão, para manter a Caixa de entrada focada no que importa. Quando ativado, alterações de baixo impacto também vão para a Caixa de entrada. Note que as notificações do sistema continuam respeitando o limite de gravidade acima, mesmo com essa opção ligada.
 
-Severity (critical, warning, notice, info) is set on the item itself based on what actually happened — it isn't something you configure. What you control here is how much of that gets surfaced as a badge, a desktop notification, or (soon) an email — so the underlying signal stays honest while you tune how loudly it's delivered.
+## Por que isso é separado da própria gravidade
+
+A gravidade (crítica, aviso, notificação, informação) é atribuída ao próprio item conforme o que de fato aconteceu: não é algo que você configura. O que você controla aqui é quanto disso aparece como indicador, como notificação do sistema ou (em breve) como e-mail. Assim o sinal subjacente continua honesto enquanto você ajusta o volume da entrega.

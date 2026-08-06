@@ -10,9 +10,9 @@ source_hash: 74350e56e731651f6ec3d16f665469ed0f3a02cd5ed2fd4ddca3af2f63feb121
 
 ## Para qué sirve
 
-Generar texto de landing page orientado a la conversión a partir de un [brief de contenido](content-briefs.md): el tipo de plantilla **Landing page**.
+Generar texto de landing page orientado a la conversión a partir de un [brief de contenido](content-briefs.md): el tipo de plantilla **Página de destino**.
 
-Desde el [Chat](../chat/overview.md), el inicio rápido **Create landing page content** le guía para confirmar una consulta objetivo y un tipo de plantilla antes de generar juntos el brief y el primer borrador.
+Desde el [Chat](../chat/overview.md), el inicio rápido **Crear contenido de página de destino** le guía para confirmar una consulta objetivo y un tipo de plantilla antes de generar juntos el brief y el primer borrador.
 
 ## Estructura
 

@@ -10,11 +10,11 @@ source_hash: 799fa86d4b93065bdbc58d1b0a7cc5400446cfdee289750eafd31c6a0c8371b2
 
 ## Wofür das gut ist
 
-Im Chat sprechen Sie direkt mit dem Hi, Moose-Operator, demselben Hauptagenten, der in dieser gesamten Dokumentation beschrieben wird, und nicht mit einem separaten Werkzeug. Er ist über den Bildschirm **Home** und über den eigenen Chat-Bildschirm erreichbar, und jedes Gespräch kann den [Context](../getting-started/context/overview.md) Ihres Projekts, angehängte Dateien und gespeicherte Spezialisten heranziehen, um seine Antworten zu fundieren.
+Im Chat sprechen Sie direkt mit dem Hi, Moose-Operator, demselben Hauptagenten, der in dieser gesamten Dokumentation beschrieben wird, und nicht mit einem separaten Werkzeug. Er ist über den Bildschirm **Start** und über den eigenen Chat-Bildschirm erreichbar, und jedes Gespräch kann den [Context](../getting-started/context/overview.md) Ihres Projekts, angehängte Dateien und gespeicherte Spezialisten heranziehen, um seine Antworten zu fundieren.
 
 ## Ein Gespräch beginnen
 
-- Klicken Sie auf **New chat**, um neu zu beginnen, oder setzen Sie ein bestehendes Gespräch fort.
+- Klicken Sie auf **Neuer Chat**, um neu zu beginnen, oder setzen Sie ein bestehendes Gespräch fort.
 - Das Eingabefeld bietet Schnellstarts für häufige Aufgaben.
 - Wählen Sie etwas Bestimmtes aus dem **[Tools-Menü](../tools/overview.md)** in der oberen Leiste.
 - Oder formulieren Sie Ihr Anliegen in einfacher Sprache. Hi, Moose entscheidet, ob direkt geantwortet, eine Rückfrage gestellt oder eine Funktion wie [Content Briefs](../features/content-briefs.md) oder [AEO Audits](../features/aeo-audits.md) ausgeführt und Ihnen ein dauerhaftes Artefakt zurückgegeben wird.
@@ -38,7 +38,7 @@ Das Anhang-Menü bietet vier Möglichkeiten:
 - **Datei oder Bild hochladen**: `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg` und `.png`. Tabellen werden in lesbaren Text überführt, statt als undurchsichtige Dateien behandelt zu werden.
 - **Bildschirmfoto aufnehmen**: Wählen Sie einen Bildschirm oder ein Fenster und schneiden Sie anschließend den gewünschten Bereich zu. Unter macOS ist dafür die Berechtigung zur Bildschirmaufnahme nötig, und Hi, Moose führt Sie durch deren Erteilung.
 - **Aus der Library hinzufügen**: Hängen Sie gespeicherte [Library](../library/overview.md)-Einträge als Kontext an.
-- **Vektordatenbank der Website**: Übergeben Sie Moose Ihre indexierte Website, damit er aus Ihren echten Seiten antwortet. Siehe [Site Monitoring](../site-monitoring/overview.md).
+- **Vektordatenbank der Website**: Übergeben Sie Moose Ihre indexierte Website, damit er aus Ihren echten Seiten antwortet. Siehe [Website-Monitoring](../site-monitoring/overview.md).
 
 ## Was eine Antwort fundiert macht
 

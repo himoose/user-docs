@@ -16,9 +16,9 @@ Jeder Chat läuft mit einem bestimmten KI-Modell, und über die Modellauswahl se
 
 Öffnen Sie die Modellauswahl, um die in Ihrem [Tarif](../getting-started/account-modes.md) verfügbaren Modelle zu sehen. Jede Option trägt Kennzeichnungen, damit Sie vor dem Wechsel wissen, was Sie bekommen:
 
-- **Free** / **HiMoose Cloud** / **Paid or BYOK**: welche Tarife dieses Modell nutzen können.
+- **Kostenlos** / **HiMoose Cloud** / **Bezahlt oder BYOK**: welche Tarife dieses Modell nutzen können.
 - **Speed: Slow / Average / Very Fast**: ein grober Eindruck der Antwortzeit.
-- **Local**: läuft vollständig auf Ihrem Gerät (siehe unten).
+- **Lokal**: läuft vollständig auf Ihrem Gerät (siehe unten).
 - Eine **Multiplikator-Kennzeichnung** bei teureren Modellen, die zeigt, wie viel mehr sie von Ihrem Guthaben verbrauchen als die Standardoption.
 
 Das Angebot folgt dem, was die Modellanbieter veröffentlichen, und umfasst derzeit die Familien Claude, GPT, Gemini und Gemma. Ist ein Modell in Ihrem Tarif nicht verfügbar, sagt Hi, Moose Ihnen das direkt, statt stillschweigend auf ein anderes auszuweichen.

@@ -20,14 +20,14 @@ Chaque élément de l'Inbox renvoie à quelque chose de concret que vous pouvez 
 
 Chaque élément propose une action suivante lorsque cela a du sens (ouvrir l'artefact, lancer un brief, donner suite à un audit, relire un brouillon, approuver une modification ou relancer une exécution en échec) : vous ne lisez pas seulement une notification, vous êtes à un clic d'agir.
 
-Les récapitulatifs de site monitoring comportent en outre une action **Ask Moose about all of this** qui transmet l'instantané de l'exploration au [chat](../chat/overview.md) et lui demande par quoi commencer.
+Les récapitulatifs de site monitoring comportent en outre une action **Demander à Moose à propos de tout ceci** qui transmet l'instantané de l'exploration au [chat](../chat/overview.md) et lui demande par quoi commencer.
 
 ## Filtrer l'Inbox
 
 Deux filtres déterminent ce que vous voyez :
 
 - **Statut** : la valeur par défaut est **Active**, c'est-à-dire tout ce qui n'a pas été écarté (éléments ouverts, en cours et terminés). Basculez sur un statut précis, ou sur **All** pour inclure les éléments écartés que vous souhaiteriez rouvrir.
-- **Sévérité** : **Critical**, **Warning**, **Notice**, **Info**, ou toutes.
+- **Sévérité** : **Critique**, **Avertissement**, **Notice**, **Info**, ou toutes.
 
 Les éléments sont regroupés par date (par exemple « Hier », « Plus anciens ») avec un compteur par groupe, pour voir rapidement ce qui vous attend. Les boîtes volumineuses sont paginées plutôt que chargées d'un seul bloc.
 

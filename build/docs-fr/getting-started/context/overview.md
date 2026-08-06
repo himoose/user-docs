@@ -10,7 +10,7 @@ source_hash: 05fae21b2ec70be5a8bae1ca0e58f085c9da2140a80bae1dc2e083051aeffb43
 
 ## À quoi cela sert
 
-**Context** est la couche de fondement située dans la navigation de gauche de l'application de bureau. C'est le contexte opérationnel partagé de votre projet en cours : les informations que l'opérateur, le chat et toutes les fonctions de génération réutilisent au lieu de repartir de zéro à chaque demande.
+**Contexte** est la couche de fondement située dans la navigation de gauche de l'application de bureau. C'est le contexte opérationnel partagé de votre projet en cours : les informations que l'opérateur, le chat et toutes les fonctions de génération réutilisent au lieu de repartir de zéro à chaque demande.
 
 Context se compose de trois éléments distincts :
 
@@ -24,14 +24,14 @@ Context se compose de trois éléments distincts :
 
 Brand Voice et Brand Truth Profile répondent à des questions différentes, même si tous deux décrivent votre marque :
 
-- **Brand Voice** répond à « comment cela doit-il sonner ? » : ton, style, préférences de vocabulaire. C'est un guide créatif et stylistique pour le contenu généré.
+- **Voix de marque** répond à « comment cela doit-il sonner ? » : ton, style, préférences de vocabulaire. C'est un guide créatif et stylistique pour le contenu généré.
 - **Brand Truth Profile** répond à « qu'est-ce qui est vrai à notre sujet ? » : description canonique, client idéal, offres, concurrents et points précis que l'IA se trompe souvent. C'est une référence factuelle servant à repérer les déformations, pas un guide de style.
 
 **À propos de vous** se distingue des deux : cela ne concerne pas la marque du tout. C'est un contexte personnel sur **vous**, la personne qui utilise l'application, enregistré en local sur votre appareil plutôt que rattaché à un projet. Il vous suit donc d'un projet à l'autre au lieu d'être réinitialisé à chaque changement d'espace de travail.
 
 ## Où Context est utilisé
 
-- **Brand Voice** est réutilisée dans les [Content Briefs](../../features/content-briefs.md), le [générateur de FAQ](../../features/faq-generator.md), l'[extracteur de Key Points](../../features/key-points.md), les [brouillons, aperçus et publications](../../features/drafts-and-publishing.md) et les recommandations des [AEO audits](../../features/aeo-audits.md).
+- **Voix de marque** est réutilisée dans les [Content Briefs](../../features/content-briefs.md), le [générateur de FAQ](../../features/faq-generator.md), l'[extracteur de Key Points](../../features/key-points.md), les [brouillons, aperçus et publications](../../features/drafts-and-publishing.md) et les recommandations des [AEO audits](../../features/aeo-audits.md).
 - **Brand Truth Profile** est réutilisé pendant les exécutions de [Visibility](../../visibility/overview.md), où Hi, Moose vérifie si la réponse d'un moteur d'IA sur votre marque correspond à votre description canonique, à vos offres, à vos concurrents et aux schémas de déformation connus.
 - **À propos de vous** est réutilisé dans le [Chat](../../chat/overview.md), pour que les réponses tiennent compte de votre fonction, de vos objectifs et de votre style de communication préféré.
 

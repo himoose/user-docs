@@ -14,18 +14,18 @@ Collegare un sito [Grav](https://getgrav.org) in produzione tramite il plugin di
 
 ## Installare il plugin
 
-1. Da **Connections → Grav** nell'app desktop, apra il link di download e scarichi lo ZIP del plugin di Hi, Moose. La versione attuale è la **0.1.1** e richiede Grav 1.7.0 o successivo.
+1. Da **Connessioni → Grav** nell'app desktop, apra il link di download e scarichi lo ZIP del plugin di Hi, Moose. La versione attuale è la **0.1.1** e richiede Grav 1.7.0 o successivo.
 2. Nell'amministrazione di Grav apra **Plugins**, carichi lo ZIP e completi l'installazione.
 3. Attivi il plugin e apra poi le sue impostazioni nell'amministrazione di Grav.
 4. Copi il pacchetto di connessione mostrato lì: lo incollerà in Hi, Moose al passaggio successivo.
 
 ## Collegarsi in Hi, Moose
 
-1. Apra **Connections** nell'app desktop e scelga Grav.
+1. Apra **Connessioni** nell'app desktop e scelga Grav.
 2. Inserisca la URL del suo sito Grav.
 3. Lasci vuota la rotta del connettore, salvo che il suo plugin Grav usi una rotta diversa da quella predefinita. In caso contrario Hi, Moose usa la rotta del pacchetto di connessione oppure ripiega su `/himoose-connector`.
 4. Incolli il pacchetto di connessione copiato dal plugin e salvi.
-5. Faccia clic su **Test connector** per verificare la connessione con il suo sito Grav in produzione.
+5. Faccia clic su **Testa connettore** per verificare la connessione con il suo sito Grav in produzione.
 
 ## Stato della connessione
 

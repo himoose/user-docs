@@ -18,7 +18,7 @@ Jedes gespeicherte Gespräch in der Liste zeigt:
 - Wann es zuletzt aktualisiert wurde.
 - Welcher [Spezialist](tools-and-specialists.md#spezialisten) in diesem Verlauf gegebenenfalls aktiv war.
 
-Klicken Sie auf **Open chat**, um eine Sitzung genau dort wieder zu öffnen, wo Sie sie verlassen haben, mit vollständig wiederhergestellter Mitschrift.
+Klicken Sie auf **Chat öffnen**, um eine Sitzung genau dort wieder zu öffnen, wo Sie sie verlassen haben, mit vollständig wiederhergestellter Mitschrift.
 
 ## Ein Gespräch umbenennen
 
@@ -30,4 +30,4 @@ Beim Löschen eines Gesprächs wird dessen gespeicherte Mitschrift dauerhaft aus
 
 ## Neu beginnen oder fortsetzen
 
-Sie müssen nicht jedes Mal in Chats gehen: Das Eingabefeld des Chats hat selbst eine Sitzungsauswahl, die Ihre aktuelle Sitzung und Verknüpfungen zu den letzten anzeigt, dazu eine Aktion **New chat**, wann immer Sie neu beginnen möchten. Chats ist für die Momente da, in denen Sie die vollständige Liste sehen oder etwas weiter Zurückliegendes finden möchten.
+Sie müssen nicht jedes Mal in Chats gehen: Das Eingabefeld des Chats hat selbst eine Sitzungsauswahl, die Ihre aktuelle Sitzung und Verknüpfungen zu den letzten anzeigt, dazu eine Aktion **Neuer Chat**, wann immer Sie neu beginnen möchten. Chats ist für die Momente da, in denen Sie die vollständige Liste sehen oder etwas weiter Zurückliegendes finden möchten.

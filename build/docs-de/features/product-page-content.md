@@ -10,9 +10,9 @@ source_hash: f8772689cac35fb3db3b2391391de3ea27e63ee267597800996e792b83b1baf1
 
 ## Wofür das gut ist
 
-Aus einem [Content-Brief](content-briefs.md) Text für eine Produktfunktionsseite erzeugen: den Vorlagentyp **Product Feature page** (im Chat als Schnellstart **Product page content** bezeichnet).
+Aus einem [Content-Brief](content-briefs.md) Text für eine Produktfunktionsseite erzeugen: den Vorlagentyp **Produktfunktionsseite** (im Chat als Schnellstart **Product page content** bezeichnet).
 
-Im [Chat](../chat/overview.md) führt Sie der Schnellstart **Create product page content** durch die Bestätigung von Zielanfrage und Vorlagentyp, bevor Brief und erster Entwurf gemeinsam erzeugt werden.
+Im [Chat](../chat/overview.md) führt Sie der Schnellstart **Produktseiten-Inhalte erstellen** durch die Bestätigung von Zielanfrage und Vorlagentyp, bevor Brief und erster Entwurf gemeinsam erzeugt werden.
 
 ## Struktur
 

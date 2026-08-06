@@ -13,12 +13,12 @@ Esto sustituye los «consejos de AEO» sueltos por un artefacto duradero y compa
 
 La puntuación global es un compuesto ponderado de ocho categorías, cada una puntuada de 0 a 100:
 
-1. **Freshness**: señales de actualidad y de actualización.
-2. **Structure**: encabezados, listas, tablas y párrafos que un motor de respuesta pueda analizar.
+1. **Actualidad**: señales de actualidad y de actualización.
+2. **Estructura**: encabezados, listas, tablas y párrafos que un motor de respuesta pueda analizar.
 3. **Semantic Clarity**: hasta qué punto el contenido se ajusta a su consulta objetivo y a su intención.
-4. **Extractability**: con qué facilidad puede un motor de respuesta extraer una definición, un dato o un punto clave.
+4. **Extractabilidad**: con qué facilidad puede un motor de respuesta extraer una definición, un dato o un punto clave.
 5. **Citation Potential**: señales de atribución y de fuentes, basadas en los enlaces de referencia externos de la página.
-6. **Comprehensiveness**: cobertura de los subtemas que las personas y los motores de respuesta esperan para esa consulta.
+6. **Exhaustividad**: cobertura de los subtemas que las personas y los motores de respuesta esperan para esa consulta.
 7. **Trust Signals**: coherencia, concreción y matización de las afirmaciones en la forma en que la página presenta su atribución y sus fuentes. Esta categoría no verifica las afirmaciones frente a fuentes externas: mide lo bien atribuidas y concretas que son las propias afirmaciones de la página.
 8. **Answer Readiness**: colocación de la respuesta directa cerca del inicio, una idea por bloque, lenguaje referencial claro (evitando «esto», «ello» o «ellos» de forma vaga) y denominación coherente de las entidades. La puntuación tiene en cuenta el idioma en inglés, alemán, español, francés, italiano y portugués.
 
@@ -43,8 +43,8 @@ Junto a la puntuación de contenido, cada auditoría comprueba si un motor de re
 
 Cada problema y cada recomendación se etiquetan según la solidez de la evidencia que los respalda:
 
-- **Proven**: condiciones previas de recuperación con fuerte respaldo empírico (acceso de los rastreadores, renderizado en servidor, enlaces funcionales, indexación en buscadores).
-- **Directional**: respaldadas por investigación observacional a gran escala, pero sin garantía (colocación de la respuesta al principio, actualidad, claridad estructural).
+- **Comprobado**: condiciones previas de recuperación con fuerte respaldo empírico (acceso de los rastreadores, renderizado en servidor, enlaces funcionales, indexación en buscadores).
+- **Orientativa**: respaldadas por investigación observacional a gran escala, pero sin garantía (colocación de la respuesta al principio, actualidad, claridad estructural).
 - **Best-practice**: plausibles y de bajo coste, pero sin demostración de que muevan las citas de IA (añadir estadísticas, citas textuales o pulir las fuentes).
 
 La auditoría no recomienda marcado schema/JSON-LD, archivos `llms.txt` ni tácticas de acumulación de palabras clave como forma de mejorar las citas de IA, ya que la investigación actual no respalda tratarlos como palancas de citación.

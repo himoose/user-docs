@@ -16,7 +16,7 @@ L'accès à Search Console nécessite les identifiants OAuth de votre compte Goo
 
 ## Configurer une connexion
 
-1. Ouvrez **Connections** dans l'application de bureau et choisissez Google Search Console.
+1. Ouvrez **Connexions** dans l'application de bureau et choisissez Google Search Console.
 2. Autorisez l'accès dans votre navigateur.
 3. Rattachez une propriété Search Console au [projet](../getting-started/projects.md) actif.
 

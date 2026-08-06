@@ -1,35 +1,40 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 1d027fe8d7c0bf155818720c05a7777b1744c302a9ab057860377dc301df1947
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
+
+    [Ler em inglês](https://himoose.com/docs/integrations/grav/)
 
 # Grav
 
-## What this helps you do
+## Para que serve
 
-Connect a live [Grav](https://getgrav.org) site through the Hi, Moose Grav plugin, so the desktop app can inspect Grav content and run remote create, update, publish, and rollback actions directly.
+Conectar um site [Grav](https://getgrav.org) em produção pelo plugin do Hi, Moose para Grav, para que o aplicativo para desktop possa examinar o conteúdo do Grav e executar remotamente, de forma direta, ações de criar, atualizar, publicar e reverter.
 
-## Installing the plugin
+## Instalar o plugin
 
-1. From **Connections → Grav** in the desktop app, open the plugin download link and download the Hi, Moose plugin ZIP. The current version is **0.1.1** and it requires Grav 1.7.0 or newer.
-2. In your Grav Admin, open **Plugins**, upload the ZIP, and complete the install.
-3. Enable the plugin, then open its settings in Grav Admin.
-4. Copy the connection bundle shown there — you'll paste it into Hi, Moose in the next step.
+1. Em **Conexões → Grav** no aplicativo para desktop, abra o link de download e baixe o ZIP do plugin do Hi, Moose. A versão atual é a **0.1.1** e exige Grav 1.7.0 ou superior.
+2. No painel do Grav, abra **Plugins**, envie o ZIP e conclua a instalação.
+3. Ative o plugin e depois abra as configurações dele no painel do Grav.
+4. Copie o pacote de conexão exibido ali: você vai colá-lo no Hi, Moose no passo seguinte.
 
-## Connecting in Hi, Moose
+## Conectar no Hi, Moose
 
-1. Open **Connections** in the desktop app and choose Grav.
-2. Enter your Grav site URL.
-3. Leave the connector route blank unless your Grav plugin uses a non-default route — Hi, Moose otherwise uses the route from the connection bundle or falls back to `/himoose-connector`.
-4. Paste the connection bundle copied from the plugin, then save.
-5. Click **Test connector** to validate the connection against your live Grav site.
+1. Abra **Conexões** no aplicativo para desktop e escolha Grav.
+2. Informe a URL do seu site Grav.
+3. Deixe a rota do conector em branco, a menos que seu plugin do Grav use uma rota diferente da padrão. Do contrário, o Hi, Moose usa a rota do pacote de conexão ou recorre a `/himoose-connector`.
+4. Cole o pacote de conexão copiado do plugin e salve.
+5. Clique em **Testar conector** para validar a conexão com seu site Grav em produção.
 
-## Connection readiness
+## Estado da conexão
 
-After testing, Hi, Moose reports one of a few states: the connector isn't fully set up yet, it's saved but not yet validated, it responded but remote write actions aren't fully enabled (read-only), it's fully ready for read and remote write actions, or the last validation failed and the site settings or plugin secrets need attention.
+Depois do teste, o Hi, Moose reporta um entre vários estados: o conector ainda não está totalmente configurado, está salvo mas ainda não validado, respondeu mas as ações remotas de escrita não estão plenamente liberadas (somente leitura), está inteiramente pronto para ações de leitura e escrita remota, ou a última validação falhou e as configurações do site ou os segredos do plugin precisam de atenção.
 
-## What the connection can do
+## O que a conexão permite
 
-Once ready, the Grav connector can list content, read raw content, and create, update, and publish content directly — the same staged, reviewable path used by [Drafts, Preview & Publishing](../features/drafts-and-publishing.md) for other connections.
+Uma vez pronta, o conector do Grav consegue listar conteúdo, ler conteúdo bruto e criar, atualizar e publicar conteúdo diretamente, seguindo o mesmo caminho preparado e revisável que [Rascunhos, prévia e publicação](../features/drafts-and-publishing.md) usa nas outras conexões.
 
-## Security
+## Segurança
 
-Your Grav site URL and connection bundle are stored locally, only accessible to the desktop app's background process — never exposed to the renderer UI.
+A URL do seu site Grav e o pacote de conexão ficam salvos localmente e acessíveis só ao processo em segundo plano do aplicativo para desktop; nunca são expostos à interface.

@@ -10,9 +10,9 @@ source_hash: f8772689cac35fb3db3b2391391de3ea27e63ee267597800996e792b83b1baf1
 
 ## À quoi cela sert
 
-Générer un texte de page de fonctionnalité produit à partir d'un [brief de contenu](content-briefs.md) : le type de modèle **Product Feature page** (intitulé **Product page content** dans les démarrages rapides du Chat).
+Générer un texte de page de fonctionnalité produit à partir d'un [brief de contenu](content-briefs.md) : le type de modèle **Page de fonctionnalité produit** (intitulé **Product page content** dans les démarrages rapides du Chat).
 
-Depuis le [Chat](../chat/overview.md), le démarrage rapide **Create product page content** vous guide pour confirmer une requête cible et un type de modèle avant de générer ensemble le brief et le premier brouillon.
+Depuis le [Chat](../chat/overview.md), le démarrage rapide **Créer du contenu de page produit** vous guide pour confirmer une requête cible et un type de modèle avant de générer ensemble le brief et le premier brouillon.
 
 ## Structure
 

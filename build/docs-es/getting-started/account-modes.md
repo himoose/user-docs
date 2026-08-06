@@ -10,7 +10,7 @@ source_hash: 807f4fd0f8157bf27491590b13dd7b2b18f5cb12dd648c025f2c46cabf3ea0ed
 
 Hi, Moose ejecuta el trabajo de IA de dos maneras: con su propia clave de OpenRouter (BYOK) o con los modelos gestionados de Hi, Moose. Esa elección, y no el precio, es la verdadera bifurcación. Todo lo demás son números de proyectos, puestos y cuántos créditos mensuales recibe.
 
-Los planes se agrupan en dos pestañas dentro de la pantalla **Upgrade**: **Startup** y **Enterprise & Agencies**.
+Los planes se agrupan en dos pestañas dentro de la pantalla **Mejorar plan**: **Startup** y **Empresas y agencias**.
 
 ## Las dos formas de ejecutar la IA
 
@@ -111,7 +111,7 @@ BYOK Premium a escala de agencia. El mismo modelo local y el mismo conjunto de f
 
 ## Puestos, proyectos y créditos
 
-Los **proyectos adicionales** cuestan 10 USD al mes cada uno en todos los planes de pago. Puede añadirlos o quitarlos desde **Upgrade → Extra projects**.
+Los **proyectos adicionales** cuestan 10 USD al mes cada uno en todos los planes de pago. Puede añadirlos o quitarlos desde **Mejorar plan → Proyectos adicionales**.
 
 Los **puestos** son la verdadera línea entre lo gratuito y lo de pago. Preview Mode y BYOK Free se limitan al titular de la cuenta. BYOK Premium permite hasta 10, BYOK Agency hasta 25, y los planes gestionados no tienen límite, porque todos los miembros consumen del saldo de créditos del titular.
 
@@ -127,10 +127,10 @@ Las recargas son compras únicas, no suscripciones. Solo se consumen cuando se a
 
 ## Cupones
 
-Si dispone de un código de descuento, introdúzcalo durante el pago en la pantalla **Upgrade**.
+Si dispone de un código de descuento, introdúzcalo durante el pago en la pantalla **Mejorar plan**.
 
 ## Cambiar de plan
 
-Puede cambiar de plan en cualquier momento desde **Configuración → Cuenta** o desde la pantalla **Upgrade**. Si pasa de un plan gestionado a uno BYOK, añada antes su clave de API de OpenRouter. Hi, Moose valida la clave antes de redirigir hacia ella el enrutamiento de IA.
+Puede cambiar de plan en cualquier momento desde **Configuración → Cuenta** o desde la pantalla **Mejorar plan**. Si pasa de un plan gestionado a uno BYOK, añada antes su clave de API de OpenRouter. Hi, Moose valida la clave antes de redirigir hacia ella el enrutamiento de IA.
 
 Su clave de OpenRouter se guarda por cuenta y no por dispositivo, de modo que le acompaña a una instalación nueva.

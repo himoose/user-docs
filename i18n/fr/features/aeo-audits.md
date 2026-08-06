@@ -13,12 +13,12 @@ Cela remplace les « conseils AEO » ponctuels par un artefact durable et compar
 
 Le score global est une composition pondérée de huit catégories, chacune notée de 0 à 100 :
 
-1. **Freshness** : signaux d'actualité et de mise à jour.
+1. **Fraîcheur** : signaux d'actualité et de mise à jour.
 2. **Structure** : titres, listes, tableaux et découpage en paragraphes qu'un moteur de réponse peut analyser.
 3. **Semantic Clarity** : à quel point le contenu correspond étroitement à votre requête cible et à son intention.
-4. **Extractability** : avec quelle facilité un moteur de réponse peut extraire une définition, un fait ou un point clé.
+4. **Extractibilité** : avec quelle facilité un moteur de réponse peut extraire une définition, un fait ou un point clé.
 5. **Citation Potential** : signaux d'attribution et de sourcing, fondés sur les liens de référence externes de la page.
-6. **Comprehensiveness** : couverture des sous-sujets que les personnes et les moteurs de réponse attendent pour cette requête.
+6. **Exhaustivité** : couverture des sous-sujets que les personnes et les moteurs de réponse attendent pour cette requête.
 7. **Trust Signals** : cohérence, précision et nuance des affirmations dans la façon dont la page présente son attribution et ses sources. Cette catégorie ne vérifie pas les affirmations auprès de sources externes : elle mesure à quel point les affirmations de la page elle-même sont bien attribuées et précises.
 8. **Answer Readiness** : placement d'une réponse directe près du début, une idée par bloc, langage référentiel clair (en évitant les « ceci / cela / ils » vagues) et dénomination cohérente des entités. Le scoring tient compte de la langue en anglais, allemand, espagnol, français, italien et portugais.
 
@@ -43,8 +43,8 @@ En parallèle du scoring de contenu, chaque audit vérifie si un moteur de répo
 
 Chaque problème et chaque recommandation sont étiquetés selon la solidité des preuves qui les étayent :
 
-- **Proven** : conditions préalables de récupération solidement étayées empiriquement (accès des robots, rendu côté serveur, liens fonctionnels, indexation par les moteurs).
-- **Directional** : étayées par des recherches observationnelles à grande échelle, sans garantie (placement de la réponse en tête, actualité, clarté structurelle).
+- **Prouvé** : conditions préalables de récupération solidement étayées empiriquement (accès des robots, rendu côté serveur, liens fonctionnels, indexation par les moteurs).
+- **Indicatif** : étayées par des recherches observationnelles à grande échelle, sans garantie (placement de la réponse en tête, actualité, clarté structurelle).
 - **Best-practice** : plausibles et peu coûteuses, mais sans preuve d'effet sur les citations d'IA (ajout de statistiques, de citations ou d'un sourcing plus soigné).
 
 L'audit ne recommande ni le balisage schema/JSON-LD, ni les fichiers `llms.txt`, ni les tactiques de bourrage de mots-clés comme moyens d'améliorer les citations d'IA, la recherche actuelle ne permettant pas de les considérer comme des leviers de citation.

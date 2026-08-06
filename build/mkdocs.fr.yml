@@ -143,38 +143,38 @@ nav:
   - Projets et espace de travail: getting-started/projects.md
   - Paramètres: getting-started/settings.md
   - Gestion de l'équipe: getting-started/team-management.md
-- Inbox:
-  - Vue d'ensemble: inbox/overview.md
+- Boîte de réception:
+  - Vue d’ensemble: inbox/overview.md
   - Notifications: inbox/notifications.md
-- Context:
-  - Vue d'ensemble: getting-started/context/overview.md
+- Contexte:
+  - Vue d’ensemble: getting-started/context/overview.md
   - Brand Voice: getting-started/context/brand-voice.md
   - Brand Truth Profile: getting-started/context/brand-truth-profile.md
   - À propos de vous: getting-started/context/about-you.md
-- Visibility:
-  - Vue d'ensemble: visibility/overview.md
+- Visibilité:
+  - Vue d’ensemble: visibility/overview.md
   - Concurrents et Share of Voice: visibility/competitors.md
   - Prompt Manager: visibility/prompt-manager.md
   - Paramètres: visibility/settings.md
-- Site Monitoring:
-  - Vue d'ensemble: site-monitoring/overview.md
+- Surveillance du site:
+  - Vue d’ensemble: site-monitoring/overview.md
 - Workflows:
-  - Vue d'ensemble: workflows/overview.md
+  - Vue d’ensemble: workflows/overview.md
   - Récupérer la visibilité perdue: workflows/recover-lost-visibility.md
   - Créer du contenu: workflows/create-new-content.md
 - Chat:
-  - Vue d'ensemble: chat/overview.md
+  - Vue d’ensemble: chat/overview.md
   - Outils et spécialistes du chat: chat/tools-and-specialists.md
   - Choix du modèle: chat/model-selection.md
   - Chats (historique): chat/chats-history.md
-- Library:
-  - Vue d'ensemble: library/overview.md
+- Bibliothèque d’artefacts:
+  - Vue d’ensemble: library/overview.md
 - Audio:
-  - Vue d'ensemble: audio/overview.md
+  - Vue d’ensemble: audio/overview.md
   - Lecteur et intégration: audio/player-and-embed.md
   - Statistiques d'écoute: audio/analytics.md
-- Tools:
-  - Le menu Tools: tools/overview.md
+- Outils:
+  - Le menu Outils: tools/overview.md
   - Vérification instantanée de marque dans la recherche par IA: tools/instant-brand-check.md
   - AEO Audits: features/aeo-audits.md
   - Content Briefs: features/content-briefs.md

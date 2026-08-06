@@ -19,7 +19,7 @@ Pulse el botón de adjuntar del compositor para añadir contexto a su mensaje:
 - **Subir un archivo o una imagen**: `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg` y `.png`. Las hojas de cálculo se convierten en texto legible, de modo que puede entregar un libro de trabajo a Moose y preguntarle por su contenido.
 - **Capturar pantalla**: elija una pantalla o una ventana y arrastre para recortar exactamente la zona que quiere enviar. En macOS, la primera vez que lo utilice deberá conceder acceso de grabación de pantalla a Hi, Moose.
 - **Añadir desde la Library**: adjunte un artefacto guardado de la [Library](../library/overview.md) (un brief, un borrador, key points o FAQ) como contexto en lugar de volver a pegarlo.
-- **Base de datos vectorial del sitio**: adjunte el sitio indexado de su proyecto para que Moose responda a partir de sus páginas reales y no de lo que supone que contienen. Construya el índice desde [Site Monitoring](../site-monitoring/overview.md).
+- **Base de datos vectorial del sitio**: adjunte el sitio indexado de su proyecto para que Moose responda a partir de sus páginas reales y no de lo que supone que contienen. Construya el índice desde [Supervisión del sitio](../site-monitoring/overview.md).
 
 ## Herramientas que Moose puede utilizar
 

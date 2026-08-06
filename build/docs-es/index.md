@@ -42,7 +42,7 @@ Una sesión de trabajo en Hi, Moose debería poder responder a lo siguiente:
 - **[Visibility](visibility/overview.md)**: siga cómo aparece su marca en Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini y Grok, y reciba avisos cuando algo relevante cambie.
 - **[Competidores y Share of Voice](visibility/competitors.md)**: descubra a quién recomiendan en su lugar, qué páginas suyas se llevan las citas y en qué preguntas usted no aparece.
 - **[AEO Audits](features/aeo-audits.md)**: puntúe la preparación de una página para los motores de respuesta, vea qué la frena y compruebe si los cambios mueven realmente la puntuación.
-- **[Site Monitoring](site-monitoring/overview.md)**: rastree su sitio, indéxelo para la búsqueda semántica y reciba un resumen por rastreo cuando cambie algo relevante para AEO.
+- **[Supervisión del sitio](site-monitoring/overview.md)**: rastree su sitio, indéxelo para la búsqueda semántica y reciba un resumen por rastreo cuando cambie algo relevante para AEO.
 - **[Comprobación instantánea de marca](tools/instant-brand-check.md)**: consulte una única pregunta en cinco motores de IA ahora mismo, sin configurar nada.
 
 ### ✍️ Planificar, redactar y publicar

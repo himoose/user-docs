@@ -24,11 +24,11 @@ Como estas evidencias se guardan como artefacto propio, generar un brief y despu
 
 1. Introduzca su **consulta objetivo principal**: la consulta o el tema en el que debe centrarse el brief, formulado como lo diría una persona que busca de verdad.
 2. Elija un **tipo de plantilla**. Cada estructura necesita secciones, pruebas y llamadas a la acción distintas, así que esto perfila tanto el brief como el primer borrador posterior:
-    - **Blog post**
-    - **Glossary post**
-    - **Landing page**
-    - **Solutions page**
-    - **Product Feature page**
+    - **Entrada de blog**
+    - **Entrada de glosario**
+    - **Página de destino**
+    - **Página de soluciones**
+    - **Página de características del producto**
 3. Hi, Moose recopila el panorama de búsqueda y después genera el brief: extensión recomendada, palabras clave secundarias priorizadas, preguntas de «Otras personas también preguntan» que abordar, análisis de la competencia y un esquema estructurado según la plantilla elegida.
 4. Revise, edite y exporte el brief, o pase directamente a generar un [borrador](drafts-and-publishing.md) a partir de él.
 

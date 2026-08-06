@@ -29,7 +29,7 @@ In einem **kostenpflichtigen verwalteten** Arbeitsbereich bezieht dieser Workflo
 
 ## Wie er ausgeführt wird
 
-Anders als Verlorene Sichtbarkeit zurückgewinnen lässt sich dieser Workflow auf Abruf auslösen: Klicken Sie auf **Run now**, um ihn zusätzlich zu seinem regulären Zeitplan sofort mit Ihren aktuellen Einstellungen auszuführen. Werden neue Unterthemen gefunden, bei denen sich Handeln lohnt, sagt Hi, Moose Ihnen das und verlinkt direkt in Ihre [Inbox](../inbox/overview.md); taucht nichts Neues auf, sagt Hi, Moose auch das, statt Füllinhalte vorzubereiten.
+Anders als Verlorene Sichtbarkeit zurückgewinnen lässt sich dieser Workflow auf Abruf auslösen: Klicken Sie auf **Jetzt ausführen**, um ihn zusätzlich zu seinem regulären Zeitplan sofort mit Ihren aktuellen Einstellungen auszuführen. Werden neue Unterthemen gefunden, bei denen sich Handeln lohnt, sagt Hi, Moose Ihnen das und verlinkt direkt in Ihre [Inbox](../inbox/overview.md); taucht nichts Neues auf, sagt Hi, Moose auch das, statt Füllinhalte vorzubereiten.
 
 ## Wohin die Ergebnisse gehen
 

@@ -16,13 +16,13 @@ La Library est l'endroit où chaque artefact durable généré par Hi, Moose pou
 
 Chaque élément de la Library affiche son type :
 
-- **Content Brief**
-- **Draft**
-- **Key Points**
-- **FAQs**
-- **AEO Audit**
+- **Brief de contenu**
+- **Brouillon**
+- **Points clés**
+- **FAQ**
+- **Audit AEO**
 
-Chaque élément affiche son nom et sa date d'enregistrement, et peut être retrouvé grâce au champ de recherche ou en triant la liste (**Recent activity** ou **Name**).
+Chaque élément affiche son nom et sa date d'enregistrement, et peut être retrouvé grâce au champ de recherche ou en triant la liste (**Activité récente** ou **Nom**).
 
 Les éléments se chargent du plus récent au plus ancien, par lots de 50, afin qu'une bibliothèque volumineuse reste rapide au lieu de tenter de tout afficher d'un coup.
 
@@ -32,7 +32,7 @@ Basculez entre une grille de fiches et une vue en liste compacte selon votre fa�
 
 ## Ouvrir un élément
 
-- Les **AEO Audits** s'ouvrent en lecture seule (**Open**) : un audit est un instantané daté, pas un document que l'on modifie après coup.
+- Les **AEO Audits** s'ouvrent en lecture seule (**Ouvrir**) : un audit est un instantané daté, pas un document que l'on modifie après coup.
 - Les **Content Briefs, Drafts, Key Points et FAQs** s'ouvrent dans un éditeur (**Edit**) : vous pouvez réviser le contenu directement et, pour les FAQ, choisir si le balisage schema doit se mettre à jour automatiquement pour refléter vos modifications.
 
 ## Exporter
@@ -40,7 +40,7 @@ Basculez entre une grille de fiches et une vue en liste compacte selon votre fa�
 Tous les éléments peuvent être **exportés** dans plusieurs formats :
 
 - **Markdown** (.md)
-- **HTML + Schema** (.txt) : pour les FAQ, comprend à la fois le HTML et le balisage schema FAQPage, prêts à copier-coller.
+- **HTML + Schéma** (.txt) : pour les FAQ, comprend à la fois le HTML et le balisage schema FAQPage, prêts à copier-coller.
 - **Document Word** (.doc)
 - **PDF**
 - **Texte brut** (.txt)
@@ -53,11 +53,11 @@ Sur les forfaits payants avec sièges d'équipe, les éléments de la Library so
 
 ## Supprimer un élément
 
-**Remove** supprime définitivement l'artefact enregistré de votre bibliothèque. Hi, Moose vous demande confirmation au préalable, car cette action est irréversible.
+**Supprimer** supprime définitivement l'artefact enregistré de votre bibliothèque. Hi, Moose vous demande confirmation au préalable, car cette action est irréversible.
 
 ## Synchronisation cloud
 
-Les éléments de la Library portent une étiquette individuelle **Synced** ou **Local only**, pour voir d'un coup d'œil quels artefacts existent à plus d'un endroit.
+Les éléments de la Library portent une étiquette individuelle **Synchronisé** ou **Local uniquement**, pour voir d'un coup d'œil quels artefacts existent à plus d'un endroit.
 
 La synchronisation cloud sauvegarde vos briefs, brouillons et autres artefacts afin qu'ils soient accessibles depuis plusieurs appareils et survivent à tout incident sur cette machine. Elle est disponible sur **tous les forfaits payants**, y compris les forfaits BYOK payants : une équipe BYOK Premium dispose d'une bibliothèque partagée, et non d'une bibliothèque bloquée sur la machine qui a produit chaque artefact.
 

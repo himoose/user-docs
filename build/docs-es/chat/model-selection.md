@@ -16,7 +16,7 @@ Cada chat funciona con un modelo de IA concreto, y el selector de modelo le perm
 
 Abra el selector de modelo para ver los modelos disponibles en su [plan](../getting-started/account-modes.md). Cada opción lleva distintivos para que sepa qué obtiene antes de cambiar:
 
-- **Free** / **HiMoose Cloud** / **Paid or BYOK**: qué planes pueden utilizar ese modelo.
+- **Gratis** / **HiMoose Cloud** / **De pago o BYOK**: qué planes pueden utilizar ese modelo.
 - **Speed: Slow / Average / Very Fast**: una idea aproximada de la latencia de respuesta.
 - **Local**: se ejecuta íntegramente en su dispositivo (véase más abajo).
 - Un **distintivo multiplicador** en los modelos más costosos, que indica cuánto más consumen de su saldo respecto a la opción estándar.

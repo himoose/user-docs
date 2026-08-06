@@ -12,7 +12,7 @@ source_hash: 0f6961f608efb6e85e60c4cf390ea485c24faceeebdccfdedc53c19dadca3f23
 
 Rispondere alla domanda a cui i suoi numeri non possono rispondere: quando un assistente di IA consiglia qualcosa nella sua categoria, quanto spesso è lei, e chi viene scelto al posto suo?
 
-Lo trova in **Visibility → Competition**.
+Lo trova in **Visibility → Concorrenza**.
 
 ## Configurare i concorrenti
 
@@ -33,19 +33,19 @@ La scheda Competition apre con la sua posizione («You are 3rd»), e l'elenco or
 
     Lo **Share of Voice** è la sua fetta del totale delle menzioni di marca. È relativo: un concorrente può abbassarlo senza che nulla cambi da parte sua.
 
-    Il **Mention Rate** (nella scheda Overview) è la quota di prompt monitorati in cui il suo marchio è stato menzionato. È assoluto e ignora del tutto i concorrenti.
+    Il **Tasso di menzione** (nella scheda Overview) è la quota di prompt monitorati in cui il suo marchio è stato menzionato. È assoluto e ignora del tutto i concorrenti.
 
     Il suo Mention Rate può salire mentre il suo Share of Voice scende, se i concorrenti sono cresciuti più in fretta di lei. Vale la pena seguire entrambi, per ragioni diverse.
 
 ## Andamento dello Share of Voice
 
-Il grafico di andamento rappresenta lo **Share of Voice** o il **Mention Rate** nel tempo, così vede se un cambiamento dipende da una sua crescita, dalla crescita di un concorrente o dal fatto che l'intera categoria è diventata più rumorosa.
+Il grafico di andamento rappresenta lo **Share of Voice** o il **Tasso di menzione** nel tempo, così vede se un cambiamento dipende da una sua crescita, dalla crescita di un concorrente o dal fatto che l'intera categoria è diventata più rumorosa.
 
 ## Top Competitor Citations
 
 Quali pagine dei concorrenti i motori di IA citano davvero come fonte. È il pannello più direttamente utile della scheda: sono le URL precise che si aggiudicano le citazioni che lei vuole, e indicano che cosa i motori di risposta considerano oggi la fonte migliore su quelle domande.
 
-Lo confronti con **Top Cited Pages** nella scheda Overview, che mostra lo stesso dato per il suo dominio.
+Lo confronti con **Pagine più citate** nella scheda Overview, che mostra lo stesso dato per il suo dominio.
 
 ## Competitor Gaps
 
@@ -53,8 +53,8 @@ Domande in cui un concorrente è comparso in una risposta dell'IA e il suo march
 
 Ogni lacuna indica quali concorrenti sono comparsi e in quali motori è stata rilevata, con un'etichetta:
 
-- **No visibility**: il suo marchio non compare per questa domanda in nessun motore.
-- **Partial**: il suo marchio compare per questa domanda, ma non in tutti i motori. La riga indica in quali compare.
+- **Nessuna visibilità**: il suo marchio non compare per questa domanda in nessun motore.
+- **Parziale**: il suo marchio compare per questa domanda, ma non in tutti i motori. La riga indica in quali compare.
 
 Le righe parziali spesso non richiedono alcun intervento. Una domanda in cui compare in quattro motori su cinque non è lo stesso problema di una in cui non compare da nessuna parte, e l'etichetta serve proprio a distinguerle a colpo d'occhio.
 

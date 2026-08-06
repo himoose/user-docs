@@ -10,13 +10,13 @@ source_hash: 8e5f176360171f83e694a39fb79a4acc54f788a8c083d72307d849f2b1f0fdf6
 
 ## À quoi cela sert
 
-Montrer comment vos lecteurs intégrés se comportent réellement une fois en place sur une page : si les gens les lancent, s'ils vont au bout et s'ils ouvrent la transcription. Vous les trouverez dans **Audio → Analytics**.
+Montrer comment vos lecteurs intégrés se comportent réellement une fois en place sur une page : si les gens les lancent, s'ils vont au bout et s'ils ouvrent la transcription. Vous les trouverez dans **Audio → Analyses**.
 
 Les statistiques n'apparaissent qu'après avoir intégré un lecteur quelque part et qu'une écoute a commencé. Avant cela, l'onglet affiche un état vide plutôt que des zéros.
 
 ## Filtres
 
-Filtrez par épisode avec le sélecteur d'épisodes, ou laissez sur **All audio** pour les totaux à l'échelle du compte. Les plages de temps modifient la fenêtre du graphique des lectures.
+Filtrez par épisode avec le sélecteur d'épisodes, ou laissez sur **Tout l'audio** pour les totaux à l'échelle du compte. Les plages de temps modifient la fenêtre du graphique des lectures.
 
 !!! note "La plage affecte le graphique, pas les totaux"
     Le graphique suit la plage que vous choisissez. Les totaux d'Overview et de l'entonnoir restent des chiffres cumulés jusqu'à la prochaine actualisation du serveur.

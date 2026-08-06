@@ -34,11 +34,11 @@ Ogni motore riceve un verdetto:
 
 | Risultato | Significato |
 |---|---|
-| **Recommended** | Il suo marchio è stato proposto come risposta |
-| **Listed among others** | È comparso, accanto ad alternative |
-| **Described neutrally** | Menzionato senza raccomandazione né riserva |
-| **Described negatively** | Menzionato in modo sfavorevole |
-| **Not in the answer** | Il motore non l'ha menzionata |
+| **Consigliato** | Il suo marchio è stato proposto come risposta |
+| **Citato tra gli altri** | È comparso, accanto ad alternative |
+| **Descritto in modo neutro** | Menzionato senza raccomandazione né riserva |
+| **Descritto negativamente** | Menzionato in modo sfavorevole |
+| **Assente dalla risposta** | Il motore non l'ha menzionata |
 
 Vedrà inoltre se ciascun motore ha **citato il suo sito** in particolare e quante fonti ha citato in tutto. Essere menzionati ed essere citati sono due risultati diversi: comparire nel testo non equivale a essere la fonte su cui la risposta è stata costruita.
 
@@ -46,7 +46,7 @@ Le query sono etichettate come **con marchio** o **senza marchio**. Le query sen
 
 ## Trasformare una verifica in monitoraggio
 
-La scheda del risultato include l'azione **Add to tracked prompts**. Promuove la query nel suo [Prompt Manager](../visibility/prompt-manager.md), che da quel momento la eseguirà secondo la sua pianificazione.
+La scheda del risultato include l'azione **Aggiungi ai prompt monitorati**. Promuove la query nel suo [Prompt Manager](../visibility/prompt-manager.md), che da quel momento la eseguirà secondo la sua pianificazione.
 
 !!! note "Una verifica è una fotografia, non un andamento"
     Una verifica istantanea le dice come si colloca in questo momento. Le risposte dell'IA variano tra un'esecuzione e l'altra, perciò un singolo risultato non va letto come un cambiamento. I prompt monitorati girano secondo una pianificazione e costruiscono la linea di andamento che davvero indica se qualcosa si è mosso. Usi le verifiche istantanee per individuare domande che vale la pena monitorare, e poi le monitori.

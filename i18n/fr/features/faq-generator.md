@@ -9,7 +9,7 @@ Générer des sections de FAQ fondées sur le contenu réel de votre page et, su
 
 ## Fournir une source
 
-Depuis le [Chat](../chat/overview.md), choisissez le démarrage rapide **Create research-backed FAQs** (ou demandez-le directement), puis donnez à Hi, Moose de quoi travailler :
+Depuis le [Chat](../chat/overview.md), choisissez le démarrage rapide **Créer des FAQ basées sur la recherche** (ou demandez-le directement), puis donnez à Hi, Moose de quoi travailler :
 
 - Une URL source,
 - Un fichier joint, ou
@@ -35,11 +35,11 @@ Sur **Preview Mode** et les forfaits **BYOK** (Free et Premium), la génération
 
 ## Travailler avec le résultat
 
-- **Save** : ajoute le jeu de FAQ à votre [Library](../library/overview.md).
-- **Edit** : révisez directement les questions et les réponses.
-- **Export** : téléchargez le jeu de FAQ.
-- **Copy HTML** : copiez le balisage HTML des FAQ.
-- **Copy schema** : copiez à part le balisage schema FAQPage.
+- **Enregistrer** : ajoute le jeu de FAQ à votre [Library](../library/overview.md).
+- **Modifier** : révisez directement les questions et les réponses.
+- **Exporter** : téléchargez le jeu de FAQ.
+- **Copier le HTML** : copiez le balisage HTML des FAQ.
+- **Copier le schéma** : copiez à part le balisage schema FAQPage.
 - Si votre projet dispose d'un CMS connecté, vous pouvez aussi ajouter les FAQ directement à une page sous forme de modification préparée. Voir [Brouillons, aperçu et publication](drafts-and-publishing.md).
 
 ## Où cela s'inscrit

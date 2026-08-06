@@ -10,9 +10,9 @@ source_hash: bbf5a9a7e3ebd537b29b229f3fbb3c08ef3b7c88e0f56ddf517a97911cda6c81
 
 ## Wofür das gut ist
 
-Aus einem [Content-Brief](content-briefs.md) einen klaren, definitionsorientierten Glossareintrag erzeugen: den Vorlagentyp **Glossary post**.
+Aus einem [Content-Brief](content-briefs.md) einen klaren, definitionsorientierten Glossareintrag erzeugen: den Vorlagentyp **Glossarbeitrag**.
 
-Im [Chat](../chat/overview.md) führt Sie der Schnellstart **Create a glossary post** durch die Bestätigung von Zielanfrage und Vorlagentyp, bevor Brief und erster Entwurf gemeinsam erzeugt werden.
+Im [Chat](../chat/overview.md) führt Sie der Schnellstart **Glossarbeitrag erstellen** durch die Bestätigung von Zielanfrage und Vorlagentyp, bevor Brief und erster Entwurf gemeinsam erzeugt werden.
 
 ## Struktur
 
@@ -23,7 +23,7 @@ Ein Glossarbeitrag folgt einem informativen Aufbau am oberen Ende des Trichters:
 - Konkrete Beispiele, verwandte Begriffe und FAQ-Abdeckung kommen hinzu, wenn der Brief das vorsieht.
 - Er wird nicht zu einer Verkaufsseite, einer Funktionsseite oder einer ausgeprägten Conversion-Strecke: allenfalls eine leichte Handlungsaufforderung, sofern der Brief sie trägt.
 
-Direkt nach dem Titel enthält der Entwurf einen kurzen Abschnitt **Key Points**: fünf oder sechs verdichtete, aussagekräftige Punkte, destilliert aus dem Brief und der Kernthese des Entwurfs, vor dem Haupttext.
+Direkt nach dem Titel enthält der Entwurf einen kurzen Abschnitt **Kernpunkte**: fünf oder sechs verdichtete, aussagekräftige Punkte, destilliert aus dem Brief und der Kernthese des Entwurfs, vor dem Haupttext.
 
 ## Wo das hingehört
 

@@ -18,7 +18,7 @@ Questo significa che:
 
 ## Configurare una connessione
 
-1. Apra **Connections** nell'app desktop e scelga WordPress.
+1. Apra **Connessioni** nell'app desktop e scelga WordPress.
 2. Scarichi il plugin connettore, lo installi nell'amministrazione di WordPress e incolli poi la URL del suo sito e la chiave API di questo progetto nelle impostazioni del plugin.
 3. Tornato in Hi, Moose, salvi la connessione e verifichi che il connettore segnali un ping riuscito dal suo sito.
 
@@ -30,7 +30,7 @@ Ogni installazione WordPress che collega (produzione, staging o entrambe) è un 
 
 Ogni modifica a WordPress, che provenga dalle [FAQ](../features/faq-generator.md), dai [key points](../features/key-points.md), da una [bozza](../features/drafts-and-publishing.md) o da una sostituzione manuale di testo creata da lei, viene tracciata come **patch**: una voce di registro locale, propria di ciascun ambiente, con un proprio stato.
 
-Una patch attraversa stati espliciti: **Draft**, **Staged**, **Applied**, **Discarded**, **Rolled back** o **Failed**. Dall'elenco delle patch può:
+Una patch attraversa stati espliciti: **Bozza**, **Preparato**, **Applicato**, **Scartato**, **Ripristinato** o **Non riuscito**. Dall'elenco delle patch può:
 
 - **Preparare** una patch sul suo sito WordPress per l'anteprima.
 - **Applicare** una patch preparata per mandarla in produzione.

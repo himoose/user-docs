@@ -16,7 +16,7 @@ Chaque chat s'appuie sur un modèle d'IA précis, et le sélecteur de modèle vo
 
 Ouvrez le sélecteur de modèle pour voir les modèles disponibles sur votre [forfait](../getting-started/account-modes.md). Chaque option porte des étiquettes pour que vous sachiez ce que vous obtenez avant de changer :
 
-- **Free** / **HiMoose Cloud** / **Paid or BYOK** : quels forfaits peuvent utiliser ce modèle.
+- **Gratuit** / **HiMoose Cloud** / **Payant ou BYOK** : quels forfaits peuvent utiliser ce modèle.
 - **Speed: Slow / Average / Very Fast** : une idée approximative du temps de réponse.
 - **Local** : s'exécute entièrement sur votre appareil (voir ci-dessous).
 - Une **étiquette multiplicateur** sur les modèles les plus coûteux, indiquant à quel point ils consomment davantage votre solde que l'option standard.

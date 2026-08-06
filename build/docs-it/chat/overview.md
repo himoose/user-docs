@@ -14,7 +14,7 @@ Nella Chat parla direttamente con l'operatore di Hi, Moose, lo stesso agente pri
 
 ## Avviare una conversazione
 
-- Faccia clic su **New chat** per ricominciare da capo, oppure prosegua una conversazione esistente.
+- Faccia clic su **Nuova chat** per ricominciare da capo, oppure prosegua una conversazione esistente.
 - Il campo di composizione propone avvii rapidi per le attività più comuni.
 - Scelga qualcosa di preciso dal **[menu Tools](../tools/overview.md)** nella barra superiore.
 - Oppure scriva la sua richiesta in linguaggio comune. Hi, Moose decide se rispondere direttamente, porre una domanda di chiarimento o eseguire una funzione come i [Content Briefs](../features/content-briefs.md) o gli [AEO Audits](../features/aeo-audits.md) e restituirle un artefatto duraturo.
@@ -38,7 +38,7 @@ Il menu degli allegati offre quattro possibilità:
 - **Caricare un file o un'immagine**: `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg` e `.png`. I fogli di calcolo vengono convertiti in testo leggibile anziché trattati come file opachi.
 - **Catturare una schermata**: scelga uno schermo o una finestra, poi ritagli l'area desiderata. Su macOS serve l'autorizzazione alla registrazione dello schermo, e Hi, Moose la guida nel concederla.
 - **Aggiungere dalla Library**: alleghi voci salvate della [Library](../library/overview.md) come contesto.
-- **Database vettoriale del sito**: consegni a Moose il suo sito indicizzato perché risponda a partire dalle sue pagine reali. Veda [Site Monitoring](../site-monitoring/overview.md).
+- **Database vettoriale del sito**: consegni a Moose il suo sito indicizzato perché risponda a partire dalle sue pagine reali. Veda [Monitoraggio del sito](../site-monitoring/overview.md).
 
 ## Che cosa rende fondata una risposta
 

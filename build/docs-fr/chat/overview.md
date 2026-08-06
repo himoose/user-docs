@@ -10,11 +10,11 @@ source_hash: 799fa86d4b93065bdbc58d1b0a7cc5400446cfdee289750eafd31c6a0c8371b2
 
 ## À quoi cela sert
 
-Le Chat est l'endroit où vous parlez directement à l'opérateur Hi, Moose, le même agent principal décrit dans toute cette documentation, et non un outil distinct. Il est accessible depuis l'écran **Home** et depuis l'écran de chat dédié, et chaque conversation peut mobiliser le [Context](../getting-started/context/overview.md) de votre projet, les fichiers joints et les spécialistes enregistrés pour fonder ses réponses.
+Le Chat est l'endroit où vous parlez directement à l'opérateur Hi, Moose, le même agent principal décrit dans toute cette documentation, et non un outil distinct. Il est accessible depuis l'écran **Accueil** et depuis l'écran de chat dédié, et chaque conversation peut mobiliser le [Context](../getting-started/context/overview.md) de votre projet, les fichiers joints et les spécialistes enregistrés pour fonder ses réponses.
 
 ## Démarrer une conversation
 
-- Cliquez sur **New chat** pour partir de zéro, ou poursuivez une conversation existante.
+- Cliquez sur **Nouveau chat** pour partir de zéro, ou poursuivez une conversation existante.
 - Le champ de saisie propose des démarrages rapides pour les tâches courantes.
 - Choisissez quelque chose de précis dans le **[menu Tools](../tools/overview.md)** de la barre supérieure.
 - Ou formulez votre demande en langage courant. Hi, Moose décide s'il répond directement, pose une question de suivi ou lance une fonctionnalité comme les [Content Briefs](../features/content-briefs.md) ou les [AEO Audits](../features/aeo-audits.md) pour vous restituer un artefact durable.
@@ -38,7 +38,7 @@ Le menu des pièces jointes propose quatre options :
 - **Envoyer un fichier ou une image** : `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg` et `.png`. Les feuilles de calcul sont converties en texte lisible plutôt que traitées comme des fichiers opaques.
 - **Capturer l'écran** : choisissez un écran ou une fenêtre, puis découpez la zone souhaitée. Sur macOS, cela nécessite l'autorisation d'enregistrement de l'écran, et Hi, Moose vous guide pour l'accorder.
 - **Ajouter depuis la Library** : joignez des éléments enregistrés de la [Library](../library/overview.md) comme contexte.
-- **Base de données vectorielle du site** : confiez à Moose votre site indexé pour qu'il réponde à partir de vos pages réelles. Voir [Site Monitoring](../site-monitoring/overview.md).
+- **Base de données vectorielle du site** : confiez à Moose votre site indexé pour qu'il réponde à partir de vos pages réelles. Voir [Surveillance du site](../site-monitoring/overview.md).
 
 ## Ce qui rend une réponse fondée
 

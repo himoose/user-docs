@@ -21,7 +21,7 @@ El acceso a Search Console requiere las credenciales de OAuth de su cuenta de Go
 
 ## Configurar una conexión
 
-1. Abra **Connections** en la aplicación de escritorio y elija Google Search Console.
+1. Abra **Conexiones** en la aplicación de escritorio y elija Google Search Console.
 2. Autorice el acceso en su navegador.
 3. Vincule una propiedad de Search Console al [proyecto](../getting-started/projects.md) activo.
 

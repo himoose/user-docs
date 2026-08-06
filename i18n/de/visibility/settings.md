@@ -11,14 +11,14 @@ Die Visibility-Einstellungen bestimmen, wie oft Hi, Moose die Sichtbarkeit prüf
 
 - **Häufigkeit**: täglich, an Werktagen, wöchentlich oder nur manuell.
 - **Bevorzugte Laufzeit** und, bei wöchentlicher Häufigkeit, ein **Wochentag**. Läufe erfolgen in Ihrer lokalen Zeitzone.
-- **Stichproben je Prompt**: Geplante Läufe können jeden Prompt mehrfach wiederholen und die Ergebnisse mitteln, um eine stabilere Sichtbarkeitsrate zu erhalten. Der manuelle Knopf **Run now** nutzt stets eine einzige Stichprobe. Ein höherer Wert vervielfacht den Tokenverbrauch entsprechend, und Hi, Moose weist Sie vor dem Speichern darauf hin.
+- **Stichproben je Prompt**: Geplante Läufe können jeden Prompt mehrfach wiederholen und die Ergebnisse mitteln, um eine stabilere Sichtbarkeitsrate zu erhalten. Der manuelle Knopf **Jetzt ausführen** nutzt stets eine einzige Stichprobe. Ein höherer Wert vervielfacht den Tokenverbrauch entsprechend, und Hi, Moose weist Sie vor dem Speichern darauf hin.
 
 !!! note "Geplante Läufe setzen voraus, dass dieses Gerät wach ist"
     Im **Preview Mode** und in den **BYOK**-Tarifen läuft die Zeitplanung lokal auf Ihrem Rechner: Ein geplanter Lauf kann nicht starten, während der Computer aus ist, im Ruhezustand liegt oder Hi, Moose vollständig beendet ist. Lassen Sie die App geöffnet (oder in die Taskleiste minimiert), damit geplante Läufe ausgeführt werden können. **Verwaltete Tarife** schalten einen durchgehend laufenden Cloud-Zeitplaner frei, der nicht davon abhängt, ob Ihr Gerät wach ist. Maschinen mit lokaler Abfrage setzen unabhängig vom Tarif weiterhin voraus, dass die App geöffnet ist, denn diese Prüfungen laufen von Ihrem Rechner aus.
 
 ## E-Mail-Benachrichtigungen
 
-Aktivieren Sie **Scheduled visibility email reports**, um den Sichtbarkeitsbericht nach Abschluss geplanter Läufe per E-Mail zu erhalten. Dies ist eine persönliche Benachrichtigungseinstellung, getrennt von den [Benachrichtigungseinstellungen der Inbox](../inbox/notifications.md).
+Aktivieren Sie **Geplante Sichtbarkeits-Berichte per E-Mail**, um den Sichtbarkeitsbericht nach Abschluss geplanter Läufe per E-Mail zu erhalten. Dies ist eine persönliche Benachrichtigungseinstellung, getrennt von den [Benachrichtigungseinstellungen der Inbox](../inbox/notifications.md).
 
 ## Sekundäre Markenbegriffe und Domains
 

@@ -25,14 +25,14 @@ Cada elemento del Inbox apunta a algo real que puede abrir y sobre lo que puede 
 
 Cada elemento muestra una acción siguiente sugerida cuando tiene sentido (abrir el artefacto, iniciar un brief, dar seguimiento a una auditoría, revisar un borrador, aprobar un cambio o reintentar una ejecución fallida), de modo que no solo lee una notificación, sino que está a un clic de actuar.
 
-Los resúmenes de site monitoring incluyen además una acción **Ask Moose about all of this** que entrega la instantánea del rastreo al [chat](../chat/overview.md) y le pregunta qué hacer primero.
+Los resúmenes de site monitoring incluyen además una acción **Preguntar a Moose sobre todo esto** que entrega la instantánea del rastreo al [chat](../chat/overview.md) y le pregunta qué hacer primero.
 
 ## Filtrar el Inbox
 
 Dos filtros controlan lo que ve:
 
-- **Estado**: el valor predeterminado es **Active**, es decir, todo lo que no se ha descartado (elementos abiertos, en curso y terminados). Cambie a un estado concreto o a **All** para incluir los elementos descartados que quiera recuperar.
-- **Severidad**: **Critical**, **Warning**, **Notice**, **Info** o todas.
+- **Estado**: el valor predeterminado es **Activo**, es decir, todo lo que no se ha descartado (elementos abiertos, en curso y terminados). Cambie a un estado concreto o a **Todos** para incluir los elementos descartados que quiera recuperar.
+- **Severidad**: **Crítico**, **Advertencia**, **Aviso**, **Información** o todas.
 
 Los elementos se agrupan por fecha (por ejemplo, «Ayer», «Anteriores») con un contador por grupo, para que vea rápidamente cuánto le espera. Los buzones largos se paginan en lugar de cargarse de una sola vez.
 
@@ -43,7 +43,7 @@ Los elementos se agrupan por fecha (por ejemplo, «Ayer», «Anteriores») con u
 
 ## Controlar qué le avisa
 
-Haga clic en **Notifications** para abrir sus preferencias de notificación por proyecto. Consulte [Notificaciones del Inbox](notifications.md) para saber qué hace cada ajuste.
+Haga clic en **Notificaciones** para abrir sus preferencias de notificación por proyecto. Consulte [Notificaciones del Inbox](notifications.md) para saber qué hace cada ajuste.
 
 ## Gestionado y BYOK
 

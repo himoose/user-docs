@@ -14,7 +14,7 @@ Faccia clic sul pulsante degli allegati nel campo di composizione per aggiungere
 - **Caricare un file o un'immagine**: `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg` e `.png`. I fogli di calcolo vengono convertiti in testo leggibile, così può consegnare a Moose una cartella di lavoro e chiedergli che cosa contiene.
 - **Catturare una schermata**: scelga uno schermo o una finestra, poi trascini per ritagliare esattamente l'area da inviare. Su macOS, la prima volta dovrà concedere a Hi, Moose l'accesso alla registrazione dello schermo.
 - **Aggiungere dalla Library**: alleghi un artefatto salvato della [Library](../library/overview.md) (un brief, una bozza, key points o FAQ) come contesto invece di reincollarlo.
-- **Database vettoriale del sito**: alleghi il sito indicizzato del suo progetto perché Moose risponda a partire dalle sue pagine reali e non da ciò che presume vi si trovi. Costruisca l'indice da [Site Monitoring](../site-monitoring/overview.md).
+- **Database vettoriale del sito**: alleghi il sito indicizzato del suo progetto perché Moose risponda a partire dalle sue pagine reali e non da ciò che presume vi si trovi. Costruisca l'indice da [Monitoraggio del sito](../site-monitoring/overview.md).
 
 ## Strumenti che Moose può usare
 

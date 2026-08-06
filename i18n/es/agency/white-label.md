@@ -7,14 +7,14 @@ source_hash: 21ee532adaad878cd1451a3d1bdcc53d85735a142ee0c75a7a2da59686684e1b
 
 Poner el nombre, el logotipo y el enlace de su agencia en el trabajo que entrega a sus clientes, en lugar de los de Hi, Moose. Cubre los informes PDF exportados y el reproductor de audio insertado.
 
-Lo encontrará en **Configuración → Branding**. Está disponible en todos los planes de pago: BYOK Premium, BYOK Agency y todos los planes gestionados. Los planes gratuitos no lo incluyen.
+Lo encontrará en **Configuración → Marca**. Está disponible en todos los planes de pago: BYOK Premium, BYOK Agency y todos los planes gestionados. Los planes gratuitos no lo incluyen.
 
 !!! note "Solo el titular de la suscripción puede cambiar la marca"
     Los miembros del equipo no pueden editarla, pero sí exportan con la marca guardada. Configúrela una vez en la cuenta del titular y todo el equipo producirá material con su marca.
 
 ## Activarla
 
-Active **Use my branding on exports**. Debe introducir un nombre de agencia antes de que el conmutador pueda activarse.
+Active **Usar mi marca en las exportaciones**. Debe introducir un nombre de agencia antes de que el conmutador pueda activarse.
 
 ## Marca en los informes
 
@@ -43,4 +43,4 @@ Cada página de cliente que lleve uno de sus reproductores se convierte en un en
 
 ## Guardar
 
-Pulse **Save branding**. Si el guardado falla, compruebe su conexión y vuelva a intentarlo: la marca se guarda en su cuenta y no solo en este dispositivo, de modo que le acompaña a una instalación nueva y se aplica a las exportaciones de todos los miembros del equipo.
+Pulse **Guardar marca**. Si el guardado falla, compruebe su conexión y vuelva a intentarlo: la marca se guarda en su cuenta y no solo en este dispositivo, de modo que le acompaña a una instalación nueva y se aplica a las exportaciones de todos los miembros del equipo.

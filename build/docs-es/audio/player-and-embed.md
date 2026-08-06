@@ -10,7 +10,7 @@ source_hash: b5d0a07f31228ccaaa2c18a76dddb8de404f3871f7b879591e111c89bae3e9c5
 
 ## Para qué sirve
 
-Ajustar el estilo del reproductor de audio insertado para que encaje con la página en la que va a colocarse y, después, copiar el código de inserción. Ábralo desde un episodio terminado con **Customize player**, o desde la acción de inserción de la pestaña **History**.
+Ajustar el estilo del reproductor de audio insertado para que encaje con la página en la que va a colocarse y, después, copiar el código de inserción. Ábralo desde un episodio terminado con **Personalizar el reproductor**, o desde la acción de inserción de la pestaña **Historial**.
 
 ## Opciones del reproductor
 
@@ -25,7 +25,7 @@ Una vista previa en vivo se actualiza a medida que cambia los ajustes. Si el scr
 
 ## Copiar el código de inserción
 
-Pulse **Copy embed code** y péguelo en su página.
+Pulse **Copiar el código de inserción** y péguelo en su página.
 
 - **WordPress**: péguelo en el bloque HTML o de código de la entrada, o utilice el [plugin Listen to This Article](https://wordpress.org/plugins/listen-to-this-article/).
 - **Webflow**: péguelo en un elemento Embed.
@@ -37,7 +37,7 @@ El audio generado solo se reproduce en el dominio del sitio web de su proyecto y
 
 ## Atribución de agencia
 
-En los planes con [marca blanca](../agency/white-label.md), el reproductor insertado puede llevar la atribución de su agencia en lugar de la de Hi, Moose. Se configura en **Configuración → Branding**:
+En los planes con [marca blanca](../agency/white-label.md), el reproductor insertado puede llevar la atribución de su agencia en lugar de la de Hi, Moose. Se configura en **Configuración → Marca**:
 
 - **Atribución de la inserción de audio**: el texto que se muestra en el reproductor. Déjelo vacío para usar «Audio by» seguido del nombre de su agencia.
 - **Enlace de atribución**: una dirección `https://` completa. Déjelo vacío para reutilizar su enlace principal de marca.

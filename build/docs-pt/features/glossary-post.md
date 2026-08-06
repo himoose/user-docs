@@ -1,25 +1,30 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: bbf5a9a7e3ebd537b29b229f3fbb3c08ef3b7c88e0f56ddf517a97911cda6c81
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Glossary Post
+    [Ler em inglês](https://himoose.com/docs/features/glossary-post/)
 
-## What this helps you do
+# Post de glossário
 
-Generate a clear, definition-first glossary entry from a [content brief](content-briefs.md) — the **Glossary post** template type.
+## Para que serve
 
-From [Chat](../chat/overview.md), the **Create a glossary post** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Gerar, a partir de um [briefing de conteúdo](content-briefs.md), uma entrada de glossário clara e centrada na definição: o tipo de modelo **Post de glossário**.
 
-## Structure
+No [Chat](../chat/overview.md), o atalho **Criar um post de glossário** conduz você a confirmar uma consulta-alvo e um tipo de modelo antes de gerar juntos o briefing e o primeiro rascunho.
 
-A glossary post follows an informational, top-of-funnel structure:
+## Estrutura
 
-- The term is defined clearly, in plain language, within the introduction or first section.
-- The piece stays informational first: what it is, why it matters, how it works, and where it shows up, before any call to action.
-- Concrete examples, related terms, and FAQ coverage are included when the brief calls for them.
-- It does not turn into a sales page, feature page, or heavy conversion flow — only a light next-step call to action, if the brief supports one.
+Um post de glossário segue uma estrutura informativa, de topo de funil:
 
-Right after the title, the draft includes a short **Key Points** section — 5 or 6 compressed, high-signal bullets distilled from the brief and the draft's thesis — before the main body.
+- O termo é definido com clareza, em linguagem simples, já na introdução ou na primeira seção.
+- O texto se mantém informativo antes de tudo: o que é, por que importa, como funciona e onde aparece, antes de qualquer chamada para ação.
+- Exemplos concretos, termos relacionados e cobertura de FAQ entram quando o briefing pede.
+- Ele não vira página de venda, página de recursos nem funil de conversão pesado: no máximo uma chamada para ação leve, se o briefing sustentar.
 
-## Where it fits
+Logo após o título, o rascunho traz uma seção curta de **Pontos principais**: cinco ou seis marcadores comprimidos e de alto valor, destilados do briefing e da tese do rascunho, antes do corpo principal.
 
-Like every draft, a glossary post depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+## Onde isso se encaixa
+
+Como todo rascunho, um post de glossário se apoia no seu [briefing de conteúdo](content-briefs.md) em vez de ser gerado a partir de um prompt solto. Depois de gerado, ele segue o mesmo [caminho de Draft Studio, prévia, aprovação e publicação](drafts-and-publishing.md) de qualquer outro rascunho.

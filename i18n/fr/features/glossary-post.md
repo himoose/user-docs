@@ -5,9 +5,9 @@ source_hash: bbf5a9a7e3ebd537b29b229f3fbb3c08ef3b7c88e0f56ddf517a97911cda6c81
 
 ## À quoi cela sert
 
-Générer une entrée de glossaire claire, centrée sur la définition, à partir d'un [brief de contenu](content-briefs.md) : le type de modèle **Glossary post**.
+Générer une entrée de glossaire claire, centrée sur la définition, à partir d'un [brief de contenu](content-briefs.md) : le type de modèle **Article de glossaire**.
 
-Depuis le [Chat](../chat/overview.md), le démarrage rapide **Create a glossary post** vous guide pour confirmer une requête cible et un type de modèle avant de générer ensemble le brief et le premier brouillon.
+Depuis le [Chat](../chat/overview.md), le démarrage rapide **Créer un article de glossaire** vous guide pour confirmer une requête cible et un type de modèle avant de générer ensemble le brief et le premier brouillon.
 
 ## Structure
 
@@ -18,7 +18,7 @@ Un article de glossaire suit une structure informative, de haut de tunnel :
 - Des exemples concrets, des termes connexes et une couverture FAQ sont inclus lorsque le brief le prévoit.
 - Il ne se transforme pas en page de vente, en page de fonctionnalités ni en tunnel de conversion appuyé : tout au plus un appel à l'action léger, si le brief le permet.
 
-Juste après le titre, le brouillon comprend une courte section **Key Points** : cinq ou six puces compressées et à forte valeur, distillées du brief et de la thèse du brouillon, placées avant le corps principal.
+Juste après le titre, le brouillon comprend une courte section **Points clés** : cinq ou six puces compressées et à forte valeur, distillées du brief et de la thèse du brouillon, placées avant le corps principal.
 
 ## Où cela s'inscrit
 

@@ -16,13 +16,13 @@ La Library es donde se guarda cada artefacto duradero que Hi, Moose genera para 
 
 Cada elemento de la Library muestra su tipo:
 
-- **Content Brief**
-- **Draft**
-- **Key Points**
-- **FAQs**
-- **AEO Audit**
+- **Resumen de contenido**
+- **Borrador**
+- **Puntos clave**
+- **Preguntas frecuentes**
+- **Auditoría AEO**
 
-Cada elemento muestra su nombre y cuándo se guardó, y puede volver a encontrarse con el cuadro de búsqueda o reordenando la lista (**Recent activity** o **Name**).
+Cada elemento muestra su nombre y cuándo se guardó, y puede volver a encontrarse con el cuadro de búsqueda o reordenando la lista (**Actividad reciente** o **Nombre**).
 
 Los elementos se cargan de más reciente a más antiguo, de 50 en 50, para que una biblioteca grande siga siendo rápida en lugar de intentar mostrarlo todo de una vez.
 
@@ -32,7 +32,7 @@ Alterne entre una cuadrícula de tarjetas y una vista de lista compacta según c
 
 ## Abrir un elemento
 
-- Las **AEO Audits** se abren en una vista de solo lectura (**Open**): una auditoría es un registro de un momento concreto, no algo que se edite después.
+- Las **AEO Audits** se abren en una vista de solo lectura (**Abrir**): una auditoría es un registro de un momento concreto, no algo que se edite después.
 - Los **Content Briefs, Drafts, Key Points y FAQs** se abren en un editor (**Edit**): puede revisar el contenido directamente y, en el caso de las FAQ, elegir si el marcado de schema debe actualizarse automáticamente para reflejar sus cambios.
 
 ## Exportar
@@ -53,11 +53,11 @@ En los planes de pago con puestos de equipo, los elementos de la Library se comp
 
 ## Eliminar un elemento
 
-**Remove** elimina de forma permanente el artefacto guardado de su biblioteca. Hi, Moose le pide confirmación primero, porque no se puede deshacer.
+**Quitar** elimina de forma permanente el artefacto guardado de su biblioteca. Hi, Moose le pide confirmación primero, porque no se puede deshacer.
 
 ## Sincronización en la nube
 
-Los elementos de la Library llevan un distintivo individual de **Synced** o **Local only**, para que vea de un vistazo qué artefactos existen en más de un sitio.
+Los elementos de la Library llevan un distintivo individual de **Sincronizado** o **Solo local**, para que vea de un vistazo qué artefactos existen en más de un sitio.
 
 La sincronización en la nube respalda sus briefs, borradores y demás artefactos para que estén accesibles desde varios dispositivos y sobrevivan a cualquier cosa que le ocurra a este equipo. Está disponible en **todos los planes de pago**, incluidos los planes BYOK de pago: un equipo con BYOK Premium tiene una biblioteca compartida, no una atrapada en la máquina que produjo cada artefacto.
 

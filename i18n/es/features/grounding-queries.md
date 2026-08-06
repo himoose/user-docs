@@ -15,7 +15,7 @@ Esta función le muestra las búsquedas de Google que ejecutó Gemini al fundame
 
 ## Cómo ejecutarla
 
-1. Desde el [Chat](../chat/overview.md), elija el inicio rápido **Capture AI Mode grounding queries** (o pídalo directamente).
+1. Desde el [Chat](../chat/overview.md), elija el inicio rápido **Capturar consultas de grounding de AI Mode** (o pídalo directamente).
 2. Introduzca el prompt que quiere analizar.
 3. Hi, Moose consulta las consultas de grounding de Gemini para ese prompt y devuelve:
     - Las consultas de grounding que Gemini utilizó realmente.

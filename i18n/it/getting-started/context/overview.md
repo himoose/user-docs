@@ -5,7 +5,7 @@ source_hash: 05fae21b2ec70be5a8bae1ca0e58f085c9da2140a80bae1dc2e083051aeffb43
 
 ## A cosa serve
 
-**Context** è lo strato di fondamento nella navigazione di sinistra dell'app desktop. È il contesto operativo condiviso del suo progetto corrente: le informazioni che l'operatore, la chat e tutte le funzioni di generazione riutilizzano invece di ripartire da zero a ogni richiesta.
+**Contesto** è lo strato di fondamento nella navigazione di sinistra dell'app desktop. È il contesto operativo condiviso del suo progetto corrente: le informazioni che l'operatore, la chat e tutte le funzioni di generazione riutilizzano invece di ripartire da zero a ogni richiesta.
 
 Context si compone di tre elementi distinti:
 
@@ -19,15 +19,15 @@ Context si compone di tre elementi distinti:
 
 Brand Voice e Brand Truth Profile rispondono a domande diverse, anche se entrambi descrivono il suo marchio:
 
-- **Brand Voice** risponde a «come deve suonare questo?»: tono, stile, preferenze lessicali. È una guida creativa e stilistica per i contenuti generati.
-- **Brand Truth Profile** risponde a «che cosa è vero su di noi?»: descrizione canonica, cliente ideale, offerta, concorrenti e i punti precisi su cui l'IA tende a sbagliare. È un riferimento fattuale per cogliere i travisamenti, non una guida di stile.
+- **Voce del brand** risponde a «come deve suonare questo?»: tono, stile, preferenze lessicali. È una guida creativa e stilistica per i contenuti generati.
+- **Profilo della verità del brand** risponde a «che cosa è vero su di noi?»: descrizione canonica, cliente ideale, offerta, concorrenti e i punti precisi su cui l'IA tende a sbagliare. È un riferimento fattuale per cogliere i travisamenti, non una guida di stile.
 
 **Su di lei** si distingue da entrambi: non riguarda affatto il marchio. È contesto personale su **di lei**, la persona che usa l'app, salvato in locale sul suo dispositivo invece di essere legato a un progetto. La accompagna quindi tra i progetti, invece di azzerarsi a ogni cambio di spazio di lavoro.
 
 ## Dove viene usato Context
 
-- **Brand Voice** viene riutilizzata nei [Content Briefs](../../features/content-briefs.md), nel [generatore di FAQ](../../features/faq-generator.md), nell'[estrattore di Key Points](../../features/key-points.md), in [bozze, anteprima e pubblicazione](../../features/drafts-and-publishing.md) e nelle raccomandazioni degli [AEO audits](../../features/aeo-audits.md).
-- **Brand Truth Profile** viene riutilizzato durante le esecuzioni di [Visibility](../../visibility/overview.md), dove Hi, Moose verifica se la risposta di un motore di IA sul suo marchio è coerente con la sua descrizione canonica, la sua offerta, i suoi concorrenti e i modelli noti di travisamento.
+- **Voce del brand** viene riutilizzata nei [Content Briefs](../../features/content-briefs.md), nel [generatore di FAQ](../../features/faq-generator.md), nell'[estrattore di Key Points](../../features/key-points.md), in [bozze, anteprima e pubblicazione](../../features/drafts-and-publishing.md) e nelle raccomandazioni degli [AEO audits](../../features/aeo-audits.md).
+- **Profilo della verità del brand** viene riutilizzato durante le esecuzioni di [Visibility](../../visibility/overview.md), dove Hi, Moose verifica se la risposta di un motore di IA sul suo marchio è coerente con la sua descrizione canonica, la sua offerta, i suoi concorrenti e i modelli noti di travisamento.
 - **Su di lei** viene riutilizzato nella [Chat](../../chat/overview.md), perché le risposte tengano conto del suo ruolo, dei suoi obiettivi e del suo stile di comunicazione preferito.
 
 ## Come compilarlo

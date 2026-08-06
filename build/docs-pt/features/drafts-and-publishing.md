@@ -1,58 +1,63 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: d13fbe0e44e283bca3759e24ae06c4632b5ccb20e66f5806145543eb82fe5f65
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Drafts, Preview & Publishing
+    [Ler em inglês](https://himoose.com/docs/features/drafts-and-publishing/)
 
-## What this helps you do
+# Rascunhos, prévia e publicação
 
-Hi, Moose doesn't stop at a recommendation — it helps you move from a brief or an edit idea all the way to a published change, with a preview and approval step in between, and a record of what happened.
+## Para que serve
+
+O Hi, Moose não para na recomendação: ele acompanha você de um briefing ou de uma ideia de alteração até a alteração publicada, com uma etapa de prévia e uma de aprovação no meio, e um registro do que aconteceu.
 
 ## Draft Studio
 
-Draft Studio is where drafts get written and refined. Draft generation is built to depend on a [content brief](content-briefs.md) rather than working as a blind text expander — if a piece of work needs structured planning, Hi, Moose generates or confirms the brief first, then drafts from it. Draft Studio also supports long-form editing directly.
+No Draft Studio os rascunhos são escritos e lapidados. A geração de rascunhos foi feita para se apoiar num [briefing de conteúdo](content-briefs.md) em vez de funcionar como um expansor de texto às cegas: se um trabalho exige planejamento estruturado, o Hi, Moose gera ou confirma o briefing primeiro e escreve a partir dele. O Draft Studio também permite editar textos longos diretamente.
 
-### Content types
+### Tipos de conteúdo
 
-Draft generation follows the same template types available when [generating a content brief](content-briefs.md#generating-a-brief). Four have dedicated Chat quick starts, each with its own structure: [Blog Post Draft](blog-post-draft.md), [Glossary Post](glossary-post.md), [Landing Page Content](landing-page-content.md), and [Product Page Content](product-page-content.md). The Solutions page template is also available when generating a content brief, without a dedicated quick start.
+A geração de rascunhos segue os mesmos tipos de modelo disponíveis ao [criar um briefing de conteúdo](content-briefs.md#criar-um-briefing). Quatro têm atalho próprio no Chat, cada um com sua estrutura: [rascunho de post de blog](blog-post-draft.md), [post de glossário](glossary-post.md), [conteúdo de landing page](landing-page-content.md) e [conteúdo de página de produto](product-page-content.md). O modelo de página de soluções também está disponível ao criar um briefing, só que sem atalho dedicado.
 
-Each template runs the same brief-first draft flow — only the structure differs, so a landing page draft is planned and shaped differently than a blog post even though both start from a [content brief](content-briefs.md).
+Todos os modelos seguem o mesmo fluxo com briefing antes; só a estrutura muda, então um rascunho de landing page é planejado e moldado de forma diferente de um post de blog, mesmo os dois partindo de um [briefing de conteúdo](content-briefs.md).
 
-When you ask for a post and Hi, Moose produces a brief, it goes on to generate the draft rather than stopping and waiting for you to ask again.
+Quando você pede um post e o Hi, Moose produz um briefing, ele segue em frente e gera o rascunho em vez de parar esperando que você peça de novo.
 
-### Internal linking
+### Links internos
 
-New drafts are checked against your indexed site, and relevant internal links are inserted where they genuinely fit. This needs a built [search index](../site-monitoring/overview.md) — without one there's nothing to link to, and Hi, Moose won't invent links.
+Os rascunhos novos são cruzados com o seu site indexado, e links internos pertinentes entram onde realmente fazem sentido. Isso exige um [índice de busca](../site-monitoring/overview.md) montado: sem ele não há para onde apontar, e o Hi, Moose não inventa links.
 
-## Staging an edit
+## Preparar uma alteração
 
-Whether it comes from a brief-driven draft, a [FAQ](faq-generator.md), [key points](key-points.md), or an [AEO audit](aeo-audits.md) recommendation, a proposed change is staged as an **edit proposal** — a durable artifact, not just chat text — before anything touches your live site.
+Venha ela de um rascunho baseado em briefing, das [FAQ](faq-generator.md), dos [pontos principais](key-points.md) ou de uma recomendação de [auditoria de AEO](aeo-audits.md), uma alteração proposta é preparada como **proposta de alteração**, um artefato duradouro e não apenas texto de chat, antes que qualquer coisa toque seu site em produção.
 
-## Preview
+## Prévia
 
-Before you approve anything, Hi, Moose can generate a preview of the staged change so you can see what it will look like on the actual page. For changes that need to be reviewed by someone else, Hi, Moose can generate a signed, expiring shared review link so a teammate or client can review the change without needing desktop app access.
+Antes de você aprovar qualquer coisa, o Hi, Moose pode gerar uma prévia da alteração preparada para você ver como ela fica na página real. Para alterações que outra pessoa precisa revisar, o Hi, Moose pode gerar um link de revisão compartilhado, assinado e com validade, para que um colega ou cliente revise sem acessar o aplicativo para desktop.
 
-## Approve & publish
+## Aprovar e publicar
 
-- **Approve** — explicitly accept a staged change before it can be published. Preview and publish are always separate steps; generating a draft or preview is never treated as "done" on its own.
-- **Publish** — once approved, Hi, Moose publishes the change through the relevant connection ([WordPress](../integrations/wordpress.md), [Webflow](../integrations/webflow.md), or [Grav](../integrations/grav.md)) and records what was published, when, and why.
+- **Aprovar**: aceitar explicitamente uma alteração preparada antes que ela possa ser publicada. Prévia e publicação são sempre etapas separadas; gerar um rascunho ou uma prévia nunca conta como «pronto» por si só.
+- **Publicar**: depois de aprovada, o Hi, Moose publica a alteração pela conexão correspondente ([WordPress](../integrations/wordpress.md), [Webflow](../integrations/webflow.md) ou [Grav](../integrations/grav.md)) e registra o que foi publicado, quando e por quê.
 
-### Per-CMS behavior
+### Comportamento por CMS
 
-**WordPress** — drafts can be pushed to a connected site as staged drafts rather than going straight live, and the publishing flow adapts to whether the target is already staged or published. Once you've pushed a draft, Hi, Moose remembers, so you can't accidentally push the same one several times.
+**WordPress**: os rascunhos podem ir para um site conectado como rascunhos preparados em vez de irem direto ao ar, e o fluxo de publicação se ajusta conforme o destino já esteja preparado ou publicado. Depois que você envia um rascunho, o Hi, Moose lembra, então você não consegue enviar o mesmo várias vezes sem querer.
 
-**Webflow** — publishing to a collection loads the collection's other required fields first and asks you to fill them in, so a publish doesn't fail partway through on a field you couldn't see.
+**Webflow**: publicar numa collection carrega antes os demais campos obrigatórios dela e pede que você os preencha, para que a publicação não falhe no meio do caminho por um campo que você não conseguia ver.
 
-A failed publish lands in your [inbox](../inbox/overview.md). A successful one doesn't, on purpose.
+Uma publicação que falha chega à sua [Caixa de entrada](../inbox/overview.md). Uma bem-sucedida não, de propósito.
 
-## Work Queue
+## Fila de trabalho
 
-The Work Queue is where staged edits, pending previews, and items waiting on your approval collect — so nothing sits only inside a chat transcript waiting to be forgotten.
+Na Fila de trabalho se acumulam as alterações preparadas, as prévias pendentes e os itens à espera da sua aprovação, para que nada fique só dentro de uma conversa de chat esperando ser esquecido.
 
-## Library and History
+## Biblioteca e histórico
 
-- **[Library](../library/overview.md)** holds the durable artifacts you've generated — briefs, drafts, FAQ sets, key points, AEO audits — so you can find and reuse them later instead of regenerating from scratch.
-- **[Chats (History)](../chat/chats-history.md)** is your saved chat session history — reopen, rename, or delete a previous conversation. It's conversation history, not a publish or visibility outcomes log; a dedicated record tying published changes back to the visibility signal that triggered them is planned but not yet built.
+- A **[Biblioteca de artefatos](../library/overview.md)** guarda os artefatos duradouros que você gerou (briefings, rascunhos, conjuntos de FAQ, pontos principais, auditorias de AEO) para você encontrá-los e reaproveitá-los em vez de gerar tudo de novo.
+- **[Chats (histórico)](../chat/chats-history.md)** é o histórico das suas sessões de chat salvas: reabra, renomeie ou exclua uma conversa anterior. É histórico de conversas, não um registro de publicações nem de resultados de visibilidade; um registro dedicado que ligue as alterações publicadas ao sinal de visibilidade que as motivou está previsto, mas ainda não foi construído.
 
-## Why this matters
+## Por que isso importa
 
-This preview → approve → publish path is what turns a recommendation into a completed, accountable action. A workflow that only produces advice is incomplete; a workflow that ends in a previewed, approved, published change — with a record tying it back to the original visibility signal — is the point of Hi, Moose.
+Esse caminho de prévia, aprovação e publicação é o que transforma uma recomendação em ação concluída e rastreável. Um fluxo que só produz conselhos é incompleto; um fluxo que termina numa alteração revisada, aprovada e publicada, com um registro que a liga ao sinal de visibilidade original, é a razão de existir do Hi, Moose.

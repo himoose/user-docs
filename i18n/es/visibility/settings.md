@@ -11,14 +11,14 @@ La configuración de Visibility controla con qué frecuencia comprueba Hi, Moose
 
 - **Cadencia**: diaria, días laborables, semanal o solo manual.
 - **Hora de ejecución preferida** y, en la cadencia semanal, un **día de la semana**. Las ejecuciones se realizan en su zona horaria local.
-- **Muestras por prompt**: las ejecuciones programadas pueden repetir cada prompt varias veces y promediar los resultados para obtener una tasa de visibilidad más estable. El botón manual **Run now** utiliza siempre una sola muestra. Aumentar este valor multiplica el consumo de tokens en la misma proporción, y Hi, Moose le avisa antes de guardar un valor más alto.
+- **Muestras por prompt**: las ejecuciones programadas pueden repetir cada prompt varias veces y promediar los resultados para obtener una tasa de visibilidad más estable. El botón manual **Ejecutar ahora** utiliza siempre una sola muestra. Aumentar este valor multiplica el consumo de tokens en la misma proporción, y Hi, Moose le avisa antes de guardar un valor más alto.
 
 !!! note "Las ejecuciones programadas necesitan este dispositivo encendido"
     En **Preview Mode** y en los planes **BYOK**, la programación se ejecuta en local, en su equipo: una ejecución programada no puede iniciarse si el ordenador está apagado o suspendido, o si Hi, Moose está completamente cerrado. Mantenga la aplicación abierta (o minimizada en la bandeja del sistema) para que las ejecuciones programadas puedan realizarse. Los **planes gestionados** desbloquean un programador en la nube siempre activo que no depende de que su dispositivo esté encendido. Los motores de consulta local siguen requiriendo la aplicación abierta sea cual sea el plan, ya que esas comprobaciones se ejecutan desde su equipo.
 
 ## Notificaciones por correo
 
-Active **Scheduled visibility email reports** para recibir el informe de visibilidad por correo electrónico cuando terminen las ejecuciones programadas. Es una preferencia de notificación personal, distinta de la [configuración de notificaciones del Inbox](../inbox/notifications.md).
+Active **Informes de visibilidad por correo electrónico programados** para recibir el informe de visibilidad por correo electrónico cuando terminen las ejecuciones programadas. Es una preferencia de notificación personal, distinta de la [configuración de notificaciones del Inbox](../inbox/notifications.md).
 
 ## Términos y dominios de marca secundarios
 
@@ -47,7 +47,7 @@ Los modelos gratuitos de OpenRouter ya no se ofrecen como opción de puntuación
 
 ## Modelos predeterminados para prompts nuevos
 
-Elija qué motores se preseleccionan cada vez que añade un prompt en el [Prompt Manager](prompt-manager.md); después puede cambiar la selección prompt a prompt. Los modelos marcados como **Paid** requieren un plan de pago o BYOK; Preview Mode se limita a los modelos de consulta local. Cada modelo marcado aquí cuenta para el consumo de tokens cuando se ejecutan las comprobaciones de visibilidad.
+Elija qué motores se preseleccionan cada vez que añade un prompt en el [Prompt Manager](prompt-manager.md); después puede cambiar la selección prompt a prompt. Los modelos marcados como **De pago** requieren un plan de pago o BYOK; Preview Mode se limita a los modelos de consulta local. Cada modelo marcado aquí cuenta para el consumo de tokens cuando se ejecutan las comprobaciones de visibilidad.
 
 ## Repetir la incorporación
 

@@ -1,25 +1,30 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: fd74e34b467a2aec2ad0abc74e8a74c6865ee781fe1c9eceff1c780dcc8517c7
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Blog Post Draft
+    [Ler em inglês](https://himoose.com/docs/features/blog-post-draft/)
 
-## What this helps you do
+# Rascunho de post de blog
 
-Generate a long-form, educational blog article draft from a [content brief](content-briefs.md) — the **Blog post** template type.
+## Para que serve
 
-From [Chat](../chat/overview.md), the **Create a blog post draft** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Gerar, a partir de um [briefing de conteúdo](content-briefs.md), o rascunho de um artigo de blog longo e didático: o tipo de modelo **Post de blog**.
 
-## Structure
+No [Chat](../chat/overview.md), o atalho **Criar um rascunho de post de blog** conduz você a confirmar uma consulta-alvo e um tipo de modelo antes de gerar juntos o briefing e o primeiro rascunho.
 
-A blog post draft follows an educational article structure:
+## Estrutura
 
-- A clear introduction, logical section flow, and substantive explanation throughout.
-- The main query answered directly, then expanded with proof, examples, and FAQ coverage where the brief supports them.
-- Readable as long-form editorial content — not shaped like a landing page, solutions page, or product page.
-- A fitting next-step call to action near the end, only when the brief calls for one.
+Um rascunho de post de blog segue a estrutura de um artigo didático:
 
-Right after the title, the draft includes a short **Key Points** section — 5 or 6 compressed, high-signal bullets distilled from the brief and the draft's thesis — before the main body, so readers (and answer engines) get the core takeaways immediately.
+- Uma introdução clara, uma sequência lógica de seções e explicação substancial do começo ao fim.
+- A consulta principal respondida diretamente e depois ampliada com provas, exemplos e cobertura de FAQ quando o briefing permite.
+- Lê-se como conteúdo editorial longo, e não com o formato de uma landing page, de uma página de soluções ou de uma página de produto.
+- Uma chamada para ação adequada perto do fim, apenas quando o briefing pede uma.
 
-## Where it fits
+Logo após o título, o rascunho traz uma seção curta de **Pontos principais**: cinco ou seis marcadores comprimidos e de alto valor, destilados do briefing e da tese do rascunho, antes do corpo principal, para que quem lê (e os mecanismos de resposta) pegue o essencial de imediato.
 
-Like every draft, a blog post draft depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+## Onde isso se encaixa
+
+Como todo rascunho, um rascunho de post de blog se apoia no seu [briefing de conteúdo](content-briefs.md) em vez de ser gerado a partir de um prompt solto. Depois de gerado, ele segue o mesmo [caminho de Draft Studio, prévia, aprovação e publicação](drafts-and-publishing.md) de qualquer outro rascunho.

@@ -20,7 +20,7 @@ Questa funzione acquisisce le singole ricerche «fan-out» che il passaggio di r
 
 ## Come eseguirla
 
-1. Dalla [Chat](../chat/overview.md) scelga l'avvio rapido **Capture ChatGPT fan-out queries** (oppure lo chieda direttamente).
+1. Dalla [Chat](../chat/overview.md) scelga l'avvio rapido **Acquisisci le query fan-out di ChatGPT** (oppure lo chieda direttamente).
 2. Inserisca il prompt che vuole esaminare.
 3. Hi, Moose acquisisce la risposta di ChatGPT e restituisce:
     - Le singole query fan-out eseguite da ChatGPT.

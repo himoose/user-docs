@@ -1,43 +1,48 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 8e5f176360171f83e694a39fb79a4acc54f788a8c083d72307d849f2b1f0fdf6
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Listening Analytics
+    [Ler em inglês](https://himoose.com/docs/audio/analytics/)
 
-## What this helps you do
+# Análises de audiência
 
-Show how your embedded players actually perform once they're on a page — whether people start them, finish them, and open the transcript. Find it under **Audio → Analytics**.
+## Para que serve
 
-Analytics only appear after you've embedded a player somewhere and people have started listening. Before that, the tab shows an empty state rather than zeros.
+Mostrar como seus players incorporados realmente se saem depois de entrarem numa página: se as pessoas dão play, se chegam ao fim e se abrem a transcrição. Está em **Áudio → Análises**.
 
-## Filtering
+As análises só aparecem depois que você incorpora um player em algum lugar e alguém começa a ouvir. Antes disso, a aba mostra um estado vazio em vez de zeros.
 
-Filter by episode with the episode picker, or leave it on **All audio** for account-wide totals. The time range chips change the window on the plays chart.
+## Filtros
 
-!!! note "Range affects the chart, not the totals"
-    The chart follows the range you pick. The Overview and funnel totals stay lifetime figures until the next server refresh.
+Filtre por episódio no seletor de episódios, ou deixe em **Todo o áudio** para os totais da conta inteira. Os intervalos de tempo mudam a janela do gráfico de reproduções.
 
-## Overview
+!!! note "O intervalo afeta o gráfico, não os totais"
+    O gráfico segue o intervalo escolhido. Os totais da Visão geral e do funil continuam sendo números acumulados até a próxima atualização do servidor.
 
-| Metric | What it means |
+## Visão geral
+
+| Métrica | O que significa |
 |---|---|
-| Total plays | Every play event, including resumes |
-| First-time listens | Plays from someone who hadn't started this episode before |
-| Resumed listens | Plays that picked up an earlier session |
-| Completion rate | Share of plays that reached the end |
-| Average listen time | Mean minutes per play |
-| Total listen time | All listening time combined |
-| Transcript opens | How often listeners opened the transcript |
+| Reproduções totais | Todos os eventos de reprodução, incluindo retomadas |
+| Primeiras escutas | Reproduções de quem ainda não tinha iniciado este episódio |
+| Escutas retomadas | Reproduções que retomam uma sessão anterior |
+| Taxa de conclusão | Parcela das reproduções que chegou ao fim |
+| Tempo médio de escuta | Média de minutos por reprodução |
+| Tempo total de escuta | Todo o tempo de escuta somado |
+| Aberturas da transcrição | Com que frequência os ouvintes abriram a transcrição |
 
-Transcript opens are worth watching on their own. A high number means people are reading rather than only listening, which is a sign the transcript is pulling its weight as page content.
+As aberturas da transcrição merecem atenção à parte. Um número alto significa que as pessoas estão lendo, e não só ouvindo, sinal de que a transcrição está cumprindo seu papel como conteúdo de página.
 
-## Plays over time
+## Reproduções ao longo do tempo
 
-A daily chart plotting **Plays**, **First plays**, and **Completions** across the selected range, so you can see whether a promotion or a new placement moved anything.
+Um gráfico diário com **reproduções**, **primeiras reproduções** e **conclusões** no intervalo selecionado, para você ver se uma divulgação ou uma nova colocação mudou alguma coisa.
 
-## Engagement funnel
+## Funil de engajamento
 
-Four stages: **Started**, **Paused**, **Resumed**, **Completed**. The gap between Started and Completed is the useful signal. A large drop with few resumes usually means the episode is too long for where it's placed; a large drop with heavy resuming means people want it but are listening in chunks.
+Quatro etapas: **iniciado**, **pausado**, **retomado** e **concluído**. A distância entre iniciado e concluído é o sinal útil. Uma queda grande com poucas retomadas costuma indicar que o episódio é longo demais para onde está colocado; uma queda grande com muitas retomadas indica que as pessoas querem ouvir, mas em partes.
 
-## Billing note
+## Nota sobre cobrança
 
-Listens are metered separately from generation. Every plan that includes audio also includes the first 10,000 listens account-wide, and additional listens are billed at $5.00 per 10,000 per month. See [Account Types & Plans](../getting-started/account-modes.md) for how this interacts with your credit balance.
+As reproduções são medidas separadamente da geração. Todo plano que inclui áudio também inclui as primeiras 10.000 reproduções em toda a conta, e as seguintes são cobradas a 5,00 USD a cada 10.000 por mês. Veja [Tipos de conta e planos](../getting-started/account-modes.md) para entender como isso se cruza com seu saldo de créditos.

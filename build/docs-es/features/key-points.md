@@ -16,7 +16,7 @@ La generación de key points utiliza compresión semántica en lugar de un resum
 
 ## Aportar una fuente
 
-Desde el [Chat](../chat/overview.md), elija el inicio rápido **Generate optimized Key Points** (o pídalo directamente) y después dé a Hi, Moose algo con lo que trabajar:
+Desde el [Chat](../chat/overview.md), elija el inicio rápido **Generar puntos clave optimizados** (o pídalo directamente) y después dé a Hi, Moose algo con lo que trabajar:
 
 - Una URL de origen,
 - Un archivo adjunto, o
@@ -28,9 +28,9 @@ Un conjunto titulado de puntos comprimidos bajo la fuente que haya facilitado, l
 
 ## Trabajar con el resultado
 
-- **Save**: añade los key points a su [Library](../library/overview.md).
-- **Edit**: abre un editor con la fuente y los key points como markdown editable, con **Save** o **Save and add to page** para guardar y preparar el cambio en un solo paso.
-- **Add Key Points to the page**: si su proyecto tiene un CMS conectado y la URL de origen coincide con una página de ese CMS, prepara los key points directamente en esa página como una edición pendiente de revisión. Véase [Borradores, vista previa y publicación](drafts-and-publishing.md).
+- **Guardar**: añade los key points a su [Library](../library/overview.md).
+- **Editar**: abre un editor con la fuente y los key points como markdown editable, con **Guardar** o **Guardar y añadir a la página** para guardar y preparar el cambio en un solo paso.
+- **Añadir puntos clave a la página**: si su proyecto tiene un CMS conectado y la URL de origen coincide con una página de ese CMS, prepara los key points directamente en esa página como una edición pendiente de revisión. Véase [Borradores, vista previa y publicación](drafts-and-publishing.md).
 
 ## Cuándo prescindir de la investigación externa
 

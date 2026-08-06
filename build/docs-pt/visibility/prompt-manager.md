@@ -1,37 +1,42 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: b6472884da7df3e651f78be6893eb9896b38a6327a26378ca1d4cc26b2d0454e
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Prompt Manager
+    [Ler em inglês](https://himoose.com/docs/visibility/prompt-manager/)
 
-## What this helps you do
+# Gerenciador de Prompts
 
-Prompt Manager is where you build and organize the actual queries Hi, Moose checks against AI engines — the prompts your customers would realistically type or ask.
+## Para que serve
 
-## Organizing prompts with categories
+O Gerenciador de Prompts é onde você monta e organiza as consultas reais que o Hi, Moose verifica nos mecanismos de IA: os prompts que seus clientes de fato digitariam ou perguntariam.
 
-Prompts are grouped into categories shown in the left-hand filter list — **All prompts**, **Uncategorized**, and any custom categories you create (for example, by topic or campaign). Add a new category from the field at the bottom of the list. Free-tier workspaces are limited to 5 categories.
+## Organizar prompts em categorias
 
-## Adding and editing a prompt
+Os prompts ficam agrupados em categorias exibidas na lista de filtros à esquerda: **Todos os prompts**, **Sem categoria** e as categorias personalizadas que você criar (por tema ou por campanha, por exemplo). Crie uma categoria nova no campo ao fim da lista. Espaços de trabalho do plano gratuito ficam limitados a 5 categorias.
 
-Type a new prompt and add it to a category. For each prompt, you can:
+## Adicionar e editar um prompt
 
-- Edit the prompt text.
-- Choose which AI engines/models it runs against — **Select models** opens a picker covering ChatGPT, Claude, Gemini, Grok, Perplexity, Google AI Mode, Google AI Overview, and Bing Copilot (availability depends on your account mode and, for local-fetch engines, running the desktop app).
-- Delete the prompt.
+Digite um prompt novo e adicione-o a uma categoria. Para cada prompt você pode:
 
-Unlike a single account-wide setting, **model selection is per-prompt** — one prompt can run only against ChatGPT and Gemini while another runs across all supported engines, so you only spend allowance on the engines that matter for that specific query.
+- Editar o texto do prompt.
+- Escolher em quais mecanismos ou modelos de IA ele roda. **Selecionar modelos** abre um seletor com ChatGPT, Claude, Gemini, Grok, Perplexity, Google AI Mode, Google AI Overview e Bing Copilot (a disponibilidade depende do seu plano e, nos mecanismos de consulta local, de o aplicativo para desktop estar em execução).
+- Excluir o prompt.
+
+Diferente de uma única configuração para a conta inteira, **a escolha de modelos é por prompt**: um prompt pode rodar só no ChatGPT e no Gemini enquanto outro cobre todos os mecanismos compatíveis, então você gasta sua cota apenas nos mecanismos que importam para aquela consulta.
 
 ## Diagnostic Prompts
 
-**Diagnostic Prompts** is a reserved, system-managed category driven by your [Brand Truth Profile](../getting-started/context/brand-truth-profile.md). Instead of writing these by hand:
+**Prompts de diagnóstico** é uma categoria reservada e gerenciada pelo sistema, alimentada pelo seu [Perfil de Verdade da Marca](../getting-started/context/brand-truth-profile.md). Em vez de escrevê-los à mão:
 
-1. Click **Generate from Brand Truth** (or set up your Brand Truth Profile first if you haven't).
-2. Hi, Moose proposes prompts specifically designed to catch AI describing your customers, capabilities, or competitors incorrectly.
-3. Review the suggestions in a modal — toggle any prompt in or out, edit wording, or remove one entirely, before adding them to monitoring.
-4. The modal shows an estimated cost before you commit: prompts × models × runs per week ≈ total runs per week.
+1. Clique em **Gerar a partir da Verdade da Marca** (ou configure antes seu Perfil de Verdade da Marca, se ainda não fez isso).
+2. O Hi, Moose propõe prompts feitos especificamente para flagrar quando a IA descreve mal seus clientes, suas capacidades ou seus concorrentes.
+3. Revise as sugestões numa janela: ative ou desative cada prompt, ajuste a redação ou remova algum por completo antes de adicioná-los ao monitoramento.
+4. A janela mostra um custo estimado antes de você confirmar: prompts × modelos × execuções por semana ≈ total de execuções semanais.
 
-If your Brand Truth Profile doesn't have enough content yet to generate meaningful diagnostic prompts, Hi, Moose tells you so instead of producing generic filler — add customer questions, key capabilities, or competitors to your profile first.
+Se o seu Perfil de Verdade da Marca ainda não tiver conteúdo suficiente para gerar prompts de diagnóstico significativos, o Hi, Moose diz isso em vez de produzir enchimento genérico: acrescente antes perguntas de clientes, capacidades principais ou concorrentes ao seu perfil.
 
-## Local-only prompt storage
+## Armazenamento local dos prompts
 
-In local-only BYOK modes, prompt categories, prompt definitions, and model selections are stored on your device rather than synced to the cloud.
+Nos planos BYOK, que funcionam somente localmente, as categorias de prompts, as definições dos prompts e as seleções de modelos ficam salvas no seu dispositivo em vez de sincronizadas com a nuvem.

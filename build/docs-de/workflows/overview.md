@@ -26,16 +26,16 @@ Jeder Workflow beginnt mit einer Entscheidung: **„Dieser Workflow ist für [ n
 
 Sie sind nicht auf einen einzigen Workflow beschränkt:
 
-- Klicken Sie auf **New Workflow**, um einen weiteren, unabhängig konfigurierten anzulegen.
-- Wechseln Sie über die Workflow-Auswahl zwischen gespeicherten Workflows; sie zeigt jeweils Namen und Zustand, **Enabled** oder **Paused**.
+- Klicken Sie auf **Neuer Workflow**, um einen weiteren, unabhängig konfigurierten anzulegen.
+- Wechseln Sie über die Workflow-Auswahl zwischen gespeicherten Workflows; sie zeigt jeweils Namen und Zustand, **Aktiviert** oder **Pausiert**.
 - Benennen Sie einen Workflow um, indem Sie auf seinen Namen klicken.
-- **Pause** oder **Enable** hält einen Workflow an oder aktiviert ihn, ohne seine Konfiguration zu löschen.
-- **Remove** entfernt einen Workflow vollständig. Das betrifft nur dieses Gerät und hat keine Auswirkung auf andere Mitglieder Ihres Arbeitsbereichs, denn Workflow-Definitionen sind lokal und persönlich, kein geteilter Teamzustand.
-- **Save** sichert Ihre Änderungen; Hi, Moose speichert zusätzlich automatisch, sobald ein Workflow alles Nötige zum Ausführen hat.
+- **Pausieren** oder **Aktivieren** hält einen Workflow an oder aktiviert ihn, ohne seine Konfiguration zu löschen.
+- **Entfernen** entfernt einen Workflow vollständig. Das betrifft nur dieses Gerät und hat keine Auswirkung auf andere Mitglieder Ihres Arbeitsbereichs, denn Workflow-Definitionen sind lokal und persönlich, kein geteilter Teamzustand.
+- **Speichern** sichert Ihre Änderungen; Hi, Moose speichert zusätzlich automatisch, sobald ein Workflow alles Nötige zum Ausführen hat.
 
 ## Einen Workflow ausführen
 
-- Workflows vom Typ **Neue Inhalte erstellen** lassen sich zusätzlich zum Zeitplan sofort mit **Run now** auslösen. Die Ergebnisse landen zur Durchsicht in Ihrer [Inbox](../inbox/overview.md), und Hi, Moose führt Sie direkt dorthin, wenn ein Lauf etwas gefunden hat.
+- Workflows vom Typ **Neue Inhalte erstellen** lassen sich zusätzlich zum Zeitplan sofort mit **Jetzt ausführen** auslösen. Die Ergebnisse landen zur Durchsicht in Ihrer [Inbox](../inbox/overview.md), und Hi, Moose führt Sie direkt dorthin, wenn ein Lauf etwas gefunden hat.
 - Workflows vom Typ **Verlorene Sichtbarkeit zurückgewinnen** haben keinen Knopf für die manuelle Ausführung; sie werten sich automatisch aus, sobald ein neuer [Sichtbarkeitslauf](../visibility/overview.md) abgeschlossen ist, und vergleichen ihn mit dem vorherigen.
 
 ## Bevor Sie einen Workflow anlegen können

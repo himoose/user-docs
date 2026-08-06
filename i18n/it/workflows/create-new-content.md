@@ -24,7 +24,7 @@ In uno spazio di lavoro **gestito a pagamento** questo workflow include automati
 
 ## Come viene eseguito
 
-A differenza di Recuperare la visibilità perduta, questo workflow può essere avviato su richiesta: faccia clic su **Run now** per eseguirlo subito con le impostazioni attuali, oltre alla sua normale pianificazione. Se trova nuovi sottotemi su cui vale la pena agire, Hi, Moose glielo segnala e la collega direttamente alla sua [Inbox](../inbox/overview.md); se non emerge nulla di nuovo, glielo dice ugualmente, invece di preparare contenuti di riempimento.
+A differenza di Recuperare la visibilità perduta, questo workflow può essere avviato su richiesta: faccia clic su **Esegui ora** per eseguirlo subito con le impostazioni attuali, oltre alla sua normale pianificazione. Se trova nuovi sottotemi su cui vale la pena agire, Hi, Moose glielo segnala e la collega direttamente alla sua [Inbox](../inbox/overview.md); se non emerge nulla di nuovo, glielo dice ugualmente, invece di preparare contenuti di riempimento.
 
 ## Dove finiscono i risultati
 

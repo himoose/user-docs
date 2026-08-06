@@ -12,7 +12,7 @@ source_hash: 0f6961f608efb6e85e60c4cf390ea485c24faceeebdccfdedc53c19dadca3f23
 
 Répondre à la question à laquelle vos propres chiffres ne peuvent pas répondre : lorsqu'un assistant d'IA recommande quelque chose dans votre catégorie, à quelle fréquence s'agit-il de vous, et qui est choisi à votre place ?
 
-Vous le trouverez dans **Visibility → Competition**.
+Vous le trouverez dans **Visibility → Concurrence**.
 
 ## Configurer les concurrents
 
@@ -33,19 +33,19 @@ L'onglet Competition affiche en tête votre rang (« You are 3rd ») et la liste
 
     Le **Share of Voice** est votre part du total des mentions de marques. Il est concurrentiel : un concurrent peut le faire baisser sans que rien ne change de votre côté.
 
-    Le **Mention Rate** (dans l'onglet Overview) est la proportion de prompts surveillés où votre marque a été mentionnée. Il est absolu et ignore totalement les concurrents.
+    Le **Taux de mention** (dans l'onglet Overview) est la proportion de prompts surveillés où votre marque a été mentionnée. Il est absolu et ignore totalement les concurrents.
 
     Votre Mention Rate peut monter pendant que votre Share of Voice baisse, si les concurrents ont progressé plus vite que vous. Les deux méritent d'être suivis, pour des raisons différentes.
 
 ## Tendance du Share of Voice
 
-Le graphique de tendance représente le **Share of Voice** ou le **Mention Rate** dans le temps, pour voir si une évolution vient de votre progression, de celle d'un concurrent, ou d'une catégorie devenue globalement plus bruyante.
+Le graphique de tendance représente le **Share of Voice** ou le **Taux de mention** dans le temps, pour voir si une évolution vient de votre progression, de celle d'un concurrent, ou d'une catégorie devenue globalement plus bruyante.
 
 ## Top Competitor Citations
 
 Quelles pages concurrentes les moteurs d'IA citent réellement comme sources. C'est le panneau le plus directement actionnable de l'onglet : ce sont les URL précises qui remportent les citations que vous visez, et elles indiquent ce que les moteurs de réponse considèrent aujourd'hui comme la meilleure source sur ces questions.
 
-Comparez-le à **Top Cited Pages** dans l'onglet Overview, qui montre la même chose pour votre propre domaine.
+Comparez-le à **Pages les plus citées** dans l'onglet Overview, qui montre la même chose pour votre propre domaine.
 
 ## Competitor Gaps
 
@@ -53,8 +53,8 @@ Les questions pour lesquelles un concurrent est apparu dans une réponse d'IA et
 
 Chaque écart indique quels concurrents sont apparus et dans quels moteurs, avec une étiquette :
 
-- **No visibility** : votre marque n'apparaît pour cette question dans aucun moteur.
-- **Partial** : votre marque apparaît bien pour cette question, mais pas dans tous les moteurs. La ligne précise dans lesquels vous apparaissez.
+- **Aucune visibilité** : votre marque n'apparaît pour cette question dans aucun moteur.
+- **Partiel** : votre marque apparaît bien pour cette question, mais pas dans tous les moteurs. La ligne précise dans lesquels vous apparaissez.
 
 Les lignes partielles ne nécessitent souvent aucune action. Une question où vous apparaissez dans quatre moteurs sur cinq n'est pas le même problème qu'une question où vous n'apparaissez nulle part, et l'étiquette est là pour vous permettre de les distinguer d'un coup d'œil.
 

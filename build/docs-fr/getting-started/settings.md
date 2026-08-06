@@ -14,16 +14,16 @@ Les Paramètres vous permettent de gérer votre profil, votre forfait, vos modè
 
 | Section | Contenu |
 |---|---|
-| General | Informations de profil et comportement de l'application sur cet ordinateur |
-| Usage | Solde de crédits et date de réinitialisation |
+| Général | Informations de profil et comportement de l'application sur cet ordinateur |
+| Utilisation | Solde de crédits et date de réinitialisation |
 | Compte | E-mail, mot de passe, forfait, clé OpenRouter |
-| Local Model | Téléchargement et activation du modèle sur l'appareil |
+| IA locale | Téléchargement et activation du modèle sur l'appareil |
 | Équipe | Sièges, invitations, rôles |
-| [Site Monitoring](../site-monitoring/overview.md) | Planification de l'exploration, index de recherche, pages surveillées, chemins bloqués |
-| [Branding](../agency/white-label.md) | Rapports en marque blanche et attribution audio (forfaits payants uniquement) |
-| Logs | Journaux d'actions et export CSV |
-| Data & Backup | Sauvegarde et restauration locales |
-| Troubleshooting | Cache, journal de diagnostic, réinitialisation des données locales |
+| [Surveillance du site](../site-monitoring/overview.md) | Planification de l'exploration, index de recherche, pages surveillées, chemins bloqués |
+| [Image de marque](../agency/white-label.md) | Rapports en marque blanche et attribution audio (forfaits payants uniquement) |
+| Journaux | Journaux d'actions et export CSV |
+| Données et sauvegarde | Sauvegarde et restauration locales |
+| Dépannage | Cache, journal de diagnostic, réinitialisation des données locales |
 
 ## General
 
@@ -74,9 +74,9 @@ Invitez des membres, consultez leurs rôles et révoquez des accès. Les limites
 
 ## Site Monitoring
 
-Planification de l'exploration, index de recherche local, pages surveillées et chemins bloqués. C'est un domaine à part entière, qui dispose de sa propre page : **[Site Monitoring](../site-monitoring/overview.md)**.
+Planification de l'exploration, index de recherche local, pages surveillées et chemins bloqués. C'est un domaine à part entière, qui dispose de sa propre page : **[Surveillance du site](../site-monitoring/overview.md)**.
 
-Les connexions aux CMS et aux sources de données sont distinctes et se trouvent dans l'écran **Connections**, et non dans les Paramètres :
+Les connexions aux CMS et aux sources de données sont distinctes et se trouvent dans l'écran **Connexions**, et non dans les Paramètres :
 
 - [WordPress](../integrations/wordpress.md)
 - [Webflow](../integrations/webflow.md)
@@ -91,7 +91,7 @@ Appliquez votre marque blanche aux rapports PDF exportés et aux lecteurs audio 
 
 Journaux d'actions du projet en cours, avec le type, l'utilisateur, la date, le statut et les métadonnées de chaque action enregistrée. Sur les forfaits gérés, les journaux partagés de l'équipe se synchronisent aux côtés de vos journaux locaux.
 
-**Export CSV** les télécharge. L'export des journaux d'actions de l'équipe est réservé aux titulaires d'espaces de travail gérés payants.
+**Exporter en CSV** les télécharge. L'export des journaux d'actions de l'équipe est réservé aux titulaires d'espaces de travail gérés payants.
 
 ## Data & Backup
 

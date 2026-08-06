@@ -5,11 +5,11 @@ source_hash: 799fa86d4b93065bdbc58d1b0a7cc5400446cfdee289750eafd31c6a0c8371b2
 
 ## Para qué sirve
 
-El Chat es donde habla directamente con el operador de Hi, Moose, el mismo agente principal que se describe en toda esta documentación, no una herramienta aparte. Está disponible desde la pantalla **Home** y desde la pantalla dedicada de chat, y cada conversación puede incorporar el [Context](../getting-started/context/overview.md) de su proyecto, los archivos adjuntos y los especialistas guardados para fundamentar sus respuestas.
+El Chat es donde habla directamente con el operador de Hi, Moose, el mismo agente principal que se describe en toda esta documentación, no una herramienta aparte. Está disponible desde la pantalla **Inicio** y desde la pantalla dedicada de chat, y cada conversación puede incorporar el [Context](../getting-started/context/overview.md) de su proyecto, los archivos adjuntos y los especialistas guardados para fundamentar sus respuestas.
 
 ## Iniciar una conversación
 
-- Pulse **New chat** para empezar de cero, o continúe una conversación existente.
+- Pulse **Nuevo chat** para empezar de cero, o continúe una conversación existente.
 - El compositor muestra prompts de inicio rápido para las tareas más habituales.
 - Elija algo concreto en el **[menú Tools](../tools/overview.md)** de la barra superior.
 - O escriba su propia petición en lenguaje corriente. Hi, Moose decide si responder directamente, hacer una pregunta de seguimiento o ejecutar una función como [Content Briefs](../features/content-briefs.md) o [AEO Audits](../features/aeo-audits.md) y devolverle un artefacto duradero.
@@ -33,7 +33,7 @@ El menú de adjuntos ofrece cuatro opciones:
 - **Subir un archivo o una imagen**: `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg` y `.png`. Las hojas de cálculo se convierten en texto legible en lugar de tratarse como archivos opacos.
 - **Capturar pantalla**: elija una pantalla o una ventana y después recorte la zona que quiera. En macOS requiere permiso de grabación de pantalla, y Hi, Moose le guía para concederlo.
 - **Añadir desde la Library**: adjunte elementos guardados de la [Library](../library/overview.md) como contexto.
-- **Base de datos vectorial del sitio**: entregue a Moose su sitio indexado para que responda a partir de sus páginas reales. Véase [Site Monitoring](../site-monitoring/overview.md).
+- **Base de datos vectorial del sitio**: entregue a Moose su sitio indexado para que responda a partir de sus páginas reales. Véase [Supervisión del sitio](../site-monitoring/overview.md).
 
 ## Qué hace que una respuesta esté fundamentada
 

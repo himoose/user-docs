@@ -21,16 +21,16 @@ Chaque workflow commence par une décision : **« Ce workflow concerne le conten
 
 Vous n'êtes pas limité à un seul workflow :
 
-- Cliquez sur **New Workflow** pour en créer un autre, configuré indépendamment.
-- Passez d'un workflow enregistré à l'autre depuis le sélecteur, qui affiche le nom de chacun et son état, **Enabled** ou **Paused**.
+- Cliquez sur **Nouveau workflow** pour en créer un autre, configuré indépendamment.
+- Passez d'un workflow enregistré à l'autre depuis le sélecteur, qui affiche le nom de chacun et son état, **Activé** ou **Paused**.
 - Renommez un workflow en cliquant sur son nom.
-- **Pause** ou **Enable** un workflow sans supprimer sa configuration.
-- **Remove** supprime entièrement un workflow. Cela ne le retire que de cet appareil et n'affecte pas les autres membres de votre espace de travail, car les définitions de workflow sont locales et personnelles, et non un état partagé d'équipe.
-- **Save** enregistre vos modifications ; Hi, Moose enregistre également automatiquement dès qu'un workflow dispose de tout ce qu'il lui faut pour s'exécuter.
+- **Pause** ou **Activer** un workflow sans supprimer sa configuration.
+- **Supprimer** supprime entièrement un workflow. Cela ne le retire que de cet appareil et n'affecte pas les autres membres de votre espace de travail, car les définitions de workflow sont locales et personnelles, et non un état partagé d'équipe.
+- **Enregistrer** enregistre vos modifications ; Hi, Moose enregistre également automatiquement dès qu'un workflow dispose de tout ce qu'il lui faut pour s'exécuter.
 
 ## Exécuter un workflow
 
-- Les workflows **Créer du contenu** peuvent être déclenchés immédiatement avec **Run now**, en plus de leur planification. Les résultats arrivent dans votre [Inbox](../inbox/overview.md) pour relecture, et Hi, Moose vous y conduit directement lorsqu'une exécution trouve quelque chose.
+- Les workflows **Créer du contenu** peuvent être déclenchés immédiatement avec **Exécuter maintenant**, en plus de leur planification. Les résultats arrivent dans votre [Inbox](../inbox/overview.md) pour relecture, et Hi, Moose vous y conduit directement lorsqu'une exécution trouve quelque chose.
 - Les workflows **Récupérer la visibilité perdue** n'ont pas de bouton d'exécution manuelle : ils s'évaluent automatiquement chaque fois qu'une nouvelle exécution de [visibilité](../visibility/overview.md) se termine, en la comparant à la précédente.
 
 ## Avant de pouvoir créer un workflow

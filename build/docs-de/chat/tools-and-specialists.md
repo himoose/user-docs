@@ -19,7 +19,7 @@ Klicken Sie auf die Anhang-Schaltfläche im Eingabefeld, um Ihrer Nachricht Kont
 - **Datei oder Bild hochladen**: `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg` und `.png`. Tabellen werden in lesbaren Text überführt, sodass Sie Moose eine Arbeitsmappe übergeben und nach deren Inhalt fragen können.
 - **Bildschirmfoto aufnehmen**: Wählen Sie einen Bildschirm oder ein Fenster und ziehen Sie dann genau den Bereich auf, den Sie senden möchten. Unter macOS müssen Sie Hi, Moose bei der ersten Nutzung Zugriff auf die Bildschirmaufnahme gewähren.
 - **Aus der Library hinzufügen**: Hängen Sie ein gespeichertes [Library](../library/overview.md)-Artefakt an (einen Brief, einen Entwurf, Key Points oder FAQ), statt es erneut einzufügen.
-- **Vektordatenbank der Website**: Hängen Sie die indexierte Website Ihres Projekts an, damit Moose aus Ihren echten Seiten antwortet und nicht aus dem, was er dort vermutet. Den Index bauen Sie unter [Site Monitoring](../site-monitoring/overview.md) auf.
+- **Vektordatenbank der Website**: Hängen Sie die indexierte Website Ihres Projekts an, damit Moose aus Ihren echten Seiten antwortet und nicht aus dem, was er dort vermutet. Den Index bauen Sie unter [Website-Monitoring](../site-monitoring/overview.md) auf.
 
 ## Werkzeuge, die Moose einsetzen kann
 

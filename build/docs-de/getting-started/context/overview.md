@@ -10,7 +10,7 @@ source_hash: 05fae21b2ec70be5a8bae1ca0e58f085c9da2140a80bae1dc2e083051aeffb43
 
 ## Wofür das gut ist
 
-**Context** ist die Fundamentschicht in der linken Navigation der Desktop-App. Es ist der gemeinsame Arbeitskontext Ihres aktuellen Projekts: die Informationen, die der Operator, der Chat und alle Erzeugungsfunktionen wiederverwenden, statt bei jeder Anfrage bei null anzufangen.
+**Kontext** ist die Fundamentschicht in der linken Navigation der Desktop-App. Es ist der gemeinsame Arbeitskontext Ihres aktuellen Projekts: die Informationen, die der Operator, der Chat und alle Erzeugungsfunktionen wiederverwenden, statt bei jeder Anfrage bei null anzufangen.
 
 Context besteht aus drei getrennten Teilen:
 

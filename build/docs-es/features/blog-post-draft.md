@@ -10,9 +10,9 @@ source_hash: fd74e34b467a2aec2ad0abc74e8a74c6865ee781fe1c9eceff1c780dcc8517c7
 
 ## Para qué sirve
 
-Generar el borrador de un artículo de blog extenso y divulgativo a partir de un [brief de contenido](content-briefs.md): el tipo de plantilla **Blog post**.
+Generar el borrador de un artículo de blog extenso y divulgativo a partir de un [brief de contenido](content-briefs.md): el tipo de plantilla **Entrada de blog**.
 
-Desde el [Chat](../chat/overview.md), el inicio rápido **Create a blog post draft** le guía para confirmar una consulta objetivo y un tipo de plantilla antes de generar juntos el brief y el primer borrador.
+Desde el [Chat](../chat/overview.md), el inicio rápido **Crear un borrador de entrada de blog** le guía para confirmar una consulta objetivo y un tipo de plantilla antes de generar juntos el brief y el primer borrador.
 
 ## Estructura
 
@@ -23,7 +23,7 @@ Un borrador de entrada de blog sigue la estructura de un artículo divulgativo:
 - Se lee como contenido editorial extenso, no con la forma de una landing page, una página de soluciones o una página de producto.
 - Una llamada a la acción adecuada cerca del final, solo cuando el brief la requiere.
 
-Justo después del título, el borrador incluye una breve sección de **Key Points**: cinco o seis viñetas comprimidas y de alto valor, destiladas del brief y de la tesis del borrador, antes del cuerpo principal, para que los lectores (y los motores de respuesta) obtengan de inmediato las conclusiones esenciales.
+Justo después del título, el borrador incluye una breve sección de **Puntos clave**: cinco o seis viñetas comprimidas y de alto valor, destiladas del brief y de la tesis del borrador, antes del cuerpo principal, para que los lectores (y los motores de respuesta) obtengan de inmediato las conclusiones esenciales.
 
 ## Dónde encaja
 

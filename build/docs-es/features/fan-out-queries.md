@@ -20,7 +20,7 @@ Esta función captura las búsquedas «fan-out» individuales que ejecutó el pa
 
 ## Cómo ejecutarla
 
-1. Desde el [Chat](../chat/overview.md), elija el inicio rápido **Capture ChatGPT fan-out queries** (o pídalo directamente).
+1. Desde el [Chat](../chat/overview.md), elija el inicio rápido **Capturar consultas fan-out de ChatGPT** (o pídalo directamente).
 2. Introduzca el prompt que quiere analizar.
 3. Hi, Moose captura la respuesta de ChatGPT y devuelve:
     - Las consultas fan-out diferenciadas que ejecutó ChatGPT.

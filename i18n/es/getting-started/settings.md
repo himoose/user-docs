@@ -10,15 +10,15 @@ En Configuración gestiona su perfil, su plan, sus modelos, su equipo y el compo
 | Sección | Qué contiene |
 |---|---|
 | General | Datos del perfil y comportamiento de la aplicación en este equipo |
-| Usage | Saldo de créditos y fecha de reinicio |
+| Uso | Saldo de créditos y fecha de reinicio |
 | Cuenta | Correo electrónico, contraseña, plan, clave de OpenRouter |
-| Local Model | Descarga y activación del modelo en el dispositivo |
+| IA local | Descarga y activación del modelo en el dispositivo |
 | Equipo | Puestos, invitaciones, funciones |
-| [Site Monitoring](../site-monitoring/overview.md) | Programación de rastreo, índice de búsqueda, páginas supervisadas, rutas bloqueadas |
-| [Branding](../agency/white-label.md) | Informes de marca blanca y atribución en audio (solo planes de pago) |
-| Logs | Registros de acciones y exportación a CSV |
-| Data & Backup | Copia de seguridad y restauración local |
-| Troubleshooting | Caché, registro de diagnóstico, restablecimiento de datos locales |
+| [Supervisión del sitio](../site-monitoring/overview.md) | Programación de rastreo, índice de búsqueda, páginas supervisadas, rutas bloqueadas |
+| [Marca](../agency/white-label.md) | Informes de marca blanca y atribución en audio (solo planes de pago) |
+| Registros | Registros de acciones y exportación a CSV |
+| Datos y copia de seguridad | Copia de seguridad y restauración local |
+| Resolución de problemas | Caché, registro de diagnóstico, restablecimiento de datos locales |
 
 ## General
 
@@ -69,9 +69,9 @@ Invite a miembros, consulte sus funciones y revoque accesos. Los límites de pue
 
 ## Site Monitoring
 
-Programación de rastreo, índice de búsqueda local, páginas supervisadas y rutas bloqueadas. Es un área extensa y tiene su propia página: **[Site Monitoring](../site-monitoring/overview.md)**.
+Programación de rastreo, índice de búsqueda local, páginas supervisadas y rutas bloqueadas. Es un área extensa y tiene su propia página: **[Supervisión del sitio](../site-monitoring/overview.md)**.
 
-Las conexiones con CMS y fuentes de datos son otra cosa y viven en la pantalla **Connections**, no en Configuración:
+Las conexiones con CMS y fuentes de datos son otra cosa y viven en la pantalla **Conexiones**, no en Configuración:
 
 - [WordPress](../integrations/wordpress.md)
 - [Webflow](../integrations/webflow.md)
@@ -86,7 +86,7 @@ Aplique su marca blanca a los informes PDF exportados y a los reproductores de a
 
 Registros de acciones del proyecto actual, con el tipo, el usuario, la fecha, el estado y los metadatos de cada acción registrada. En los planes gestionados, los registros compartidos del equipo se sincronizan junto a los suyos locales.
 
-**Export CSV** los descarga. La exportación de los registros de acciones del equipo está restringida a los titulares de espacios de trabajo gestionados de pago.
+**Exportar CSV** los descarga. La exportación de los registros de acciones del equipo está restringida a los titulares de espacios de trabajo gestionados de pago.
 
 ## Data & Backup
 

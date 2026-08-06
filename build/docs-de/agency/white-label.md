@@ -19,7 +19,7 @@ Zu finden unter **Einstellungen → Branding**. Verfügbar in allen kostenpflich
 
 ## Aktivieren
 
-Schalten Sie **Use my branding on exports** ein. Bevor sich der Schalter aktivieren lässt, müssen Sie einen Agenturnamen eintragen.
+Schalten Sie **Mein Branding für Exporte verwenden** ein. Bevor sich der Schalter aktivieren lässt, müssen Sie einen Agenturnamen eintragen.
 
 ## Branding in Berichten
 
@@ -48,4 +48,4 @@ Jede Kundenseite mit einem Ihrer Player wird zu einem echten Link zurück auf Ih
 
 ## Speichern
 
-Klicken Sie auf **Save branding**. Schlägt das Speichern fehl, prüfen Sie Ihre Verbindung und versuchen Sie es erneut: Das Branding liegt in Ihrem Konto und nicht nur auf diesem Gerät, begleitet Sie also zu einer neuen Installation und gilt für die Exporte aller Teammitglieder.
+Klicken Sie auf **Branding speichern**. Schlägt das Speichern fehl, prüfen Sie Ihre Verbindung und versuchen Sie es erneut: Das Branding liegt in Ihrem Konto und nicht nur auf diesem Gerät, begleitet Sie also zu einer neuen Installation und gilt für die Exporte aller Teammitglieder.

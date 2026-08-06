@@ -7,14 +7,14 @@ source_hash: 21ee532adaad878cd1451a3d1bdcc53d85735a142ee0c75a7a2da59686684e1b
 
 Mettere il nome, il logo e il link della sua agenzia sul lavoro che consegna ai clienti, al posto di quelli di Hi, Moose. Riguarda i report PDF esportati e il player audio incorporato.
 
-Lo trova in **Impostazioni → Branding**. È disponibile in tutti i piani a pagamento: BYOK Premium, BYOK Agency e tutti i piani gestiti. I piani gratuiti non lo comprendono.
+Lo trova in **Impostazioni → Brand**. È disponibile in tutti i piani a pagamento: BYOK Premium, BYOK Agency e tutti i piani gestiti. I piani gratuiti non lo comprendono.
 
 !!! note "Solo il titolare dell'abbonamento può modificare il branding"
     I membri del team non possono modificarlo, ma esportano comunque con il branding salvato. Lo configuri una volta sull'account del titolare e tutto il team produrrà materiali con il suo marchio.
 
 ## Attivarlo
 
-Attivi **Use my branding on exports**. Deve inserire un nome dell'agenzia prima che l'interruttore possa essere attivato.
+Attivi **Usa il mio brand nelle esportazioni**. Deve inserire un nome dell'agenzia prima che l'interruttore possa essere attivato.
 
 ## Branding nei report
 
@@ -43,4 +43,4 @@ Ogni pagina cliente che ospita uno dei suoi player diventa un vero link verso il
 
 ## Salvare
 
-Faccia clic su **Save branding**. Se il salvataggio non riesce, controlli la connessione e riprovi: il branding è archiviato sul suo account e non soltanto su questo dispositivo, perciò la accompagna in una nuova installazione e si applica alle esportazioni di tutti i membri del team.
+Faccia clic su **Salva brand**. Se il salvataggio non riesce, controlli la connessione e riprovi: il branding è archiviato sul suo account e non soltanto su questo dispositivo, perciò la accompagna in una nuova installazione e si applica alle esportazioni di tutti i membri del team.

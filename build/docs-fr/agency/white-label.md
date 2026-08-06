@@ -12,14 +12,14 @@ source_hash: 21ee532adaad878cd1451a3d1bdcc53d85735a142ee0c75a7a2da59686684e1b
 
 Apposer le nom, le logo et le lien de votre agence sur le travail que vous remettez à vos clients, à la place de ceux de Hi, Moose. Cela couvre les rapports PDF exportés et le lecteur audio intégré.
 
-Vous le trouverez dans **Paramètres → Branding**. C'est disponible sur tous les forfaits payants : BYOK Premium, BYOK Agency et tous les forfaits gérés. Les forfaits gratuits ne l'incluent pas.
+Vous le trouverez dans **Paramètres → Image de marque**. C'est disponible sur tous les forfaits payants : BYOK Premium, BYOK Agency et tous les forfaits gérés. Les forfaits gratuits ne l'incluent pas.
 
 !!! note "Seul le titulaire de l'abonnement peut modifier la marque"
     Les membres de l'équipe ne peuvent pas la modifier, mais leurs exports portent bien la marque enregistrée. Configurez-la une fois sur le compte du titulaire et toute l'équipe produit des livrables à votre marque.
 
 ## L'activer
 
-Activez **Use my branding on exports**. Vous devez saisir un nom d'agence avant que l'interrupteur puisse être activé.
+Activez **Utiliser ma marque sur les exports**. Vous devez saisir un nom d'agence avant que l'interrupteur puisse être activé.
 
 ## Marque sur les rapports
 
@@ -48,4 +48,4 @@ Chaque page client portant l'un de vos lecteurs devient un véritable lien de re
 
 ## Enregistrer
 
-Cliquez sur **Save branding**. Si l'enregistrement échoue, vérifiez votre connexion et réessayez : la marque est stockée sur votre compte et non uniquement sur cet appareil, elle vous suit donc lors d'une nouvelle installation et s'applique aux exports de tous les membres de l'équipe.
+Cliquez sur **Enregistrer la marque**. Si l'enregistrement échoue, vérifiez votre connexion et réessayez : la marque est stockée sur votre compte et non uniquement sur cet appareil, elle vous suit donc lors d'une nouvelle installation et s'applique aux exports de tous les membres de l'équipe.

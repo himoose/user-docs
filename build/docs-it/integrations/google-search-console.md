@@ -21,7 +21,7 @@ L'accesso a Search Console richiede le credenziali OAuth del suo account Google,
 
 ## Configurare una connessione
 
-1. Apra **Connections** nell'app desktop e scelga Google Search Console.
+1. Apra **Connessioni** nell'app desktop e scelga Google Search Console.
 2. Autorizzi l'accesso nel suo browser.
 3. Colleghi una proprietà di Search Console al [progetto](../getting-started/projects.md) attivo.
 

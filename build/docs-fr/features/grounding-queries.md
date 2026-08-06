@@ -20,7 +20,7 @@ Cette fonctionnalité vous montre les recherches Google que Gemini a effectuées
 
 ## Comment la lancer
 
-1. Depuis le [Chat](../chat/overview.md), choisissez le démarrage rapide **Capture AI Mode grounding queries** (ou demandez-le directement).
+1. Depuis le [Chat](../chat/overview.md), choisissez le démarrage rapide **Capturer les requêtes de grounding AI Mode** (ou demandez-le directement).
 2. Saisissez le prompt que vous souhaitez examiner.
 3. Hi, Moose vérifie les requêtes de grounding de Gemini pour ce prompt et renvoie :
     - Les requêtes de grounding réellement utilisées par Gemini.

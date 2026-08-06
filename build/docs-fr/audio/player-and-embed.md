@@ -10,7 +10,7 @@ source_hash: b5d0a07f31228ccaaa2c18a76dddb8de404f3871f7b879591e111c89bae3e9c5
 
 ## À quoi cela sert
 
-Adapter le style du lecteur audio intégré à la page qui va l'accueillir, puis copier le code d'intégration. Ouvrez-le depuis un épisode terminé avec **Customize player**, ou depuis l'action d'intégration de l'onglet **History**.
+Adapter le style du lecteur audio intégré à la page qui va l'accueillir, puis copier le code d'intégration. Ouvrez-le depuis un épisode terminé avec **Personnaliser le lecteur**, ou depuis l'action d'intégration de l'onglet **Historique**.
 
 ## Options du lecteur
 
@@ -25,7 +25,7 @@ Un aperçu en direct se met à jour à mesure que vous modifiez les réglages. S
 
 ## Copier le code d'intégration
 
-Cliquez sur **Copy embed code** et collez-le dans votre page.
+Cliquez sur **Copier le code d'intégration** et collez-le dans votre page.
 
 - **WordPress** : collez-le dans le bloc HTML ou code de l'article, ou utilisez le [plugin Listen to This Article](https://wordpress.org/plugins/listen-to-this-article/).
 - **Webflow** : collez-le dans un élément Embed.
@@ -37,7 +37,7 @@ L'audio généré ne se lit que sur le domaine du site web de votre projet et su
 
 ## Attribution d'agence
 
-Sur les forfaits avec [marque blanche](../agency/white-label.md), le lecteur intégré peut porter l'attribution de votre agence plutôt que celle de Hi, Moose. Cela se règle dans **Paramètres → Branding** :
+Sur les forfaits avec [marque blanche](../agency/white-label.md), le lecteur intégré peut porter l'attribution de votre agence plutôt que celle de Hi, Moose. Cela se règle dans **Paramètres → Image de marque** :
 
 - **Attribution de l'intégration audio** : le texte affiché sur le lecteur. Laissez-le vide pour utiliser « Audio by » suivi du nom de votre agence.
 - **Lien d'attribution** : une adresse `https://` complète. Laissez-le vide pour réutiliser votre lien de marque principal.

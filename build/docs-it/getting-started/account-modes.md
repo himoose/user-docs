@@ -10,7 +10,7 @@ source_hash: 807f4fd0f8157bf27491590b13dd7b2b18f5cb12dd648c025f2c46cabf3ea0ed
 
 Hi, Moose esegue il lavoro di IA in due modi: con la sua chiave OpenRouter (BYOK) oppure con i modelli gestiti di Hi, Moose. È questa scelta, non il prezzo, il vero bivio. Tutto il resto è numero di progetti, postazioni e quantità di credito mensile.
 
-I piani sono raggruppati in due schede nella schermata **Upgrade**: **Startup** ed **Enterprise & Agencies**.
+I piani sono raggruppati in due schede nella schermata **Esegui upgrade**: **Startup** ed **Aziende e agenzie**.
 
 ## I due modi di eseguire l'IA
 
@@ -111,7 +111,7 @@ BYOK Premium su scala di agenzia. Lo stesso funzionamento locale e lo stesso ins
 
 ## Postazioni, progetti e crediti
 
-I **progetti aggiuntivi** costano 10 USD al mese ciascuno in tutti i piani a pagamento. Li aggiunga o li rimuova da **Upgrade → Extra projects**.
+I **progetti aggiuntivi** costano 10 USD al mese ciascuno in tutti i piani a pagamento. Li aggiunga o li rimuova da **Esegui upgrade → Progetti extra**.
 
 Le **postazioni** sono il vero confine tra gratuito e a pagamento. Preview Mode e BYOK Free sono limitati al titolare dell'account. BYOK Premium consente fino a 10, BYOK Agency fino a 25, e i piani gestiti non hanno limite, perché tutti i membri attingono al saldo di crediti del titolare.
 
@@ -127,10 +127,10 @@ Le ricariche sono acquisti una tantum, non abbonamenti. Vengono consumate solo d
 
 ## Codici sconto
 
-Se dispone di un codice sconto, lo inserisca al momento del pagamento nella schermata **Upgrade**.
+Se dispone di un codice sconto, lo inserisca al momento del pagamento nella schermata **Esegui upgrade**.
 
 ## Cambiare piano
 
-Può cambiare piano in qualsiasi momento da **Impostazioni → Account** o dalla schermata **Upgrade**. Se passa da un piano gestito a uno BYOK, inserisca prima la sua chiave API di OpenRouter. Hi, Moose verifica la chiave prima di spostarvi l'instradamento dell'IA.
+Può cambiare piano in qualsiasi momento da **Impostazioni → Account** o dalla schermata **Esegui upgrade**. Se passa da un piano gestito a uno BYOK, inserisca prima la sua chiave API di OpenRouter. Hi, Moose verifica la chiave prima di spostarvi l'instradamento dell'IA.
 
 La sua chiave OpenRouter viene salvata per account e non per dispositivo, quindi la accompagna in una nuova installazione.

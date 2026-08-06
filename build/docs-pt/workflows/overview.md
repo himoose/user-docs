@@ -1,38 +1,43 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 64e2aed1c2f7aabf153fe284450b0ab8f444f0f39122092a8b927f546a3f2318
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Workflows
+    [Ler em inglês](https://himoose.com/docs/workflows/overview/)
 
-## What this helps you do
+# Fluxos de trabalho
 
-Workflows turn a recurring operator pattern into a background routine described in plain language, instead of you re-running the same manual steps every time your AI visibility changes. Rather than a blank automation builder, each workflow is built from an opinionated, editable sentence — you fill in the blanks, Hi, Moose runs it.
+## Para que serve
 
-!!! note "Availability"
-    Workflows require a paid plan — BYOK Premium, BYOK Agency, or any managed plan. Preview Mode can monitor one project locally, but reusable workflows aren't included, and BYOK Free doesn't include them either. See [Account Types & Plans](../getting-started/account-modes.md).
+Os fluxos de trabalho transformam um padrão operacional recorrente numa rotina em segundo plano descrita em linguagem comum, em vez de obrigar você a repetir os mesmos passos manuais toda vez que sua visibilidade em IA muda. Em lugar de um construtor de automação em branco, cada fluxo nasce de uma frase editável e com opinião: você preenche as lacunas, o Hi, Moose executa.
 
-## The first choice: what is this workflow for?
+!!! note "Disponibilidade"
+    Os fluxos de trabalho exigem um plano pago: BYOK Premium, BYOK Agency ou qualquer plano gerenciado. O Preview Mode consegue monitorar um projeto localmente, mas não inclui fluxos reutilizáveis, e o BYOK Free também não os inclui. Veja [Tipos de conta e planos](../getting-started/account-modes.md).
 
-Every workflow starts with one decision: **"This workflow is for [ new / current ] content."**
+## A primeira escolha: para que serve este fluxo?
 
-- **Current content** runs the **[Recover Lost Visibility](recover-lost-visibility.md)** recipe — detect a drop in how your brand shows up, find the affected page, and stage a fix.
-- **New content** runs the **[Create New Content](create-new-content.md)** recipe — scan your tracked topics on a schedule and stage brand-new content for gaps it finds.
+Todo fluxo começa por uma decisão: **«Este fluxo é para conteúdo [ novo / existente ]»**.
 
-## Managing multiple workflows
+- **Conteúdo existente** roda a receita **[Recuperar a visibilidade perdida](recover-lost-visibility.md)**: detectar uma queda em como sua marca aparece, achar a página afetada e preparar uma correção.
+- **Conteúdo novo** roda a receita **[Criar novo conteúdo](create-new-content.md)**: varrer seus temas monitorados conforme um agendamento e preparar conteúdo inédito para as lacunas encontradas.
 
-You aren't limited to one workflow:
+## Gerenciar vários fluxos
 
-- Click **New Workflow** to create another, independently configured one.
-- Switch between saved workflows from the workflow selector, which shows each one's name and whether it's **Enabled** or **Paused**.
-- Rename a workflow by clicking its name.
-- **Pause**/**Enable** a workflow without deleting its configuration.
-- **Remove** a workflow entirely — this only removes it from this device and doesn't affect other members of your workspace, since workflow definitions are local and personal rather than shared team state.
-- **Save** persists your changes; Hi, Moose also auto-saves once a workflow has everything it needs to run.
+Você não fica limitado a um fluxo:
 
-## Running a workflow
+- Clique em **Novo fluxo de trabalho** para criar outro, configurado de forma independente.
+- Alterne entre os fluxos salvos pelo seletor, que mostra o nome de cada um e se está **Ativado** ou **Paused**.
+- Renomeie um fluxo clicando no nome dele.
+- **Pausar** ou **Ativar** pausa ou reativa um fluxo sem apagar sua configuração.
+- **Remover** exclui um fluxo por completo. Isso só o retira deste dispositivo e não afeta os demais membros do seu espaço de trabalho, porque as definições de fluxo são locais e pessoais, não um estado compartilhado da equipe.
+- **Salvar** grava suas alterações; o Hi, Moose também salva automaticamente assim que um fluxo tem tudo o que precisa para rodar.
 
-- **Create New Content** workflows can be triggered immediately with **Run now**, in addition to running on their configured schedule. Results land in your [Inbox](../inbox/overview.md) for review — Hi, Moose links you straight there when a run finds something.
-- **Recover Lost Visibility** workflows don't have a manual run button; they evaluate automatically every time a new [visibility](../visibility/overview.md) run completes, comparing it against the previous run.
+## Executar um fluxo
 
-## Before you can build a workflow
+- Os fluxos de **Criar novo conteúdo** podem ser disparados na hora com **Executar agora**, além de rodarem no agendamento. Os resultados chegam à sua [Caixa de entrada](../inbox/overview.md) para revisão, e o Hi, Moose leva você direto para lá quando uma execução encontra algo.
+- Os fluxos de **Recuperar a visibilidade perdida** não têm botão de execução manual: eles se avaliam automaticamente sempre que uma nova execução de [visibilidade](../visibility/overview.md) termina, comparando-a com a anterior.
 
-Workflows need at least one tracked visibility topic before they can watch for changes. If your project doesn't have one yet, Hi, Moose prompts you to set up [Visibility](../visibility/overview.md) tracking first, then return to Workflows.
+## Antes de conseguir criar um fluxo
+
+Os fluxos precisam de pelo menos um tema de visibilidade monitorado para poderem vigiar mudanças. Se o seu projeto ainda não tiver nenhum, o Hi, Moose pede que você configure antes o monitoramento de [Visibilidade](../visibility/overview.md) e depois volte aos fluxos.

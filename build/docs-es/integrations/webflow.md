@@ -14,8 +14,8 @@ Conectar un sitio de Webflow para que Hi, Moose pueda inspeccionar sus páginas 
 
 ## Configurar una conexión
 
-1. Abra **Connections** en la aplicación de escritorio y elija Webflow.
-2. Pulse **Connect Webflow MCP**. Esto abre la página de autorización de Webflow en su navegador. Complete allí el proceso de OAuth para terminar de conectar.
+1. Abra **Conexiones** en la aplicación de escritorio y elija Webflow.
+2. Pulse **Conectar MCP de Webflow**. Esto abre la página de autorización de Webflow en su navegador. Complete allí el proceso de OAuth para terminar de conectar.
 3. Una vez conectado, elija qué sitio autorizado de Webflow debe utilizar Hi, Moose para este [proyecto](../getting-started/projects.md).
 
 ## Preparar un destino de vista previa

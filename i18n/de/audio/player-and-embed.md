@@ -5,7 +5,7 @@ source_hash: b5d0a07f31228ccaaa2c18a76dddb8de404f3871f7b879591e111c89bae3e9c5
 
 ## Wofür das gut ist
 
-Den eingebetteten Audio-Player an die Seite anpassen, auf der er stehen soll, und anschließend den Einbettungscode kopieren. Öffnen Sie das über **Customize player** bei einer fertigen Folge oder über die Einbettungsaktion im Reiter **History**.
+Den eingebetteten Audio-Player an die Seite anpassen, auf der er stehen soll, und anschließend den Einbettungscode kopieren. Öffnen Sie das über **Player anpassen** bei einer fertigen Folge oder über die Einbettungsaktion im Reiter **Verlauf**.
 
 ## Player-Optionen
 
@@ -20,7 +20,7 @@ Eine Live-Vorschau aktualisiert sich, während Sie Einstellungen ändern. Ist da
 
 ## Den Einbettungscode kopieren
 
-Klicken Sie auf **Copy embed code** und fügen Sie ihn in Ihre Seite ein.
+Klicken Sie auf **Einbettungscode kopieren** und fügen Sie ihn in Ihre Seite ein.
 
 - **WordPress**: in den HTML- oder Code-Block des Beitrags einfügen, oder das [Plugin Listen to This Article](https://wordpress.org/plugins/listen-to-this-article/) verwenden.
 - **Webflow**: in ein Embed-Element einfügen.

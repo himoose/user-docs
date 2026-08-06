@@ -1,41 +1,46 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 654f5d1f13d58929fbda5ebfcaf964ae01d60316c4db812cc5aa09b54b172e5c
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Content Briefs
+    [Ler em inglês](https://himoose.com/docs/features/content-briefs/)
 
-## What this helps you do
+# Briefings de conteúdo
 
-Generate a structured, evidence-grounded content brief before writing or drafting anything — built from live search results, answer-engine data, and your own site's context, not from a model's general training knowledge.
+## Para que serve
 
-Briefs are the required first step in Hi, Moose's editorial workflow: if a piece of work needs structured planning, Hi, Moose generates or confirms a brief before it drafts anything. This keeps drafts grounded in real research instead of becoming a blind text expander.
+Criar um briefing de conteúdo estruturado e fundamentado em evidências antes de escrever qualquer coisa, montado a partir de resultados de busca em tempo real, dados dos mecanismos de resposta e do contexto do seu próprio site, e não do conhecimento geral de treinamento de um modelo.
 
-## What goes into a brief
+Os briefings são o primeiro passo obrigatório do fluxo editorial do Hi, Moose: se um trabalho exige planejamento estruturado, o Hi, Moose gera ou confirma um briefing antes de redigir. Assim os rascunhos continuam ancorados em pesquisa real em vez de virarem um expansor de texto às cegas.
 
-To build a brief, Hi, Moose collects and reuses a **search landscape** — a durable evidence bundle — rather than re-researching from scratch every time:
+## O que entra num briefing
 
-- Live organic search results and People Also Ask questions for your target query.
-- Answer-engine snapshots (Google AI Overview, ChatGPT Search, and similar) and their cited sources.
-- A bounded crawl of top-ranking competitor pages.
-- Secondary keywords extracted from that competitor content, ranked by priority.
+Para montar um briefing, o Hi, Moose coleta e reaproveita um **panorama de busca**, um pacote de evidências duradouro, em vez de refazer a pesquisa do zero toda vez:
 
-Because this evidence is saved as its own artifact, generating a brief and then generating FAQs or key points for the same topic doesn't require re-collecting the same research twice — and if you ask for fresh research, Hi, Moose runs a new pass instead of silently reusing stale evidence.
+- Resultados de busca orgânica em tempo real e perguntas de «As pessoas também perguntam» para a sua consulta-alvo.
+- Capturas dos mecanismos de resposta (Google AI Overview, ChatGPT Search e afins) e as fontes que eles citaram.
+- Um rastreamento delimitado das páginas concorrentes mais bem posicionadas.
+- Palavras-chave secundárias extraídas desse conteúdo concorrente, ordenadas por prioridade.
 
-## Generating a brief
+Como essas evidências ficam salvas como um artefato próprio, gerar um briefing e depois gerar FAQ ou pontos principais sobre o mesmo assunto não exige coletar a mesma pesquisa duas vezes. E se você pedir pesquisa nova, o Hi, Moose faz uma passagem nova em vez de reaproveitar em silêncio evidências antigas.
 
-1. Enter your **primary target query** — the main query or topic the brief should center on, phrased the way a real searcher would ask it.
-2. Choose a **template type**. Different structures need different sections, proof, and calls to action, so this shapes both the brief and the eventual first draft:
-    - **Blog post**
-    - **Glossary post**
+## Criar um briefing
+
+1. Informe sua **consulta-alvo principal**: a consulta ou o assunto em que o briefing deve se centrar, escrita como alguém que busca de verdade escreveria.
+2. Escolha um **tipo de modelo**. Estruturas diferentes pedem seções, provas e chamadas para ação diferentes, então isso molda tanto o briefing quanto o primeiro rascunho:
+    - **Post de blog**
+    - **Post de glossário**
     - **Landing page**
-    - **Solutions page**
-    - **Product Feature page**
-3. Hi, Moose collects the search landscape, then generates the brief: recommended word count, prioritized secondary keywords, People Also Ask questions to address, competitor analysis, and a structured outline shaped for the template you chose.
-4. Review, edit, and export the brief, or move straight into generating a [draft](drafts-and-publishing.md) from it.
+    - **Página de soluções**
+    - **Página de recurso do produto**
+3. O Hi, Moose coleta o panorama de busca e então gera o briefing: extensão recomendada, palavras-chave secundárias priorizadas, perguntas de «As pessoas também perguntam» a tratar, análise da concorrência e uma estrutura organizada conforme o modelo escolhido.
+4. Revise, edite e exporte o briefing, ou vá direto para gerar um [rascunho](drafts-and-publishing.md) a partir dele.
 
-## Integrity
+## Integridade
 
-Brief generation is a real, model-backed step grounded in real evidence — not a template assembled from heuristic guesses. If Hi, Moose can't collect the research a brief needs, it says so rather than producing a plausible-looking but ungrounded brief.
+A geração de briefing é uma etapa real, apoiada em modelo e fundamentada em evidências concretas, não um gabarito montado com suposições heurísticas. Se o Hi, Moose não conseguir coletar a pesquisa de que um briefing precisa, ele diz isso em vez de produzir um briefing plausível mas sem fundamento.
 
-## Entitlements
+## Direitos por plano
 
-Live research collection (search results, answer-engine snapshots, competitor crawling) is the cost-bearing step in this workflow. Paid Managed accounts draw on their single managed token balance; BYOK Premium includes bounded, explicit cloud-assisted research alongside local-first execution; BYOK Free does not include open-ended cloud-assisted research by default.
+A coleta de pesquisa em tempo real (resultados de busca, capturas dos mecanismos de resposta, rastreamento de concorrentes) é a etapa que gera custo neste fluxo. Contas gerenciadas pagas consomem seu único saldo de créditos gerenciados; o BYOK Premium inclui pesquisa assistida por nuvem de forma delimitada e explícita, junto da execução local; o BYOK Free não inclui pesquisa assistida por nuvem sem limite por padrão.

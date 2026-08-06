@@ -5,9 +5,9 @@ source_hash: fd74e34b467a2aec2ad0abc74e8a74c6865ee781fe1c9eceff1c780dcc8517c7
 
 ## À quoi cela sert
 
-Générer le brouillon d'un article de blog long et pédagogique à partir d'un [brief de contenu](content-briefs.md) : le type de modèle **Blog post**.
+Générer le brouillon d'un article de blog long et pédagogique à partir d'un [brief de contenu](content-briefs.md) : le type de modèle **Article de blog**.
 
-Depuis le [Chat](../chat/overview.md), le démarrage rapide **Create a blog post draft** vous guide pour confirmer une requête cible et un type de modèle avant de générer ensemble le brief et le premier brouillon.
+Depuis le [Chat](../chat/overview.md), le démarrage rapide **Créer un brouillon d'article de blog** vous guide pour confirmer une requête cible et un type de modèle avant de générer ensemble le brief et le premier brouillon.
 
 ## Structure
 
@@ -18,7 +18,7 @@ Un brouillon d'article de blog suit la structure d'un article pédagogique :
 - Une lecture de contenu éditorial long, et non la forme d'une landing page, d'une page de solutions ou d'une page produit.
 - Un appel à l'action adapté vers la fin, uniquement lorsque le brief en prévoit un.
 
-Juste après le titre, le brouillon comprend une courte section **Key Points** : cinq ou six puces compressées et à forte valeur, distillées du brief et de la thèse du brouillon, placées avant le corps principal, afin que les lecteurs (et les moteurs de réponse) saisissent immédiatement l'essentiel.
+Juste après le titre, le brouillon comprend une courte section **Points clés** : cinq ou six puces compressées et à forte valeur, distillées du brief et de la thèse du brouillon, placées avant le corps principal, afin que les lecteurs (et les moteurs de réponse) saisissent immédiatement l'essentiel.
 
 ## Où cela s'inscrit
 

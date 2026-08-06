@@ -10,7 +10,7 @@ source_hash: 05fae21b2ec70be5a8bae1ca0e58f085c9da2140a80bae1dc2e083051aeffb43
 
 ## Para qué sirve
 
-**Context** es la capa de fundamentación de la navegación izquierda de la aplicación de escritorio. Es el contexto operativo compartido de su proyecto actual: la información que el operador, el chat y todas las funciones de generación reutilizan en lugar de partir de cero en cada petición.
+**Contexto** es la capa de fundamentación de la navegación izquierda de la aplicación de escritorio. Es el contexto operativo compartido de su proyecto actual: la información que el operador, el chat y todas las funciones de generación reutilizan en lugar de partir de cero en cada petición.
 
 Context se compone de tres piezas diferenciadas:
 

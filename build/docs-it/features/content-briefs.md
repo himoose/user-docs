@@ -29,11 +29,11 @@ Poiché queste evidenze vengono salvate come artefatto a sé, creare un brief e 
 
 1. Inserisca la sua **query obiettivo principale**: la query o l'argomento su cui il brief deve concentrarsi, formulata come la scriverebbe davvero chi cerca.
 2. Scelga un **tipo di modello**. Strutture diverse richiedono sezioni, prove e inviti all'azione diversi, perciò questa scelta plasma sia il brief sia la prima bozza che ne deriverà:
-    - **Blog post**
-    - **Glossary post**
+    - **Articolo del blog**
+    - **Articolo di glossario**
     - **Landing page**
-    - **Solutions page**
-    - **Product Feature page**
+    - **Pagina delle soluzioni**
+    - **Pagina delle funzionalità del prodotto**
 3. Hi, Moose raccoglie il panorama di ricerca e poi genera il brief: lunghezza consigliata, parole chiave secondarie ordinate per priorità, domande da «Altre domande» da trattare, analisi dei concorrenti e una struttura organizzata secondo il modello scelto.
 4. Riveda, modifichi ed esporti il brief, oppure passi direttamente a generare una [bozza](drafts-and-publishing.md) a partire da esso.
 

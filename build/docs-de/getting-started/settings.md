@@ -14,16 +14,16 @@ In den Einstellungen verwalten Sie Ihr Profil, Ihren Tarif, Ihre Modelle, Ihr Te
 
 | Bereich | Inhalt |
 |---|---|
-| General | Profildaten und App-Verhalten auf diesem Rechner |
-| Usage | Guthabenstand und Zurücksetzungsdatum |
+| Allgemein | Profildaten und App-Verhalten auf diesem Rechner |
+| Nutzung | Guthabenstand und Zurücksetzungsdatum |
 | Konto | E-Mail, Passwort, Tarif, OpenRouter-Schlüssel |
-| Local Model | Herunterladen und Aktivieren des Modells auf dem Gerät |
+| Lokale KI | Herunterladen und Aktivieren des Modells auf dem Gerät |
 | Team | Sitzplätze, Einladungen, Rollen |
-| [Site Monitoring](../site-monitoring/overview.md) | Crawl-Zeitplan, Suchindex, überwachte Seiten, gesperrte Pfade |
+| [Website-Monitoring](../site-monitoring/overview.md) | Crawl-Zeitplan, Suchindex, überwachte Seiten, gesperrte Pfade |
 | [Branding](../agency/white-label.md) | White-Label-Berichte und Audio-Attribution (nur kostenpflichtige Tarife) |
-| Logs | Aktionsprotokolle und CSV-Export |
-| Data & Backup | Lokale Sicherung und Wiederherstellung |
-| Troubleshooting | Cache, Diagnoseprotokoll, Zurücksetzen lokaler Daten |
+| Protokolle | Aktionsprotokolle und CSV-Export |
+| Daten & Backup | Lokale Sicherung und Wiederherstellung |
+| Fehlerbehebung | Cache, Diagnoseprotokoll, Zurücksetzen lokaler Daten |
 
 ## General
 
@@ -74,9 +74,9 @@ Laden Sie Mitglieder ein, sehen Sie deren Rollen ein und entziehen Sie Zugriffe.
 
 ## Site Monitoring
 
-Crawl-Zeitplan, lokaler Suchindex, überwachte Seiten und gesperrte Pfade. Das ist ein umfangreicher Bereich mit einer eigenen Seite: **[Site Monitoring](../site-monitoring/overview.md)**.
+Crawl-Zeitplan, lokaler Suchindex, überwachte Seiten und gesperrte Pfade. Das ist ein umfangreicher Bereich mit einer eigenen Seite: **[Website-Monitoring](../site-monitoring/overview.md)**.
 
-Verbindungen zu CMS und Datenquellen sind davon getrennt und liegen im Bildschirm **Connections**, nicht in den Einstellungen:
+Verbindungen zu CMS und Datenquellen sind davon getrennt und liegen im Bildschirm **Verbindungen**, nicht in den Einstellungen:
 
 - [WordPress](../integrations/wordpress.md)
 - [Webflow](../integrations/webflow.md)

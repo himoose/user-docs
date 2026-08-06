@@ -1,76 +1,81 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 6b12d8d972a33f212f60d823c287d184f083cfb60d8934f6b9ac8571ceb3c32e
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Chat Tools & Specialists
+    [Ler em inglês](https://himoose.com/docs/chat/tools-and-specialists/)
 
-## What this helps you do
+# Ferramentas e especialistas do chat
 
-Beyond typing a plain request, the chat composer gives you a few extra ways to shape what Hi, Moose does with your message: attaching context, picking a specialist to focus the conversation, or launching a quick-start flow.
+## Para que serve
 
-## Attachments
+Além de digitar um pedido, o campo de composição do chat oferece algumas formas a mais de moldar o que o Hi, Moose faz com sua mensagem: anexar contexto, escolher um especialista para focar a conversa ou disparar um atalho rápido.
 
-Click the attach button in the composer to add context to your message:
+## Anexos
 
-- **Upload file or image** — `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg`, and `.png`. Spreadsheets are parsed into readable text, so you can hand Moose a workbook and ask about what's in it.
-- **Capture screenshot** — choose a display or window, then drag to snip the exact area you want to send. On macOS, this requires enabling Screen Recording access for Hi, Moose the first time you use it.
-- **Add from Library** — attach a saved [Library](../library/overview.md) artifact (a brief, draft, key points, or FAQs) as context instead of re-pasting it.
-- **Site vector database** — attach your project's indexed site so Moose can answer from your real pages rather than from what it assumes is on them. Build the index from [Site Monitoring](../site-monitoring/overview.md).
+Clique no botão de anexo no campo de composição para acrescentar contexto à sua mensagem:
 
-## Tools Moose can call
+- **Enviar arquivo ou imagem**: `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg` e `.png`. Planilhas viram texto legível, então você pode entregar uma pasta de trabalho ao Moose e perguntar o que há nela.
+- **Capturar a tela**: escolha um monitor ou uma janela e arraste para recortar exatamente a área que quer enviar. No macOS, na primeira vez você precisa conceder ao Hi, Moose acesso à gravação de tela.
+- **Adicionar da Biblioteca**: anexe um artefato salvo da [Biblioteca de artefatos](../library/overview.md) (um briefing, um rascunho, pontos principais ou FAQ) como contexto, em vez de colar de novo.
+- **Banco de dados vetorial do site**: anexe o site indexado do seu projeto para que o Moose responda a partir das suas páginas reais, e não do que ele supõe que esteja nelas. Monte o índice em [Monitoramento do site](../site-monitoring/overview.md).
 
-Chat isn't limited to text generation. During a conversation, Moose can call tools on your behalf and shows you when it does.
+## Ferramentas que o Moose pode usar
 
-| Tool | What it does |
+O chat não se limita a gerar texto. No decorrer de uma conversa, o Moose pode usar ferramentas em seu nome e mostra quando faz isso.
+
+| Ferramenta | O que faz |
 |---|---|
-| Web search | Live results, on plans that include chat web search |
-| Fetch a page | Read a specific URL |
-| Site index search | Answer from your own indexed pages |
-| Search Console | Query your connected [Search Console](../integrations/google-search-console.md) data |
-| Instant brand check | Check a query across five AI engines, see [Instant AI Search Brand Check](../tools/instant-brand-check.md) |
-| Coverage check | Find whether your site already covers a topic |
-| Image generation | Produce an image for a draft |
-| App help | Point you at the right documentation or to support |
+| Busca web | Resultados em tempo real, nos planos que incluem busca web no chat |
+| Ler uma página | Consultar uma URL específica |
+| Busca no índice do site | Responder a partir das suas páginas indexadas |
+| Search Console | Consultar seus dados conectados do [Search Console](../integrations/google-search-console.md) |
+| Verificação instantânea da marca | Consultar uma query em cinco mecanismos de IA; veja [Verificação instantânea da marca](../tools/instant-brand-check.md) |
+| Verificação de cobertura | Descobrir se seu site já cobre um assunto |
+| Geração de imagens | Produzir uma imagem para um rascunho |
+| Ajuda sobre o aplicativo | Apontar a documentação certa ou o suporte |
 
-Tool use works on managed plans, BYOK plans, and local Gemma 4 models alike.
+O uso de ferramentas funciona igual nos planos gerenciados, nos planos BYOK e nos modelos locais Gemma 4.
 
-!!! note "Search Console questions are answered agentically"
-    Moose queries your Search Console data iteratively rather than running one fixed report. Ask a vague question and it will narrow down through several queries to answer it, rather than returning a generic dump.
+!!! note "Perguntas sobre o Search Console são respondidas de forma agêntica"
+    O Moose consulta seus dados do Search Console de modo iterativo em vez de rodar um relatório fixo. Se você fizer uma pergunta vaga, ele estreita o escopo por várias consultas até respondê-la, em vez de devolver um despejo genérico.
 
-## Specialists
+## Especialistas
 
-Specialists are focused entry points into the same main operator — not separate tools or separate memory, just a way to point the conversation at a specific job. Open the specialist selector to choose one:
+Os especialistas são portas de entrada focadas para o mesmo operador principal. Não são ferramentas nem memórias separadas, só um jeito de apontar a conversa para uma tarefa específica. Abra o seletor de especialista para escolher um:
 
-- **Content Brief specialist** — build a tight brief with structure and next steps.
-- **Google Search Console Specialist** — ask Moose about your connected [Google Search Console](../integrations/google-search-console.md) data. This specialist needs a connected Search Console account or saved property for the active project before it can answer from your first-party data.
-- **Audio Generator specialist** — turn a request into a clean spoken-word script.
-- **Draft specialist** — generate draft content that's ready for review and editing.
-- **FAQs specialist** — draft concise FAQs around the highest-value questions.
-- **Key Points specialist** — pull out the most important takeaways first.
+- **Especialista em Content Brief**: montar um briefing enxuto com estrutura e próximos passos.
+- **Especialista em Google Search Console**: perguntar ao Moose sobre seus dados conectados do [Google Search Console](../integrations/google-search-console.md). Esse especialista precisa de uma conta do Search Console conectada ou de uma propriedade salva no projeto ativo antes de responder a partir dos seus dados.
+- **Especialista em geração de áudio**: transformar um pedido num roteiro falado limpo.
+- **Especialista em rascunhos**: gerar conteúdo de rascunho pronto para revisão e edição.
+- **Especialista em FAQ**: redigir FAQ concisas em torno das perguntas de maior valor.
+- **Especialista em Pontos principais**: destacar primeiro as conclusões mais importantes.
 
-Once a specialist is active, you'll see its badge on the conversation, and you can clear it at any time to go back to general chat.
+Com um especialista ativo, a etiqueta dele aparece na conversa, e você pode removê-la a qualquer momento para voltar ao chat geral.
 
-### Custom specialists
+### Especialistas personalizados
 
-You can also create your own local specialist: give it a name and a summary of the work it should handle, then choose which parts of your context it's allowed to use — project context, brand profile, website context, chat history, draft-biased output, or markdown-formatted output. Custom specialists can also be imported/uploaded if you have one shared with you.
+Você também pode criar seu próprio especialista local: dê um nome e um resumo do trabalho que ele deve cobrir, depois escolha a quais partes do seu contexto ele tem acesso: contexto de projeto, perfil da marca, contexto do site, histórico do chat, saída voltada a rascunho ou saída em markdown. Especialistas personalizados também podem ser importados, se alguém compartilhar um com você.
 
-## Quick starts
+## Atalhos rápidos
 
-The composer surfaces one-click quick starts for common jobs, including:
+O campo de composição traz atalhos de um clique para as tarefas mais comuns, entre eles:
 
-- [Run an AEO audit](../features/aeo-audits.md)
-- [Create a research-backed content brief](../features/content-briefs.md)
-- [Create research-backed FAQs](../features/faq-generator.md)
-- [Generate optimized key points](../features/key-points.md)
-- [Create a blog post draft](../features/blog-post-draft.md)
-- [Create a glossary post](../features/glossary-post.md)
-- [Create landing page content](../features/landing-page-content.md)
-- [Create product page content](../features/product-page-content.md)
-- [Capture Google AI Mode grounding queries for a prompt](../features/grounding-queries.md)
-- [Capture ChatGPT fan-out queries for a prompt](../features/fan-out-queries.md)
-- [Turn text content into audio](../audio/overview.md)
+- [Rodar uma auditoria de AEO](../features/aeo-audits.md)
+- [Criar um briefing de conteúdo com base em pesquisa](../features/content-briefs.md)
+- [Criar FAQ com base em pesquisa](../features/faq-generator.md)
+- [Gerar pontos principais otimizados](../features/key-points.md)
+- [Criar um rascunho de post de blog](../features/blog-post-draft.md)
+- [Criar um post de glossário](../features/glossary-post.md)
+- [Criar conteúdo de landing page](../features/landing-page-content.md)
+- [Criar conteúdo de página de produto](../features/product-page-content.md)
+- [Capturar consultas de grounding do Google AI Mode para um prompt](../features/grounding-queries.md)
+- [Capturar consultas fan-out do ChatGPT para um prompt](../features/fan-out-queries.md)
+- [Transformar conteúdo em texto para áudio](../audio/overview.md)
 
-The same set is available from the **[Tools menu](../tools/overview.md)** in the top bar, grouped by job and searchable.
+O mesmo conjunto está no **[menu Ferramentas](../tools/overview.md)** da barra superior, agrupado por tarefa e com busca.
 
-The grounding queries and fan-out queries quick starts show you the searches a web-grounded AI engine ran while answering a prompt, plus the sources it cited. Both work by making a managed Gemini or OpenAI call and reading back the searches that call performed, so they are a close proxy for what AI Mode and ChatGPT Search do rather than a capture of those products themselves. Because that call runs on our infrastructure, both require a **paid managed workspace**, and that holds even on BYOK plans, since the query-capture step uses Hi, Moose managed infrastructure rather than your local key.
+Os atalhos de consultas de grounding e de consultas fan-out mostram as buscas que um mecanismo de IA conectado à web executou ao responder um prompt, junto com as fontes citadas. Os dois funcionam fazendo uma chamada gerenciada ao Gemini ou à OpenAI e lendo depois as buscas que aquela chamada realizou, então são uma aproximação próxima do que o AI Mode e o ChatGPT Search fazem, e não um registro desses produtos. Como essa chamada roda na nossa infraestrutura, ambos exigem um **espaço de trabalho gerenciado pago**, e isso vale também nos planos BYOK, já que a etapa de captura usa a infraestrutura gerenciada do Hi, Moose e não a sua chave local.
 
-The audio quick start opens the [Audio](../audio/overview.md) screen in the desktop app. It used to bridge to the legacy web app; it doesn't any more.
+O atalho de áudio abre a tela [Áudio](../audio/overview.md) no aplicativo para desktop. Antes ele levava ao aplicativo web antigo; não leva mais.

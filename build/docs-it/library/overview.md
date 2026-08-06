@@ -16,13 +16,13 @@ Nella Library viene salvato ogni artefatto duraturo che Hi, Moose genera per un 
 
 Ogni voce della Library mostra il proprio tipo:
 
-- **Content Brief**
-- **Draft**
-- **Key Points**
-- **FAQs**
-- **AEO Audit**
+- **Brief dei contenuti**
+- **Bozza**
+- **Punti chiave**
+- **FAQ**
+- **Audit AEO**
 
-Ogni voce mostra il nome e la data di salvataggio e si ritrova con il campo di ricerca oppure ordinando l'elenco (**Recent activity** o **Name**).
+Ogni voce mostra il nome e la data di salvataggio e si ritrova con il campo di ricerca oppure ordinando l'elenco (**Attività recente** o **Nome**).
 
 Le voci si caricano dalla più recente alla più vecchia, 50 alla volta, così una libreria voluminosa resta reattiva invece di tentare di mostrare tutto in una volta.
 
@@ -32,7 +32,7 @@ Passi da una griglia di schede a un elenco compatto a seconda di come preferisce
 
 ## Aprire una voce
 
-- Gli **AEO Audits** si aprono in sola lettura (**Open**): un audit è una fotografia di un momento preciso, non qualcosa che si modifica dopo.
+- Gli **AEO Audits** si aprono in sola lettura (**Apri**): un audit è una fotografia di un momento preciso, non qualcosa che si modifica dopo.
 - **Content Briefs, Drafts, Key Points e FAQs** si aprono in un editor (**Edit**): può rivedere il contenuto direttamente e, per le FAQ, scegliere se il markup schema debba aggiornarsi automaticamente in base alle sue modifiche.
 
 ## Esportare
@@ -53,11 +53,11 @@ Nei piani a pagamento con postazioni del team, le voci della Library sono condiv
 
 ## Rimuovere una voce
 
-**Remove** elimina in modo permanente l'artefatto salvato dalla sua libreria. Hi, Moose le chiede conferma prima, perché l'operazione non è reversibile.
+**Rimuovi** elimina in modo permanente l'artefatto salvato dalla sua libreria. Hi, Moose le chiede conferma prima, perché l'operazione non è reversibile.
 
 ## Sincronizzazione in cloud
 
-Le voci della Library riportano un'etichetta individuale **Synced** o **Local only**, così vede a colpo d'occhio quali artefatti esistono in più di un luogo.
+Le voci della Library riportano un'etichetta individuale **Sincronizzato** o **Solo locale**, così vede a colpo d'occhio quali artefatti esistono in più di un luogo.
 
 La sincronizzazione in cloud conserva i suoi brief, le sue bozze e gli altri artefatti perché restino raggiungibili da più dispositivi e sopravvivano a qualsiasi cosa accada a questa macchina. È disponibile in **tutti i piani a pagamento**, compresi i piani BYOK a pagamento: un team con BYOK Premium ha una libreria condivisa, non una bloccata sulla macchina che ha prodotto ciascun artefatto.
 

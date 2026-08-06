@@ -10,7 +10,7 @@ source_hash: 807f4fd0f8157bf27491590b13dd7b2b18f5cb12dd648c025f2c46cabf3ea0ed
 
 Hi, Moose führt KI-Arbeit auf zwei Arten aus: mit Ihrem eigenen OpenRouter-Schlüssel (BYOK) oder mit den verwalteten Modellen von Hi, Moose. Diese Entscheidung, nicht der Preis, ist die eigentliche Weggabelung. Alles Weitere sind Projektanzahl, Sitzplätze und die Höhe des monatlichen Guthabens.
 
-Die Tarife sind im Bildschirm **Upgrade** in zwei Reitern gruppiert: **Startup** und **Enterprise & Agencies**.
+Die Tarife sind im Bildschirm **Upgrade** in zwei Reitern gruppiert: **Startup** und **Enterprise & Agenturen**.
 
 ## Die zwei Wege, KI auszuführen
 
@@ -111,7 +111,7 @@ BYOK Premium im Agenturmaßstab. Dasselbe lokale Prinzip und derselbe Funktionsu
 
 ## Sitzplätze, Projekte und Guthaben
 
-**Zusätzliche Projekte** kosten in jedem kostenpflichtigen Tarif 10 USD pro Monat und Projekt. Sie fügen sie unter **Upgrade → Extra projects** hinzu oder entfernen sie dort.
+**Zusätzliche Projekte** kosten in jedem kostenpflichtigen Tarif 10 USD pro Monat und Projekt. Sie fügen sie unter **Upgrade → Zusätzliche Projekte** hinzu oder entfernen sie dort.
 
 **Sitzplätze** sind die eigentliche Grenze zwischen kostenlos und kostenpflichtig. Preview Mode und BYOK Free sind auf die Kontoinhaberin oder den Kontoinhaber beschränkt. BYOK Premium erlaubt bis zu 10, BYOK Agency bis zu 25, und die verwalteten Tarife sind unbegrenzt, weil alle Mitglieder aus dem Guthaben der Inhaberin oder des Inhabers schöpfen.
 

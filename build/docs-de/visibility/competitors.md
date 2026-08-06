@@ -12,7 +12,7 @@ source_hash: 0f6961f608efb6e85e60c4cf390ea485c24faceeebdccfdedc53c19dadca3f23
 
 Die Frage beantworten, die Ihre eigenen Zahlen nicht beantworten können: Wenn ein KI-Assistent etwas aus Ihrer Kategorie empfiehlt, wie oft sind das Sie, und wer wird stattdessen gewählt?
 
-Sie finden das unter **Visibility → Competition**.
+Sie finden das unter **Visibility → Wettbewerb**.
 
 ## Wettbewerber einrichten
 
@@ -33,19 +33,19 @@ Der Reiter Competition führt mit Ihrem Rang („You are 3rd"), und die Ranglist
 
     Der **Share of Voice** ist Ihr Anteil an den gesamten Markenerwähnungen. Er ist relativ: Ein Wettbewerber kann ihn drücken, ohne dass sich bei Ihnen etwas ändert.
 
-    Die **Mention Rate** (im Reiter Overview) ist der Anteil der überwachten Prompts, in denen Ihre Marke überhaupt erwähnt wurde. Sie ist absolut und blendet Wettbewerber vollständig aus.
+    Die **Erwähnungsrate** (im Reiter Overview) ist der Anteil der überwachten Prompts, in denen Ihre Marke überhaupt erwähnt wurde. Sie ist absolut und blendet Wettbewerber vollständig aus.
 
     Ihre Mention Rate kann steigen, während Ihr Share of Voice fällt, wenn Wettbewerber schneller zugelegt haben als Sie. Beide lohnen die Beobachtung, aus jeweils eigenen Gründen.
 
 ## Verlauf des Share of Voice
 
-Das Verlaufsdiagramm stellt den **Share of Voice** oder die **Mention Rate** über die Zeit dar, damit Sie erkennen, ob eine Veränderung darauf beruht, dass Sie zugelegt haben, dass ein Wettbewerber zugelegt hat oder dass die gesamte Kategorie lauter geworden ist.
+Das Verlaufsdiagramm stellt den **Share of Voice** oder die **Erwähnungsrate** über die Zeit dar, damit Sie erkennen, ob eine Veränderung darauf beruht, dass Sie zugelegt haben, dass ein Wettbewerber zugelegt hat oder dass die gesamte Kategorie lauter geworden ist.
 
 ## Top Competitor Citations
 
 Welche Seiten der Konkurrenz KI-Maschinen tatsächlich als Quelle zitieren. Das ist das unmittelbar handlungsrelevanteste Panel des Reiters: Es sind genau die URLs, die die von Ihnen gewünschten Zitierungen gewinnen, und sie zeigen, was die Antwortmaschinen derzeit als beste Quelle zu diesen Fragen ansehen.
 
-Vergleichen Sie es mit **Top Cited Pages** im Reiter Overview, das dasselbe für Ihre eigene Domain zeigt.
+Vergleichen Sie es mit **Meistzitierte Seiten** im Reiter Overview, das dasselbe für Ihre eigene Domain zeigt.
 
 ## Competitor Gaps
 
@@ -53,8 +53,8 @@ Fragen, bei denen ein Wettbewerber in einer KI-Antwort auftauchte und Ihre Marke
 
 Jede Lücke nennt die aufgetauchten Wettbewerber und die Maschinen, in denen sie beobachtet wurde, mit einer Kennzeichnung:
 
-- **No visibility**: Ihre Marke taucht zu dieser Frage in keiner Maschine auf.
-- **Partial**: Ihre Marke taucht zu dieser Frage durchaus auf, nur nicht in allen Maschinen. Die Zeile nennt, in welchen Sie erscheinen.
+- **Keine Sichtbarkeit**: Ihre Marke taucht zu dieser Frage in keiner Maschine auf.
+- **Teilweise**: Ihre Marke taucht zu dieser Frage durchaus auf, nur nicht in allen Maschinen. Die Zeile nennt, in welchen Sie erscheinen.
 
 Teilweise abgedeckte Zeilen erfordern häufig gar keine Maßnahme. Eine Frage, bei der Sie in vier von fünf Maschinen auftauchen, ist nicht dasselbe Problem wie eine, bei der Sie nirgends auftauchen, und die Kennzeichnung ist dafür da, dass Sie beides auf einen Blick unterscheiden können.
 

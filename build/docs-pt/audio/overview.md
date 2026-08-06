@@ -1,90 +1,95 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 3de48b1823942dd1ca44b6be6cf581f170fdffe9e0e850d467f3322e9e89f1a8
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Audio
+    [Ler em inglês](https://himoose.com/docs/audio/overview/)
 
-## What this helps you do
+# Áudio
 
-Turn an article into a two-voice conversation, then download the MP3 or embed the player on your site. The player ships with a transcript, which puts real, crawlable first-hand text on the page — content an answer engine can retrieve.
+## Para que serve
 
-Audio lives in the desktop app under **Audio** in the sidebar, split into three tabs: **Generate**, **History**, and **Analytics**.
+Transformar um artigo numa conversa de duas vozes e depois baixar o MP3 ou incorporar o player no seu site. O player vem com uma transcrição, o que coloca na página texto real, próprio e rastreável: conteúdo que um mecanismo de resposta consegue recuperar.
 
-!!! note "Audio moved out of the legacy web app"
-    Audio generation used to live at `app.himoose.com` as "Listen to this Article." It's now fully part of the desktop app, with project scoping, listening analytics, and player customization that the web version didn't have.
+O Áudio fica no aplicativo para desktop, em **Áudio** na barra lateral, dividido em três abas: **Gerar**, **Histórico** e **Análises**.
 
-## Before you start
+!!! note "O Áudio saiu do aplicativo web antigo"
+    A geração de áudio ficava em `app.himoose.com` com o nome «Listen to this Article». Agora ela faz parte do aplicativo para desktop, com delimitação por projeto, análises de audiência e personalização do player que a versão web não tinha.
 
-Set the project's website first. Playback is locked to your project domain plus `himoose.com`, so Hi, Moose needs to know the domain before it will generate anything. If it isn't set, the Generate tab shows a **Set website** prompt instead of the composer.
+## Antes de começar
 
-Audio availability depends on your [plan](../getting-started/account-modes.md): BYOK Premium and BYOK Agency include 15 generations per month, managed plans are unlimited, and the free plans don't include audio.
+Defina primeiro o site do projeto. A reprodução fica restrita ao domínio do seu projeto e a `himoose.com`, então o Hi, Moose precisa conhecer o domínio antes de gerar qualquer coisa. Se não estiver definido, a aba Gerar mostra o aviso **Definir site** no lugar do editor.
 
-## Choosing a source
+A disponibilidade do áudio depende do seu [plano](../getting-started/account-modes.md): BYOK Premium e BYOK Agency incluem 15 gerações por mês, os planos gerenciados são ilimitados e os planos gratuitos não incluem áudio.
 
-Three ways to get content in:
+## Escolher uma fonte
 
-- **Article URL** — paste a published URL and click **Fetch**. Hi, Moose extracts the content and shows the domain, word count, and estimated read time. The article has to be publicly reachable, not behind a login or paywall.
-- **Paste text** — give the episode a title and paste the script or article text directly.
-- **Upload file** — drop in a `.txt`, `.md`, `.docx`, `.doc`, or `.pdf`. The file is read on your device and its text drops into the paste flow.
+Três formas de trazer conteúdo:
 
-## Shaping the conversation
+- **URL do artigo**: cole uma URL publicada e clique em **Buscar**. O Hi, Moose extrai o conteúdo e mostra o domínio, a contagem de palavras e o tempo estimado de leitura. O artigo precisa estar acessível publicamente, não atrás de login ou paywall.
+- **Colar texto**: dê um título ao episódio e cole direto o roteiro ou o texto do artigo.
+- **Enviar arquivo**: solte um `.txt`, `.md`, `.docx`, `.doc` ou `.pdf`. O arquivo é lido no seu dispositivo e o texto dele entra no fluxo de colagem.
 
-**Focus** (optional) steers what the conversation digs into. There are quick suggestions for common angles: key takeaways, explain it to a beginner, push back on the argument, who should care.
+## Moldar a conversa
 
-**Length** sets the target runtime:
+**Foco** (opcional) direciona o que a conversa deve aprofundar. Há sugestões rápidas para os ângulos mais comuns: principais conclusões, explicar para quem está começando, questionar o argumento, para quem isso importa.
 
-| Length | Runtime | Approximate script |
+**Duração** define o tempo pretendido:
+
+| Duração | Tempo | Roteiro aproximado |
 |---|---|---|
-| Short | 4–5 min | ~700 words |
-| Standard | 8–10 min | ~1,400 words |
-| Deep dive | 15–18 min | ~2,600 words |
+| Short | 4-5 min | ~700 palavras |
+| Standard | 8-10 min | ~1.400 palavras |
+| Deep dive | 15-18 min | ~2.600 palavras |
 
-**Language** defaults to matching the article. Override it to change both the script and the voices.
+**Idioma** segue por padrão o idioma do artigo. Altere para mudar tanto o roteiro quanto as vozes.
 
-**Voices** come as host and guest pairings, with three presets — warm + curious, calm + analytical, bright + skeptical — or a custom pairing you pick yourself.
+**Vozes** vêm como duplas de apresentador e convidado, com três combinações prontas (calorosa e curiosa, calma e analítica, animada e cética) ou uma dupla personalizada escolhida por você.
 
-## Advanced direction
+## Direção avançada
 
-Optional, and everything left blank follows the article and the voice pairing. Seven fields are available: host direction, guest direction, scene, style, pace, accent, and extra context.
+Opcional, e tudo o que ficar em branco segue o artigo e a dupla de vozes. São sete campos: direção do apresentador, direção do convidado, cenário, estilo, ritmo, sotaque e contexto adicional.
 
-- **Scene**: studio interview, fireside chat, panel discussion, phone-in, walk-and-talk
-- **Style**: explanatory, debate, storytelling, interview, casual
-- **Pace**: slower, natural, faster
-- **Accent**: American (neutral), British, Australian, Irish, Indian, or neutral international
+- **Cenário**: entrevista de estúdio, conversa informal, mesa-redonda, ligação de ouvinte, conversa em movimento
+- **Estilo**: explicativo, debate, narrativo, entrevista, descontraído
+- **Ritmo**: mais lento, natural, mais rápido
+- **Sotaque**: americano (neutro), britânico, australiano, irlandês, indiano ou internacional neutro
 
-Any of these can be replaced with a custom description in your own words.
+Qualquer um desses campos pode ser substituído por uma descrição sua.
 
-**Extra context** is for what the article doesn't say — how to pronounce a product name, claims to avoid, who the audience is.
+**Contexto adicional** serve para o que o artigo não diz: como pronunciar o nome de um produto, quais afirmações evitar, quem é o público.
 
-!!! warning "Context steers tone, not facts"
-    Hi, Moose won't invent facts to fill a direction. Extra context changes framing and delivery; it doesn't add evidence that isn't in the source.
+!!! warning "O contexto orienta o tom, não os fatos"
+    O Hi, Moose não inventa fatos para atender a uma direção. O contexto adicional muda o enquadramento e a entrega; não acrescenta evidências que não estão na fonte.
 
-Once you've got settings you like, **Save as project default** reuses them for the next episode in this project.
+Quando chegar a ajustes que agradem, **Salvar como padrão do projeto** reaproveita tudo no próximo episódio deste projeto.
 
-## Generating
+## Gerar
 
-Click **Generate audio**. The composer shows an estimated render time before you start. Generation runs in the background, so you can leave the screen and keep working — the finished episode appears in the sidebar **Recents** list, and clicking it opens that episode directly.
+Clique em **Gerar áudio**. O editor mostra um tempo estimado de renderização antes de começar. A geração roda em segundo plano, então você pode sair da tela e continuar trabalhando: o episódio pronto aparece na lista **Recentes** da barra lateral, e um clique abre aquele episódio direto.
 
-When it's done you get:
+Ao terminar, você tem:
 
-- A player with seek, 15-second skip back and forward, and playback speed
-- **Download MP3**
-- **Share** to copy the audio link
-- The full **transcript**, with turn and word counts, and a copy button
-- **Embed on your site**, covered in [Player & Embed](player-and-embed.md)
-- **Regenerate with edits** and **Edit settings**, to adjust direction and run it again
+- Um player com busca, saltos de 15 segundos para trás e para frente e velocidade de reprodução
+- **Baixar MP3**
+- **Compartilhar** para copiar o link do áudio
+- A **transcrição** completa, com contagem de turnos e de palavras, e um botão de copiar
+- **Incorporar no seu site**, descrito em [Player e incorporação](player-and-embed.md)
+- **Gerar de novo com edições** e **Editar configurações**, para ajustar a direção e rodar outra vez
 
-## History
+## Histórico
 
-The **History** tab lists every episode in the current project with its length, creation date, and status. Episodes are scoped per project, so switching projects changes what you see.
+A aba **Histórico** lista todos os episódios do projeto atual com duração, data de criação e status. Os episódios são delimitados por projeto, então trocar de projeto muda o que você vê.
 
-- Search episodes by name
-- Filter by **All**, **Ready**, or **Needs attention**
-- Play, download, open the embed options, or open the full episode
-- **Retry** a failed episode
+- Busque episódios por nome
+- Filtre por **Todos**, **Pronto** ou **Requer atenção**
+- Reproduza, baixe, abra as opções de incorporação ou abra o episódio completo
+- **Tente novamente** um episódio que falhou
 
-Statuses are Ready, Processing, Playing, Failed, and Canceled.
+Os status são Pronto, Processando, Reproduzindo, Falhou e Cancelado.
 
-## Where to go from here
+## Para onde ir a partir daqui
 
-- **[Player & Embed](player-and-embed.md)** — theme, layout, accent color, and the embed code.
-- **[Listening Analytics](analytics.md)** — what happens after the player is on a page.
+- **[Player e incorporação](player-and-embed.md)**: tema, layout, cor de destaque e código de incorporação.
+- **[Análises de audiência](analytics.md)**: o que acontece depois que o player está numa página.

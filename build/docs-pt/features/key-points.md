@@ -1,32 +1,37 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 8b57e0721844d9abea5dec327d239ae4880ee2cdfac6de4ba644f4300e24a272
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Key Points Extractor
+    [Ler em inglês](https://himoose.com/docs/features/key-points/)
 
-## What this helps you do
+# Extrator de Pontos principais
 
-Extract the most important ideas from long-form content into a short, scannable set of key points (a TL;DR) that you can place at the top of the piece — giving busy readers instant value and giving answer engines an easy summary to extract.
+## Para que serve
 
-Key points generation uses semantic compression rather than a plain summarizer: Hi, Moose identifies what's actually important in the content, not just what's repeated most often, and produces a concise set of points that capture the core meaning.
+Extrair as ideias mais importantes de um conteúdo longo num conjunto curto e fácil de percorrer de pontos principais (um TL;DR) que você pode colocar no topo do texto, dando valor imediato a quem lê com pressa e oferecendo aos mecanismos de resposta um resumo fácil de extrair.
 
-## Providing a source
+A geração de pontos principais usa compressão semântica em vez de um resumo simples: o Hi, Moose identifica o que de fato importa no conteúdo, e não apenas o que é mais repetido, e produz um conjunto conciso de pontos que capturam o sentido central.
 
-From [Chat](../chat/overview.md), choose the **Generate optimized Key Points** quick start (or ask for it directly), then give Hi, Moose something to work from:
+## Fornecer uma fonte
 
-- A source URL, or
-- An attached file, or
-- Pasted content
+No [Chat](../chat/overview.md), escolha o atalho **Gerar pontos principais otimizados** (ou peça direto) e depois dê ao Hi, Moose algo com que trabalhar:
 
-## What you get
+- Uma URL de origem,
+- Um arquivo anexado, ou
+- Conteúdo colado
 
-A titled set of compressed points under the source you provided, ready to reuse anywhere.
+## O que você recebe
 
-## Working with the result
+Um conjunto intitulado de pontos comprimidos sob a fonte que você forneceu, pronto para reaproveitar onde quiser.
 
-- **Save** — add the key points to your [Library](../library/overview.md).
-- **Edit** — opens an editor with the source and the key points as editable markdown, with **Save** or **Save and add to page** to both save and stage the change in one step.
-- **Add Key Points to the page** — if your project has a connected CMS and the source URL matches a page there, stage the key points directly onto that page as an edit for review — see [Drafts, Preview & Publishing](drafts-and-publishing.md).
+## Trabalhar com o resultado
 
-## When to skip external research
+- **Salvar**: adiciona os pontos principais à sua [Biblioteca de artefatos](../library/overview.md).
+- **Editar**: abre um editor com a fonte e os pontos principais em markdown editável, com **Salvar** ou **Salvar e adicionar à página** para salvar e preparar a alteração num passo só.
+- **Adicionar pontos principais à página**: se o seu projeto tiver um CMS conectado e a URL de origem corresponder a uma página lá, prepara os pontos principais direto naquela página como alteração para revisão. Veja [Rascunhos, prévia e publicação](drafts-and-publishing.md).
 
-Key points generation works directly from your existing content and doesn't need the [search landscape](content-briefs.md) evidence bundle by default. Only bring in outside research if you specifically want competitive or search-grounded framing — for straightforward compression of your own content, it's unnecessary overhead.
+## Quando dispensar pesquisa externa
+
+A geração de pontos principais trabalha direto com o seu conteúdo existente e não precisa por padrão do pacote de evidências do [panorama de busca](content-briefs.md). Só traga pesquisa externa se quiser especificamente um enquadramento competitivo ou baseado em buscas: para simplesmente comprimir o seu próprio conteúdo, é peso desnecessário.

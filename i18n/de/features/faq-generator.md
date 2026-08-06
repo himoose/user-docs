@@ -9,7 +9,7 @@ FAQ-Abschnitte erzeugen, die auf den tatsächlichen Inhalten Ihrer Seite beruhen
 
 ## Eine Quelle bereitstellen
 
-Wählen Sie im [Chat](../chat/overview.md) den Schnellstart **Create research-backed FAQs** (oder bitten Sie direkt darum) und geben Sie Hi, Moose dann etwas an die Hand:
+Wählen Sie im [Chat](../chat/overview.md) den Schnellstart **Recherchegestützte FAQs erstellen** (oder bitten Sie direkt darum) und geben Sie Hi, Moose dann etwas an die Hand:
 
 - Eine Quell-URL,
 - Eine angehängte Datei, oder
@@ -35,11 +35,11 @@ Im **Preview Mode** und in den **BYOK**-Tarifen (Free und Premium) läuft die FA
 
 ## Mit dem Ergebnis arbeiten
 
-- **Save**: fügt den FAQ-Satz Ihrer [Library](../library/overview.md) hinzu.
-- **Edit**: Fragen und Antworten direkt überarbeiten.
-- **Export**: den FAQ-Satz herunterladen.
-- **Copy HTML**: das gerenderte FAQ-Markup kopieren.
-- **Copy schema**: das FAQPage-Schema-Markup gesondert kopieren.
+- **Speichern**: fügt den FAQ-Satz Ihrer [Library](../library/overview.md) hinzu.
+- **Bearbeiten**: Fragen und Antworten direkt überarbeiten.
+- **Exportieren**: den FAQ-Satz herunterladen.
+- **HTML kopieren**: das gerenderte FAQ-Markup kopieren.
+- **Schema kopieren**: das FAQPage-Schema-Markup gesondert kopieren.
 - Verfügt Ihr Projekt über ein verbundenes CMS, können Sie die FAQ auch direkt als vorbereitete Änderung auf eine Seite setzen. Siehe [Entwürfe, Vorschau und Veröffentlichung](drafts-and-publishing.md).
 
 ## Wo das hingehört

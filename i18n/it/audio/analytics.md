@@ -5,13 +5,13 @@ source_hash: 8e5f176360171f83e694a39fb79a4acc54f788a8c083d72307d849f2b1f0fdf6
 
 ## A cosa serve
 
-Mostrare come si comportano davvero i suoi player incorporati una volta collocati su una pagina: se le persone li avviano, se arrivano alla fine e se aprono la trascrizione. Le trova in **Audio → Analytics**.
+Mostrare come si comportano davvero i suoi player incorporati una volta collocati su una pagina: se le persone li avviano, se arrivano alla fine e se aprono la trascrizione. Le trova in **Audio → Analisi**.
 
 Le statistiche compaiono solo dopo che ha incorporato un player da qualche parte e qualcuno ha iniziato ad ascoltare. Prima di allora la scheda mostra uno stato vuoto anziché degli zeri.
 
 ## Filtri
 
-Filtri per episodio con il selettore degli episodi, oppure lasci **All audio** per i totali dell'intero account. Gli intervalli di tempo cambiano la finestra del grafico delle riproduzioni.
+Filtri per episodio con il selettore degli episodi, oppure lasci **Tutti gli audio** per i totali dell'intero account. Gli intervalli di tempo cambiano la finestra del grafico delle riproduzioni.
 
 !!! note "L'intervallo riguarda il grafico, non i totali"
     Il grafico segue l'intervallo che sceglie. I totali di Overview e dell'imbuto restano valori complessivi fino al successivo aggiornamento del server.

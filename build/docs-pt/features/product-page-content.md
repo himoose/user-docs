@@ -1,22 +1,27 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: f8772689cac35fb3db3b2391391de3ea27e63ee267597800996e792b83b1baf1
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Product Page Content
+    [Ler em inglês](https://himoose.com/docs/features/product-page-content/)
 
-## What this helps you do
+# Conteúdo de página de produto
 
-Generate product feature page copy from a [content brief](content-briefs.md) — the **Product Feature page** template type (labeled **Product page content** as a quick start in Chat).
+## Para que serve
 
-From [Chat](../chat/overview.md), the **Create product page content** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Gerar, a partir de um [briefing de conteúdo](content-briefs.md), texto para uma página de recurso de produto: o tipo de modelo **Página de recurso do produto** (identificado como **Product page content** nos atalhos do Chat).
 
-## Structure
+No [Chat](../chat/overview.md), o atalho **Criar conteúdo de página de produto** conduz você a confirmar uma consulta-alvo e um tipo de modelo antes de gerar juntos o briefing e o primeiro rascunho.
 
-Product page content follows a product feature page structure, not a catalog, landing, or blog structure:
+## Estrutura
 
-- Centers the draft on what the feature is, who it's for, how it works, and the concrete benefits or workflows it unlocks.
-- Includes implementation detail, proof, FAQs, and product-specific calls to action when the brief calls for them.
-- Keeps feature-detail sections from being displaced by broad industry education or top-of-funnel explanation.
+O conteúdo de página de produto segue a estrutura de uma página de recurso, não a de um catálogo, de uma landing page ou de um blog:
 
-## Where it fits
+- Centra o rascunho no que o recurso é, para quem serve, como funciona e quais benefícios ou fluxos de trabalho concretos ele viabiliza.
+- Inclui detalhes de implementação, provas, FAQ e chamadas para ação específicas do produto quando o briefing pede.
+- Impede que as seções de detalhe do recurso sejam substituídas por didática ampla do setor ou explicação de topo de funil.
 
-Like every draft, product page content depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+## Onde isso se encaixa
+
+Como todo rascunho, o conteúdo de página de produto se apoia no seu [briefing de conteúdo](content-briefs.md) em vez de ser gerado a partir de um prompt solto. Depois de gerado, ele segue o mesmo [caminho de Draft Studio, prévia, aprovação e publicação](drafts-and-publishing.md) de qualquer outro rascunho.

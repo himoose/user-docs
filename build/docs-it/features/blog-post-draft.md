@@ -10,9 +10,9 @@ source_hash: fd74e34b467a2aec2ad0abc74e8a74c6865ee781fe1c9eceff1c780dcc8517c7
 
 ## A cosa serve
 
-Generare da un [brief di contenuto](content-briefs.md) la bozza di un articolo del blog lungo e divulgativo: il tipo di modello **Blog post**.
+Generare da un [brief di contenuto](content-briefs.md) la bozza di un articolo del blog lungo e divulgativo: il tipo di modello **Articolo del blog**.
 
-Dalla [Chat](../chat/overview.md), l'avvio rapido **Create a blog post draft** la accompagna nel confermare una query obiettivo e un tipo di modello prima di generare insieme il brief e la prima bozza.
+Dalla [Chat](../chat/overview.md), l'avvio rapido **Crea una bozza di articolo del blog** la accompagna nel confermare una query obiettivo e un tipo di modello prima di generare insieme il brief e la prima bozza.
 
 ## Struttura
 
@@ -23,7 +23,7 @@ Una bozza di articolo del blog segue la struttura di un articolo divulgativo:
 - Si legge come contenuto editoriale lungo, non come una landing page, una pagina di soluzioni o una pagina prodotto.
 - Un invito all'azione adeguato verso la fine, ma solo quando il brief ne prevede uno.
 
-Subito dopo il titolo, la bozza include una breve sezione **Key Points**: cinque o sei punti compressi e ad alto valore, distillati dal brief e dalla tesi della bozza, prima del corpo principale, così chi legge (e i motori di risposta) coglie subito l'essenziale.
+Subito dopo il titolo, la bozza include una breve sezione **Punti chiave**: cinque o sei punti compressi e ad alto valore, distillati dal brief e dalla tesi della bozza, prima del corpo principale, così chi legge (e i motori di risposta) coglie subito l'essenziale.
 
 ## Dove si colloca
 

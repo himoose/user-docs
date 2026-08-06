@@ -1,50 +1,55 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 911f9de16e31d26b16256a2d2d7eb92c2a092404af37ad258c44e41c76fd53bd
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Brand Voice
+    [Ler em inglês](https://himoose.com/docs/getting-started/context/brand-voice/)
 
-## What this helps you do
+# Voz da marca
 
-Brand Voice is the reusable style guide Hi, Moose carries into every piece of generated content for this project — content briefs, drafts, FAQs, key points, and AEO audit recommendations — so output sounds like your brand instead of generic AI writing.
+## Para que serve
 
-Brand Voice is scoped to the current [project](../projects.md): switching projects switches which Brand Voice profile is active.
+A Voz da marca é o guia de estilo reutilizável que o Hi, Moose aplica a todo conteúdo gerado para este projeto (briefings de conteúdo, rascunhos, FAQ, pontos principais e recomendações das auditorias de AEO), para que o resultado soe como a sua marca e não como uma escrita genérica de IA.
 
-## Fields you can fill in
+A Voz da marca é delimitada ao [projeto](../projects.md) atual: trocar de projeto troca o perfil de Voz da marca ativo.
 
-Every field is optional. The more you fill in, the more precisely generated content will match your brand.
+## Campos que você pode preencher
 
-- **Brand name** — e.g. "Hi, Moose".
-- **Summary** — what agents and tools should understand about the brand at a glance.
-- **Audience** — who the brand is for, and how that audience should be described.
-- **Tone** — e.g. "calm, direct, expert, warm."
-- **Writing style** — e.g. "short paragraphs, evidence-led, operator tone."
-- **Brand values** — one value per line.
-- **Secondary brand terms** — alternate forms of your brand name, one per line.
-- **Secondary domains** — additional owned domains beyond your primary site, one per line.
-- **Preferred terminology** — terms you want used, one per line.
-- **Avoided terminology** — terms to avoid, one per line.
-- **Proof points** — claims, proof, and differentiators, one per line.
+Todos os campos são opcionais. Quanto mais você preencher, mais o conteúdo gerado vai corresponder à sua marca.
 
-List fields (brand values, terminology, proof points, and similar) take one item per line.
+- **Nome da marca**: por exemplo, «Hi, Moose».
+- **Resumo**: o que agentes e ferramentas devem entender sobre a marca num relance.
+- **Público**: para quem a marca existe e como esse público deve ser descrito.
+- **Tom**: por exemplo, «calmo, direto, especialista, acolhedor».
+- **Estilo de escrita**: por exemplo, «parágrafos curtos, baseado em evidências, tom operacional».
+- **Valores da marca**: um valor por linha.
+- **Termos secundários da marca**: variações do nome da sua marca, um por linha.
+- **Domínios secundários**: outros domínios seus além do site principal, um por linha.
+- **Terminologia preferida**: termos que você quer que sejam usados, um por linha.
+- **Terminologia a evitar**: termos a evitar, um por linha.
+- **Provas**: afirmações, comprovações e diferenciais, um por linha.
 
-## Auto-fill from your website
+Os campos de lista (valores da marca, terminologia, provas e semelhantes) aceitam um item por linha.
 
-Instead of filling in every field by hand, you can run **Auto fill**:
+## Preenchimento automático a partir do seu site
 
-1. Confirm the project's website domain (Hi, Moose will ask for it if it isn't set yet).
-2. Hi, Moose crawls the site locally in the desktop app.
-3. Any currently empty Brand Voice fields are filled in with suggested values pulled from the crawl.
+Em vez de preencher cada campo à mão, você pode acionar o **Preencher automaticamente**:
 
-Auto-fill only fills in fields that are empty — it won't overwrite anything you've already written. If the crawl doesn't turn up anything useful for a given field, that field is simply left as-is.
+1. Confirme o domínio do site do projeto (o Hi, Moose vai pedir se ele ainda não estiver definido).
+2. O Hi, Moose rastreia o site localmente, no aplicativo para desktop.
+3. Os campos da Voz da marca que estiverem vazios são preenchidos com valores sugeridos a partir do rastreamento.
 
-## Editing and saving
+O preenchimento automático só preenche campos vazios: não sobrescreve nada que você já tenha escrito. Se o rastreamento não encontrar nada útil para um campo, ele fica como está.
 
-Brand Voice changes are local to the project until you save them. If you navigate away with unsaved changes, Hi, Moose will ask whether you want to save before leaving, leave without saving, or stay and keep editing.
+## Editar e salvar
 
-## How this differs from Brand Truth Profile
+As alterações na Voz da marca ficam locais ao projeto até você salvar. Se sair da página com alterações não salvas, o Hi, Moose pergunta se você quer salvar antes de sair, sair sem salvar ou ficar e continuar editando.
 
-Brand Voice is about **style** — how your brand should sound. It is not the place for factual claims about what your company sells, who it competes with, or what AI systems get wrong about you. That's what the [Brand Truth Profile](brand-truth-profile.md) is for.
+## Como isso difere do Perfil de Verdade da Marca
 
-## Cloud sync
+A Voz da marca trata de **estilo**: como sua marca deve soar. Não é o lugar para afirmações factuais sobre o que sua empresa vende, com quem ela compete ou o que os sistemas de IA erram sobre você. Para isso existe o [Perfil de Verdade da Marca](brand-truth-profile.md).
 
-Brand Voice is stored locally for the current project by default. Syncing it to the cloud — so it's backed up and shared with your team — requires a paid plan. See [Context](overview.md#local-first-storage-and-cloud-sync) for details.
+## Sincronização na nuvem
+
+Por padrão, a Voz da marca fica salva localmente para o projeto atual. Sincronizá-la com a nuvem, para ter backup e compartilhar com a equipe, exige um plano pago. Veja [Contexto](overview.md) para os detalhes.

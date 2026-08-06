@@ -29,11 +29,11 @@ Comme ces preuves sont enregistrées comme un artefact à part entière, génér
 
 1. Saisissez votre **requête cible principale** : la requête ou le sujet sur lequel le brief doit se centrer, formulé comme le ferait une personne effectuant réellement une recherche.
 2. Choisissez un **type de modèle**. Chaque structure appelle des sections, des preuves et des appels à l'action différents : ce choix façonne donc à la fois le brief et le premier brouillon qui en découlera.
-    - **Blog post**
-    - **Glossary post**
+    - **Article de blog**
+    - **Article de glossaire**
     - **Landing page**
-    - **Solutions page**
-    - **Product Feature page**
+    - **Page solutions**
+    - **Page de fonctionnalité produit**
 3. Hi, Moose collecte le panorama de recherche, puis génère le brief : longueur recommandée, mots-clés secondaires hiérarchisés, questions « Autres questions posées » à traiter, analyse concurrentielle et plan structuré selon le modèle choisi.
 4. Relisez, modifiez et exportez le brief, ou passez directement à la génération d'un [brouillon](drafts-and-publishing.md) à partir de celui-ci.
 

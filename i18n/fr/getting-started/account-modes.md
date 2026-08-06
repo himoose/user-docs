@@ -5,7 +5,7 @@ source_hash: 807f4fd0f8157bf27491590b13dd7b2b18f5cb12dd648c025f2c46cabf3ea0ed
 
 Hi, Moose exécute le travail d'IA de deux façons : avec votre propre clé OpenRouter (BYOK) ou avec les modèles gérés de Hi, Moose. C'est ce choix, et non le prix, qui constitue la véritable ligne de partage. Tout le reste n'est qu'une question de nombre de projets, de sièges et de crédits mensuels.
 
-Les forfaits sont regroupés en deux onglets dans l'écran **Upgrade** : **Startup** et **Enterprise & Agencies**.
+Les forfaits sont regroupés en deux onglets dans l'écran **Upgrade** : **Startup** et **Entreprise et agences**.
 
 ## Les deux façons d'exécuter l'IA
 
@@ -106,7 +106,7 @@ BYOK Premium à l'échelle d'une agence. Le même fonctionnement local et le mê
 
 ## Sièges, projets et crédits
 
-Les **projets supplémentaires** coûtent 10 USD par mois chacun sur tous les forfaits payants. Ajoutez-les ou retirez-les depuis **Upgrade → Extra projects**.
+Les **projets supplémentaires** coûtent 10 USD par mois chacun sur tous les forfaits payants. Ajoutez-les ou retirez-les depuis **Upgrade → Projets supplémentaires**.
 
 Les **sièges** constituent la véritable frontière entre gratuit et payant. Preview Mode et BYOK Free sont limités au titulaire du compte. BYOK Premium autorise jusqu'à 10 sièges, BYOK Agency jusqu'à 25, et les forfaits gérés sont illimités, car tous les membres consomment le solde de crédits du titulaire.
 

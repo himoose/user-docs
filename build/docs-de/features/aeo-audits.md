@@ -18,12 +18,12 @@ Das ersetzt vereinzelte „AEO-Tipps" durch ein dauerhaftes, vergleichbares Arte
 
 Die Gesamtbewertung ist eine gewichtete Zusammensetzung aus acht Kategorien, jeweils von 0 bis 100 bewertet:
 
-1. **Freshness**: Signale für Aktualität und Pflege.
-2. **Structure**: Überschriften, Listen, Tabellen und Absätze, die eine Antwortmaschine auswerten kann.
+1. **Aktualität**: Signale für Aktualität und Pflege.
+2. **Struktur**: Überschriften, Listen, Tabellen und Absätze, die eine Antwortmaschine auswerten kann.
 3. **Semantic Clarity**: wie eng der Inhalt zu Ihrer Zielanfrage und deren Absicht passt.
-4. **Extractability**: wie leicht eine Antwortmaschine eine Definition, einen Fakt oder eine Kernaussage herausziehen kann.
+4. **Extrahierbarkeit**: wie leicht eine Antwortmaschine eine Definition, einen Fakt oder eine Kernaussage herausziehen kann.
 5. **Citation Potential**: Signale für Zuschreibung und Quellenarbeit, ermittelt aus den externen Referenzlinks der Seite.
-6. **Comprehensiveness**: Abdeckung der Unterthemen, die Menschen und Antwortmaschinen bei dieser Anfrage erwarten.
+6. **Vollständigkeit**: Abdeckung der Unterthemen, die Menschen und Antwortmaschinen bei dieser Anfrage erwarten.
 7. **Trust Signals**: Stimmigkeit, Konkretheit und Differenziertheit der Aussagen in der Art, wie die Seite Zuschreibung und Quellen darstellt. Diese Kategorie prüft Aussagen nicht gegen externe Quellen: Sie misst, wie gut belegt und wie konkret die eigenen Aussagen der Seite sind.
 8. **Answer Readiness**: eine direkte Antwort nahe am Seitenanfang, ein Gedanke pro Block, klare Verweissprache (kein vages „dies/es/sie") und einheitliche Benennung von Entitäten. Die Bewertung berücksichtigt die Sprache für Englisch, Deutsch, Spanisch, Französisch, Italienisch und Portugiesisch.
 
@@ -48,8 +48,8 @@ Neben der inhaltlichen Bewertung prüft jedes Audit, ob eine Antwortmaschine die
 
 Jedes Problem und jede Empfehlung ist danach gekennzeichnet, wie belastbar die zugrunde liegende Evidenz ist:
 
-- **Proven**: Abrufvoraussetzungen mit starker empirischer Grundlage (Crawler-Zugang, serverseitiges Rendern, funktionierende Links, Indexierung durch Suchmaschinen).
-- **Directional**: gestützt auf breit angelegte Beobachtungsforschung, aber ohne Garantie (Antwort zuerst platzieren, Aktualität, strukturelle Klarheit).
+- **Nachgewiesen**: Abrufvoraussetzungen mit starker empirischer Grundlage (Crawler-Zugang, serverseitiges Rendern, funktionierende Links, Indexierung durch Suchmaschinen).
+- **Richtungsweisend**: gestützt auf breit angelegte Beobachtungsforschung, aber ohne Garantie (Antwort zuerst platzieren, Aktualität, strukturelle Klarheit).
 - **Best-practice**: plausibel und günstig umzusetzen, aber ohne Nachweis, dass sie KI-Zitierungen bewegen (Statistiken, Zitate oder zusätzlicher Feinschliff bei den Quellen).
 
 Das Audit empfiehlt weder Schema-/JSON-LD-Markup noch `llms.txt`-Dateien noch Keyword-Stuffing als Mittel zur Verbesserung von KI-Zitierungen, da die aktuelle Forschung es nicht rechtfertigt, sie als Hebel für Zitierungen zu behandeln.

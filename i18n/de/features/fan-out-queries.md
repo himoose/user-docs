@@ -15,7 +15,7 @@ Diese Funktion erfasst die einzelnen „Fan-out"-Suchen, die der Websuche-Schrit
 
 ## Wie Sie sie ausführen
 
-1. Wählen Sie im [Chat](../chat/overview.md) den Schnellstart **Capture ChatGPT fan-out queries** (oder bitten Sie direkt darum).
+1. Wählen Sie im [Chat](../chat/overview.md) den Schnellstart **ChatGPT-Fan-out-Abfragen erfassen** (oder bitten Sie direkt darum).
 2. Geben Sie den Prompt ein, den Sie untersuchen möchten.
 3. Hi, Moose erfasst die Antwort von ChatGPT und liefert:
     - Die einzelnen Fan-out-Suchanfragen, die ChatGPT ausgeführt hat.

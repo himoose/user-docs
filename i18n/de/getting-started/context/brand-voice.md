@@ -29,7 +29,7 @@ Listenfelder (Markenwerte, Terminologie, Belege und ähnliche) nehmen einen Eint
 
 ## Automatisch aus Ihrer Website befüllen
 
-Statt jedes Feld von Hand auszufüllen, können Sie **Auto fill** ausführen:
+Statt jedes Feld von Hand auszufüllen, können Sie **Automatisch ausfüllen** ausführen:
 
 1. Bestätigen Sie die Domain der Projektwebsite (Hi, Moose fragt danach, falls sie noch nicht hinterlegt ist).
 2. Hi, Moose crawlt die Website lokal in der Desktop-App.

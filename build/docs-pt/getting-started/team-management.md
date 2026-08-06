@@ -1,36 +1,41 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 21465799effefb08275da79253db90882a1ee718439c406a2b1d22001e8053ce
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Team Management
+    [Ler em inglês](https://himoose.com/docs/getting-started/team-management/)
 
-## What this helps you do
+# Gerenciamento da equipe
 
-Invite collaborators to a shared Hi, Moose workspace, control who has access, and manage existing members.
+## Para que serve
 
-!!! note "Availability"
-    Team management is available on plans with more than one user seat. Preview Mode and BYOK Free are capped at the account owner alone and don't show this section. BYOK Premium allows up to 10 seats, BYOK Agency up to 25, and managed plans are uncapped — see [Account Types & Plans](account-modes.md).
+Convidar colaboradores para um espaço de trabalho compartilhado do Hi, Moose, controlar quem tem acesso e gerenciar os membros existentes.
 
-## Inviting a team member
+!!! note "Disponibilidade"
+    O gerenciamento da equipe está disponível nos planos com mais de um assento de usuário. O Preview Mode e o BYOK Free ficam limitados ao titular da conta e não mostram esta seção. O BYOK Premium permite até 10 assentos, o BYOK Agency até 25, e os planos gerenciados não têm limite. Veja [Tipos de conta e planos](account-modes.md).
 
-1. Open **Settings → Team**.
-2. Enter the new member's email address and send an invite.
-3. The invite appears under pending invitations until it's accepted.
-4. Invited members join as team members (not owners) and share the team's plan and projects once they accept.
+## Convidar um membro da equipe
 
-## Viewing your team
+1. Abra **Configurações → Equipe**.
+2. Informe o e-mail do novo membro e envie um convite.
+3. O convite aparece entre os pendentes até ser aceito.
+4. Os convidados entram como membros (não como titulares) e passam a compartilhar o plano e os projetos da equipe depois de aceitar.
 
-The team list shows each member's email, role (owner or member), and access status, so you can see at a glance who has access to your projects.
+## Ver sua equipe
 
-## Removing a member
+A lista da equipe mostra o e-mail de cada membro, a função (titular ou membro) e o status de acesso, então você vê num relance quem tem acesso aos seus projetos.
 
-Removing a member immediately revokes their access. Content they created (briefs, drafts, publish history) stays with the team — nothing is deleted when someone is removed.
+## Remover um membro
 
-## Roles
+Remover um membro revoga o acesso dele imediatamente. O conteúdo que ele criou (briefings, rascunhos, histórico de publicação) permanece com a equipe: nada é excluído quando alguém é removido.
 
-- **Owner** — manages billing, invites and removes members, and has full access to all projects.
-- **Member** — uses all workspace features but can't manage billing or team membership.
+## Funções
 
-## Notes
+- **Titular**: gerencia a cobrança, convida e remove membros e tem acesso completo a todos os projetos.
+- **Membro**: usa todos os recursos do espaço de trabalho, mas não pode gerenciar a cobrança nem a composição da equipe.
 
-- Only the account owner can invite, remove, or manage team members.
-- Team members share the owner's plan and its usage limits.
+## Observações
+
+- Só o titular da conta pode convidar, remover ou gerenciar membros da equipe.
+- Os membros da equipe compartilham o plano do titular e seus limites de uso.

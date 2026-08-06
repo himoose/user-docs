@@ -9,16 +9,16 @@ Nelle Impostazioni gestisce il suo profilo, il suo piano, i suoi modelli, il suo
 
 | Sezione | Contenuto |
 |---|---|
-| General | Dati del profilo e comportamento dell'app su questo computer |
-| Usage | Saldo di crediti e data di rinnovo |
+| Generali | Dati del profilo e comportamento dell'app su questo computer |
+| Utilizzo | Saldo di crediti e data di rinnovo |
 | Account | E-mail, password, piano, chiave OpenRouter |
-| Local Model | Download e attivazione del modello sul dispositivo |
+| IA locale | Download e attivazione del modello sul dispositivo |
 | Team | Postazioni, inviti, ruoli |
-| [Site Monitoring](../site-monitoring/overview.md) | Pianificazione della scansione, indice di ricerca, pagine monitorate, percorsi bloccati |
-| [Branding](../agency/white-label.md) | Report white label e attribuzione audio (solo piani a pagamento) |
-| Logs | Registri delle azioni ed esportazione CSV |
-| Data & Backup | Backup e ripristino locali |
-| Troubleshooting | Cache, registro diagnostico, ripristino dei dati locali |
+| [Monitoraggio del sito](../site-monitoring/overview.md) | Pianificazione della scansione, indice di ricerca, pagine monitorate, percorsi bloccati |
+| [Brand](../agency/white-label.md) | Report white label e attribuzione audio (solo piani a pagamento) |
+| Registri | Registri delle azioni ed esportazione CSV |
+| Dati e backup | Backup e ripristino locali |
+| Risoluzione dei problemi | Cache, registro diagnostico, ripristino dei dati locali |
 
 ## General
 
@@ -69,9 +69,9 @@ Inviti membri, ne consulti i ruoli e revochi gli accessi. I limiti di postazioni
 
 ## Site Monitoring
 
-Pianificazione della scansione, indice di ricerca locale, pagine monitorate e percorsi bloccati. È un'area ampia e ha una pagina dedicata: **[Site Monitoring](../site-monitoring/overview.md)**.
+Pianificazione della scansione, indice di ricerca locale, pagine monitorate e percorsi bloccati. È un'area ampia e ha una pagina dedicata: **[Monitoraggio del sito](../site-monitoring/overview.md)**.
 
-Le connessioni a CMS e fonti dati sono un'altra cosa e si trovano nella schermata **Connections**, non nelle Impostazioni:
+Le connessioni a CMS e fonti dati sono un'altra cosa e si trovano nella schermata **Connessioni**, non nelle Impostazioni:
 
 - [WordPress](../integrations/wordpress.md)
 - [Webflow](../integrations/webflow.md)
@@ -86,7 +86,7 @@ Applichi il suo marchio ai report PDF esportati e ai player audio incorporati. D
 
 Registri delle azioni del progetto corrente, con tipo, utente, data, stato e metadati di ogni azione registrata. Nei piani gestiti i registri condivisi del team si sincronizzano accanto ai suoi locali.
 
-**Export CSV** li scarica. L'esportazione dei registri delle azioni del team è riservata ai titolari di spazi di lavoro gestiti a pagamento.
+**Esporta CSV** li scarica. L'esportazione dei registri delle azioni del team è riservata ai titolari di spazi di lavoro gestiti a pagamento.
 
 ## Data & Backup
 

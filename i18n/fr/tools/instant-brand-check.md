@@ -29,11 +29,11 @@ Chaque moteur reçoit un verdict :
 
 | Résultat | Signification |
 |---|---|
-| **Recommended** | Votre marque a été avancée comme réponse |
-| **Listed among others** | Vous apparaissez, aux côtés d'alternatives |
-| **Described neutrally** | Mentionnée sans recommandation ni réserve |
-| **Described negatively** | Mentionnée de façon défavorable |
-| **Not in the answer** | Le moteur ne vous a pas mentionné |
+| **Recommandé** | Votre marque a été avancée comme réponse |
+| **Cité parmi d'autres** | Vous apparaissez, aux côtés d'alternatives |
+| **Décrit de façon neutre** | Mentionnée sans recommandation ni réserve |
+| **Décrit négativement** | Mentionnée de façon défavorable |
+| **Absent de la réponse** | Le moteur ne vous a pas mentionné |
 
 Vous verrez également si chaque moteur a **cité votre site** en particulier, et combien de sources il a citées au total. Être mentionné et être cité sont deux victoires différentes : être nommé dans le texte n'équivaut pas à être la source sur laquelle la réponse a été construite.
 
@@ -41,7 +41,7 @@ Les requêtes sont étiquetées **de marque** ou **sans marque**. Les requêtes 
 
 ## Transformer une vérification en suivi
 
-La fiche de résultat comporte une action **Add to tracked prompts**. Elle promeut la requête dans votre [Prompt Manager](../visibility/prompt-manager.md), qui l'exécutera dès lors selon votre planification.
+La fiche de résultat comporte une action **Ajouter aux prompts suivis**. Elle promeut la requête dans votre [Prompt Manager](../visibility/prompt-manager.md), qui l'exécutera dès lors selon votre planification.
 
 !!! note "Une vérification est un instantané, pas une tendance"
     Une vérification instantanée vous dit où vous en êtes à cet instant. Les réponses d'IA varient d'une exécution à l'autre : un résultat isolé ne doit donc pas être lu comme un changement. Les prompts surveillés s'exécutent selon une planification et construisent la courbe de tendance qui, elle, indique réellement si quelque chose a bougé. Servez-vous des vérifications instantanées pour repérer les questions qui méritent d'être suivies, puis suivez-les.

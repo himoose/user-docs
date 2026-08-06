@@ -1,55 +1,58 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 9cb1f82df3ab1a21aa5b240256af6954d672dc3d11dd311e044918cd3a30f531
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Instant AI Search Brand Check
+    [Ler em inglês](https://himoose.com/docs/tools/instant-brand-check/)
 
-## What this helps you do
+# Verificação instantânea da marca na busca com IA
 
-Check one query across five AI search engines right now and see whether your brand shows up, without setting up a tracked prompt or waiting for a scheduled run.
+## Para que serve
 
-This is the "I just thought of a question, how do I look on it?" tool.
+Testar uma consulta em cinco mecanismos de busca com IA agora mesmo e ver se sua marca aparece, sem configurar um prompt monitorado nem esperar uma execução agendada.
 
-## How to run one
+É a ferramenta para o momento «me veio uma pergunta agora, como eu apareço nela?».
 
-Ask Moose in [chat](../chat/overview.md), in plain language. Something like "check how we show up for project management software for agencies" is enough.
+## Como rodar uma
 
-Moose proposes the exact query and shows you a confirmation card. **The check doesn't run yet.** You can edit the query on the card and start it yourself, so a misread request costs you nothing.
+Peça ao Moose no [chat](../chat/overview.md), em linguagem comum. Algo como «verifica como a gente aparece em software de gestão de projetos para agências» já basta.
 
-## What it checks
+O Moose propõe a consulta exata e mostra um cartão de confirmação. **A verificação ainda não roda.** Você pode editar a consulta no cartão e iniciá-la você mesmo, então um pedido mal interpretado não custa nada.
 
-Five engines: **ChatGPT**, **Perplexity**, **Grok**, **Google AI Mode**, and **Google Search**.
+## O que é verificado
 
-The check fetches directly from your device against the public surfaces, so it doesn't draw on your managed credit balance or your OpenRouter key.
+Cinco mecanismos: **ChatGPT**, **Perplexity**, **Grok**, **Google AI Mode** e **Google Search**.
 
-## Reading the result
+A verificação consulta as superfícies públicas direto do seu dispositivo, então não consome seu saldo de créditos gerenciados nem sua chave do OpenRouter.
 
-The headline tells you how many of the engines mentioned your brand, and how many cited your own site.
+## Ler o resultado
 
-Each engine gets a verdict:
+O título informa quantos mecanismos mencionaram sua marca e quantos citaram seu próprio site.
 
-| Result | Meaning |
+Cada mecanismo recebe um veredicto:
+
+| Resultado | Significado |
 |---|---|
-| **Recommended** | Your brand was put forward as an answer |
-| **Listed among others** | You appeared, alongside alternatives |
-| **Described neutrally** | Mentioned without a recommendation either way |
-| **Described negatively** | Mentioned unfavorably |
-| **Not in the answer** | The engine didn't mention you |
+| **Recomendada** | Sua marca foi apresentada como resposta |
+| **Listada entre outras** | Você apareceu, junto de alternativas |
+| **Descrita de forma neutra** | Mencionada sem recomendação nem ressalva |
+| **Descrita de forma negativa** | Mencionada de modo desfavorável |
+| **Fora da resposta** | O mecanismo não mencionou você |
 
-You'll also see whether each engine **cited your site** specifically, and how many sources it cited in total. Mentions and citations are different wins: being named in the text is not the same as your page being the source the answer was built from.
+Você também vê se cada mecanismo **citou seu site** especificamente e quantas fontes citou no total. Ser mencionado e ser citado são conquistas diferentes: aparecer no texto não é o mesmo que ser a fonte sobre a qual a resposta foi construída.
 
-Queries are labeled **Branded** or **Unbranded**. Unbranded queries are the harder and more valuable test, because the engine had no prompt to mention you.
+As consultas são marcadas como **com marca** ou **sem marca**. As consultas sem marca são o teste mais difícil e mais valioso, porque o mecanismo não tinha nenhum motivo para mencionar você.
 
-If an engine couldn't be reached, the result says so rather than counting it as a miss.
+## Transformar uma verificação em monitoramento
 
-## Turning a check into tracking
+O cartão de resultado traz a ação **Adicionar aos prompts monitorados**. Ela promove a consulta ao seu [Gerenciador de Prompts](../visibility/prompt-manager.md), que passa a rodá-la conforme seu agendamento.
 
-A result card has an **Add to tracked prompts** action. That promotes the query into your [Prompt Manager](../visibility/prompt-manager.md) so it runs on your schedule from then on.
+!!! note "Uma verificação é um retrato, não uma tendência"
+    Uma verificação instantânea mostra onde você está neste minuto. As respostas de IA variam entre execuções, então um resultado isolado não deve ser lido como mudança. Prompts monitorados rodam conforme um agendamento e constroem a linha de tendência que de fato mostra se algo se moveu. Use as verificações instantâneas para achar perguntas que valem monitoramento, e depois monitore-as.
 
-!!! note "One check is a snapshot, not a trend"
-    An instant check tells you where you stand this minute. AI answers vary between runs, so a single result shouldn't be read as a change. Tracked prompts run on a schedule and build the trend line that actually tells you whether something moved. Use instant checks to find questions worth tracking, then track them.
+## Para onde ir a partir daqui
 
-## Where to go from here
-
-- **[Visibility](../visibility/overview.md)** — the scheduled version of this, with trends and history.
-- **[Prompt Manager](../visibility/prompt-manager.md)** — organize the prompts you've promoted.
-- **[AEO Audits](../features/aeo-audits.md)** — when a check goes badly and you want to know why.
+- **[Visibilidade](../visibility/overview.md)**: a versão agendada disso, com tendências e histórico.
+- **[Gerenciador de Prompts](../visibility/prompt-manager.md)**: organizar os prompts que você promoveu.
+- **[Auditorias de AEO](../features/aeo-audits.md)**: quando uma verificação vai mal e você quer saber por quê.

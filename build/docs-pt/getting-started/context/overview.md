@@ -1,44 +1,49 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 05fae21b2ec70be5a8bae1ca0e58f085c9da2140a80bae1dc2e083051aeffb43
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Context
+    [Ler em inglês](https://himoose.com/docs/getting-started/context/overview/)
 
-## What this helps you do
+# Contexto
 
-**Context** is the grounding layer in the desktop app's left navigation. It's the shared operating context for your current project — the information the operator, chat, and every generation capability reuse instead of starting cold on every request.
+## Para que serve
 
-Context is made up of three distinct pieces:
+O **Contexto** é a camada de fundamentação na navegação esquerda do aplicativo para desktop. É o contexto operacional compartilhado do seu projeto atual: as informações que o operador, o chat e todos os recursos de geração reaproveitam em vez de começar do zero a cada pedido.
 
-| | Scope | What it's for |
+O Contexto tem três partes distintas:
+
+| | Alcance | Para que serve |
 |---|---|---|
-| **[Brand Voice](brand-voice.md)** | Per project | How your brand should sound — tone, audience, values, terminology. Shapes the writing style of everything Hi, Moose generates. |
-| **[Brand Truth Profile](brand-truth-profile.md)** | Per project | A machine-readable source of truth for what your company actually is, sells, and serves — used to detect when AI answers misrepresent or drift from that truth. |
-| **[About You](about-you.md)** | Per device, not per project | Notes about you personally — your role, goals, and how you like to work — so chat feels like it knows the person, not just the brand. |
+| **[Voz da marca](brand-voice.md)** | Por projeto | Como sua marca deve soar: tom, público, valores, terminologia. Define o estilo de escrita de tudo o que o Hi, Moose gera. |
+| **[Perfil de Verdade da Marca](brand-truth-profile.md)** | Por projeto | Uma fonte de verdade legível por máquina sobre o que sua empresa é, vende e atende de fato. Serve para detectar quando as respostas da IA distorcem isso ou se afastam. |
+| **[Sobre você](about-you.md)** | Por dispositivo, não por projeto | Anotações sobre você como pessoa: sua função, seus objetivos e seu jeito de trabalhar, para que o chat conheça a pessoa e não só a marca. |
 
-## Why three separate artifacts
+## Por que são três artefatos separados
 
-Brand Voice and Brand Truth Profile answer different questions, even though both describe your brand:
+A Voz da marca e o Perfil de Verdade da Marca respondem a perguntas diferentes, mesmo descrevendo os dois a sua marca:
 
-- **Brand Voice** answers "how should this sound?" — tone, style, vocabulary preferences. It's creative and stylistic guidance for generated content.
-- **Brand Truth Profile** answers "what is actually true about us?" — canonical description, ideal customer, offerings, competitors, and the specific things AI tends to get wrong. It's a factual reference used to catch misrepresentation, not a style guide.
+- A **Voz da marca** responde a «como isso deve soar?»: tom, estilo, preferências de vocabulário. É uma orientação criativa e estilística para o conteúdo gerado.
+- O **Perfil de Verdade da Marca** responde a «o que é verdade sobre nós?»: descrição canônica, cliente ideal, ofertas, concorrentes e os pontos específicos em que a IA costuma errar. É uma referência factual para flagrar distorções, não um guia de estilo.
 
-**About You** is different from both: it isn't about the brand at all. It's personal context about **you**, the person using the app, stored locally on your device rather than attached to a project — so it follows you across projects instead of resetting every time you switch workspaces.
+**Sobre você** difere dos dois: não trata da marca de forma alguma. É contexto pessoal sobre **você**, a pessoa que usa o aplicativo, salvo localmente no seu dispositivo em vez de vinculado a um projeto. Por isso acompanha você entre projetos, em vez de zerar a cada troca de espaço de trabalho.
 
-## Where Context is used
+## Onde o Contexto é usado
 
-- **Brand Voice** is reused across [Content Briefs](../../features/content-briefs.md), [FAQ Generator](../../features/faq-generator.md), [Key Points Extractor](../../features/key-points.md), [Drafts, Preview & Publishing](../../features/drafts-and-publishing.md), and [AEO Audit](../../features/aeo-audits.md) recommendations.
-- **Brand Truth Profile** is reused during [Visibility](../../visibility/overview.md) runs, where Hi, Moose checks whether an AI engine's response about your brand lines up with your canonical description, offerings, competitors, and known misrepresentation patterns.
-- **About You** is reused in [Chat](../../chat/overview.md) so responses can reflect your role, goals, and preferred communication style.
+- A **Voz da marca** é reaproveitada nos [Briefings de conteúdo](../../features/content-briefs.md), no [Gerador de FAQ](../../features/faq-generator.md), no [Extrator de Pontos principais](../../features/key-points.md), em [rascunhos, prévia e publicação](../../features/drafts-and-publishing.md) e nas recomendações das [auditorias de AEO](../../features/aeo-audits.md).
+- O **Perfil de Verdade da Marca** é reaproveitado durante as execuções de [Visibilidade](../../visibility/overview.md), em que o Hi, Moose verifica se a resposta de um mecanismo de IA sobre sua marca bate com sua descrição canônica, suas ofertas, seus concorrentes e os padrões conhecidos de distorção.
+- **Sobre você** é reaproveitado no [Chat](../../chat/overview.md), para que as respostas considerem sua função, seus objetivos e seu estilo de comunicação preferido.
 
-## Filling it in
+## Como preencher
 
-Each artifact tracks how many fields you've filled in and shows a short preview once you've added anything. All fields across all three artifacts are optional — Hi, Moose works with partial context and gets more precise as you add more.
+Cada artefato indica quantos campos você preencheu e mostra uma prévia curta assim que você adiciona algo. Todos os campos dos três artefatos são opcionais: o Hi, Moose funciona com contexto parcial e fica mais preciso conforme você acrescenta mais.
 
-For Brand Voice specifically, you don't have to fill every field by hand: an **auto-fill** action can crawl your project's website locally and suggest values for empty fields.
+No caso específico da Voz da marca, você não precisa preencher cada campo à mão: uma ação de **preenchimento automático** pode rastrear o site do seu projeto localmente e sugerir valores para os campos vazios.
 
-## Local-first storage and cloud sync
+## Armazenamento local e sincronização na nuvem
 
-By default, Brand Voice and Brand Truth Profile are stored **locally for the current project**, and About You is stored **locally on your device**. Cloud sync — which backs up Brand Voice and Brand Truth Profile and shares them across your team — is available on **every paid plan**, including paid BYOK plans. Preview Mode and BYOK Free stay local-only; upgrading turns on sync so your team shares the same grounding and it's protected if anything happens to your local machine.
+Por padrão, a Voz da marca e o Perfil de Verdade da Marca ficam salvos **localmente para o projeto atual**, e Sobre você fica salvo **localmente no seu dispositivo**. A sincronização na nuvem, que faz backup da Voz da marca e do Perfil de Verdade da Marca e os compartilha com a equipe, está disponível em **todos os planos pagos**, incluindo os planos BYOK pagos. O Preview Mode e o BYOK Free permanecem apenas locais; ao mudar para um plano superior, a sincronização é ativada, de modo que sua equipe compartilhe a mesma base e ela fique protegida se algo acontecer com a sua máquina.
 
-!!! note "On BYOK plans"
-    Brand-context crawling (the auto-fill step) and Brand Truth analysis run locally in the desktop app. Hi, Moose does not need to see your site content on its own servers to build or use this context.
+!!! note "Nos planos BYOK"
+    O rastreamento do contexto da marca (a etapa de preenchimento automático) e a análise do Perfil de Verdade da Marca rodam localmente no aplicativo para desktop. O Hi, Moose não precisa ver o conteúdo do seu site nos próprios servidores para montar ou usar esse contexto.

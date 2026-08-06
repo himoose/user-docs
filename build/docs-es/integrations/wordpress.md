@@ -23,7 +23,7 @@ Esto significa que:
 
 ## Configurar una conexión
 
-1. Abra **Connections** en la aplicación de escritorio y elija WordPress.
+1. Abra **Conexiones** en la aplicación de escritorio y elija WordPress.
 2. Descargue el plugin conector, instálelo en su panel de WordPress y pegue después la URL de su sitio y la clave de API de este proyecto en la configuración del plugin.
 3. De vuelta en Hi, Moose, guarde la conexión y confirme que el conector informa de un ping correcto desde su sitio.
 
@@ -35,7 +35,7 @@ Cada instalación de WordPress que conecte (producción, staging o ambas) es un 
 
 Cada edición de WordPress, ya venga de las [FAQ](../features/faq-generator.md), de los [key points](../features/key-points.md), de un [borrador](../features/drafts-and-publishing.md) o de un cambio manual de buscar y reemplazar creado por usted, se registra como un **parche**: una entrada local de registro por entorno con su propio estado.
 
-Un parche pasa por estados explícitos: **Draft**, **Staged**, **Applied**, **Discarded**, **Rolled back** o **Failed**. Desde la lista de parches puede:
+Un parche pasa por estados explícitos: **Borrador**, **Staged**, **Aplicado**, **Descartado**, **Revertido** o **Failed**. Desde la lista de parches puede:
 
 - **Preparar** un parche en su sitio de WordPress para previsualizarlo.
 - **Aplicar** un parche preparado para publicarlo.

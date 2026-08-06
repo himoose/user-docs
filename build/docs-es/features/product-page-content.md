@@ -10,9 +10,9 @@ source_hash: f8772689cac35fb3db3b2391391de3ea27e63ee267597800996e792b83b1baf1
 
 ## Para qué sirve
 
-Generar texto de página de funcionalidad de producto a partir de un [brief de contenido](content-briefs.md): el tipo de plantilla **Product Feature page** (identificado como **Product page content** en los inicios rápidos del Chat).
+Generar texto de página de funcionalidad de producto a partir de un [brief de contenido](content-briefs.md): el tipo de plantilla **Página de características del producto** (identificado como **Product page content** en los inicios rápidos del Chat).
 
-Desde el [Chat](../chat/overview.md), el inicio rápido **Create product page content** le guía para confirmar una consulta objetivo y un tipo de plantilla antes de generar juntos el brief y el primer borrador.
+Desde el [Chat](../chat/overview.md), el inicio rápido **Crear contenido de página de producto** le guía para confirmar una consulta objetivo y un tipo de plantilla antes de generar juntos el brief y el primer borrador.
 
 ## Estructura
 

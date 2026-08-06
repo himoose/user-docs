@@ -23,7 +23,7 @@ Cada chat guardado de la lista muestra:
 - Cuándo se actualizó por última vez.
 - Qué [especialista](tools-and-specialists.md#especialistas), si lo hubo, estaba activo en ese hilo.
 
-Pulse **Open chat** para reabrir una sesión exactamente donde la dejó, con su transcripción completa restaurada.
+Pulse **Abrir chat** para reabrir una sesión exactamente donde la dejó, con su transcripción completa restaurada.
 
 ## Renombrar un chat
 
@@ -35,4 +35,4 @@ Al eliminar un chat se borra su transcripción guardada del historial local de f
 
 ## Empezar de cero o continuar
 
-No tiene que entrar en Chats cada vez: el propio compositor del chat incluye un selector de sesión que muestra la sesión actual y accesos directos a las recientes, además de una acción **New chat** para cuando quiera empezar de nuevo. Chats está ahí para cuando quiere la lista completa o necesita encontrar algo más antiguo.
+No tiene que entrar en Chats cada vez: el propio compositor del chat incluye un selector de sesión que muestra la sesión actual y accesos directos a las recientes, además de una acción **Nuevo chat** para cuando quiera empezar de nuevo. Chats está ahí para cuando quiere la lista completa o necesita encontrar algo más antiguo.

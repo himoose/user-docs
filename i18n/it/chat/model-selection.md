@@ -11,9 +11,9 @@ Ogni chat è alimentata da un modello di IA preciso, e il selettore di modello l
 
 Apra il selettore di modello per vedere i modelli disponibili nel suo [piano](../getting-started/account-modes.md). Ogni opzione porta delle etichette, così sa che cosa ottiene prima di cambiare:
 
-- **Free** / **HiMoose Cloud** / **Paid or BYOK**: quali piani possono usare quel modello.
+- **Gratuito** / **HiMoose Cloud** / **A pagamento o BYOK**: quali piani possono usare quel modello.
 - **Speed: Slow / Average / Very Fast**: un'idea approssimativa del tempo di risposta.
-- **Local**: gira interamente sul suo dispositivo (veda più sotto).
+- **Locale**: gira interamente sul suo dispositivo (veda più sotto).
 - Un'**etichetta con moltiplicatore** sui modelli più costosi, che indica quanto consumano in più del suo saldo rispetto all'opzione standard.
 
 L'offerta segue ciò che pubblicano i fornitori di modelli e comprende attualmente le famiglie Claude, GPT, Gemini e Gemma. Se un modello non è disponibile nel suo piano, Hi, Moose glielo dice apertamente invece di ripiegare in silenzio su un altro.

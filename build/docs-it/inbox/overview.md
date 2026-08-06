@@ -25,14 +25,14 @@ Ogni voce dell'Inbox rimanda a qualcosa di concreto che può aprire e su cui pu�
 
 Ogni voce propone un'azione successiva quando ha senso: aprire l'artefatto, avviare un brief, dare seguito a un audit, rivedere una bozza, approvare una modifica o riprovare un'esecuzione fallita. Così non legge soltanto una notifica, ma è a un clic dall'agire.
 
-I riepiloghi di site monitoring includono inoltre l'azione **Ask Moose about all of this**, che consegna l'istantanea della scansione alla [chat](../chat/overview.md) e le chiede da dove cominciare.
+I riepiloghi di site monitoring includono inoltre l'azione **Chiedi a Moose di tutto questo**, che consegna l'istantanea della scansione alla [chat](../chat/overview.md) e le chiede da dove cominciare.
 
 ## Filtrare l'Inbox
 
 Due filtri determinano che cosa vede:
 
-- **Stato**: il valore predefinito è **Active**, cioè tutto ciò che non è stato scartato (voci aperte, in corso e completate). Passi a uno stato specifico oppure ad **All** per includere le voci scartate che potrebbe voler riprendere.
-- **Gravità**: **Critical**, **Warning**, **Notice**, **Info**, oppure tutte.
+- **Stato**: il valore predefinito è **Attivo**, cioè tutto ciò che non è stato scartato (voci aperte, in corso e completate). Passi a uno stato specifico oppure ad **Tutti** per includere le voci scartate che potrebbe voler riprendere.
+- **Gravità**: **Critico**, **Attenzione**, **Avviso**, **Info**, oppure tutte.
 
 Le voci sono raggruppate per data (per esempio «Ieri», «Meno recenti») con un contatore per gruppo, così vede subito quanto la attende. Le caselle voluminose vengono paginate anziché caricate tutte insieme.
 
@@ -43,7 +43,7 @@ Le voci sono raggruppate per data (per esempio «Ieri», «Meno recenti») con u
 
 ## Decidere che cosa la avvisa
 
-Faccia clic su **Notifications** per aprire le sue preferenze di notifica per progetto. Che cosa fa ciascuna impostazione è spiegato in [Notifiche dell'Inbox](notifications.md).
+Faccia clic su **Notifiche** per aprire le sue preferenze di notifica per progetto. Che cosa fa ciascuna impostazione è spiegato in [Notifiche dell'Inbox](notifications.md).
 
 ## Gestito e BYOK
 

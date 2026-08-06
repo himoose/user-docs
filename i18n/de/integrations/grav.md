@@ -9,18 +9,18 @@ Eine produktive [Grav](https://getgrav.org)-Website über das Hi, Moose-Plugin f
 
 ## Das Plugin installieren
 
-1. Öffnen Sie in der Desktop-App **Connections → Grav**, rufen Sie den Download-Link auf und laden Sie das ZIP-Archiv des Hi, Moose-Plugins herunter. Die aktuelle Version ist **0.1.1** und setzt Grav 1.7.0 oder höher voraus.
+1. Öffnen Sie in der Desktop-App **Verbindungen → Grav**, rufen Sie den Download-Link auf und laden Sie das ZIP-Archiv des Hi, Moose-Plugins herunter. Die aktuelle Version ist **0.1.1** und setzt Grav 1.7.0 oder höher voraus.
 2. Öffnen Sie in Ihrer Grav-Verwaltung **Plugins**, laden Sie das ZIP hoch und schließen Sie die Installation ab.
 3. Aktivieren Sie das Plugin und öffnen Sie dann dessen Einstellungen in der Grav-Verwaltung.
 4. Kopieren Sie das dort angezeigte Verbindungspaket: Sie fügen es im nächsten Schritt in Hi, Moose ein.
 
 ## In Hi, Moose verbinden
 
-1. Öffnen Sie **Connections** in der Desktop-App und wählen Sie Grav.
+1. Öffnen Sie **Verbindungen** in der Desktop-App und wählen Sie Grav.
 2. Geben Sie die URL Ihrer Grav-Website ein.
 3. Lassen Sie die Konnektor-Route leer, sofern Ihr Grav-Plugin keine abweichende Route verwendet. Andernfalls nutzt Hi, Moose die Route aus dem Verbindungspaket oder greift auf `/himoose-connector` zurück.
 4. Fügen Sie das aus dem Plugin kopierte Verbindungspaket ein und speichern Sie.
-5. Klicken Sie auf **Test connector**, um die Verbindung gegen Ihre produktive Grav-Website zu prüfen.
+5. Klicken Sie auf **Connector testen**, um die Verbindung gegen Ihre produktive Grav-Website zu prüfen.
 
 ## Verbindungsstatus
 

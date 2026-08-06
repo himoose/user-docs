@@ -144,22 +144,22 @@ nav:
   - Progetti e spazio di lavoro: getting-started/projects.md
   - Impostazioni: getting-started/settings.md
   - Gestione del team: getting-started/team-management.md
-- Inbox:
+- Posta in arrivo:
   - Panoramica: inbox/overview.md
   - Notifiche: inbox/notifications.md
-- Context:
+- Contesto:
   - Panoramica: getting-started/context/overview.md
   - Brand Voice: getting-started/context/brand-voice.md
   - Brand Truth Profile: getting-started/context/brand-truth-profile.md
   - Su di lei: getting-started/context/about-you.md
-- Visibility:
+- Visibilità:
   - Panoramica: visibility/overview.md
   - Concorrenti e Share of Voice: visibility/competitors.md
   - Prompt Manager: visibility/prompt-manager.md
   - Impostazioni: visibility/settings.md
-- Site Monitoring:
+- Monitoraggio del sito:
   - Panoramica: site-monitoring/overview.md
-- Workflows:
+- Flussi di lavoro:
   - Panoramica: workflows/overview.md
   - Recuperare la visibilità perduta: workflows/recover-lost-visibility.md
   - Creare nuovi contenuti: workflows/create-new-content.md
@@ -168,14 +168,14 @@ nav:
   - Strumenti e specialisti della chat: chat/tools-and-specialists.md
   - Scelta del modello: chat/model-selection.md
   - Chat (cronologia): chat/chats-history.md
-- Library:
+- Libreria degli artefatti:
   - Panoramica: library/overview.md
 - Audio:
   - Panoramica: audio/overview.md
   - Player e incorporamento: audio/player-and-embed.md
   - Statistiche di ascolto: audio/analytics.md
-- Tools:
-  - Il menu Tools: tools/overview.md
+- Strumenti:
+  - Il menu Strumenti: tools/overview.md
   - Verifica istantanea del marchio nella ricerca con IA: tools/instant-brand-check.md
   - AEO Audits: features/aeo-audits.md
   - Content Briefs: features/content-briefs.md

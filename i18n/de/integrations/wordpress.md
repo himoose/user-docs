@@ -18,7 +18,7 @@ Das bedeutet:
 
 ## Eine Verbindung einrichten
 
-1. Öffnen Sie **Connections** in der Desktop-App und wählen Sie WordPress.
+1. Öffnen Sie **Verbindungen** in der Desktop-App und wählen Sie WordPress.
 2. Laden Sie das Konnektor-Plugin herunter, installieren Sie es in Ihrer WordPress-Verwaltung und fügen Sie dort Ihre Website-URL sowie den API-Schlüssel dieses Projekts in die Plugin-Einstellungen ein.
 3. Speichern Sie zurück in Hi, Moose die Verbindung und prüfen Sie, dass der Konnektor einen erfolgreichen Ping von Ihrer Website meldet.
 
@@ -30,7 +30,7 @@ Jede WordPress-Installation, die Sie verbinden (Produktion, Staging oder beides)
 
 Jede WordPress-Änderung, ob aus den [FAQ](../features/faq-generator.md), den [Key Points](../features/key-points.md), einem [Entwurf](../features/drafts-and-publishing.md) oder einer von Ihnen selbst angelegten manuellen Textersetzung, wird als **Patch** geführt: ein lokaler Registereintrag je Umgebung mit eigenem Status.
 
-Ein Patch durchläuft ausdrückliche Zustände: **Draft**, **Staged**, **Applied**, **Discarded**, **Rolled back** oder **Failed**. Aus der Patch-Liste heraus können Sie:
+Ein Patch durchläuft ausdrückliche Zustände: **Entwurf**, **Bereitgestellt**, **Angewendet**, **Verworfen**, **Zurückgesetzt** oder **Fehlgeschlagen**. Aus der Patch-Liste heraus können Sie:
 
 - Einen Patch zur Vorschau auf Ihrer WordPress-Website **vorbereiten**.
 - Einen vorbereiteten Patch **anwenden**, um ihn live zu schalten.

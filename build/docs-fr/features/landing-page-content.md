@@ -12,7 +12,7 @@ source_hash: 74350e56e731651f6ec3d16f665469ed0f3a02cd5ed2fd4ddca3af2f63feb121
 
 Générer un texte de landing page orienté conversion à partir d'un [brief de contenu](content-briefs.md) : le type de modèle **Landing page**.
 
-Depuis le [Chat](../chat/overview.md), le démarrage rapide **Create landing page content** vous guide pour confirmer une requête cible et un type de modèle avant de générer ensemble le brief et le premier brouillon.
+Depuis le [Chat](../chat/overview.md), le démarrage rapide **Créer du contenu de page d'atterrissage** vous guide pour confirmer une requête cible et un type de modèle avant de générer ensemble le brief et le premier brouillon.
 
 ## Structure
 

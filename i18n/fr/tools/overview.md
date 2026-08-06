@@ -1,11 +1,11 @@
 ---
 source_hash: a520f220686779a4e43944e38365ca5142c3e85eb20112e98bb99e9f73e340de
 ---
-# Le menu Tools
+# Le menu Outils
 
 ## À quoi cela sert
 
-Le menu **Tools** de la barre supérieure est la façon la plus rapide de lancer une tâche précise. Ouvrez-le, cherchez ou choisissez un outil, et Hi, Moose ouvre le bon formulaire au lieu de vous obliger à décrire votre besoin dans le chat.
+Le menu **Outils** de la barre supérieure est la façon la plus rapide de lancer une tâche précise. Ouvrez-le, cherchez ou choisissez un outil, et Hi, Moose ouvre le bon formulaire au lieu de vous obliger à décrire votre besoin dans le chat.
 
 Appuyez sur **Entrée** pour lancer l'outil sélectionné et sur **Échap** pour fermer. Le champ de recherche filtre tous les outils par nom.
 

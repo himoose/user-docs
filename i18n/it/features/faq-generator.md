@@ -9,7 +9,7 @@ Generare sezioni di FAQ fondate sui contenuti reali della sua pagina e, negli sp
 
 ## Fornire una sorgente
 
-Dalla [Chat](../chat/overview.md) scelga l'avvio rapido **Create research-backed FAQs** (oppure lo chieda direttamente), poi dia a Hi, Moose qualcosa su cui lavorare:
+Dalla [Chat](../chat/overview.md) scelga l'avvio rapido **Crea FAQ basate sulla ricerca** (oppure lo chieda direttamente), poi dia a Hi, Moose qualcosa su cui lavorare:
 
 - Una URL di origine,
 - Un file allegato, oppure
@@ -35,11 +35,11 @@ In **Preview Mode** e nei piani **BYOK** (Free e Premium) la generazione di FAQ 
 
 ## Lavorare con il risultato
 
-- **Save**: aggiunge l'insieme di FAQ alla sua [Library](../library/overview.md).
-- **Edit**: riveda direttamente domande e risposte.
-- **Export**: scarichi l'insieme di FAQ.
-- **Copy HTML**: copi il markup HTML delle FAQ.
-- **Copy schema**: copi separatamente il markup schema FAQPage.
+- **Salva**: aggiunge l'insieme di FAQ alla sua [Library](../library/overview.md).
+- **Modifica**: riveda direttamente domande e risposte.
+- **Esporta**: scarichi l'insieme di FAQ.
+- **Copia HTML**: copi il markup HTML delle FAQ.
+- **Copia schema**: copi separatamente il markup schema FAQPage.
 - Se il suo progetto ha un CMS collegato, può anche aggiungere le FAQ direttamente a una pagina come modifica preparata. Veda [Bozze, anteprima e pubblicazione](drafts-and-publishing.md).
 
 ## Dove si colloca

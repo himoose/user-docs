@@ -29,11 +29,11 @@ Da diese Belege als eigenes Artefakt gespeichert werden, erfordert es keine dopp
 
 1. Geben Sie Ihre **primäre Zielanfrage** ein: die Anfrage oder das Thema, um das der Brief kreisen soll, formuliert so, wie eine suchende Person es tatsächlich eingeben würde.
 2. Wählen Sie einen **Vorlagentyp**. Unterschiedliche Strukturen erfordern unterschiedliche Abschnitte, Belege und Handlungsaufforderungen, das prägt also sowohl den Brief als auch den späteren ersten Entwurf:
-    - **Blog post**
-    - **Glossary post**
-    - **Landing page**
-    - **Solutions page**
-    - **Product Feature page**
+    - **Blogbeitrag**
+    - **Glossarbeitrag**
+    - **Landingpage**
+    - **Lösungsseite**
+    - **Produktfunktionsseite**
 3. Hi, Moose sammelt das Suchpanorama und erstellt dann den Brief: empfohlene Länge, priorisierte sekundäre Suchbegriffe, zu behandelnde Fragen aus „Ähnliche Fragen", Wettbewerbsanalyse und eine strukturierte Gliederung, zugeschnitten auf die gewählte Vorlage.
 4. Sehen Sie den Brief durch, bearbeiten und exportieren Sie ihn, oder gehen Sie direkt zur Erzeugung eines [Entwurfs](drafts-and-publishing.md) daraus über.
 

@@ -11,13 +11,13 @@ In der Library wird jedes dauerhafte Artefakt gespeichert, das Hi, Moose für ei
 
 Jeder Eintrag der Library zeigt seinen Typ:
 
-- **Content Brief**
-- **Draft**
-- **Key Points**
+- **Content-Brief**
+- **Entwurf**
+- **Kernpunkte**
 - **FAQs**
-- **AEO Audit**
+- **AEO-Audit**
 
-Jeder Eintrag zeigt seinen Namen und den Speicherzeitpunkt und lässt sich über das Suchfeld oder durch Sortieren der Liste (**Recent activity** oder **Name**) wiederfinden.
+Jeder Eintrag zeigt seinen Namen und den Speicherzeitpunkt und lässt sich über das Suchfeld oder durch Sortieren der Liste (**Letzte Aktivität** oder **Name**) wiederfinden.
 
 Einträge werden vom neuesten zum ältesten in Blöcken von 50 geladen, damit eine umfangreiche Bibliothek schnell bleibt, statt alles auf einmal darzustellen.
 
@@ -27,7 +27,7 @@ Wechseln Sie je nach Vorliebe zwischen einer Kachelansicht und einer kompakten L
 
 ## Einen Eintrag öffnen
 
-- **AEO Audits** öffnen sich schreibgeschützt (**Open**): Ein Audit ist eine Momentaufnahme und nichts, was man nachträglich bearbeitet.
+- **AEO Audits** öffnen sich schreibgeschützt (**Öffnen**): Ein Audit ist eine Momentaufnahme und nichts, was man nachträglich bearbeitet.
 - **Content Briefs, Drafts, Key Points und FAQs** öffnen sich in einem Editor (**Edit**): Sie können den Inhalt direkt überarbeiten und bei FAQ festlegen, ob sich das Schema-Markup automatisch an Ihre Änderungen anpassen soll.
 
 ## Exportieren
@@ -48,11 +48,11 @@ In kostenpflichtigen Tarifen mit Teamsitzplätzen sind Library-Einträge standar
 
 ## Einen Eintrag entfernen
 
-**Remove** löscht das gespeicherte Artefakt dauerhaft aus Ihrer Bibliothek. Hi, Moose fragt zuvor nach einer Bestätigung, denn das lässt sich nicht rückgängig machen.
+**Entfernen** löscht das gespeicherte Artefakt dauerhaft aus Ihrer Bibliothek. Hi, Moose fragt zuvor nach einer Bestätigung, denn das lässt sich nicht rückgängig machen.
 
 ## Cloud-Synchronisierung
 
-Library-Einträge tragen je Eintrag die Kennzeichnung **Synced** oder **Local only**, sodass Sie auf einen Blick sehen, welche Artefakte an mehr als einem Ort vorliegen.
+Library-Einträge tragen je Eintrag die Kennzeichnung **Synchronisiert** oder **Nur lokal**, sodass Sie auf einen Blick sehen, welche Artefakte an mehr als einem Ort vorliegen.
 
 Die Cloud-Synchronisierung sichert Ihre Briefs, Entwürfe und weiteren Artefakte, sodass sie geräteübergreifend erreichbar bleiben und alles überstehen, was diesem Rechner zustoßen mag. Sie steht in **allen kostenpflichtigen Tarifen** zur Verfügung, einschließlich der kostenpflichtigen BYOK-Tarife: Ein Team mit BYOK Premium erhält eine gemeinsame Bibliothek und keine, die auf dem jeweils erzeugenden Rechner festsitzt.
 

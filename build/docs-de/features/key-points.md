@@ -16,7 +16,7 @@ Die Erzeugung von Key Points arbeitet mit semantischer Verdichtung statt mit ein
 
 ## Eine Quelle bereitstellen
 
-Wählen Sie im [Chat](../chat/overview.md) den Schnellstart **Generate optimized Key Points** (oder bitten Sie direkt darum) und geben Sie Hi, Moose dann etwas an die Hand:
+Wählen Sie im [Chat](../chat/overview.md) den Schnellstart **Optimierte Kernpunkte generieren** (oder bitten Sie direkt darum) und geben Sie Hi, Moose dann etwas an die Hand:
 
 - Eine Quell-URL,
 - Eine angehängte Datei, oder
@@ -28,9 +28,9 @@ Einen betitelten Satz verdichteter Aussagen unter der von Ihnen angegebenen Quel
 
 ## Mit dem Ergebnis arbeiten
 
-- **Save**: fügt die Key Points Ihrer [Library](../library/overview.md) hinzu.
-- **Edit**: öffnet einen Editor mit Quelle und Key Points als bearbeitbares Markdown, mit **Save** oder **Save and add to page**, um in einem Schritt zu speichern und die Änderung vorzubereiten.
-- **Add Key Points to the page**: Verfügt Ihr Projekt über ein verbundenes CMS und passt die Quell-URL zu einer dortigen Seite, werden die Key Points direkt auf dieser Seite als Änderung zur Durchsicht vorbereitet. Siehe [Entwürfe, Vorschau und Veröffentlichung](drafts-and-publishing.md).
+- **Speichern**: fügt die Key Points Ihrer [Library](../library/overview.md) hinzu.
+- **Bearbeiten**: öffnet einen Editor mit Quelle und Key Points als bearbeitbares Markdown, mit **Speichern** oder **Speichern und zur Seite hinzufügen**, um in einem Schritt zu speichern und die Änderung vorzubereiten.
+- **Kernpunkte zur Seite hinzufügen**: Verfügt Ihr Projekt über ein verbundenes CMS und passt die Quell-URL zu einer dortigen Seite, werden die Key Points direkt auf dieser Seite als Änderung zur Durchsicht vorbereitet. Siehe [Entwürfe, Vorschau und Veröffentlichung](drafts-and-publishing.md).
 
 ## Wann Sie auf externe Recherche verzichten können
 

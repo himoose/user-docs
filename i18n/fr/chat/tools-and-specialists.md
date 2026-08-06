@@ -14,7 +14,7 @@ Cliquez sur le bouton de pièce jointe du champ de saisie pour ajouter du contex
 - **Envoyer un fichier ou une image** : `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg` et `.png`. Les feuilles de calcul sont converties en texte lisible : vous pouvez donc confier un classeur à Moose et l'interroger sur son contenu.
 - **Capturer l'écran** : choisissez un écran ou une fenêtre, puis faites glisser pour découper exactement la zone à envoyer. Sur macOS, vous devrez accorder à Hi, Moose l'accès à l'enregistrement de l'écran lors de la première utilisation.
 - **Ajouter depuis la Library** : joignez un artefact enregistré de la [Library](../library/overview.md) (un brief, un brouillon, des key points ou des FAQ) comme contexte, au lieu de le recoller.
-- **Base de données vectorielle du site** : joignez le site indexé de votre projet pour que Moose réponde à partir de vos pages réelles et non de ce qu'il suppose s'y trouver. Construisez l'index depuis [Site Monitoring](../site-monitoring/overview.md).
+- **Base de données vectorielle du site** : joignez le site indexé de votre projet pour que Moose réponde à partir de vos pages réelles et non de ce qu'il suppose s'y trouver. Construisez l'index depuis [Surveillance du site](../site-monitoring/overview.md).
 
 ## Outils que Moose peut mobiliser
 

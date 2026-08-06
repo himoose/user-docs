@@ -1,45 +1,50 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 9705deb0dc37b51cf84f956088049d0d7d87b416de55439c84ef17b2ef0d3d9c
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Inbox
+    [Ler em inglês](https://himoose.com/docs/inbox/overview/)
 
-## What this helps you do
+# Caixa de entrada
 
-The Inbox is where Hi, Moose surfaces the things worth your attention — triaged findings, audits, and publishing events, each tied back to a real artifact instead of a generic notification. It turns scattered signals (visibility sentiment shifts, narrative drift, feature-parity inaccuracies, AEO audit results, publish outcomes, and approval requests) into a single prioritized work queue.
+## Para que serve
 
-## What shows up in the Inbox
+A Caixa de entrada é onde o Hi, Moose traz à tona o que merece sua atenção: achados triados, auditorias e eventos de publicação, cada um ligado a um artefato real em vez de a uma notificação genérica. Ela transforma sinais espalhados (variações de sentimento na visibilidade, desvio narrativo, imprecisões de paridade de recursos, resultados de auditorias de AEO, desfechos de publicação e pedidos de aprovação) em uma única fila de trabalho priorizada.
 
-Every Inbox item points to something real you can open and act on, including:
+## O que aparece na Caixa de entrada
 
-- **Visibility signals** — negative or mixed sentiment detected in an AI answer, narrative drift or feature-parity inaccuracy compared to your [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), or a completed/failed [visibility run](../visibility/overview.md).
-- **AEO audit results** — a completed audit, or an audit whose action plan surfaced a high-priority recommendation.
-- **Site change detections** — a single digest per [site monitoring](../site-monitoring/overview.md) crawl, opening into a table of every changed page with its impact rating. Unreachable pages and site-wide outages are reported as their own change types.
-- **Workflow reports** — results from a [workflow](../workflows/overview.md) run, such as a scheduled scan that generated new posts or flagged an AI search opportunity.
-- **Publishing events** — a publish that **failed**, or a change waiting on your approval. Successful publishes no longer create an inbox item, since a wall of "this worked" notices buries the ones that need you.
-- **A welcome message** from Moose after you finish onboarding, pointing at a sensible first move.
+Todo item da Caixa de entrada aponta para algo concreto que você pode abrir e resolver:
 
-Each item shows a suggested next action where one makes sense — opening the artifact, starting a brief, following up on an audit, reviewing a draft, approving a change, or retrying a failed run — so you're not just reading a notification, you're one click from doing something about it.
+- **Sinais de visibilidade**: sentimento negativo ou misto detectado numa resposta da IA, desvio narrativo ou imprecisão de paridade de recursos em relação ao seu [Perfil de Verdade da Marca](../getting-started/context/brand-truth-profile.md), ou uma [execução de visibilidade](../visibility/overview.md) concluída ou com falha.
+- **Resultados de auditorias de AEO**: uma auditoria concluída, ou uma auditoria cujo plano de ação trouxe uma recomendação de alta prioridade.
+- **Alterações detectadas no site**: um único resumo por rastreamento do [monitoramento do site](../site-monitoring/overview.md), que abre em uma tabela com todas as páginas alteradas e seu nível de impacto. Páginas inacessíveis e quedas do site inteiro são reportadas como tipos de alteração próprios.
+- **Relatórios de fluxos de trabalho**: resultados da execução de um [fluxo de trabalho](../workflows/overview.md), por exemplo uma varredura agendada que gerou posts novos ou apontou uma oportunidade na busca com IA.
+- **Eventos de publicação**: uma publicação que **falhou**, ou uma alteração aguardando sua aprovação. Publicações bem-sucedidas não criam mais um item na Caixa de entrada, porque uma parede de avisos de «deu certo» acaba enterrando os que exigem sua atenção.
+- **Uma mensagem de boas-vindas** do Moose ao terminar a configuração inicial, apontando um primeiro passo sensato.
 
-Site monitoring digests also carry an **Ask Moose about all of this** action that hands the crawl snapshot to [chat](../chat/overview.md) and asks what to do first.
+Cada item traz uma próxima ação sugerida quando faz sentido: abrir o artefato, iniciar um briefing, dar sequência a uma auditoria, revisar um rascunho, aprovar uma alteração ou repetir uma execução que falhou. Assim você não apenas lê uma notificação, mas fica a um clique de agir.
 
-## Filtering the Inbox
+Os resumos de monitoramento do site também trazem a ação **Perguntar ao Moose sobre tudo isso**, que entrega a captura do rastreamento ao [chat](../chat/overview.md) e pergunta por onde começar.
 
-Two filters control what you see:
+## Filtrar a Caixa de entrada
 
-- **Status** — defaults to **Active**, meaning everything that isn't dismissed (open, in progress, and done items). Switch to a specific status, or **All** to include dismissed items you may want to reopen.
-- **Severity** — **Critical**, **Warning**, **Notice**, **Info**, or **All severities**.
+Dois filtros determinam o que você vê:
 
-Items are grouped by date (e.g. "Yesterday," "Older") with a count badge for each group, so you can quickly see how much is waiting for you. Long inboxes are paginated rather than loaded all at once.
+- **Status**: o padrão é **Ativos**, ou seja, tudo o que não foi descartado (itens abertos, em andamento e concluídos). Mude para um status específico, ou para **Todos** para incluir os itens descartados que você queira retomar.
+- **Gravidade**: **Crítico**, **Aviso**, **Notificação**, **Informação**, ou todas.
 
-**Mark all as read** clears the badge across your whole inbox, not just the page you're looking at.
+Os itens ficam agrupados por data (por exemplo, «Ontem», «Mais antigos») com uma contagem por grupo, para você ver rapidamente quanto está esperando. Caixas volumosas são paginadas em vez de carregadas de uma vez.
 
-!!! note "The inbox keeps its most recent 200 items"
-    Older items are pruned automatically. The inbox is a work queue, not an archive — anything durable lives in the [Library](../library/overview.md) or the artifact it points at.
+**Marcar tudo como lido** limpa o indicador em toda a sua Caixa de entrada, não só na página que você está vendo.
 
-## Controlling what notifies you
+!!! note "A Caixa de entrada guarda os 200 itens mais recentes"
+    Os mais antigos são removidos automaticamente. A Caixa de entrada é uma fila de trabalho, não um arquivo: tudo o que é duradouro fica na [Biblioteca de artefatos](../library/overview.md) ou no artefato para o qual o item aponta.
 
-Click **Notifications** to open your per-project notification preferences — see [Inbox Notifications](notifications.md) for what each setting does.
+## Controlar o que notifica você
 
-## Managed and BYOK
+Clique em **Notificações** para abrir suas preferências de notificação por projeto. O que cada configuração faz está em [Notificações da Caixa de entrada](notifications.md).
 
-The Inbox works the same way whether your workspace is managed or BYOK — items are written from whichever side actually generated the underlying event (cloud for managed workflows, the local desktop process for BYOK), and you see one unified queue either way.
+## Gerenciado e BYOK
+
+A Caixa de entrada funciona igual, seja seu espaço de trabalho gerenciado ou BYOK: os itens são gravados pelo lado que de fato gerou o evento subjacente (a nuvem nos fluxos de trabalho gerenciados, o processo local do desktop no BYOK), e você vê uma fila unificada nos dois casos.

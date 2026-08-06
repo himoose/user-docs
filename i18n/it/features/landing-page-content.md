@@ -7,7 +7,7 @@ source_hash: 74350e56e731651f6ec3d16f665469ed0f3a02cd5ed2fd4ddca3af2f63feb121
 
 Generare da un [brief di contenuto](content-briefs.md) testi per landing page orientati alla conversione: il tipo di modello **Landing page**.
 
-Dalla [Chat](../chat/overview.md), l'avvio rapido **Create landing page content** la accompagna nel confermare una query obiettivo e un tipo di modello prima di generare insieme il brief e la prima bozza.
+Dalla [Chat](../chat/overview.md), l'avvio rapido **Crea contenuti per una landing page** la accompagna nel confermare una query obiettivo e un tipo di modello prima di generare insieme il brief e la prima bozza.
 
 ## Struttura
 

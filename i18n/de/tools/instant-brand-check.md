@@ -29,11 +29,11 @@ Jede Maschine erhält ein Urteil:
 
 | Ergebnis | Bedeutung |
 |---|---|
-| **Recommended** | Ihre Marke wurde als Antwort vorgeschlagen |
-| **Listed among others** | Sie tauchten auf, neben Alternativen |
-| **Described neutrally** | Erwähnt, ohne Empfehlung in die eine oder andere Richtung |
-| **Described negatively** | Ungünstig erwähnt |
-| **Not in the answer** | Die Maschine hat Sie nicht erwähnt |
+| **Empfohlen** | Ihre Marke wurde als Antwort vorgeschlagen |
+| **Unter anderen genannt** | Sie tauchten auf, neben Alternativen |
+| **Neutral beschrieben** | Erwähnt, ohne Empfehlung in die eine oder andere Richtung |
+| **Negativ beschrieben** | Ungünstig erwähnt |
+| **Nicht in der Antwort** | Die Maschine hat Sie nicht erwähnt |
 
 Sie sehen außerdem, ob die jeweilige Maschine **Ihre Website zitiert** hat und wie viele Quellen sie insgesamt zitierte. Erwähnung und Zitierung sind zwei verschiedene Erfolge: Im Text genannt zu werden ist nicht dasselbe, wie die Quelle zu sein, auf der die Antwort aufbaut.
 
@@ -41,7 +41,7 @@ Anfragen werden als **markenbezogen** oder **markenneutral** gekennzeichnet. Mar
 
 ## Aus einer Prüfung eine Überwachung machen
 
-Die Ergebniskarte enthält die Aktion **Add to tracked prompts**. Damit wandert die Anfrage in Ihren [Prompt Manager](../visibility/prompt-manager.md) und läuft von da an nach Ihrem Zeitplan.
+Die Ergebniskarte enthält die Aktion **Zu verfolgten Prompts hinzufügen**. Damit wandert die Anfrage in Ihren [Prompt Manager](../visibility/prompt-manager.md) und läuft von da an nach Ihrem Zeitplan.
 
 !!! note "Eine Prüfung ist eine Momentaufnahme, kein Verlauf"
     Eine Sofortprüfung sagt Ihnen, wo Sie in dieser Minute stehen. KI-Antworten schwanken zwischen Läufen, ein einzelnes Ergebnis sollte deshalb nicht als Veränderung gelesen werden. Überwachte Prompts laufen nach Zeitplan und bilden die Verlaufslinie, die tatsächlich zeigt, ob sich etwas bewegt hat. Nutzen Sie Sofortprüfungen, um Fragen zu finden, die sich zu überwachen lohnen, und überwachen Sie sie dann.

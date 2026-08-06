@@ -6,11 +6,11 @@ source_hash: a520f220686779a4e43944e38365ca5142c3e85eb20112e98bb99e9f73e340de
 
     [Leggila in inglese](https://himoose.com/docs/tools/overview/)
 
-# Il menu Tools
+# Il menu Strumenti
 
 ## A cosa serve
 
-Il menu **Tools** nella barra superiore è il modo più rapido per avviare un'attività precisa. Lo apra, cerchi o scelga uno strumento, e Hi, Moose aprirà il modulo giusto invece di farle descrivere ciò che desidera nella chat.
+Il menu **Strumenti** nella barra superiore è il modo più rapido per avviare un'attività precisa. Lo apra, cerchi o scelga uno strumento, e Hi, Moose aprirà il modulo giusto invece di farle descrivere ciò che desidera nella chat.
 
 Prema **Invio** per eseguire lo strumento evidenziato ed **Esc** per chiudere. Il campo di ricerca filtra tutti gli strumenti per nome.
 

@@ -20,7 +20,7 @@ Cette fonctionnalité capture les recherches « fan-out » individuelles que l'�
 
 ## Comment la lancer
 
-1. Depuis le [Chat](../chat/overview.md), choisissez le démarrage rapide **Capture ChatGPT fan-out queries** (ou demandez-le directement).
+1. Depuis le [Chat](../chat/overview.md), choisissez le démarrage rapide **Capturer les requêtes fan-out ChatGPT** (ou demandez-le directement).
 2. Saisissez le prompt que vous souhaitez examiner.
 3. Hi, Moose capture la réponse de ChatGPT et renvoie :
     - Les requêtes fan-out distinctes exécutées par ChatGPT.

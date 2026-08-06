@@ -21,7 +21,7 @@ Der Zugriff auf die Search Console erfordert die OAuth-Zugangsdaten Ihres Google
 
 ## Eine Verbindung einrichten
 
-1. Öffnen Sie **Connections** in der Desktop-App und wählen Sie Google Search Console.
+1. Öffnen Sie **Verbindungen** in der Desktop-App und wählen Sie Google Search Console.
 2. Erteilen Sie den Zugriff in Ihrem Browser.
 3. Binden Sie eine Search-Console-Property an das aktive [Projekt](../getting-started/projects.md).
 

@@ -9,8 +9,8 @@ Eine Webflow-Website verbinden, damit Hi, Moose deren Seiten und Inhalte prüfen
 
 ## Eine Verbindung einrichten
 
-1. Öffnen Sie **Connections** in der Desktop-App und wählen Sie Webflow.
-2. Klicken Sie auf **Connect Webflow MCP**. Damit öffnet sich die Autorisierungsseite von Webflow in Ihrem Browser. Schließen Sie dort den OAuth-Vorgang ab, um die Verbindung herzustellen.
+1. Öffnen Sie **Verbindungen** in der Desktop-App und wählen Sie Webflow.
+2. Klicken Sie auf **Webflow MCP verbinden**. Damit öffnet sich die Autorisierungsseite von Webflow in Ihrem Browser. Schließen Sie dort den OAuth-Vorgang ab, um die Verbindung herzustellen.
 3. Wählen Sie nach dem Verbinden, welche autorisierte Webflow-Website Hi, Moose für dieses [Projekt](../getting-started/projects.md) nutzen soll.
 
 ## Ein Vorschauziel vorbereiten

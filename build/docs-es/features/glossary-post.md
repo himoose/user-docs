@@ -10,9 +10,9 @@ source_hash: bbf5a9a7e3ebd537b29b229f3fbb3c08ef3b7c88e0f56ddf517a97911cda6c81
 
 ## Para qué sirve
 
-Generar una entrada de glosario clara y centrada en la definición a partir de un [brief de contenido](content-briefs.md): el tipo de plantilla **Glossary post**.
+Generar una entrada de glosario clara y centrada en la definición a partir de un [brief de contenido](content-briefs.md): el tipo de plantilla **Entrada de glosario**.
 
-Desde el [Chat](../chat/overview.md), el inicio rápido **Create a glossary post** le guía para confirmar una consulta objetivo y un tipo de plantilla antes de generar juntos el brief y el primer borrador.
+Desde el [Chat](../chat/overview.md), el inicio rápido **Crear una entrada de glosario** le guía para confirmar una consulta objetivo y un tipo de plantilla antes de generar juntos el brief y el primer borrador.
 
 ## Estructura
 
@@ -23,7 +23,7 @@ Una entrada de glosario sigue una estructura informativa, de parte alta del embu
 - Se incluyen ejemplos concretos, términos relacionados y cobertura de FAQ cuando el brief lo requiere.
 - No se convierte en una página de venta, una página de funcionalidades ni un flujo de conversión intenso: como mucho, una llamada a la acción ligera al final, si el brief la admite.
 
-Justo después del título, el borrador incluye una breve sección de **Key Points**: cinco o seis viñetas comprimidas y de alto valor, destiladas del brief y de la tesis del borrador, antes del cuerpo principal.
+Justo después del título, el borrador incluye una breve sección de **Puntos clave**: cinco o seis viñetas comprimidas y de alto valor, destiladas del brief y de la tesis del borrador, antes del cuerpo principal.
 
 ## Dónde encaja
 

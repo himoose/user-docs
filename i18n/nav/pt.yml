@@ -1,0 +1,74 @@
+# Brazilian Portuguese nav titles: English title -> Portuguese title.
+#
+# UI labels match the desktop app catalog exactly, per term. The app translates
+# most of them (Visibilidade, Caixa de entrada, Ferramentas) but leaves a few in
+# English (Share of Voice, Prompt Manager). Verify against
+# desktop-app/src/renderer/services/i18n/locales/pt.json before changing any.
+
+Home: Início
+
+Getting Started: Primeiros passos
+Installing & Signing In: Instalação e login
+Account Types & Plans: Tipos de conta e planos
+Projects & Workspace: Projetos e espaço de trabalho
+Settings: Configurações
+Team Management: Gerenciamento da equipe
+
+Inbox: Caixa de entrada
+Overview: Visão geral
+Notifications: Notificações
+
+Context: Contexto
+Brand Voice: Voz da marca
+Brand Truth Profile: Perfil de Verdade da Marca
+About You: Sobre você
+
+Visibility: Visibilidade
+Competitors & Share of Voice: Concorrentes e Share of Voice
+Prompt Manager: Gerenciador de Prompts
+
+Site Monitoring: Monitoramento do site
+
+Workflows: Fluxos de trabalho
+Recover Lost Visibility: Recuperar a visibilidade perdida
+Create New Content: Criar novo conteúdo
+
+Chat: Chat
+Chat Tools & Specialists: Ferramentas e especialistas do chat
+Model Selection: Seleção de modelo
+Chats (History): Chats (histórico)
+
+Library: Biblioteca de artefatos
+
+Audio: Áudio
+Player & Embed: Player e incorporação
+Listening Analytics: Análises de audiência
+
+Tools: Ferramentas
+The Tools Menu: O menu Ferramentas
+Instant AI Search Brand Check: Verificação instantânea da marca na busca com IA
+AEO Audits: Auditorias de AEO
+Content Briefs: Briefings de conteúdo
+FAQ Generator: Gerador de FAQ
+Key Points Extractor: Extrator de Pontos principais
+AI Mode Grounding Queries: Consultas de grounding do AI Mode
+ChatGPT Fan-out Queries: Consultas fan-out do ChatGPT
+Blog Post Draft: Rascunho de post de blog
+Glossary Post: Post de glossário
+Landing Page Content: Conteúdo de landing page
+Product Page Content: Conteúdo de página de produto
+Drafts, Preview & Publishing: Rascunhos, prévia e publicação
+
+Agencies: Agências
+White-Label Branding: Marca white label
+
+Integrations: Integrações
+Grav: Grav
+WordPress: WordPress
+Webflow: Webflow
+Google Search Console: Google Search Console
+
+Legacy Web App: Aplicativo web antigo
+Versus Pages (Programmatic SEO): Versus Pages (SEO programático)
+Topical Authority Builder: Topical Authority Builder
+Listen to this Article (moved): Listen to this Article (movido)

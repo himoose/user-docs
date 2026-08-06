@@ -25,14 +25,14 @@ Jeder Eintrag der Inbox verweist auf etwas Konkretes, das Sie öffnen und bearbe
 
 Jeder Eintrag zeigt eine sinnvolle nächste Aktion, wo es angebracht ist: das Artefakt öffnen, einen Brief starten, einem Audit nachgehen, einen Entwurf durchsehen, eine Änderung freigeben oder einen fehlgeschlagenen Lauf wiederholen. So lesen Sie nicht bloß eine Benachrichtigung, sondern sind einen Klick vom Handeln entfernt.
 
-Site-Monitoring-Zusammenfassungen enthalten zusätzlich die Aktion **Ask Moose about all of this**, die die Momentaufnahme des Crawls an den [Chat](../chat/overview.md) übergibt und fragt, womit Sie beginnen sollten.
+Site-Monitoring-Zusammenfassungen enthalten zusätzlich die Aktion **Moose zu all dem fragen**, die die Momentaufnahme des Crawls an den [Chat](../chat/overview.md) übergibt und fragt, womit Sie beginnen sollten.
 
 ## Die Inbox filtern
 
 Zwei Filter bestimmen, was Sie sehen:
 
-- **Status**: Standard ist **Active**, also alles, was nicht verworfen wurde (offene, laufende und erledigte Einträge). Wechseln Sie zu einem bestimmten Status oder zu **All**, um auch verworfene Einträge einzubeziehen, die Sie eventuell wieder aufgreifen möchten.
-- **Schweregrad**: **Critical**, **Warning**, **Notice**, **Info** oder alle.
+- **Status**: Standard ist **Aktiv**, also alles, was nicht verworfen wurde (offene, laufende und erledigte Einträge). Wechseln Sie zu einem bestimmten Status oder zu **Alle**, um auch verworfene Einträge einzubeziehen, die Sie eventuell wieder aufgreifen möchten.
+- **Schweregrad**: **Kritisch**, **Warnung**, **Hinweis**, **Info** oder alle.
 
 Einträge sind nach Datum gruppiert (etwa „Gestern", „Älter") mit einer Anzahl je Gruppe, damit Sie schnell sehen, wie viel auf Sie wartet. Umfangreiche Postfächer werden seitenweise geladen statt auf einmal.
 
@@ -43,7 +43,7 @@ Einträge sind nach Datum gruppiert (etwa „Gestern", „Älter") mit einer Anz
 
 ## Steuern, was Sie benachrichtigt
 
-Klicken Sie auf **Notifications**, um Ihre projektbezogenen Benachrichtigungseinstellungen zu öffnen. Was die einzelnen Einstellungen bewirken, steht unter [Inbox-Benachrichtigungen](notifications.md).
+Klicken Sie auf **Benachrichtigungen**, um Ihre projektbezogenen Benachrichtigungseinstellungen zu öffnen. Was die einzelnen Einstellungen bewirken, steht unter [Inbox-Benachrichtigungen](notifications.md).
 
 ## Verwaltet und BYOK
 

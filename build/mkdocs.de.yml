@@ -144,34 +144,34 @@ nav:
   - Projekte und Arbeitsbereich: getting-started/projects.md
   - Einstellungen: getting-started/settings.md
   - Teamverwaltung: getting-started/team-management.md
-- Inbox:
-  - Überblick: inbox/overview.md
+- Posteingang:
+  - Übersicht: inbox/overview.md
   - Benachrichtigungen: inbox/notifications.md
-- Context:
-  - Überblick: getting-started/context/overview.md
+- Kontext:
+  - Übersicht: getting-started/context/overview.md
   - Brand Voice: getting-started/context/brand-voice.md
   - Brand Truth Profile: getting-started/context/brand-truth-profile.md
   - Über Sie: getting-started/context/about-you.md
-- Visibility:
-  - Überblick: visibility/overview.md
+- Sichtbarkeit:
+  - Übersicht: visibility/overview.md
   - Wettbewerber und Share of Voice: visibility/competitors.md
   - Prompt Manager: visibility/prompt-manager.md
   - Einstellungen: visibility/settings.md
-- Site Monitoring:
-  - Überblick: site-monitoring/overview.md
+- Website-Monitoring:
+  - Übersicht: site-monitoring/overview.md
 - Workflows:
-  - Überblick: workflows/overview.md
+  - Übersicht: workflows/overview.md
   - Verlorene Sichtbarkeit zurückgewinnen: workflows/recover-lost-visibility.md
   - Neue Inhalte erstellen: workflows/create-new-content.md
 - Chat:
-  - Überblick: chat/overview.md
+  - Übersicht: chat/overview.md
   - Chat-Werkzeuge und Spezialisten: chat/tools-and-specialists.md
   - Modellauswahl: chat/model-selection.md
   - Chats (Verlauf): chat/chats-history.md
-- Library:
-  - Überblick: library/overview.md
+- Artefakt-Bibliothek:
+  - Übersicht: library/overview.md
 - Audio:
-  - Überblick: audio/overview.md
+  - Übersicht: audio/overview.md
   - Player und Einbettung: audio/player-and-embed.md
   - Hörstatistiken: audio/analytics.md
 - Tools:

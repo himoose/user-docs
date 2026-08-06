@@ -18,7 +18,7 @@ Cela signifie que :
 
 ## Configurer une connexion
 
-1. Ouvrez **Connections** dans l'application de bureau et choisissez WordPress.
+1. Ouvrez **Connexions** dans l'application de bureau et choisissez WordPress.
 2. Téléchargez le plugin connecteur, installez-le dans votre administration WordPress, puis collez l'URL de votre site et la clé d'API de ce projet dans les réglages du plugin.
 3. De retour dans Hi, Moose, enregistrez la connexion et vérifiez que le connecteur signale un ping réussi depuis votre site.
 
@@ -30,7 +30,7 @@ Chaque installation WordPress que vous connectez (production, préproduction ou 
 
 Chaque modification WordPress, qu'elle provienne des [FAQ](../features/faq-generator.md), des [key points](../features/key-points.md), d'un [brouillon](../features/drafts-and-publishing.md) ou d'un remplacement de texte manuel que vous créez vous-même, est suivie comme un **correctif** : une entrée de registre locale, propre à chaque environnement, avec son propre statut.
 
-Un correctif passe par des états explicites : **Draft**, **Staged**, **Applied**, **Discarded**, **Rolled back** ou **Failed**. Depuis la liste des correctifs, vous pouvez :
+Un correctif passe par des états explicites : **Brouillon**, **En préparation**, **Appliqué**, **Abandonné**, **Restauré** ou **Failed**. Depuis la liste des correctifs, vous pouvez :
 
 - **Préparer** un correctif sur votre site WordPress pour l'aperçu.
 - **Appliquer** un correctif préparé pour le mettre en ligne.

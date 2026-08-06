@@ -5,13 +5,13 @@ source_hash: 8e5f176360171f83e694a39fb79a4acc54f788a8c083d72307d849f2b1f0fdf6
 
 ## Wofür das gut ist
 
-Zeigen, wie sich Ihre eingebetteten Player tatsächlich schlagen, sobald sie auf einer Seite stehen: ob Menschen sie starten, ob sie zu Ende hören und ob sie die Transkription öffnen. Zu finden unter **Audio → Analytics**.
+Zeigen, wie sich Ihre eingebetteten Player tatsächlich schlagen, sobald sie auf einer Seite stehen: ob Menschen sie starten, ob sie zu Ende hören und ob sie die Transkription öffnen. Zu finden unter **Audio → Analysen**.
 
 Statistiken erscheinen erst, nachdem Sie einen Player eingebettet haben und jemand mit dem Hören begonnen hat. Vorher zeigt der Reiter einen leeren Zustand statt Nullwerten.
 
 ## Filter
 
-Filtern Sie mit der Folgenauswahl nach einzelnen Folgen, oder belassen Sie es bei **All audio** für kontoweite Summen. Die Zeitraumauswahl ändert das Fenster des Wiedergabediagramms.
+Filtern Sie mit der Folgenauswahl nach einzelnen Folgen, oder belassen Sie es bei **Alle Audios** für kontoweite Summen. Die Zeitraumauswahl ändert das Fenster des Wiedergabediagramms.
 
 !!! note "Der Zeitraum betrifft das Diagramm, nicht die Summen"
     Das Diagramm folgt dem gewählten Zeitraum. Die Summen unter Overview und im Trichter bleiben Gesamtwerte bis zur nächsten Aktualisierung durch den Server.

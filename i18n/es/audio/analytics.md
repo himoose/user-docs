@@ -5,13 +5,13 @@ source_hash: 8e5f176360171f83e694a39fb79a4acc54f788a8c083d72307d849f2b1f0fdf6
 
 ## Para qué sirve
 
-Mostrar cómo se comportan realmente sus reproductores insertados una vez que están en una página: si la gente los inicia, si los termina y si abre la transcripción. Lo encontrará en **Audio → Analytics**.
+Mostrar cómo se comportan realmente sus reproductores insertados una vez que están en una página: si la gente los inicia, si los termina y si abre la transcripción. Lo encontrará en **Audio → Analíticas**.
 
 Las analíticas solo aparecen después de que haya insertado un reproductor en algún sitio y alguien haya empezado a escuchar. Antes de eso, la pestaña muestra un estado vacío en lugar de ceros.
 
 ## Filtros
 
-Filtre por episodio con el selector de episodios, o déjelo en **All audio** para ver los totales de toda la cuenta. Los intervalos de tiempo cambian la ventana del gráfico de reproducciones.
+Filtre por episodio con el selector de episodios, o déjelo en **Todo el audio** para ver los totales de toda la cuenta. Los intervalos de tiempo cambian la ventana del gráfico de reproducciones.
 
 !!! note "El intervalo afecta al gráfico, no a los totales"
     El gráfico sigue el intervalo que elija. Los totales de Overview y del embudo se mantienen como cifras acumuladas hasta la siguiente actualización del servidor.

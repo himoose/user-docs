@@ -1,112 +1,117 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: f081840e659e67696268902173c5c0f26e8413e1debac31049488ad42cb5c005
+---
+!!! note "Tradução automática"
+    Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-# Settings
+    [Ler em inglês](https://himoose.com/docs/getting-started/settings/)
 
-## What this helps you do
+# Configurações
 
-Settings is where you manage your profile, your plan, your models, your team, and how the app behaves on this computer. It's organized into ten sections down the left side.
+## Para que serve
 
-| Section | What's in it |
+Nas Configurações você gerencia seu perfil, seu plano, seus modelos, sua equipe e o comportamento do aplicativo neste computador. Elas estão organizadas em dez seções na coluna da esquerda.
+
+| Seção | O que contém |
 |---|---|
-| General | Profile details and app behavior on this computer |
-| Usage | Credit balance and reset date |
-| Account | Email, password, plan, OpenRouter key |
-| Local Model | On-device model download and activation |
-| Team | Seats, invitations, roles |
-| [Site Monitoring](../site-monitoring/overview.md) | Crawl schedule, search index, monitored pages, blocked paths |
-| [Branding](../agency/white-label.md) | White-label reports and audio attribution (paid plans only) |
-| Logs | Action logs and CSV export |
-| Data & Backup | Local backup and restore |
-| Troubleshooting | Cache, diagnostic log, local data reset |
+| Geral | Dados do perfil e comportamento do aplicativo neste computador |
+| Uso | Saldo de créditos e data de renovação |
+| Conta | E-mail, senha, plano, chave do OpenRouter |
+| Local Model | Download e ativação do modelo no dispositivo |
+| Equipe | Assentos, convites, funções |
+| [Monitoramento do site](../site-monitoring/overview.md) | Agendamento do rastreamento, índice de busca, páginas monitoradas, caminhos bloqueados |
+| [Marca](../agency/white-label.md) | Relatórios white label e atribuição de áudio (somente planos pagos) |
+| Logs | Registros de ações e exportação CSV |
+| Dados e backup | Backup e restauração locais |
+| Solução de problemas | Cache, registro de diagnóstico, redefinição dos dados locais |
 
-## General
+## Geral
 
-**Profile details** — your preferred name, job title, and location. These keep the app personalized and give shared work clearer attribution.
+**Dados do perfil**: seu nome preferido, sua função e sua localização. Servem para personalizar o aplicativo e deixar mais clara a atribuição do trabalho compartilhado.
 
-**App behavior** controls how Hi, Moose runs on this computer:
+**Comportamento do aplicativo** controla como o Hi, Moose roda neste computador:
 
-- **Start Hi, Moose when you log in** — after a restart, the app opens quietly in the background so scheduled work keeps running. Open the window any time from the tray or menu bar.
-- **Share anonymous usage analytics** — sends anonymous, aggregate events (which features run, app version, errors) so we can improve the product. It never sends your content, prompts, keys, or the sites you analyze, and your IP is discarded. You can turn it off any time.
+- **Iniciar o Hi, Moose ao fazer login**: depois de reiniciar, o aplicativo abre discretamente em segundo plano para que o trabalho agendado continue. Você pode abrir a janela a qualquer momento pela bandeja do sistema ou pela barra de menus.
+- **Compartilhar estatísticas de uso anônimas**: envia eventos anônimos e agregados (quais recursos rodam, versão do aplicativo, erros) para que possamos melhorar o produto. Nunca envia seu conteúdo, seus prompts, suas chaves ou os sites que você analisa, e seu IP é descartado. Você pode desativar quando quiser.
 
-## Usage
+## Uso
 
-On managed plans, this shows your credit balance and what's left this month.
+Nos planos gerenciados, aqui você vê seu saldo de créditos e o que resta do mês.
 
-!!! note "The month is UTC"
-    Credits reset at the start of each month in UTC, not your local time zone. Settings shows you the date that lands on where you are, so late on the last day of the month it can look like the reset came early.
+!!! note "O mês é contado em UTC"
+    Os créditos são renovados no início de cada mês em UTC, e não no seu fuso horário. As Configurações mostram a data correspondente onde você está, então, no fim do último dia do mês, pode parecer que a renovação chegou adiantada.
 
-BYOK plans don't consume a Hi, Moose credit balance for inference, since generation runs against your own key. Model costs go to OpenRouter directly.
+Os planos BYOK não consomem saldo de créditos do Hi, Moose para inferência, já que a geração roda com a sua chave. O custo dos modelos vai direto para o OpenRouter.
 
-## Account
+## Conta
 
-- Update your email, verify it, and reset your password on email/password accounts. Google accounts are managed through Google.
-- Email changes wait for you to confirm through a link before they take effect, and your in-app session updates afterward.
-- View your current plan and change it. See [Account Types & Plans](account-modes.md).
+- Atualize seu e-mail, verifique-o e redefina sua senha nas contas com e-mail e senha. As contas do Google são gerenciadas pelo Google.
+- As alterações de e-mail aguardam sua confirmação por link antes de entrar em vigor e, em seguida, sua sessão no aplicativo é atualizada.
+- Consulte seu plano atual e troque-o. Veja [Tipos de conta e planos](account-modes.md).
 
-### Adding your OpenRouter API key
+### Adicionar sua chave de API do OpenRouter
 
-On BYOK plans, add your [OpenRouter](https://openrouter.ai) key here. Hi, Moose validates the key before switching AI routing over to it. Once added:
+Nos planos BYOK, adicione aqui sua chave do [OpenRouter](https://openrouter.ai). O Hi, Moose valida a chave antes de direcionar o roteamento de IA para ela. Depois de adicionada:
 
-- AI features run locally in the desktop app using your key
-- You choose which supported models to use for chat and generation
-- Your key and prompts are never sent through Hi, Moose's servers for BYOK inference
+- Os recursos de IA rodam localmente no aplicativo para desktop com a sua chave
+- Você escolhe quais modelos compatíveis usar para chat e geração
+- Sua chave e seus prompts nunca passam pelos servidores do Hi, Moose na inferência BYOK
 
-The key is stored per account rather than per device, so it follows you to a new install.
+A chave é salva por conta, e não por dispositivo, então acompanha você em uma nova instalação.
 
 ## Local Model
 
-Download and activate an approved on-device model such as Gemma 4. Local execution never uses Hi, Moose's models or your OpenRouter key. It runs entirely on your machine, and it's free to run.
+Baixe e ative um modelo aprovado no dispositivo, como o Gemma 4. A execução local não usa os modelos do Hi, Moose nem sua chave do OpenRouter: ela acontece inteiramente na sua máquina e é gratuita.
 
-Local models are available on every plan, and they're **required** on Preview Mode for [AEO audits](../features/aeo-audits.md) and visibility scoring.
+Os modelos locais estão disponíveis em todos os planos e são **obrigatórios** no Preview Mode para as [auditorias de AEO](../features/aeo-audits.md) e para a avaliação de visibilidade.
 
-!!! note "Context size scales to your RAM"
-    Hi, Moose sizes the model's context window to the memory available on your machine, so the same model uses a smaller window on a 16 GB laptop than on a larger workstation.
+!!! note "O tamanho do contexto se ajusta à sua RAM"
+    O Hi, Moose dimensiona a janela de contexto do modelo conforme a memória disponível na sua máquina, então o mesmo modelo usa uma janela menor em um notebook de 16 GB do que em uma estação de trabalho maior.
 
-## Team
+## Equipe
 
-Invite members, view roles, and remove access. Seat limits depend on your plan. See [Team Management](team-management.md) for the full walkthrough.
+Convide membros, veja as funções e revogue acessos. Os limites de assentos dependem do seu plano. Veja [Gerenciamento da equipe](team-management.md) para o passo a passo completo.
 
-## Site Monitoring
+## Monitoramento do site
 
-Crawl schedule, the local search index, monitored pages, and blocked paths. This is a substantial area with its own page: **[Site Monitoring](../site-monitoring/overview.md)**.
+Agendamento do rastreamento, índice de busca local, páginas monitoradas e caminhos bloqueados. É uma área extensa e tem página própria: **[Monitoramento do site](../site-monitoring/overview.md)**.
 
-Connected CMS and data sources are separate, and live in the **Connections** screen rather than Settings:
+As conexões com CMS e fontes de dados são outra coisa e ficam na tela **Conexões**, não nas Configurações:
 
 - [WordPress](../integrations/wordpress.md)
 - [Webflow](../integrations/webflow.md)
 - [Grav](../integrations/grav.md)
 - [Google Search Console](../integrations/google-search-console.md)
 
-## Branding
+## Marca
 
-White-label your exported PDF reports and embedded audio players. Available on every paid plan, editable by the subscription owner. See **[White-Label Branding](../agency/white-label.md)**.
+Aplique sua marca aos relatórios PDF exportados e aos players de áudio incorporados. Disponível em todos os planos pagos e editável pelo titular da assinatura. Veja **[Marca white label](../agency/white-label.md)**.
 
 ## Logs
 
-Action logs for the current project, showing type, user, date, status, and metadata for each recorded action. On managed plans, team-shared logs sync in alongside your local ones.
+Registros de ações do projeto atual, com tipo, usuário, data, status e metadados de cada ação registrada. Nos planos gerenciados, os registros compartilhados da equipe sincronizam junto com os seus locais.
 
-**Export CSV** downloads them. Exporting team action logs is restricted to paid managed workspace owners.
+**Exportar CSV** faz o download. A exportação dos registros de ações da equipe é restrita aos titulares de espaços de trabalho gerenciados pagos.
 
-## Data & Backup
+## Dados e backup
 
-Create a compressed `.hmbk` backup of your on-device history, and import it later to restore.
+Crie um backup compactado `.hmbk` do seu histórico no dispositivo e importe-o depois para restaurá-lo.
 
-**Backups include** local database records and saved BYOK visibility schedules, so your briefs, audits, previews, site monitoring history, inbox state, and other non-secret workflow artifacts stay portable.
+**Os backups incluem** os registros do banco de dados local e os agendamentos de visibilidade BYOK salvos, de modo que seus briefings, auditorias, prévias, histórico de monitoramento do site, estado da Caixa de entrada e demais artefatos de trabalho não sigilosos continuem portáteis.
 
-**Backups do not include** login state, connector credentials, API keys, local model files, or file attachments.
+**Os backups não incluem** o estado de login, credenciais de conectores, chaves de API, arquivos de modelos locais nem anexos.
 
-!!! warning "Importing overwrites local data permanently"
-    An import replaces this device's local Hi, Moose data with the contents of the backup. The confirmation dialog tells you how many rows will be restored and when the backup was made. Restart the app afterward so every screen reloads from the restored data.
+!!! warning "A importação sobrescreve os dados locais de forma permanente"
+    Uma importação substitui os dados locais do Hi, Moose deste dispositivo pelo conteúdo do backup. A caixa de confirmação informa quantos registros serão restaurados e quando o backup foi criado. Reinicie o aplicativo em seguida para que todas as telas recarreguem a partir dos dados restaurados.
 
-Imports only accept `.hmbk` files exported by the Hi, Moose desktop app.
+As importações aceitam somente arquivos `.hmbk` exportados pelo aplicativo para desktop do Hi, Moose.
 
-## Troubleshooting
+## Solução de problemas
 
-Three recovery tools. All of them affect local desktop state only and never touch cloud data.
+Três ferramentas de recuperação. Todas afetam apenas o estado local do desktop e nunca tocam os dados na nuvem.
 
-**Clear transient cache** — clears the HTTP cache, service workers, and other disposable state. Keeps your login and local workflow history. Try this first.
+**Limpar o cache temporário**: apaga o cache HTTP, os service workers e outros estados descartáveis. Mantém seu login e o histórico de trabalho local. Tente isso primeiro.
 
-**Diagnostic log** — Hi, Moose keeps a small log of errors on this device. **Open log folder** takes you to it; if support asks for it, send the `main-errors.log` file. The log stays on your device unless you choose to share it.
+**Registro de diagnóstico**: o Hi, Moose mantém um pequeno registro de erros neste dispositivo. **Abrir a pasta de registros** leva você até ele; se o suporte pedir, envie o arquivo `main-errors.log`. O registro fica no seu dispositivo, a menos que você escolha compartilhá-lo.
 
-**Reset local app data** — permanently removes on-device artifacts, briefs, previews, visibility history, and other local workflow state. This can't be undone. Your login and saved connector credentials stay in place.
+**Redefinir os dados locais do aplicativo**: remove permanentemente artefatos, briefings, prévias, histórico de visibilidade e demais estados de trabalho locais do dispositivo. A ação não pode ser desfeita. Seu login e as credenciais salvas dos conectores permanecem.
