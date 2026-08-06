@@ -1,25 +1,30 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: bbf5a9a7e3ebd537b29b229f3fbb3c08ef3b7c88e0f56ddf517a97911cda6c81
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
 
-# Glossary Post
+    [La lire en anglais](https://himoose.com/docs/features/glossary-post/)
 
-## What this helps you do
+# Article de glossaire
 
-Generate a clear, definition-first glossary entry from a [content brief](content-briefs.md) — the **Glossary post** template type.
+## À quoi cela sert
 
-From [Chat](../chat/overview.md), the **Create a glossary post** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Générer une entrée de glossaire claire, centrée sur la définition, à partir d'un [brief de contenu](content-briefs.md) : le type de modèle **Glossary post**.
+
+Depuis le [Chat](../chat/overview.md), le démarrage rapide **Create a glossary post** vous guide pour confirmer une requête cible et un type de modèle avant de générer ensemble le brief et le premier brouillon.
 
 ## Structure
 
-A glossary post follows an informational, top-of-funnel structure:
+Un article de glossaire suit une structure informative, de haut de tunnel :
 
-- The term is defined clearly, in plain language, within the introduction or first section.
-- The piece stays informational first: what it is, why it matters, how it works, and where it shows up, before any call to action.
-- Concrete examples, related terms, and FAQ coverage are included when the brief calls for them.
-- It does not turn into a sales page, feature page, or heavy conversion flow — only a light next-step call to action, if the brief supports one.
+- Le terme est défini clairement, en langage simple, dès l'introduction ou la première section.
+- L'article reste avant tout informatif : ce que c'est, pourquoi cela compte, comment cela fonctionne et où cela apparaît, avant tout appel à l'action.
+- Des exemples concrets, des termes connexes et une couverture FAQ sont inclus lorsque le brief le prévoit.
+- Il ne se transforme pas en page de vente, en page de fonctionnalités ni en tunnel de conversion appuyé : tout au plus un appel à l'action léger, si le brief le permet.
 
-Right after the title, the draft includes a short **Key Points** section — 5 or 6 compressed, high-signal bullets distilled from the brief and the draft's thesis — before the main body.
+Juste après le titre, le brouillon comprend une courte section **Key Points** : cinq ou six puces compressées et à forte valeur, distillées du brief et de la thèse du brouillon, placées avant le corps principal.
 
-## Where it fits
+## Où cela s'inscrit
 
-Like every draft, a glossary post depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+Comme tout brouillon, un article de glossaire dépend de son [brief de contenu](content-briefs.md) plutôt que d'être généré à partir d'un simple prompt. Une fois généré, il suit le même [parcours Draft Studio, aperçu, approbation et publication](drafts-and-publishing.md) que n'importe quel autre brouillon.

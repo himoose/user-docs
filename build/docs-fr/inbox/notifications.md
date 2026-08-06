@@ -1,20 +1,25 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 685c1e28ae96f03a47645cdef302b5b0d4b54afda3810ab2ce0dae64df47c45a
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
 
-# Inbox Notifications
+    [La lire en anglais](https://himoose.com/docs/inbox/notifications/)
 
-## What this helps you do
+# Notifications de l'Inbox
 
-Inbox notification preferences control how — and how urgently — you're alerted when new items land in a project's [Inbox](overview.md). These settings are per-project, so a low-priority test project doesn't have to notify you the same way a client's production site does.
+## À quoi cela sert
 
-## Settings
+Les préférences de notification de l'Inbox déterminent comment, et avec quelle urgence, vous êtes averti lorsque de nouveaux éléments arrivent dans l'[Inbox](overview.md) d'un projet. Ces réglages sont propres à chaque projet : un projet de test peu prioritaire n'a donc pas à vous alerter de la même façon que le site en production d'un client.
 
-- **Show inbox badge in this app** — when off, the sidebar and dock badge won't update for this project, even though items still arrive in the Inbox itself.
-- **Show desktop notifications** — native macOS or Windows notifications when an item meets the severity threshold below.
-- **Minimum severity for desktop notifications** — choose the lowest severity that should trigger a desktop notification (e.g. Warning). Items below that threshold still appear in the Inbox, they just won't interrupt you.
-- **Email me a daily digest** — the toggle is saved, but this digest is not sent yet; it's coming soon.
-- **Include informational AEO changes** — off by default, to keep the Inbox focused on things that matter. When on, low-impact AEO changes also get sent to the Inbox. Note that desktop notifications still respect the severity threshold above even if this is on.
+## Réglages
 
-## Why these are separate from severity itself
+- **Afficher le compteur de l'Inbox dans cette application** : lorsque cette option est désactivée, le compteur de la barre latérale et du dock ne se met pas à jour pour ce projet, même si les éléments continuent d'arriver dans l'Inbox.
+- **Afficher les notifications du bureau** : notifications natives macOS ou Windows lorsqu'un élément atteint le seuil de sévérité ci-dessous.
+- **Sévérité minimale pour les notifications du bureau** : choisissez la sévérité la plus basse devant déclencher une notification. Les éléments situés sous ce seuil apparaissent toujours dans l'Inbox, ils ne vous interrompent simplement pas.
+- **M'envoyer un récapitulatif quotidien par e-mail** : le réglage est enregistré, mais ce récapitulatif n'est pas encore envoyé ; il arrive prochainement.
+- **Inclure les changements AEO informatifs** : désactivé par défaut, pour que l'Inbox reste concentré sur l'essentiel. Une fois activé, les changements AEO à faible impact sont également envoyés dans l'Inbox. Notez que les notifications du bureau respectent toujours le seuil de sévérité ci-dessus, même lorsque cette option est activée.
 
-Severity (critical, warning, notice, info) is set on the item itself based on what actually happened — it isn't something you configure. What you control here is how much of that gets surfaced as a badge, a desktop notification, or (soon) an email — so the underlying signal stays honest while you tune how loudly it's delivered.
+## Pourquoi ces réglages sont distincts de la sévérité
+
+La sévérité (critique, avertissement, avis, information) est attribuée à l'élément lui-même en fonction de ce qui s'est réellement passé : ce n'est pas un paramètre que vous configurez. Ce que vous contrôlez ici, c'est la part de cette information qui remonte sous forme de compteur, de notification du bureau ou (bientôt) d'e-mail. Le signal sous-jacent reste ainsi honnête pendant que vous en réglez le volume.

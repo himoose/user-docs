@@ -1,32 +1,37 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 8b57e0721844d9abea5dec327d239ae4880ee2cdfac6de4ba644f4300e24a272
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
 
-# Key Points Extractor
+    [La lire en anglais](https://himoose.com/docs/features/key-points/)
 
-## What this helps you do
+# Extracteur de Key Points
 
-Extract the most important ideas from long-form content into a short, scannable set of key points (a TL;DR) that you can place at the top of the piece — giving busy readers instant value and giving answer engines an easy summary to extract.
+## À quoi cela sert
 
-Key points generation uses semantic compression rather than a plain summarizer: Hi, Moose identifies what's actually important in the content, not just what's repeated most often, and produces a concise set of points that capture the core meaning.
+Extraire les idées les plus importantes d'un contenu long sous forme d'un ensemble court et facile à parcourir de points clés (un TL;DR) que vous pouvez placer en tête de l'article : une valeur immédiate pour les lecteurs pressés, et un résumé facile à extraire pour les moteurs de réponse.
 
-## Providing a source
+La génération de key points repose sur une compression sémantique plutôt que sur un simple résumé : Hi, Moose identifie ce qui est réellement important dans le contenu, et non ce qui est le plus souvent répété, puis produit un ensemble concis de points qui en restituent le sens essentiel.
 
-From [Chat](../chat/overview.md), choose the **Generate optimized Key Points** quick start (or ask for it directly), then give Hi, Moose something to work from:
+## Fournir une source
 
-- A source URL, or
-- An attached file, or
-- Pasted content
+Depuis le [Chat](../chat/overview.md), choisissez le démarrage rapide **Generate optimized Key Points** (ou demandez-le directement), puis donnez à Hi, Moose de quoi travailler :
 
-## What you get
+- Une URL source,
+- Un fichier joint, ou
+- Du contenu collé
 
-A titled set of compressed points under the source you provided, ready to reuse anywhere.
+## Ce que vous obtenez
 
-## Working with the result
+Un ensemble titré de points compressés, rattaché à la source que vous avez fournie, prêt à être réutilisé partout.
 
-- **Save** — add the key points to your [Library](../library/overview.md).
-- **Edit** — opens an editor with the source and the key points as editable markdown, with **Save** or **Save and add to page** to both save and stage the change in one step.
-- **Add Key Points to the page** — if your project has a connected CMS and the source URL matches a page there, stage the key points directly onto that page as an edit for review — see [Drafts, Preview & Publishing](drafts-and-publishing.md).
+## Travailler avec le résultat
 
-## When to skip external research
+- **Save** : ajoute les key points à votre [Library](../library/overview.md).
+- **Edit** : ouvre un éditeur avec la source et les key points en markdown modifiable, avec **Save** ou **Save and add to page** pour enregistrer et préparer la modification en une seule étape.
+- **Add Key Points to the page** : si votre projet dispose d'un CMS connecté et que l'URL source correspond à une page de ce CMS, prépare les key points directement sur cette page sous forme de modification à relire. Voir [Brouillons, aperçu et publication](drafts-and-publishing.md).
 
-Key points generation works directly from your existing content and doesn't need the [search landscape](content-briefs.md) evidence bundle by default. Only bring in outside research if you specifically want competitive or search-grounded framing — for straightforward compression of your own content, it's unnecessary overhead.
+## Quand se passer de recherche externe
+
+La génération de key points travaille directement à partir de votre contenu existant et n'a pas besoin par défaut de l'ensemble de preuves du [panorama de recherche](content-briefs.md). N'ajoutez de la recherche externe que si vous souhaitez spécifiquement un cadrage concurrentiel ou ancré dans la recherche : pour une simple compression de votre propre contenu, c'est une charge inutile.

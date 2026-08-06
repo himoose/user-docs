@@ -1,25 +1,30 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: fd74e34b467a2aec2ad0abc74e8a74c6865ee781fe1c9eceff1c780dcc8517c7
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
 
-# Blog Post Draft
+    [La lire en anglais](https://himoose.com/docs/features/blog-post-draft/)
 
-## What this helps you do
+# Brouillon d'article de blog
 
-Generate a long-form, educational blog article draft from a [content brief](content-briefs.md) — the **Blog post** template type.
+## À quoi cela sert
 
-From [Chat](../chat/overview.md), the **Create a blog post draft** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Générer le brouillon d'un article de blog long et pédagogique à partir d'un [brief de contenu](content-briefs.md) : le type de modèle **Blog post**.
+
+Depuis le [Chat](../chat/overview.md), le démarrage rapide **Create a blog post draft** vous guide pour confirmer une requête cible et un type de modèle avant de générer ensemble le brief et le premier brouillon.
 
 ## Structure
 
-A blog post draft follows an educational article structure:
+Un brouillon d'article de blog suit la structure d'un article pédagogique :
 
-- A clear introduction, logical section flow, and substantive explanation throughout.
-- The main query answered directly, then expanded with proof, examples, and FAQ coverage where the brief supports them.
-- Readable as long-form editorial content — not shaped like a landing page, solutions page, or product page.
-- A fitting next-step call to action near the end, only when the brief calls for one.
+- Une introduction claire, un enchaînement logique des sections et une explication substantielle tout du long.
+- La requête principale traitée directement, puis approfondie avec des preuves, des exemples et une couverture FAQ lorsque le brief le permet.
+- Une lecture de contenu éditorial long, et non la forme d'une landing page, d'une page de solutions ou d'une page produit.
+- Un appel à l'action adapté vers la fin, uniquement lorsque le brief en prévoit un.
 
-Right after the title, the draft includes a short **Key Points** section — 5 or 6 compressed, high-signal bullets distilled from the brief and the draft's thesis — before the main body, so readers (and answer engines) get the core takeaways immediately.
+Juste après le titre, le brouillon comprend une courte section **Key Points** : cinq ou six puces compressées et à forte valeur, distillées du brief et de la thèse du brouillon, placées avant le corps principal, afin que les lecteurs (et les moteurs de réponse) saisissent immédiatement l'essentiel.
 
-## Where it fits
+## Où cela s'inscrit
 
-Like every draft, a blog post draft depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+Comme tout brouillon, un brouillon d'article de blog dépend de son [brief de contenu](content-briefs.md) plutôt que d'être généré à partir d'un simple prompt. Une fois généré, il suit le même [parcours Draft Studio, aperçu, approbation et publication](drafts-and-publishing.md) que n'importe quel autre brouillon.

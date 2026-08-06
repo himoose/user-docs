@@ -1,50 +1,55 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 911f9de16e31d26b16256a2d2d7eb92c2a092404af37ad258c44e41c76fd53bd
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
+
+    [La lire en anglais](https://himoose.com/docs/getting-started/context/brand-voice/)
 
 # Brand Voice
 
-## What this helps you do
+## À quoi cela sert
 
-Brand Voice is the reusable style guide Hi, Moose carries into every piece of generated content for this project — content briefs, drafts, FAQs, key points, and AEO audit recommendations — so output sounds like your brand instead of generic AI writing.
+La Brand Voice est le guide de style réutilisable que Hi, Moose applique à tout le contenu généré pour ce projet (briefs de contenu, brouillons, FAQ, key points et recommandations des AEO audits), afin que le résultat sonne comme votre marque et non comme une rédaction IA générique.
 
-Brand Voice is scoped to the current [project](../projects.md): switching projects switches which Brand Voice profile is active.
+La Brand Voice est délimitée au [projet](../projects.md) en cours : changer de projet change le profil de Brand Voice actif.
 
-## Fields you can fill in
+## Champs que vous pouvez renseigner
 
-Every field is optional. The more you fill in, the more precisely generated content will match your brand.
+Tous les champs sont facultatifs. Plus vous en renseignez, plus le contenu généré correspondra précisément à votre marque.
 
-- **Brand name** — e.g. "Hi, Moose".
-- **Summary** — what agents and tools should understand about the brand at a glance.
-- **Audience** — who the brand is for, and how that audience should be described.
-- **Tone** — e.g. "calm, direct, expert, warm."
-- **Writing style** — e.g. "short paragraphs, evidence-led, operator tone."
-- **Brand values** — one value per line.
-- **Secondary brand terms** — alternate forms of your brand name, one per line.
-- **Secondary domains** — additional owned domains beyond your primary site, one per line.
-- **Preferred terminology** — terms you want used, one per line.
-- **Avoided terminology** — terms to avoid, one per line.
-- **Proof points** — claims, proof, and differentiators, one per line.
+- **Nom de la marque** : par exemple « Hi, Moose ».
+- **Résumé** : ce que les agents et les outils doivent comprendre de la marque en un coup d'œil.
+- **Public** : à qui s'adresse la marque et comment décrire ce public.
+- **Ton** : par exemple « posé, direct, expert, chaleureux ».
+- **Style rédactionnel** : par exemple « paragraphes courts, fondé sur les preuves, ton opérationnel ».
+- **Valeurs de la marque** : une valeur par ligne.
+- **Termes de marque secondaires** : variantes du nom de votre marque, une par ligne.
+- **Domaines secondaires** : autres domaines vous appartenant, en plus du site principal, un par ligne.
+- **Terminologie privilégiée** : termes que vous souhaitez voir utilisés, un par ligne.
+- **Terminologie à éviter** : termes à proscrire, un par ligne.
+- **Éléments de preuve** : affirmations, preuves et facteurs de différenciation, un par ligne.
 
-List fields (brand values, terminology, proof points, and similar) take one item per line.
+Les champs de type liste (valeurs de marque, terminologie, éléments de preuve et similaires) acceptent un élément par ligne.
 
-## Auto-fill from your website
+## Remplissage automatique depuis votre site web
 
-Instead of filling in every field by hand, you can run **Auto fill**:
+Plutôt que de renseigner chaque champ à la main, vous pouvez lancer le **remplissage automatique** :
 
-1. Confirm the project's website domain (Hi, Moose will ask for it if it isn't set yet).
-2. Hi, Moose crawls the site locally in the desktop app.
-3. Any currently empty Brand Voice fields are filled in with suggested values pulled from the crawl.
+1. Confirmez le domaine du site web du projet (Hi, Moose vous le demandera s'il n'est pas encore défini).
+2. Hi, Moose explore le site en local, dans l'application de bureau.
+3. Les champs de Brand Voice actuellement vides sont renseignés avec les valeurs suggérées issues de l'exploration.
 
-Auto-fill only fills in fields that are empty — it won't overwrite anything you've already written. If the crawl doesn't turn up anything useful for a given field, that field is simply left as-is.
+Le remplissage automatique ne renseigne que les champs vides : il n'écrase rien de ce que vous avez déjà écrit. Si l'exploration ne trouve rien d'utile pour un champ donné, ce champ est simplement laissé tel quel.
 
-## Editing and saving
+## Modifier et enregistrer
 
-Brand Voice changes are local to the project until you save them. If you navigate away with unsaved changes, Hi, Moose will ask whether you want to save before leaving, leave without saving, or stay and keep editing.
+Les modifications de la Brand Voice restent locales au projet jusqu'à leur enregistrement. Si vous quittez la page avec des modifications non enregistrées, Hi, Moose vous demandera si vous souhaitez les enregistrer avant de partir, partir sans enregistrer, ou rester et continuer à modifier.
 
-## How this differs from Brand Truth Profile
+## En quoi cela diffère du Brand Truth Profile
 
-Brand Voice is about **style** — how your brand should sound. It is not the place for factual claims about what your company sells, who it competes with, or what AI systems get wrong about you. That's what the [Brand Truth Profile](brand-truth-profile.md) is for.
+La Brand Voice concerne le **style** : la façon dont votre marque doit sonner. Ce n'est pas l'endroit pour des affirmations factuelles sur ce que vend votre entreprise, avec qui elle est en concurrence ou ce que les systèmes d'IA se trompent à votre sujet. C'est le rôle du [Brand Truth Profile](brand-truth-profile.md).
 
-## Cloud sync
+## Synchronisation cloud
 
-Brand Voice is stored locally for the current project by default. Syncing it to the cloud — so it's backed up and shared with your team — requires a paid plan. See [Context](overview.md#local-first-storage-and-cloud-sync) for details.
+Par défaut, la Brand Voice est enregistrée en local pour le projet en cours. La synchroniser avec le cloud, afin de la sauvegarder et de la partager avec votre équipe, nécessite un forfait payant. Voir [Context](overview.md) pour plus de détails.

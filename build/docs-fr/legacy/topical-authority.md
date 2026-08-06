@@ -1,27 +1,32 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 55d8ee86d437abb758c9ecbb384cf0f678344f4e731d27cf7a7625efebcb05d1
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
+
+    [La lire en anglais](https://himoose.com/docs/legacy/topical-authority/)
 
 # Topical Authority Builder
 
-!!! note "This feature lives in the legacy web app"
-    Topical Authority Builder is a legacy web app (`app.himoose.com`) feature and is not part of the desktop app. If you're a desktop app user, you can reach this feature from the account menu without creating a separate login.
+!!! note "Cette fonctionnalité se trouve dans l'ancienne application web"
+    Le Topical Authority Builder est une fonctionnalité de l'ancienne application web (`app.himoose.com`) et ne fait pas partie de l'application de bureau. Si vous utilisez l'application de bureau, vous pouvez y accéder depuis le menu du compte, sans créer de connexion distincte.
 
-## What this helps you do
+## À quoi cela sert
 
-Analyze and improve your website's topical authority — how comprehensively and credibly your site covers a specific topic. Topical Authority Builder scans your domain to discover related pages, scores your topical coverage, identifies content gaps, and recommends prioritized actions.
+Analyser et améliorer l'autorité thématique de votre site web : à quel point votre site couvre un sujet donné de façon exhaustive et crédible. Le Topical Authority Builder analyse votre domaine pour découvrir les pages connexes, évalue votre couverture thématique, repère les lacunes de contenu et recommande des actions hiérarchisées.
 
-## How it works
+## Comment cela fonctionne
 
-1. Enter your domain and the main topic you want to analyze.
-2. Choose a scan depth — Light, Standard, or Deep — which controls how many indexed pages are considered.
-3. Hi, Moose scans your domain's current coverage for the topic, groups related pages into topic clusters, and compares your coverage against what comprehensive coverage of the topic typically looks like.
-4. Review your overall topical authority score, the topic clusters found, and the content gaps identified.
-5. Work through the prioritized recommendations, ranked by impact.
+1. Saisissez votre domaine et le sujet principal que vous souhaitez analyser.
+2. Choisissez une profondeur d'analyse (Light, Standard ou Deep), qui détermine le nombre de pages indexées prises en compte.
+3. Hi, Moose analyse la couverture actuelle de votre domaine sur ce sujet, regroupe les pages connexes en grappes thématiques et compare votre couverture à ce à quoi ressemble généralement une couverture exhaustive du sujet.
+4. Consultez votre score global d'autorité thématique, les grappes thématiques trouvées et les lacunes de contenu identifiées.
+5. Traitez les recommandations hiérarchisées, classées par impact.
 
-## What you get
+## Ce que vous obtenez
 
-- An overall topical authority score.
-- The number of pages found related to the topic.
-- Topic clusters showing which subtopics your content already groups around.
-- Content gaps — subtopics you're missing or covering thinly, as opportunities for new content.
-- Prioritized recommendations for closing the highest-impact gaps.
+- Un score global d'autorité thématique.
+- Le nombre de pages trouvées en lien avec le sujet.
+- Des grappes thématiques montrant autour de quels sous-sujets votre contenu se regroupe déjà.
+- Les lacunes de contenu : sous-sujets absents ou traités superficiellement, autant d'opportunités de contenu nouveau.
+- Des recommandations hiérarchisées pour combler les lacunes à plus fort impact.

@@ -1,31 +1,36 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 3856622231055de776fe82082345666ad4d8429b9d735111e9d399831a122f47
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
 
-# AI Mode Grounding Queries
+    [La lire en anglais](https://himoose.com/docs/features/grounding-queries/)
 
-## What this helps you do
+# Requêtes de grounding d'AI Mode
 
-This workstream shows you the Google searches Gemini ran while grounding its answer to a prompt, along with the sources it cited and the grounded response it wrote.
+## À quoi cela sert
 
-!!! info "What this is, precisely"
-    Hi, Moose asks the Gemini API to answer your prompt with Google Search grounding switched on, then reads back the list of searches that model issued. It is not a recording of Google's consumer AI Mode. AI Mode is a separate surface, and it does not expose its internal queries to anyone. What you get is the closest available proxy: the same search index, the same model family, and query phrasings that closely track what AI Mode produces. Treat it as a strong signal rather than a transcript, and expect some variation between runs of the same prompt.
+Cette fonctionnalité vous montre les recherches Google que Gemini a effectuées en fondant sa réponse à un prompt, ainsi que les sources citées et la réponse ancrée qu'il a rédigée.
 
-!!! note "Availability"
-    This capability runs a managed Gemini grounding call behind the scenes, so it requires a **Paid Managed** workspace. This holds even on BYOK plans — BYOK keeps your core chat generation local, but grounding-query capture itself uses Hi, Moose managed infrastructure that costs us money to run, so it isn't included on BYOK Free or BYOK Premium. Preview Mode doesn't include it either.
+!!! info "De quoi il s'agit exactement"
+    Hi, Moose demande à l'API Gemini de répondre à votre prompt avec l'ancrage par recherche Google activé, puis relit la liste des recherches émises par ce modèle. Ce n'est pas un enregistrement de l'AI Mode grand public de Google. AI Mode est une surface distincte, qui n'expose ses requêtes internes à personne. Ce que vous obtenez est l'approximation la plus proche disponible : le même index de recherche, la même famille de modèles et des formulations de requêtes très proches de celles que produit AI Mode. Traitez cela comme un signal solide plutôt que comme une transcription, et attendez-vous à une certaine variation entre deux exécutions du même prompt.
 
-## Running it
+!!! note "Disponibilité"
+    Cette fonctionnalité lance en arrière-plan un appel d'ancrage géré à Gemini : elle nécessite donc un espace de travail **géré payant**. Cela vaut aussi sur les forfaits BYOK : BYOK garde en local la génération principale du chat, mais la capture des requêtes de grounding utilise l'infrastructure gérée de Hi, Moose, dont le fonctionnement nous coûte de l'argent. Elle n'est donc pas incluse dans BYOK Free ni BYOK Premium. Preview Mode ne l'inclut pas non plus.
 
-1. From [Chat](../chat/overview.md), choose the **Capture AI Mode grounding queries** quick start (or ask for it directly).
-2. Enter the prompt you want to inspect.
-3. Hi, Moose checks Gemini's grounding queries for that prompt and returns:
-    - The grounding queries Gemini actually used.
-    - The cited sources.
-    - The grounded response itself.
+## Comment la lancer
 
-## Why this matters
+1. Depuis le [Chat](../chat/overview.md), choisissez le démarrage rapide **Capture AI Mode grounding queries** (ou demandez-le directement).
+2. Saisissez le prompt que vous souhaitez examiner.
+3. Hi, Moose vérifie les requêtes de grounding de Gemini pour ce prompt et renvoie :
+    - Les requêtes de grounding réellement utilisées par Gemini.
+    - Les sources citées.
+    - La réponse ancrée elle-même.
 
-Grounding queries show you how an answer engine turns one prompt into a spread of real searches. That is useful for understanding why your page is or isn't getting picked up, and for spotting query variations you aren't currently tracking in [Visibility](../visibility/overview.md) or [Prompt Manager](../visibility/prompt-manager.md).
+## Pourquoi c'est important
 
-## If a run fails
+Les requêtes de grounding montrent comment un moteur de réponse transforme un seul prompt en un éventail de recherches réelles. C'est utile pour comprendre pourquoi votre page est reprise ou non, et pour repérer des variantes de requêtes que vous ne surveillez pas actuellement dans [Visibility](../visibility/overview.md) ou dans le [Prompt Manager](../visibility/prompt-manager.md).
 
-If Hi, Moose can't collect real grounding queries for a prompt, it tells you so rather than presenting a guess — try again in a moment, or double-check that the workspace has a managed subscription active.
+## Si une exécution échoue
+
+Si Hi, Moose ne parvient pas à collecter de véritables requêtes de grounding pour un prompt, il vous le dit plutôt que de présenter une supposition. Réessayez dans un instant, ou vérifiez que l'espace de travail dispose bien d'un abonnement géré actif.

@@ -1,0 +1,39 @@
+# French theme chrome. Key set must match i18n/ui/en.yml.
+
+site:
+  name: Documentation utilisateur
+  description: Documentation utilisateur de Hi, Moose - plateforme d'optimisation pour la recherche par IA
+
+header:
+  menu: Menu
+  toggleMenu: Afficher ou masquer le menu
+  toggleTheme: Changer de thème
+  toggleLayout: Changer de disposition
+
+search:
+  label: Rechercher dans la documentation...
+  placeholder: Rechercher dans la documentation...
+  labelShort: Rechercher...
+
+toc:
+  onThisPage: Sur cette page
+
+language:
+  menuAriaLabel: Choisissez une langue
+  panelLabel: Langue
+  availableAriaLabel: Langues disponibles
+  currentStatus: Actuelle
+
+stale:
+  title: Cette page n'est peut-être plus à jour
+  body: Elle a été traduite à partir d'une version antérieure de la page en anglais.
+  linkLabel: Consulter en anglais
+
+machineTranslated:
+  title: Traduction automatique
+  body: Cette page a été traduite par IA. La version anglaise fait foi.
+  linkLabel: La lire en anglais
+
+notTranslated:
+  title: Pas encore traduite
+  body: Cette page n'est pas encore disponible dans votre langue, elle s'affiche donc en anglais.

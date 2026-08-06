@@ -1,0 +1,73 @@
+# French nav titles: English title -> French title.
+#
+# Product and feature nouns stay in English where the desktop app shows them in
+# English on screen (AEO, Inbox, Library, Workflows, Share of Voice, ...), so the
+# docs and the app agree. See DOCS_I18N_PLAN.md.
+
+Home: Accueil
+
+Getting Started: Premiers pas
+Installing & Signing In: Installation et connexion
+Account Types & Plans: Types de compte et forfaits
+Projects & Workspace: Projets et espace de travail
+Settings: Paramètres
+Team Management: Gestion de l'équipe
+
+Inbox: Inbox
+Overview: Vue d'ensemble
+Notifications: Notifications
+
+Context: Context
+Brand Voice: Brand Voice
+Brand Truth Profile: Brand Truth Profile
+About You: À propos de vous
+
+Visibility: Visibility
+Competitors & Share of Voice: Concurrents et Share of Voice
+Prompt Manager: Prompt Manager
+
+Site Monitoring: Site Monitoring
+
+Workflows: Workflows
+Recover Lost Visibility: Récupérer la visibilité perdue
+Create New Content: Créer du contenu
+
+Chat: Chat
+Chat Tools & Specialists: Outils et spécialistes du chat
+Model Selection: Choix du modèle
+Chats (History): Chats (historique)
+
+Library: Library
+
+Audio: Audio
+Player & Embed: Lecteur et intégration
+Listening Analytics: Statistiques d'écoute
+
+Tools: Tools
+The Tools Menu: Le menu Tools
+Instant AI Search Brand Check: Vérification instantanée de marque dans la recherche par IA
+AEO Audits: AEO Audits
+Content Briefs: Content Briefs
+FAQ Generator: Générateur de FAQ
+Key Points Extractor: Extracteur de Key Points
+AI Mode Grounding Queries: Requêtes de grounding d'AI Mode
+ChatGPT Fan-out Queries: Requêtes fan-out de ChatGPT
+Blog Post Draft: Brouillon d'article de blog
+Glossary Post: Article de glossaire
+Landing Page Content: Contenu de landing page
+Product Page Content: Contenu de page produit
+Drafts, Preview & Publishing: Brouillons, aperçu et publication
+
+Agencies: Agences
+White-Label Branding: Marque blanche
+
+Integrations: Intégrations
+Grav: Grav
+WordPress: WordPress
+Webflow: Webflow
+Google Search Console: Google Search Console
+
+Legacy Web App: Ancienne application web
+Versus Pages (Programmatic SEO): Versus Pages (SEO programmatique)
+Topical Authority Builder: Topical Authority Builder
+Listen to this Article (moved): Listen to this Article (déplacé)

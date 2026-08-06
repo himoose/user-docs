@@ -1,81 +1,85 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: a8e831ea98a893f4158e5124991eae0686f8eb64e2448fe9541f8444c4680099
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
+
+    [La lire en anglais](https://himoose.com/docs/features/aeo-audits/)
 
 # AEO Audits
 
-## What this helps you do
+## À quoi cela sert
 
-An AEO (Answer Engine Optimization) audit scores how ready a page is to be understood, retrieved, and cited by AI systems like ChatGPT, Google AI Overviews, Perplexity, and Gemini — then gives you a prioritized, evidence-backed action plan to improve it.
+Une AEO audit (audit d'optimisation pour les moteurs de réponse) évalue la capacité d'une page à être comprise, récupérée et citée par des systèmes d'IA comme ChatGPT, Google AI Overviews, Perplexity et Gemini, puis vous remet un plan d'action hiérarchisé et étayé par des preuves pour l'améliorer.
 
-This replaces one-off "AEO tips" with a durable, comparable artifact: every audit produces a scorecard and an action plan you can revisit, and later audits on the same page can verify whether your changes actually moved the score.
+Cela remplace les « conseils AEO » ponctuels par un artefact durable et comparable : chaque audit produit une fiche de score et un plan d'action que vous pouvez reconsulter, et les audits ultérieurs sur la même page permettent de vérifier si vos modifications ont réellement fait bouger le score.
 
-## What gets scored
+## Ce qui est évalué
 
-The overall score is a weighted composite of eight categories, each scored 0–100:
+Le score global est une composition pondérée de huit catégories, chacune notée de 0 à 100 :
 
-1. **Freshness** — recency and update signals.
-2. **Structure** — headings, lists, tables, and paragraphing an answer engine can parse.
-3. **Semantic Clarity** — how tightly the content aligns to your target query and intent.
-4. **Extractability** — how easily an answer engine can lift a definition, fact, or key point.
-5. **Citation Potential** — attribution and sourcing signals, based on the page's external reference links.
-6. **Comprehensiveness** — coverage of the subtopics people and answer engines expect for the query.
-7. **Trust Signals** — consistency, specificity, and qualified claims in how the page presents attribution and sourcing. This category doesn't verify claims against outside sources — it measures how well-attributed and specific the page's own claims are.
-8. **Answer Readiness** — direct-answer placement near the top, one idea per block, clear referential language (avoiding vague "this/it/they"), and consistent entity naming. Scoring is language-aware across English, German, Spanish, French, Italian, and Portuguese.
+1. **Freshness** : signaux d'actualité et de mise à jour.
+2. **Structure** : titres, listes, tableaux et découpage en paragraphes qu'un moteur de réponse peut analyser.
+3. **Semantic Clarity** : à quel point le contenu correspond étroitement à votre requête cible et à son intention.
+4. **Extractability** : avec quelle facilité un moteur de réponse peut extraire une définition, un fait ou un point clé.
+5. **Citation Potential** : signaux d'attribution et de sourcing, fondés sur les liens de référence externes de la page.
+6. **Comprehensiveness** : couverture des sous-sujets que les personnes et les moteurs de réponse attendent pour cette requête.
+7. **Trust Signals** : cohérence, précision et nuance des affirmations dans la façon dont la page présente son attribution et ses sources. Cette catégorie ne vérifie pas les affirmations auprès de sources externes : elle mesure à quel point les affirmations de la page elle-même sont bien attribuées et précises.
+8. **Answer Readiness** : placement d'une réponse directe près du début, une idée par bloc, langage référentiel clair (en évitant les « ceci / cela / ils » vagues) et dénomination cohérente des entités. Le scoring tient compte de la langue en anglais, allemand, espagnol, français, italien et portugais.
 
-The audit also tracks Engagement, Entity Recognition, and Media Enrichment signals, though these don't factor into the overall score or appear on the scorecard.
+L'audit suit également des signaux d'Engagement, d'Entity Recognition et de Media Enrichment, même s'ils n'entrent pas dans le score global et n'apparaissent pas sur la fiche de score.
 
-## Infrastructure and retrieval checks
+## Vérifications d'infrastructure et de récupération
 
-Alongside content scoring, every audit checks whether an answer engine can actually retrieve the page at all:
+En parallèle du scoring de contenu, chaque audit vérifie si un moteur de réponse peut ne serait-ce que récupérer la page :
 
-- **AI crawler access** — checks robots.txt rules for each of the specific AI crawler tokens used by OpenAI, Anthropic, Perplexity, Google, and Bing (covering their training, indexing, and live-fetch crawlers separately, since a site can block one and allow another). A blocked retrieval or indexing crawler is flagged as critical; a blocked live-fetch agent is medium priority; a training-only block is noted as a neutral, legitimate policy choice that doesn't affect citations.
-- **Server-side rendering / client-rendered-shell detection** — most AI crawlers do not execute JavaScript. If a page's critical content only appears after client-side rendering, that's flagged as a critical, headline-level finding rather than a minor technical note, since it's a retrieval problem that comes before any content optimization matters.
-- **Retrieval hygiene** — checks a sample of internal links for broken links and redirect chains.
-- **Bing index presence** — checks whether the page appears to be indexed by Bing, since Microsoft Copilot and parts of ChatGPT search rely on Bing's index. Verdicts are deliberately conservative: an inconclusive result is reported as inconclusive rather than guessed, and a "not listed" verdict is only shown when the check has real signal to support it.
+- **Accès des robots d'IA** : vérifie les règles du robots.txt pour chacun des jetons de robots d'IA propres à OpenAI, Anthropic, Perplexity, Google et Bing (en traitant séparément leurs robots d'entraînement, d'indexation et de consultation en direct, puisqu'un site peut bloquer l'un et autoriser l'autre). Un robot de récupération ou d'indexation bloqué est signalé comme critique ; un agent de consultation en direct bloqué est de priorité moyenne ; un blocage limité à l'entraînement est noté comme un choix de politique légitime et neutre, sans effet sur les citations.
+- **Rendu côté serveur et détection de coquille rendue côté client** : la plupart des robots d'IA n'exécutent pas JavaScript. Si le contenu essentiel d'une page n'apparaît qu'après un rendu côté client, cela est signalé comme un constat critique et majeur, et non comme une note technique mineure, car c'est un problème de récupération qui précède toute optimisation de contenu.
+- **Hygiène de récupération** : vérifie un échantillon de liens internes à la recherche de liens brisés et de chaînes de redirections.
+- **Présence dans l'index Bing** : vérifie si la page semble indexée par Bing, puisque Microsoft Copilot et une partie de la recherche ChatGPT s'appuient sur l'index de Bing. Les verdicts sont délibérément prudents : un résultat non concluant est signalé comme tel plutôt que deviné, et le verdict « non référencée » n'est affiché que lorsque la vérification dispose d'un signal réel pour l'étayer.
 
-## Off-page and coverage context
+## Contexte externe et de couverture
 
-- **Citation landscape** — when live research runs, the audit reports which domains an answer engine actually cited for the target query, whether the audited site is among them, and whether third-party sources (community sites, review sites, Wikipedia, YouTube) dominate the answer. This is disclosed as context you mostly can't fix by editing your own page, rather than folded into the score.
-- **Your own visibility history** — if the audited URL has been cited in your recent [visibility runs](../visibility/overview.md), the audit pulls that in, so the recommendations account for how the page is already performing in AI answers rather than treating it as an unknown. Runs that failed are excluded from this, so an outage can't read as an absence of citations.
-- **Fan-out coverage** — checks the page against related queries an answer engine might expand the original query into (People Also Ask questions, related searches, secondary keywords). When several of these aren't addressed on the page, that becomes a concrete "cover these related questions" recommendation.
+- **Panorama des citations** : lorsqu'une recherche en direct est effectuée, l'audit indique quels domaines un moteur de réponse a réellement cités pour la requête cible, si le site audité en fait partie, et si des sources tierces (sites communautaires, sites d'avis, Wikipédia, YouTube) dominent la réponse. C'est communiqué comme un contexte que vous ne pouvez pas vraiment corriger en modifiant votre propre page, plutôt qu'intégré au score.
+- **Votre propre historique de visibilité** : si l'URL auditée a été citée dans vos [exécutions de visibilité](../visibility/overview.md) récentes, l'audit l'intègre, afin que les recommandations tiennent compte de la façon dont la page se comporte déjà dans les réponses d'IA au lieu de la traiter comme une inconnue. Les exécutions en échec en sont exclues, pour qu'une panne ne soit pas lue comme une absence de citations.
+- **Couverture fan-out** : confronte la page à des requêtes connexes vers lesquelles un moteur de réponse pourrait étendre la requête d'origine (questions « Autres questions posées », recherches associées, mots-clés secondaires). Lorsque plusieurs d'entre elles ne sont pas traitées sur la page, cela devient une recommandation concrète de « couvrir ces questions connexes ».
 
-## Evidence tiers on recommendations
+## Niveaux de preuve des recommandations
 
-Every issue and recommendation is labeled with how strong the evidence behind it is:
+Chaque problème et chaque recommandation sont étiquetés selon la solidité des preuves qui les étayent :
 
-- **Proven** — retrieval preconditions with strong empirical support (crawler access, server-side rendering, working links, search-engine indexing).
-- **Directional** — supported by large-scale observational research, but not a guarantee (answer-first placement, freshness, structural clarity).
-- **Best-practice** — plausible and low-cost, but not proven to move AI citations (adding statistics, quotations, or additional sourcing polish).
+- **Proven** : conditions préalables de récupération solidement étayées empiriquement (accès des robots, rendu côté serveur, liens fonctionnels, indexation par les moteurs).
+- **Directional** : étayées par des recherches observationnelles à grande échelle, sans garantie (placement de la réponse en tête, actualité, clarté structurelle).
+- **Best-practice** : plausibles et peu coûteuses, mais sans preuve d'effet sur les citations d'IA (ajout de statistiques, de citations ou d'un sourcing plus soigné).
 
-The audit does not recommend schema/JSON-LD markup, `llms.txt` files, or keyword-stuffing style tactics as ways to improve AI citation, since current research doesn't support treating those as citation levers.
+L'audit ne recommande ni le balisage schema/JSON-LD, ni les fichiers `llms.txt`, ni les tactiques de bourrage de mots-clés comme moyens d'améliorer les citations d'IA, la recherche actuelle ne permettant pas de les considérer comme des leviers de citation.
 
-## How many recommendations you get
+## Combien de recommandations vous obtenez
 
-Recommendation count is based on how many real issues are found, weighted by the page's overall score — a page with real problems will see more recommendations, and a page that already scores well will see fewer, sometimes none at all. The count is never padded to hit a fixed target.
+Le nombre de recommandations dépend du nombre de problèmes réels détectés, pondéré par le score global de la page : une page qui présente de vrais problèmes reçoit davantage de recommandations, une page déjà bien notée en reçoit moins, parfois aucune. Le nombre n'est jamais gonflé pour atteindre un objectif fixe.
 
-## Running an audit
+## Lancer un audit
 
-1. Provide a live URL or paste a draft, along with the target query someone would use to find this content.
-2. Hi, Moose captures a bounded snapshot of the page's content and structure, using the static (non-JavaScript-rendered) version of the page as the primary evidence, since that's closer to what most AI crawlers actually see.
-3. When useful, it collects real answer-engine or citation evidence for the target query.
-4. If your project has a connected [Google Search Console](../integrations/google-search-console.md) property for this URL, first-party search performance is factored into prioritization and recommendation safety — it does not change the underlying AEO score.
-5. Hi, Moose scores the page, creates a baseline (or verifies against a prior baseline), and assembles the audit into a durable artifact with an explicit next-action plan.
+1. Fournissez une URL en production ou collez un brouillon, ainsi que la requête cible qu'une personne emploierait pour trouver ce contenu.
+2. Hi, Moose capture un instantané délimité du contenu et de la structure de la page, en utilisant comme preuve principale la version statique (non rendue par JavaScript), car c'est ce qui se rapproche le plus de ce que voient réellement la plupart des robots d'IA.
+3. Lorsque c'est utile, il collecte de véritables preuves issues des moteurs de réponse ou des citations pour la requête cible.
+4. Si votre projet dispose d'une propriété [Google Search Console](../integrations/google-search-console.md) connectée pour cette URL, vos données de performance propriétaires entrent dans la hiérarchisation et dans la prudence des recommandations. Cela ne modifie pas le score AEO sous-jacent.
+5. Hi, Moose note la page, crée une référence (ou vérifie par rapport à une référence antérieure) et assemble l'audit en un artefact durable assorti d'un plan d'action explicite.
 
-## Verifying improvement
+## Vérifier l'amélioration
 
-Because each audit is saved as a baseline, running a new audit on the same page after making changes produces a **verification result** — showing whether the score actually improved, not just whether you made edits.
+Comme chaque audit est enregistré comme référence, relancer un audit sur la même page après modifications produit un **résultat de vérification**, qui indique si le score s'est réellement amélioré, et pas seulement si vous avez apporté des modifications.
 
-## Integrity
+## Intégrité
 
-AEO audits never fabricate evidence. If Hi, Moose can't collect the evidence or complete a scoring step for real, the audit fails explicitly and tells you why, rather than presenting a guess as a finished result. If live search and competitor research can't complete for a Paid Managed audit, the audit still finishes using the page evidence it has, with an explicit note that live research was unavailable for that run.
+Les AEO audits n'inventent jamais de preuves. Si Hi, Moose ne parvient pas à collecter les preuves ou à mener réellement à bien une étape de scoring, l'audit échoue explicitement et vous en explique la raison, plutôt que de présenter une supposition comme un résultat abouti. Si la recherche en direct et l'analyse concurrentielle ne peuvent aboutir lors d'un audit géré payant, l'audit se termine malgré tout avec les preuves de page dont il dispose, en indiquant explicitement que la recherche en direct était indisponible pour cette exécution.
 
-## Entitlements
+## Droits selon le forfait
 
-- **Preview Mode (Free)** runs audits on an activated local Gemma 4 model. There is no longer a free monthly allowance of cloud-run audits — set up a [local model](../getting-started/settings.md#local-model) and audits are free to run, as often as you like.
-- **BYOK plans** run audits locally using your own OpenRouter key.
-- **Managed plans** use Hi, Moose's managed models under your account's normal credit balance. There's no separate "audit credit" currency to track.
+- **Preview Mode (gratuit)** exécute les audits sur un modèle local Gemma 4 activé. Il n'y a plus d'allocation mensuelle gratuite d'audits dans le cloud : installez un [modèle local](../getting-started/settings.md#local-model) et les audits sont gratuits, aussi souvent que vous le souhaitez.
+- **Les forfaits BYOK** exécutent les audits en local avec votre propre clé OpenRouter.
+- **Les forfaits gérés** utilisent les modèles gérés de Hi, Moose sur le solde de crédits habituel de votre compte. Il n'y a pas de monnaie distincte de « crédits d'audit » à suivre.
 
-## Next actions from an audit
+## Actions suivantes après un audit
 
-An audit's action plan routes directly into other capabilities — generating a [content brief](content-briefs.md), staging an [edit and preview](drafts-and-publishing.md), or adding FAQs or key points — so the audit is a starting point for action, not just a report.
-
+Le plan d'action d'un audit débouche directement sur d'autres fonctionnalités : générer un [brief de contenu](content-briefs.md), préparer une [modification et son aperçu](drafts-and-publishing.md) ou ajouter des FAQ ou des key points. L'audit est donc un point de départ pour agir, et pas seulement un rapport.

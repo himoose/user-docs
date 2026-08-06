@@ -1,22 +1,27 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: f8772689cac35fb3db3b2391391de3ea27e63ee267597800996e792b83b1baf1
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
 
-# Product Page Content
+    [La lire en anglais](https://himoose.com/docs/features/product-page-content/)
 
-## What this helps you do
+# Contenu de page produit
 
-Generate product feature page copy from a [content brief](content-briefs.md) — the **Product Feature page** template type (labeled **Product page content** as a quick start in Chat).
+## À quoi cela sert
 
-From [Chat](../chat/overview.md), the **Create product page content** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Générer un texte de page de fonctionnalité produit à partir d'un [brief de contenu](content-briefs.md) : le type de modèle **Product Feature page** (intitulé **Product page content** dans les démarrages rapides du Chat).
+
+Depuis le [Chat](../chat/overview.md), le démarrage rapide **Create product page content** vous guide pour confirmer une requête cible et un type de modèle avant de générer ensemble le brief et le premier brouillon.
 
 ## Structure
 
-Product page content follows a product feature page structure, not a catalog, landing, or blog structure:
+Le contenu de page produit suit la structure d'une page de fonctionnalité, et non celle d'un catalogue, d'une landing page ou d'un blog :
 
-- Centers the draft on what the feature is, who it's for, how it works, and the concrete benefits or workflows it unlocks.
-- Includes implementation detail, proof, FAQs, and product-specific calls to action when the brief calls for them.
-- Keeps feature-detail sections from being displaced by broad industry education or top-of-funnel explanation.
+- Il centre le brouillon sur ce qu'est la fonctionnalité, à qui elle s'adresse, comment elle marche et quels bénéfices ou flux de travail concrets elle rend possibles.
+- Il inclut les détails de mise en œuvre, des preuves, des FAQ et des appels à l'action propres au produit lorsque le brief le prévoit.
+- Il évite que les sections de détail fonctionnel ne soient supplantées par de la pédagogie sectorielle générale ou des explications de haut de tunnel.
 
-## Where it fits
+## Où cela s'inscrit
 
-Like every draft, product page content depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+Comme tout brouillon, le contenu de page produit dépend de son [brief de contenu](content-briefs.md) plutôt que d'être généré à partir d'un simple prompt. Une fois généré, il suit le même [parcours Draft Studio, aperçu, approbation et publication](drafts-and-publishing.md) que n'importe quel autre brouillon.

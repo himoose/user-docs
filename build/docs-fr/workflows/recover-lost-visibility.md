@@ -1,32 +1,37 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 7907c08f25052f66801891d4fc6f24fe3bdcd307070021aede9005fe5995996b
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
 
-# Recover Lost Visibility
+    [La lire en anglais](https://himoose.com/docs/workflows/recover-lost-visibility/)
 
-## What this helps you do
+# Récupérer la visibilité perdue
 
-This is the workflow recipe for **current content** — it watches your [visibility](../visibility/overview.md) results, and when something meaningful drops, it automatically figures out whether an existing page can be fixed or whether new content is needed, and stages the work for your review.
+## À quoi cela sert
 
-## Building the workflow
+C'est la recette de workflow pour le **contenu existant** : elle surveille vos résultats de [visibilité](../visibility/overview.md) et, lorsque quelque chose baisse de façon significative, détermine automatiquement si une page existante peut être corrigée ou s'il faut du contenu inédit, puis prépare le travail pour votre relecture.
 
-The workflow reads as one sentence, built from these choices:
+## Construire le workflow
 
-> **When** [share of mentions drops / share of citations drops / share of mentions increases / share of citations increases] **by** [a threshold, 1–99 points] **for** [all topics / a specific tracked topic], Hi, Moose identifies the affected prompts, then [prepares a content fix / notifies me].
+Le workflow se lit comme une seule phrase, composée de ces choix :
 
-- **Trigger** — which metric to watch, and whether you care about drops or increases. Note that if you choose an "increases" trigger, the only available final action is **notify me** — increases don't have a content-fix path, since there's nothing to repair.
-- **Threshold** — how many points of change should count as meaningful, so normal noise doesn't trigger the workflow.
-- **Topic scope** — apply this workflow to everything you track, or scope it to one specific topic.
-- **Final action** — **prepare a content fix** (continue to the branching logic below) or **notify me** (just create an inbox item without staging any content action).
+> **Lorsque** [le share of mentions baisse / le share of citations baisse / le share of mentions augmente / le share of citations augmente] **de** [un seuil, de 1 à 99 points] **pour** [tous les thèmes / un thème surveillé précis], Hi, Moose identifie les prompts concernés, puis [prépare une correction de contenu / me prévient].
 
-## When the final action is "prepare a content fix"
+- **Déclencheur** : quel indicateur surveiller, et si ce sont les baisses ou les hausses qui vous intéressent. Notez que si vous choisissez un déclencheur de hausse, la seule action finale disponible est **me prévenir** : les hausses n'ont pas de voie de correction de contenu, puisqu'il n'y a rien à réparer.
+- **Seuil** : combien de points de variation doivent être considérés comme significatifs, afin que le bruit habituel ne déclenche pas le workflow.
+- **Portée thématique** : appliquer ce workflow à tout ce que vous surveillez, ou le limiter à un thème précis.
+- **Action finale** : **préparer une correction de contenu** (poursuit avec la logique de branchement ci-dessous) ou **me prévenir** (crée simplement un élément dans l'Inbox, sans préparer d'action de contenu).
 
-Two more choices branch on whether an existing page is a good fit:
+## Lorsque l'action finale est « préparer une correction de contenu »
 
-- **If matching pages exist** — choose what Hi, Moose should do: **run an AEO audit**, **generate FAQs + schema**, **generate key points**, or **nothing**.
-- **If no matching page exists** — choose between **create a brief and new draft** or **nothing**.
+Deux choix supplémentaires se ramifient selon qu'une page existante convient ou non :
 
-This branching is the point of the recipe: it doesn't blindly recommend a new article every time visibility drops. It checks whether fixing something you already have is the better move first, and only proposes new content when nothing existing fits.
+- **S'il existe des pages correspondantes** : choisissez ce que Hi, Moose doit faire : **lancer une AEO audit**, **générer des FAQ et le schema**, **générer des key points** ou **rien**.
+- **S'il n'existe aucune page correspondante** : choisissez entre **créer un brief et un nouveau brouillon** ou **rien**.
 
-## How it runs
+Ce branchement est tout l'intérêt de la recette : elle ne recommande pas aveuglément un nouvel article chaque fois que la visibilité baisse. Elle vérifie d'abord si corriger ce que vous avez déjà est la meilleure option, et ne propose du contenu inédit que lorsque rien d'existant ne convient.
 
-This workflow doesn't have a manual "run now" button. It evaluates automatically every time a visibility run completes, comparing the latest completed run against the previous one. When it triggers, the result — including which prompts were affected and what action was taken — lands in your [Inbox](../inbox/overview.md), linked back to the visibility change that caused it.
+## Comment il s'exécute
+
+Ce workflow n'a pas de bouton d'exécution manuelle. Il s'évalue automatiquement chaque fois qu'une exécution de visibilité se termine, en comparant la dernière exécution achevée à la précédente. Lorsqu'il se déclenche, le résultat, y compris les prompts concernés et l'action entreprise, arrive dans votre [Inbox](../inbox/overview.md), relié au changement de visibilité qui l'a provoqué.

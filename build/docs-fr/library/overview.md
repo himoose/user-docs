@@ -1,15 +1,20 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 545b690f7614ab6f5b7422350be349c1b55383430de6969e6d3a94bcc5810df9
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
+
+    [La lire en anglais](https://himoose.com/docs/library/overview/)
 
 # Library
 
-## What this helps you do
+## À quoi cela sert
 
-Library is where every durable artifact Hi, Moose generates for a project gets saved — briefs, drafts, key points, FAQs, and AEO audits — so you can find and reuse them later instead of regenerating from scratch or losing track of them in a chat transcript.
+La Library est l'endroit où chaque artefact durable généré par Hi, Moose pour un projet est enregistré (briefs, brouillons, key points, FAQ et AEO audits), afin que vous puissiez les retrouver et les réutiliser plus tard au lieu de les régénérer de zéro ou de les perdre dans une transcription de chat.
 
-## What's saved here
+## Ce qui est enregistré ici
 
-Each Library item shows its type:
+Chaque élément de la Library affiche son type :
 
 - **Content Brief**
 - **Draft**
@@ -17,47 +22,47 @@ Each Library item shows its type:
 - **FAQs**
 - **AEO Audit**
 
-Every item shows its name and when it was saved, and can be found again with the search box or by sorting the list (**Recent activity** or **Name**).
+Chaque élément affiche son nom et sa date d'enregistrement, et peut être retrouvé grâce au champ de recherche ou en triant la liste (**Recent activity** ou **Name**).
 
-Items load newest first, 50 at a time, so a large library stays fast rather than trying to render everything at once.
+Les éléments se chargent du plus récent au plus ancien, par lots de 50, afin qu'une bibliothèque volumineuse reste rapide au lieu de tenter de tout afficher d'un coup.
 
-## Grid or list view
+## Vue en grille ou en liste
 
-Switch between a grid of cards and a compact list view depending on how you like to scan a growing library. Your choice is remembered between sessions.
+Basculez entre une grille de fiches et une vue en liste compacte selon votre façon de parcourir une bibliothèque qui s'étoffe. Votre choix est mémorisé d'une session à l'autre.
 
-## Opening an item
+## Ouvrir un élément
 
-- **AEO Audits** open in a read-only view (**Open**) — an audit is a point-in-time record, not something you edit after the fact.
-- **Content Briefs, Drafts, Key Points, and FAQs** open in an editor (**Edit**) — you can revise the content directly, and for FAQs, choose whether the FAQ schema markup should auto-update to match your edits.
+- Les **AEO Audits** s'ouvrent en lecture seule (**Open**) : un audit est un instantané daté, pas un document que l'on modifie après coup.
+- Les **Content Briefs, Drafts, Key Points et FAQs** s'ouvrent dans un éditeur (**Edit**) : vous pouvez réviser le contenu directement et, pour les FAQ, choisir si le balisage schema doit se mettre à jour automatiquement pour refléter vos modifications.
 
-## Exporting
+## Exporter
 
-Every item can be **Exported** in multiple formats:
+Tous les éléments peuvent être **exportés** dans plusieurs formats :
 
 - **Markdown** (.md)
-- **HTML + Schema** (.txt) — for FAQs, includes both the FAQ HTML and the FAQPage schema markup ready to copy and paste.
-- **Word Document** (.doc)
+- **HTML + Schema** (.txt) : pour les FAQ, comprend à la fois le HTML et le balisage schema FAQPage, prêts à copier-coller.
+- **Document Word** (.doc)
 - **PDF**
-- **Plain Text** (.txt)
+- **Texte brut** (.txt)
 
-Exported AEO audits keep the Hi, Moose PDF report theme, or your own if you've set up [white-label branding](../agency/white-label.md).
+Les AEO audits exportées conservent le thème de rapport PDF de Hi, Moose, ou le vôtre si vous avez configuré la [marque blanche](../agency/white-label.md).
 
-## Private items
+## Éléments privés
 
-On paid plans with team seats, Library items are shared with your team by default. Marking an item **private** keeps it visible only to you, which is useful for work in progress you don't want a client or teammate acting on yet.
+Sur les forfaits payants avec sièges d'équipe, les éléments de la Library sont partagés avec votre équipe par défaut. Marquer un élément comme **privé** le rend visible de vous seul, ce qui est utile pour un travail en cours sur lequel vous ne voulez pas encore qu'un client ou un collègue agisse.
 
-## Removing an item
+## Supprimer un élément
 
-**Remove** permanently deletes the saved artifact from your library. Hi, Moose asks you to confirm first, since this can't be undone.
+**Remove** supprime définitivement l'artefact enregistré de votre bibliothèque. Hi, Moose vous demande confirmation au préalable, car cette action est irréversible.
 
-## Cloud sync
+## Synchronisation cloud
 
-Library items carry a per-item **Synced** or **Local only** badge, so you can tell at a glance which artifacts exist in more than one place.
+Les éléments de la Library portent une étiquette individuelle **Synced** ou **Local only**, pour voir d'un coup d'œil quels artefacts existent à plus d'un endroit.
 
-Cloud sync backs up your briefs, drafts, and other artifacts so they're reachable across devices and survive anything happening to this machine. It's available on **every paid plan**, including paid BYOK plans — a BYOK Premium team gets a shared library, not one stranded on whichever machine produced each artifact.
+La synchronisation cloud sauvegarde vos briefs, brouillons et autres artefacts afin qu'ils soient accessibles depuis plusieurs appareils et survivent à tout incident sur cette machine. Elle est disponible sur **tous les forfaits payants**, y compris les forfaits BYOK payants : une équipe BYOK Premium dispose d'une bibliothèque partagée, et non d'une bibliothèque bloquée sur la machine qui a produit chaque artefact.
 
-Preview Mode and BYOK Free stay local only, which is what keeps the free plans free of cloud cost.
+Preview Mode et BYOK Free restent en local uniquement, ce qui permet aux forfaits gratuits de rester sans coût cloud.
 
-## Where items come from
+## D'où viennent les éléments
 
-Library items are created wherever you generate them — [Content Briefs](../features/content-briefs.md), [FAQ Generator](../features/faq-generator.md), [Key Points Extractor](../features/key-points.md), [Drafts](../features/drafts-and-publishing.md), [AEO Audits](../features/aeo-audits.md), and [Workflows](../workflows/overview.md) runs — and from [Chat](../chat/overview.md), where you can attach a saved Library item as context for a new conversation.
+Les éléments de la Library sont créés là où vous les générez : [Content Briefs](../features/content-briefs.md), [générateur de FAQ](../features/faq-generator.md), [extracteur de Key Points](../features/key-points.md), [brouillons](../features/drafts-and-publishing.md), [AEO Audits](../features/aeo-audits.md) et exécutions de [Workflows](../workflows/overview.md). Également depuis le [Chat](../chat/overview.md), où vous pouvez joindre un élément enregistré de la Library comme contexte pour une nouvelle conversation.

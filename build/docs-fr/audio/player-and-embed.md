@@ -1,47 +1,52 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: b5d0a07f31228ccaaa2c18a76dddb8de404f3871f7b879591e111c89bae3e9c5
+---
+!!! note "Traduction automatique"
+    Cette page a été traduite par IA. La version anglaise fait foi.
 
-# Player & Embed
+    [La lire en anglais](https://himoose.com/docs/audio/player-and-embed/)
 
-## What this helps you do
+# Lecteur et intégration
 
-Style the embedded audio player to match the page it's going on, then copy the embed code. Open it from a finished episode with **Customize player**, or from the **History** tab's embed action.
+## À quoi cela sert
 
-## Player options
+Adapter le style du lecteur audio intégré à la page qui va l'accueillir, puis copier le code d'intégration. Ouvrez-le depuis un épisode terminé avec **Customize player**, ou depuis l'action d'intégration de l'onglet **History**.
 
-- **Theme** — Dark, Light, or Auto. Auto follows each visitor's device setting.
-- **Layout** — Full or Compact.
-- **Accent color** — any 6-digit hex value, for example `#5688b0`.
-- **Show the title** — turn it off when the embed sits under your own headline.
-- **Custom title** — leave blank to use the episode title.
-- **Transcript button** — show or hide the transcript toggle on the player.
+## Options du lecteur
 
-A live preview updates as you change settings. If the player script isn't reachable when you're previewing, the preview falls back to plain markup — the copied embed code is still correct.
+- **Thème** : Dark, Light ou Auto. Auto suit le réglage de l'appareil de chaque visiteur.
+- **Disposition** : Full ou Compact.
+- **Couleur d'accent** : n'importe quelle valeur hexadécimale à 6 chiffres, par exemple `#5688b0`.
+- **Afficher le titre** : désactivez-le lorsque l'intégration se place sous votre propre titre.
+- **Titre personnalisé** : laissez vide pour utiliser le titre de l'épisode.
+- **Bouton de transcription** : affichez ou masquez le bouton de transcription du lecteur.
 
-## Copying the embed code
+Un aperçu en direct se met à jour à mesure que vous modifiez les réglages. Si le script du lecteur est inaccessible pendant l'aperçu, celui-ci se rabat sur un balisage simple ; le code d'intégration copié reste correct.
 
-Click **Copy embed code** and paste it into your page.
+## Copier le code d'intégration
 
-- **WordPress** — paste into the post's HTML or code block, or use the [Listen to This Article plugin](https://wordpress.org/plugins/listen-to-this-article/).
-- **Webflow** — paste into an Embed element.
-- **Grav** — paste into the page content where raw HTML is allowed.
+Cliquez sur **Copy embed code** et collez-le dans votre page.
 
-## Playback is domain-locked
+- **WordPress** : collez-le dans le bloc HTML ou code de l'article, ou utilisez le [plugin Listen to This Article](https://wordpress.org/plugins/listen-to-this-article/).
+- **Webflow** : collez-le dans un élément Embed.
+- **Grav** : collez-le dans le contenu de la page, là où le HTML brut est autorisé.
 
-Generated audio only plays on your project's website domain and on `himoose.com`. This is set from the project's website field, and it's why that field has to be filled in before you can generate. If you embed the player on a domain that isn't whitelisted, playback will be refused.
+## La lecture est restreinte par domaine
 
-## Agency attribution
+L'audio généré ne se lit que sur le domaine du site web de votre projet et sur `himoose.com`. Ce réglage provient du champ site web du projet, et c'est la raison pour laquelle ce champ doit être renseigné avant toute génération. Si vous intégrez le lecteur sur un domaine non autorisé, la lecture sera refusée.
 
-On plans with [white-label branding](../agency/white-label.md), the embedded player can carry your agency's attribution instead of Hi, Moose's. Set it in **Settings → Branding**:
+## Attribution d'agence
 
-- **Audio embed attribution** — the text shown on the player. Leave it empty to use "Audio by" plus your agency name.
-- **Attribution link** — a full `https://` address. Leave it empty to reuse your main branding link.
+Sur les forfaits avec [marque blanche](../agency/white-label.md), le lecteur intégré peut porter l'attribution de votre agence plutôt que celle de Hi, Moose. Cela se règle dans **Paramètres → Branding** :
 
-The attribution is a real link back to your site from every client page carrying the player, which is the point of it for agencies.
+- **Attribution de l'intégration audio** : le texte affiché sur le lecteur. Laissez-le vide pour utiliser « Audio by » suivi du nom de votre agence.
+- **Lien d'attribution** : une adresse `https://` complète. Laissez-le vide pour réutiliser votre lien de marque principal.
 
-!!! warning "Attribution applies to embed code copied after saving"
-    Changing branding doesn't rewrite embeds you've already placed. Copy the embed code again after saving to pick up new attribution.
+L'attribution constitue un véritable lien de retour vers votre site depuis chaque page client portant le lecteur, et c'est tout son intérêt pour les agences.
 
-## Why this helps AEO
+!!! warning "L'attribution s'applique au code copié après enregistrement"
+    Modifier la marque ne réécrit pas les intégrations déjà en place. Recopiez le code d'intégration après enregistrement pour récupérer la nouvelle attribution.
 
-The transcript adds crawlable, structured, first-hand text to the page. That's additional real content an answer engine can retrieve and quote, and it can support the extractability and comprehensiveness signals in an [AEO Audit](../features/aeo-audits.md). It isn't a scored "has media" factor on its own — the value is in the text the player brings with it.
+## En quoi cela aide l'AEO
+
+La transcription ajoute à la page un texte structuré, propriétaire et explorable. C'est du contenu réel supplémentaire qu'un moteur de réponse peut récupérer et citer, et cela peut renforcer les signaux d'extractibilité et d'exhaustivité d'une [AEO audit](../features/aeo-audits.md). Ce n'est pas en soi un critère noté de « présence multimédia » : la valeur réside dans le texte que le lecteur apporte avec lui.
