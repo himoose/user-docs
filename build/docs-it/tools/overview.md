@@ -1,54 +1,59 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: a520f220686779a4e43944e38365ca5142c3e85eb20112e98bb99e9f73e340de
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# The Tools Menu
+    [Leggila in inglese](https://himoose.com/docs/tools/overview/)
 
-## What this helps you do
+# Il menu Tools
 
-The **Tools** menu in the top bar is the fastest way to start a specific piece of work. Open it, search or pick a tool, and Hi, Moose opens the right intake flow instead of making you describe what you want in chat.
+## A cosa serve
 
-Press **Enter** to run the highlighted tool and **Esc** to close. The search box filters across every tool by name.
+Il menu **Tools** nella barra superiore è il modo più rapido per avviare un'attività precisa. Lo apra, cerchi o scelga uno strumento, e Hi, Moose aprirà il modulo giusto invece di farle descrivere ciò che desidera nella chat.
 
-## What's in it
+Prema **Invio** per eseguire lo strumento evidenziato ed **Esc** per chiudere. Il campo di ricerca filtra tutti gli strumenti per nome.
 
-Tools are grouped by what you're trying to do.
+## Che cosa contiene
+
+Gli strumenti sono raggruppati in base a ciò che sta cercando di fare.
 
 ### Audit & capture
 
-| Tool | What it does |
+| Strumento | Funzione |
 |---|---|
-| [AEO Audit a URL](../features/aeo-audits.md) | Score any page for answer-engine readiness |
-| [Capture ChatGPT fan-out queries](../features/fan-out-queries.md) | See the sub-questions behind a prompt |
-| [Capture Google AI Mode grounding queries](../features/grounding-queries.md) | Log the searches AI Mode runs to ground an answer |
+| [Analizzare una URL con AEO](../features/aeo-audits.md) | Valuta qualsiasi pagina per i motori di risposta |
+| [Acquisire le query fan-out di ChatGPT](../features/fan-out-queries.md) | Mostra le sotto-domande dietro un prompt |
+| [Acquisire le query di grounding di Google AI Mode](../features/grounding-queries.md) | Registra le ricerche che AI Mode esegue per fondare una risposta |
 
 ### Enrich a page
 
-| Tool | What it does |
+| Strumento | Funzione |
 |---|---|
-| [Generate FAQs](../features/faq-generator.md) | Pull answerable questions from a page |
-| [Generate key points](../features/key-points.md) | Summarize a page into citable takeaways |
-| [Convert text into audio](../audio/overview.md) | Turn any doc into a narrated track |
+| [Generare FAQ](../features/faq-generator.md) | Estrae da una pagina domande a cui si può rispondere |
+| [Generare key points](../features/key-points.md) | Sintetizza una pagina in conclusioni citabili |
+| [Convertire testo in audio](../audio/overview.md) | Trasforma qualsiasi documento in una traccia narrata |
 
 ### Write
 
-| Tool | What it does |
+| Strumento | Funzione |
 |---|---|
-| [Create an optimized blog post](../features/blog-post-draft.md) | Draft a post built to be cited |
-| [Write optimized product page copy](../features/product-page-content.md) | Rewrite product copy for answer engines |
-| [Create landing page content](../features/landing-page-content.md) | A full page, structured for AI answers |
-| [Create a new glossary post](../features/glossary-post.md) | Define a term so engines can cite it |
-| [Create a content brief](../features/content-briefs.md) | Outline, entities, and questions to cover |
+| [Creare un articolo di blog ottimizzato](../features/blog-post-draft.md) | Redige un articolo pensato per essere citato |
+| [Scrivere testi ottimizzati per pagina prodotto](../features/product-page-content.md) | Riscrive i testi di prodotto per i motori di risposta |
+| [Creare contenuti per landing page](../features/landing-page-content.md) | Una pagina completa, strutturata per le risposte dell'IA |
+| [Creare una voce di glossario](../features/glossary-post.md) | Definisce un termine perché i motori possano citarlo |
+| [Creare un brief di contenuto](../features/content-briefs.md) | Struttura, entità e domande da coprire |
 
-## You don't have to use the menu
+## Non è obbligato a usare il menu
 
-Everything in the Tools menu can also be started by just asking for it in [chat](../chat/overview.md). Moose reads what you're asking for and opens the same intake flow.
+Tutto ciò che si trova nel menu Tools può essere avviato anche semplicemente chiedendolo nella [chat](../chat/overview.md). Moose interpreta la sua richiesta e apre lo stesso modulo.
 
-The menu exists because sometimes you know exactly what you want and typing a sentence is slower than picking it off a list. Neither route is more capable than the other.
+Il menu esiste perché a volte lei sa esattamente che cosa vuole e scrivere una frase è più lento che sceglierlo da un elenco. Nessuna delle due vie è più capace dell'altra.
 
-!!! note "Explicit requests open the tool; hints only suggest it"
-    When you clearly ask for something ("audit this URL"), Moose opens that tool directly. When your question only implies it, Moose answers the question and offers the tool as a one-tap suggestion underneath rather than hijacking the conversation.
+!!! note "Le richieste esplicite aprono lo strumento; le allusioni lo suggeriscono soltanto"
+    Quando chiede chiaramente qualcosa («analizza questa URL»), Moose apre subito quello strumento. Quando la sua domanda lo lascia solo intendere, Moose risponde alla domanda e propone lo strumento come suggerimento a un tocco lì sotto, invece di dirottare la conversazione.
 
-## Related
+## Vedi anche
 
-- **[Instant AI Search Brand Check](instant-brand-check.md)** — check a single query across five engines right now.
-- **[Drafts, Preview & Publishing](../features/drafts-and-publishing.md)** — what happens after a tool produces content.
+- **[Verifica istantanea del marchio](instant-brand-check.md)**: interrogare una query su cinque motori subito.
+- **[Bozze, anteprima e pubblicazione](../features/drafts-and-publishing.md)**: che cosa succede dopo che uno strumento ha prodotto contenuti.

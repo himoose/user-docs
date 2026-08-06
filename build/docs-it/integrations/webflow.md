@@ -1,31 +1,35 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 67912e0c53e927d4836f8b9c545fb59268db0fbc9165037df2930f6cfada0988
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
+
+    [Leggila in inglese](https://himoose.com/docs/integrations/webflow/)
 
 # Webflow
 
-## What this helps you do
+## A cosa serve
 
-Connect a Webflow site so Hi, Moose can inspect its pages and content, and stage previewable edits for publishing — FAQs, key points, brief-driven drafts, and AEO audit recommendations.
+Collegare un sito Webflow perché Hi, Moose possa esaminarne pagine e contenuti e preparare modifiche visualizzabili in anteprima per la pubblicazione: FAQ, key points, bozze basate su brief e raccomandazioni degli AEO audits.
 
-## Setting up a connection
+## Configurare una connessione
 
-1. Open **Connections** in the desktop app and choose Webflow.
-2. Click **Connect Webflow MCP** — this opens Webflow's authorization page in your system browser. Complete OAuth there to finish connecting.
-3. Once connected, choose which authorized Webflow site Hi, Moose should use for this [project](../getting-started/projects.md).
+1. Apra **Connections** nell'app desktop e scelga Webflow.
+2. Faccia clic su **Connect Webflow MCP**. Si apre la pagina di autorizzazione di Webflow nel suo browser. Completi lì la procedura OAuth per concludere la connessione.
+3. Una volta connesso, scelga quale sito Webflow autorizzato Hi, Moose debba usare per questo [progetto](../getting-started/projects.md).
 
-## Staging a preview target
+## Preparare una destinazione di anteprima
 
-Hi, Moose can discover **content surfaces** on your connected Webflow site — pages, posts, collection items, and custom code — plus a blank new-page shell for content that doesn't exist yet. Pick a target, add notes about the edit or publishing intent, and stage it as a preview target. From there, review the staged draft the same way as any other connection — see [Drafts, Preview & Publishing](../features/drafts-and-publishing.md).
+Hi, Moose può individuare **superfici di contenuto** sul suo sito Webflow collegato: pagine, articoli, elementi di collection e codice personalizzato, oltre a una pagina vuota per contenuti che ancora non esistono. Scelga una destinazione, aggiunga note sulla modifica o sull'intenzione di pubblicazione e la prepari come destinazione di anteprima. Da lì rivede la bozza preparata esattamente come con qualsiasi altra connessione. Veda [Bozze, anteprima e pubblicazione](../features/drafts-and-publishing.md).
 
-## Preview and publish readiness
+## Prontezza per anteprima e pubblicazione
 
-Not every Webflow connection can do everything yet. Hi, Moose reports one of a few readiness states for your connected site: ready for both staging preview artifacts and publishing, preview-only, publish-only, or connected but not yet ready for either. Designer-only surfaces (changes that require the Webflow Designer directly) aren't supported yet.
+Non tutte le connessioni Webflow riescono ancora a fare tutto. Hi, Moose segnala per il suo sito collegato uno tra vari stati: pronto sia a preparare anteprime sia a pubblicare, solo anteprima, solo pubblicazione, oppure collegato ma non ancora pronto per nessuna delle due. Le superfici gestibili unicamente nel Designer (modifiche che richiedono direttamente il Webflow Designer) non sono ancora supportate.
 
-## Publishing to collections
+## Pubblicare nelle collection
 
-When you publish to a collection, Hi, Moose loads the collection's other required fields first and asks you to fill them in, so a publish doesn't fail partway through on a field you couldn't see.
+Quando pubblica in una collection, Hi, Moose carica prima gli altri campi obbligatori di quella collection e le chiede di compilarli, perché una pubblicazione non fallisca a metà strada per un campo che lei non poteva vedere.
 
-## Security
+## Sicurezza
 
-Webflow authorization happens through your system browser, and the resulting connection is used only by the desktop app's background process — not exposed to the renderer UI.
-
+L'autorizzazione di Webflow avviene tramite il suo browser, e la connessione che ne deriva viene usata soltanto dal processo in background dell'app desktop; non viene esposta all'interfaccia utente.

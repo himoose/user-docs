@@ -1,15 +1,20 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 3d580f650a10ac332979413d4663c7fecfdcccd56bcc167b4cc56b3e5e150adb
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# Listen to this Article (Audio Generation)
+    [Leggila in inglese](https://himoose.com/docs/legacy/listen-to-this-article/)
 
-!!! note "This feature has moved into the desktop app"
-    Audio generation is no longer part of the legacy web app. It now lives in the Hi, Moose desktop app under **Audio**, with project scoping, listening analytics, and player customization the web version didn't have.
+# Listen to this Article (generazione audio)
 
-Go to:
+!!! note "Questa funzione si è spostata nell'app desktop"
+    La generazione audio non fa più parte della vecchia app web. Ora si trova nell'app desktop di Hi, Moose, sotto **Audio**, con delimitazione per progetto, statistiche di ascolto e personalizzazione del player che la versione web non aveva.
 
-- **[Audio overview](../audio/overview.md)** — sources, conversation settings, voices, and history.
-- **[Player & Embed](../audio/player-and-embed.md)** — theme, layout, embed code, and agency attribution.
-- **[Listening Analytics](../audio/analytics.md)** — plays, completion rate, and the engagement funnel.
+Prosegua qui:
 
-Episodes you generated in the legacy web app are unaffected. Embeds already placed on your site keep working.
+- **[Panoramica di Audio](../audio/overview.md)**: sorgenti, impostazioni della conversazione, voci e cronologia.
+- **[Player e incorporamento](../audio/player-and-embed.md)**: tema, disposizione, codice di incorporamento e attribuzione dell'agenzia.
+- **[Statistiche di ascolto](../audio/analytics.md)**: riproduzioni, tasso di completamento e imbuto di coinvolgimento.
+
+Gli episodi generati nella vecchia app web non sono interessati. Gli incorporamenti già presenti sul suo sito continuano a funzionare.

@@ -1,23 +1,28 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 74350e56e731651f6ec3d16f665469ed0f3a02cd5ed2fd4ddca3af2f63feb121
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# Landing Page Content
+    [Leggila in inglese](https://himoose.com/docs/features/landing-page-content/)
 
-## What this helps you do
+# Contenuti per landing page
 
-Generate conversion-focused landing page copy from a [content brief](content-briefs.md) — the **Landing page** template type.
+## A cosa serve
 
-From [Chat](../chat/overview.md), the **Create landing page content** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Generare da un [brief di contenuto](content-briefs.md) testi per landing page orientati alla conversione: il tipo di modello **Landing page**.
 
-## Structure
+Dalla [Chat](../chat/overview.md), l'avvio rapido **Create landing page content** la accompagna nel confermare una query obiettivo e un tipo di modello prima di generare insieme il brief e la prima bozza.
 
-Landing page content follows a conversion-page structure, not an article structure:
+## Struttura
 
-- Leads with the value proposition and user outcome, instead of a long educational introduction.
-- Includes clear problem framing, solution framing, proof, objection handling, and calls to action where the brief supports them.
-- Sections stay modular and scannable, so the page reads like live landing-page copy rather than a long-form article.
-- Stays out of glossary-style explanation, thought-leadership framing, or broad educational detours unless the brief explicitly requires them.
+I contenuti per landing page seguono la struttura di una pagina di conversione, non quella di un articolo:
 
-## Where it fits
+- Aprono con la proposta di valore e il risultato per l'utente, invece che con una lunga introduzione divulgativa.
+- Comprendono un'esposizione chiara del problema e della soluzione, prove, gestione delle obiezioni e inviti all'azione dove il brief lo consente.
+- Le sezioni restano modulari e facili da scorrere, così la pagina si legge come un vero testo di landing page e non come un articolo lungo.
+- Evitano spiegazioni in stile glossario, impostazioni da leader di pensiero e digressioni divulgative generali, salvo che il brief le richieda espressamente.
 
-Like every draft, landing page content depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+## Dove si collocano
+
+Come ogni bozza, i contenuti per landing page si appoggiano al loro [brief di contenuto](content-briefs.md) anziché essere generati da un semplice prompt. Una volta creati, seguono lo stesso [percorso di Draft Studio, anteprima, approvazione e pubblicazione](drafts-and-publishing.md) di qualsiasi altra bozza.

@@ -1,33 +1,38 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 6b626247301ccb574a07ca68954224dc2c2db39fba0d3b67fb3b922f16cabd30
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# About You
+    [Leggila in inglese](https://himoose.com/docs/getting-started/context/about-you/)
 
-## What this helps you do
+# Su di lei
 
-About You is personal context about **you** — the person using Hi, Moose — so chat can feel more like working with a coworker who knows you, rather than a tool you have to re-explain yourself to every session.
+## A cosa serve
 
-Unlike [Brand Voice](brand-voice.md) and the [Brand Truth Profile](brand-truth-profile.md), About You is **not scoped to a project**. It's tied to you and stored locally on this device, so it stays the same as you switch between projects.
+«Su di lei» è il contesto personale che la riguarda, **lei**, la persona che usa Hi, Moose, perché la chat somigli più al lavoro con un collega che la conosce che a uno strumento a cui deve rispiegarsi a ogni sessione.
 
-Everything here is optional, and everything stays on your machine.
+A differenza di [Brand Voice](brand-voice.md) e [Brand Truth Profile](brand-truth-profile.md), «Su di lei» **non è delimitato a un progetto**. Queste informazioni sono legate a lei e vengono salvate in locale su questo dispositivo, perciò restano invariate quando passa da un progetto all'altro.
 
-## Fields you can fill in
+Tutto qui è facoltativo, e tutto resta sulla sua macchina.
 
-- **Your role** — e.g. "Head of Marketing at a SaaS startup."
-- **Your team** — e.g. "small content team of 3, working with one designer."
-- **What you focus on** — one area per line, e.g. AEO, blog growth, podcast distribution.
-- **Long-term goals** — what success looks like for you over the next few quarters.
-- **How you like Moose to talk to you** — e.g. "short answers first, then detail if I ask. Skip pep talks."
-- **Anything else Moose should remember** — quirks, constraints, or recurring context that would help a teammate work with you better.
+## Campi che può compilare
 
-## Editing and clearing
+- **Il suo ruolo**: per esempio «responsabile marketing in una startup SaaS».
+- **Il suo team**: per esempio «piccolo team di contenuti di 3 persone, con un designer».
+- **Su cosa si concentra**: un'area per riga, per esempio AEO, crescita del blog, distribuzione di podcast.
+- **Obiettivi a lungo termine**: che cosa significa successo per lei nei prossimi trimestri.
+- **Come preferisce che Moose le parli**: per esempio «prima risposte brevi, poi i dettagli se li chiedo. Niente discorsi motivazionali».
+- **Qualsiasi altra cosa che Moose dovrebbe ricordare**: particolarità, vincoli o contesto ricorrente che aiuterebbe un collega a lavorare meglio con lei.
 
-Add or edit any of these fields from the About You card in Context. If you'd rather not have any personal context stored, you can clear it at any time — clearing removes everything saved here.
+## Modificare e cancellare
 
-## Where it's used
+Aggiunga o modifichi questi campi dalla scheda «Su di lei» dentro Context. Se preferisce non conservare alcun contesto personale, può cancellarlo in qualsiasi momento: la cancellazione rimuove tutto ciò che è salvato qui.
 
-About You is included as background context when you use [Chat](../../chat/overview.md), so responses can reflect your role, goals, and preferred communication style without you needing to repeat them.
+## Dove viene usato
 
-## Storage
+«Su di lei» viene incluso come contesto di sfondo quando utilizza la [Chat](../../chat/overview.md), perché le risposte tengano conto del suo ruolo, dei suoi obiettivi e del suo stile di comunicazione preferito senza che lei debba ripeterli.
 
-About You always stays local to this device — it is not part of the paid-plan cloud sync that applies to Brand Voice and the Brand Truth Profile, since it's personal to you rather than shared team context.
+## Archiviazione
+
+«Su di lei» resta sempre in locale su questo dispositivo. Queste informazioni non rientrano nella sincronizzazione in cloud dei piani a pagamento che riguarda Brand Voice e Brand Truth Profile, perché sono personali e non costituiscono contesto condiviso del team.

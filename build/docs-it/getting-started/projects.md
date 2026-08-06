@@ -1,33 +1,38 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: e96cd8b5f8823c1fb071deaee6515896c4117d09c1e03a47d374c6e66b43e7ec
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# Projects & Workspace
+    [Leggila in inglese](https://himoose.com/docs/getting-started/projects/)
 
-## What this helps you do
+# Progetti e spazio di lavoro
 
-A project is a workspace in the Hi, Moose desktop app scoped to one website, brand, or client. Each project holds its own [Context](context/overview.md) (Brand Voice and Brand Truth Profile), competitors, connections (WordPress, Webflow, Google Search Console), visibility tracking, briefs, drafts, and publish history.
+## A cosa serve
 
-Projects keep separate brands or clients from bleeding into each other — visibility monitoring, generated content, and connections for one project never show up in another.
+Un progetto è uno spazio di lavoro dell'app desktop di Hi, Moose delimitato a un sito, un marchio o un cliente. Ogni progetto contiene il proprio [Context](context/overview.md) (Brand Voice e Brand Truth Profile), i suoi concorrenti, le sue connessioni (WordPress, Webflow, Google Search Console), il suo monitoraggio della visibilità, i suoi brief, le sue bozze e la sua storia di pubblicazione.
 
-## When to use multiple projects
+I progetti impediscono che marchi o clienti distinti si mescolino: il monitoraggio della visibilità, i contenuti generati e le connessioni di un progetto non compaiono mai in un altro.
 
-- **Agency work** — one project per client or website
-- **Multiple brands** — a separate project per brand you manage
-- **Testing** — a throwaway project to try a workflow before running it on a production site
+## Quando usare più progetti
 
-Your [plan](account-modes.md) determines how many active projects you can have at once. Preview Mode and BYOK Free include 1, BYOK Premium includes 3, BYOK Agency includes 25, and managed plans range from 3 to unlimited. Every paid plan can add extra projects for $10/month each.
+- **Lavoro di agenzia**: un progetto per cliente o per sito
+- **Più marchi**: un progetto separato per ciascun marchio che gestisce
+- **Prove**: un progetto usa e getta per collaudare un workflow prima di eseguirlo su un sito in produzione
 
-## Setting up a project
+Il suo [piano](account-modes.md) determina quanti progetti attivi può avere contemporaneamente. Preview Mode e BYOK Free ne includono 1, BYOK Premium 3, BYOK Agency 25, e i piani gestiti vanno da 3 a illimitati. Tutti i piani a pagamento possono aggiungere progetti extra a 10 USD al mese ciascuno.
 
-1. Open the project switcher from the desktop app's sidebar.
-2. Create a new project and give it a name.
-3. Enter the project's primary domain — this is used to hydrate initial brand context automatically and to scope visibility tracking, AEO audits, and content actions to the right site.
-4. Connect the project to a CMS (see [WordPress](../integrations/wordpress.md) or [Webflow](../integrations/webflow.md)) if you plan to publish directly from Hi, Moose.
+## Creare un progetto
 
-## Switching projects
+1. Apra il selettore dei progetti dalla barra laterale dell'app desktop.
+2. Crei un nuovo progetto e gli assegni un nome.
+3. Inserisca il dominio principale del progetto. Serve a caricare automaticamente il contesto di marca iniziale e a delimitare al sito corretto il monitoraggio della visibilità, gli AEO audits e le azioni sui contenuti.
+4. Colleghi il progetto a un CMS (veda [WordPress](../integrations/wordpress.md) o [Webflow](../integrations/webflow.md)) se intende pubblicare direttamente da Hi, Moose.
 
-Switching your active project changes the context for every feature in the app — visibility data, Brand Voice, Brand Truth Profile, briefs, drafts, and connections all follow the active project. Your [About You](context/about-you.md) notes are the one exception — they stay with you across every project. Use the project switcher any time you need to move between clients or brands.
+## Cambiare progetto
 
-## Team projects
+Cambiare il progetto attivo modifica il contesto di ogni funzione dell'app: dati di visibilità, Brand Voice, Brand Truth Profile, brief, bozze e connessioni seguono il progetto attivo. Le sue note in [Su di lei](context/about-you.md) sono l'unica eccezione: la accompagnano in tutti i progetti. Usi il selettore dei progetti ogni volta che deve passare da un cliente o da un marchio all'altro.
 
-If you're on a plan with multiple user seats, projects can be shared with teammates. See [Team Management](team-management.md) for inviting collaborators to a shared workspace.
+## Progetti di team
+
+Se il suo piano prevede più postazioni utente, i progetti possono essere condivisi con i colleghi. Consulti [Gestione del team](team-management.md) per invitare collaboratori in uno spazio di lavoro condiviso.

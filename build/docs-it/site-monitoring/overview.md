@@ -1,65 +1,70 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 87a7b6f091685fae0a59b09ee8abe0ec965085647eb82bd29c1661777efb87ab
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
+
+    [Leggila in inglese](https://himoose.com/docs/site-monitoring/overview/)
 
 # Site Monitoring
 
-## What this helps you do
+## A cosa serve
 
-Hi, Moose keeps a local picture of your website: which pages exist, what's on them, and what changed since last time. That picture powers three things — AEO-relevant change alerts in your [inbox](../inbox/overview.md), the semantic search index Moose uses to answer questions about your own site, and the page inventory that [audits](../features/aeo-audits.md) and [briefs](../features/content-briefs.md) draw on.
+Hi, Moose mantiene un quadro locale del suo sito: quali pagine esistono, che cosa contengono e che cosa è cambiato dall'ultima volta. Quel quadro alimenta tre cose: gli avvisi sulle modifiche rilevanti per l'AEO nella sua [Inbox](../inbox/overview.md), l'indice di ricerca semantica che Moose usa per rispondere alle domande sul suo sito, e l'inventario delle pagine a cui attingono [audit](../features/aeo-audits.md) e [brief](../features/content-briefs.md).
 
-Everything here lives in **Settings → Site Monitoring**, scoped to the current project.
+Tutto questo si trova in **Impostazioni → Site Monitoring**, delimitato al progetto corrente.
 
-## The scheduled crawl
+## La scansione pianificata
 
-Turn on **Run weekly site crawl** and Hi, Moose refreshes monitored pages on a weekly cadence, notifying you when meaningful changes turn up. Pick the day and hour in your local time.
+Attivi **Run weekly site crawl** e Hi, Moose aggiornerà le pagine monitorate con cadenza settimanale, avvisandola quando emergono modifiche significative. Scelga giorno e ora nel suo orario locale.
 
-Manual crawls stay available either way. **Run crawl now** starts a full crawl immediately, with progress in the status bar at the bottom of the window. You can **Stop** a running crawl, and pages found so far are kept rather than discarded.
+Le scansioni manuali restano comunque disponibili. **Run crawl now** avvia subito una scansione completa, con l'avanzamento nella barra di stato in fondo alla finestra. Può **interrompere** una scansione in corso: le pagine trovate fino a quel momento vengono conservate anziché scartate.
 
-Large sites take a few minutes.
+Sui siti grandi servono alcuni minuti.
 
-## The search index
+## L'indice di ricerca
 
-Below the crawl controls is the **Search index** — the local semantic index Moose uses to answer questions about your site's pages. It reports how many pages are indexed, how many passages those pages produced, and when it last updated.
+Sotto i comandi di scansione si trova il **Search index**, l'indice semantico locale che Moose usa per rispondere alle domande sulle pagine del suo sito. Indica quante pagine sono indicizzate, quanti passaggi hanno prodotto e quando è stato aggiornato l'ultima volta.
 
-Indexing is passage-level, not page-level. A long page becomes many separately searchable passages, which is why Moose can quote a specific paragraph rather than telling you a page is "generally about" something.
+L'indicizzazione avviene a livello di passaggio, non di pagina. Una pagina lunga diventa molti passaggi ricercabili separatamente, ed è per questo che Moose può citare un paragrafo preciso invece di dirle che una pagina parla «in generale» di un argomento.
 
-- **Rebuild index** re-indexes from scratch.
-- If pages are new or changed since the last index update, Hi, Moose tells you how many. They'll be indexed on the next crawl, or you can rebuild now.
+- **Rebuild index** reindicizza da zero.
+- Se ci sono pagine nuove o modificate dall'ultimo aggiornamento dell'indice, Hi, Moose le indica quante. Verranno indicizzate alla prossima scansione, oppure può ricostruire l'indice subito.
 
-!!! note "The index is honest about what it doesn't have"
-    If you ask Moose about a page that hasn't been indexed, it says so and points you at running a crawl rather than guessing from the page's URL.
+!!! note "L'indice è onesto su ciò che non ha"
+    Se chiede a Moose di una pagina che non è stata indicizzata, glielo dice e la indirizza a eseguire una scansione, invece di dedurre qualcosa dall'URL della pagina.
 
-## Monitored pages
+## Pagine monitorate
 
-The pages Hi, Moose checks for AEO-relevant changes. Pages found by site discovery, [Google Search Console](../integrations/google-search-console.md), and [visibility runs](../visibility/overview.md) show up here automatically.
+Le pagine che Hi, Moose controlla per individuare modifiche rilevanti per l'AEO. Le pagine trovate dal rilevamento del sito, da [Google Search Console](../integrations/google-search-console.md) e dalle [esecuzioni di visibilità](../visibility/overview.md) compaiono qui automaticamente.
 
-You can also add pages by hand with a full URL, search and filter the list, page through it, and remove pages you don't care about.
+Può anche aggiungere pagine a mano con l'URL completa, cercare e filtrare l'elenco, sfogliarlo per pagine e rimuovere quelle che non le interessano.
 
-## Blocked paths
+## Percorsi bloccati
 
-Crawls skip blocked paths and everything under them, and matching pages are removed from monitoring.
+Le scansioni saltano i percorsi bloccati e tutto ciò che ne dipende, e le pagine corrispondenti vengono rimosse dal monitoraggio.
 
-Matching is by path segment prefix. Blocking `/results/` covers `/results/` and every sub-path under it, but **not** `/results-archive/` — the segment has to match, not just the string.
+La corrispondenza avviene per prefisso di segmento del percorso. Bloccare `/results/` copre `/results/` e tutti i suoi sottopercorsi, ma **non** `/results-archive/`: deve corrispondere il segmento, non semplicemente la stringa.
 
-This is the right tool for search result pages, filtered listing pages, paginated archives, and anything else that generates a large number of near-identical URLs you'd rather not crawl, index, or get alerted about.
+È lo strumento adatto per pagine di risultati di ricerca, pagine di elenco filtrate, archivi paginati e qualsiasi altra cosa generi un gran numero di URL quasi identiche che preferisce non scansionare, non indicizzare e su cui non vuole avvisi.
 
-## What lands in your inbox
+## Che cosa arriva nella sua Inbox
 
-A crawl produces **one digest item per run**, not one item per changed page. The digest opens into a table of changed pages with what changed, an impact rating, and per-page actions.
+Una scansione produce **un solo riepilogo per esecuzione**, non una voce per ogni pagina modificata. Il riepilogo si apre in una tabella delle pagine modificate con l'indicazione di che cosa è cambiato, un livello di impatto e azioni per ciascuna pagina.
 
-Impact levels are **Critical**, **Notable**, **Low**, **Unreachable**, and **Not reviewed**.
+I livelli di impatto sono **Critical**, **Notable**, **Low**, **Unreachable** e **Not reviewed**.
 
-Two controls shape the noise:
+Due impostazioni regolano il rumore:
 
-- **Include informational AEO changes** — off by default. When on, low-impact changes also produce inbox items.
-- **OS notification minimum severity** — only inbox items at or above this level pop a desktop notification. Set it to Info if you want low-impact changes surfaced at the OS level too.
+- **Include informational AEO changes**: disattivata per impostazione predefinita. Se attivata, anche le modifiche a basso impatto generano voci nell'Inbox.
+- **OS notification minimum severity**: solo le voci dell'Inbox di livello pari o superiore attivano una notifica desktop. La imposti su Info se desidera che anche le modifiche a basso impatto emergano a livello di sistema operativo.
 
-## Ask Moose about what changed
+## Chiedere a Moose che cosa è cambiato
 
-The digest has an **Ask Moose about all of this** action that hands the whole crawl snapshot to chat and asks what matters most and what to do first. Individual pages have their own **Ask Moose** action that passes just that page's recorded change.
+Il riepilogo include l'azione **Ask Moose about all of this**, che consegna alla chat l'istantanea completa della scansione e le chiede che cosa conta di più e da dove cominciare. Le singole pagine hanno la propria azione **Ask Moose**, che trasmette soltanto la modifica registrata per quella pagina.
 
-Both are constrained to the recorded snapshot. If the snapshot doesn't say why something changed, Moose is instructed to say so rather than invent a reason.
+Entrambe si limitano all'istantanea registrata. Se da questa non risulta perché qualcosa è cambiato, Moose ha istruzione di dirlo anziché inventare una spiegazione.
 
-## Unreachable pages
+## Pagine irraggiungibili
 
-If a page or the whole site can't be reached, that's reported as its own change type rather than being silently dropped. A site-wide outage produces a single **Site unreachable** item instead of one alert per page.
+Se una pagina o l'intero sito non è raggiungibile, il fatto viene segnalato come tipo di modifica a sé stante invece di essere ignorato in silenzio. Un disservizio dell'intero sito produce un'unica voce **Site unreachable** anziché un avviso per ogni pagina.

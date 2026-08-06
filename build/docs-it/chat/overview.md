@@ -1,47 +1,52 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 799fa86d4b93065bdbc58d1b0a7cc5400446cfdee289750eafd31c6a0c8371b2
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# Chat Overview
+    [Leggila in inglese](https://himoose.com/docs/chat/overview/)
 
-## What this helps you do
+# Panoramica della Chat
 
-Chat is where you talk directly to the Hi, Moose operator — the same one main agent described throughout these docs, not a separate tool. It's available from the **Home** screen and from the dedicated chat surface, and every conversation can pull in your project's [Context](../getting-started/context/overview.md), attached files, and saved specialists to ground its answers.
+## A cosa serve
 
-## Starting a conversation
+Nella Chat parla direttamente con l'operatore di Hi, Moose, lo stesso agente principale descritto in tutta questa documentazione, non uno strumento a parte. È raggiungibile dalla schermata **Home** e dalla schermata dedicata alla chat, e ogni conversazione può attingere al [Context](../getting-started/context/overview.md) del suo progetto, ai file allegati e agli specialisti salvati per fondare le proprie risposte.
 
-- Click **New chat** to start fresh, or continue an existing thread.
-- The composer shows quick-start prompts for common jobs.
-- Pick something specific off the **[Tools menu](../tools/overview.md)** in the top bar.
-- Or type your own request in plain language. Hi, Moose decides whether to answer directly, ask a follow-up question, or run a capability like [Content Briefs](../features/content-briefs.md) or [AEO Audits](../features/aeo-audits.md) and hand back a durable artifact.
+## Avviare una conversazione
 
-## How Hi, Moose decides what to do
+- Faccia clic su **New chat** per ricominciare da capo, oppure prosegua una conversazione esistente.
+- Il campo di composizione propone avvii rapidi per le attività più comuni.
+- Scelga qualcosa di preciso dal **[menu Tools](../tools/overview.md)** nella barra superiore.
+- Oppure scriva la sua richiesta in linguaggio comune. Hi, Moose decide se rispondere direttamente, porre una domanda di chiarimento o eseguire una funzione come i [Content Briefs](../features/content-briefs.md) o gli [AEO Audits](../features/aeo-audits.md) e restituirle un artefatto duraturo.
 
-There's no keyword list. Moose reads what you're asking for and routes accordingly, which means you can phrase things however you like and get the same result.
+## Come Hi, Moose decide che cosa fare
 
-Two behaviors are worth knowing:
+Non esiste alcun elenco di parole chiave. Moose interpreta ciò che lei chiede e si orienta di conseguenza, perciò può formularlo come preferisce e ottenere lo stesso risultato.
 
-- **Explicit requests run the thing.** Ask for an audit and you get the audit intake.
-- **Implied requests only offer it.** If your question merely suggests a capability, Moose answers the question and puts the capability on a one-tap suggestion chip underneath. It won't hijack the conversation.
+Due comportamenti vale la pena conoscerli:
 
-!!! note "Follow-up questions stay follow-up questions"
-    Asking a question right after Moose produces a draft gets you an answer about the draft, not a whole new draft. Ask for a rewrite explicitly when you want one.
+- **Le richieste esplicite eseguono l'azione.** Chieda un audit e ottiene il modulo dell'audit.
+- **Le richieste implicite si limitano a proporla.** Se la sua domanda suggerisce soltanto una funzione, Moose risponde alla domanda e mette la funzione in un suggerimento a un tocco appena sotto. Non dirotta la conversazione.
 
-## Attaching context
+!!! note "Le domande di approfondimento restano tali"
+    Porre una domanda subito dopo che Moose ha prodotto una bozza le dà una risposta su quella bozza, non una bozza nuova. Chieda esplicitamente una riscrittura quando ne desidera una.
 
-The attachment menu offers four things:
+## Allegare contesto
 
-- **Upload file or image** — `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg`, and `.png`. Spreadsheets are parsed into readable text rather than treated as opaque files.
-- **Capture screenshot** — pick a display or window, then snip the area you want. On macOS this needs Screen Recording permission, and Hi, Moose walks you through granting it.
-- **Add from Library** — attach saved [Library](../library/overview.md) items as context.
-- **Site vector database** — hand Moose your indexed site so it can answer from your actual pages. See [Site Monitoring](../site-monitoring/overview.md).
+Il menu degli allegati offre quattro possibilità:
 
-## What makes a response grounded
+- **Caricare un file o un'immagine**: `.txt`, `.md`, `.csv`, `.doc`, `.docx`, `.pdf`, `.xls`, `.xlsx`, `.jpg` e `.png`. I fogli di calcolo vengono convertiti in testo leggibile anziché trattati come file opachi.
+- **Catturare una schermata**: scelga uno schermo o una finestra, poi ritagli l'area desiderata. Su macOS serve l'autorizzazione alla registrazione dello schermo, e Hi, Moose la guida nel concederla.
+- **Aggiungere dalla Library**: alleghi voci salvate della [Library](../library/overview.md) come contesto.
+- **Database vettoriale del sito**: consegni a Moose il suo sito indicizzato perché risponda a partire dalle sue pagine reali. Veda [Site Monitoring](../site-monitoring/overview.md).
 
-While Hi, Moose is working, it shows what it's actually doing: pulling live search results, collecting People Also Ask questions, crawling a competitor domain, reading a page, indexing results, checking Search Console data, or applying your saved brand voice. This is a visible trace of the real evidence behind the answer, not a decorative spinner.
+## Che cosa rende fondata una risposta
 
-## Where to go from here
+Mentre Hi, Moose lavora, mostra che cosa sta facendo davvero: recuperare risultati di ricerca in tempo reale, raccogliere domande da «Altre domande», scansionare il dominio di un concorrente, leggere una pagina, indicizzare risultati, consultare dati di Search Console o applicare la sua brand voice salvata. È una traccia visibile delle evidenze reali dietro la risposta, non un indicatore decorativo.
 
-- **[Chat Tools & Specialists](tools-and-specialists.md)** — the tools Moose can call, and saved specialists.
-- **[The Tools Menu](../tools/overview.md)** — starting a specific job without describing it.
-- **[Model Selection](model-selection.md)** — choosing which AI model powers your chat, including local and BYOK options.
-- **[Chats (History)](chats-history.md)** — finding, renaming, and reopening previous conversations.
+## Dove andare da qui
+
+- **[Strumenti e specialisti della chat](tools-and-specialists.md)**: gli strumenti che Moose può usare e gli specialisti salvati.
+- **[Il menu Tools](../tools/overview.md)**: avviare un'attività precisa senza doverla descrivere.
+- **[Scelta del modello](model-selection.md)**: quale modello di IA alimenta la sua chat, comprese le opzioni locali e BYOK.
+- **[Chat (cronologia)](chats-history.md)**: ritrovare, rinominare e riaprire conversazioni passate.

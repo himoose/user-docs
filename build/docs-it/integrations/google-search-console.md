@@ -1,41 +1,46 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 07b1b5e8bf746dc48362fa004a86b7566ef960fafcbe265cebb6ecd32d7aff91
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
+
+    [Leggila in inglese](https://himoose.com/docs/integrations/google-search-console/)
 
 # Google Search Console
 
-## What this helps you do
+## A cosa serve
 
-Connect Google Search Console so Hi, Moose can bring your first-party Google search performance — impressions, clicks, and query data — into the same local evidence base used by [Visibility](../visibility/overview.md), [AEO audits](../features/aeo-audits.md), and [content briefs](../features/content-briefs.md).
+Collegare Google Search Console perché Hi, Moose possa portare i suoi dati di rendimento della ricerca Google (impressioni, clic e query) nella stessa base locale di evidenze usata da [Visibility](../visibility/overview.md), dagli [AEO audits](../features/aeo-audits.md) e dai [brief di contenuto](../features/content-briefs.md).
 
-!!! note "Availability"
-    Google Search Console connection is included on every paid plan — BYOK Premium, BYOK Agency, and all managed plans. It isn't included on BYOK Free or Preview Mode. See [Account Types & Plans](../getting-started/account-modes.md).
+!!! note "Disponibilità"
+    La connessione a Google Search Console è compresa in tutti i piani a pagamento: BYOK Premium, BYOK Agency e tutti i piani gestiti. Non è compresa in BYOK Free né in Preview Mode. Veda [Tipi di account e piani](../getting-started/account-modes.md).
 
-## Why this stays local
+## Perché resta in locale
 
-Search Console access requires your Google account's OAuth credentials, and Hi, Moose treats those as sensitive by design: authorization happens in your system browser, and the resulting tokens are stored **only on your machine**. Hi, Moose's cloud services never receive your Google access tokens, refresh tokens, or client secrets for this connection — the desktop app is the only thing that talks to Google Search Console on your behalf.
+L'accesso a Search Console richiede le credenziali OAuth del suo account Google, e Hi, Moose le tratta come sensibili per scelta progettuale: l'autorizzazione avviene nel suo browser e i token che ne derivano vengono salvati **soltanto sulla sua macchina**. I servizi cloud di Hi, Moose non ricevono mai i suoi token di accesso, i token di aggiornamento o i segreti client di Google per questa connessione: l'app desktop è l'unica cosa che dialoga con Google Search Console per suo conto.
 
-## Setting up a connection
+## Configurare una connessione
 
-1. Open **Connections** in the desktop app and choose Google Search Console.
-2. Authorize access in your system browser.
-3. Bind one Search Console property to the active [project](../getting-started/projects.md).
+1. Apra **Connections** nell'app desktop e scelga Google Search Console.
+2. Autorizzi l'accesso nel suo browser.
+3. Colleghi una proprietà di Search Console al [progetto](../getting-started/projects.md) attivo.
 
-## What you can do with it
+## Che cosa può farci
 
-- Pull a local snapshot of page and query performance for the bound property.
-- Compare the latest snapshot against a prior window to see meaningful changes.
-- Ask about your Search Console data directly in chat. Moose queries it agentically, narrowing through several queries to answer a vague question rather than running one fixed report. The model interprets your question, but the desktop app owns validating and running each underlying query locally, so your data and token custody stay on-device.
-- Feed Search Console evidence into visibility diagnosis and into prioritizing which pages deserve a content brief or an AEO audit.
+- Ottenere un'istantanea locale del rendimento di pagine e query per la proprietà collegata.
+- Confrontare l'ultima istantanea con una finestra precedente per cogliere i cambiamenti significativi.
+- Interrogare i suoi dati di Search Console direttamente nella chat. Moose li interroga in modo agentico, restringendo il campo attraverso più query per rispondere a una domanda vaga, invece di eseguire un report fisso. Il modello interpreta la sua domanda, ma è l'app desktop a validare ed eseguire in locale ciascuna query sottostante, così i suoi dati e la custodia dei token restano sul dispositivo.
+- Far confluire le evidenze di Search Console nella diagnosi della visibilità e nella scelta di quali pagine meritino un brief di contenuto o un AEO audit.
 
-## Where the data lives
+## Dove risiedono i dati
 
-Search Console data pulled into Hi, Moose is stored **locally on your device**, not in Hi, Moose's cloud. It's part of your local evidence base, and it's included in a [local backup](../getting-started/settings.md#data-backup) rather than syncing between machines.
+I dati di Search Console portati in Hi, Moose vengono salvati **in locale sul suo dispositivo**, non nel cloud di Hi, Moose. Fanno parte della sua base locale di evidenze e sono inclusi in un [backup locale](../getting-started/settings.md#data-backup) anziché sincronizzati tra macchine.
 
-## Current scope
+## Ambito attuale
 
-This connection is read-only in v1 — Hi, Moose does not write back to Search Console. One property can be bound per project at this time.
+Questa connessione è in sola lettura nella versione 1: Hi, Moose non scrive nulla in Search Console. Per ora si può collegare una proprietà per progetto.
 
-Search Console requires a paid plan. It isn't included on Preview Mode or BYOK Free.
+Search Console richiede un piano a pagamento. Non è compresa in Preview Mode né in BYOK Free.
 
-!!! note "Update the app if connecting fails on Windows"
-    Windows installers before v0.3.245 shipped without the Google credentials the connection needs, so connecting always failed on the installed app. Updating fixes it.
+!!! note "Aggiorni l'app se la connessione fallisce su Windows"
+    I programmi di installazione per Windows precedenti alla versione 0.3.245 venivano distribuiti senza le credenziali Google necessarie alla connessione, perciò il collegamento falliva sempre nell'app installata. L'aggiornamento risolve il problema.

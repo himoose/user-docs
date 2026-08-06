@@ -1,32 +1,37 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 8b57e0721844d9abea5dec327d239ae4880ee2cdfac6de4ba644f4300e24a272
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# Key Points Extractor
+    [Leggila in inglese](https://himoose.com/docs/features/key-points/)
 
-## What this helps you do
+# Estrattore di Key Points
 
-Extract the most important ideas from long-form content into a short, scannable set of key points (a TL;DR) that you can place at the top of the piece — giving busy readers instant value and giving answer engines an easy summary to extract.
+## A cosa serve
 
-Key points generation uses semantic compression rather than a plain summarizer: Hi, Moose identifies what's actually important in the content, not just what's repeated most often, and produces a concise set of points that capture the core meaning.
+Estrarre le idee più importanti da un contenuto lungo in un insieme breve e facile da scorrere di punti chiave (un TL;DR) che può collocare all'inizio del pezzo: valore immediato per chi legge di fretta e una sintesi facile da estrarre per i motori di risposta.
 
-## Providing a source
+La generazione dei key points usa una compressione semantica invece di una semplice sintesi: Hi, Moose individua ciò che nel contenuto conta davvero, e non semplicemente ciò che viene ripetuto più spesso, e produce un insieme conciso di punti che ne colgono il senso essenziale.
 
-From [Chat](../chat/overview.md), choose the **Generate optimized Key Points** quick start (or ask for it directly), then give Hi, Moose something to work from:
+## Fornire una sorgente
 
-- A source URL, or
-- An attached file, or
-- Pasted content
+Dalla [Chat](../chat/overview.md) scelga l'avvio rapido **Generate optimized Key Points** (oppure lo chieda direttamente), poi dia a Hi, Moose qualcosa su cui lavorare:
 
-## What you get
+- Una URL di origine,
+- Un file allegato, oppure
+- Contenuto incollato
 
-A titled set of compressed points under the source you provided, ready to reuse anywhere.
+## Che cosa ottiene
 
-## Working with the result
+Un insieme intitolato di punti compressi sotto la sorgente che ha fornito, pronto per essere riutilizzato ovunque.
 
-- **Save** — add the key points to your [Library](../library/overview.md).
-- **Edit** — opens an editor with the source and the key points as editable markdown, with **Save** or **Save and add to page** to both save and stage the change in one step.
-- **Add Key Points to the page** — if your project has a connected CMS and the source URL matches a page there, stage the key points directly onto that page as an edit for review — see [Drafts, Preview & Publishing](drafts-and-publishing.md).
+## Lavorare con il risultato
 
-## When to skip external research
+- **Save**: aggiunge i key points alla sua [Library](../library/overview.md).
+- **Edit**: apre un editor con la sorgente e i key points come markdown modificabile, con **Save** oppure **Save and add to page** per salvare e preparare la modifica in un unico passaggio.
+- **Add Key Points to the page**: se il suo progetto ha un CMS collegato e la URL di origine corrisponde a una pagina presente lì, prepara i key points direttamente su quella pagina come modifica da rivedere. Veda [Bozze, anteprima e pubblicazione](drafts-and-publishing.md).
 
-Key points generation works directly from your existing content and doesn't need the [search landscape](content-briefs.md) evidence bundle by default. Only bring in outside research if you specifically want competitive or search-grounded framing — for straightforward compression of your own content, it's unnecessary overhead.
+## Quando fare a meno della ricerca esterna
+
+La generazione dei key points lavora direttamente sui suoi contenuti esistenti e non richiede per impostazione predefinita il pacchetto di evidenze del [panorama di ricerca](content-briefs.md). Aggiunga ricerca esterna solo se desidera espressamente un'impostazione competitiva o fondata sulle ricerche: per la semplice compressione dei suoi contenuti è un peso inutile.

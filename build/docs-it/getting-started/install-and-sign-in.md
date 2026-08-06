@@ -1,45 +1,50 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: d26bd04f7f798fab89bd03eeac0f5a5397eb68290de23de6c9325e1c013f4f25
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# Installing & Signing In
+    [Leggila in inglese](https://himoose.com/docs/getting-started/install-and-sign-in/)
 
-## What this helps you do
+# Installazione e accesso
 
-Get the Hi, Moose desktop app installed on your computer and sign in for the first time.
+## A cosa serve
 
-## Before you start
+Installare l'app desktop di Hi, Moose sul suo computer ed effettuare il primo accesso.
 
-- **Supported platforms**: Windows and macOS (Apple Silicon and Intel).
-- You'll need an internet connection to sign in and to download updates, even if you plan to run everything else locally with BYOK.
-- Decide which [plan](account-modes.md) you want before you start. The free options are Preview Mode and BYOK Free; everything else is paid. You can always upgrade later.
+## Prima di iniziare
 
-## Step-by-step
+- **Piattaforme supportate**: Windows e macOS (Apple Silicon e Intel).
+- Le serve una connessione a internet per accedere e scaricare gli aggiornamenti, anche se intende eseguire tutto il resto in locale con BYOK.
+- Scelga il [piano](account-modes.md) prima di cominciare. Le opzioni gratuite sono Preview Mode e BYOK Free; tutto il resto è a pagamento. Potrà sempre cambiare in seguito.
 
-### 1. Download the installer
+## Passo dopo passo
 
-Download the Hi, Moose desktop installer for your operating system from the link provided by the Hi, Moose team or the app's release page.
+### 1. Scarichi il programma di installazione
 
-- **Windows**: run the `.exe` installer.
-- **macOS**: open the `.dmg` and drag Hi, Moose into Applications.
+Scarichi il programma di installazione desktop di Hi, Moose per il suo sistema operativo dal link fornito dal team di Hi, Moose o dalla pagina delle versioni dell'app.
 
-### 2. Sign in
+- **Windows**: esegua il programma di installazione `.exe`.
+- **macOS**: apra il file `.dmg` e trascini Hi, Moose nella cartella Applicazioni.
 
-1. Open Hi, Moose.
-2. Sign in with your email or Google account.
-3. If you don't have an account yet, create one from the same screen — new signups now happen in the desktop app.
+### 2. Acceda
 
-### 3. Choose or confirm your plan
+1. Apra Hi, Moose.
+2. Acceda con il suo indirizzo e-mail o con il suo account Google.
+3. Se non ha ancora un account, lo crei dalla stessa schermata.
 
-After signing in, you'll land in onboarding, where Hi, Moose asks a few questions about your brand and domain to build initial context automatically. On a BYOK plan you'll be prompted to add your own OpenRouter API key at this point — see [Account Types & Plans](account-modes.md) for what each plan needs.
+### 3. Scelga o confermi il suo piano
 
-### 4. Set up your first project
+Dopo l'accesso arriverà alla procedura di configurazione iniziale, dove Hi, Moose le porrà alcune domande sul suo marchio e sul suo dominio per costruire automaticamente un contesto iniziale. Con un piano BYOK, a questo punto le verrà chiesto di inserire la sua chiave API di OpenRouter. Consulti [Tipi di account e piani](account-modes.md) per sapere di che cosa ha bisogno ciascun piano.
 
-Onboarding walks you into creating your first [project](projects.md) — the workspace that holds your brand voice, competitors, connections, and generated content for one website or brand.
+### 4. Crei il suo primo progetto
 
-## Staying up to date
+La configurazione iniziale la accompagna nella creazione del suo primo [progetto](projects.md), lo spazio di lavoro che raccoglie la sua brand voice, i suoi concorrenti, le sue connessioni e i contenuti generati per un sito o un marchio.
 
-The desktop app checks for updates automatically. When an update is available, you'll be prompted to install it the next time you restart the app.
+## Restare aggiornato
 
-## Coming from the legacy web app?
+L'app desktop cerca automaticamente gli aggiornamenti. Quando ne è disponibile uno, le verrà proposto di installarlo al successivo riavvio dell'app.
 
-If you previously used the Hi, Moose web app (`app.himoose.com`), you'll need to create a new desktop account — desktop and web accounts are separate today. Your legacy account still works for the two features that remain there: [Versus Pages](../legacy/versus-pages.md) and the [Topical Authority Builder](../legacy/topical-authority.md). Audio generation has [moved into the desktop app](../audio/overview.md).
+## Arriva dalla vecchia app web?
+
+Se in precedenza utilizzava l'app web di Hi, Moose (`app.himoose.com`), dovrà creare un nuovo account desktop: oggi gli account desktop e quelli web sono distinti. Il suo vecchio account resta valido per le due funzioni che vi permangono: [Versus Pages](../legacy/versus-pages.md) e il [Topical Authority Builder](../legacy/topical-authority.md). La generazione audio si è [trasferita nell'app desktop](../audio/overview.md).

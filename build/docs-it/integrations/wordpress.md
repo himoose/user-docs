@@ -1,50 +1,55 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 57477f3edd7e63b53a23c12a7676c0c723e2f37903e1f4aa75a613f296e8277b
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
+
+    [Leggila in inglese](https://himoose.com/docs/integrations/wordpress/)
 
 # WordPress
 
-## What this helps you do
+## A cosa serve
 
-Connect a WordPress site to Hi, Moose so the desktop app can stage and apply content edits directly — FAQs, key points, brief-driven drafts, and AEO audit recommendations — with a preview and approval step before anything goes live.
+Collegare un sito WordPress a Hi, Moose perché l'app desktop possa preparare e applicare direttamente modifiche ai contenuti (FAQ, key points, bozze basate su brief e raccomandazioni degli AEO audits), con un passaggio di anteprima e uno di approvazione prima che qualcosa vada in produzione.
 
-## How the connection works
+## Come funziona la connessione
 
-The desktop app is the active side of this connection: it resolves the target post, fetches its current content, builds the proposed change locally, and calls your WordPress site's REST endpoints directly over HTTPS to stage the change. Your WordPress site stays passive — it exposes an endpoint that waits to be called and never needs to reach out to Hi, Moose on its own.
+L'app desktop è il lato attivo di questa connessione: individua l'articolo di destinazione, ne recupera il contenuto attuale, costruisce in locale la modifica proposta e chiama direttamente in HTTPS gli endpoint REST del suo sito WordPress per prepararla. Il suo sito WordPress resta passivo: espone un endpoint che attende di essere chiamato e non deve mai contattare Hi, Moose di propria iniziativa.
 
-This means:
+Questo significa che:
 
-- Your site token and connection credentials are never held by the renderer UI — only by the desktop app's background process.
-- In BYOK modes, the local model steps involved in preparing an edit (like finding the exact section of content to replace) run using your own OpenRouter key, not a Hi, Moose-hosted call.
+- Il token del suo sito e le credenziali di connessione non sono mai in mano all'interfaccia utente, ma soltanto al processo in background dell'app desktop.
+- Nei piani BYOK i passaggi con modello locale che intervengono nella preparazione di una modifica (come individuare la sezione esatta di contenuto da sostituire) girano con la sua chiave OpenRouter e non tramite una chiamata ospitata da Hi, Moose.
 
-## Setting up a connection
+## Configurare una connessione
 
-1. Open **Connections** in the desktop app and choose WordPress.
-2. Download the connector plugin, install it in your WordPress admin, then paste your site URL and this project's API key into the plugin settings.
-3. Back in Hi, Moose, save the connection and confirm the connector reports a successful ping from your site.
+1. Apra **Connections** nell'app desktop e scelga WordPress.
+2. Scarichi il plugin connettore, lo installi nell'amministrazione di WordPress e incolli poi la URL del suo sito e la chiave API di questo progetto nelle impostazioni del plugin.
+3. Tornato in Hi, Moose, salvi la connessione e verifichi che il connettore segnali un ping riuscito dal suo sito.
 
-## Environments
+## Ambienti
 
-Each WordPress install you connect — production, staging, or both — is its own **environment** with its own site token and HMAC secret, kept fully isolated from one another. Choose which environment is the default target for new edits, and switch between them at any time. If a staging site sits behind HTTP Basic Auth, you can save those credentials for that environment specifically so Hi, Moose can reach it.
+Ogni installazione WordPress che collega (produzione, staging o entrambe) è un **ambiente** a sé, con il proprio token del sito e il proprio segreto HMAC, del tutto isolati l'uno dall'altro. Scelga quale ambiente è la destinazione predefinita delle nuove modifiche e passi dall'uno all'altro quando vuole. Se un sito di staging è protetto da autenticazione HTTP Basic, può salvare quelle credenziali specificamente per quell'ambiente, così Hi, Moose può raggiungerlo.
 
-## Patches
+## Patch
 
-Every WordPress edit — whether it comes from [FAQs](../features/faq-generator.md), [key points](../features/key-points.md), a [draft](../features/drafts-and-publishing.md), or a manual find-and-replace text change you create directly — is tracked as a **patch**: a local, per-environment ledger entry with its own status.
+Ogni modifica a WordPress, che provenga dalle [FAQ](../features/faq-generator.md), dai [key points](../features/key-points.md), da una [bozza](../features/drafts-and-publishing.md) o da una sostituzione manuale di testo creata da lei, viene tracciata come **patch**: una voce di registro locale, propria di ciascun ambiente, con un proprio stato.
 
-A patch moves through explicit states: **Draft**, **Staged**, **Applied**, **Discarded**, **Rolled back**, or **Failed**. From the Patches list you can:
+Una patch attraversa stati espliciti: **Draft**, **Staged**, **Applied**, **Discarded**, **Rolled back** o **Failed**. Dall'elenco delle patch può:
 
-- **Stage** a patch to your WordPress site for preview.
-- **Apply** a staged patch to make it live.
-- **Discard** a patch you don't want to use.
-- **Roll back** an applied patch.
-- **Promote** a patch to another environment (for example, staging to production) to re-stage it there for review.
+- **Preparare** una patch sul suo sito WordPress per l'anteprima.
+- **Applicare** una patch preparata per mandarla in produzione.
+- **Scartare** una patch che non intende usare.
+- **Annullare** una patch applicata.
+- **Promuovere** una patch verso un altro ambiente (per esempio da staging a produzione) per riprepararla lì e rivederla.
 
-Once you've pushed a draft, Hi, Moose remembers, so you can't accidentally push the same one several times.
+Una volta inviata una bozza, Hi, Moose se ne ricorda, così non può inviare la stessa più volte per errore.
 
-## Listen to this Article plugin
+## Plugin Listen to this Article
 
-The separate **Listen to This Article** WordPress plugin embeds the audio player and transcript that [Audio](../audio/overview.md) generates in the desktop app. Install it from [wordpress.org/plugins/listen-to-this-article](https://wordpress.org/plugins/listen-to-this-article/), or paste the embed code straight into your post — see [Player & Embed](../audio/player-and-embed.md).
+Il plugin WordPress **Listen to This Article**, che è separato, incorpora il player audio e la trascrizione generati da [Audio](../audio/overview.md) nell'app desktop. Lo installi da [wordpress.org/plugins/listen-to-this-article](https://wordpress.org/plugins/listen-to-this-article/), oppure incolli il codice di incorporamento direttamente nel suo articolo. Veda [Player e incorporamento](../audio/player-and-embed.md).
 
-## Requirements
+## Requisiti
 
-- WordPress 6.0 or higher, with administrator access to install the connection on your site.
-- A project set up in the desktop app.
+- WordPress 6.0 o superiore, con accesso da amministratore per installare la connessione sul suo sito.
+- Un progetto configurato nell'app desktop.

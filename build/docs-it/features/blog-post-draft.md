@@ -1,25 +1,30 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: fd74e34b467a2aec2ad0abc74e8a74c6865ee781fe1c9eceff1c780dcc8517c7
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# Blog Post Draft
+    [Leggila in inglese](https://himoose.com/docs/features/blog-post-draft/)
 
-## What this helps you do
+# Bozza di articolo del blog
 
-Generate a long-form, educational blog article draft from a [content brief](content-briefs.md) — the **Blog post** template type.
+## A cosa serve
 
-From [Chat](../chat/overview.md), the **Create a blog post draft** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Generare da un [brief di contenuto](content-briefs.md) la bozza di un articolo del blog lungo e divulgativo: il tipo di modello **Blog post**.
 
-## Structure
+Dalla [Chat](../chat/overview.md), l'avvio rapido **Create a blog post draft** la accompagna nel confermare una query obiettivo e un tipo di modello prima di generare insieme il brief e la prima bozza.
 
-A blog post draft follows an educational article structure:
+## Struttura
 
-- A clear introduction, logical section flow, and substantive explanation throughout.
-- The main query answered directly, then expanded with proof, examples, and FAQ coverage where the brief supports them.
-- Readable as long-form editorial content — not shaped like a landing page, solutions page, or product page.
-- A fitting next-step call to action near the end, only when the brief calls for one.
+Una bozza di articolo del blog segue la struttura di un articolo divulgativo:
 
-Right after the title, the draft includes a short **Key Points** section — 5 or 6 compressed, high-signal bullets distilled from the brief and the draft's thesis — before the main body, so readers (and answer engines) get the core takeaways immediately.
+- Un'introduzione chiara, una sequenza logica delle sezioni e una spiegazione sostanziale in tutto il testo.
+- La query principale viene affrontata direttamente e poi ampliata con prove, esempi e copertura di FAQ dove il brief lo consente.
+- Si legge come contenuto editoriale lungo, non come una landing page, una pagina di soluzioni o una pagina prodotto.
+- Un invito all'azione adeguato verso la fine, ma solo quando il brief ne prevede uno.
 
-## Where it fits
+Subito dopo il titolo, la bozza include una breve sezione **Key Points**: cinque o sei punti compressi e ad alto valore, distillati dal brief e dalla tesi della bozza, prima del corpo principale, così chi legge (e i motori di risposta) coglie subito l'essenziale.
 
-Like every draft, a blog post draft depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+## Dove si colloca
+
+Come ogni bozza, una bozza di articolo del blog si appoggia al suo [brief di contenuto](content-briefs.md) anziché essere generata da un semplice prompt. Una volta creata, segue lo stesso [percorso di Draft Studio, anteprima, approvazione e pubblicazione](drafts-and-publishing.md) di qualsiasi altra bozza.

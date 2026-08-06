@@ -1,22 +1,27 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: f8772689cac35fb3db3b2391391de3ea27e63ee267597800996e792b83b1baf1
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# Product Page Content
+    [Leggila in inglese](https://himoose.com/docs/features/product-page-content/)
 
-## What this helps you do
+# Contenuti per pagina prodotto
 
-Generate product feature page copy from a [content brief](content-briefs.md) — the **Product Feature page** template type (labeled **Product page content** as a quick start in Chat).
+## A cosa serve
 
-From [Chat](../chat/overview.md), the **Create product page content** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Generare da un [brief di contenuto](content-briefs.md) testi per una pagina di funzionalità di prodotto: il tipo di modello **Product Feature page** (indicato come **Product page content** tra gli avvii rapidi della Chat).
 
-## Structure
+Dalla [Chat](../chat/overview.md), l'avvio rapido **Create product page content** la accompagna nel confermare una query obiettivo e un tipo di modello prima di generare insieme il brief e la prima bozza.
 
-Product page content follows a product feature page structure, not a catalog, landing, or blog structure:
+## Struttura
 
-- Centers the draft on what the feature is, who it's for, how it works, and the concrete benefits or workflows it unlocks.
-- Includes implementation detail, proof, FAQs, and product-specific calls to action when the brief calls for them.
-- Keeps feature-detail sections from being displaced by broad industry education or top-of-funnel explanation.
+I contenuti per pagina prodotto seguono la struttura di una pagina di funzionalità, non quella di un catalogo, di una landing page o di un blog:
 
-## Where it fits
+- Concentrano la bozza su che cos'è la funzionalità, a chi si rivolge, come funziona e quali benefici o flussi di lavoro concreti rende possibili.
+- Comprendono dettagli di implementazione, prove, FAQ e inviti all'azione specifici del prodotto quando il brief lo prevede.
+- Impediscono che le sezioni di dettaglio sulla funzionalità vengano soppiantate da divulgazione generale di settore o da spiegazioni da cima dell'imbuto.
 
-Like every draft, product page content depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+## Dove si collocano
+
+Come ogni bozza, i contenuti per pagina prodotto si appoggiano al loro [brief di contenuto](content-briefs.md) anziché essere generati da un semplice prompt. Una volta creati, seguono lo stesso [percorso di Draft Studio, anteprima, approvazione e pubblicazione](drafts-and-publishing.md) di qualsiasi altra bozza.

@@ -1,54 +1,59 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 185a9611ccdaef3c98b73cc4349bc1d586a1fa03b38212ecab7ffca94af54a21
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# Visibility Settings
+    [Leggila in inglese](https://himoose.com/docs/visibility/settings/)
 
-## What this helps you do
+# Impostazioni di Visibility
 
-Visibility Settings control how often Hi, Moose checks visibility, which model scores the results, and which brand terms and domains count toward your metrics. Prompts and topics themselves stay in [Prompt Manager](prompt-manager.md) — this screen is about the run mechanics.
+## A cosa serve
 
-## Run Schedule
+Le impostazioni di Visibility governano con quale frequenza Hi, Moose controlla la visibilità, quale modello valuta i risultati e quali termini di marca e domini contano nelle sue metriche. I prompt e i temi si gestiscono nel [Prompt Manager](prompt-manager.md); questa schermata riguarda la meccanica delle esecuzioni.
 
-- **Cadence** — Daily, Weekdays, Weekly, or Manual only.
-- **Preferred run time** and, for weekly cadence, a **weekly day** — runs execute in your local timezone.
-- **Samples per prompt** — scheduled runs can repeat each prompt multiple times and average the results for a more stable visibility rate. Manual **Run now** always uses a single sample. Increasing this multiplies token usage by the same factor, and Hi, Moose warns you before you save a higher value.
+## Pianificazione delle esecuzioni
 
-!!! note "Scheduled runs need this device awake"
-    On **Preview Mode** and **BYOK** modes, scheduling runs locally on your machine — a scheduled run cannot start while your computer is off, asleep, or Hi, Moose is fully quit. Keep the app open (or minimized to the system tray) so scheduled runs can execute. **Paid Managed** unlocks an always-on cloud scheduler that doesn't depend on your device being awake. Local-fetch engines specifically still require the app to be open regardless of plan, since those checks run from your machine.
+- **Frequenza**: giornaliera, nei giorni feriali, settimanale o solo manuale.
+- **Orario di esecuzione preferito** e, per la frequenza settimanale, un **giorno della settimana**. Le esecuzioni avvengono nel suo fuso orario locale.
+- **Campioni per prompt**: le esecuzioni programmate possono ripetere ogni prompt più volte e mediare i risultati per ottenere un tasso di visibilità più stabile. Il pulsante manuale **Run now** usa sempre un solo campione. Aumentare questo valore moltiplica in egual misura il consumo di token, e Hi, Moose la avvisa prima di salvare un valore più alto.
 
-## Email notifications
+!!! note "Le esecuzioni programmate richiedono che questo dispositivo sia acceso"
+    In **Preview Mode** e nei piani **BYOK** la pianificazione gira in locale sulla sua macchina: un'esecuzione programmata non può partire se il computer è spento o in sospensione, o se Hi, Moose è completamente chiuso. Tenga l'app aperta (o ridotta nella barra delle applicazioni) perché le esecuzioni programmate possano avvenire. I **piani gestiti** sbloccano una pianificazione in cloud sempre attiva, che non dipende dallo stato del suo dispositivo. I motori con interrogazione locale richiedono comunque l'app aperta, in qualunque piano, perché quei controlli partono dalla sua macchina.
 
-Toggle **Scheduled visibility email reports** to receive the visibility report by email after scheduled runs complete. This is a personal notification preference, separate from the [Inbox notification settings](../inbox/notifications.md).
+## Notifiche via e-mail
 
-## Secondary brand terms and domains
+Attivi **Scheduled visibility email reports** per ricevere il report di visibilità via e-mail al termine delle esecuzioni programmate. È una preferenza di notifica personale, distinta dalle [impostazioni di notifica dell'Inbox](../inbox/notifications.md).
 
-- **Secondary branded terms** — alternate phrasings or spelling variations of your brand that should also count as a mention.
-- **Secondary domains** — additional domains that should count as valid brand citations for this project, beyond your primary domain.
+## Termini e domini di marca secondari
 
-## Competitor tracking
+- **Termini di marca secondari**: formulazioni alternative o varianti ortografiche del suo marchio che devono contare anch'esse come menzione.
+- **Domini secondari**: altri domini che devono contare come citazioni valide del marchio per questo progetto, oltre al suo dominio principale.
 
-Add the brands this project gets compared against. Each competitor takes a name and, optionally, a website.
+## Monitoraggio dei concorrenti
 
-When an AI answer mentions or cites one of them, it feeds [Share of Voice, competitor citations, and gaps](competitors.md).
+Aggiunga i marchi con cui questo progetto viene confrontato. Ogni concorrente richiede un nome e, facoltativamente, un sito web.
 
-This list is shared with your [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), so competitors added in either place appear in both. There's a cap on how many are tracked in visibility runs — the screen shows the number, and warns you if your list is longer than the cap so you know only the first N are being tracked.
+Quando una risposta dell'IA ne menziona o ne cita uno, il dato alimenta [Share of Voice, citazioni dei concorrenti e lacune](competitors.md).
 
-## Scoring model
+Questo elenco è condiviso con il suo [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), perciò i concorrenti aggiunti in uno dei due punti compaiono in entrambi. Il numero di concorrenti monitorati nelle esecuzioni di visibilità è limitato: la schermata indica il limite e la avvisa se il suo elenco lo supera, così sa che vengono monitorati solo i primi.
 
-Choose the model Hi, Moose uses to score sentiment, narrative drift, and feature parity once a response has been captured:
+## Modello di valutazione
 
-- **Automatic default** adapts to your plan:
-    - **Preview Mode** uses an activated local Gemma 4 model. Scoring is skipped until one is installed and active (Settings → Local Model).
-    - **BYOK plans** score using your own OpenRouter key.
-    - **Managed plans** score through Hi, Moose's managed model routing (local model scoring still applies where supported).
-- You can also select a specific model instead of Automatic.
+Scelga il modello che Hi, Moose usa per valutare sentiment, scostamento narrativo e copertura funzionale dopo aver acquisito una risposta:
 
-Free OpenRouter models are no longer offered as scoring options. They were unreliable enough at structured scoring that the results weren't worth reporting.
+- Il **valore automatico** si adatta al suo piano:
+    - **Preview Mode** usa un modello locale Gemma 4 attivo. La valutazione viene saltata finché non ne è installato e attivo uno (Impostazioni → Local Model).
+    - **I piani BYOK** valutano con la sua chiave OpenRouter.
+    - **I piani gestiti** valutano tramite l'instradamento dei modelli gestiti di Hi, Moose (la valutazione con modello locale resta valida dove è supportata).
+- Può anche selezionare un modello specifico anziché l'opzione automatica.
 
-## Default models for new prompts
+I modelli gratuiti di OpenRouter non sono più proposti come opzione di valutazione. Si sono rivelati abbastanza inaffidabili nella valutazione strutturata da rendere i risultati non degni di essere riportati.
 
-Choose which engines are pre-selected whenever you add a new prompt in [Prompt Manager](prompt-manager.md) — you can still override the selection per prompt afterward. Models marked **Paid** require a paid or BYOK plan; Preview Mode is limited to local-fetch models only. Every model checked here counts toward token usage when visibility runs execute.
+## Modelli predefiniti per i nuovi prompt
 
-## Redo onboarding
+Scelga quali motori sono preselezionati ogni volta che aggiunge un prompt nel [Prompt Manager](prompt-manager.md); potrà comunque modificare la selezione prompt per prompt. I modelli contrassegnati come **Paid** richiedono un piano a pagamento o BYOK; Preview Mode è limitato ai modelli con interrogazione locale. Ogni modello selezionato qui incide sul consumo di token quando vengono eseguite le verifiche di visibilità.
 
-Re-run the visibility onboarding wizard at any time to update your tracked domain, prompts, and tracking preferences from scratch.
+## Ripetere la configurazione iniziale
+
+Riavvii in qualsiasi momento la procedura guidata di configurazione della visibilità per aggiornare da zero il dominio monitorato, i suoi prompt e le sue preferenze di monitoraggio.

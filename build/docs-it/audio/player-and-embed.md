@@ -1,47 +1,52 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: b5d0a07f31228ccaaa2c18a76dddb8de404f3871f7b879591e111c89bae3e9c5
+---
+!!! note "Traduzione automatica"
+    Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-# Player & Embed
+    [Leggila in inglese](https://himoose.com/docs/audio/player-and-embed/)
 
-## What this helps you do
+# Player e incorporamento
 
-Style the embedded audio player to match the page it's going on, then copy the embed code. Open it from a finished episode with **Customize player**, or from the **History** tab's embed action.
+## A cosa serve
 
-## Player options
+Adattare l'aspetto del player audio incorporato alla pagina che lo ospiterà e poi copiare il codice di incorporamento. Lo apra da un episodio completato con **Customize player**, oppure dall'azione di incorporamento nella scheda **History**.
 
-- **Theme** — Dark, Light, or Auto. Auto follows each visitor's device setting.
-- **Layout** — Full or Compact.
-- **Accent color** — any 6-digit hex value, for example `#5688b0`.
-- **Show the title** — turn it off when the embed sits under your own headline.
-- **Custom title** — leave blank to use the episode title.
-- **Transcript button** — show or hide the transcript toggle on the player.
+## Opzioni del player
 
-A live preview updates as you change settings. If the player script isn't reachable when you're previewing, the preview falls back to plain markup — the copied embed code is still correct.
+- **Tema**: Dark, Light o Auto. Auto segue l'impostazione del dispositivo di ciascun visitatore.
+- **Disposizione**: Full o Compact.
+- **Colore d'accento**: un qualsiasi valore esadecimale a 6 cifre, per esempio `#5688b0`.
+- **Mostrare il titolo**: lo disattivi quando l'incorporamento sta sotto un suo titolo.
+- **Titolo personalizzato**: lo lasci vuoto per usare il titolo dell'episodio.
+- **Pulsante della trascrizione**: mostri o nasconda il comando della trascrizione nel player.
 
-## Copying the embed code
+Un'anteprima dal vivo si aggiorna mentre modifica le impostazioni. Se lo script del player non è raggiungibile durante l'anteprima, questa ripiega su un markup semplice; il codice di incorporamento copiato resta comunque corretto.
 
-Click **Copy embed code** and paste it into your page.
+## Copiare il codice di incorporamento
 
-- **WordPress** — paste into the post's HTML or code block, or use the [Listen to This Article plugin](https://wordpress.org/plugins/listen-to-this-article/).
-- **Webflow** — paste into an Embed element.
-- **Grav** — paste into the page content where raw HTML is allowed.
+Faccia clic su **Copy embed code** e lo incolli nella sua pagina.
 
-## Playback is domain-locked
+- **WordPress**: lo incolli nel blocco HTML o di codice dell'articolo, oppure usi il [plugin Listen to This Article](https://wordpress.org/plugins/listen-to-this-article/).
+- **Webflow**: lo incolli in un elemento Embed.
+- **Grav**: lo incolli nel contenuto della pagina, dove è consentito l'HTML grezzo.
 
-Generated audio only plays on your project's website domain and on `himoose.com`. This is set from the project's website field, and it's why that field has to be filled in before you can generate. If you embed the player on a domain that isn't whitelisted, playback will be refused.
+## La riproduzione è vincolata al dominio
 
-## Agency attribution
+L'audio generato viene riprodotto soltanto sul dominio del sito del suo progetto e su `himoose.com`. Il vincolo deriva dal campo del sito del progetto, ed è il motivo per cui quel campo deve essere compilato prima di poter generare. Se incorpora il player su un dominio non autorizzato, la riproduzione verrà rifiutata.
 
-On plans with [white-label branding](../agency/white-label.md), the embedded player can carry your agency's attribution instead of Hi, Moose's. Set it in **Settings → Branding**:
+## Attribuzione dell'agenzia
 
-- **Audio embed attribution** — the text shown on the player. Leave it empty to use "Audio by" plus your agency name.
-- **Attribution link** — a full `https://` address. Leave it empty to reuse your main branding link.
+Nei piani con [personalizzazione white label](../agency/white-label.md), il player incorporato può riportare l'attribuzione della sua agenzia anziché quella di Hi, Moose. La imposti in **Impostazioni → Branding**:
 
-The attribution is a real link back to your site from every client page carrying the player, which is the point of it for agencies.
+- **Attribuzione dell'incorporamento audio**: il testo mostrato sul player. Lo lasci vuoto per usare «Audio by» seguito dal nome della sua agenzia.
+- **Link di attribuzione**: un indirizzo `https://` completo. Lo lasci vuoto per riutilizzare il suo link di marca principale.
 
-!!! warning "Attribution applies to embed code copied after saving"
-    Changing branding doesn't rewrite embeds you've already placed. Copy the embed code again after saving to pick up new attribution.
+L'attribuzione è un vero link verso il suo sito da ogni pagina cliente che ospita il player, ed è precisamente ciò che la rende preziosa per le agenzie.
 
-## Why this helps AEO
+!!! warning "L'attribuzione vale per il codice copiato dopo il salvataggio"
+    Modificare il branding non riscrive gli incorporamenti già collocati. Ricopi il codice di incorporamento dopo il salvataggio per recepire la nuova attribuzione.
 
-The transcript adds crawlable, structured, first-hand text to the page. That's additional real content an answer engine can retrieve and quote, and it can support the extractability and comprehensiveness signals in an [AEO Audit](../features/aeo-audits.md). It isn't a scored "has media" factor on its own — the value is in the text the player brings with it.
+## Perché aiuta l'AEO
+
+La trascrizione aggiunge alla pagina testo strutturato, di prima mano e scansionabile. È contenuto reale in più che un motore di risposta può recuperare e citare, e può rafforzare i segnali di estraibilità e completezza in un [AEO audit](../features/aeo-audits.md). Non è di per sé un criterio valutato del tipo «ha contenuti multimediali»: il valore sta nel testo che il player porta con sé.

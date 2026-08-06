@@ -1,6 +1,7 @@
-site_name: User Documentation
+site_name: Documentazione utente
 site_url: https://himoose.com/docs/it/
-site_description: User documentation for Hi, Moose - AI search optimization platform
+site_description: Documentazione utente di Hi, Moose - piattaforma di ottimizzazione
+  per la ricerca con IA
 site_author: Hi, Moose Team
 repo_url: https://github.com/himoose/user-docs
 repo_name: himoose/user-docs
@@ -96,36 +97,38 @@ extra:
   default_language: en
   ui:
     site:
-      name: User Documentation
-      description: User documentation for Hi, Moose - AI search optimization platform
+      name: Documentazione utente
+      description: Documentazione utente di Hi, Moose - piattaforma di ottimizzazione
+        per la ricerca con IA
     header:
       menu: Menu
-      toggleMenu: Toggle Menu
-      toggleTheme: Toggle theme
-      toggleLayout: Toggle layout
+      toggleMenu: Mostra o nascondi il menu
+      toggleTheme: Cambia tema
+      toggleLayout: Cambia disposizione
     search:
-      label: Search documentation...
-      placeholder: Search documentation...
-      labelShort: Search...
+      label: Cerca nella documentazione...
+      placeholder: Cerca nella documentazione...
+      labelShort: Cerca...
     toc:
-      onThisPage: On This Page
+      onThisPage: In questa pagina
     language:
-      menuAriaLabel: Choose a language
-      panelLabel: Language
-      availableAriaLabel: Available languages
-      currentStatus: Current
+      menuAriaLabel: Scelga una lingua
+      panelLabel: Lingua
+      availableAriaLabel: Lingue disponibili
+      currentStatus: Attuale
     stale:
-      title: This page may be out of date
-      body: It was translated from an older version of the English page.
-      linkLabel: View in English
+      title: Questa pagina potrebbe non essere aggiornata
+      body: È stata tradotta da una versione precedente della pagina in inglese.
+      linkLabel: Consulta in inglese
     machineTranslated:
-      title: Machine translated
-      body: This page was translated by AI. The English version is the authoritative
-        one.
-      linkLabel: Read it in English
+      title: Traduzione automatica
+      body: Questa pagina è stata tradotta da un'IA. La versione inglese è quella
+        di riferimento.
+      linkLabel: Leggila in inglese
     notTranslated:
-      title: Not translated yet
-      body: This page is not available in your language yet, so it is shown in English.
+      title: Non ancora tradotta
+      body: Questa pagina non è ancora disponibile nella sua lingua, perciò viene
+        mostrata in inglese.
   noindex_pages:
     en: []
     es: []
@@ -135,67 +138,67 @@ extra:
     pt: []
 nav:
 - Home: index.md
-- Getting Started:
-  - Installing & Signing In: getting-started/install-and-sign-in.md
-  - Account Types & Plans: getting-started/account-modes.md
-  - Projects & Workspace: getting-started/projects.md
-  - Settings: getting-started/settings.md
-  - Team Management: getting-started/team-management.md
+- Primi passi:
+  - Installazione e accesso: getting-started/install-and-sign-in.md
+  - Tipi di account e piani: getting-started/account-modes.md
+  - Progetti e spazio di lavoro: getting-started/projects.md
+  - Impostazioni: getting-started/settings.md
+  - Gestione del team: getting-started/team-management.md
 - Inbox:
-  - Overview: inbox/overview.md
-  - Notifications: inbox/notifications.md
+  - Panoramica: inbox/overview.md
+  - Notifiche: inbox/notifications.md
 - Context:
-  - Overview: getting-started/context/overview.md
+  - Panoramica: getting-started/context/overview.md
   - Brand Voice: getting-started/context/brand-voice.md
   - Brand Truth Profile: getting-started/context/brand-truth-profile.md
-  - About You: getting-started/context/about-you.md
+  - Su di lei: getting-started/context/about-you.md
 - Visibility:
-  - Overview: visibility/overview.md
-  - Competitors & Share of Voice: visibility/competitors.md
+  - Panoramica: visibility/overview.md
+  - Concorrenti e Share of Voice: visibility/competitors.md
   - Prompt Manager: visibility/prompt-manager.md
-  - Settings: visibility/settings.md
+  - Impostazioni: visibility/settings.md
 - Site Monitoring:
-  - Overview: site-monitoring/overview.md
+  - Panoramica: site-monitoring/overview.md
 - Workflows:
-  - Overview: workflows/overview.md
-  - Recover Lost Visibility: workflows/recover-lost-visibility.md
-  - Create New Content: workflows/create-new-content.md
+  - Panoramica: workflows/overview.md
+  - Recuperare la visibilità perduta: workflows/recover-lost-visibility.md
+  - Creare nuovi contenuti: workflows/create-new-content.md
 - Chat:
-  - Overview: chat/overview.md
-  - Chat Tools & Specialists: chat/tools-and-specialists.md
-  - Model Selection: chat/model-selection.md
-  - Chats (History): chat/chats-history.md
+  - Panoramica: chat/overview.md
+  - Strumenti e specialisti della chat: chat/tools-and-specialists.md
+  - Scelta del modello: chat/model-selection.md
+  - Chat (cronologia): chat/chats-history.md
 - Library:
-  - Overview: library/overview.md
+  - Panoramica: library/overview.md
 - Audio:
-  - Overview: audio/overview.md
-  - Player & Embed: audio/player-and-embed.md
-  - Listening Analytics: audio/analytics.md
+  - Panoramica: audio/overview.md
+  - Player e incorporamento: audio/player-and-embed.md
+  - Statistiche di ascolto: audio/analytics.md
 - Tools:
-  - The Tools Menu: tools/overview.md
-  - Instant AI Search Brand Check: tools/instant-brand-check.md
+  - Il menu Tools: tools/overview.md
+  - Verifica istantanea del marchio nella ricerca con IA: tools/instant-brand-check.md
   - AEO Audits: features/aeo-audits.md
   - Content Briefs: features/content-briefs.md
-  - FAQ Generator: features/faq-generator.md
-  - Key Points Extractor: features/key-points.md
-  - AI Mode Grounding Queries: features/grounding-queries.md
-  - ChatGPT Fan-out Queries: features/fan-out-queries.md
-  - Blog Post Draft: features/blog-post-draft.md
-  - Glossary Post: features/glossary-post.md
-  - Landing Page Content: features/landing-page-content.md
-  - Product Page Content: features/product-page-content.md
-  - Drafts, Preview & Publishing: features/drafts-and-publishing.md
-- Agencies:
-  - White-Label Branding: agency/white-label.md
-- Integrations:
+  - Generatore di FAQ: features/faq-generator.md
+  - Estrattore di Key Points: features/key-points.md
+  - Query di grounding di AI Mode: features/grounding-queries.md
+  - Query fan-out di ChatGPT: features/fan-out-queries.md
+  - Bozza di articolo del blog: features/blog-post-draft.md
+  - Voce di glossario: features/glossary-post.md
+  - Contenuti per landing page: features/landing-page-content.md
+  - Contenuti per pagina prodotto: features/product-page-content.md
+  - Bozze, anteprima e pubblicazione: features/drafts-and-publishing.md
+- Agenzie:
+  - Personalizzazione white label: agency/white-label.md
+- Integrazioni:
   - Grav: integrations/grav.md
   - WordPress: integrations/wordpress.md
   - Webflow: integrations/webflow.md
   - Google Search Console: integrations/google-search-console.md
-- Legacy Web App:
-  - Versus Pages (Programmatic SEO): legacy/versus-pages.md
+- Vecchia app web:
+  - Versus Pages (SEO programmatica): legacy/versus-pages.md
   - Topical Authority Builder: legacy/topical-authority.md
-  - Listen to this Article (moved): legacy/listen-to-this-article.md
+  - Listen to this Article (spostato): legacy/listen-to-this-article.md
 copyright: Copyright &copy; 2026 Hi, Moose
 docs_dir: C:\HiMoose\platform\docs-site\build\docs-it
 site_dir: C:\HiMoose\platform\docs-site\site\it

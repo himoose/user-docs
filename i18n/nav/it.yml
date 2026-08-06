@@ -1,0 +1,73 @@
+# Italian nav titles: English title -> Italian title.
+#
+# Product and feature nouns stay in English where the desktop app shows them in
+# English on screen (AEO, Inbox, Library, Workflows, Share of Voice, ...), so the
+# docs and the app agree. See DOCS_I18N_PLAN.md.
+
+Home: Home
+
+Getting Started: Primi passi
+Installing & Signing In: Installazione e accesso
+Account Types & Plans: Tipi di account e piani
+Projects & Workspace: Progetti e spazio di lavoro
+Settings: Impostazioni
+Team Management: Gestione del team
+
+Inbox: Inbox
+Overview: Panoramica
+Notifications: Notifiche
+
+Context: Context
+Brand Voice: Brand Voice
+Brand Truth Profile: Brand Truth Profile
+About You: Su di lei
+
+Visibility: Visibility
+Competitors & Share of Voice: Concorrenti e Share of Voice
+Prompt Manager: Prompt Manager
+
+Site Monitoring: Site Monitoring
+
+Workflows: Workflows
+Recover Lost Visibility: Recuperare la visibilità perduta
+Create New Content: Creare nuovi contenuti
+
+Chat: Chat
+Chat Tools & Specialists: Strumenti e specialisti della chat
+Model Selection: Scelta del modello
+Chats (History): Chat (cronologia)
+
+Library: Library
+
+Audio: Audio
+Player & Embed: Player e incorporamento
+Listening Analytics: Statistiche di ascolto
+
+Tools: Tools
+The Tools Menu: Il menu Tools
+Instant AI Search Brand Check: Verifica istantanea del marchio nella ricerca con IA
+AEO Audits: AEO Audits
+Content Briefs: Content Briefs
+FAQ Generator: Generatore di FAQ
+Key Points Extractor: Estrattore di Key Points
+AI Mode Grounding Queries: Query di grounding di AI Mode
+ChatGPT Fan-out Queries: Query fan-out di ChatGPT
+Blog Post Draft: Bozza di articolo del blog
+Glossary Post: Voce di glossario
+Landing Page Content: Contenuti per landing page
+Product Page Content: Contenuti per pagina prodotto
+Drafts, Preview & Publishing: Bozze, anteprima e pubblicazione
+
+Agencies: Agenzie
+White-Label Branding: Personalizzazione white label
+
+Integrations: Integrazioni
+Grav: Grav
+WordPress: WordPress
+Webflow: Webflow
+Google Search Console: Google Search Console
+
+Legacy Web App: Vecchia app web
+Versus Pages (Programmatic SEO): Versus Pages (SEO programmatica)
+Topical Authority Builder: Topical Authority Builder
+Listen to this Article (moved): Listen to this Article (spostato)
