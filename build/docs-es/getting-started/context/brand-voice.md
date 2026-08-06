@@ -1,50 +1,55 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 911f9de16e31d26b16256a2d2d7eb92c2a092404af37ad258c44e41c76fd53bd
+---
+!!! note "Traducción automática"
+    Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
+
+    [Leerla en inglés](https://himoose.com/docs/getting-started/context/brand-voice/)
 
 # Brand Voice
 
-## What this helps you do
+## Para qué sirve
 
-Brand Voice is the reusable style guide Hi, Moose carries into every piece of generated content for this project — content briefs, drafts, FAQs, key points, and AEO audit recommendations — so output sounds like your brand instead of generic AI writing.
+Brand Voice es la guía de estilo reutilizable que Hi, Moose aplica a todo el contenido que genera para este proyecto (briefs de contenido, borradores, FAQ, key points y recomendaciones de las AEO audits), para que el resultado suene como su marca y no como una redacción genérica de IA.
 
-Brand Voice is scoped to the current [project](../projects.md): switching projects switches which Brand Voice profile is active.
+Brand Voice está acotado al [proyecto](../projects.md) actual: cambiar de proyecto cambia el perfil de Brand Voice activo.
 
-## Fields you can fill in
+## Campos que puede rellenar
 
-Every field is optional. The more you fill in, the more precisely generated content will match your brand.
+Todos los campos son opcionales. Cuantos más rellene, con mayor precisión se ajustará el contenido generado a su marca.
 
-- **Brand name** — e.g. "Hi, Moose".
-- **Summary** — what agents and tools should understand about the brand at a glance.
-- **Audience** — who the brand is for, and how that audience should be described.
-- **Tone** — e.g. "calm, direct, expert, warm."
-- **Writing style** — e.g. "short paragraphs, evidence-led, operator tone."
-- **Brand values** — one value per line.
-- **Secondary brand terms** — alternate forms of your brand name, one per line.
-- **Secondary domains** — additional owned domains beyond your primary site, one per line.
-- **Preferred terminology** — terms you want used, one per line.
-- **Avoided terminology** — terms to avoid, one per line.
-- **Proof points** — claims, proof, and differentiators, one per line.
+- **Nombre de marca**: por ejemplo, «Hi, Moose».
+- **Resumen**: lo que los agentes y las herramientas deben entender de un vistazo sobre la marca.
+- **Público**: a quién se dirige la marca y cómo debe describirse a ese público.
+- **Tono**: por ejemplo, «sereno, directo, experto, cercano».
+- **Estilo de redacción**: por ejemplo, «párrafos breves, basado en evidencias, tono operativo».
+- **Valores de marca**: un valor por línea.
+- **Términos de marca secundarios**: formas alternativas del nombre de su marca, uno por línea.
+- **Dominios secundarios**: otros dominios de su propiedad además del sitio principal, uno por línea.
+- **Terminología preferida**: términos que desea que se utilicen, uno por línea.
+- **Terminología que evitar**: términos que deben evitarse, uno por línea.
+- **Argumentos de prueba**: afirmaciones, pruebas y elementos diferenciadores, uno por línea.
 
-List fields (brand values, terminology, proof points, and similar) take one item per line.
+Los campos de lista (valores de marca, terminología, argumentos de prueba y similares) admiten un elemento por línea.
 
-## Auto-fill from your website
+## Autocompletar desde su sitio web
 
-Instead of filling in every field by hand, you can run **Auto fill**:
+En lugar de rellenar cada campo a mano, puede ejecutar **Autocompletar**:
 
-1. Confirm the project's website domain (Hi, Moose will ask for it if it isn't set yet).
-2. Hi, Moose crawls the site locally in the desktop app.
-3. Any currently empty Brand Voice fields are filled in with suggested values pulled from the crawl.
+1. Confirme el dominio del sitio web del proyecto (Hi, Moose se lo pedirá si aún no está definido).
+2. Hi, Moose rastrea el sitio en local, en la aplicación de escritorio.
+3. Los campos de Brand Voice que estén vacíos se rellenan con los valores sugeridos a partir del rastreo.
 
-Auto-fill only fills in fields that are empty — it won't overwrite anything you've already written. If the crawl doesn't turn up anything useful for a given field, that field is simply left as-is.
+El autocompletado solo rellena los campos vacíos: no sobrescribe nada de lo que usted ya haya escrito. Si el rastreo no encuentra nada útil para un campo, ese campo simplemente se deja como está.
 
-## Editing and saving
+## Editar y guardar
 
-Brand Voice changes are local to the project until you save them. If you navigate away with unsaved changes, Hi, Moose will ask whether you want to save before leaving, leave without saving, or stay and keep editing.
+Los cambios en Brand Voice son locales al proyecto hasta que los guarda. Si sale de la pantalla con cambios sin guardar, Hi, Moose le preguntará si desea guardarlos antes de salir, salir sin guardar o quedarse y seguir editando.
 
-## How this differs from Brand Truth Profile
+## En qué se diferencia del Brand Truth Profile
 
-Brand Voice is about **style** — how your brand should sound. It is not the place for factual claims about what your company sells, who it competes with, or what AI systems get wrong about you. That's what the [Brand Truth Profile](brand-truth-profile.md) is for.
+Brand Voice trata del **estilo**: cómo debe sonar su marca. No es el lugar para afirmaciones factuales sobre lo que vende su empresa, con quién compite o qué confunden los sistemas de IA sobre usted. Para eso está el [Brand Truth Profile](brand-truth-profile.md).
 
-## Cloud sync
+## Sincronización en la nube
 
-Brand Voice is stored locally for the current project by default. Syncing it to the cloud — so it's backed up and shared with your team — requires a paid plan. See [Context](overview.md#local-first-storage-and-cloud-sync) for details.
+De forma predeterminada, Brand Voice se guarda en local para el proyecto actual. Sincronizarlo con la nube, para respaldarlo y compartirlo con su equipo, requiere un plan de pago. Consulte [Context](overview.md) para más detalles.

@@ -5,7 +5,7 @@
 Invite collaborators to a shared Hi, Moose workspace, control who has access, and manage existing members.
 
 !!! note "Availability"
-    Team management is available on plans with more than one user seat. BYOK Free and single-seat plans don't show this section — see [Account Types & Modes](account-modes.md) for seat limits per plan.
+    Team management is available on plans with more than one user seat. Preview Mode and BYOK Free are capped at the account owner alone and don't show this section. BYOK Premium allows up to 10 seats, BYOK Agency up to 25, and managed plans are uncapped — see [Account Types & Plans](account-modes.md).
 
 ## Inviting a team member
 

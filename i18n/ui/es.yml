@@ -1,0 +1,39 @@
+# Spanish theme chrome. Key set must match i18n/ui/en.yml.
+
+site:
+  name: Documentación de usuario
+  description: Documentación de usuario de Hi, Moose - plataforma de optimización para búsqueda con IA
+
+header:
+  menu: Menú
+  toggleMenu: Mostrar u ocultar el menú
+  toggleTheme: Cambiar el tema
+  toggleLayout: Cambiar la disposición
+
+search:
+  label: Buscar en la documentación...
+  placeholder: Buscar en la documentación...
+  labelShort: Buscar...
+
+toc:
+  onThisPage: En esta página
+
+language:
+  menuAriaLabel: Elija un idioma
+  panelLabel: Idioma
+  availableAriaLabel: Idiomas disponibles
+  currentStatus: Actual
+
+stale:
+  title: Es posible que esta página esté desactualizada
+  body: Se tradujo a partir de una versión anterior de la página en inglés.
+  linkLabel: Ver en inglés
+
+machineTranslated:
+  title: Traducción automática
+  body: Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
+  linkLabel: Leerla en inglés
+
+notTranslated:
+  title: Todavía sin traducir
+  body: Esta página aún no está disponible en su idioma, por lo que se muestra en inglés.

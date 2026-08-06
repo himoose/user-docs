@@ -57,4 +57,8 @@ During a visibility run, Hi, Moose loads the project's Brand Truth Profile (when
 
 ## Cloud sync
 
-Like Brand Voice, the Brand Truth Profile is stored locally for the current project by default. Syncing it to the cloud — so it's backed up and shared with your team — requires a paid plan. See [Context](overview.md#local-first-storage-and-cloud-sync) for details.
+Like Brand Voice, the Brand Truth Profile is stored locally for the current project by default. Syncing it to the cloud — so it's backed up and shared with your team — requires a paid plan. See [Context](overview.md) for details.
+
+## Competitor tracking
+
+The competitor list here is shared with [Visibility Settings](../../visibility/settings.md). Competitors added in either place appear in both, and feed [Share of Voice, competitor citations, and gaps](../../visibility/competitors.md).

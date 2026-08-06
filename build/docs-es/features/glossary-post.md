@@ -1,25 +1,30 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: bbf5a9a7e3ebd537b29b229f3fbb3c08ef3b7c88e0f56ddf517a97911cda6c81
+---
+!!! note "Traducción automática"
+    Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-# Glossary Post
+    [Leerla en inglés](https://himoose.com/docs/features/glossary-post/)
 
-## What this helps you do
+# Entrada de glosario
 
-Generate a clear, definition-first glossary entry from a [content brief](content-briefs.md) — the **Glossary post** template type.
+## Para qué sirve
 
-From [Chat](../chat/overview.md), the **Create a glossary post** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Generar una entrada de glosario clara y centrada en la definición a partir de un [brief de contenido](content-briefs.md): el tipo de plantilla **Glossary post**.
 
-## Structure
+Desde el [Chat](../chat/overview.md), el inicio rápido **Create a glossary post** le guía para confirmar una consulta objetivo y un tipo de plantilla antes de generar juntos el brief y el primer borrador.
 
-A glossary post follows an informational, top-of-funnel structure:
+## Estructura
 
-- The term is defined clearly, in plain language, within the introduction or first section.
-- The piece stays informational first: what it is, why it matters, how it works, and where it shows up, before any call to action.
-- Concrete examples, related terms, and FAQ coverage are included when the brief calls for them.
-- It does not turn into a sales page, feature page, or heavy conversion flow — only a light next-step call to action, if the brief supports one.
+Una entrada de glosario sigue una estructura informativa, de parte alta del embudo:
 
-Right after the title, the draft includes a short **Key Points** section — 5 or 6 compressed, high-signal bullets distilled from the brief and the draft's thesis — before the main body.
+- El término se define con claridad, en lenguaje llano, dentro de la introducción o de la primera sección.
+- La pieza se mantiene informativa ante todo: qué es, por qué importa, cómo funciona y dónde aparece, antes de cualquier llamada a la acción.
+- Se incluyen ejemplos concretos, términos relacionados y cobertura de FAQ cuando el brief lo requiere.
+- No se convierte en una página de venta, una página de funcionalidades ni un flujo de conversión intenso: como mucho, una llamada a la acción ligera al final, si el brief la admite.
 
-## Where it fits
+Justo después del título, el borrador incluye una breve sección de **Key Points**: cinco o seis viñetas comprimidas y de alto valor, destiladas del brief y de la tesis del borrador, antes del cuerpo principal.
 
-Like every draft, a glossary post depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+## Dónde encaja
+
+Como todos los borradores, una entrada de glosario depende de su [brief de contenido](content-briefs.md) en lugar de generarse a partir de un prompt suelto. Una vez generada, pasa por el mismo [flujo de Draft Studio, vista previa, aprobación y publicación](drafts-and-publishing.md) que cualquier otro borrador.

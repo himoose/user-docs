@@ -33,6 +33,7 @@ Alongside content scoring, every audit checks whether an answer engine can actua
 ## Off-page and coverage context
 
 - **Citation landscape** — when live research runs, the audit reports which domains an answer engine actually cited for the target query, whether the audited site is among them, and whether third-party sources (community sites, review sites, Wikipedia, YouTube) dominate the answer. This is disclosed as context you mostly can't fix by editing your own page, rather than folded into the score.
+- **Your own visibility history** — if the audited URL has been cited in your recent [visibility runs](../visibility/overview.md), the audit pulls that in, so the recommendations account for how the page is already performing in AI answers rather than treating it as an unknown. Runs that failed are excluded from this, so an outage can't read as an absence of citations.
 - **Fan-out coverage** — checks the page against related queries an answer engine might expand the original query into (People Also Ask questions, related searches, secondary keywords). When several of these aren't addressed on the page, that becomes a concrete "cover these related questions" recommendation.
 
 ## Evidence tiers on recommendations
@@ -67,9 +68,9 @@ AEO audits never fabricate evidence. If Hi, Moose can't collect the evidence or 
 
 ## Entitlements
 
-- **Preview Mode (Free)** includes a small number of real audits per month using Hi, Moose's included AI usage.
-- **BYOK Free and BYOK Premium** run audits locally using your own OpenRouter key.
-- **Paid Managed** accounts use Hi, Moose's managed AI usage under your account's normal token balance — there's no separate "audit credit" currency to track.
+- **Preview Mode (Free)** runs audits on an activated local Gemma 4 model. There is no longer a free monthly allowance of cloud-run audits — set up a [local model](../getting-started/settings.md#local-model) and audits are free to run, as often as you like.
+- **BYOK plans** run audits locally using your own OpenRouter key.
+- **Managed plans** use Hi, Moose's managed models under your account's normal credit balance. There's no separate "audit credit" currency to track.
 
 ## Next actions from an audit
 

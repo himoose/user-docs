@@ -1,38 +1,43 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 64e2aed1c2f7aabf153fe284450b0ab8f444f0f39122092a8b927f546a3f2318
+---
+!!! note "Traducción automática"
+    Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
+
+    [Leerla en inglés](https://himoose.com/docs/workflows/overview/)
 
 # Workflows
 
-## What this helps you do
+## Para qué sirve
 
-Workflows turn a recurring operator pattern into a background routine described in plain language, instead of you re-running the same manual steps every time your AI visibility changes. Rather than a blank automation builder, each workflow is built from an opinionated, editable sentence — you fill in the blanks, Hi, Moose runs it.
+Los workflows convierten un patrón operativo recurrente en una rutina en segundo plano descrita en lenguaje corriente, en lugar de obligarle a repetir los mismos pasos manuales cada vez que cambia su visibilidad en IA. En vez de un constructor de automatizaciones en blanco, cada workflow se construye a partir de una frase editable y con criterio: usted rellena los huecos y Hi, Moose la ejecuta.
 
-!!! note "Availability"
-    Workflows require **BYOK Premium** or **Paid Managed** — Preview Mode can monitor one project locally, but reusable workflows aren't included, and BYOK Free doesn't include Workflows access either. See [Account Types & Modes](../getting-started/account-modes.md).
+!!! note "Disponibilidad"
+    Los workflows requieren un plan de pago: BYOK Premium, BYOK Agency o cualquier plan gestionado. Preview Mode puede supervisar un proyecto en local, pero no incluye workflows reutilizables, y BYOK Free tampoco los incluye. Véase [Tipos de cuenta y planes](../getting-started/account-modes.md).
 
-## The first choice: what is this workflow for?
+## La primera decisión: ¿para qué es este workflow?
 
-Every workflow starts with one decision: **"This workflow is for [ new / current ] content."**
+Todos los workflows empiezan por una decisión: **«Este workflow es para contenido [ nuevo / actual ]»**.
 
-- **Current content** runs the **[Recover Lost Visibility](recover-lost-visibility.md)** recipe — detect a drop in how your brand shows up, find the affected page, and stage a fix.
-- **New content** runs the **[Create New Content](create-new-content.md)** recipe — scan your tracked topics on a schedule and stage brand-new content for gaps it finds.
+- **Contenido actual** ejecuta la receta **[Recuperar visibilidad perdida](recover-lost-visibility.md)**: detectar una caída en cómo aparece su marca, localizar la página afectada y preparar una corrección.
+- **Contenido nuevo** ejecuta la receta **[Crear contenido nuevo](create-new-content.md)**: analizar los temas supervisados de forma programada y preparar contenido totalmente nuevo para las carencias que encuentre.
 
-## Managing multiple workflows
+## Gestionar varios workflows
 
-You aren't limited to one workflow:
+No está limitado a un solo workflow:
 
-- Click **New Workflow** to create another, independently configured one.
-- Switch between saved workflows from the workflow selector, which shows each one's name and whether it's **Enabled** or **Paused**.
-- Rename a workflow by clicking its name.
-- **Pause**/**Enable** a workflow without deleting its configuration.
-- **Remove** a workflow entirely — this only removes it from this device and doesn't affect other members of your workspace, since workflow definitions are local and personal rather than shared team state.
-- **Save** persists your changes; Hi, Moose also auto-saves once a workflow has everything it needs to run.
+- Pulse **New Workflow** para crear otro, configurado de forma independiente.
+- Cambie entre los workflows guardados desde el selector, que muestra el nombre de cada uno y si está **Enabled** o **Paused**.
+- Renombre un workflow haciendo clic en su nombre.
+- **Pause** o **Enable** un workflow sin eliminar su configuración.
+- **Remove** elimina un workflow por completo. Esto solo lo quita de este dispositivo y no afecta a los demás miembros de su espacio de trabajo, ya que las definiciones de workflow son locales y personales, no estado compartido del equipo.
+- **Save** guarda sus cambios; Hi, Moose también guarda automáticamente en cuanto un workflow tiene todo lo necesario para ejecutarse.
 
-## Running a workflow
+## Ejecutar un workflow
 
-- **Create New Content** workflows can be triggered immediately with **Run now**, in addition to running on their configured schedule. Results land in your [Inbox](../inbox/overview.md) for review — Hi, Moose links you straight there when a run finds something.
-- **Recover Lost Visibility** workflows don't have a manual run button; they evaluate automatically every time a new [visibility](../visibility/overview.md) run completes, comparing it against the previous run.
+- Los workflows de **Crear contenido nuevo** pueden activarse al instante con **Run now**, además de ejecutarse según su programación. Los resultados llegan a su [Inbox](../inbox/overview.md) para que los revise; Hi, Moose le lleva directamente allí cuando una ejecución encuentra algo.
+- Los workflows de **Recuperar visibilidad perdida** no tienen botón de ejecución manual: se evalúan automáticamente cada vez que termina una nueva ejecución de [visibilidad](../visibility/overview.md), comparándola con la anterior.
 
-## Before you can build a workflow
+## Antes de poder crear un workflow
 
-Workflows need at least one tracked visibility topic before they can watch for changes. If your project doesn't have one yet, Hi, Moose prompts you to set up [Visibility](../visibility/overview.md) tracking first, then return to Workflows.
+Los workflows necesitan al menos un tema de visibilidad supervisado para poder vigilar cambios. Si su proyecto todavía no tiene ninguno, Hi, Moose le pedirá que configure antes el seguimiento de [Visibility](../visibility/overview.md) y vuelva después a Workflows.

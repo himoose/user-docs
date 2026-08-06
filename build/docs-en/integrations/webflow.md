@@ -18,6 +18,10 @@ Hi, Moose can discover **content surfaces** on your connected Webflow site — p
 
 Not every Webflow connection can do everything yet. Hi, Moose reports one of a few readiness states for your connected site: ready for both staging preview artifacts and publishing, preview-only, publish-only, or connected but not yet ready for either. Designer-only surfaces (changes that require the Webflow Designer directly) aren't supported yet.
 
+## Publishing to collections
+
+When you publish to a collection, Hi, Moose loads the collection's other required fields first and asks you to fill them in, so a publish doesn't fail partway through on a field you couldn't see.
+
 ## Security
 
 Webflow authorization happens through your system browser, and the resulting connection is used only by the desktop app's background process — not exposed to the renderer UI.

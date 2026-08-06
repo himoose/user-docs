@@ -35,7 +35,7 @@ For Brand Voice specifically, you don't have to fill every field by hand: an **a
 
 ## Local-first storage and cloud sync
 
-By default, Brand Voice and Brand Truth Profile are stored **locally for the current project**, and About You is stored **locally on your device**. Cloud sync — which backs up Brand Voice and Brand Truth Profile and shares them across your team — is a paid-plan feature. On free and BYOK plans, Context stays local-only; upgrading to a paid plan turns on sync so your team shares the same grounding and it's protected if anything happens to your local machine.
+By default, Brand Voice and Brand Truth Profile are stored **locally for the current project**, and About You is stored **locally on your device**. Cloud sync — which backs up Brand Voice and Brand Truth Profile and shares them across your team — is available on **every paid plan**, including paid BYOK plans. Preview Mode and BYOK Free stay local-only; upgrading turns on sync so your team shares the same grounding and it's protected if anything happens to your local machine.
 
-!!! note "In BYOK modes"
+!!! note "On BYOK plans"
     Brand-context crawling (the auto-fill step) and Brand Truth analysis run locally in the desktop app. Hi, Moose does not need to see your site content on its own servers to build or use this context.

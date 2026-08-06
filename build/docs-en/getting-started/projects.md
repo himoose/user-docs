@@ -12,7 +12,7 @@ Projects keep separate brands or clients from bleeding into each other — visib
 - **Multiple brands** — a separate project per brand you manage
 - **Testing** — a throwaway project to try a workflow before running it on a production site
 
-Your [account mode](account-modes.md) determines how many active projects you can have at once (for example, BYOK Free includes 1 project, BYOK Premium includes up to 3). Paid Managed plans support higher limits.
+Your [plan](account-modes.md) determines how many active projects you can have at once. Preview Mode and BYOK Free include 1, BYOK Premium includes 3, BYOK Agency includes 25, and managed plans range from 3 to unlimited. Every paid plan can add extra projects for $10/month each.
 
 ## Setting up a project
 

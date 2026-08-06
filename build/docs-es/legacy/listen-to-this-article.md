@@ -1,15 +1,20 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 3d580f650a10ac332979413d4663c7fecfdcccd56bcc167b4cc56b3e5e150adb
+---
+!!! note "Traducción automática"
+    Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-# Listen to this Article (Audio Generation)
+    [Leerla en inglés](https://himoose.com/docs/legacy/listen-to-this-article/)
 
-!!! note "This feature has moved into the desktop app"
-    Audio generation is no longer part of the legacy web app. It now lives in the Hi, Moose desktop app under **Audio**, with project scoping, listening analytics, and player customization the web version didn't have.
+# Listen to this Article (generación de audio)
 
-Go to:
+!!! note "Esta función se ha trasladado a la aplicación de escritorio"
+    La generación de audio ya no forma parte de la aplicación web anterior. Ahora vive en la aplicación de escritorio de Hi, Moose, en **Audio**, con acotación por proyecto, analíticas de escucha y personalización del reproductor que la versión web no tenía.
 
-- **[Audio overview](../audio/overview.md)** — sources, conversation settings, voices, and history.
-- **[Player & Embed](../audio/player-and-embed.md)** — theme, layout, embed code, and agency attribution.
-- **[Listening Analytics](../audio/analytics.md)** — plays, completion rate, and the engagement funnel.
+Vaya a:
 
-Episodes you generated in the legacy web app are unaffected. Embeds already placed on your site keep working.
+- **[Descripción general de Audio](../audio/overview.md)**: fuentes, ajustes de la conversación, voces e historial.
+- **[Reproductor e inserción](../audio/player-and-embed.md)**: tema, disposición, código de inserción y atribución de agencia.
+- **[Analíticas de escucha](../audio/analytics.md)**: reproducciones, tasa de finalización y embudo de interacción.
+
+Los episodios que generó en la aplicación web anterior no se ven afectados. Las inserciones que ya estén colocadas en su sitio siguen funcionando.

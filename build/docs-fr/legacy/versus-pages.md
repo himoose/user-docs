@@ -4,7 +4,9 @@
 # Versus Pages (Programmatic SEO)
 
 !!! note "This feature lives in the legacy web app"
-    As Hi, Moose moves to a desktop-first product, most features have moved into the desktop app. **Versus pages are one of two features that remain in the legacy web app** (`app.himoose.com`) for now — the other is [Listen to this Article](listen-to-this-article.md). If you're a desktop app user, you can reach this feature from the account menu without creating a separate login.
+    As Hi, Moose moves to a desktop-first product, most features have moved into the desktop app. **Versus pages are one of two features that remain in the legacy web app** (`app.himoose.com`) — the other is the [Topical Authority Builder](topical-authority.md). If you're a desktop app user, you can reach this feature from the account menu without creating a separate login.
+
+    Versus pages require a paid plan.
 
 ## What this helps you do
 

@@ -137,7 +137,7 @@ nav:
 - Home: index.md
 - Getting Started:
   - Installing & Signing In: getting-started/install-and-sign-in.md
-  - Account Types & Modes: getting-started/account-modes.md
+  - Account Types & Plans: getting-started/account-modes.md
   - Projects & Workspace: getting-started/projects.md
   - Settings: getting-started/settings.md
   - Team Management: getting-started/team-management.md

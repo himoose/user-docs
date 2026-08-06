@@ -1,46 +1,51 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 21ee532adaad878cd1451a3d1bdcc53d85735a142ee0c75a7a2da59686684e1b
+---
+!!! note "Traducción automática"
+    Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-# White-Label Branding
+    [Leerla en inglés](https://himoose.com/docs/agency/white-label/)
 
-## What this helps you do
+# Marca blanca
 
-Put your agency's name, logo, and link on the work you hand to clients, in place of Hi, Moose's. It covers exported PDF reports and the embedded audio player.
+## Para qué sirve
 
-Find it in **Settings → Branding**. It's available on every paid plan — BYOK Premium, BYOK Agency, and all managed plans. The free plans don't include it.
+Poner el nombre, el logotipo y el enlace de su agencia en el trabajo que entrega a sus clientes, en lugar de los de Hi, Moose. Cubre los informes PDF exportados y el reproductor de audio insertado.
 
-!!! note "Only the subscription owner can change branding"
-    Team members can't edit it, but they do export with the saved branding. Set it once on the owner account and everyone on the team produces branded output.
+Lo encontrará en **Configuración → Branding**. Está disponible en todos los planes de pago: BYOK Premium, BYOK Agency y todos los planes gestionados. Los planes gratuitos no lo incluyen.
 
-## Turning it on
+!!! note "Solo el titular de la suscripción puede cambiar la marca"
+    Los miembros del equipo no pueden editarla, pero sí exportan con la marca guardada. Configúrela una vez en la cuenta del titular y todo el equipo producirá material con su marca.
 
-Toggle **Use my branding on exports**. You need to enter an agency name before the toggle will turn on.
+## Activarla
 
-## Report branding
+Active **Use my branding on exports**. Debe introducir un nombre de agencia antes de que el conmutador pueda activarse.
 
-When branding is on, the [visibility report](../visibility/overview.md) and [AEO audit](../features/aeo-audits.md) PDFs carry your branding on the cover and in the footers.
+## Marca en los informes
 
-| Field | Notes |
+Con la marca activada, los PDF del [informe de visibilidad](../visibility/overview.md) y de las [AEO audits](../features/aeo-audits.md) llevan su marca en la portada y en los pies de página.
+
+| Campo | Notas |
 |---|---|
-| Agency name | Required before branding can be turned on |
-| Link | Must be a full `https://` address |
-| Cover background color | Cover text switches between light and dark automatically to stay legible |
-| Logo | PNG or JPEG, 300 KB maximum |
+| Nombre de la agencia | Obligatorio antes de poder activar la marca |
+| Enlace | Debe ser una dirección `https://` completa |
+| Color de fondo de la portada | El texto de la portada alterna entre claro y oscuro automáticamente para mantenerse legible |
+| Logotipo | PNG o JPEG, máximo 300 KB |
 
-Upload a logo that reads clearly on the cover color you picked. If the file is over 300 KB or isn't a usable PNG or JPEG, Hi, Moose will tell you rather than silently accepting it.
+Suba un logotipo que se lea con claridad sobre el color de portada que haya elegido. Si el archivo supera los 300 KB o no es un PNG o JPEG utilizable, Hi, Moose se lo indicará en lugar de aceptarlo en silencio.
 
-## Audio embed attribution
+## Atribución en la inserción de audio
 
-This is the part built specifically for agencies. Embedded [audio players](../audio/player-and-embed.md) that your clients place on their sites can carry your attribution, linked back to you.
+Esta es la parte pensada específicamente para agencias. Los [reproductores de audio](../audio/player-and-embed.md) insertados que sus clientes coloquen en sus sitios pueden llevar su atribución, enlazada a usted.
 
-- **Audio embed attribution** — the text on the player. Leave it empty and it uses "Audio by" plus your agency name.
-- **Attribution link** — a full `https://` address. Leave it empty and it reuses your main branding link.
+- **Atribución de la inserción de audio**: el texto del reproductor. Si lo deja vacío, utiliza «Audio by» seguido del nombre de su agencia.
+- **Enlace de atribución**: una dirección `https://` completa. Si lo deja vacío, reutiliza su enlace principal de marca.
 
-Every client page carrying one of your players becomes a real link back to your site. That's a genuine acquisition channel, and it's something agencies can sell as part of the engagement.
+Cada página de cliente que lleve uno de sus reproductores se convierte en un enlace real de vuelta a su sitio. Es un canal de captación genuino, y es algo que las agencias pueden vender como parte del servicio.
 
-!!! warning "Attribution applies to embed code copied after saving"
-    Saving new branding doesn't rewrite embeds already on client sites. Copy the embed code again after saving to pick up the change.
+!!! warning "La atribución se aplica al código copiado después de guardar"
+    Guardar una marca nueva no reescribe las inserciones que ya estén en los sitios de sus clientes. Vuelva a copiar el código de inserción después de guardar para recoger el cambio.
 
-## Saving
+## Guardar
 
-Click **Save branding**. If the save fails, check your connection and try again — branding is stored on your account, not just this device, so it follows you to a new install and applies to every team member's exports.
+Pulse **Save branding**. Si el guardado falla, compruebe su conexión y vuelva a intentarlo: la marca se guarda en su cuenta y no solo en este dispositivo, de modo que le acompaña a una instalación nueva y se aplica a las exportaciones de todos los miembros del equipo.

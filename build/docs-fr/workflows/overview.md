@@ -8,7 +8,7 @@
 Workflows turn a recurring operator pattern into a background routine described in plain language, instead of you re-running the same manual steps every time your AI visibility changes. Rather than a blank automation builder, each workflow is built from an opinionated, editable sentence — you fill in the blanks, Hi, Moose runs it.
 
 !!! note "Availability"
-    Workflows require **BYOK Premium** or **Paid Managed** — Preview Mode can monitor one project locally, but reusable workflows aren't included, and BYOK Free doesn't include Workflows access either. See [Account Types & Modes](../getting-started/account-modes.md).
+    Workflows require a paid plan — BYOK Premium, BYOK Agency, or any managed plan. Preview Mode can monitor one project locally, but reusable workflows aren't included, and BYOK Free doesn't include them either. See [Account Types & Plans](../getting-started/account-modes.md).
 
 ## The first choice: what is this workflow for?
 

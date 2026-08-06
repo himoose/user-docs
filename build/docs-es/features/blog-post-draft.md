@@ -1,25 +1,30 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: fd74e34b467a2aec2ad0abc74e8a74c6865ee781fe1c9eceff1c780dcc8517c7
+---
+!!! note "Traducción automática"
+    Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-# Blog Post Draft
+    [Leerla en inglés](https://himoose.com/docs/features/blog-post-draft/)
 
-## What this helps you do
+# Borrador de entrada de blog
 
-Generate a long-form, educational blog article draft from a [content brief](content-briefs.md) — the **Blog post** template type.
+## Para qué sirve
 
-From [Chat](../chat/overview.md), the **Create a blog post draft** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Generar el borrador de un artículo de blog extenso y divulgativo a partir de un [brief de contenido](content-briefs.md): el tipo de plantilla **Blog post**.
 
-## Structure
+Desde el [Chat](../chat/overview.md), el inicio rápido **Create a blog post draft** le guía para confirmar una consulta objetivo y un tipo de plantilla antes de generar juntos el brief y el primer borrador.
 
-A blog post draft follows an educational article structure:
+## Estructura
 
-- A clear introduction, logical section flow, and substantive explanation throughout.
-- The main query answered directly, then expanded with proof, examples, and FAQ coverage where the brief supports them.
-- Readable as long-form editorial content — not shaped like a landing page, solutions page, or product page.
-- A fitting next-step call to action near the end, only when the brief calls for one.
+Un borrador de entrada de blog sigue la estructura de un artículo divulgativo:
 
-Right after the title, the draft includes a short **Key Points** section — 5 or 6 compressed, high-signal bullets distilled from the brief and the draft's thesis — before the main body, so readers (and answer engines) get the core takeaways immediately.
+- Una introducción clara, una secuencia lógica de secciones y una explicación sustancial en todo el texto.
+- La consulta principal se responde directamente y después se amplía con pruebas, ejemplos y cobertura de FAQ cuando el brief lo admite.
+- Se lee como contenido editorial extenso, no con la forma de una landing page, una página de soluciones o una página de producto.
+- Una llamada a la acción adecuada cerca del final, solo cuando el brief la requiere.
 
-## Where it fits
+Justo después del título, el borrador incluye una breve sección de **Key Points**: cinco o seis viñetas comprimidas y de alto valor, destiladas del brief y de la tesis del borrador, antes del cuerpo principal, para que los lectores (y los motores de respuesta) obtengan de inmediato las conclusiones esenciales.
 
-Like every draft, a blog post draft depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+## Dónde encaja
+
+Como todos los borradores, un borrador de entrada de blog depende de su [brief de contenido](content-briefs.md) en lugar de generarse a partir de un prompt suelto. Una vez generado, pasa por el mismo [flujo de Draft Studio, vista previa, aprobación y publicación](drafts-and-publishing.md) que cualquier otro borrador.

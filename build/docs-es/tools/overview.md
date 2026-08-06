@@ -1,54 +1,59 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: a520f220686779a4e43944e38365ca5142c3e85eb20112e98bb99e9f73e340de
+---
+!!! note "Traducción automática"
+    Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-# The Tools Menu
+    [Leerla en inglés](https://himoose.com/docs/tools/overview/)
 
-## What this helps you do
+# El menú Tools
 
-The **Tools** menu in the top bar is the fastest way to start a specific piece of work. Open it, search or pick a tool, and Hi, Moose opens the right intake flow instead of making you describe what you want in chat.
+## Para qué sirve
 
-Press **Enter** to run the highlighted tool and **Esc** to close. The search box filters across every tool by name.
+El menú **Tools** de la barra superior es la forma más rápida de iniciar una tarea concreta. Ábralo, busque o elija una herramienta, y Hi, Moose abrirá el formulario adecuado en lugar de obligarle a describir lo que quiere en el chat.
 
-## What's in it
+Pulse **Intro** para ejecutar la herramienta resaltada y **Esc** para cerrar. El cuadro de búsqueda filtra todas las herramientas por nombre.
 
-Tools are grouped by what you're trying to do.
+## Qué contiene
+
+Las herramientas se agrupan según lo que usted intenta hacer.
 
 ### Audit & capture
 
-| Tool | What it does |
+| Herramienta | Qué hace |
 |---|---|
-| [AEO Audit a URL](../features/aeo-audits.md) | Score any page for answer-engine readiness |
-| [Capture ChatGPT fan-out queries](../features/fan-out-queries.md) | See the sub-questions behind a prompt |
-| [Capture Google AI Mode grounding queries](../features/grounding-queries.md) | Log the searches AI Mode runs to ground an answer |
+| [Auditar una URL con AEO](../features/aeo-audits.md) | Puntúa cualquier página según su preparación para los motores de respuesta |
+| [Capturar consultas fan-out de ChatGPT](../features/fan-out-queries.md) | Muestra las subpreguntas que hay detrás de un prompt |
+| [Capturar consultas de grounding de Google AI Mode](../features/grounding-queries.md) | Registra las búsquedas que ejecuta AI Mode para fundamentar una respuesta |
 
 ### Enrich a page
 
-| Tool | What it does |
+| Herramienta | Qué hace |
 |---|---|
-| [Generate FAQs](../features/faq-generator.md) | Pull answerable questions from a page |
-| [Generate key points](../features/key-points.md) | Summarize a page into citable takeaways |
-| [Convert text into audio](../audio/overview.md) | Turn any doc into a narrated track |
+| [Generar FAQ](../features/faq-generator.md) | Extrae de una página preguntas que se puedan responder |
+| [Generar key points](../features/key-points.md) | Resume una página en conclusiones citables |
+| [Convertir texto en audio](../audio/overview.md) | Convierte cualquier documento en una pista narrada |
 
 ### Write
 
-| Tool | What it does |
+| Herramienta | Qué hace |
 |---|---|
-| [Create an optimized blog post](../features/blog-post-draft.md) | Draft a post built to be cited |
-| [Write optimized product page copy](../features/product-page-content.md) | Rewrite product copy for answer engines |
-| [Create landing page content](../features/landing-page-content.md) | A full page, structured for AI answers |
-| [Create a new glossary post](../features/glossary-post.md) | Define a term so engines can cite it |
-| [Create a content brief](../features/content-briefs.md) | Outline, entities, and questions to cover |
+| [Crear una entrada de blog optimizada](../features/blog-post-draft.md) | Redacta una entrada pensada para ser citada |
+| [Escribir texto optimizado de página de producto](../features/product-page-content.md) | Reescribe el texto de producto para los motores de respuesta |
+| [Crear contenido de landing page](../features/landing-page-content.md) | Una página completa, estructurada para las respuestas de IA |
+| [Crear una entrada de glosario](../features/glossary-post.md) | Define un término para que los motores puedan citarlo |
+| [Crear un brief de contenido](../features/content-briefs.md) | Esquema, entidades y preguntas que cubrir |
 
-## You don't have to use the menu
+## No tiene por qué usar el menú
 
-Everything in the Tools menu can also be started by just asking for it in [chat](../chat/overview.md). Moose reads what you're asking for and opens the same intake flow.
+Todo lo que hay en el menú Tools puede iniciarse también pidiéndolo sin más en el [chat](../chat/overview.md). Moose interpreta lo que usted pide y abre el mismo formulario.
 
-The menu exists because sometimes you know exactly what you want and typing a sentence is slower than picking it off a list. Neither route is more capable than the other.
+El menú existe porque a veces sabe exactamente lo que quiere y escribir una frase es más lento que elegirlo de una lista. Ninguna de las dos vías tiene más capacidades que la otra.
 
-!!! note "Explicit requests open the tool; hints only suggest it"
-    When you clearly ask for something ("audit this URL"), Moose opens that tool directly. When your question only implies it, Moose answers the question and offers the tool as a one-tap suggestion underneath rather than hijacking the conversation.
+!!! note "Las peticiones explícitas abren la herramienta; las insinuaciones solo la sugieren"
+    Cuando pide algo con claridad («audita esta URL»), Moose abre esa herramienta directamente. Cuando su pregunta solo lo insinúa, Moose responde a la pregunta y ofrece la herramienta como sugerencia de un toque debajo, en lugar de apoderarse de la conversación.
 
-## Related
+## Relacionado
 
-- **[Instant AI Search Brand Check](instant-brand-check.md)** — check a single query across five engines right now.
-- **[Drafts, Preview & Publishing](../features/drafts-and-publishing.md)** — what happens after a tool produces content.
+- **[Comprobación instantánea de marca en búsqueda con IA](instant-brand-check.md)**: consultar una pregunta en cinco motores ahora mismo.
+- **[Borradores, vista previa y publicación](../features/drafts-and-publishing.md)**: qué ocurre después de que una herramienta produzca contenido.

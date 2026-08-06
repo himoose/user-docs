@@ -5,7 +5,7 @@
 Connect Google Search Console so Hi, Moose can bring your first-party Google search performance — impressions, clicks, and query data — into the same local evidence base used by [Visibility](../visibility/overview.md), [AEO audits](../features/aeo-audits.md), and [content briefs](../features/content-briefs.md).
 
 !!! note "Availability"
-    Google Search Console connection is included on BYOK Premium and Paid Managed. It isn't included on BYOK Free or Preview Mode — see [Account Types & Modes](../getting-started/account-modes.md).
+    Google Search Console connection is included on every paid plan — BYOK Premium, BYOK Agency, and all managed plans. It isn't included on BYOK Free or Preview Mode. See [Account Types & Plans](../getting-started/account-modes.md).
 
 ## Why this stays local
 

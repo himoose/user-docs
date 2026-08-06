@@ -1,75 +1,80 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 1907634a13686d43288a5b306f0fe1987aee6bc02abacf969d308b522b1b0a18
+---
+!!! note "Traducción automática"
+    Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-# Welcome to Hi, Moose Documentation
+    [Leerla en inglés](https://himoose.com/docs/)
 
-Hi, Moose is a **desktop-first AI visibility operations platform** for SMB to mid-market marketing teams. It helps you monitor AI and search visibility, detect meaningful changes, prepare better content actions, make agentic edits, and connect those actions to outcomes over time.
+# Bienvenido a la documentación de Hi, Moose
 
-The **Hi, Moose desktop app** is now the primary place to do this work. It's a real operator console — not just a chat window — built around one core loop:
+Hi, Moose es una **plataforma de operaciones de visibilidad en IA, concebida primero para el escritorio**, dirigida a equipos de marketing de pymes y del mercado medio. Le ayuda a supervisar su visibilidad en IA y en buscadores, detectar cambios relevantes, preparar mejores acciones de contenido, realizar ediciones agénticas y vincular esas acciones con sus resultados a lo largo del tiempo.
 
-**monitor → detect → brief → approve → publish**
+La **aplicación de escritorio de Hi, Moose** es ahora el lugar principal para este trabajo. Es una verdadera consola de operaciones, no una simple ventana de chat, y se articula en torno a un ciclo central:
 
-!!! note "Moving from the web app?"
-    Hi, Moose used to be a web-only product. Nearly everything now lives in the desktop app, including **[Audio](audio/overview.md)**, which moved over from the legacy web app. What's left at `app.himoose.com` is **[Versus Pages](legacy/versus-pages.md)** and the **[Topical Authority Builder](legacy/topical-authority.md)**. You can reach them from the account menu without a separate login.
+**supervisar → detectar → planificar → aprobar → publicar**
 
-## What is Hi, Moose?
+!!! note "¿Viene de la aplicación web?"
+    Hi, Moose fue en su día un producto exclusivamente web. Hoy casi todo reside en la aplicación de escritorio, incluido **[Audio](audio/overview.md)**, que se trasladó desde la aplicación web anterior. En `app.himoose.com` solo quedan **[Versus Pages](legacy/versus-pages.md)** y el **[Topical Authority Builder](legacy/topical-authority.md)**. Puede acceder a ellos desde el menú de la cuenta, sin necesidad de otro inicio de sesión.
 
-Hi, Moose isn't a generic AI writer or a prompt box. Models provide reasoning — Hi, Moose provides the **continuity, memory, prioritization, editing, publishing, and accountability** around that reasoning. It remembers your brand, your projects, your past decisions, and your publish history, so every recommendation builds on the last instead of starting from zero.
+## ¿Qué es Hi, Moose?
 
-## The core operator loop
+Hi, Moose no es un redactor genérico con IA ni una caja de prompts. Los modelos aportan el razonamiento; Hi, Moose aporta la **continuidad, la memoria, la priorización, la edición, la publicación y la trazabilidad** que rodean a ese razonamiento. Recuerda su marca, sus proyectos, sus decisiones anteriores y su historial de publicación, de modo que cada recomendación se apoya en la anterior en lugar de partir de cero.
 
-A working Hi, Moose session should be able to answer:
+## El ciclo central de operaciones
 
-1. What changed in your AI/search visibility?
-2. Why does it matter?
-3. What should you do about it?
-4. What evidence supports that recommendation?
-5. What will the edit look like?
-6. Can you preview it before it goes live?
-7. Can you approve it safely?
-8. Can Hi, Moose publish it for you?
-9. What happened afterward?
+Una sesión de trabajo en Hi, Moose debería poder responder a lo siguiente:
 
-## Core capabilities in the desktop app
+1. ¿Qué ha cambiado en su visibilidad en IA y en buscadores?
+2. ¿Por qué es importante?
+3. ¿Qué debería hacer al respecto?
+4. ¿Qué evidencias respaldan esa recomendación?
+5. ¿Qué aspecto tendrá la edición?
+6. ¿Puede verla en vista previa antes de publicarla?
+7. ¿Puede aprobarla con seguridad?
+8. ¿Puede Hi, Moose publicarla por usted?
+9. ¿Qué ocurrió después?
 
-### 📈 Monitor & detect
+## Capacidades principales de la aplicación de escritorio
 
-- **[Visibility](visibility/overview.md)** — Track how your brand shows up across Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini, and Grok, and get notified when something meaningful changes.
-- **[Competitors & Share of Voice](visibility/competitors.md)** — See who's getting recommended instead of you, which of their pages win the citations, and which questions you're absent from.
-- **[AEO Audits](features/aeo-audits.md)** — Score a page's answer-engine readiness, see what's holding it back, and track whether changes actually move the score.
-- **[Site Monitoring](site-monitoring/overview.md)** — Crawl your site, index it for semantic search, and get one digest per crawl when AEO-relevant things change.
-- **[Instant Brand Check](tools/instant-brand-check.md)** — Check a single query across five AI engines right now, without setting anything up.
+### 📈 Supervisar y detectar
 
-### ✍️ Brief, draft & publish
+- **[Visibility](visibility/overview.md)**: siga cómo aparece su marca en Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini y Grok, y reciba avisos cuando algo relevante cambie.
+- **[Competidores y Share of Voice](visibility/competitors.md)**: descubra a quién recomiendan en su lugar, qué páginas suyas se llevan las citas y en qué preguntas usted no aparece.
+- **[AEO Audits](features/aeo-audits.md)**: puntúe la preparación de una página para los motores de respuesta, vea qué la frena y compruebe si los cambios mueven realmente la puntuación.
+- **[Site Monitoring](site-monitoring/overview.md)**: rastree su sitio, indéxelo para la búsqueda semántica y reciba un resumen por rastreo cuando cambie algo relevante para AEO.
+- **[Comprobación instantánea de marca](tools/instant-brand-check.md)**: consulte una única pregunta en cinco motores de IA ahora mismo, sin configurar nada.
 
-- **[Content Briefs](features/content-briefs.md)** — Generate data-grounded content briefs from live search and answer-engine evidence.
-- **[FAQ Generator](features/faq-generator.md)** — Generate natural Q&A sections with schema markup.
-- **[Key Points Extractor](features/key-points.md)** — Extract semantically-compressed key points (TL;DRs) from long-form content.
-- **[Drafts, Preview & Publishing](features/drafts-and-publishing.md)** — Turn a brief into a draft, preview the change, approve it, and publish it — with a full record of what happened.
-- **[Workflows](workflows/overview.md)** — Save recurring operator recipes (Recover Lost Visibility, Create New Content) that run in the background and land in your inbox for review.
-- **[Audio](audio/overview.md)** — Turn an article into a two-voice conversation, embed the player, and see how people listen.
+### ✍️ Planificar, redactar y publicar
 
-### 🔗 Connect your stack
+- **[Content Briefs](features/content-briefs.md)**: genere briefs de contenido fundamentados en datos, a partir de búsquedas en vivo y de evidencias de los motores de respuesta.
+- **[Generador de FAQ](features/faq-generator.md)**: genere secciones de preguntas y respuestas naturales con su marcado de schema.
+- **[Extractor de Key Points](features/key-points.md)**: extraiga puntos clave comprimidos semánticamente (TL;DR) de contenidos extensos.
+- **[Borradores, vista previa y publicación](features/drafts-and-publishing.md)**: convierta un brief en un borrador, revise el cambio, apruébelo y publíquelo, con un registro completo de lo ocurrido.
+- **[Workflows](workflows/overview.md)**: guarde recetas de operación recurrentes (Recuperar visibilidad perdida, Crear contenido nuevo) que se ejecutan en segundo plano y llegan a su Inbox para que las revise.
+- **[Audio](audio/overview.md)**: convierta un artículo en una conversación a dos voces, inserte el reproductor y observe cómo lo escuchan.
 
-- **[Grav](integrations/grav.md)** — Connect a Grav site through the Hi, Moose plugin for direct content access.
-- **[WordPress](integrations/wordpress.md)** — Connect a WordPress site so Hi, Moose can stage and apply edits directly.
-- **[Webflow](integrations/webflow.md)** — Connect a Webflow CMS site for content management and publishing.
-- **[Google Search Console](integrations/google-search-console.md)** — Bring first-party Google search performance into your local evidence base.
+### 🔗 Conecte su stack
 
-## Getting started
+- **[Grav](integrations/grav.md)**: conecte un sitio Grav mediante el plugin de Hi, Moose para acceder directamente al contenido.
+- **[WordPress](integrations/wordpress.md)**: conecte un sitio WordPress para que Hi, Moose pueda preparar y aplicar ediciones directamente.
+- **[Webflow](integrations/webflow.md)**: conecte un sitio con Webflow CMS para gestionar y publicar contenido.
+- **[Google Search Console](integrations/google-search-console.md)**: incorpore el rendimiento de búsqueda propio de Google a su base local de evidencias.
 
-1. **[Install & sign in](getting-started/install-and-sign-in.md)** — Download the desktop app and choose a plan.
-2. **[Understand account types & plans](getting-started/account-modes.md)** — The real fork is whether AI runs on your own key or on Hi, Moose's models.
-3. **[Set up a project](getting-started/projects.md)** — Create a workspace for a website, brand, or client.
-4. **[Set up your Context](getting-started/context/overview.md)** — Brand Voice, Brand Truth Profile, and About You, so generated content sounds like you and AI answers about your brand stay accurate.
-5. **[Manage your team](getting-started/team-management.md)** — Invite collaborators to a shared workspace.
+## Primeros pasos
 
-## Why Hi, Moose?
+1. **[Instalar e iniciar sesión](getting-started/install-and-sign-in.md)**: descargue la aplicación de escritorio y elija un plan.
+2. **[Conocer los tipos de cuenta y los planes](getting-started/account-modes.md)**: la verdadera bifurcación es si la IA se ejecuta con su propia clave o con los modelos de Hi, Moose.
+3. **[Crear un proyecto](getting-started/projects.md)**: cree un espacio de trabajo para un sitio web, una marca o un cliente.
+4. **[Configurar su Context](getting-started/context/overview.md)**: Brand Voice, Brand Truth Profile y Sobre usted, para que el contenido generado suene como usted y las respuestas de la IA sobre su marca sean exactas.
+5. **[Gestionar su equipo](getting-started/team-management.md)**: invite a colaboradores a un espacio de trabajo compartido.
 
-- **Local-first by design** — On BYOK plans, your data, memory, and model calls stay on your machine unless a feature explicitly requires a cloud step. Local models run on-device on every plan, free.
-- **Real evidence, not guesses** — Recommendations are grounded in live search data, real answer-engine snapshots, and your actual site content — never fabricated citations or placeholder research.
-- **A system of record, not just a chat log** — Briefs, drafts, previews, approvals, and publish events are durable artifacts you can trace back to a visibility change.
+## ¿Por qué Hi, Moose?
+
+- **Local por diseño**: en los planes BYOK, sus datos, su memoria y sus llamadas a los modelos permanecen en su equipo, salvo que una función requiera explícitamente un paso en la nube. Los modelos locales se ejecutan en el dispositivo en todos los planes, sin coste.
+- **Evidencias reales, no conjeturas**: las recomendaciones se apoyan en datos de búsqueda en vivo, capturas reales de los motores de respuesta y el contenido real de su sitio. Nunca en citas inventadas ni en investigación de relleno.
+- **Un sistema de registro, no solo un historial de chat**: los briefs, los borradores, las vistas previas, las aprobaciones y las publicaciones son artefactos duraderos que puede rastrear hasta el cambio de visibilidad que los originó.
 
 ---
 
-**Ready to get started?** [Install the desktop app](getting-started/install-and-sign-in.md) and set up your first [project](getting-started/projects.md).
+**¿Todo listo para empezar?** [Instale la aplicación de escritorio](getting-started/install-and-sign-in.md) y cree su primer [proyecto](getting-started/projects.md).

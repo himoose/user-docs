@@ -1,33 +1,38 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 6b626247301ccb574a07ca68954224dc2c2db39fba0d3b67fb3b922f16cabd30
+---
+!!! note "Traducción automática"
+    Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-# About You
+    [Leerla en inglés](https://himoose.com/docs/getting-started/context/about-you/)
 
-## What this helps you do
+# Sobre usted
 
-About You is personal context about **you** — the person using Hi, Moose — so chat can feel more like working with a coworker who knows you, rather than a tool you have to re-explain yourself to every session.
+## Para qué sirve
 
-Unlike [Brand Voice](brand-voice.md) and the [Brand Truth Profile](brand-truth-profile.md), About You is **not scoped to a project**. It's tied to you and stored locally on this device, so it stays the same as you switch between projects.
+Sobre usted es el contexto personal acerca de **usted**, la persona que utiliza Hi, Moose, para que el chat se parezca más a trabajar con un compañero que le conoce y menos a una herramienta a la que hay que volver a explicarse en cada sesión.
 
-Everything here is optional, and everything stays on your machine.
+A diferencia de [Brand Voice](brand-voice.md) y del [Brand Truth Profile](brand-truth-profile.md), Sobre usted **no está acotado a un proyecto**. Está vinculado a usted y se guarda en local en este dispositivo, de modo que no cambia cuando pasa de un proyecto a otro.
 
-## Fields you can fill in
+Todo lo de aquí es opcional y todo permanece en su equipo.
 
-- **Your role** — e.g. "Head of Marketing at a SaaS startup."
-- **Your team** — e.g. "small content team of 3, working with one designer."
-- **What you focus on** — one area per line, e.g. AEO, blog growth, podcast distribution.
-- **Long-term goals** — what success looks like for you over the next few quarters.
-- **How you like Moose to talk to you** — e.g. "short answers first, then detail if I ask. Skip pep talks."
-- **Anything else Moose should remember** — quirks, constraints, or recurring context that would help a teammate work with you better.
+## Campos que puede rellenar
 
-## Editing and clearing
+- **Su función**: por ejemplo, «responsable de marketing en una startup SaaS».
+- **Su equipo**: por ejemplo, «equipo de contenido pequeño, de 3 personas, con un diseñador».
+- **En qué se centra**: un área por línea; por ejemplo, AEO, crecimiento del blog, distribución de pódcast.
+- **Objetivos a largo plazo**: qué significa el éxito para usted en los próximos trimestres.
+- **Cómo prefiere que Moose se dirija a usted**: por ejemplo, «primero respuestas breves y después el detalle si lo pido. Nada de charlas motivadoras».
+- **Cualquier otra cosa que Moose deba recordar**: particularidades, restricciones o contexto recurrente que ayudaría a un compañero a trabajar mejor con usted.
 
-Add or edit any of these fields from the About You card in Context. If you'd rather not have any personal context stored, you can clear it at any time — clearing removes everything saved here.
+## Editar y borrar
 
-## Where it's used
+Añada o edite cualquiera de estos campos desde la tarjeta Sobre usted dentro de Context. Si prefiere no guardar ningún contexto personal, puede borrarlo en cualquier momento: al borrarlo se elimina todo lo guardado aquí.
 
-About You is included as background context when you use [Chat](../../chat/overview.md), so responses can reflect your role, goals, and preferred communication style without you needing to repeat them.
+## Dónde se utiliza
 
-## Storage
+Sobre usted se incluye como contexto de fondo cuando utiliza el [Chat](../../chat/overview.md), de modo que las respuestas reflejen su función, sus objetivos y su estilo de comunicación preferido sin que tenga que repetirlos.
 
-About You always stays local to this device — it is not part of the paid-plan cloud sync that applies to Brand Voice and the Brand Truth Profile, since it's personal to you rather than shared team context.
+## Almacenamiento
+
+Sobre usted permanece siempre en local en este dispositivo. No forma parte de la sincronización en la nube de los planes de pago que se aplica a Brand Voice y al Brand Truth Profile, porque es personal suyo y no contexto compartido del equipo.

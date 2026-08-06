@@ -1,58 +1,63 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 90bb543cefb714f7fdb6facb1f7799b751aff22949ece082264e7713b4992995
+---
+!!! note "Traducción automática"
+    Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-# Model Selection
+    [Leerla en inglés](https://himoose.com/docs/chat/model-selection/)
 
-## What this helps you do
+# Selección de modelo
 
-Every chat is powered by a specific AI model, and the model selector lets you see and change which one you're using — including local, on-device models.
+## Para qué sirve
 
-## Choosing a model
+Cada chat funciona con un modelo de IA concreto, y el selector de modelo le permite ver y cambiar cuál está utilizando, incluidos los modelos locales que se ejecutan en el dispositivo.
 
-Open the model selector to see the models available on your [plan](../getting-started/account-modes.md). Each option is labeled with badges so you know what you're getting before you switch:
+## Elegir un modelo
 
-- **Free** / **HiMoose Cloud** / **Paid or BYOK** — which plans can use this model.
-- **Speed: Slow / Average / Very Fast** — a rough sense of response latency.
-- **Local** — runs entirely on your device (see below).
-- A **multiplier badge** on higher-cost models, showing how much more of your balance they use than the standard option.
+Abra el selector de modelo para ver los modelos disponibles en su [plan](../getting-started/account-modes.md). Cada opción lleva distintivos para que sepa qué obtiene antes de cambiar:
 
-The lineup tracks what the model providers ship, and currently includes the Claude, GPT, Gemini, and Gemma families. If a model isn't available on your current plan, Hi, Moose tells you so directly rather than silently falling back to a different one.
+- **Free** / **HiMoose Cloud** / **Paid or BYOK**: qué planes pueden utilizar ese modelo.
+- **Speed: Slow / Average / Very Fast**: una idea aproximada de la latencia de respuesta.
+- **Local**: se ejecuta íntegramente en su dispositivo (véase más abajo).
+- Un **distintivo multiplicador** en los modelos más costosos, que indica cuánto más consumen de su saldo respecto a la opción estándar.
 
-## Local models
+La oferta sigue lo que publican los proveedores de modelos y actualmente incluye las familias Claude, GPT, Gemini y Gemma. Si un modelo no está disponible en su plan, Hi, Moose se lo dice directamente en lugar de recurrir a otro en silencio.
 
-Approved local models such as Google's Gemma 4 run **entirely on your computer**. No tokens used, no cloud round-trip, and no data leaves your device. The first time you select a local model, Hi, Moose walks you through setup.
+## Modelos locales
 
-Once downloaded and activated, local responses are fast on Apple Silicon. On Intel-based Macs the model runs on CPU and will be noticeably slower than cloud models, and Hi, Moose warns you about this before you commit to the download.
+Los modelos locales aprobados, como Gemma 4 de Google, se ejecutan **íntegramente en su ordenador**. No consumen tokens, no hay ida y vuelta a la nube y ningún dato sale de su dispositivo. La primera vez que seleccione un modelo local, Hi, Moose le guía por la instalación.
 
-Local models are not a cut-down option. Gemma 4 supports tool calling, so the [chat tools](tools-and-specialists.md) work on a local model the same way they do on a cloud one.
+Una vez descargado y activado, las respuestas locales son rápidas en Apple Silicon. En los Mac con procesador Intel el modelo se ejecuta en la CPU y será notablemente más lento que los modelos en la nube; Hi, Moose se lo advierte antes de que confirme la descarga.
 
-!!! note "Preview Mode depends on a local model"
-    On the free plan, [AEO audits](../features/aeo-audits.md) and visibility scoring only run with an activated local model. This is the main reason to set one up early.
+Los modelos locales no son una opción recortada. Gemma 4 admite el uso de herramientas, de modo que las [herramientas del chat](tools-and-specialists.md) funcionan en un modelo local igual que en uno en la nube.
 
-## Higher-cost models
+!!! note "Preview Mode depende de un modelo local"
+    En el plan gratuito, las [AEO audits](../features/aeo-audits.md) y la puntuación de visibilidad solo funcionan con un modelo local activado. Es la razón principal para configurar uno cuanto antes.
 
-Some models use meaningfully more of your balance than the standard option. If you pick one, Hi, Moose confirms first and shows roughly how many times more tokens it uses, so you don't burn through your balance by accident.
+## Modelos más costosos
 
-The most expensive models are gated by plan. If yours doesn't include them, they're shown as unavailable rather than hidden.
+Algunos modelos consumen bastante más de su saldo que la opción estándar. Si elige uno, Hi, Moose se lo confirma primero y le indica aproximadamente cuántas veces más tokens consume, para que no agote su saldo por accidente.
 
-## Web search grounding
+Los modelos más caros están limitados por plan. Si el suyo no los incluye, se muestran como no disponibles en lugar de ocultarse.
 
-Chat can ground its answers in live web search results for the current conversation. This is available on BYOK Premium, BYOK Agency, and all managed plans. It isn't included on BYOK Free or Preview Mode.
+## Fundamentación con búsqueda web
 
-## Language
+El chat puede fundamentar sus respuestas en resultados de búsqueda web en vivo para la conversación actual. Está disponible en BYOK Premium, BYOK Agency y todos los planes gestionados. No se incluye en BYOK Free ni en Preview Mode.
 
-Chat follows a language preference, so you can work in a different language from the one the app interface uses.
+## Idioma
 
-## When a model can't be used
+El chat sigue una preferencia de idioma, de modo que puede trabajar en un idioma distinto del que utiliza la interfaz de la aplicación.
 
-You may see a message instead of a response if:
+## Cuando no se puede utilizar un modelo
 
-- the selected model is temporarily unavailable (try another model),
-- the model isn't allowed on your plan (choose one that's included), or
-- an image was attached to a model that doesn't support image input. Hi, Moose names a model that does and offers to switch.
+Puede aparecer un mensaje en lugar de una respuesta si:
 
-## Where this fits with BYOK
+- el modelo seleccionado no está disponible temporalmente (pruebe con otro),
+- el modelo no está permitido en su plan (elija uno incluido), o
+- se ha adjuntado una imagen a un modelo que no admite entrada de imágenes. Hi, Moose le indica un modelo que sí la admite y le ofrece cambiar.
 
-On BYOK plans, model selection determines which model your own OpenRouter key calls. Inference still runs locally in the desktop app. See [Account Types & Plans](../getting-started/account-modes.md) for how model access differs across plans.
+## Cómo encaja esto con BYOK
 
-Your OpenRouter key is stored per account rather than per device. If you haven't saved one yet, Hi, Moose prompts you the first time a feature needs it rather than failing silently.
+En los planes BYOK, la selección de modelo determina a qué modelo llama su propia clave de OpenRouter. La inferencia sigue ejecutándose en local, en la aplicación de escritorio. Consulte [Tipos de cuenta y planes](../getting-started/account-modes.md) para ver cómo varía el acceso a modelos entre planes.
+
+Su clave de OpenRouter se guarda por cuenta y no por dispositivo. Si todavía no ha guardado ninguna, Hi, Moose se la pide la primera vez que una función la necesita, en lugar de fallar en silencio.

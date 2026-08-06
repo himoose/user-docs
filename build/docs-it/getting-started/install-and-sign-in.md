@@ -11,7 +11,7 @@ Get the Hi, Moose desktop app installed on your computer and sign in for the fir
 
 - **Supported platforms**: Windows and macOS (Apple Silicon and Intel).
 - You'll need an internet connection to sign in and to download updates, even if you plan to run everything else locally with BYOK.
-- Decide which [account mode](account-modes.md) you want before you start: Preview Mode (free), BYOK Free, BYOK Premium, or Paid Managed. You can always upgrade later.
+- Decide which [plan](account-modes.md) you want before you start. The free options are Preview Mode and BYOK Free; everything else is paid. You can always upgrade later.
 
 ## Step-by-step
 
@@ -28,9 +28,9 @@ Download the Hi, Moose desktop installer for your operating system from the link
 2. Sign in with your email or Google account.
 3. If you don't have an account yet, create one from the same screen — new signups now happen in the desktop app.
 
-### 3. Choose or confirm your account mode
+### 3. Choose or confirm your plan
 
-After signing in, you'll land in onboarding, where Hi, Moose asks a few questions about your brand and domain to build initial context automatically. If you're on a BYOK mode, you'll be prompted to add your own OpenRouter API key at this point — see [Account Types & Modes](account-modes.md) for what each mode needs.
+After signing in, you'll land in onboarding, where Hi, Moose asks a few questions about your brand and domain to build initial context automatically. On a BYOK plan you'll be prompted to add your own OpenRouter API key at this point — see [Account Types & Plans](account-modes.md) for what each plan needs.
 
 ### 4. Set up your first project
 
@@ -42,4 +42,4 @@ The desktop app checks for updates automatically. When an update is available, y
 
 ## Coming from the legacy web app?
 
-If you previously used the Hi, Moose web app (`app.himoose.com`), you'll need to create a new desktop account — desktop and web accounts are separate today. Your legacy account still works for the two features that remain there: [Listen to this Article](../legacy/listen-to-this-article.md) and [Versus Pages](../legacy/versus-pages.md).
+If you previously used the Hi, Moose web app (`app.himoose.com`), you'll need to create a new desktop account — desktop and web accounts are separate today. Your legacy account still works for the two features that remain there: [Versus Pages](../legacy/versus-pages.md) and the [Topical Authority Builder](../legacy/topical-authority.md). Audio generation has [moved into the desktop app](../audio/overview.md).

@@ -1,27 +1,35 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 67912e0c53e927d4836f8b9c545fb59268db0fbc9165037df2930f6cfada0988
+---
+!!! note "Traducción automática"
+    Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
+
+    [Leerla en inglés](https://himoose.com/docs/integrations/webflow/)
 
 # Webflow
 
-## What this helps you do
+## Para qué sirve
 
-Connect a Webflow site so Hi, Moose can inspect its pages and content, and stage previewable edits for publishing — FAQs, key points, brief-driven drafts, and AEO audit recommendations.
+Conectar un sitio de Webflow para que Hi, Moose pueda inspeccionar sus páginas y su contenido y preparar ediciones previsualizables para su publicación: FAQ, key points, borradores basados en briefs y recomendaciones de AEO audits.
 
-## Setting up a connection
+## Configurar una conexión
 
-1. Open **Connections** in the desktop app and choose Webflow.
-2. Click **Connect Webflow MCP** — this opens Webflow's authorization page in your system browser. Complete OAuth there to finish connecting.
-3. Once connected, choose which authorized Webflow site Hi, Moose should use for this [project](../getting-started/projects.md).
+1. Abra **Connections** en la aplicación de escritorio y elija Webflow.
+2. Pulse **Connect Webflow MCP**. Esto abre la página de autorización de Webflow en su navegador. Complete allí el proceso de OAuth para terminar de conectar.
+3. Una vez conectado, elija qué sitio autorizado de Webflow debe utilizar Hi, Moose para este [proyecto](../getting-started/projects.md).
 
-## Staging a preview target
+## Preparar un destino de vista previa
 
-Hi, Moose can discover **content surfaces** on your connected Webflow site — pages, posts, collection items, and custom code — plus a blank new-page shell for content that doesn't exist yet. Pick a target, add notes about the edit or publishing intent, and stage it as a preview target. From there, review the staged draft the same way as any other connection — see [Drafts, Preview & Publishing](../features/drafts-and-publishing.md).
+Hi, Moose puede descubrir **superficies de contenido** en su sitio conectado de Webflow: páginas, entradas, elementos de colección y código personalizado, además de una plantilla en blanco para contenido que todavía no existe. Elija un destino, añada notas sobre la edición o la intención de publicación y prepárelo como destino de vista previa. A partir de ahí, revise el borrador preparado igual que con cualquier otra conexión. Véase [Borradores, vista previa y publicación](../features/drafts-and-publishing.md).
 
-## Preview and publish readiness
+## Preparación para vista previa y publicación
 
-Not every Webflow connection can do everything yet. Hi, Moose reports one of a few readiness states for your connected site: ready for both staging preview artifacts and publishing, preview-only, publish-only, or connected but not yet ready for either. Designer-only surfaces (changes that require the Webflow Designer directly) aren't supported yet.
+Todavía no todas las conexiones de Webflow pueden hacerlo todo. Hi, Moose informa de uno de varios estados para su sitio conectado: listo tanto para preparar artefactos de vista previa como para publicar, solo vista previa, solo publicación, o conectado pero aún no listo para ninguna de las dos cosas. Las superficies exclusivas del Designer (cambios que requieren el Webflow Designer directamente) todavía no son compatibles.
 
-## Security
+## Publicar en colecciones
 
-Webflow authorization happens through your system browser, and the resulting connection is used only by the desktop app's background process — not exposed to the renderer UI.
+Al publicar en una colección, Hi, Moose carga primero los demás campos obligatorios de esa colección y le pide que los rellene, para que la publicación no falle a mitad de camino por un campo que no podía ver.
 
+## Seguridad
+
+La autorización de Webflow se realiza a través de su navegador, y la conexión resultante la utiliza únicamente el proceso en segundo plano de la aplicación de escritorio; no se expone a la interfaz de usuario.
