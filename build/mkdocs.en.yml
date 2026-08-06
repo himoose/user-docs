@@ -129,6 +129,10 @@ extra:
   noindex_pages:
     en: []
     es: []
+    fr: []
+    de: []
+    it: []
+    pt: []
 nav:
 - Home: index.md
 - Getting Started:

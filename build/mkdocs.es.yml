@@ -131,6 +131,10 @@ extra:
   noindex_pages:
     en: []
     es: []
+    fr: []
+    de: []
+    it: []
+    pt: []
 nav:
 - Inicio: index.md
 - Primeros pasos:
