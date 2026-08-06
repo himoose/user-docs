@@ -6,7 +6,7 @@ Connect a live [Grav](https://getgrav.org) site through the Hi, Moose Grav plugi
 
 ## Installing the plugin
 
-1. From **Connections → Grav** in the desktop app, open the plugin download link and download the Hi, Moose plugin ZIP.
+1. From **Connections → Grav** in the desktop app, open the plugin download link and download the Hi, Moose plugin ZIP. The current version is **0.1.1** and it requires Grav 1.7.0 or newer.
 2. In your Grav Admin, open **Plugins**, upload the ZIP, and complete the install.
 3. Enable the plugin, then open its settings in Grav Admin.
 4. Copy the connection bundle shown there — you'll paste it into Hi, Moose in the next step.

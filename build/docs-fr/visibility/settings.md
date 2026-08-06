@@ -25,15 +25,25 @@ Toggle **Scheduled visibility email reports** to receive the visibility report b
 - **Secondary branded terms** — alternate phrasings or spelling variations of your brand that should also count as a mention.
 - **Secondary domains** — additional domains that should count as valid brand citations for this project, beyond your primary domain.
 
+## Competitor tracking
+
+Add the brands this project gets compared against. Each competitor takes a name and, optionally, a website.
+
+When an AI answer mentions or cites one of them, it feeds [Share of Voice, competitor citations, and gaps](competitors.md).
+
+This list is shared with your [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), so competitors added in either place appear in both. There's a cap on how many are tracked in visibility runs — the screen shows the number, and warns you if your list is longer than the cap so you know only the first N are being tracked.
+
 ## Scoring model
 
 Choose the model Hi, Moose uses to score sentiment, narrative drift, and feature parity once a response has been captured:
 
-- **Automatic default** adapts to your account mode:
-    - **Preview Mode** uses an activated local Gemma 4 model — scoring is skipped until one is installed and active (Settings → Local AI).
-    - **BYOK** modes score using your local OpenRouter key.
-    - **Paid Managed** scores through Hi, Moose's managed model routing (local model scoring still applies where supported).
+- **Automatic default** adapts to your plan:
+    - **Preview Mode** uses an activated local Gemma 4 model. Scoring is skipped until one is installed and active (Settings → Local Model).
+    - **BYOK plans** score using your own OpenRouter key.
+    - **Managed plans** score through Hi, Moose's managed model routing (local model scoring still applies where supported).
 - You can also select a specific model instead of Automatic.
+
+Free OpenRouter models are no longer offered as scoring options. They were unreliable enough at structured scoring that the results weren't worth reporting.
 
 ## Default models for new prompts
 

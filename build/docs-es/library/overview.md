@@ -19,9 +19,11 @@ Each Library item shows its type:
 
 Every item shows its name and when it was saved, and can be found again with the search box or by sorting the list (**Recent activity** or **Name**).
 
+Items load newest first, 50 at a time, so a large library stays fast rather than trying to render everything at once.
+
 ## Grid or list view
 
-Switch between a grid of cards and a compact list view depending on how you like to scan a growing library.
+Switch between a grid of cards and a compact list view depending on how you like to scan a growing library. Your choice is remembered between sessions.
 
 ## Opening an item
 
@@ -38,13 +40,23 @@ Every item can be **Exported** in multiple formats:
 - **PDF**
 - **Plain Text** (.txt)
 
+Exported AEO audits keep the Hi, Moose PDF report theme, or your own if you've set up [white-label branding](../agency/white-label.md).
+
+## Private items
+
+On paid plans with team seats, Library items are shared with your team by default. Marking an item **private** keeps it visible only to you, which is useful for work in progress you don't want a client or teammate acting on yet.
+
 ## Removing an item
 
 **Remove** permanently deletes the saved artifact from your library. Hi, Moose asks you to confirm first, since this can't be undone.
 
 ## Cloud sync
 
-Library items show a **Synced** or **Local only** badge. Cloud sync — which backs up your briefs, drafts, and other artifacts so they're accessible across devices and protected if anything happens to this machine — is a paid-plan feature, matching the same local-first-by-default posture as [Context](../getting-started/context/overview.md). On free and BYOK plans, your library stays local only; upgrading turns on cloud backup.
+Library items carry a per-item **Synced** or **Local only** badge, so you can tell at a glance which artifacts exist in more than one place.
+
+Cloud sync backs up your briefs, drafts, and other artifacts so they're reachable across devices and survive anything happening to this machine. It's available on **every paid plan**, including paid BYOK plans — a BYOK Premium team gets a shared library, not one stranded on whichever machine produced each artifact.
+
+Preview Mode and BYOK Free stay local only, which is what keeps the free plans free of cloud cost.
 
 ## Where items come from
 

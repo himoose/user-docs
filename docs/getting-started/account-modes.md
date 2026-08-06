@@ -1,66 +1,128 @@
-# Account Types & Modes
+# Account Types & Plans
 
-Hi, Moose supports a few different ways to run AI-powered work, depending on how much you want to rely on Hi, Moose's managed infrastructure versus your own API key and local hardware. Understanding these up front will help you understand what's free, what needs an OpenRouter API key, what runs locally, and what needs an internet connection.
+Hi, Moose runs AI work one of two ways: on your own OpenRouter key (BYOK), or on Hi, Moose's managed models. That choice, not the price, is the real fork in the road. Everything else is project counts, seats, and how much monthly credit you get.
 
-## The four modes
+Plans are grouped into two tabs in the **Upgrade** screen: **Startup** and **Enterprise & Agencies**.
+
+## The two ways to run AI
+
+### BYOK — bring your own key
+
+You supply an [OpenRouter](https://openrouter.ai) API key, and model calls run **from the desktop app on your machine** using that key. Hi, Moose never proxies BYOK inference through its own servers, so your key and your prompts stay local.
+
+Paying for a BYOK plan doesn't change that. You're paying for more workflow capability — projects, seats, memory, workflows, Search Console — not for Hi, Moose to run your model calls for you. Model costs go to OpenRouter directly, and there's no Hi, Moose token meter to watch.
+
+### Managed — Hi, Moose runs the models
+
+No API key. Hi, Moose's managed models do the work, and you spend from a monthly **credit** balance. One meter, not several. Local model support is still available as an opt-in, on-device option on every managed plan.
+
+## Startup plans
 
 ### Preview Mode (Free)
 
-Preview Mode is the free way to try Hi, Moose. AI-powered features work out of the box with no setup — no API key required. This mode uses Hi, Moose's included AI usage, so features come with usage limits.
+Preview Mode is the free way to try Hi, Moose. It is genuinely local: 1 project, 1 seat, local storage, and visibility runs that fetch from public AI search surfaces directly from your device.
 
-- No API key needed
-- Requires an internet connection for AI-powered features
-- Good for trying out the product before committing to BYOK or a paid plan
+- 1 project, 1 user seat
+- Free and local LLMs only
+- Local visibility runs
+- Context storage and recall, Brand Voice and Style Guide
+- Connections: WordPress, Webflow, Grav
+- Limited live search and competitor data, limited AI quality, limited export options
+
+!!! warning "Preview Mode needs a local model for scoring and audits"
+    Preview Mode has no included cloud AI allowance. [AEO audits](../features/aeo-audits.md), and the sentiment, narrative, and feature-parity scoring on [visibility runs](../visibility/overview.md), only run once you've activated a local Gemma 4 model in **Settings → Local Model**. Until one is active, those checks are skipped rather than run in the cloud.
 
 ### BYOK Free
 
-BYOK ("Bring Your Own Key") Free is a local-only version of Hi, Moose. You supply your own [OpenRouter](https://openrouter.ai) API key, and model calls run **locally on your machine** using that key — not through Hi, Moose's servers.
+The free way to run on your own key. Same 1-project, 1-seat shape as Preview Mode, but you get access to every model OpenRouter offers instead of just the free ones.
 
-- Requires your own OpenRouter API key
-- 1 active project
-- 1 user seat
-- CMS connections ([Grav](../integrations/grav.md), [WordPress](../integrations/wordpress.md), [Webflow](../integrations/webflow.md)) included
-- Chat web search, Workflows, Google Search Console connection, and audio generation are not included
-- Limited [Library](../library/overview.md) and context storage/recall
+- 1 project, 1 user seat
+- Your own OpenRouter key, unlimited tokens
+- All LLMs, including local models
+- Local-only visibility runs
+- Connections: WordPress, Webflow, Grav
+- Limited context storage and recall, limited [Library](../library/overview.md)
+- No chat web search, no Workflows, no Google Search Console
 
-### BYOK Premium
+### BYOK Premium — $39/month or $390/year
 
-BYOK Premium is the full local-only plan. Same local-first model as BYOK Free — your own OpenRouter key, inference runs on your machine — with the full set of supported models, features, and limits unlocked.
+The full local-first plan, and the point at which team seats and the scheduler unlock.
 
-- Requires your own OpenRouter API key
-- Up to 3 active projects
-- Unlimited user seats
-- Chat web search included
-- Full [Library](../library/overview.md) and context storage/recall
-- [Workflows](../workflows/overview.md) included
-- [Google Search Console](../integrations/google-search-console.md) connection included
-- Includes a monthly allowance of audio generation
+- 3 projects, plus extra projects for $10/month each
+- Up to 10 team seats
+- Full visibility runs with a custom scheduler
+- Web search from chat
+- Full context storage and recall, full [Library](../library/overview.md)
+- [Workflows](../workflows/overview.md)
+- Brand Voice, Style Guide, and [Brand Truth Profile](context/brand-truth-profile.md)
+- Connections: WordPress, Webflow, Grav, [Google Search Console](../integrations/google-search-console.md)
+- 15 [audio generations](../audio/overview.md) per month
 
-### Paid Managed
+### Managed plans
 
-Paid Managed is the full cloud-backed paid tier. It uses Hi, Moose's managed AI models extensively, so you don't need to bring your own API key. You'll see a single usage meter — your managed AI token balance — rather than juggling multiple usage currencies. Local model support remains available as an explicit, opt-in, on-device option even on this plan.
+All three run on Hi, Moose's models, include unlimited team seats, unlimited audio generations, admin logging and export, and local plus cloud storage.
 
-- No API key required
-- Requires an internet connection for managed AI features
-- Managed AI token balance is the one usage meter to watch
-- Optional local model support for on-device work
+| Plan | Price | Projects | Monthly credits | Models |
+|---|---|---|---|---|
+| Standard | $79/mo or $849/yr | 3 | 1,700,000 | Standard models, plus local |
+| Professional | $129/mo or $1,389/yr | 5 | 3,000,000 | All models, plus local |
+| Premium | $249/mo or $2,689/yr | 10 | 6,000,000 | All models, plus local |
+
+## Enterprise & Agency plans
+
+### BYOK Agency — $149/month or $1,490/year
+
+BYOK Premium at agency scale. Same local-first model and the same feature set, sized for managing many clients.
+
+- 25 projects, plus extra projects for $10/month each
+- Up to 25 team seats
+- 15 audio generations per month
+- [White-label branding](../agency/white-label.md) on reports and audio embeds, as on every paid plan
+
+### Managed agency plans
+
+| Plan | Price | Projects | Monthly credits | Storage |
+|---|---|---|---|---|
+| Agent Core | $449/mo or $4,849/yr | 25 | 15,000,000 | Team cloud |
+| Agent Studio | $999/mo or $10,789/yr | 75 | 40,000,000 | Team cloud |
+| Agent Scale | $1,999/mo or $21,589/yr | Unlimited | 120,000,000 | Team cloud |
 
 ## Quick comparison
 
-| | Preview Mode (Free) | BYOK Free | BYOK Premium | Paid Managed |
-|---|---|---|---|---|
-| Own API key needed | No | Yes (OpenRouter) | Yes (OpenRouter) | No |
-| Runs locally | No | Yes | Yes | Optional (local models available) |
-| Internet required | Yes | Only for connections/updates | Only for connections/updates | Yes |
-| Projects | Limited free usage | 1 | 3 | Higher limits |
-| Chat web search | Included | Not included | Included | Included |
-| Saved Workflows | — | Not included | Included | Included |
-| Google Search Console | — | Not included | Included | Included |
-| Audio generation | — | Not included | Monthly allowance included | Included |
+| | Preview Mode | BYOK Free | BYOK Premium | BYOK Agency | Managed plans |
+|---|---|---|---|---|---|
+| Own API key needed | No | Yes | Yes | Yes | No |
+| Inference runs | On your device | On your device | On your device | On your device | Hi, Moose cloud (local optional) |
+| Projects | 1 | 1 | 3 | 25 | 3 to unlimited |
+| Team seats | 1 | 1 | 10 | 25 | Unlimited |
+| Chat web search | No | No | Yes | Yes | Yes |
+| [Workflows](../workflows/overview.md) | No | No | Yes | Yes | Yes |
+| [Google Search Console](../integrations/google-search-console.md) | No | No | Yes | Yes | Yes |
+| [Audio](../audio/overview.md) | No | No | 15/month | 15/month | Unlimited |
+| [White-label branding](../agency/white-label.md) | No | No | Yes | Yes | Yes |
 
-!!! note "What BYOK really means"
-    In both BYOK Free and BYOK Premium, your OpenRouter key is used to run inference **locally from the desktop app**. Hi, Moose never proxies BYOK inference through its own servers — your key and your prompts stay on your machine. BYOK Premium is a paid plan, but it doesn't change that: you're paying for more local-first workflow capability (projects, memory, workflows, Search Console, audio), not for Hi, Moose to run your model calls for you.
+## Seats, projects, and credits
 
-## Switching modes
+**Extra projects** cost $10/month each on every paid plan. Add or remove them from **Upgrade → Extra projects**.
 
-You can change modes at any time from **Settings**. If you're moving from Preview Mode or Paid Managed into a BYOK mode, add your OpenRouter API key first — Hi, Moose validates the key before switching your AI routing over to it.
+**Seats** are the real paid/free line. Preview Mode and BYOK Free are capped at the account owner alone. BYOK Premium allows up to 10, BYOK Agency up to 25, and managed plans are uncapped because every member spends the owner's credit balance.
+
+**Credit top-ups** are available on managed plans when you run out mid-month:
+
+- 500,000 credits for $25
+- 2,500,000 credits for $100
+
+Top-ups are one-time purchases, not subscriptions. They're only spent after your monthly credits run out, and they never expire.
+
+!!! note "Audio listens are metered separately"
+    Every plan that includes audio also includes the first 10,000 listens account-wide. Beyond that, listens are billed at $5.00 per 10,000 per month. On managed plans, audio *generation* also draws from your credit balance.
+
+## Coupons
+
+If you have a discount code, enter it during checkout on the **Upgrade** screen.
+
+## Switching plans
+
+Change plans any time from **Settings → Account** or the **Upgrade** screen. If you're moving from a managed plan into a BYOK plan, add your OpenRouter API key first. Hi, Moose validates the key before switching your AI routing over to it.
+
+Your OpenRouter key is stored per account rather than per device, so it follows you to a new install.

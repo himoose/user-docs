@@ -100,8 +100,11 @@ nav:
       - About You: getting-started/context/about-you.md
   - Visibility:
       - Overview: visibility/overview.md
+      - Competitors & Share of Voice: visibility/competitors.md
       - Prompt Manager: visibility/prompt-manager.md
       - Settings: visibility/settings.md
+  - Site Monitoring:
+      - Overview: site-monitoring/overview.md
   - Workflows:
       - Overview: workflows/overview.md
       - Recover Lost Visibility: workflows/recover-lost-visibility.md
@@ -113,7 +116,13 @@ nav:
       - Chats (History): chat/chats-history.md
   - Library:
       - Overview: library/overview.md
-  - Agent Worksteams:
+  - Audio:
+      - Overview: audio/overview.md
+      - Player & Embed: audio/player-and-embed.md
+      - Listening Analytics: audio/analytics.md
+  - Tools:
+      - The Tools Menu: tools/overview.md
+      - Instant AI Search Brand Check: tools/instant-brand-check.md
       - AEO Audits: features/aeo-audits.md
       - Content Briefs: features/content-briefs.md
       - FAQ Generator: features/faq-generator.md
@@ -125,16 +134,17 @@ nav:
       - Landing Page Content: features/landing-page-content.md
       - Product Page Content: features/product-page-content.md
       - Drafts, Preview & Publishing: features/drafts-and-publishing.md
-      - Turn Content into Audio: legacy/listen-to-this-article.md
+  - Agencies:
+      - White-Label Branding: agency/white-label.md
   - Integrations:
       - Grav: integrations/grav.md
       - WordPress: integrations/wordpress.md
       - Webflow: integrations/webflow.md
       - Google Search Console: integrations/google-search-console.md
   - Legacy Web App:
-      - Listen to this Article (Audio Generation): legacy/listen-to-this-article.md
       - Versus Pages (Programmatic SEO): legacy/versus-pages.md
       - Topical Authority Builder: legacy/topical-authority.md
+      - Listen to this Article (moved): legacy/listen-to-this-article.md
 
 # Copyright
 copyright: Copyright &copy; 2026 Hi, Moose

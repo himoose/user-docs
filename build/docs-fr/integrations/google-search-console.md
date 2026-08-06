@@ -24,9 +24,18 @@ Search Console access requires your Google account's OAuth credentials, and Hi, 
 
 - Pull a local snapshot of page and query performance for the bound property.
 - Compare the latest snapshot against a prior window to see meaningful changes.
-- Ask the operator bounded questions about your Search Console data directly in chat — the model helps interpret your question, but the desktop app owns validating and running the underlying query locally, so your data and token custody stay on-device.
+- Ask about your Search Console data directly in chat. Moose queries it agentically, narrowing through several queries to answer a vague question rather than running one fixed report. The model interprets your question, but the desktop app owns validating and running each underlying query locally, so your data and token custody stay on-device.
 - Feed Search Console evidence into visibility diagnosis and into prioritizing which pages deserve a content brief or an AEO audit.
+
+## Where the data lives
+
+Search Console data pulled into Hi, Moose is stored **locally on your device**, not in Hi, Moose's cloud. It's part of your local evidence base, and it's included in a [local backup](../getting-started/settings.md#data-backup) rather than syncing between machines.
 
 ## Current scope
 
 This connection is read-only in v1 — Hi, Moose does not write back to Search Console. One property can be bound per project at this time.
+
+Search Console requires a paid plan. It isn't included on Preview Mode or BYOK Free.
+
+!!! note "Update the app if connecting fails on Windows"
+    Windows installers before v0.3.245 shipped without the Google credentials the connection needs, so connecting always failed on the installed app. Updating fixes it.
