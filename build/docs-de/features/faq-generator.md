@@ -1,48 +1,52 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 57da778b8080a64ebc5109b126f5476b6c79e01e5d3115f6c2b42a61e7aa4d1a
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# FAQ Generator
+    [Auf Englisch lesen](https://himoose.com/docs/features/faq-generator/)
 
-## What this helps you do
+# FAQ-Generator
 
-Generate FAQ sections grounded in your page's actual content and, on paid managed workspaces, real search and AI-visibility evidence — natural questions your audience would actually ask, with schema markup ready for rich results.
+## Wofür das gut ist
 
-## Providing a source
+FAQ-Abschnitte erzeugen, die auf den tatsächlichen Inhalten Ihrer Seite beruhen und, in kostenpflichtigen verwalteten Arbeitsbereichen, auf echten Belegen aus Suche und KI-Sichtbarkeit: natürliche Fragen, die Ihr Publikum wirklich stellen würde, samt Schema-Markup für Rich Results.
 
-From [Chat](../chat/overview.md), choose the **Create research-backed FAQs** quick start (or ask for it directly), then give Hi, Moose something to work from:
+## Eine Quelle bereitstellen
 
-- A source URL, or
-- An attached file, or
-- Pasted content
+Wählen Sie im [Chat](../chat/overview.md) den Schnellstart **Create research-backed FAQs** (oder bitten Sie direkt darum) und geben Sie Hi, Moose dann etwas an die Hand:
 
-## What research grounds the FAQs
+- Eine Quell-URL,
+- Eine angehängte Datei, oder
+- Eingefügten Inhalt
 
-On **Paid Managed** workspaces, each FAQ set shows exactly what evidence went into it:
+## Welche Recherche die FAQ stützt
 
-- People Also Ask questions found
-- Related searches found
-- Answer-engine snapshots (Google AI Overview, ChatGPT, Perplexity, and similar) captured
-- Grounding queries used
-- Competitor sources compared
-- Whether your [Brand Voice](../getting-started/context/brand-voice.md) context was applied
+In **kostenpflichtigen verwalteten** Arbeitsbereichen zeigt jeder FAQ-Satz genau, welche Belege eingeflossen sind:
 
-On **Preview Mode** and **BYOK** (Free and Premium), FAQ generation still runs from your source content and Brand Voice, but these live-search research signals show as locked, with a prompt to upgrade to a paid managed workspace to include them — live search and answer-engine collection cost Hi, Moose money to run, so it's gated the same way live research is elsewhere in the product, even on BYOK plans.
+- Gefundene Fragen aus „Ähnliche Fragen"
+- Gefundene verwandte Suchen
+- Erfasste Momentaufnahmen von Antwortmaschinen (Google AI Overview, ChatGPT, Perplexity und ähnliche)
+- Verwendete Grounding-Suchanfragen
+- Verglichene Wettbewerbsquellen
+- Ob der Kontext Ihrer [Brand Voice](../getting-started/context/brand-voice.md) angewendet wurde
 
-## What you get
+Im **Preview Mode** und in den **BYOK**-Tarifen (Free und Premium) läuft die FAQ-Erzeugung weiterhin aus Ihrem Quellinhalt und Ihrer Brand Voice, doch diese Live-Recherchesignale erscheinen gesperrt, mit dem Hinweis, dass ein Wechsel in einen kostenpflichtigen verwalteten Arbeitsbereich sie einbezieht. Live-Suche und das Erfassen von Antwortmaschinen kosten Hi, Moose Geld und sind deshalb genauso beschränkt wie die übrige Live-Recherche im Produkt, auch in den BYOK-Tarifen.
 
-- A set of natural-language question/answer pairs suited to your source content.
-- Structured FAQPage schema markup for search engines and answer engines.
+## Was Sie erhalten
 
-## Working with the result
+- Einen Satz natürlichsprachlicher Frage-Antwort-Paare, passend zu Ihrem Quellinhalt.
+- Strukturiertes FAQPage-Schema-Markup für Suchmaschinen und Antwortmaschinen.
 
-- **Save** — add the FAQ set to your [Library](../library/overview.md).
-- **Edit** — revise the questions and answers directly.
-- **Export** — download the FAQ set.
-- **Copy HTML** — copy the rendered FAQ markup.
-- **Copy schema** — copy the FAQPage schema markup on its own.
-- If your project has a connected CMS, you can also add the FAQs directly to a page as a staged edit — see [Drafts, Preview & Publishing](drafts-and-publishing.md).
+## Mit dem Ergebnis arbeiten
 
-## Where it fits
+- **Save**: fügt den FAQ-Satz Ihrer [Library](../library/overview.md) hinzu.
+- **Edit**: Fragen und Antworten direkt überarbeiten.
+- **Export**: den FAQ-Satz herunterladen.
+- **Copy HTML**: das gerenderte FAQ-Markup kopieren.
+- **Copy schema**: das FAQPage-Schema-Markup gesondert kopieren.
+- Verfügt Ihr Projekt über ein verbundenes CMS, können Sie die FAQ auch direkt als vorbereitete Änderung auf eine Seite setzen. Siehe [Entwürfe, Vorschau und Veröffentlichung](drafts-and-publishing.md).
 
-FAQ generation is one of the standard follow-ups from an [AEO audit](aeo-audits.md) when comprehensiveness or answer-readiness is holding a page back, and it applies the same [Brand Voice](../getting-started/context/brand-voice.md) context as [content briefs](content-briefs.md).
+## Wo das hingehört
 
+Die FAQ-Erzeugung ist einer der üblichen nächsten Schritte nach einem [AEO Audit](aeo-audits.md), wenn Vollständigkeit oder Antwortbereitschaft eine Seite ausbremsen, und sie wendet denselben [Brand-Voice](../getting-started/context/brand-voice.md)-Kontext an wie die [Content-Briefs](content-briefs.md).

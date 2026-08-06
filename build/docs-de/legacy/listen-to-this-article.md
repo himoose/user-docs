@@ -1,15 +1,20 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 3d580f650a10ac332979413d4663c7fecfdcccd56bcc167b4cc56b3e5e150adb
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# Listen to this Article (Audio Generation)
+    [Auf Englisch lesen](https://himoose.com/docs/legacy/listen-to-this-article/)
 
-!!! note "This feature has moved into the desktop app"
-    Audio generation is no longer part of the legacy web app. It now lives in the Hi, Moose desktop app under **Audio**, with project scoping, listening analytics, and player customization the web version didn't have.
+# Listen to this Article (Audioerzeugung)
 
-Go to:
+!!! note "Diese Funktion ist in die Desktop-App umgezogen"
+    Die Audioerzeugung ist nicht mehr Teil der früheren Web-App. Sie liegt jetzt in der Hi, Moose-Desktop-App unter **Audio**, mit projektbezogener Abgrenzung, Hörstatistiken und einer Player-Anpassung, die es in der Webfassung nicht gab.
 
-- **[Audio overview](../audio/overview.md)** — sources, conversation settings, voices, and history.
-- **[Player & Embed](../audio/player-and-embed.md)** — theme, layout, embed code, and agency attribution.
-- **[Listening Analytics](../audio/analytics.md)** — plays, completion rate, and the engagement funnel.
+Weiter geht es hier:
 
-Episodes you generated in the legacy web app are unaffected. Embeds already placed on your site keep working.
+- **[Audio im Überblick](../audio/overview.md)**: Quellen, Gesprächseinstellungen, Stimmen und Verlauf.
+- **[Player und Einbettung](../audio/player-and-embed.md)**: Design, Layout, Einbettungscode und Agentur-Attribution.
+- **[Hörstatistiken](../audio/analytics.md)**: Wiedergaben, Abschlussquote und Interaktionstrichter.
+
+Folgen, die Sie in der früheren Web-App erzeugt haben, sind davon nicht betroffen. Bereits auf Ihrer Website platzierte Einbettungen funktionieren weiterhin.

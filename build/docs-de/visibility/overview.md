@@ -1,87 +1,92 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 40b089c8c06f81c797410e131c0f51ee08f0beba3baaaf1ad18b0794a101df1a
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
+
+    [Auf Englisch lesen](https://himoose.com/docs/visibility/overview/)
 
 # Visibility
 
-## What this helps you do
+## Wofür das gut ist
 
-The Visibility dashboard shows how your brand actually performs in AI search: the queries customers use to find you, whether your brand gets shortlisted, and whether AI engines describe it accurately. This is the primary view for the [core operator loop](../index.md#the-core-operator-loop)'s **monitor** and **detect** steps.
+Das Visibility-Dashboard zeigt, wie sich Ihre Marke in der KI-Suche tatsächlich schlägt: welche Anfragen Kundinnen und Kunden nutzen, um Sie zu finden, ob Ihre Marke in die engere Wahl kommt und ob KI-Maschinen sie zutreffend beschreiben. Es ist die zentrale Ansicht für die Schritte **überwachen** und **erkennen** des [zentralen Operator-Kreislaufs](../index.md#der-zentrale-operator-kreislauf).
 
-The dashboard has three tabs:
+Das Dashboard hat drei Reiter:
 
-| Tab | What it answers |
+| Reiter | Welche Frage er beantwortet |
 |---|---|
-| **Overview** | How am I doing? |
-| **[Competition](competitors.md)** | How am I doing compared to them? |
-| **Topics & Engines** | Where specifically am I strong or weak? |
+| **Overview** | Wie stehe ich da? |
+| **[Competition](competitors.md)** | Wie stehe ich im Vergleich zu ihnen da? |
+| **Topics & Engines** | Wo genau bin ich stark oder schwach? |
 
-## Metrics
+## Kennzahlen
 
-Each run reports headline metrics for the selected period:
+Jeder Lauf meldet für den gewählten Zeitraum einige Hauptkennzahlen:
 
-- **Share of Mentions** — how often your brand is mentioned across tracked prompts and engines.
-- **Share of Citations** — how often your domain is actually cited as a source.
-- **Sentiment** — the average tone (positive, mixed, neutral, negative) of mentions.
-- **Avg Position** — where your brand tends to land when it appears in a list or ranking. Shows **Not enough data** until there are enough positioned mentions to average.
-- **Narrative Drift** — whether AI responses are drifting from your intended positioning.
-- **Feature Parity** — whether AI responses accurately represent what you actually offer.
+- **Share of Mentions**: wie oft Ihre Marke über die überwachten Prompts und Maschinen hinweg erwähnt wird.
+- **Share of Citations**: wie oft Ihre Domain tatsächlich als Quelle zitiert wird.
+- **Stimmung**: der durchschnittliche Ton (positiv, gemischt, neutral, negativ) der Erwähnungen.
+- **Durchschnittliche Position**: wo Ihre Marke typischerweise landet, wenn sie in einer Liste oder Rangfolge auftaucht. Zeigt **Not enough data**, solange es zu wenige positionierte Erwähnungen für einen Durchschnitt gibt.
+- **Narrative Drift**: ob KI-Antworten von Ihrer beabsichtigten Positionierung abweichen.
+- **Feature Parity**: ob KI-Antworten zutreffend wiedergeben, was Sie anbieten.
 
-Narrative Drift and Feature Parity show **Not scored** with a **Configure brand truth profile** link until you've filled in your [Brand Truth Profile](../getting-started/context/brand-truth-profile.md). These two are only meaningful once Hi, Moose knows what's actually true about your brand to compare against.
+Narrative Drift und Feature Parity zeigen **Not scored** mit einem Einrichtungslink an, solange Sie Ihr Brand Truth Profile nicht ausgefüllt haben. Diese beiden Kennzahlen sind erst aussagekräftig, wenn Hi, Moose weiß, was über Ihre Marke zutrifft, um es vergleichen zu können. Siehe [Brand Truth Profile](../getting-started/context/brand-truth-profile.md).
 
-!!! note "Failed observations are excluded, not counted as absences"
-    If an engine was unavailable or a request failed, that observation is left out of every metric rather than being scored as "your brand wasn't mentioned." A run with connection problems will report on fewer observations rather than reporting a false drop. The prompt-level view labels these as **Response unavailable** and shows how many were excluded.
+!!! note "Fehlgeschlagene Beobachtungen werden ausgeschlossen, nicht als Abwesenheit gewertet"
+    War eine Maschine nicht verfügbar oder eine Anfrage fehlgeschlagen, bleibt diese Beobachtung aus allen Kennzahlen heraus, statt als „Ihre Marke wurde nicht erwähnt" bewertet zu werden. Ein Lauf mit Verbindungsproblemen berichtet über weniger Beobachtungen, statt einen erfundenen Rückgang zu melden. Die Ansicht je Prompt kennzeichnet sie als **Response unavailable** und nennt die Anzahl der ausgeschlossenen Beobachtungen.
 
-## Filtering and time range
+## Filter und Zeitraum
 
-- Filter by **Topic**, **AI Engine**, **Prompt** (searchable multi-select), **Page**, **Sentiment**, **Narrative**, or **Feature Parity**, or clear all filters at once.
-- The **Page** filter narrows to specific URLs, searchable by path. It correctly surfaces engines where the URL was *not* cited, so you can see where a page is missing as well as where it's landing.
-- Set a **Period** date range and click **Apply**, or click **Compare** to overlay a prior period or the previous run.
+- Filtern Sie nach **Topic**, **AI Engine**, **Prompt** (Mehrfachauswahl mit Suche), **Page**, **Sentiment**, **Narrative** oder **Feature Parity**, oder setzen Sie alle Filter auf einmal zurück.
+- Der Filter **Page** grenzt auf bestimmte URLs ein und lässt sich nach Pfad durchsuchen. Er zeigt korrekt auch die Maschinen, in denen die URL **nicht** zitiert wurde: Sie sehen also ebenso, wo eine Seite fehlt, wie dort, wo sie auftaucht.
+- Legen Sie unter **Period** einen Datumsbereich fest und klicken Sie auf **Apply**, oder klicken Sie auf **Compare**, um einen früheren Zeitraum oder den vorherigen Lauf zu überlagern.
 
-## Trend over Time
+## Verlauf über die Zeit
 
-The trend chart plots **Mentions**, **Citations**, **Positive %**, or **Avg Position** over **Day**, **Week**, or **Month** buckets, broken out per AI engine or **All models** combined, so you can see whether one engine is moving the numbers.
+Das Verlaufsdiagramm stellt **Mentions**, **Citations**, **Positive %** oder die durchschnittliche Position in Intervallen von **Tag**, **Woche** oder **Monat** dar, aufgeschlüsselt nach KI-Maschine oder mit **All models** zusammengefasst, damit Sie erkennen, ob eine bestimmte Maschine die Zahlen bewegt.
 
-## Prompt-level detail
+## Detail je Prompt
 
-Below the chart:
+Unter dem Diagramm:
 
-- **Mention Rate** breaks results out per engine, showing which engines mentioned you and which didn't.
-- **Top Cited Pages** shows which of your URLs are getting cited, and by which engines.
-- **Prompt-Level Breakdown** expands any tracked prompt to see individual run results per engine, including the full AI response and the sentiment, narrative, and feature-parity reasoning.
+- **Mention Rate** schlüsselt die Ergebnisse nach Maschine auf und zeigt, welche Sie erwähnt haben und welche nicht.
+- **Top Cited Pages** zeigt, welche Ihrer URLs zitiert werden und von welchen Maschinen.
+- **Prompt-Level Breakdown** klappt jeden überwachten Prompt auf, um die einzelnen Ergebnisse je Maschine zu sehen, einschließlich der vollständigen KI-Antwort und der Begründung zu Stimmung, Narrativ und Funktionsabdeckung.
 
-Each prompt has an **investigate in chat** link that hands the exact observation data to Moose and asks it to recommend whether the next step is an [AEO audit](../features/aeo-audits.md) of an existing page or a new [content brief and draft](../features/content-briefs.md).
+Jeder Prompt enthält einen Link **im Chat untersuchen**, der die genauen Beobachtungsdaten an Moose übergibt und um eine Empfehlung bittet, ob der nächste Schritt ein [AEO Audit](../features/aeo-audits.md) einer bestehenden Seite oder ein neuer [Content-Brief mit Entwurf](../features/content-briefs.md) sein sollte.
 
 ## Topics & Engines
 
-This tab breaks performance down two ways:
+Dieser Reiter schlüsselt die Leistung auf zwei Arten auf:
 
-- **Mention Rate by Topic** — how often each brand appears in AI answers for each topic, plotted per topic.
-- **Mention Rate Trend by Topic** — the same broken out over time.
-- **Mention Rate by Platform** — a heatmap of how often each brand appears in each platform's answers during the period.
+- **Mention Rate by Topic**: wie oft jede Marke in den KI-Antworten zu jedem Thema auftaucht.
+- **Mention Rate Trend by Topic**: dasselbe, aufgeschlüsselt über die Zeit.
+- **Mention Rate by Platform**: eine Heatmap, wie oft jede Marke im Zeitraum in den Antworten jeder Plattform auftaucht.
 
-Topics come from your prompt categories. If your prompts aren't categorized, this tab shows a prompt to organize them in the [Prompt Manager](prompt-manager.md) rather than an empty chart.
+Die Themen stammen aus Ihren Prompt-Kategorien. Sind Ihre Prompts nicht kategorisiert, fordert dieser Reiter Sie auf, sie im [Prompt Manager](prompt-manager.md) zu ordnen, statt ein leeres Diagramm anzuzeigen.
 
-## Exporting
+## Exportieren
 
-**Export** offers two formats:
+**Export** bietet zwei Formate:
 
-- **CSV spreadsheet** — every result in the current view, for Excel or Google Sheets.
-- **PDF executive report** — a print-ready report of the current view, including the competitive charts and data from the Competition tab.
+- **CSV spreadsheet**: alle Ergebnisse der aktuellen Ansicht, für Excel oder Google Sheets.
+- **PDF executive report**: ein druckfertiger Bericht der aktuellen Ansicht, samt der Wettbewerbsdiagramme und -daten aus dem Reiter Competition.
 
-Exports respect your current filters, and the PDF cover states which filters were applied so a report can't be mistaken for a full-account picture. On paid plans, the PDF carries your [white-label branding](../agency/white-label.md) if you've set it up.
+Exporte berücksichtigen Ihre aktiven Filter, und das Deckblatt des PDF nennt die angewendeten Filter, damit ein Bericht nicht mit einem Gesamtbild des Kontos verwechselt werden kann. In kostenpflichtigen Tarifen trägt das PDF Ihr [White-Label-Branding](../agency/white-label.md), sofern Sie es eingerichtet haben.
 
-## Running visibility checks
+## Sichtbarkeitsprüfungen ausführen
 
-Click **Run now** for an on-demand check. Behavior depends on your [plan](../getting-started/account-modes.md):
+Klicken Sie auf **Run now** für eine Prüfung auf Abruf. Das Verhalten hängt von Ihrem [Tarif](../getting-started/account-modes.md) ab:
 
-- **Preview Mode** runs local-fetch checks directly from your device against public AI search surfaces. Hi, Moose asks you to confirm first, since back-to-back checks can trigger temporary rate-limit challenges from those surfaces. Sentiment, narrative, and parity scoring need an activated local Gemma 4 model; without one, those checks are skipped.
-- **BYOK plans** run locally using your own OpenRouter key.
-- **Managed plans** run through Hi, Moose's infrastructure. If your workspace doesn't have enough allowance left this month for the current schedule, scheduled runs pause until you upgrade, adjust your [run cadence](settings.md#run-schedule), or the allowance resets. Hi, Moose tells you how many units are needed against what's remaining.
+- **Preview Mode** führt lokale Abfragen direkt von Ihrem Gerät gegen die öffentlichen KI-Suchoberflächen aus. Hi, Moose bittet Sie zuvor um Bestätigung, denn Prüfungen in schneller Folge können dort vorübergehende Sperren wegen Anfragelimits auslösen. Die Bewertung von Stimmung, Narrativ und Abdeckung benötigt ein aktiviertes lokales Gemma-4-Modell; ohne dieses werden diese Prüfungen übersprungen.
+- **BYOK-Tarife** laufen lokal mit Ihrem eigenen OpenRouter-Schlüssel.
+- **Verwaltete Tarife** laufen über die Infrastruktur von Hi, Moose. Reicht das Kontingent Ihres Arbeitsbereichs in diesem Monat für den aktuellen Zeitplan nicht aus, pausieren geplante Läufe, bis Sie den Tarif wechseln, Ihre [Laufhäufigkeit](settings.md#zeitplan-fur-laufe) anpassen oder sich das Kontingent zurücksetzt. Hi, Moose nennt Ihnen, wie viele Einheiten nötig sind und wie viele verbleiben.
 
-You can stop a run early, and runs interrupted by an app update resume rather than being lost.
+Sie können einen Lauf vorzeitig beenden, und Läufe, die von einem App-Update unterbrochen werden, setzen fort, statt verloren zu gehen.
 
-## Where to go from here
+## Wie es weitergeht
 
-- **[Competitors & Share of Voice](competitors.md)** — competitive position, competitor citations, and gaps.
-- **[Prompt Manager](prompt-manager.md)** — add, organize, and categorize the prompts being tracked.
-- **[Visibility Settings](settings.md)** — run schedule, scoring model, competitor tracking, secondary brand terms and domains, and default models.
+- **[Wettbewerber und Share of Voice](competitors.md)**: Wettbewerbsposition, Wettbewerberzitierungen und Lücken.
+- **[Prompt Manager](prompt-manager.md)**: die überwachten Prompts hinzufügen, ordnen und kategorisieren.
+- **[Visibility-Einstellungen](settings.md)**: Zeitplan für Läufe, Bewertungsmodell, Wettbewerberverfolgung, sekundäre Markenbegriffe und Domains sowie Standardmodelle.

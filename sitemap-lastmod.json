@@ -1,0 +1,1181 @@
+{
+  "version": 1,
+  "pages": {
+    "https://himoose.com/docs/": {
+      "hash": "cc6e7d87e8786415754cdf5dc933fb8a1da73d14e7579b13ead4589012db446e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/agency/white-label/": {
+      "hash": "4f759d3d053415ec6a2ed8476ec84b5a67ce3c5b9b2d1df1c0eb45617a51644b",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/audio/analytics/": {
+      "hash": "cb64584390fbd40e6430cc9898d1d7e7659f8e675781e52961d204d292fe61ef",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/audio/overview/": {
+      "hash": "e5faf8444a513c5b029bbbee9f34a3fc96b27115040969e684d7285dad13807a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/audio/player-and-embed/": {
+      "hash": "20b6fc8ccc20021bbcfff6b3ee1dc1cd1d6a87668a0b884ddbafb3c787c7c0fe",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/chat/chats-history/": {
+      "hash": "e5e28d598ecb4becd1ec2ff6034cde22c1ee9def76926624c485f6a09829cd3b",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/chat/model-selection/": {
+      "hash": "5d0456c053e5fc2ec09c24ce38bcf61ffd13f2eff6ce7a989bdb99d9ebf3d394",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/chat/overview/": {
+      "hash": "1d8bdae22567d67f8aaa199429732f899d94eb501319e4bd70341fdf2803385c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/chat/tools-and-specialists/": {
+      "hash": "bc2822bf29920d7e94b6fa3cd26d5c05b7e8108dedf3ed40a541ae639ac73dc8",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/": {
+      "hash": "05e9b513dda8bb23803098a2af7d647550f3745fdff5aa596a6cf8f04ce9aa7f",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/agency/white-label/": {
+      "hash": "3a3d05c38af56507458ed2225d19bb966001bb1dde630b7de63b0660f46943f7",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/audio/analytics/": {
+      "hash": "a1eff807b845408bb06e450b3f3a30628e43a979fae316f0b464b659bf7dd880",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/audio/overview/": {
+      "hash": "6640da5f3ce09dd0309c77f5797eafde8ed23302e289b9274ad460147f1f870c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/audio/player-and-embed/": {
+      "hash": "140834c0f6f391689eb73b30eaf6b4bf9dfa0bb43edf2e9442310277408b8575",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/chat/chats-history/": {
+      "hash": "8a2663c1f2d50ae357843c2efc28393f03729cd5e177665fa147bdb6f6adacd0",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/chat/model-selection/": {
+      "hash": "7e07fcafcbf5a3202c85f242825b57139cec6154b45bcc89da1aff719a8c0e40",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/chat/overview/": {
+      "hash": "4a2fd2f1d0a0a94553c8eebf215f422426367d0385658937424eef461d088786",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/chat/tools-and-specialists/": {
+      "hash": "3b6f2db47c076f48c6a59de443ce49bfb02b19c6fe26a88c0df68b3ec123ec46",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/features/aeo-audits/": {
+      "hash": "ddf98bebaaa0dcef47b6c5adca297f610c393602b428be40408f5df6580b9baf",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/features/blog-post-draft/": {
+      "hash": "6727b627def54b471961401cb0b06e36041e00dc7d915552883989d5c8bcd990",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/features/content-briefs/": {
+      "hash": "0b984d4b1fba2665ae0d4f3706896598d2501eb894d2e2b111c7b8c0b04a3210",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/features/drafts-and-publishing/": {
+      "hash": "5d900918f2ecceef7704c78d57a6c4e7b2160998950f2150201b163383a25966",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/features/fan-out-queries/": {
+      "hash": "51a37c460315acc15e39fc1c4a19f57abc09a74a27621f5e88885263b028b187",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/features/faq-generator/": {
+      "hash": "bbbb84d4e11498065be788e69ed250a8febc21af652b6cb1cfb28eb51031af69",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/features/glossary-post/": {
+      "hash": "dce710ce41a4a8acb77ffae4aa045834e4c7c25d582e98f095479b5b5325ee37",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/features/grounding-queries/": {
+      "hash": "cd75294b1e9ec8f93e1a2b8ac9c929da95f55cb211f3a7fb4858562a4ab8bbd3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/features/key-points/": {
+      "hash": "65588bccec24ad706938520370a5f330d9b84ea6fcd69ac0bca691e35c89856d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/features/landing-page-content/": {
+      "hash": "9f34b61ec67010f351b46aa10adefcb3aafc215017ff590d7e85f62d8db16591",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/features/product-page-content/": {
+      "hash": "ca2aceb7285eed0c3f2367bba0bca6cc3f35d3d2d9363b0cb1eb2f2417cce42a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/getting-started/account-modes/": {
+      "hash": "40392d8a1bb83d400e877cc20d8461987657fb6cc680bca5699f3a18ffa525e8",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/getting-started/context/about-you/": {
+      "hash": "70a19e5df04010a9518a0e07946837d047041b35d1540bed07523391a345dcc7",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/getting-started/context/brand-truth-profile/": {
+      "hash": "3333580ede7d5e0f54b0e375bb55a16a9b81794bff3ea7dae97b171fa285ec5d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/getting-started/context/brand-voice/": {
+      "hash": "d2eedfa3b616b9d20fed542002658d4b3080b995481ffce2134db7143b6a402a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/getting-started/context/overview/": {
+      "hash": "307867186aa1e12827a2f07e979b1940259dc789935dcb21bd23df3fb793b258",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/getting-started/install-and-sign-in/": {
+      "hash": "ecf00b1bd6afedb93fb4271bf95b62a2e765fd0e645cb5b19381467f6ccdda9c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/getting-started/projects/": {
+      "hash": "23fac8faa862c571071dc11906f94811d276f790f115c4151f29ae56118e5921",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/getting-started/settings/": {
+      "hash": "01498b1d513d44741a1f7e5d570b4a584b2d82522bf099f0b5d459cf995c9000",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/getting-started/team-management/": {
+      "hash": "703879af7b9935f5a0a4c292c161fa351e10e8f9ae8da1bee855f33690104230",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/inbox/notifications/": {
+      "hash": "006e2e3a4ec050f39ebbffbf26a34e4c8d45a29efa5f9a2218191874a0d973ce",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/inbox/overview/": {
+      "hash": "95f029476d3bbc641dafd725a04543c2f87d5701b8c6a6bb6ede5a76e0bb572e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/integrations/google-search-console/": {
+      "hash": "65cdaea8e1e39c961eb02fae3c7e92383072c849acf714bff6205a0a8ae84de5",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/integrations/grav/": {
+      "hash": "a29381c26d8eec7f0eacaa7e3aaa173ebe410693f58b80fe218aed0146cb1544",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/integrations/webflow/": {
+      "hash": "8fa0af577cfd84150c3eb42aafea47a82b7fe70a1b0af5eaf10e8c6f3b197f7c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/integrations/wordpress/": {
+      "hash": "3ec47498b7bdb325c3d78a70f46499f8ecf056f0cf63f4c683e1818e6b8172d4",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/legacy/listen-to-this-article/": {
+      "hash": "6bd3a941d682b26878d0840187755d521e198dd0cea02c1dce9fad3f2ff7d134",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/legacy/topical-authority/": {
+      "hash": "98f242d2464714b2db03bc7cda4ffdd85d1e4ff575c191a30b4195b3c6c9e401",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/legacy/versus-pages/": {
+      "hash": "0169df25bccf8ab4cb807581af3aee6459885a1c02f9e7a1f53c91ef9a6f1a5a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/library/overview/": {
+      "hash": "56d1a162d05a3aa428be4ebd6ba48bd25bf779052fa539a3acd35992ab7dcfa9",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/site-monitoring/overview/": {
+      "hash": "ceacd772fc6a8fc3c06d33f131d55356b25c746798948bd3c102550e7201c06f",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/tools/instant-brand-check/": {
+      "hash": "8921f1d035b5385692084f959922a89b61e8349dbd175a18d594159c8970fd50",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/tools/overview/": {
+      "hash": "ce3dc8bbfa8ff3abbbf7510f04f7f8f349fdb502c2d1342627ac2c60daf94146",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/visibility/competitors/": {
+      "hash": "abd4be2167e29022e914570456969e8af5df5905596a6f4dcf4b62f6f258e5de",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/visibility/overview/": {
+      "hash": "44f966955ef12fbe2ebf62645e581e58a3b05be2564169330827cc1e3552aa0b",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/visibility/prompt-manager/": {
+      "hash": "e207258e88abf5ecc983e002348dfc30066a8be4144948c840bc1b7f34d5ca93",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/visibility/settings/": {
+      "hash": "fefc4bc98098806c75adef358ac1b91f4b72a462d6ede799a0759c7e90ff78a7",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/workflows/create-new-content/": {
+      "hash": "7202823404d46cfa0f626d1fdc7acfc288f83c1370c1db04fe554ff8c7e8d389",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/workflows/overview/": {
+      "hash": "975df5365bd87542d4a21dafba1923e97a5eb3b696f7acfc5956f9af32efd546",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/de/workflows/recover-lost-visibility/": {
+      "hash": "ae4b4fe58242f8b2322bfde0fc6d82618243cd4ecf2141bf16f7db94171e03bb",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/": {
+      "hash": "f540b53ba63061ff0d1993a8cb324cab96fb4ef6ba8f4b0610e1b5c42f63d600",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/agency/white-label/": {
+      "hash": "258a5c78235d448b2c0775a9dcf0f63acc7dfe63a758f9beb8335a0b532a4538",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/audio/analytics/": {
+      "hash": "faf091e376d564c1743d7ac3c51048cbfe8b1c12a937254f31e6280ee2b103ec",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/audio/overview/": {
+      "hash": "cef25cd1436cf45248e8c256f82d04ed46330170ead5639ce9f7ccd14a6292e7",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/audio/player-and-embed/": {
+      "hash": "84eda6a23e687d8bf4185bc064cef205a4748b81ebd9a9b9534e9d3b72d70348",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/chat/chats-history/": {
+      "hash": "73c2d044d92a3fa8c4fa73d8854cb72b9e3adaed662ccf8a57b57fe9073d7cc7",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/chat/model-selection/": {
+      "hash": "75dea42d4a3708d15a5cd84a86d04e185362bd2bb4c50df9b647f811903ec82a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/chat/overview/": {
+      "hash": "d3f98a8e657d65766df92b8b6cb3f283d014c44aa51e4d69e81197ba9bc44f90",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/chat/tools-and-specialists/": {
+      "hash": "7c853d95fa4bfe56b556aa2137917deedf287913e1753ca4fc7177d979953661",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/features/aeo-audits/": {
+      "hash": "33383676896a06f7925ca8cf2b392f885e255490de6571489b1a7426bffcf77c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/features/blog-post-draft/": {
+      "hash": "d90defa9c2a1f323531c2e7c523ba24371671fb871c851862306bc9f32de0fc0",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/features/content-briefs/": {
+      "hash": "3d0c3f05ed743ec71fe09d5259e705704d85eeeff4fde2f4c1ddc906fb80491f",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/features/drafts-and-publishing/": {
+      "hash": "9270537402254326c70027699bfb44d3a8df2c14ca2524f5be78f07597deca0c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/features/fan-out-queries/": {
+      "hash": "cdf7a284f690520e0eb0589483a00bf15530d272a206ee6857813a4f4314b6ad",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/features/faq-generator/": {
+      "hash": "f026c1f5d8472849f2bb7206a2e52129b83937eb3292c791658e6510962ddb8a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/features/glossary-post/": {
+      "hash": "4f27a4341f1218efe241513f794527241b9ceea3ddb2e7b2e8fddc8eef0f389a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/features/grounding-queries/": {
+      "hash": "51861415fd9e0e59a25c1047b67a30cf060c148dc401a95244421375087c2cf0",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/features/key-points/": {
+      "hash": "3f4d2f81bae37515eb8e6075e1d5cfb91a8697cb73794772059f241cc6a4d5f6",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/features/landing-page-content/": {
+      "hash": "cd150fc232bd7d903f3a765898bde72711090bfd87aed02bedd60748b30db4d3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/features/product-page-content/": {
+      "hash": "caafd43fdb2fe9f30790086e325bff66adfa52b020be8294178c8d0cd57436b4",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/getting-started/account-modes/": {
+      "hash": "b71e951a4f74595b05d1a3ff6ed7727abe129904d0613a27349b3fb26108992b",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/getting-started/context/about-you/": {
+      "hash": "1ee0e5ff888e7aa119b90bf4b492683817162ec2c73747b1c1615228a6258188",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/getting-started/context/brand-truth-profile/": {
+      "hash": "5b90cb6254cd46c91ceeb0664b9b3f2e88956520a12f57ddda87ee0c60ca1ade",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/getting-started/context/brand-voice/": {
+      "hash": "0ea5889180ff425c45c5d457418704c5475f3b58ee9a5036a6c3f244a404ea68",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/getting-started/context/overview/": {
+      "hash": "f8f3cad482435f0c6c80208a23b2e7104a54f5e5832bd34289dff51a7abb472c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/getting-started/install-and-sign-in/": {
+      "hash": "88e3d90803a65838015fda4766e9b881482c6d4bf1c95b236f4e564452f3d65d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/getting-started/projects/": {
+      "hash": "654b1f460e0f6c0503cac51e728359cbc975e0bcf73b21111cc6f76eada819e0",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/getting-started/settings/": {
+      "hash": "76b5c6ac807754fa568c1e8a942d2778a0488ace9a57603295c0959ad920584b",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/getting-started/team-management/": {
+      "hash": "a0305049665e8b269a32bbe62278ba198c04840a216f623af89937753b374a80",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/inbox/notifications/": {
+      "hash": "306240f06fe945373faa7ccdbab86d2a5d70244e7f9843c95f794c5791e51b7e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/inbox/overview/": {
+      "hash": "452e8769a4206d3477373838cdfb775c0a52d103807428bd3c92bce0f9fc3892",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/integrations/google-search-console/": {
+      "hash": "d52a0a987693d6e2c559d60bef5ddd309ced9de6ea7896fa174f0b184536831e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/integrations/grav/": {
+      "hash": "7c77b76e2b85d101bfab0dc666e9b85dad99ee7644b56f088a258e6ee027013c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/integrations/webflow/": {
+      "hash": "994b301c5e143dcd80a6efbc8a4466c6870e01110672f232435ee5581fda2d99",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/integrations/wordpress/": {
+      "hash": "f7767fc2269a0ac1118e6a6e6dea3f514cc54ff04c470fa6d7e76c67a0411f27",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/legacy/listen-to-this-article/": {
+      "hash": "716bdd6796a258a02f4bca860275914bd82cfaf7c43ab206f2a03c562ce12c0a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/legacy/topical-authority/": {
+      "hash": "0a34a6e4f14aaea0f5a5d53b3618e7b8ebd022ae324b5cdd02fe344d9a2c0a90",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/legacy/versus-pages/": {
+      "hash": "51c66afb875fe43086ac09d7e43cc9cb2e35d573c45f70b3d17ab56bd29177b6",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/library/overview/": {
+      "hash": "945d7cf66e51f20b614d3847375c81749a03e403a77bb3e8c990e091a6bc287f",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/site-monitoring/overview/": {
+      "hash": "e00354ef9ef513ee7e81554a957615564d77a0c40445d8252c9ed6bfff22aec3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/tools/instant-brand-check/": {
+      "hash": "ac5678c24f7c16b40e94cc294c57de78f720354796ce84574c671d719eea20b1",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/tools/overview/": {
+      "hash": "a3ead50360726a945cada79df7077420b6bd5696259c45b49dc35eff461bfedb",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/visibility/competitors/": {
+      "hash": "075b5f4cc50207dfe6341bd6a900097d03bcb2d5bb369cc478669f787892c05c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/visibility/overview/": {
+      "hash": "fcf0409ce97a619b13c0eb78ea3283baecb16fdac83a89cbfe487fefada2040d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/visibility/prompt-manager/": {
+      "hash": "d2d7791c1d7c248970a9c1eaf0317d573d6345e71a928dca5ce2d173867180ea",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/visibility/settings/": {
+      "hash": "2fc7801ffbe32c828cf85895adfc250bfd6b7a0e1dbef08b8b1024d2a3dd733e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/workflows/create-new-content/": {
+      "hash": "fd4935e1231c9c7ff1bca7f20ef3e04706f298cb4754cf4f3166d8c660173fda",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/workflows/overview/": {
+      "hash": "d2ae188d68b446abae475ca4d11d080eca851f90ac6595a91f8a978efc1c332d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/es/workflows/recover-lost-visibility/": {
+      "hash": "b304dbb98e32b9a85f646595973b35a57f3c64aa57c080f2b63f86c932490eea",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/features/aeo-audits/": {
+      "hash": "77f8e7d0b9283855010f00e13c97224fdf0c7c2482e17554dc8a8930e60f97ab",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/features/blog-post-draft/": {
+      "hash": "718e322fa71ea2c0d8b97d328c28dad83851a9c9537af233a8b649f5621c4493",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/features/content-briefs/": {
+      "hash": "18c6ea985e8bf9a8c431cadd2137691ee80579f53546580e7a6d2047477cfae9",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/features/drafts-and-publishing/": {
+      "hash": "a6c7d037744b3a542958db82a6420bdf3e64a659dfa70bcbe40bcf02bc696e0d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/features/fan-out-queries/": {
+      "hash": "1bc1532fbf95765c7022834d84276180efbf1354c3a83732a2bc83661145b10f",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/features/faq-generator/": {
+      "hash": "a6d1dc107dd1e1ba4fc550a40cb0aaf248f72c2bb267cc4e6aae66b861831017",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/features/glossary-post/": {
+      "hash": "e34aa67cad4ae65b548ccd6e9af1db9f0b2bccac997e49596e4b083a0ae1f749",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/features/grounding-queries/": {
+      "hash": "47c895497375be26a52a8b31a7b90d6ebbdaed97e9bbcb4fdf04f68e7bcfbc68",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/features/key-points/": {
+      "hash": "55818baebddc4f6bd17f94d41d44743cd96792d9d991174b6bee6ab1bf8394f1",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/features/landing-page-content/": {
+      "hash": "2f6adebd9584e9df0db52a8d03df2be0509ac28d7ae1dde5845bf33cf9f880e3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/features/product-page-content/": {
+      "hash": "979f3774baf6b833cfb0b0781347ed4cb770b273061fefc74b39ca4a422d8e4d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/": {
+      "hash": "462b74d8ccb5ebe31bb3efdc02b271d7f5bbdb21ad4f62e8cf7ed52bb620219a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/agency/white-label/": {
+      "hash": "46cdd820781079fd107bddf033f6a6b2614cce2e4cf5c11944097d98d0c8a692",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/audio/analytics/": {
+      "hash": "d885900dc3ef77a0dd78a824cc5f70f8d16f4e68343f9d71400cad9199187b54",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/audio/overview/": {
+      "hash": "e495674534379041e3ff6ee4c9aa7985ad5d5716ce24220bc758cbd6c776d0c8",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/audio/player-and-embed/": {
+      "hash": "5265bf3710617bbc17748b27df4906307de5d5aa8a13ec3736cbe2eb45f77314",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/chat/chats-history/": {
+      "hash": "56832cd3973fc7107979d652b6d9a2a8d4d122094224d5d27aa65f977534c370",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/chat/model-selection/": {
+      "hash": "bb4996b804f2b583b0dea2fa151eef712cb78dbe33263e81c2eb534e4ec36cad",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/chat/overview/": {
+      "hash": "b66ef688b9cf2a841096d9274e49a5c4eb3e668cd7afd052ef0ca583602d85bb",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/chat/tools-and-specialists/": {
+      "hash": "d15bd015806276cecdecdb01b198c4c030868f59869963e9f437cac035ab033d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/features/aeo-audits/": {
+      "hash": "92a567f9ab8bd0a42ad54f0997ca65b003309fddd118383593bb9ea214801788",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/features/blog-post-draft/": {
+      "hash": "5e6ae159c8549a374b77e211b8e5c07e1a62fb43a34b4263e446e9ed70799015",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/features/content-briefs/": {
+      "hash": "0152ba4db977fda2ffee75bf51ad93330b17df27dcb16bef691d6769b451db56",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/features/drafts-and-publishing/": {
+      "hash": "43abf5eddb58925baffced0e39266eaf1648b273c2af8ab72feb62d39931f3a3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/features/fan-out-queries/": {
+      "hash": "0f239cd48d4a25338f4beab8ffea42656bec749172eff84b7b79e01f89c55221",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/features/faq-generator/": {
+      "hash": "36f98a00830d8478c53599127f104cad11156749dd582b0ae63e98534350599e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/features/glossary-post/": {
+      "hash": "e7b6c6a973fe5f0f8bfd442702571956c5de7b2456ef64f017eb2c2fd916eff4",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/features/grounding-queries/": {
+      "hash": "28b8baa7f2c5371a805331e25d96d1872fa509be81ef13b76d38b12c3744e34f",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/features/key-points/": {
+      "hash": "cd7d7661f335468ab5e693ebc9522cc32a35670a1a3bd91c073dcf8fbaf6c9e6",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/features/landing-page-content/": {
+      "hash": "3434fd8165112055873226a2a9652a060eb09238737463b0a99a47fc509bf397",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/features/product-page-content/": {
+      "hash": "5e6ab408791a08835ce9b64ca237f2230264dd63d332da10c0e7396846a22ad6",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/getting-started/account-modes/": {
+      "hash": "f1e26dbf4e317f267c82acb108284ad3105aa461e014e0480753ac9b00fe4be9",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/getting-started/context/about-you/": {
+      "hash": "f4f0d5146051a4007020dc5b25972c75446c3f68e7031a435f2206b0dacecfec",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/getting-started/context/brand-truth-profile/": {
+      "hash": "7753c3167ab29575694e35bf2063974bb32766208f04ea02c306ae6eb4da3daf",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/getting-started/context/brand-voice/": {
+      "hash": "c6afa8b9357967cbb5aca902ca0e33ffc9613d7aaa6c8580fc4e6ea5bdf4653f",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/getting-started/context/overview/": {
+      "hash": "1bd8eeff4fdd1a8d136b2ffc9a84b82c6bc8150c64b9fe22e470614c50138a24",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/getting-started/install-and-sign-in/": {
+      "hash": "9d54e1e211cdada10593f1175aa827d11d5071ec0eb9aa0b828e76ccd4792e83",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/getting-started/projects/": {
+      "hash": "e0b9b3633a4a239717fd0ad21bcacd8c15ea8cb3000518e730b820b479b7a811",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/getting-started/settings/": {
+      "hash": "0bd66c4961ae1bfedb936fdc1dffeac2a8c0ea75e0bf8601e38afd53027bc466",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/getting-started/team-management/": {
+      "hash": "47f459b918c3e859114c69ac18c35c283f81f9ed9e583ee4965d42a4e5012244",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/inbox/notifications/": {
+      "hash": "5577572e54f53c2feef129a53bfed12bd455be00cf32b0e459d1a52796402b7b",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/inbox/overview/": {
+      "hash": "89db69b6569a2347ed9d57e9cad8f78b9231431c940805b49f2814d29be92b40",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/integrations/google-search-console/": {
+      "hash": "bf946dd2dad88f7d13c960b7b4e0f5fe0c8c7425e3ae87465ca82f662169c09d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/integrations/grav/": {
+      "hash": "5e90e42273c1be057522055b565095ce63a9f1172aa0ba1372c208309c0eb1cf",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/integrations/webflow/": {
+      "hash": "0e4d2ca26b207b3bd9d46a6b23af635ce83f2c9b8bc5b5bc45c11c07e2ef1080",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/integrations/wordpress/": {
+      "hash": "b7f3c7f94c449d533f614eb111b66e37d1994cc2315d7520b835dbd141922ae6",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/legacy/listen-to-this-article/": {
+      "hash": "bd519303a5e02ec72a6d57171f7fb8c950bd2ef446953eb1c41dd57d556bcf3f",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/legacy/topical-authority/": {
+      "hash": "631aae068675ecee1d82d3bb627111e1add09b0e0c2f601eea48bece990649ba",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/legacy/versus-pages/": {
+      "hash": "b65d9e37e80496f685fa7d75d6b7b42c32d175b5f1e40181874b460b07847624",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/library/overview/": {
+      "hash": "35887bc1d4f4d7d1b400a4ffb27092e00707b037c9757d44d5b189d4062cd02b",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/site-monitoring/overview/": {
+      "hash": "cc0c155192b30efd0dfd9871cc435e4bc646c74fbeaa2f9290a2a8be7ac40de9",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/tools/instant-brand-check/": {
+      "hash": "80456af8f5e60eda0f8fdd8f26ee33e292263ad19e60aa7a58d3f03edd2ffd9d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/tools/overview/": {
+      "hash": "b6573d4d7b25da090265d580053e0db60233d036c5d108a72f74d2b83b80532b",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/visibility/competitors/": {
+      "hash": "5a8e324db02cd1886b8e35420eb101139d780761ef7cc4b40da34500abd4093b",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/visibility/overview/": {
+      "hash": "1ba30eb2be7293e48a8ce2ddaa018a0f02c3d9c7fc453614d514bd4b872e5a3d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/visibility/prompt-manager/": {
+      "hash": "fae857a0a4b58bcc4509883aeb582efc7ed8d26e7d42967c1817a26fbf663c1c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/visibility/settings/": {
+      "hash": "5f9026457d31ede7f39f50cbb93ff57f4d0db2c32239f7c574da7468ea309b01",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/workflows/create-new-content/": {
+      "hash": "bf47a85897af5d0997b13122fd855c61b39abcbbfcae24dd15804f5fc5cad099",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/workflows/overview/": {
+      "hash": "9100b6308b1ccfcd6cddae4279a16ff7259b4d99ae1b863a90926efd644ed6b7",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/fr/workflows/recover-lost-visibility/": {
+      "hash": "329f18767ae7c0c4b44d89b6cb7ac419a28347c296f8b947faaca4703b92fd6b",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/getting-started/account-modes/": {
+      "hash": "0661ca1353dae176f0f8877b3efbb128bede24857987bb71fe4454f599d0a5ff",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/getting-started/context/about-you/": {
+      "hash": "b086d43ee4239a04ad01c609278b327596a7db7f3f58b46e10bcecccefc37b01",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/getting-started/context/brand-truth-profile/": {
+      "hash": "5f2133ac813944a700914a757315fabb966fb3c9e85e583d7eed91a9259e7536",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/getting-started/context/brand-voice/": {
+      "hash": "a0da444be0f0b036fea08bdad41728124dd3113ec1326c63d8043e13a4540833",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/getting-started/context/overview/": {
+      "hash": "f5a5728a04e490bb06d0cdfe320ef41e6d80ec2f4e885803d6975885b3e7e044",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/getting-started/install-and-sign-in/": {
+      "hash": "223f4d2395c8119b6e92cc1f1de420f7ba0822dccf6e7f2698418eab75ed1229",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/getting-started/projects/": {
+      "hash": "e98d7acd89fcedbcd42b5157d3d65760f2fb189067418d1784a8206e4d3df579",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/getting-started/settings/": {
+      "hash": "a60899950d60212b9a436d80dcb99a28491bc17d671001888c4c387b516fdfb5",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/getting-started/team-management/": {
+      "hash": "a6f68d83f064ceff1ff78e83fe14d6611e4153cb13ab6836a21a962557eaf3b3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/inbox/notifications/": {
+      "hash": "bd49ea199448ef3972316119d0934973250a3ac21db2680710b68f31abb62f38",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/inbox/overview/": {
+      "hash": "a070f7980d4175776f74e2f541bc63a1fa91668832e07ddb154ea637b1f2eab0",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/integrations/google-search-console/": {
+      "hash": "b5fc50fef761774b0dc862df3a3caf06170c3ed8a78908b49a5fae9f2a8e62df",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/integrations/grav/": {
+      "hash": "f2956b970ed04d5b1acdeb23e0154a6d8ac491c119868904487c8e13b02d4a7d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/integrations/webflow/": {
+      "hash": "f31873a031000d60f50769ef4373fffd2232a6ba55bcc73618016fe3b90ef77d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/integrations/wordpress/": {
+      "hash": "8424f8513ff7215afd0d729acb919cbd3452e064f28e4096d6e65fe800a676b1",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/": {
+      "hash": "6e1e77bfa2bc919b43cc044b0889dbcdde4f15dd9fb3821e4f3fd22a4378a0bf",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/agency/white-label/": {
+      "hash": "082d069839dd4f050fc39bb7df357811b0734d86b15e2a1523cf22170ba99220",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/audio/analytics/": {
+      "hash": "0b587d5da81413ba46c00a15c3061679448546b576fa6bbb1c190412240db147",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/audio/overview/": {
+      "hash": "636f408c9e77b4813e8300d6d83f0e02058e967a91877688d535a268b99b58f3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/audio/player-and-embed/": {
+      "hash": "baf06c6a909ccbf8089c3b358cf26b5102a3e62241e685ac424b5a96e418a2b2",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/chat/chats-history/": {
+      "hash": "a9d54bb9bd59f265a527549f09a93491f6601bc7920c475ddc906749e74c5a80",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/chat/model-selection/": {
+      "hash": "1dd03aa8860356870670fd9d664dbb1d2f8602a70f8cbda68f7e2768cae97163",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/chat/overview/": {
+      "hash": "fc0ec02cf1852486a8eb039f5a1dae30d74322c597e770529a8eb557a7ae9ac2",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/chat/tools-and-specialists/": {
+      "hash": "55c742282bd8aea47d8903e939c51b1049769f14a2c38d6e024047c0e10a5a2a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/features/aeo-audits/": {
+      "hash": "d959f7480a5c2c801d31964301682f50028af87fef88ae9c0911a8fb89835b05",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/features/blog-post-draft/": {
+      "hash": "1d645a01db0efcc4c946e1f49abbc44895b4dd1edd85a1d69495ccfa4910be81",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/features/content-briefs/": {
+      "hash": "ac902fc609c6a048490317880f761f02de95191a10682e78334fad423937eab6",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/features/drafts-and-publishing/": {
+      "hash": "39d90be895611bf36aecb93791e7355dbdefb6b2549fc75656e5e0c905e5a674",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/features/fan-out-queries/": {
+      "hash": "f7e44626fe30e06541a32dcb02763341fd803598740edd4d419b0482e5020bd1",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/features/faq-generator/": {
+      "hash": "63b0fd501f42a5678ee81339336921676556fd9f08b054ddf6822aa7ec030046",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/features/glossary-post/": {
+      "hash": "afb391504a74c69b3215fbc561be3a15e6127e3cd9d7afa70316ec724caf1a71",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/features/grounding-queries/": {
+      "hash": "154462f9a11b2e059000ef4e418add4631cbcbaaa0e7c0b33eae81f65233fd5e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/features/key-points/": {
+      "hash": "fd4f54384669b3c12af7ac4c4b5b6811d74c19cf331d23b74261e63cba16e98a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/features/landing-page-content/": {
+      "hash": "e93b6fc32e568c14853fdc197dcf87b0dbb79f7d2186ffba11f2d3d384d29da2",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/features/product-page-content/": {
+      "hash": "74626b5e8c6736a3ab4fca424fa4d173802a68fa60265732331895d2427e7e38",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/getting-started/account-modes/": {
+      "hash": "67ebc9aab369645633cc1ec40808bdf4db744d9e4c617f22e6051b79a10e585f",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/getting-started/context/about-you/": {
+      "hash": "b0807393550de5c07646e95e03afc9e802b501dec2f8a769cb39377e4267d729",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/getting-started/context/brand-truth-profile/": {
+      "hash": "37aecc033ec04cbcd9df17f9356b75b754f4b58a22d7c480a5646cb882ed40de",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/getting-started/context/brand-voice/": {
+      "hash": "755de94a1f35f1835d38bec7a5d468a1fba7c1ed54db2f23b6087e712bbd761f",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/getting-started/context/overview/": {
+      "hash": "bb45b9b32a1f5de47fd49161a5ea8f0901c5f9ce3fddac6512ceb9064eb4f8ba",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/getting-started/install-and-sign-in/": {
+      "hash": "692bce1b2224dac9c76b7e62b0cce6d74be2b55b93156e7a059ced30837a02be",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/getting-started/projects/": {
+      "hash": "c6ce1cfb8f79ebc3df41d48f13a44e0639e71bcddf302fbfc9a1ca5d97a10c6e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/getting-started/settings/": {
+      "hash": "9a773115f8d781dd205b77e15dd2c06d986913827e14ff3e83457c6129824ef5",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/getting-started/team-management/": {
+      "hash": "df4db500876c7f922e79fa78689262ff2a19787152f003acabb601a2d2b1ba6c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/inbox/notifications/": {
+      "hash": "90d44263b94f12af6a206f686ae2bf56e46dbe2da4b0d08f7c02858eaa1f386e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/inbox/overview/": {
+      "hash": "6d908a7588003f9bc54f24ab73985f3f563cf21d150a47dcd3db62e137ed7257",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/integrations/google-search-console/": {
+      "hash": "8cbfe781432f30fa22b4cdc2ee7cc28924d5555a45a2ca3c2028b164956361c2",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/integrations/grav/": {
+      "hash": "6b4728d725e905cecb6ac9f481ed8e5c1a271e1d39ab80843c0e429a62f66528",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/integrations/webflow/": {
+      "hash": "b92ac5e27558ff1f7990b79fb88ed82dc9f72b90c62fe1b9d5f8ef00c24084ff",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/integrations/wordpress/": {
+      "hash": "1f4c244a1114622dbf50b3f44a4fc446ffd9b31004ad4d9ee5a33201a2fd49b8",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/legacy/listen-to-this-article/": {
+      "hash": "36323083254aec6b9dbfc81bbae4a22a6dd3816193c68ee5718b2b24bdc77922",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/legacy/topical-authority/": {
+      "hash": "edd6656207391e6b7f1bcc50e3b24f1b09dadd25106504e4d569c75f24ec390d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/legacy/versus-pages/": {
+      "hash": "e4edb0473e52b9c65501b0f7d12a6f4e2ef0a09d2b1a26a61f951d8530ee3e23",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/library/overview/": {
+      "hash": "c5551ccebc1857dec6c3af4d6ccd35007b7d144c9b6b92417e2e0cfb13500f48",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/site-monitoring/overview/": {
+      "hash": "e145d16af818b3353c87a30f92e59f75c69c48c3ce5c99511ed0d3450cf0ade3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/tools/instant-brand-check/": {
+      "hash": "85dd605d9abfb780e299407c28776e5e6d01e4355b4dd28c9bbeb2bade840a51",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/tools/overview/": {
+      "hash": "514ac91a80b38bcd902867ed3c0fb89562503d025d1040393baf7bf3b5d09e2b",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/visibility/competitors/": {
+      "hash": "4149a006876ae433c13c13d9b40d0d3c08db146b2cab2dac9b6b38e33f40deb0",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/visibility/overview/": {
+      "hash": "b55035c195284f4fde70af24d0425bc9c4d8deeaf252495bb341874b64d7325c",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/visibility/prompt-manager/": {
+      "hash": "bd09263df347003a688029672c33ad633956c980a2070b542738dbb67062f22e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/visibility/settings/": {
+      "hash": "4e4c01b8a88f64584327a90dedf73cb1f60d420164c11323e9847f0d66cc4c47",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/workflows/create-new-content/": {
+      "hash": "25e6e98fd03e18520cf0212ecb215c272a2483ece7a791b1fc0bf2bd906167f2",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/workflows/overview/": {
+      "hash": "c62aab77c3208d49fd3ae296934294ab1912a135597d004576058256b635dfba",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/it/workflows/recover-lost-visibility/": {
+      "hash": "8821ada2c7a23d58d478c774f236b8fa7fa35e06b098c7d1e01a6dc8c9e66b67",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/legacy/listen-to-this-article/": {
+      "hash": "97ff127202e2d8155b65129c56fb31db6c45e5f6dfd1ffaa7641d3ea8dd6aabf",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/legacy/topical-authority/": {
+      "hash": "bed3506181097671cd199b513b034ca238f00bc7225c0f54827d00a0bc0181cb",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/legacy/versus-pages/": {
+      "hash": "8373841532afeb49b7ee2d42c5b5cb947bcddee1f40826a8bd7bcecc1298f1de",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/library/overview/": {
+      "hash": "463e35e4392ab2aca31a797fca190ed63542e258facda83dfe1bb5f8a06461cf",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/": {
+      "hash": "57c9e1e1d918b9e6b3df9ac588fdd5e6d74ec4ad1f1a71d7fcc580cd22eb47ff",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/agency/white-label/": {
+      "hash": "b8f0a50626cd09b10d13ce39c397ce23cd3e5feb787c68c31530bc223c24db8d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/audio/analytics/": {
+      "hash": "c63f0ab280746ce801e31911ad26402ff2bffc6cbfc9eb26d079b1581d78e403",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/audio/overview/": {
+      "hash": "60d20ecd8406b610ad5d4eed1a8630ca4249cfd46596b38c60670ef68abfd2ae",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/audio/player-and-embed/": {
+      "hash": "a5b2f5d15155905468d03b441e41e1707a073768dfeef05e2843bfad21389086",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/chat/chats-history/": {
+      "hash": "7e85d9de01a33b60fcaca0e77a243fa798b4396e0f82bd2ccedbf6529d9df7f8",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/chat/model-selection/": {
+      "hash": "78c882f415d07333859f7ce2501a363ed20688a86156d81799b56e6aa16219a0",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/chat/overview/": {
+      "hash": "277322fa9c2266e777c948d2ec19e134f303cfde40bc29a794c5a4411857f413",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/chat/tools-and-specialists/": {
+      "hash": "a78c4a0b0d2416fc8599cccbb4eea43213f9ea223fd094c7ca9e23aced492472",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/features/aeo-audits/": {
+      "hash": "51689132557d31420ddd1f30aea19cb0f99a7fe8cb0d6e0d227e424ef7775be7",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/features/blog-post-draft/": {
+      "hash": "a7bf9130ba92d36b227190207eb86c1f5591b3cf3db5862ff92254917e7386ad",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/features/content-briefs/": {
+      "hash": "ee028b386f818705eb0d4fb397dafa3f844756c87fc91d2cd18ce420840ae6cc",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/features/drafts-and-publishing/": {
+      "hash": "7da0c98881916ce2bd34cdcf5bed75a77286f48b04c84debb5e30cfcaadf5db1",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/features/fan-out-queries/": {
+      "hash": "70449bcf670ea31c2a7639f1820f484cec6ac9dae9f2cdf8e70d432f87b6593e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/features/faq-generator/": {
+      "hash": "6104483dd14f96887690a99f015095b5ba7a68cf8d79197213650c1fc6b5805e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/features/glossary-post/": {
+      "hash": "a1182f16e513051417e396406bc22d3e4bb0e0b496e91c9ad0c4c1852f9e94f9",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/features/grounding-queries/": {
+      "hash": "51732a14a7c50abdf96b8748b09a82ff1864b4d5e138bd4ca900858c1afb8911",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/features/key-points/": {
+      "hash": "6eb4e1e4d78c239be43bd225aa49e3f353bc98a2dd51d462a495ad73ecc45fa3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/features/landing-page-content/": {
+      "hash": "0baf0e7a46966be1e06869febd8031c227e21de40f26621195a61ff7fb23c6f1",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/features/product-page-content/": {
+      "hash": "87ae46db167555ff4154899c827a6039ce933a3734ae539c0d5dbee9527df242",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/getting-started/account-modes/": {
+      "hash": "e9442c1f386c2d26302e0cdcad28b8753629699cd4ae0036083a3d76c14e4f0e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/getting-started/context/about-you/": {
+      "hash": "215a580e2a9e87a883a4ef37206b4e1777ae72fd7f6c7385f5cf7c8fa6f4b0f8",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/getting-started/context/brand-truth-profile/": {
+      "hash": "7a8a47597140eb049d2bb07e8686631de4917d9e2d486a31915e4e9e80c96cf3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/getting-started/context/brand-voice/": {
+      "hash": "5b7cc6c3eb707f0c669545a06859c65029bc0fda85ebcdd359dc03e4fafc7138",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/getting-started/context/overview/": {
+      "hash": "1d00ea05540928aa608b9d017b0b9489bd0b9357b82a93e0ab666ec9126ca22f",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/getting-started/install-and-sign-in/": {
+      "hash": "f392d656bbe8c3f66cd289517d108ea164d76796cbd833d8eee4c92a4e9a97ce",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/getting-started/projects/": {
+      "hash": "aedb8b76e55f85e9ce78fcb0827aa9251d9f5fa996b29e3f8bdb7351a8937127",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/getting-started/settings/": {
+      "hash": "30359a53070ddc3c6f229df9a2aae8966eda8cfbc9edcf5b8abc95978850ab5a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/getting-started/team-management/": {
+      "hash": "15238d59da31e1758d9e1fdd2a58e24ecdf959f3e51ae3ed0ae757176bc41a43",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/inbox/notifications/": {
+      "hash": "7f7753e542af1a265aa55f3bdeb7d85ed7a861da471f6513c6e0dfb103ebbc7e",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/inbox/overview/": {
+      "hash": "b75fa4d78ed5c7d2d7f7ff1adcdfffad51cfc09bc557480ccaf7d743c99fe137",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/integrations/google-search-console/": {
+      "hash": "7bb6bb016fb77c059efefde02e3b841cf2b5fef84b6f2dccce21b2ffd22c51a3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/integrations/grav/": {
+      "hash": "376e71b9878c3e2d09818d7754ad0339f2feea06f85ccfdb843cdc9a48d73a85",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/integrations/webflow/": {
+      "hash": "8c31d4da5c45278bbbc095736ae8a433b971f08530cdf3bac6f18bbc83d4cc8a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/integrations/wordpress/": {
+      "hash": "48b6a9efbf68262a30a0fa21eefe6cbb9356839002fef7246cfe508779236295",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/legacy/listen-to-this-article/": {
+      "hash": "cf4b57e45db01ee5ff93fdeb9b4dfa40bc2ddaf08dae80807927e2c7fa4f9756",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/legacy/topical-authority/": {
+      "hash": "7546d174263de4bbcdf258e0b7cbe6a7dad37da388686841c2279d8ccf96ed84",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/legacy/versus-pages/": {
+      "hash": "d339e83fcbb20c5629f68a8ca397bf3d199159a96b21c98679cb63734ae46581",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/library/overview/": {
+      "hash": "54090c0b140791a823543daa77566419739168bb3e80c29cf0db411a7e29c79d",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/site-monitoring/overview/": {
+      "hash": "f50208c607abd016c362a551e019e08e3ba7114b4bc63332691da627cca96ac3",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/tools/instant-brand-check/": {
+      "hash": "8d086fdb38571e5e02758e153a02839b86dc89d995eb2c5631eef1566b9f7bfc",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/tools/overview/": {
+      "hash": "407fe53bb250e5dd532df1aef8ce409c74c996a88756742f7197926ff5543e64",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/visibility/competitors/": {
+      "hash": "46a7e5a4ac0ce2b653cbffe5674ff6842c46e8478e989401accbe4fc57e31126",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/visibility/overview/": {
+      "hash": "69afc2b6984342aafd0c29dec5924bbaa48ed380a86cd23d3cdbc17d02754c16",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/visibility/prompt-manager/": {
+      "hash": "b39388eab987bcaaae3f9a551e8f4fa127563cae53f5467173b02839d62a6e54",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/visibility/settings/": {
+      "hash": "9554434b927e16a1b0d0bd31fcf0042afc3c478246e0a360a65eda0b94e14118",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/workflows/create-new-content/": {
+      "hash": "da7dae64334f05ca07788d14c53735856911866ac4ca5aa8ef31ec913d9d10b9",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/workflows/overview/": {
+      "hash": "301cd7fa3b3178877bc0a9e1fd2a1cd06aed4092c6fe0a6ecc0d7f858db131f9",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/pt/workflows/recover-lost-visibility/": {
+      "hash": "d1cc61e0069e2cc9c3b0ebeffd04ec46861a37ebf2e795e0c153b79e732c15c4",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/site-monitoring/overview/": {
+      "hash": "195fece3247586c48c3db5ca510b8fdb87945a4f6e978ec5e3fcac35c6c1ecd1",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/tools/instant-brand-check/": {
+      "hash": "67df62c9b3d8814de009f2e97789412499b3229a97aad401a7fc5d26f0f20b81",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/tools/overview/": {
+      "hash": "5ffe4b5b57cc08821b2d7a6ac1451304f12d1521be9519c428bbd3e516eb0639",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/visibility/competitors/": {
+      "hash": "8fa539acb7eb056e1c607c4a845c976f20ed9f258298de72bcc5ac20b523dfa1",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/visibility/overview/": {
+      "hash": "bbd5fc78ed24f40be28dfaff6ec5e0f0ac7c4e2a45b0da7bd2c1d2d5a3a05bc1",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/visibility/prompt-manager/": {
+      "hash": "7cd6eacd51b5969c018acfdfa7cac6286b20deabf73e0a2186ff0c35b5fe94a1",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/visibility/settings/": {
+      "hash": "4e9ebcd2a7443c7399ace99c536e9275330469d2084566d47d6bfe062a651032",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/workflows/create-new-content/": {
+      "hash": "add5209aa6c3273067b15eaed91846930929361e631634ce975d460caface61a",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/workflows/overview/": {
+      "hash": "491069eeff73b0b9e12afad3642a636b38bb5b7bd194e8369448f0861c76ab01",
+      "lastmod": "2026-08-06"
+    },
+    "https://himoose.com/docs/workflows/recover-lost-visibility/": {
+      "hash": "ebf177c15b729dc73ebbdcb72b82c1ea7022d4aca604ca548c18e0c57e08bc7c",
+      "lastmod": "2026-08-06"
+    }
+  }
+}

@@ -1,55 +1,58 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 9cb1f82df3ab1a21aa5b240256af6954d672dc3d11dd311e044918cd3a30f531
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# Instant AI Search Brand Check
+    [Auf Englisch lesen](https://himoose.com/docs/tools/instant-brand-check/)
 
-## What this helps you do
+# Sofortprüfung der Marke in der KI-Suche
 
-Check one query across five AI search engines right now and see whether your brand shows up, without setting up a tracked prompt or waiting for a scheduled run.
+## Wofür das gut ist
 
-This is the "I just thought of a question, how do I look on it?" tool.
+Eine Anfrage sofort in fünf KI-Suchmaschinen prüfen und sehen, ob Ihre Marke auftaucht, ohne einen überwachten Prompt einzurichten oder auf einen geplanten Lauf zu warten.
 
-## How to run one
+Das ist das Werkzeug für den Moment „mir ist gerade eine Frage eingefallen, wie stehe ich dazu da?".
 
-Ask Moose in [chat](../chat/overview.md), in plain language. Something like "check how we show up for project management software for agencies" is enough.
+## Eine Prüfung starten
 
-Moose proposes the exact query and shows you a confirmation card. **The check doesn't run yet.** You can edit the query on the card and start it yourself, so a misread request costs you nothing.
+Bitten Sie Moose im [Chat](../chat/overview.md) darum, in einfacher Sprache. So etwas wie „prüf mal, wie wir bei Projektmanagement-Software für Agenturen dastehen" genügt.
 
-## What it checks
+Moose schlägt die genaue Anfrage vor und zeigt eine Bestätigungskarte. **Die Prüfung läuft noch nicht.** Sie können die Anfrage auf der Karte anpassen und selbst starten, sodass eine missverstandene Bitte Sie nichts kostet.
 
-Five engines: **ChatGPT**, **Perplexity**, **Grok**, **Google AI Mode**, and **Google Search**.
+## Was geprüft wird
 
-The check fetches directly from your device against the public surfaces, so it doesn't draw on your managed credit balance or your OpenRouter key.
+Fünf Maschinen: **ChatGPT**, **Perplexity**, **Grok**, **Google AI Mode** und **Google Search**.
 
-## Reading the result
+Die Prüfung fragt die öffentlichen Oberflächen direkt von Ihrem Gerät aus ab und belastet daher weder Ihr verwaltetes Guthaben noch Ihren OpenRouter-Schlüssel.
 
-The headline tells you how many of the engines mentioned your brand, and how many cited your own site.
+## Das Ergebnis lesen
 
-Each engine gets a verdict:
+Die Überschrift nennt, wie viele der Maschinen Ihre Marke erwähnt und wie viele Ihre eigene Website zitiert haben.
 
-| Result | Meaning |
+Jede Maschine erhält ein Urteil:
+
+| Ergebnis | Bedeutung |
 |---|---|
-| **Recommended** | Your brand was put forward as an answer |
-| **Listed among others** | You appeared, alongside alternatives |
-| **Described neutrally** | Mentioned without a recommendation either way |
-| **Described negatively** | Mentioned unfavorably |
-| **Not in the answer** | The engine didn't mention you |
+| **Recommended** | Ihre Marke wurde als Antwort vorgeschlagen |
+| **Listed among others** | Sie tauchten auf, neben Alternativen |
+| **Described neutrally** | Erwähnt, ohne Empfehlung in die eine oder andere Richtung |
+| **Described negatively** | Ungünstig erwähnt |
+| **Not in the answer** | Die Maschine hat Sie nicht erwähnt |
 
-You'll also see whether each engine **cited your site** specifically, and how many sources it cited in total. Mentions and citations are different wins: being named in the text is not the same as your page being the source the answer was built from.
+Sie sehen außerdem, ob die jeweilige Maschine **Ihre Website zitiert** hat und wie viele Quellen sie insgesamt zitierte. Erwähnung und Zitierung sind zwei verschiedene Erfolge: Im Text genannt zu werden ist nicht dasselbe, wie die Quelle zu sein, auf der die Antwort aufbaut.
 
-Queries are labeled **Branded** or **Unbranded**. Unbranded queries are the harder and more valuable test, because the engine had no prompt to mention you.
+Anfragen werden als **markenbezogen** oder **markenneutral** gekennzeichnet. Markenneutrale Anfragen sind der härtere und wertvollere Test, denn die Maschine hatte keinerlei Anlass, Sie zu erwähnen.
 
-If an engine couldn't be reached, the result says so rather than counting it as a miss.
+## Aus einer Prüfung eine Überwachung machen
 
-## Turning a check into tracking
+Die Ergebniskarte enthält die Aktion **Add to tracked prompts**. Damit wandert die Anfrage in Ihren [Prompt Manager](../visibility/prompt-manager.md) und läuft von da an nach Ihrem Zeitplan.
 
-A result card has an **Add to tracked prompts** action. That promotes the query into your [Prompt Manager](../visibility/prompt-manager.md) so it runs on your schedule from then on.
+!!! note "Eine Prüfung ist eine Momentaufnahme, kein Verlauf"
+    Eine Sofortprüfung sagt Ihnen, wo Sie in dieser Minute stehen. KI-Antworten schwanken zwischen Läufen, ein einzelnes Ergebnis sollte deshalb nicht als Veränderung gelesen werden. Überwachte Prompts laufen nach Zeitplan und bilden die Verlaufslinie, die tatsächlich zeigt, ob sich etwas bewegt hat. Nutzen Sie Sofortprüfungen, um Fragen zu finden, die sich zu überwachen lohnen, und überwachen Sie sie dann.
 
-!!! note "One check is a snapshot, not a trend"
-    An instant check tells you where you stand this minute. AI answers vary between runs, so a single result shouldn't be read as a change. Tracked prompts run on a schedule and build the trend line that actually tells you whether something moved. Use instant checks to find questions worth tracking, then track them.
+## Wie es weitergeht
 
-## Where to go from here
-
-- **[Visibility](../visibility/overview.md)** — the scheduled version of this, with trends and history.
-- **[Prompt Manager](../visibility/prompt-manager.md)** — organize the prompts you've promoted.
-- **[AEO Audits](../features/aeo-audits.md)** — when a check goes badly and you want to know why.
+- **[Visibility](../visibility/overview.md)**: dasselbe in geplanter Form, mit Verläufen und Historie.
+- **[Prompt Manager](../visibility/prompt-manager.md)**: die übernommenen Prompts ordnen.
+- **[AEO Audits](../features/aeo-audits.md)**: wenn eine Prüfung schlecht ausfällt und Sie wissen wollen, warum.

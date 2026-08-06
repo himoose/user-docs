@@ -1,6 +1,7 @@
 # Firebase hosting files
 .firebase/
 site/
+.indexnow-pending.json
 
 # MkDocs build output
 site/

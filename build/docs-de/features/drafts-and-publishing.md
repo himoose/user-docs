@@ -1,58 +1,63 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: d13fbe0e44e283bca3759e24ae06c4632b5ccb20e66f5806145543eb82fe5f65
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# Drafts, Preview & Publishing
+    [Auf Englisch lesen](https://himoose.com/docs/features/drafts-and-publishing/)
 
-## What this helps you do
+# Entwürfe, Vorschau und Veröffentlichung
 
-Hi, Moose doesn't stop at a recommendation — it helps you move from a brief or an edit idea all the way to a published change, with a preview and approval step in between, and a record of what happened.
+## Wofür das gut ist
+
+Hi, Moose hört nicht bei der Empfehlung auf: Die Plattform begleitet Sie von einem Brief oder einer Änderungsidee bis zur veröffentlichten Änderung, mit einem Vorschau- und einem Freigabeschritt dazwischen und einer Aufzeichnung dessen, was geschehen ist.
 
 ## Draft Studio
 
-Draft Studio is where drafts get written and refined. Draft generation is built to depend on a [content brief](content-briefs.md) rather than working as a blind text expander — if a piece of work needs structured planning, Hi, Moose generates or confirms the brief first, then drafts from it. Draft Studio also supports long-form editing directly.
+Im Draft Studio werden Entwürfe geschrieben und verfeinert. Die Entwurfserzeugung ist darauf ausgelegt, auf einem [Content-Brief](content-briefs.md) aufzubauen, statt als blinder Textaufbläher zu arbeiten: Erfordert eine Aufgabe strukturierte Planung, erstellt oder bestätigt Hi, Moose zuerst den Brief und schreibt dann daraus. Das Draft Studio unterstützt außerdem das direkte Bearbeiten langer Texte.
 
-### Content types
+### Inhaltstypen
 
-Draft generation follows the same template types available when [generating a content brief](content-briefs.md#generating-a-brief). Four have dedicated Chat quick starts, each with its own structure: [Blog Post Draft](blog-post-draft.md), [Glossary Post](glossary-post.md), [Landing Page Content](landing-page-content.md), and [Product Page Content](product-page-content.md). The Solutions page template is also available when generating a content brief, without a dedicated quick start.
+Die Entwurfserzeugung folgt denselben Vorlagentypen, die beim [Erstellen eines Content-Briefs](content-briefs.md#einen-brief-erstellen) zur Verfügung stehen. Vier davon haben einen eigenen Schnellstart im Chat, jeweils mit eigener Struktur: [Blogbeitrags-Entwurf](blog-post-draft.md), [Glossarbeitrag](glossary-post.md), [Landingpage-Inhalte](landing-page-content.md) und [Produktseiten-Inhalte](product-page-content.md). Die Vorlage für Lösungsseiten steht ebenfalls beim Erstellen eines Briefs zur Verfügung, allerdings ohne eigenen Schnellstart.
 
-Each template runs the same brief-first draft flow — only the structure differs, so a landing page draft is planned and shaped differently than a blog post even though both start from a [content brief](content-briefs.md).
+Alle Vorlagen durchlaufen denselben Ablauf mit vorangehendem Brief; nur die Struktur unterscheidet sich. Ein Entwurf für eine Landingpage wird also anders geplant und geformt als ein Blogbeitrag, obwohl beide von einem [Content-Brief](content-briefs.md) ausgehen.
 
-When you ask for a post and Hi, Moose produces a brief, it goes on to generate the draft rather than stopping and waiting for you to ask again.
+Wenn Sie um einen Beitrag bitten und Hi, Moose einen Brief erzeugt, geht er weiter und erzeugt den Entwurf, statt innezuhalten und darauf zu warten, dass Sie erneut fragen.
 
-### Internal linking
+### Interne Verlinkung
 
-New drafts are checked against your indexed site, and relevant internal links are inserted where they genuinely fit. This needs a built [search index](../site-monitoring/overview.md) — without one there's nothing to link to, and Hi, Moose won't invent links.
+Neue Entwürfe werden mit Ihrer indexierten Website abgeglichen, und passende interne Links werden dort eingefügt, wo sie wirklich hingehören. Das setzt einen aufgebauten [Suchindex](../site-monitoring/overview.md) voraus: Ohne ihn gibt es nichts zu verlinken, und Hi, Moose erfindet keine Links.
 
-## Staging an edit
+## Eine Änderung vorbereiten
 
-Whether it comes from a brief-driven draft, a [FAQ](faq-generator.md), [key points](key-points.md), or an [AEO audit](aeo-audits.md) recommendation, a proposed change is staged as an **edit proposal** — a durable artifact, not just chat text — before anything touches your live site.
+Ob sie aus einem briefbasierten Entwurf, aus [FAQ](faq-generator.md), aus [Key Points](key-points.md) oder aus einer Empfehlung eines [AEO Audits](aeo-audits.md) stammt: Eine vorgeschlagene Änderung wird als **Änderungsvorschlag** vorbereitet, als dauerhaftes Artefakt und nicht als bloßer Chattext, bevor irgendetwas Ihre produktive Website berührt.
 
-## Preview
+## Vorschau
 
-Before you approve anything, Hi, Moose can generate a preview of the staged change so you can see what it will look like on the actual page. For changes that need to be reviewed by someone else, Hi, Moose can generate a signed, expiring shared review link so a teammate or client can review the change without needing desktop app access.
+Bevor Sie etwas freigeben, kann Hi, Moose eine Vorschau der vorbereiteten Änderung erzeugen, damit Sie sehen, wie sie auf der echten Seite aussehen wird. Für Änderungen, die jemand anders durchsehen soll, kann Hi, Moose einen signierten, ablaufenden Freigabelink erzeugen, sodass eine Kollegin oder eine Kundin die Änderung ohne Zugang zur Desktop-App prüfen kann.
 
-## Approve & publish
+## Freigeben und veröffentlichen
 
-- **Approve** — explicitly accept a staged change before it can be published. Preview and publish are always separate steps; generating a draft or preview is never treated as "done" on its own.
-- **Publish** — once approved, Hi, Moose publishes the change through the relevant connection ([WordPress](../integrations/wordpress.md), [Webflow](../integrations/webflow.md), or [Grav](../integrations/grav.md)) and records what was published, when, and why.
+- **Freigeben**: eine vorbereitete Änderung ausdrücklich annehmen, bevor sie veröffentlicht werden kann. Vorschau und Veröffentlichung sind stets getrennte Schritte; einen Entwurf oder eine Vorschau zu erzeugen gilt nie für sich allein als „erledigt".
+- **Veröffentlichen**: Nach der Freigabe veröffentlicht Hi, Moose die Änderung über die jeweilige Verbindung ([WordPress](../integrations/wordpress.md), [Webflow](../integrations/webflow.md) oder [Grav](../integrations/grav.md)) und hält fest, was wann und warum veröffentlicht wurde.
 
-### Per-CMS behavior
+### Verhalten je CMS
 
-**WordPress** — drafts can be pushed to a connected site as staged drafts rather than going straight live, and the publishing flow adapts to whether the target is already staged or published. Once you've pushed a draft, Hi, Moose remembers, so you can't accidentally push the same one several times.
+**WordPress**: Entwürfe lassen sich an eine verbundene Website als vorbereitete Entwürfe übergeben, statt direkt live zu gehen, und der Veröffentlichungsablauf richtet sich danach, ob das Ziel bereits vorbereitet oder veröffentlicht ist. Haben Sie einen Entwurf einmal übergeben, merkt Hi, Moose sich das, sodass Sie denselben nicht versehentlich mehrfach übergeben.
 
-**Webflow** — publishing to a collection loads the collection's other required fields first and asks you to fill them in, so a publish doesn't fail partway through on a field you couldn't see.
+**Webflow**: Beim Veröffentlichen in eine Collection werden zuerst deren übrige Pflichtfelder geladen und Sie werden gebeten, sie auszufüllen, damit eine Veröffentlichung nicht mitten im Ablauf an einem Feld scheitert, das Sie nicht sehen konnten.
 
-A failed publish lands in your [inbox](../inbox/overview.md). A successful one doesn't, on purpose.
+Eine fehlgeschlagene Veröffentlichung landet in Ihrer [Inbox](../inbox/overview.md). Eine erfolgreiche bewusst nicht.
 
 ## Work Queue
 
-The Work Queue is where staged edits, pending previews, and items waiting on your approval collect — so nothing sits only inside a chat transcript waiting to be forgotten.
+In der Work Queue sammeln sich vorbereitete Änderungen, ausstehende Vorschauen und Einträge, die auf Ihre Freigabe warten, damit nichts allein in einem Chatprotokoll liegen bleibt und in Vergessenheit gerät.
 
-## Library and History
+## Library und Verlauf
 
-- **[Library](../library/overview.md)** holds the durable artifacts you've generated — briefs, drafts, FAQ sets, key points, AEO audits — so you can find and reuse them later instead of regenerating from scratch.
-- **[Chats (History)](../chat/chats-history.md)** is your saved chat session history — reopen, rename, or delete a previous conversation. It's conversation history, not a publish or visibility outcomes log; a dedicated record tying published changes back to the visibility signal that triggered them is planned but not yet built.
+- Die **[Library](../library/overview.md)** bewahrt die dauerhaften Artefakte auf, die Sie erzeugt haben (Briefs, Entwürfe, FAQ-Sätze, Key Points, AEO Audits), damit Sie sie wiederfinden und weiterverwenden können, statt sie neu zu erzeugen.
+- **[Chats (Verlauf)](../chat/chats-history.md)** ist der Verlauf Ihrer gespeicherten Chatsitzungen: ein früheres Gespräch erneut öffnen, umbenennen oder löschen. Das ist ein Gesprächsverlauf, kein Protokoll von Veröffentlichungen oder Sichtbarkeitsergebnissen; ein eigener Nachweis, der veröffentlichte Änderungen mit dem auslösenden Sichtbarkeitssignal verknüpft, ist geplant, aber noch nicht gebaut.
 
-## Why this matters
+## Warum das zählt
 
-This preview → approve → publish path is what turns a recommendation into a completed, accountable action. A workflow that only produces advice is incomplete; a workflow that ends in a previewed, approved, published change — with a record tying it back to the original visibility signal — is the point of Hi, Moose.
+Dieser Weg aus Vorschau, Freigabe und Veröffentlichung macht aus einer Empfehlung eine abgeschlossene, nachvollziehbare Handlung. Ein Ablauf, der nur Ratschläge hervorbringt, ist unvollständig; ein Ablauf, der in einer geprüften, freigegebenen und veröffentlichten Änderung endet, verknüpft mit dem ursprünglichen Sichtbarkeitssignal, ist der eigentliche Sinn von Hi, Moose.

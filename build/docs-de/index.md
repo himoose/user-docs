@@ -1,75 +1,80 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 1907634a13686d43288a5b306f0fe1987aee6bc02abacf969d308b522b1b0a18
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# Welcome to Hi, Moose Documentation
+    [Auf Englisch lesen](https://himoose.com/docs/)
 
-Hi, Moose is a **desktop-first AI visibility operations platform** for SMB to mid-market marketing teams. It helps you monitor AI and search visibility, detect meaningful changes, prepare better content actions, make agentic edits, and connect those actions to outcomes over time.
+# Willkommen in der Hi, Moose-Dokumentation
 
-The **Hi, Moose desktop app** is now the primary place to do this work. It's a real operator console — not just a chat window — built around one core loop:
+Hi, Moose ist eine **Desktop-orientierte Plattform für KI-Sichtbarkeitsoperationen**, gedacht für Marketingteams von kleinen und mittleren bis hin zu größeren mittelständischen Unternehmen. Sie hilft Ihnen, Ihre Sichtbarkeit in KI und Suche zu überwachen, relevante Veränderungen zu erkennen, bessere inhaltliche Maßnahmen vorzubereiten, agentische Änderungen vorzunehmen und diese Maßnahmen über die Zeit mit ihren Ergebnissen zu verknüpfen.
 
-**monitor → detect → brief → approve → publish**
+Die **Hi, Moose-Desktop-App** ist jetzt der zentrale Ort für diese Arbeit. Sie ist eine echte Operator-Konsole, kein bloßes Chatfenster, und ist um einen zentralen Kreislauf herum aufgebaut:
 
-!!! note "Moving from the web app?"
-    Hi, Moose used to be a web-only product. Nearly everything now lives in the desktop app, including **[Audio](audio/overview.md)**, which moved over from the legacy web app. What's left at `app.himoose.com` is **[Versus Pages](legacy/versus-pages.md)** and the **[Topical Authority Builder](legacy/topical-authority.md)**. You can reach them from the account menu without a separate login.
+**überwachen → erkennen → planen → freigeben → veröffentlichen**
 
-## What is Hi, Moose?
+!!! note "Sie kommen von der Web-App?"
+    Hi, Moose war einmal ein reines Webprodukt. Heute liegt fast alles in der Desktop-App, einschließlich **[Audio](audio/overview.md)**, das aus der früheren Web-App übernommen wurde. Auf `app.himoose.com` verbleiben nur noch **[Versus Pages](legacy/versus-pages.md)** und der **[Topical Authority Builder](legacy/topical-authority.md)**. Sie erreichen beides über das Kontomenü, ohne separate Anmeldung.
 
-Hi, Moose isn't a generic AI writer or a prompt box. Models provide reasoning — Hi, Moose provides the **continuity, memory, prioritization, editing, publishing, and accountability** around that reasoning. It remembers your brand, your projects, your past decisions, and your publish history, so every recommendation builds on the last instead of starting from zero.
+## Was ist Hi, Moose?
 
-## The core operator loop
+Hi, Moose ist weder ein beliebiger KI-Textgenerator noch ein einfaches Prompt-Feld. Die Modelle liefern das Denken; Hi, Moose liefert **Kontinuität, Gedächtnis, Priorisierung, Bearbeitung, Veröffentlichung und Nachvollziehbarkeit** rund um dieses Denken. Die Plattform merkt sich Ihre Marke, Ihre Projekte, Ihre früheren Entscheidungen und Ihre Veröffentlichungshistorie, sodass jede Empfehlung auf der vorherigen aufbaut, statt bei null zu beginnen.
 
-A working Hi, Moose session should be able to answer:
+## Der zentrale Operator-Kreislauf
 
-1. What changed in your AI/search visibility?
-2. Why does it matter?
-3. What should you do about it?
-4. What evidence supports that recommendation?
-5. What will the edit look like?
-6. Can you preview it before it goes live?
-7. Can you approve it safely?
-8. Can Hi, Moose publish it for you?
-9. What happened afterward?
+Eine Arbeitssitzung in Hi, Moose sollte diese Fragen beantworten können:
 
-## Core capabilities in the desktop app
+1. Was hat sich an Ihrer Sichtbarkeit in KI und Suche verändert?
+2. Warum ist das wichtig?
+3. Was sollten Sie dagegen tun?
+4. Welche Belege stützen diese Empfehlung?
+5. Wie wird die Änderung aussehen?
+6. Können Sie sie vor der Veröffentlichung in der Vorschau ansehen?
+7. Können Sie sie sicher freigeben?
+8. Kann Hi, Moose sie für Sie veröffentlichen?
+9. Was ist danach passiert?
 
-### 📈 Monitor & detect
+## Kernfunktionen der Desktop-App
 
-- **[Visibility](visibility/overview.md)** — Track how your brand shows up across Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini, and Grok, and get notified when something meaningful changes.
-- **[Competitors & Share of Voice](visibility/competitors.md)** — See who's getting recommended instead of you, which of their pages win the citations, and which questions you're absent from.
-- **[AEO Audits](features/aeo-audits.md)** — Score a page's answer-engine readiness, see what's holding it back, and track whether changes actually move the score.
-- **[Site Monitoring](site-monitoring/overview.md)** — Crawl your site, index it for semantic search, and get one digest per crawl when AEO-relevant things change.
-- **[Instant Brand Check](tools/instant-brand-check.md)** — Check a single query across five AI engines right now, without setting anything up.
+### 📈 Überwachen und erkennen
 
-### ✍️ Brief, draft & publish
+- **[Visibility](visibility/overview.md)**: Verfolgen Sie, wie Ihre Marke in Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini und Grok erscheint, und werden Sie benachrichtigt, wenn sich etwas Wesentliches ändert.
+- **[Wettbewerber und Share of Voice](visibility/competitors.md)**: Sehen Sie, wer statt Ihnen empfohlen wird, welche Seiten der Konkurrenz die Zitierungen gewinnen und bei welchen Fragen Sie fehlen.
+- **[AEO Audits](features/aeo-audits.md)**: Bewerten Sie, wie gut eine Seite für Antwortmaschinen aufbereitet ist, erkennen Sie, was sie ausbremst, und prüfen Sie, ob Änderungen die Bewertung tatsächlich verbessern.
+- **[Site Monitoring](site-monitoring/overview.md)**: Crawlen Sie Ihre Website, indexieren Sie sie für die semantische Suche und erhalten Sie pro Crawl eine Zusammenfassung, wenn sich AEO-relevante Dinge ändern.
+- **[Sofortige Markenprüfung](tools/instant-brand-check.md)**: Prüfen Sie eine einzelne Anfrage sofort in fünf KI-Maschinen, ganz ohne Einrichtung.
 
-- **[Content Briefs](features/content-briefs.md)** — Generate data-grounded content briefs from live search and answer-engine evidence.
-- **[FAQ Generator](features/faq-generator.md)** — Generate natural Q&A sections with schema markup.
-- **[Key Points Extractor](features/key-points.md)** — Extract semantically-compressed key points (TL;DRs) from long-form content.
-- **[Drafts, Preview & Publishing](features/drafts-and-publishing.md)** — Turn a brief into a draft, preview the change, approve it, and publish it — with a full record of what happened.
-- **[Workflows](workflows/overview.md)** — Save recurring operator recipes (Recover Lost Visibility, Create New Content) that run in the background and land in your inbox for review.
-- **[Audio](audio/overview.md)** — Turn an article into a two-voice conversation, embed the player, and see how people listen.
+### ✍️ Planen, schreiben und veröffentlichen
 
-### 🔗 Connect your stack
+- **[Content Briefs](features/content-briefs.md)**: Erstellen Sie datengestützte Content-Briefs aus Live-Suchergebnissen und Belegen aus Antwortmaschinen.
+- **[FAQ-Generator](features/faq-generator.md)**: Erzeugen Sie natürliche Frage-Antwort-Abschnitte samt Schema-Markup.
+- **[Key-Points-Extraktor](features/key-points.md)**: Extrahieren Sie semantisch verdichtete Kernaussagen (TL;DR) aus langen Inhalten.
+- **[Entwürfe, Vorschau und Veröffentlichung](features/drafts-and-publishing.md)**: Machen Sie aus einem Brief einen Entwurf, sehen Sie die Änderung in der Vorschau, geben Sie sie frei und veröffentlichen Sie sie, mit vollständiger Aufzeichnung dessen, was geschehen ist.
+- **[Workflows](workflows/overview.md)**: Speichern Sie wiederkehrende Arbeitsabläufe (Verlorene Sichtbarkeit zurückgewinnen, Neue Inhalte erstellen), die im Hintergrund laufen und zur Durchsicht in Ihrer Inbox landen.
+- **[Audio](audio/overview.md)**: Verwandeln Sie einen Artikel in ein Gespräch mit zwei Stimmen, betten Sie den Player ein und sehen Sie, wie zugehört wird.
 
-- **[Grav](integrations/grav.md)** — Connect a Grav site through the Hi, Moose plugin for direct content access.
-- **[WordPress](integrations/wordpress.md)** — Connect a WordPress site so Hi, Moose can stage and apply edits directly.
-- **[Webflow](integrations/webflow.md)** — Connect a Webflow CMS site for content management and publishing.
-- **[Google Search Console](integrations/google-search-console.md)** — Bring first-party Google search performance into your local evidence base.
+### 🔗 Verbinden Sie Ihren Stack
 
-## Getting started
+- **[Grav](integrations/grav.md)**: Verbinden Sie eine Grav-Website über das Hi, Moose-Plugin für direkten Zugriff auf Inhalte.
+- **[WordPress](integrations/wordpress.md)**: Verbinden Sie eine WordPress-Website, damit Hi, Moose Änderungen direkt vorbereiten und anwenden kann.
+- **[Webflow](integrations/webflow.md)**: Verbinden Sie eine Webflow-CMS-Website für Inhaltsverwaltung und Veröffentlichung.
+- **[Google Search Console](integrations/google-search-console.md)**: Holen Sie Ihre eigenen Google-Suchdaten in Ihre lokale Belegbasis.
 
-1. **[Install & sign in](getting-started/install-and-sign-in.md)** — Download the desktop app and choose a plan.
-2. **[Understand account types & plans](getting-started/account-modes.md)** — The real fork is whether AI runs on your own key or on Hi, Moose's models.
-3. **[Set up a project](getting-started/projects.md)** — Create a workspace for a website, brand, or client.
-4. **[Set up your Context](getting-started/context/overview.md)** — Brand Voice, Brand Truth Profile, and About You, so generated content sounds like you and AI answers about your brand stay accurate.
-5. **[Manage your team](getting-started/team-management.md)** — Invite collaborators to a shared workspace.
+## Erste Schritte
 
-## Why Hi, Moose?
+1. **[Installieren und anmelden](getting-started/install-and-sign-in.md)**: Laden Sie die Desktop-App herunter und wählen Sie einen Tarif.
+2. **[Kontotypen und Tarife verstehen](getting-started/account-modes.md)**: Die eigentliche Weggabelung ist, ob die KI mit Ihrem eigenen Schlüssel oder mit den Modellen von Hi, Moose läuft.
+3. **[Ein Projekt anlegen](getting-started/projects.md)**: Legen Sie einen Arbeitsbereich für eine Website, eine Marke oder einen Kunden an.
+4. **[Ihren Context einrichten](getting-started/context/overview.md)**: Brand Voice, Brand Truth Profile und Über Sie, damit erzeugte Inhalte nach Ihnen klingen und KI-Antworten über Ihre Marke zutreffend bleiben.
+5. **[Ihr Team verwalten](getting-started/team-management.md)**: Laden Sie Mitwirkende in einen gemeinsamen Arbeitsbereich ein.
 
-- **Local-first by design** — On BYOK plans, your data, memory, and model calls stay on your machine unless a feature explicitly requires a cloud step. Local models run on-device on every plan, free.
-- **Real evidence, not guesses** — Recommendations are grounded in live search data, real answer-engine snapshots, and your actual site content — never fabricated citations or placeholder research.
-- **A system of record, not just a chat log** — Briefs, drafts, previews, approvals, and publish events are durable artifacts you can trace back to a visibility change.
+## Warum Hi, Moose?
+
+- **Lokal von Grund auf**: In den BYOK-Tarifen bleiben Ihre Daten, Ihr Gedächtnis und Ihre Modellaufrufe auf Ihrem Rechner, sofern eine Funktion nicht ausdrücklich einen Cloud-Schritt erfordert. Lokale Modelle laufen in jedem Tarif auf dem Gerät, kostenfrei.
+- **Echte Belege statt Vermutungen**: Empfehlungen stützen sich auf Live-Suchdaten, echte Momentaufnahmen aus Antwortmaschinen und die tatsächlichen Inhalte Ihrer Website. Niemals auf erfundene Zitate oder Alibi-Recherche.
+- **Ein System of Record, kein bloßes Chatprotokoll**: Briefs, Entwürfe, Vorschauen, Freigaben und Veröffentlichungen sind dauerhafte Artefakte, die Sie bis zur auslösenden Sichtbarkeitsveränderung zurückverfolgen können.
 
 ---
 
-**Ready to get started?** [Install the desktop app](getting-started/install-and-sign-in.md) and set up your first [project](getting-started/projects.md).
+**Bereit loszulegen?** [Installieren Sie die Desktop-App](getting-started/install-and-sign-in.md) und legen Sie Ihr erstes [Projekt](getting-started/projects.md) an.

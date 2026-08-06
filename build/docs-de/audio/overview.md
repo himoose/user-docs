@@ -1,90 +1,95 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 3de48b1823942dd1ca44b6be6cf581f170fdffe9e0e850d467f3322e9e89f1a8
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
+
+    [Auf Englisch lesen](https://himoose.com/docs/audio/overview/)
 
 # Audio
 
-## What this helps you do
+## Wofür das gut ist
 
-Turn an article into a two-voice conversation, then download the MP3 or embed the player on your site. The player ships with a transcript, which puts real, crawlable first-hand text on the page — content an answer engine can retrieve.
+Einen Artikel in ein Gespräch mit zwei Stimmen verwandeln und anschließend die MP3-Datei herunterladen oder den Player auf Ihrer Website einbetten. Der Player bringt eine Transkription mit, die der Seite echten, eigenen und crawlbaren Text hinzufügt: Inhalt, den eine Antwortmaschine abrufen kann.
 
-Audio lives in the desktop app under **Audio** in the sidebar, split into three tabs: **Generate**, **History**, and **Analytics**.
+Audio liegt in der Desktop-App unter **Audio** in der Seitenleiste und ist in drei Reiter geteilt: **Generate**, **History** und **Analytics**.
 
-!!! note "Audio moved out of the legacy web app"
-    Audio generation used to live at `app.himoose.com` as "Listen to this Article." It's now fully part of the desktop app, with project scoping, listening analytics, and player customization that the web version didn't have.
+!!! note "Audio ist aus der früheren Web-App umgezogen"
+    Die Audioerzeugung lag früher unter `app.himoose.com` als „Listen to this Article". Sie ist jetzt vollständig Teil der Desktop-App, mit projektbezogener Abgrenzung, Hörstatistiken und einer Player-Anpassung, die es in der Webfassung nicht gab.
 
-## Before you start
+## Bevor Sie beginnen
 
-Set the project's website first. Playback is locked to your project domain plus `himoose.com`, so Hi, Moose needs to know the domain before it will generate anything. If it isn't set, the Generate tab shows a **Set website** prompt instead of the composer.
+Hinterlegen Sie zuerst die Website des Projekts. Die Wiedergabe ist auf Ihre Projektdomain und `himoose.com` beschränkt, Hi, Moose muss die Domain also kennen, bevor überhaupt etwas erzeugt wird. Ist sie nicht hinterlegt, zeigt der Reiter Generate statt des Editors den Hinweis **Set website**.
 
-Audio availability depends on your [plan](../getting-started/account-modes.md): BYOK Premium and BYOK Agency include 15 generations per month, managed plans are unlimited, and the free plans don't include audio.
+Die Verfügbarkeit von Audio hängt von Ihrem [Tarif](../getting-started/account-modes.md) ab: BYOK Premium und BYOK Agency enthalten 15 Erzeugungen pro Monat, verwaltete Tarife sind unbegrenzt, und die kostenlosen Tarife enthalten kein Audio.
 
-## Choosing a source
+## Eine Quelle wählen
 
-Three ways to get content in:
+Drei Wege, Inhalte einzubringen:
 
-- **Article URL** — paste a published URL and click **Fetch**. Hi, Moose extracts the content and shows the domain, word count, and estimated read time. The article has to be publicly reachable, not behind a login or paywall.
-- **Paste text** — give the episode a title and paste the script or article text directly.
-- **Upload file** — drop in a `.txt`, `.md`, `.docx`, `.doc`, or `.pdf`. The file is read on your device and its text drops into the paste flow.
+- **Artikel-URL**: Fügen Sie eine veröffentlichte URL ein und klicken Sie auf **Fetch**. Hi, Moose extrahiert den Inhalt und zeigt Domain, Wortzahl und geschätzte Lesezeit. Der Artikel muss öffentlich erreichbar sein, nicht hinter einer Anmeldung oder Bezahlschranke.
+- **Text einfügen**: Geben Sie der Folge einen Titel und fügen Sie das Skript oder den Artikeltext direkt ein.
+- **Datei hochladen**: Legen Sie eine `.txt`-, `.md`-, `.docx`-, `.doc`- oder `.pdf`-Datei ab. Die Datei wird auf Ihrem Gerät gelesen, und ihr Text landet im Einfüge-Ablauf.
 
-## Shaping the conversation
+## Das Gespräch formen
 
-**Focus** (optional) steers what the conversation digs into. There are quick suggestions for common angles: key takeaways, explain it to a beginner, push back on the argument, who should care.
+**Focus** (optional) lenkt, worauf das Gespräch vertiefend eingeht. Es gibt Vorschläge für die üblichen Blickwinkel: zentrale Erkenntnisse, für Einsteiger erklären, dem Argument widersprechen, für wen das relevant ist.
 
-**Length** sets the target runtime:
+**Length** legt die angestrebte Laufzeit fest:
 
-| Length | Runtime | Approximate script |
+| Länge | Zeit | Ungefähres Skript |
 |---|---|---|
-| Short | 4–5 min | ~700 words |
-| Standard | 8–10 min | ~1,400 words |
-| Deep dive | 15–18 min | ~2,600 words |
+| Short | 4-5 Min. | ~700 Wörter |
+| Standard | 8-10 Min. | ~1.400 Wörter |
+| Deep dive | 15-18 Min. | ~2.600 Wörter |
 
-**Language** defaults to matching the article. Override it to change both the script and the voices.
+**Language** folgt standardmäßig der Sprache des Artikels. Ändern Sie die Einstellung, um Skript und Stimmen zugleich umzustellen.
 
-**Voices** come as host and guest pairings, with three presets — warm + curious, calm + analytical, bright + skeptical — or a custom pairing you pick yourself.
+**Voices** kommen als Paarungen aus Gastgeber und Gast, mit drei Voreinstellungen (warm und neugierig, ruhig und analytisch, hell und skeptisch) oder einer selbst gewählten Paarung.
 
-## Advanced direction
+## Erweiterte Regieanweisungen
 
-Optional, and everything left blank follows the article and the voice pairing. Seven fields are available: host direction, guest direction, scene, style, pace, accent, and extra context.
+Optional, und alles, was Sie leer lassen, folgt dem Artikel und der Stimmpaarung. Sieben Felder stehen zur Verfügung: Regie für Gastgeber, Regie für Gast, Szene, Stil, Tempo, Akzent und zusätzlicher Kontext.
 
-- **Scene**: studio interview, fireside chat, panel discussion, phone-in, walk-and-talk
-- **Style**: explanatory, debate, storytelling, interview, casual
-- **Pace**: slower, natural, faster
-- **Accent**: American (neutral), British, Australian, Irish, Indian, or neutral international
+- **Szene**: Studiointerview, Kamingespräch, Podiumsdiskussion, Hörertelefonat, Gespräch im Gehen
+- **Stil**: erklärend, Streitgespräch, erzählend, Interview, locker
+- **Tempo**: langsamer, natürlich, schneller
+- **Akzent**: amerikanisch (neutral), britisch, australisch, irisch, indisch oder international neutral
 
-Any of these can be replaced with a custom description in your own words.
+Jedes dieser Felder lässt sich durch eine eigene Beschreibung in Ihren Worten ersetzen.
 
-**Extra context** is for what the article doesn't say — how to pronounce a product name, claims to avoid, who the audience is.
+**Zusätzlicher Kontext** ist für das gedacht, was der Artikel nicht sagt: wie ein Produktname auszusprechen ist, welche Aussagen zu vermeiden sind, wer das Publikum ist.
 
-!!! warning "Context steers tone, not facts"
-    Hi, Moose won't invent facts to fill a direction. Extra context changes framing and delivery; it doesn't add evidence that isn't in the source.
+!!! warning "Kontext lenkt den Ton, nicht die Fakten"
+    Hi, Moose erfindet keine Fakten, um einer Anweisung zu genügen. Zusätzlicher Kontext verändert Rahmung und Vortrag; er fügt keine Belege hinzu, die nicht in der Quelle stehen.
 
-Once you've got settings you like, **Save as project default** reuses them for the next episode in this project.
+Haben Sie Einstellungen gefunden, die Ihnen zusagen, übernimmt **Save as project default** sie für die nächste Folge dieses Projekts.
 
-## Generating
+## Erzeugen
 
-Click **Generate audio**. The composer shows an estimated render time before you start. Generation runs in the background, so you can leave the screen and keep working — the finished episode appears in the sidebar **Recents** list, and clicking it opens that episode directly.
+Klicken Sie auf **Generate audio**. Der Editor nennt vorab eine geschätzte Renderzeit. Die Erzeugung läuft im Hintergrund, Sie können den Bildschirm also verlassen und weiterarbeiten: Die fertige Folge erscheint in der Liste **Recents** der Seitenleiste, und ein Klick öffnet sie direkt.
 
-When it's done you get:
+Ist sie fertig, erhalten Sie:
 
-- A player with seek, 15-second skip back and forward, and playback speed
+- Einen Player mit Suchlauf, 15-Sekunden-Sprüngen vor und zurück sowie Abspielgeschwindigkeit
 - **Download MP3**
-- **Share** to copy the audio link
-- The full **transcript**, with turn and word counts, and a copy button
-- **Embed on your site**, covered in [Player & Embed](player-and-embed.md)
-- **Regenerate with edits** and **Edit settings**, to adjust direction and run it again
+- **Share**, um den Audiolink zu kopieren
+- Die vollständige **Transkription**, mit Anzahl der Sprechwechsel und Wörter, samt Kopierschaltfläche
+- **Embed on your site**, beschrieben unter [Player und Einbettung](player-and-embed.md)
+- **Regenerate with edits** und **Edit settings**, um die Regie anzupassen und erneut zu erzeugen
 
 ## History
 
-The **History** tab lists every episode in the current project with its length, creation date, and status. Episodes are scoped per project, so switching projects changes what you see.
+Der Reiter **History** listet jede Folge des aktuellen Projekts mit Länge, Erstellungsdatum und Status. Folgen sind projektbezogen abgegrenzt: Ein Projektwechsel ändert also, was Sie sehen.
 
-- Search episodes by name
-- Filter by **All**, **Ready**, or **Needs attention**
-- Play, download, open the embed options, or open the full episode
-- **Retry** a failed episode
+- Folgen nach Namen durchsuchen
+- Nach **All**, **Ready** oder **Needs attention** filtern
+- Abspielen, herunterladen, die Einbettungsoptionen öffnen oder die vollständige Folge öffnen
+- Eine fehlgeschlagene Folge **erneut versuchen**
 
-Statuses are Ready, Processing, Playing, Failed, and Canceled.
+Die Status lauten Ready, Processing, Playing, Failed und Canceled.
 
-## Where to go from here
+## Wie es weitergeht
 
-- **[Player & Embed](player-and-embed.md)** — theme, layout, accent color, and the embed code.
-- **[Listening Analytics](analytics.md)** — what happens after the player is on a page.
+- **[Player und Einbettung](player-and-embed.md)**: Design, Layout, Akzentfarbe und Einbettungscode.
+- **[Hörstatistiken](analytics.md)**: was geschieht, sobald der Player auf einer Seite steht.

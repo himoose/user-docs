@@ -1,0 +1,39 @@
+# German theme chrome. Key set must match i18n/ui/en.yml.
+
+site:
+  name: Benutzerdokumentation
+  description: Benutzerdokumentation für Hi, Moose - Plattform zur Optimierung für KI-Suche
+
+header:
+  menu: Menü
+  toggleMenu: Menü ein- oder ausblenden
+  toggleTheme: Design wechseln
+  toggleLayout: Layout wechseln
+
+search:
+  label: Dokumentation durchsuchen...
+  placeholder: Dokumentation durchsuchen...
+  labelShort: Suchen...
+
+toc:
+  onThisPage: Auf dieser Seite
+
+language:
+  menuAriaLabel: Sprache auswählen
+  panelLabel: Sprache
+  availableAriaLabel: Verfügbare Sprachen
+  currentStatus: Aktuell
+
+stale:
+  title: Diese Seite ist möglicherweise nicht mehr aktuell
+  body: Sie wurde aus einer älteren Fassung der englischen Seite übersetzt.
+  linkLabel: Auf Englisch ansehen
+
+machineTranslated:
+  title: Maschinell übersetzt
+  body: Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
+  linkLabel: Auf Englisch lesen
+
+notTranslated:
+  title: Noch nicht übersetzt
+  body: Diese Seite ist in Ihrer Sprache noch nicht verfügbar und wird daher auf Englisch angezeigt.

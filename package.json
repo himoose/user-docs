@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "build": "python scripts/build_i18n.py",
+    "stamp-lastmod": "node ./scripts/stamp-lastmod.cjs",
+    "indexnow": "node ./scripts/ping-indexnow.cjs",
+    "deploy": "npm run build && firebase deploy --only hosting && npm run indexnow"
+  },
   "dependencies": {
     "firebase": "^12.6.0",
     "firebase-tools": "^15.0.0"

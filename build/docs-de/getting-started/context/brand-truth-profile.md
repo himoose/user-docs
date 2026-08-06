@@ -1,64 +1,69 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 266b8292b4154e6b52eab317de9e91cce7429af96c1d84999875493bfb8f09a8
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
+
+    [Auf Englisch lesen](https://himoose.com/docs/getting-started/context/brand-truth-profile/)
 
 # Brand Truth Profile
 
-## What this helps you do
+## Wofür das gut ist
 
-The Brand Truth Profile is a machine-readable source of truth for how AI should describe your company — what you sell, who you serve, and what you should never be confused with. Hi, Moose uses it during [Visibility](../../visibility/overview.md) runs to detect when an AI engine's answer misrepresents your brand or repeats an outdated narrative, instead of leaving that judgment to a generic sentiment score.
+Das Brand Truth Profile ist eine maschinenlesbare Quelle der Wahrheit dafür, wie KI Ihr Unternehmen beschreiben soll: was Sie verkaufen, wen Sie bedienen und womit Sie niemals verwechselt werden dürfen. Hi, Moose nutzt es während der [Visibility](../../visibility/overview.md)-Läufe, um zu erkennen, wenn die Antwort einer KI-Maschine Ihre Marke verzerrt oder ein überholtes Narrativ wiederholt, statt dieses Urteil einer allgemeinen Stimmungsbewertung zu überlassen.
 
-Like Brand Voice, the Brand Truth Profile is scoped to the current [project](../projects.md).
+Wie die Brand Voice ist das Brand Truth Profile auf das aktuelle [Projekt](../projects.md) begrenzt.
 
-All fields are optional, but the more you fill in, the more precisely Hi, Moose can flag misrepresentation and recommend corrections.
+Alle Felder sind optional, aber je mehr Sie ausfüllen, desto genauer kann Hi, Moose Verzerrungen benennen und Korrekturen empfehlen.
 
-## Fields you can fill in
+## Felder, die Sie ausfüllen können
 
-### Core description
+### Kernbeschreibung
 
-- **How should AI describe your company today?** — the canonical one-or-two sentence description you'd want to see in a ChatGPT, Perplexity, Gemini, or Google AI answer.
-- **Who is your ideal customer today?** — selected from common segments (SMBs, mid-market, enterprise, agencies, ecommerce brands, and more), plus free-text notes.
+- **Wie soll KI Ihr Unternehmen heute beschreiben?**: die kanonische Beschreibung in ein bis zwei Sätzen, die Sie in einer Antwort von ChatGPT, Perplexity, Gemini oder Google AI sehen möchten.
+- **Wer ist heute Ihr idealer Kunde?**: auszuwählen aus gängigen Segmenten (KMU, gehobener Mittelstand, Großunternehmen, Agenturen, E-Commerce-Marken und weitere), dazu Freitextnotizen.
 
-### What you offer
+### Was Sie anbieten
 
-- **Products, services, or product categories AI should know you offer** — the major things AI should know you provide; you don't need to list every feature.
-- **Features or capabilities AI should mention** — one per line. Helps Hi, Moose detect when AI leaves out something important.
+- **Produkte, Dienstleistungen oder Produktkategorien, von denen KI wissen soll, dass Sie sie anbieten**: das Wesentliche, von dem KI wissen soll, dass Sie es bereitstellen; Sie müssen nicht jede Funktion auflisten.
+- **Funktionen oder Fähigkeiten, die KI erwähnen soll**: eine pro Zeile. Hilft Hi, Moose zu erkennen, wenn KI etwas Wichtiges auslässt.
 
-### Where descriptions go wrong
+### Wo Beschreibungen danebengehen
 
-- **What does AI or the market often get wrong about your company?** — chosen from common misrepresentation patterns: wrong customer type, wrong product category, outdated positioning, missing new products or features, wrong competitors, overstating or understating capability, confusion with another brand, and more.
-- **One example of something AI or the market gets wrong** — a concrete example to ground the pattern above.
-- **Outdated descriptions we should flag** — old categories, target customers, or limitations that no longer apply.
-- **Which AI mistakes would be most damaging?** — the highest-stakes categories of error (wrong company description, wrong target customer, incorrect pricing or availability, negative or misleading sentiment, brand confusion, and more).
+- **Was stellen KI oder der Markt über Ihr Unternehmen häufig falsch dar?**: auszuwählen aus gängigen Verzerrungsmustern: falscher Kundentyp, falsche Produktkategorie, überholte Positionierung, fehlende neue Produkte oder Funktionen, falsche Wettbewerber, Über- oder Untertreibung der Leistungsfähigkeit, Verwechslung mit einer anderen Marke und weitere.
+- **Ein Beispiel für etwas, das KI oder der Markt falsch darstellen**: ein konkretes Beispiel, das das obige Muster untermauert.
+- **Überholte Beschreibungen, die wir melden sollen**: alte Kategorien, Zielkunden oder Einschränkungen, die nicht mehr zutreffen.
+- **Welche KI-Fehler wären am schädlichsten?**: die folgenschwersten Fehlerkategorien (falsche Unternehmensbeschreibung, falsche Zielkunden, falsche Preise oder Verfügbarkeit, negative oder irreführende Stimmung, Markenverwechslung und weitere).
 
-### Vocabulary
+### Vokabular
 
-- **Words or phrases AI should use** — preferred vocabulary, one per line.
-- **Words or phrases AI should avoid** — vocabulary to avoid, one per line.
+- **Wörter oder Formulierungen, die KI verwenden soll**: bevorzugtes Vokabular, eines pro Zeile.
+- **Wörter oder Formulierungen, die KI vermeiden soll**: zu vermeidendes Vokabular, eines pro Zeile.
 
-### Competitive context
+### Wettbewerbsumfeld
 
-- **Main competitors or alternatives** — 3–5 competitors, alternatives, or categories of tools, each with an optional note (e.g. "positioned as enterprise-only"). Used to test comparison prompts.
-- **Comparisons worth monitoring** — specific comparison or alternative-category searches Hi, Moose should watch (e.g. "best AEO tools for small businesses").
+- **Wichtigste Wettbewerber oder Alternativen**: 3 bis 5 Wettbewerber, Alternativen oder Werkzeugkategorien, jeweils mit einer optionalen Notiz (etwa „positioniert sich nur für Großunternehmen"). Dient dazu, Vergleichs-Prompts zu testen.
+- **Vergleiche, die sich zu beobachten lohnen**: konkrete Vergleichs- oder Alternativsuchen, die Hi, Moose im Blick behalten soll (etwa „beste AEO-Werkzeuge für kleine Unternehmen").
 
-### Trust and evidence
+### Vertrauen und Belege
 
-- **Customer questions AI should answer correctly** — diagnostic questions aligned with how prospects actually shop.
-- **Claims AI should be careful with** — pricing, performance, certifications, or other claims that need careful, qualified language.
-- **Pages or sources that prove your current positioning** — specific pages, docs, or case studies to treat as important proof, each with an optional note.
-- **Sources already known to be outdated or inaccurate** — third-party pages, directories, or prior AI citations known to describe your company incorrectly, each with a note on what's wrong.
+- **Kundenfragen, die KI richtig beantworten soll**: diagnostische Fragen, die dazu passen, wie Interessenten tatsächlich einkaufen.
+- **Aussagen, mit denen KI vorsichtig umgehen soll**: Preise, Leistung, Zertifizierungen oder andere Aussagen, die eine sorgfältige, differenzierte Sprache erfordern.
+- **Seiten oder Quellen, die Ihre aktuelle Positionierung belegen**: konkrete Seiten, Dokumente oder Fallstudien, die als wichtiger Beleg gelten sollen, jeweils mit einer optionalen Notiz.
+- **Quellen, die bekanntermaßen überholt oder unzutreffend sind**: Seiten Dritter, Verzeichnisse oder frühere KI-Zitierungen, die Ihr Unternehmen nachweislich falsch beschreiben, jeweils mit einer Notiz, was daran falsch ist.
 
-## How it's used
+## Wie es genutzt wird
 
-During a visibility run, Hi, Moose loads the project's Brand Truth Profile (when it has meaningful content) and uses it to evaluate each AI response for misrepresentation or drift — comparing the response against your canonical description, offerings, competitors, preferred/avoided vocabulary, and known misrepresentation patterns, rather than just checking whether your brand name shows up.
+Während eines Sichtbarkeitslaufs lädt Hi, Moose das Brand Truth Profile des Projekts (sofern es aussagekräftige Inhalte enthält) und bewertet damit jede KI-Antwort auf Verzerrungen oder Abweichungen. Verglichen wird mit Ihrer kanonischen Beschreibung, Ihren Angeboten, Ihren Wettbewerbern, Ihrem bevorzugten und zu vermeidenden Vokabular sowie bekannten Verzerrungsmustern, statt lediglich zu prüfen, ob Ihr Markenname auftaucht.
 
-## How this differs from Brand Voice
+## Worin es sich von der Brand Voice unterscheidet
 
-[Brand Voice](brand-voice.md) is about **style** — how your brand should sound. The Brand Truth Profile is about **facts** — what's actually true about your company, and which incorrect narratives to watch for. Fill in Brand Voice to shape tone; fill in Brand Truth Profile to catch AI getting the facts about you wrong.
+Bei der [Brand Voice](brand-voice.md) geht es um den **Stil**: wie Ihre Marke klingen soll. Beim Brand Truth Profile geht es um die **Fakten**: was über Ihr Unternehmen zutrifft und auf welche falschen Darstellungen zu achten ist. Füllen Sie die Brand Voice aus, um den Ton zu bestimmen; füllen Sie das Brand Truth Profile aus, um zu erkennen, wenn KI die Fakten über Sie falsch wiedergibt.
 
-## Cloud sync
+## Cloud-Synchronisierung
 
-Like Brand Voice, the Brand Truth Profile is stored locally for the current project by default. Syncing it to the cloud — so it's backed up and shared with your team — requires a paid plan. See [Context](overview.md) for details.
+Wie die Brand Voice wird das Brand Truth Profile standardmäßig lokal für das aktuelle Projekt gespeichert. Es mit der Cloud zu synchronisieren, um es zu sichern und im Team zu teilen, erfordert einen kostenpflichtigen Tarif. Näheres unter [Context](overview.md).
 
-## Competitor tracking
+## Wettbewerberverfolgung
 
-The competitor list here is shared with [Visibility Settings](../../visibility/settings.md). Competitors added in either place appear in both, and feed [Share of Voice, competitor citations, and gaps](../../visibility/competitors.md).
+Die Wettbewerberliste auf dieser Seite wird mit den [Visibility-Einstellungen](../../visibility/settings.md) geteilt. An beiden Stellen hinzugefügte Wettbewerber erscheinen jeweils auch am anderen Ort und fließen in [Share of Voice, Wettbewerberzitierungen und Lücken](../../visibility/competitors.md) ein.

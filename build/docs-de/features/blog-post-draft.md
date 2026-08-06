@@ -1,25 +1,30 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: fd74e34b467a2aec2ad0abc74e8a74c6865ee781fe1c9eceff1c780dcc8517c7
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# Blog Post Draft
+    [Auf Englisch lesen](https://himoose.com/docs/features/blog-post-draft/)
 
-## What this helps you do
+# Blogbeitrags-Entwurf
 
-Generate a long-form, educational blog article draft from a [content brief](content-briefs.md) — the **Blog post** template type.
+## Wofür das gut ist
 
-From [Chat](../chat/overview.md), the **Create a blog post draft** quick start walks you through confirming a target query and template type before generating the brief and first draft together.
+Aus einem [Content-Brief](content-briefs.md) den Entwurf eines langen, erklärenden Blogartikels erzeugen: den Vorlagentyp **Blog post**.
 
-## Structure
+Im [Chat](../chat/overview.md) führt Sie der Schnellstart **Create a blog post draft** durch die Bestätigung von Zielanfrage und Vorlagentyp, bevor Brief und erster Entwurf gemeinsam erzeugt werden.
 
-A blog post draft follows an educational article structure:
+## Struktur
 
-- A clear introduction, logical section flow, and substantive explanation throughout.
-- The main query answered directly, then expanded with proof, examples, and FAQ coverage where the brief supports them.
-- Readable as long-form editorial content — not shaped like a landing page, solutions page, or product page.
-- A fitting next-step call to action near the end, only when the brief calls for one.
+Ein Blogbeitrags-Entwurf folgt dem Aufbau eines erklärenden Artikels:
 
-Right after the title, the draft includes a short **Key Points** section — 5 or 6 compressed, high-signal bullets distilled from the brief and the draft's thesis — before the main body, so readers (and answer engines) get the core takeaways immediately.
+- Eine klare Einleitung, ein logischer Abschnittsfluss und durchgehend substanzielle Erläuterung.
+- Die Hauptanfrage wird direkt beantwortet und anschließend mit Belegen, Beispielen und FAQ-Abdeckung erweitert, sofern der Brief das trägt.
+- Lesbar als langer redaktioneller Text, nicht in der Form einer Landingpage, einer Lösungsseite oder einer Produktseite.
+- Eine passende Handlungsaufforderung gegen Ende, aber nur, wenn der Brief eine vorsieht.
 
-## Where it fits
+Direkt nach dem Titel enthält der Entwurf einen kurzen Abschnitt **Key Points**: fünf oder sechs verdichtete, aussagekräftige Punkte, destilliert aus dem Brief und der Kernthese des Entwurfs, vor dem Haupttext, damit Lesende (und Antwortmaschinen) die wichtigsten Erkenntnisse sofort erfassen.
 
-Like every draft, a blog post draft depends on its [content brief](content-briefs.md) rather than being generated from a bare prompt. Once generated, it goes through the same [Draft Studio, preview, approval, and publish flow](drafts-and-publishing.md) as any other draft.
+## Wo das hingehört
+
+Wie jeder Entwurf beruht ein Blogbeitrags-Entwurf auf seinem [Content-Brief](content-briefs.md) und wird nicht aus einem bloßen Prompt erzeugt. Ist er erstellt, durchläuft er denselben [Ablauf aus Draft Studio, Vorschau, Freigabe und Veröffentlichung](drafts-and-publishing.md) wie jeder andere Entwurf.

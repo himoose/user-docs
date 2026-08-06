@@ -1,45 +1,50 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 9705deb0dc37b51cf84f956088049d0d7d87b416de55439c84ef17b2ef0d3d9c
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
+
+    [Auf Englisch lesen](https://himoose.com/docs/inbox/overview/)
 
 # Inbox
 
-## What this helps you do
+## Wofür das gut ist
 
-The Inbox is where Hi, Moose surfaces the things worth your attention — triaged findings, audits, and publishing events, each tied back to a real artifact instead of a generic notification. It turns scattered signals (visibility sentiment shifts, narrative drift, feature-parity inaccuracies, AEO audit results, publish outcomes, and approval requests) into a single prioritized work queue.
+Die Inbox ist der Ort, an dem Hi, Moose das nach oben holt, was Ihre Aufmerksamkeit verdient: geordnete Befunde, Audits und Veröffentlichungsereignisse, jeweils an ein echtes Artefakt gebunden statt an eine allgemeine Benachrichtigung. Sie verwandelt verstreute Signale (Stimmungsverschiebungen in der Sichtbarkeit, narrative Abweichungen, Ungenauigkeiten bei der Funktionsabdeckung, Ergebnisse von AEO Audits, Veröffentlichungsergebnisse und Freigabeanfragen) in eine einzige, priorisierte Arbeitsliste.
 
-## What shows up in the Inbox
+## Was in der Inbox erscheint
 
-Every Inbox item points to something real you can open and act on, including:
+Jeder Eintrag der Inbox verweist auf etwas Konkretes, das Sie öffnen und bearbeiten können:
 
-- **Visibility signals** — negative or mixed sentiment detected in an AI answer, narrative drift or feature-parity inaccuracy compared to your [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), or a completed/failed [visibility run](../visibility/overview.md).
-- **AEO audit results** — a completed audit, or an audit whose action plan surfaced a high-priority recommendation.
-- **Site change detections** — a single digest per [site monitoring](../site-monitoring/overview.md) crawl, opening into a table of every changed page with its impact rating. Unreachable pages and site-wide outages are reported as their own change types.
-- **Workflow reports** — results from a [workflow](../workflows/overview.md) run, such as a scheduled scan that generated new posts or flagged an AI search opportunity.
-- **Publishing events** — a publish that **failed**, or a change waiting on your approval. Successful publishes no longer create an inbox item, since a wall of "this worked" notices buries the ones that need you.
-- **A welcome message** from Moose after you finish onboarding, pointing at a sensible first move.
+- **Sichtbarkeitssignale**: negative oder gemischte Stimmung in einer KI-Antwort, narrative Abweichung oder Ungenauigkeit bei der Funktionsabdeckung gegenüber Ihrem [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), oder ein abgeschlossener beziehungsweise fehlgeschlagener [Sichtbarkeitslauf](../visibility/overview.md).
+- **Ergebnisse von AEO Audits**: ein abgeschlossener Audit oder ein Audit, dessen Maßnahmenplan eine Empfehlung mit hoher Priorität hervorgebracht hat.
+- **Erkannte Änderungen an der Website**: eine einzige Zusammenfassung pro [Site-Monitoring](../site-monitoring/overview.md)-Crawl, die sich zu einer Tabelle aller geänderten Seiten mit ihrer Auswirkungsstufe öffnet. Nicht erreichbare Seiten und Ausfälle der gesamten Website werden als eigene Änderungsarten gemeldet.
+- **Workflow-Berichte**: Ergebnisse eines [Workflow](../workflows/overview.md)-Laufs, etwa eine geplante Analyse, die neue Beiträge erzeugt oder eine Chance in der KI-Suche aufgezeigt hat.
+- **Veröffentlichungsereignisse**: eine **fehlgeschlagene** Veröffentlichung oder eine Änderung, die auf Ihre Freigabe wartet. Erfolgreiche Veröffentlichungen erzeugen bewusst keinen Inbox-Eintrag mehr, denn eine Wand aus „hat geklappt"-Meldungen begräbt genau die Einträge, die Sie brauchen.
+- **Eine Willkommensnachricht** von Moose nach Abschluss der Einrichtung, mit einem sinnvollen ersten Schritt.
 
-Each item shows a suggested next action where one makes sense — opening the artifact, starting a brief, following up on an audit, reviewing a draft, approving a change, or retrying a failed run — so you're not just reading a notification, you're one click from doing something about it.
+Jeder Eintrag zeigt eine sinnvolle nächste Aktion, wo es angebracht ist: das Artefakt öffnen, einen Brief starten, einem Audit nachgehen, einen Entwurf durchsehen, eine Änderung freigeben oder einen fehlgeschlagenen Lauf wiederholen. So lesen Sie nicht bloß eine Benachrichtigung, sondern sind einen Klick vom Handeln entfernt.
 
-Site monitoring digests also carry an **Ask Moose about all of this** action that hands the crawl snapshot to [chat](../chat/overview.md) and asks what to do first.
+Site-Monitoring-Zusammenfassungen enthalten zusätzlich die Aktion **Ask Moose about all of this**, die die Momentaufnahme des Crawls an den [Chat](../chat/overview.md) übergibt und fragt, womit Sie beginnen sollten.
 
-## Filtering the Inbox
+## Die Inbox filtern
 
-Two filters control what you see:
+Zwei Filter bestimmen, was Sie sehen:
 
-- **Status** — defaults to **Active**, meaning everything that isn't dismissed (open, in progress, and done items). Switch to a specific status, or **All** to include dismissed items you may want to reopen.
-- **Severity** — **Critical**, **Warning**, **Notice**, **Info**, or **All severities**.
+- **Status**: Standard ist **Active**, also alles, was nicht verworfen wurde (offene, laufende und erledigte Einträge). Wechseln Sie zu einem bestimmten Status oder zu **All**, um auch verworfene Einträge einzubeziehen, die Sie eventuell wieder aufgreifen möchten.
+- **Schweregrad**: **Critical**, **Warning**, **Notice**, **Info** oder alle.
 
-Items are grouped by date (e.g. "Yesterday," "Older") with a count badge for each group, so you can quickly see how much is waiting for you. Long inboxes are paginated rather than loaded all at once.
+Einträge sind nach Datum gruppiert (etwa „Gestern", „Älter") mit einer Anzahl je Gruppe, damit Sie schnell sehen, wie viel auf Sie wartet. Umfangreiche Postfächer werden seitenweise geladen statt auf einmal.
 
-**Mark all as read** clears the badge across your whole inbox, not just the page you're looking at.
+**Alle als gelesen markieren** löscht die Kennzeichnung in Ihrer gesamten Inbox, nicht nur auf der angezeigten Seite.
 
-!!! note "The inbox keeps its most recent 200 items"
-    Older items are pruned automatically. The inbox is a work queue, not an archive — anything durable lives in the [Library](../library/overview.md) or the artifact it points at.
+!!! note "Die Inbox behält ihre 200 neuesten Einträge"
+    Ältere werden automatisch entfernt. Die Inbox ist eine Arbeitsliste, kein Archiv: Alles Dauerhafte liegt in der [Library](../library/overview.md) oder in dem Artefakt, auf das der Eintrag verweist.
 
-## Controlling what notifies you
+## Steuern, was Sie benachrichtigt
 
-Click **Notifications** to open your per-project notification preferences — see [Inbox Notifications](notifications.md) for what each setting does.
+Klicken Sie auf **Notifications**, um Ihre projektbezogenen Benachrichtigungseinstellungen zu öffnen. Was die einzelnen Einstellungen bewirken, steht unter [Inbox-Benachrichtigungen](notifications.md).
 
-## Managed and BYOK
+## Verwaltet und BYOK
 
-The Inbox works the same way whether your workspace is managed or BYOK — items are written from whichever side actually generated the underlying event (cloud for managed workflows, the local desktop process for BYOK), and you see one unified queue either way.
+Die Inbox funktioniert gleich, ob Ihr Arbeitsbereich verwaltet oder BYOK ist: Einträge werden von der Seite geschrieben, die das zugrunde liegende Ereignis tatsächlich erzeugt hat (die Cloud bei verwalteten Workflows, der lokale Desktop-Prozess bei BYOK), und Sie sehen in beiden Fällen eine einheitliche Liste.

@@ -1,131 +1,136 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 807f4fd0f8157bf27491590b13dd7b2b18f5cb12dd648c025f2c46cabf3ea0ed
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# Account Types & Plans
+    [Auf Englisch lesen](https://himoose.com/docs/getting-started/account-modes/)
 
-Hi, Moose runs AI work one of two ways: on your own OpenRouter key (BYOK), or on Hi, Moose's managed models. That choice, not the price, is the real fork in the road. Everything else is project counts, seats, and how much monthly credit you get.
+# Kontotypen und Tarife
 
-Plans are grouped into two tabs in the **Upgrade** screen: **Startup** and **Enterprise & Agencies**.
+Hi, Moose führt KI-Arbeit auf zwei Arten aus: mit Ihrem eigenen OpenRouter-Schlüssel (BYOK) oder mit den verwalteten Modellen von Hi, Moose. Diese Entscheidung, nicht der Preis, ist die eigentliche Weggabelung. Alles Weitere sind Projektanzahl, Sitzplätze und die Höhe des monatlichen Guthabens.
 
-## The two ways to run AI
+Die Tarife sind im Bildschirm **Upgrade** in zwei Reitern gruppiert: **Startup** und **Enterprise & Agencies**.
 
-### BYOK — bring your own key
+## Die zwei Wege, KI auszuführen
 
-You supply an [OpenRouter](https://openrouter.ai) API key, and model calls run **from the desktop app on your machine** using that key. Hi, Moose never proxies BYOK inference through its own servers, so your key and your prompts stay local.
+### BYOK: eigenen Schlüssel mitbringen
 
-Paying for a BYOK plan doesn't change that. You're paying for more workflow capability — projects, seats, memory, workflows, Search Console — not for Hi, Moose to run your model calls for you. Model costs go to OpenRouter directly, and there's no Hi, Moose token meter to watch.
+Sie stellen einen [OpenRouter](https://openrouter.ai)-API-Schlüssel bereit, und die Modellaufrufe laufen **aus der Desktop-App heraus auf Ihrem Rechner** mit diesem Schlüssel. Hi, Moose leitet BYOK-Inferenz niemals über eigene Server, Ihr Schlüssel und Ihre Prompts bleiben also lokal.
 
-### Managed — Hi, Moose runs the models
+Daran ändert auch ein kostenpflichtiger BYOK-Tarif nichts. Sie zahlen für mehr Arbeitsmöglichkeiten (Projekte, Sitzplätze, Gedächtnis, Workflows, Search Console), nicht dafür, dass Hi, Moose Ihre Modellaufrufe ausführt. Die Modellkosten gehen direkt an OpenRouter, und es gibt keinen Hi, Moose-Tokenzähler, den Sie im Auge behalten müssten.
 
-No API key. Hi, Moose's managed models do the work, and you spend from a monthly **credit** balance. One meter, not several. Local model support is still available as an opt-in, on-device option on every managed plan.
+### Verwaltet: Hi, Moose führt die Modelle aus
 
-## Startup plans
+Kein API-Schlüssel. Die verwalteten Modelle von Hi, Moose übernehmen die Arbeit, und Sie verbrauchen ein monatliches **Guthaben**. Ein Zähler statt mehrerer. Die Unterstützung lokaler Modelle bleibt in jedem verwalteten Tarif als optionale Möglichkeit auf dem Gerät bestehen.
 
-### Preview Mode (Free)
+## Startup-Tarife
 
-Preview Mode is the free way to try Hi, Moose. It is genuinely local: 1 project, 1 seat, local storage, and visibility runs that fetch from public AI search surfaces directly from your device.
+### Preview Mode (kostenlos)
 
-- 1 project, 1 user seat
-- Free and local LLMs only
-- Local visibility runs
-- Context storage and recall, Brand Voice and Style Guide
-- Connections: WordPress, Webflow, Grav
-- Limited live search and competitor data, limited AI quality, limited export options
+Preview Mode ist die kostenlose Art, Hi, Moose auszuprobieren. Er ist wirklich lokal: 1 Projekt, 1 Sitzplatz, lokale Speicherung und Sichtbarkeitsläufe, die die öffentlichen KI-Suchoberflächen direkt von Ihrem Gerät aus abfragen.
 
-!!! warning "Preview Mode needs a local model for scoring and audits"
-    Preview Mode has no included cloud AI allowance. [AEO audits](../features/aeo-audits.md), and the sentiment, narrative, and feature-parity scoring on [visibility runs](../visibility/overview.md), only run once you've activated a local Gemma 4 model in **Settings → Local Model**. Until one is active, those checks are skipped rather than run in the cloud.
+- 1 Projekt, 1 Benutzersitzplatz
+- Nur kostenlose und lokale LLMs
+- Lokale Sichtbarkeitsläufe
+- Kontextspeicherung und -abruf, Brand Voice und Styleguide
+- Verbindungen: WordPress, Webflow, Grav
+- Eingeschränkte Live-Such- und Wettbewerbsdaten, eingeschränkte KI-Qualität, eingeschränkte Exportoptionen
+
+!!! warning "Preview Mode benötigt ein lokales Modell für Bewertung und Audits"
+    Preview Mode enthält kein Cloud-KI-Kontingent. [AEO Audits](../features/aeo-audits.md) sowie die Bewertung von Stimmung, Narrativ und Funktionsabdeckung in [Sichtbarkeitsläufen](../visibility/overview.md) funktionieren erst, wenn Sie unter **Einstellungen → Local Model** ein lokales Gemma-4-Modell aktiviert haben. Solange keines aktiv ist, werden diese Prüfungen übersprungen statt in der Cloud ausgeführt.
 
 ### BYOK Free
 
-The free way to run on your own key. Same 1-project, 1-seat shape as Preview Mode, but you get access to every model OpenRouter offers instead of just the free ones.
+Die kostenlose Art, mit Ihrem eigenen Schlüssel zu arbeiten. Derselbe Zuschnitt mit 1 Projekt und 1 Sitzplatz wie Preview Mode, aber mit Zugriff auf alle von OpenRouter angebotenen Modelle statt nur auf die kostenlosen.
 
-- 1 project, 1 user seat
-- Your own OpenRouter key, unlimited tokens
-- All LLMs, including local models
-- Local-only visibility runs
-- Connections: WordPress, Webflow, Grav
-- Limited context storage and recall, limited [Library](../library/overview.md)
-- No chat web search, no Workflows, no Google Search Console
+- 1 Projekt, 1 Benutzersitzplatz
+- Ihr eigener OpenRouter-Schlüssel, unbegrenzte Token
+- Alle LLMs, einschließlich lokaler Modelle
+- Sichtbarkeitsläufe ausschließlich lokal
+- Verbindungen: WordPress, Webflow, Grav
+- Eingeschränkte Kontextspeicherung und -abruf, eingeschränkte [Library](../library/overview.md)
+- Keine Websuche im Chat, keine Workflows, keine Google Search Console
 
-### BYOK Premium — $39/month or $390/year
+### BYOK Premium: 39 USD pro Monat oder 390 USD pro Jahr
 
-The full local-first plan, and the point at which team seats and the scheduler unlock.
+Der vollwertige lokale Tarif und der Punkt, an dem Teamsitzplätze und der Zeitplaner freigeschaltet werden.
 
-- 3 projects, plus extra projects for $10/month each
-- Up to 10 team seats
-- Full visibility runs with a custom scheduler
-- Web search from chat
-- Full context storage and recall, full [Library](../library/overview.md)
+- 3 Projekte, zusätzliche Projekte für je 10 USD pro Monat
+- Bis zu 10 Teamsitzplätze
+- Vollständige Sichtbarkeitsläufe mit eigenem Zeitplaner
+- Websuche aus dem Chat heraus
+- Vollständige Kontextspeicherung und -abruf, vollständige [Library](../library/overview.md)
 - [Workflows](../workflows/overview.md)
-- Brand Voice, Style Guide, and [Brand Truth Profile](context/brand-truth-profile.md)
-- Connections: WordPress, Webflow, Grav, [Google Search Console](../integrations/google-search-console.md)
-- 15 [audio generations](../audio/overview.md) per month
+- Brand Voice, Styleguide und [Brand Truth Profile](context/brand-truth-profile.md)
+- Verbindungen: WordPress, Webflow, Grav, [Google Search Console](../integrations/google-search-console.md)
+- 15 [Audioerzeugungen](../audio/overview.md) pro Monat
 
-### Managed plans
+### Verwaltete Tarife
 
-All three run on Hi, Moose's models, include unlimited team seats, unlimited audio generations, admin logging and export, and local plus cloud storage.
+Alle drei laufen mit den Modellen von Hi, Moose und enthalten unbegrenzte Teamsitzplätze, unbegrenzte Audioerzeugungen, Administrationsprotokolle mit Export sowie lokale und Cloud-Speicherung.
 
-| Plan | Price | Projects | Monthly credits | Models |
+| Tarif | Preis | Projekte | Monatliches Guthaben | Modelle |
 |---|---|---|---|---|
-| Standard | $79/mo or $849/yr | 3 | 1,700,000 | Standard models, plus local |
-| Professional | $129/mo or $1,389/yr | 5 | 3,000,000 | All models, plus local |
-| Premium | $249/mo or $2,689/yr | 10 | 6,000,000 | All models, plus local |
+| Standard | 79 USD/Monat oder 849 USD/Jahr | 3 | 1.700.000 | Standardmodelle, dazu lokale |
+| Professional | 129 USD/Monat oder 1.389 USD/Jahr | 5 | 3.000.000 | Alle Modelle, dazu lokale |
+| Premium | 249 USD/Monat oder 2.689 USD/Jahr | 10 | 6.000.000 | Alle Modelle, dazu lokale |
 
-## Enterprise & Agency plans
+## Enterprise- und Agenturtarife
 
-### BYOK Agency — $149/month or $1,490/year
+### BYOK Agency: 149 USD pro Monat oder 1.490 USD pro Jahr
 
-BYOK Premium at agency scale. Same local-first model and the same feature set, sized for managing many clients.
+BYOK Premium im Agenturmaßstab. Dasselbe lokale Prinzip und derselbe Funktionsumfang, ausgelegt auf die Betreuung vieler Kunden.
 
-- 25 projects, plus extra projects for $10/month each
-- Up to 25 team seats
-- 15 audio generations per month
-- [White-label branding](../agency/white-label.md) on reports and audio embeds, as on every paid plan
+- 25 Projekte, zusätzliche Projekte für je 10 USD pro Monat
+- Bis zu 25 Teamsitzplätze
+- 15 Audioerzeugungen pro Monat
+- [White-Label-Branding](../agency/white-label.md) für Berichte und Audio-Einbettungen, wie in allen kostenpflichtigen Tarifen
 
-### Managed agency plans
+### Verwaltete Agenturtarife
 
-| Plan | Price | Projects | Monthly credits | Storage |
+| Tarif | Preis | Projekte | Monatliches Guthaben | Speicherung |
 |---|---|---|---|---|
-| Agent Core | $449/mo or $4,849/yr | 25 | 15,000,000 | Team cloud |
-| Agent Studio | $999/mo or $10,789/yr | 75 | 40,000,000 | Team cloud |
-| Agent Scale | $1,999/mo or $21,589/yr | Unlimited | 120,000,000 | Team cloud |
+| Agent Core | 449 USD/Monat oder 4.849 USD/Jahr | 25 | 15.000.000 | Team-Cloud |
+| Agent Studio | 999 USD/Monat oder 10.789 USD/Jahr | 75 | 40.000.000 | Team-Cloud |
+| Agent Scale | 1.999 USD/Monat oder 21.589 USD/Jahr | Unbegrenzt | 120.000.000 | Team-Cloud |
 
-## Quick comparison
+## Kurzvergleich
 
-| | Preview Mode | BYOK Free | BYOK Premium | BYOK Agency | Managed plans |
+| | Preview Mode | BYOK Free | BYOK Premium | BYOK Agency | Verwaltete Tarife |
 |---|---|---|---|---|---|
-| Own API key needed | No | Yes | Yes | Yes | No |
-| Inference runs | On your device | On your device | On your device | On your device | Hi, Moose cloud (local optional) |
-| Projects | 1 | 1 | 3 | 25 | 3 to unlimited |
-| Team seats | 1 | 1 | 10 | 25 | Unlimited |
-| Chat web search | No | No | Yes | Yes | Yes |
-| [Workflows](../workflows/overview.md) | No | No | Yes | Yes | Yes |
-| [Google Search Console](../integrations/google-search-console.md) | No | No | Yes | Yes | Yes |
-| [Audio](../audio/overview.md) | No | No | 15/month | 15/month | Unlimited |
-| [White-label branding](../agency/white-label.md) | No | No | Yes | Yes | Yes |
+| Eigener API-Schlüssel nötig | Nein | Ja | Ja | Ja | Nein |
+| Wo die Inferenz läuft | Auf Ihrem Gerät | Auf Ihrem Gerät | Auf Ihrem Gerät | Auf Ihrem Gerät | Hi, Moose-Cloud (lokal optional) |
+| Projekte | 1 | 1 | 3 | 25 | 3 bis unbegrenzt |
+| Teamsitzplätze | 1 | 1 | 10 | 25 | Unbegrenzt |
+| Websuche im Chat | Nein | Nein | Ja | Ja | Ja |
+| [Workflows](../workflows/overview.md) | Nein | Nein | Ja | Ja | Ja |
+| [Google Search Console](../integrations/google-search-console.md) | Nein | Nein | Ja | Ja | Ja |
+| [Audio](../audio/overview.md) | Nein | Nein | 15 pro Monat | 15 pro Monat | Unbegrenzt |
+| [White-Label-Branding](../agency/white-label.md) | Nein | Nein | Ja | Ja | Ja |
 
-## Seats, projects, and credits
+## Sitzplätze, Projekte und Guthaben
 
-**Extra projects** cost $10/month each on every paid plan. Add or remove them from **Upgrade → Extra projects**.
+**Zusätzliche Projekte** kosten in jedem kostenpflichtigen Tarif 10 USD pro Monat und Projekt. Sie fügen sie unter **Upgrade → Extra projects** hinzu oder entfernen sie dort.
 
-**Seats** are the real paid/free line. Preview Mode and BYOK Free are capped at the account owner alone. BYOK Premium allows up to 10, BYOK Agency up to 25, and managed plans are uncapped because every member spends the owner's credit balance.
+**Sitzplätze** sind die eigentliche Grenze zwischen kostenlos und kostenpflichtig. Preview Mode und BYOK Free sind auf die Kontoinhaberin oder den Kontoinhaber beschränkt. BYOK Premium erlaubt bis zu 10, BYOK Agency bis zu 25, und die verwalteten Tarife sind unbegrenzt, weil alle Mitglieder aus dem Guthaben der Inhaberin oder des Inhabers schöpfen.
 
-**Credit top-ups** are available on managed plans when you run out mid-month:
+**Guthabenaufstockungen** stehen in verwalteten Tarifen zur Verfügung, wenn Ihnen mitten im Monat das Guthaben ausgeht:
 
-- 500,000 credits for $25
-- 2,500,000 credits for $100
+- 500.000 Einheiten für 25 USD
+- 2.500.000 Einheiten für 100 USD
 
-Top-ups are one-time purchases, not subscriptions. They're only spent after your monthly credits run out, and they never expire.
+Aufstockungen sind Einmalkäufe, keine Abonnements. Sie werden erst verbraucht, wenn Ihr Monatsguthaben aufgebraucht ist, und verfallen nie.
 
-!!! note "Audio listens are metered separately"
-    Every plan that includes audio also includes the first 10,000 listens account-wide. Beyond that, listens are billed at $5.00 per 10,000 per month. On managed plans, audio *generation* also draws from your credit balance.
+!!! note "Audio-Wiedergaben werden separat abgerechnet"
+    Jeder Tarif mit Audio enthält zusätzlich die ersten 10.000 Wiedergaben kontoweit. Darüber hinaus werden Wiedergaben mit 5,00 USD je 10.000 pro Monat berechnet. In verwalteten Tarifen belastet auch die *Erzeugung* von Audio Ihr Guthaben.
 
-## Coupons
+## Gutscheine
 
-If you have a discount code, enter it during checkout on the **Upgrade** screen.
+Wenn Sie einen Rabattcode haben, geben Sie ihn beim Bezahlvorgang im Bildschirm **Upgrade** ein.
 
-## Switching plans
+## Tarif wechseln
 
-Change plans any time from **Settings → Account** or the **Upgrade** screen. If you're moving from a managed plan into a BYOK plan, add your OpenRouter API key first. Hi, Moose validates the key before switching your AI routing over to it.
+Sie können den Tarif jederzeit unter **Einstellungen → Konto** oder im Bildschirm **Upgrade** wechseln. Wenn Sie von einem verwalteten Tarif zu einem BYOK-Tarif wechseln, hinterlegen Sie zuerst Ihren OpenRouter-API-Schlüssel. Hi, Moose prüft den Schlüssel, bevor das KI-Routing darauf umgestellt wird.
 
-Your OpenRouter key is stored per account rather than per device, so it follows you to a new install.
+Ihr OpenRouter-Schlüssel wird pro Konto und nicht pro Gerät gespeichert und begleitet Sie daher zu einer neuen Installation.

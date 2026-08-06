@@ -1,50 +1,55 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 911f9de16e31d26b16256a2d2d7eb92c2a092404af37ad258c44e41c76fd53bd
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
+
+    [Auf Englisch lesen](https://himoose.com/docs/getting-started/context/brand-voice/)
 
 # Brand Voice
 
-## What this helps you do
+## Wofür das gut ist
 
-Brand Voice is the reusable style guide Hi, Moose carries into every piece of generated content for this project — content briefs, drafts, FAQs, key points, and AEO audit recommendations — so output sounds like your brand instead of generic AI writing.
+Die Brand Voice ist der wiederverwendbare Styleguide, den Hi, Moose auf jeden erzeugten Inhalt dieses Projekts anwendet (Content-Briefs, Entwürfe, FAQ, Key Points und Empfehlungen aus AEO Audits), damit das Ergebnis nach Ihrer Marke klingt und nicht nach generischem KI-Text.
 
-Brand Voice is scoped to the current [project](../projects.md): switching projects switches which Brand Voice profile is active.
+Die Brand Voice ist auf das aktuelle [Projekt](../projects.md) begrenzt: Ein Projektwechsel wechselt auch das aktive Brand-Voice-Profil.
 
-## Fields you can fill in
+## Felder, die Sie ausfüllen können
 
-Every field is optional. The more you fill in, the more precisely generated content will match your brand.
+Alle Felder sind optional. Je mehr Sie ausfüllen, desto genauer trifft der erzeugte Inhalt Ihre Marke.
 
-- **Brand name** — e.g. "Hi, Moose".
-- **Summary** — what agents and tools should understand about the brand at a glance.
-- **Audience** — who the brand is for, and how that audience should be described.
-- **Tone** — e.g. "calm, direct, expert, warm."
-- **Writing style** — e.g. "short paragraphs, evidence-led, operator tone."
-- **Brand values** — one value per line.
-- **Secondary brand terms** — alternate forms of your brand name, one per line.
-- **Secondary domains** — additional owned domains beyond your primary site, one per line.
-- **Preferred terminology** — terms you want used, one per line.
-- **Avoided terminology** — terms to avoid, one per line.
-- **Proof points** — claims, proof, and differentiators, one per line.
+- **Markenname**: zum Beispiel „Hi, Moose".
+- **Zusammenfassung**: was Agenten und Werkzeuge auf einen Blick über die Marke verstehen sollen.
+- **Zielgruppe**: für wen die Marke da ist und wie diese Zielgruppe beschrieben werden soll.
+- **Tonfall**: zum Beispiel „ruhig, direkt, fachkundig, zugewandt".
+- **Schreibstil**: zum Beispiel „kurze Absätze, belegorientiert, operativer Ton".
+- **Markenwerte**: ein Wert pro Zeile.
+- **Sekundäre Markenbegriffe**: alternative Schreibweisen Ihres Markennamens, eine pro Zeile.
+- **Sekundäre Domains**: weitere eigene Domains neben Ihrer Hauptwebsite, eine pro Zeile.
+- **Bevorzugte Terminologie**: Begriffe, die verwendet werden sollen, einer pro Zeile.
+- **Zu vermeidende Terminologie**: Begriffe, die vermieden werden sollen, einer pro Zeile.
+- **Belege**: Aussagen, Nachweise und Alleinstellungsmerkmale, eines pro Zeile.
 
-List fields (brand values, terminology, proof points, and similar) take one item per line.
+Listenfelder (Markenwerte, Terminologie, Belege und ähnliche) nehmen einen Eintrag pro Zeile auf.
 
-## Auto-fill from your website
+## Automatisch aus Ihrer Website befüllen
 
-Instead of filling in every field by hand, you can run **Auto fill**:
+Statt jedes Feld von Hand auszufüllen, können Sie **Auto fill** ausführen:
 
-1. Confirm the project's website domain (Hi, Moose will ask for it if it isn't set yet).
-2. Hi, Moose crawls the site locally in the desktop app.
-3. Any currently empty Brand Voice fields are filled in with suggested values pulled from the crawl.
+1. Bestätigen Sie die Domain der Projektwebsite (Hi, Moose fragt danach, falls sie noch nicht hinterlegt ist).
+2. Hi, Moose crawlt die Website lokal in der Desktop-App.
+3. Alle derzeit leeren Brand-Voice-Felder werden mit Vorschlägen aus dem Crawl befüllt.
 
-Auto-fill only fills in fields that are empty — it won't overwrite anything you've already written. If the crawl doesn't turn up anything useful for a given field, that field is simply left as-is.
+Das automatische Ausfüllen befüllt ausschließlich leere Felder und überschreibt nichts, was Sie bereits geschrieben haben. Findet der Crawl für ein Feld nichts Brauchbares, bleibt dieses Feld einfach unverändert.
 
-## Editing and saving
+## Bearbeiten und speichern
 
-Brand Voice changes are local to the project until you save them. If you navigate away with unsaved changes, Hi, Moose will ask whether you want to save before leaving, leave without saving, or stay and keep editing.
+Änderungen an der Brand Voice bleiben lokal im Projekt, bis Sie sie speichern. Wenn Sie die Seite mit ungespeicherten Änderungen verlassen, fragt Hi, Moose, ob Sie vor dem Verlassen speichern, ohne Speichern verlassen oder bleiben und weiterbearbeiten möchten.
 
-## How this differs from Brand Truth Profile
+## Worin sie sich vom Brand Truth Profile unterscheidet
 
-Brand Voice is about **style** — how your brand should sound. It is not the place for factual claims about what your company sells, who it competes with, or what AI systems get wrong about you. That's what the [Brand Truth Profile](brand-truth-profile.md) is for.
+Bei der Brand Voice geht es um den **Stil**: wie Ihre Marke klingen soll. Sie ist nicht der Ort für sachliche Aussagen darüber, was Ihr Unternehmen verkauft, mit wem es konkurriert oder was KI-Systeme über Sie falsch darstellen. Dafür ist das [Brand Truth Profile](brand-truth-profile.md) da.
 
-## Cloud sync
+## Cloud-Synchronisierung
 
-Brand Voice is stored locally for the current project by default. Syncing it to the cloud — so it's backed up and shared with your team — requires a paid plan. See [Context](overview.md#local-first-storage-and-cloud-sync) for details.
+Standardmäßig wird die Brand Voice lokal für das aktuelle Projekt gespeichert. Sie mit der Cloud zu synchronisieren, um sie zu sichern und im Team zu teilen, erfordert einen kostenpflichtigen Tarif. Näheres unter [Context](overview.md).

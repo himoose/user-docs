@@ -525,6 +525,25 @@ def main() -> int:
     )
     print(f"sitemap index: {len(index_entries)} locale sitemap(s) in site/sitemap_index.xml")
 
+    # Real <lastmod> dates and the IndexNow queue (see scripts/stamp-lastmod.cjs).
+    # MkDocs stamps every page with the build time, so without this every deploy
+    # claims the whole manual changed. Skipped on partial or non-production
+    # builds: the manifest tracks the full production site, and stamping a
+    # subset would drop the missing locales and resubmit them on the next full
+    # build.
+    if args.only:
+        print("lastmod: skipped, --only builds a subset of the site")
+    elif base_url != PROD_BASE_URL:
+        print(f"lastmod: skipped, base URL is {base_url}")
+    else:
+        stamp = subprocess.run(
+            ["node", str(ROOT / "scripts" / "stamp-lastmod.cjs")],
+            cwd=ROOT,
+        )
+        if stamp.returncode != 0:
+            print("error: lastmod stamping failed", file=sys.stderr)
+            return 1
+
     if warnings:
         print("warnings:")
         for warning in warnings:

@@ -1,29 +1,34 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 3b2a6720bd62d36c159ec05f39cfb8f6e59efa7a27d7e6054053a2fcb1d2c950
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# ChatGPT Fan-out Queries
+    [Auf Englisch lesen](https://himoose.com/docs/features/fan-out-queries/)
 
-## What this helps you do
+# Fan-out-Suchanfragen von ChatGPT
 
-This workstream captures the individual "fan-out" searches OpenAI's web-search step ran while answering your prompt, along with the sources it cited and a preview of the response.
+## Wofür das gut ist
 
-!!! info "What this is, precisely"
-    Hi, Moose calls the OpenAI Responses API with its web search tool enabled, then reads back the searches that run performed. It is not a capture of the consumer ChatGPT product's own fan-out, which OpenAI does not expose. What you get is the closest available proxy: the same web search layer, driven by the same model family, so the query expansion closely tracks what ChatGPT Search does. Treat it as a strong signal rather than a transcript, and expect some variation between runs of the same prompt.
+Diese Funktion erfasst die einzelnen „Fan-out"-Suchen, die der Websuche-Schritt von OpenAI beim Beantworten Ihres Prompts ausgeführt hat, samt der zitierten Quellen und einer Vorschau der Antwort.
 
-!!! note "Availability"
-    This capability runs a managed OpenAI web-search trace capture behind the scenes, so it requires a **Paid Managed** workspace. This holds even on BYOK plans — BYOK keeps core model execution local, but fan-out capture itself uses Hi, Moose managed infrastructure that costs us money to run, so it isn't included on BYOK Free or BYOK Premium. Preview Mode doesn't include it either.
+!!! info "Was das genau ist"
+    Hi, Moose ruft die Responses-API von OpenAI mit aktiviertem Websuche-Werkzeug auf und liest anschließend die von diesem Lauf ausgeführten Suchen aus. Es ist keine Erfassung des Fan-outs im Endnutzerprodukt ChatGPT, das OpenAI nicht offenlegt. Was Sie erhalten, ist die nächstliegende verfügbare Annäherung: dieselbe Websuche-Schicht, angetrieben von derselben Modellfamilie, sodass die Anfrageerweiterung dem, was ChatGPT Search tut, sehr nahekommt. Behandeln Sie das als belastbares Signal, nicht als Mitschrift, und rechnen Sie mit gewissen Abweichungen zwischen zwei Läufen desselben Prompts.
 
-## Running it
+!!! note "Verfügbarkeit"
+    Diese Funktion führt im Hintergrund eine verwaltete Erfassung der OpenAI-Websuche-Spur aus und setzt daher einen **kostenpflichtigen verwalteten** Arbeitsbereich voraus. Das gilt auch in den BYOK-Tarifen: BYOK hält die eigentliche Modellausführung lokal, doch die Fan-out-Erfassung nutzt die verwaltete Infrastruktur von Hi, Moose, deren Betrieb uns Geld kostet. Sie ist deshalb weder in BYOK Free noch in BYOK Premium enthalten. Preview Mode enthält sie ebenfalls nicht.
 
-1. From [Chat](../chat/overview.md), choose the **Capture ChatGPT fan-out queries** quick start (or ask for it directly).
-2. Enter the prompt you want to inspect.
-3. Hi, Moose captures ChatGPT's response payload and returns:
-    - The distinct fan-out queries ChatGPT ran.
-    - The cited sources.
-    - A preview of the response.
+## Wie Sie sie ausführen
 
-If OpenAI didn't expose any distinct fan-out queries for a given run, Hi, Moose still shows you the managed search trace and cited sources it did capture, rather than presenting an empty or fabricated result.
+1. Wählen Sie im [Chat](../chat/overview.md) den Schnellstart **Capture ChatGPT fan-out queries** (oder bitten Sie direkt darum).
+2. Geben Sie den Prompt ein, den Sie untersuchen möchten.
+3. Hi, Moose erfasst die Antwort von ChatGPT und liefert:
+    - Die einzelnen Fan-out-Suchanfragen, die ChatGPT ausgeführt hat.
+    - Die zitierten Quellen.
+    - Eine Vorschau der Antwort.
 
-## Why this matters
+Hat OpenAI für einen bestimmten Lauf keine eigenständigen Fan-out-Suchanfragen offengelegt, zeigt Hi, Moose Ihnen dennoch die erfasste verwaltete Suchspur und die zitierten Quellen, statt ein leeres oder erfundenes Ergebnis zu präsentieren.
 
-Fan-out queries expose the query expansion behind a web-grounded answer, which is useful for understanding which specific phrasings are driving (or missing) citations to your content. That feeds directly into what you track in [Visibility](../visibility/overview.md) and plan for in [Content Briefs](content-briefs.md).
+## Warum das wichtig ist
+
+Fan-out-Suchanfragen legen die Anfrageerweiterung hinter einer webgestützten Antwort offen. Das hilft zu verstehen, welche konkreten Formulierungen Zitierungen auf Ihre Inhalte bringen oder eben nicht. Genau das fließt in das ein, was Sie in [Visibility](../visibility/overview.md) überwachen und in den [Content Briefs](content-briefs.md) planen.

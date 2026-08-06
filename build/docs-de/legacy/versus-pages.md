@@ -1,32 +1,37 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: e11490165d12e857f2010b68d56d5c652789c58e6494a9d6df637b41040130c7
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# Versus Pages (Programmatic SEO)
+    [Auf Englisch lesen](https://himoose.com/docs/legacy/versus-pages/)
 
-!!! note "This feature lives in the legacy web app"
-    As Hi, Moose moves to a desktop-first product, most features have moved into the desktop app. **Versus pages are one of two features that remain in the legacy web app** (`app.himoose.com`) — the other is the [Topical Authority Builder](topical-authority.md). If you're a desktop app user, you can reach this feature from the account menu without creating a separate login.
+# Versus Pages (programmatisches SEO)
 
-    Versus pages require a paid plan.
+!!! note "Diese Funktion liegt in der früheren Web-App"
+    Während Hi, Moose zu einem Desktop-orientierten Produkt wird, sind die meisten Funktionen in die Desktop-App gewandert. **Versus Pages sind eine der beiden Funktionen, die in der früheren Web-App verbleiben** (`app.himoose.com`); die andere ist der [Topical Authority Builder](topical-authority.md). Wenn Sie die Desktop-App nutzen, erreichen Sie diese Funktion über das Kontomenü, ohne eine separate Anmeldung anzulegen.
 
-## What this helps you do
+    Versus Pages setzen einen kostenpflichtigen Tarif voraus.
 
-Generate comparison ("X vs Y") pages at scale — programmatic SEO for high-intent competitor-comparison searches — without writing or updating each page by hand.
+## Wofür das gut ist
 
-You define comparison criteria once, add your competitors, and Hi, Moose generates unique content in your brand voice, branded visuals, and structured data for every pairing, positioning your brand as the recommended alternative within the content (without your brand appearing in the page URL or title).
+Vergleichsseiten („X vs. Y") in großer Zahl erzeugen, also programmatisches SEO für Vergleichssuchen mit hoher Kaufabsicht, ohne jede Seite von Hand zu schreiben oder zu pflegen.
 
-## How it works
+Sie legen die Vergleichskriterien einmal fest, ergänzen Ihre Wettbewerber, und Hi, Moose erzeugt für jede Paarung eigenständigen Inhalt in Ihrer Brand Voice, Grafiken in Ihrem Markenlook und strukturierte Daten. Ihre Marke wird dabei innerhalb des Inhalts als empfohlene Alternative positioniert, ohne in URL oder Seitentitel aufzutauchen.
 
-1. **Define your schema** — the categories and features you want to compare (e.g. pricing, integrations, support).
-2. **Add competitors** — name, description, logos, and values for each feature you defined.
-3. **Add your brand** — your own data, used to position your brand within the generated comparison content.
-4. Continue through the wizard's remaining steps to generate content, visuals, and structured data for every competitor pairing.
-5. **Export** — download to CSV, or push directly to Webflow CMS if connected.
+## Wie es funktioniert
 
-## Requirements
+1. **Legen Sie Ihr Schema fest**: die Kategorien und Merkmale, die Sie vergleichen möchten (etwa Preise, Integrationen, Support).
+2. **Ergänzen Sie Wettbewerber**: Name, Beschreibung, Logos und Werte zu jedem festgelegten Merkmal.
+3. **Ergänzen Sie Ihre Marke**: Ihre eigenen Daten, mit denen Ihre Marke im erzeugten Vergleichsinhalt positioniert wird.
+4. Gehen Sie die übrigen Schritte des Assistenten durch, um für jede Wettbewerberpaarung Inhalt, Grafiken und strukturierte Daten zu erzeugen.
+5. **Exportieren**: als CSV herunterladen oder direkt an Webflow CMS übergeben, sofern verbunden.
 
-- At least 2 competitors to compare.
-- A Webflow API key if you want to publish directly to Webflow instead of exporting to CSV.
+## Voraussetzungen
 
-## AI is optional
+- Mindestens 2 Wettbewerber zum Vergleich.
+- Ein Webflow-API-Schlüssel, wenn Sie direkt in Webflow veröffentlichen möchten statt als CSV zu exportieren.
 
-You can generate content with AI as a starting point, or write every comparison manually — Hi, Moose handles the pairing logic, image generation, and CMS export either way.
+## KI ist optional
+
+Sie können den Inhalt mit KI als Ausgangspunkt erzeugen oder jeden Vergleich von Hand schreiben. In beiden Fällen übernimmt Hi, Moose die Paarungslogik, die Bilderzeugung und den Export ins CMS.

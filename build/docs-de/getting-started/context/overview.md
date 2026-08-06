@@ -1,44 +1,49 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 05fae21b2ec70be5a8bae1ca0e58f085c9da2140a80bae1dc2e083051aeffb43
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
+
+    [Auf Englisch lesen](https://himoose.com/docs/getting-started/context/overview/)
 
 # Context
 
-## What this helps you do
+## Wofür das gut ist
 
-**Context** is the grounding layer in the desktop app's left navigation. It's the shared operating context for your current project — the information the operator, chat, and every generation capability reuse instead of starting cold on every request.
+**Context** ist die Fundamentschicht in der linken Navigation der Desktop-App. Es ist der gemeinsame Arbeitskontext Ihres aktuellen Projekts: die Informationen, die der Operator, der Chat und alle Erzeugungsfunktionen wiederverwenden, statt bei jeder Anfrage bei null anzufangen.
 
-Context is made up of three distinct pieces:
+Context besteht aus drei getrennten Teilen:
 
-| | Scope | What it's for |
+| | Geltungsbereich | Wofür er da ist |
 |---|---|---|
-| **[Brand Voice](brand-voice.md)** | Per project | How your brand should sound — tone, audience, values, terminology. Shapes the writing style of everything Hi, Moose generates. |
-| **[Brand Truth Profile](brand-truth-profile.md)** | Per project | A machine-readable source of truth for what your company actually is, sells, and serves — used to detect when AI answers misrepresent or drift from that truth. |
-| **[About You](about-you.md)** | Per device, not per project | Notes about you personally — your role, goals, and how you like to work — so chat feels like it knows the person, not just the brand. |
+| **[Brand Voice](brand-voice.md)** | Pro Projekt | Wie Ihre Marke klingen soll: Tonfall, Zielgruppe, Werte, Terminologie. Prägt den Schreibstil von allem, was Hi, Moose erzeugt. |
+| **[Brand Truth Profile](brand-truth-profile.md)** | Pro Projekt | Eine maschinenlesbare Quelle der Wahrheit darüber, was Ihr Unternehmen wirklich ist, verkauft und bedient. Dient dazu zu erkennen, wenn KI-Antworten dies verzerren oder davon abweichen. |
+| **[Über Sie](about-you.md)** | Pro Gerät, nicht pro Projekt | Notizen über Sie persönlich: Ihre Funktion, Ihre Ziele und Ihre Arbeitsweise, damit der Chat die Person kennt und nicht nur die Marke. |
 
-## Why three separate artifacts
+## Warum es drei getrennte Artefakte sind
 
-Brand Voice and Brand Truth Profile answer different questions, even though both describe your brand:
+Brand Voice und Brand Truth Profile beantworten unterschiedliche Fragen, auch wenn beide Ihre Marke beschreiben:
 
-- **Brand Voice** answers "how should this sound?" — tone, style, vocabulary preferences. It's creative and stylistic guidance for generated content.
-- **Brand Truth Profile** answers "what is actually true about us?" — canonical description, ideal customer, offerings, competitors, and the specific things AI tends to get wrong. It's a factual reference used to catch misrepresentation, not a style guide.
+- **Brand Voice** beantwortet „Wie soll das klingen?": Tonfall, Stil, bevorzugtes Vokabular. Es ist eine gestalterische und stilistische Richtschnur für erzeugte Inhalte.
+- **Brand Truth Profile** beantwortet „Was stimmt über uns?": kanonische Beschreibung, idealer Kunde, Angebote, Wettbewerber und die konkreten Punkte, bei denen KI häufig danebenliegt. Es ist eine sachliche Referenz zum Erkennen von Verzerrungen, kein Styleguide.
 
-**About You** is different from both: it isn't about the brand at all. It's personal context about **you**, the person using the app, stored locally on your device rather than attached to a project — so it follows you across projects instead of resetting every time you switch workspaces.
+**Über Sie** unterscheidet sich von beiden: Es geht überhaupt nicht um die Marke. Es ist persönlicher Kontext über **Sie**, die Person, die die App nutzt, lokal auf Ihrem Gerät gespeichert statt an ein Projekt gebunden. Er begleitet Sie deshalb durch alle Projekte, statt bei jedem Wechsel des Arbeitsbereichs zurückgesetzt zu werden.
 
-## Where Context is used
+## Wo Context genutzt wird
 
-- **Brand Voice** is reused across [Content Briefs](../../features/content-briefs.md), [FAQ Generator](../../features/faq-generator.md), [Key Points Extractor](../../features/key-points.md), [Drafts, Preview & Publishing](../../features/drafts-and-publishing.md), and [AEO Audit](../../features/aeo-audits.md) recommendations.
-- **Brand Truth Profile** is reused during [Visibility](../../visibility/overview.md) runs, where Hi, Moose checks whether an AI engine's response about your brand lines up with your canonical description, offerings, competitors, and known misrepresentation patterns.
-- **About You** is reused in [Chat](../../chat/overview.md) so responses can reflect your role, goals, and preferred communication style.
+- **Brand Voice** wird wiederverwendet in [Content Briefs](../../features/content-briefs.md), im [FAQ-Generator](../../features/faq-generator.md), im [Key-Points-Extraktor](../../features/key-points.md), bei [Entwürfen, Vorschau und Veröffentlichung](../../features/drafts-and-publishing.md) und in den Empfehlungen der [AEO Audits](../../features/aeo-audits.md).
+- **Brand Truth Profile** wird während der [Visibility](../../visibility/overview.md)-Läufe wiederverwendet, wo Hi, Moose prüft, ob die Antwort einer KI-Maschine über Ihre Marke zu Ihrer kanonischen Beschreibung, Ihren Angeboten, Ihren Wettbewerbern und bekannten Verzerrungsmustern passt.
+- **Über Sie** wird im [Chat](../../chat/overview.md) wiederverwendet, damit Antworten Ihre Funktion, Ihre Ziele und Ihren bevorzugten Kommunikationsstil berücksichtigen.
 
-## Filling it in
+## Wie Sie es ausfüllen
 
-Each artifact tracks how many fields you've filled in and shows a short preview once you've added anything. All fields across all three artifacts are optional — Hi, Moose works with partial context and gets more precise as you add more.
+Jedes Artefakt zeigt an, wie viele Felder Sie ausgefüllt haben, und blendet eine kurze Vorschau ein, sobald Sie etwas hinzufügen. Alle Felder aller drei Artefakte sind optional: Hi, Moose arbeitet auch mit unvollständigem Kontext und wird präziser, je mehr Sie ergänzen.
 
-For Brand Voice specifically, you don't have to fill every field by hand: an **auto-fill** action can crawl your project's website locally and suggest values for empty fields.
+Speziell bei der Brand Voice müssen Sie nicht jedes Feld von Hand ausfüllen: Eine Funktion zum **automatischen Ausfüllen** kann die Website Ihres Projekts lokal crawlen und Werte für leere Felder vorschlagen.
 
-## Local-first storage and cloud sync
+## Lokale Speicherung und Cloud-Synchronisierung
 
-By default, Brand Voice and Brand Truth Profile are stored **locally for the current project**, and About You is stored **locally on your device**. Cloud sync — which backs up Brand Voice and Brand Truth Profile and shares them across your team — is available on **every paid plan**, including paid BYOK plans. Preview Mode and BYOK Free stay local-only; upgrading turns on sync so your team shares the same grounding and it's protected if anything happens to your local machine.
+Standardmäßig werden Brand Voice und Brand Truth Profile **lokal für das aktuelle Projekt** gespeichert, und Über Sie wird **lokal auf Ihrem Gerät** gespeichert. Die Cloud-Synchronisierung, die Brand Voice und Brand Truth Profile sichert und im Team teilt, steht in **allen kostenpflichtigen Tarifen** zur Verfügung, einschließlich der kostenpflichtigen BYOK-Tarife. Preview Mode und BYOK Free bleiben rein lokal; ein Wechsel in einen höheren Tarif aktiviert die Synchronisierung, sodass Ihr Team dieselbe Grundlage teilt und diese geschützt ist, falls Ihrem Rechner etwas zustößt.
 
-!!! note "On BYOK plans"
-    Brand-context crawling (the auto-fill step) and Brand Truth analysis run locally in the desktop app. Hi, Moose does not need to see your site content on its own servers to build or use this context.
+!!! note "In den BYOK-Tarifen"
+    Das Crawlen des Markenkontexts (der Schritt zum automatischen Ausfüllen) und die Brand-Truth-Analyse laufen lokal in der Desktop-App. Hi, Moose muss die Inhalte Ihrer Website nicht auf eigenen Servern sehen, um diesen Kontext aufzubauen oder zu nutzen.

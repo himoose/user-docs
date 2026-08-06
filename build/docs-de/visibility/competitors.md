@@ -1,64 +1,69 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 0f6961f608efb6e85e60c4cf390ea485c24faceeebdccfdedc53c19dadca3f23
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# Competitors & Share of Voice
+    [Auf Englisch lesen](https://himoose.com/docs/visibility/competitors/)
 
-## What this helps you do
+# Wettbewerber und Share of Voice
 
-Answer the question your own numbers can't: when an AI assistant recommends something in your category, how often is it you, and who's getting picked instead?
+## Wofür das gut ist
 
-Find it under **Visibility → Competition**.
+Die Frage beantworten, die Ihre eigenen Zahlen nicht beantworten können: Wenn ein KI-Assistent etwas aus Ihrer Kategorie empfiehlt, wie oft sind das Sie, und wer wird stattdessen gewählt?
 
-## Setting up competitors
+Sie finden das unter **Visibility → Competition**.
 
-Add competitors in **Visibility → Settings → Competitor tracking**. Each one takes a name and, optionally, a website.
+## Wettbewerber einrichten
 
-This list is shared with your [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), so competitors added in either place show up in both. There's a cap on how many are tracked in visibility runs, and the settings screen tells you the number and warns you if your list exceeds it — only the first N are tracked.
+Fügen Sie Wettbewerber unter **Visibility → Settings → Competitor tracking** hinzu. Jeder benötigt einen Namen und optional eine Website.
 
-Three to five real competitors works better than a long list. These are the brands you're genuinely compared against, not everyone in the category.
+Diese Liste wird mit Ihrem [Brand Truth Profile](../getting-started/context/brand-truth-profile.md) geteilt: An beiden Stellen hinzugefügte Wettbewerber erscheinen jeweils auch am anderen Ort. Die Zahl der in Sichtbarkeitsläufen verfolgten Wettbewerber ist begrenzt; der Einstellungsbildschirm nennt die Obergrenze und weist Sie darauf hin, wenn Ihre Liste sie überschreitet, denn dann werden nur die ersten verfolgt.
+
+Drei bis fünf echte Wettbewerber funktionieren besser als eine lange Liste. Gemeint sind die Marken, mit denen Sie tatsächlich verglichen werden, nicht die gesamte Branche.
 
 ## Share of Voice
 
-**Share of Voice** is each brand's mentions as a share of all brand and competitor mentions in the period. If you and four competitors were mentioned 100 times between you and 22 of those were yours, your Share of Voice is 22%.
+Der **Share of Voice** ist der Anteil der Erwähnungen jeder Marke an allen Marken- und Wettbewerbererwähnungen des Zeitraums. Wurden Sie und vier Wettbewerber zusammen 100-mal erwähnt und 22 dieser Erwähnungen entfielen auf Sie, beträgt Ihr Share of Voice 22 %.
 
-The Competition tab leads with your rank — "You are 3rd" — and the ranked list underneath shows every tracked brand with its share.
+Der Reiter Competition führt mit Ihrem Rang („You are 3rd"), und die Rangliste darunter zeigt jede verfolgte Marke mit ihrem Anteil.
 
-!!! warning "Share of Voice is not Mention Rate"
-    These are two different numbers and they move independently.
+!!! warning "Share of Voice ist nicht Mention Rate"
+    Das sind zwei verschiedene Zahlen, die sich unabhängig voneinander bewegen.
 
-    **Share of Voice** is your slice of the total brand mentions. It's competitive: a competitor can push it down without anything changing on your side.
+    Der **Share of Voice** ist Ihr Anteil an den gesamten Markenerwähnungen. Er ist relativ: Ein Wettbewerber kann ihn drücken, ohne dass sich bei Ihnen etwas ändert.
 
-    **Mention Rate** (on the Overview tab) is the share of tracked prompts where your brand was mentioned at all. It's absolute, and it ignores competitors entirely.
+    Die **Mention Rate** (im Reiter Overview) ist der Anteil der überwachten Prompts, in denen Ihre Marke überhaupt erwähnt wurde. Sie ist absolut und blendet Wettbewerber vollständig aus.
 
-    Your Mention Rate can rise while your Share of Voice falls, if competitors gained faster than you did. Both are worth watching, for different reasons.
+    Ihre Mention Rate kann steigen, während Ihr Share of Voice fällt, wenn Wettbewerber schneller zugelegt haben als Sie. Beide lohnen die Beobachtung, aus jeweils eigenen Gründen.
 
-## Share of Voice trend
+## Verlauf des Share of Voice
 
-The trend chart plots either **Share of Voice** or **Mention Rate** over time, so you can see whether a shift was you gaining, a competitor gaining, or the whole category getting noisier.
+Das Verlaufsdiagramm stellt den **Share of Voice** oder die **Mention Rate** über die Zeit dar, damit Sie erkennen, ob eine Veränderung darauf beruht, dass Sie zugelegt haben, dass ein Wettbewerber zugelegt hat oder dass die gesamte Kategorie lauter geworden ist.
 
 ## Top Competitor Citations
 
-Which competitor pages AI engines are actually citing as sources. This is the most directly actionable panel on the tab — these are the specific URLs winning the citations you want, and they tell you what the answer engines currently consider the best source on those questions.
+Welche Seiten der Konkurrenz KI-Maschinen tatsächlich als Quelle zitieren. Das ist das unmittelbar handlungsrelevanteste Panel des Reiters: Es sind genau die URLs, die die von Ihnen gewünschten Zitierungen gewinnen, und sie zeigen, was die Antwortmaschinen derzeit als beste Quelle zu diesen Fragen ansehen.
 
-Compare it against **Top Cited Pages** on the Overview tab, which shows the same thing for your own domain.
+Vergleichen Sie es mit **Top Cited Pages** im Reiter Overview, das dasselbe für Ihre eigene Domain zeigt.
 
 ## Competitor Gaps
 
-Questions where a competitor showed up in an AI answer and your brand did not.
+Fragen, bei denen ein Wettbewerber in einer KI-Antwort auftauchte und Ihre Marke nicht.
 
-Each gap shows which competitors appeared and which engines it was seen in, with a badge:
+Jede Lücke nennt die aufgetauchten Wettbewerber und die Maschinen, in denen sie beobachtet wurde, mit einer Kennzeichnung:
 
-- **No visibility** — your brand doesn't appear for this question in any engine.
-- **Partial** — your brand does appear for this question, just not in every engine. The row lists which engines you do show up in.
+- **No visibility**: Ihre Marke taucht zu dieser Frage in keiner Maschine auf.
+- **Partial**: Ihre Marke taucht zu dieser Frage durchaus auf, nur nicht in allen Maschinen. Die Zeile nennt, in welchen Sie erscheinen.
 
-Partial rows often need no action at all. A question where you appear in four engines out of five isn't the same problem as one where you appear in none, and the badge is there so you can tell them apart at a glance.
+Teilweise abgedeckte Zeilen erfordern häufig gar keine Maßnahme. Eine Frage, bei der Sie in vier von fünf Maschinen auftauchen, ist nicht dasselbe Problem wie eine, bei der Sie nirgends auftauchen, und die Kennzeichnung ist dafür da, dass Sie beides auf einen Blick unterscheiden können.
 
-If the list is truncated, narrow the date range or filters to see the rest.
+Ist die Liste gekürzt, grenzen Sie den Datumsbereich oder die Filter enger ein, um den Rest zu sehen.
 
-## Where competitor data comes from
+## Woher die Wettbewerbsdaten stammen
 
-Competitor mentions and citations are extracted from the same visibility run observations as your own. Nothing extra runs, and no separate crawl of competitor sites happens for these panels. If a run failed or a model was unavailable, those observations are excluded rather than counted as an absence.
+Erwähnungen und Zitierungen von Wettbewerbern stammen aus denselben Beobachtungen der Sichtbarkeitsläufe wie Ihre eigenen. Es läuft nichts zusätzlich, und für diese Panels werden keine Wettbewerber-Websites gesondert gecrawlt. Ist ein Lauf fehlgeschlagen oder war ein Modell nicht verfügbar, werden diese Beobachtungen ausgeschlossen, statt als Abwesenheit gewertet zu werden.
 
-## In the executive report
+## Im Executive Report
 
-Share of Voice, top competitor citations, and competitor gaps are all included in the exported [executive report](overview.md#exporting), so the competitive picture goes to clients and stakeholders without you rebuilding it by hand.
+Share of Voice, die wichtigsten Wettbewerberzitierungen und die Lücken sind alle im exportierten [Executive Report](overview.md#exportieren) enthalten. Das Wettbewerbsbild erreicht Kundinnen, Kunden und Entscheidungsträger also, ohne dass Sie es von Hand nachbauen müssen.

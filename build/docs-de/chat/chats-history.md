@@ -1,33 +1,38 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: b8f7ae90a01c1895210f6cf67a2a0fd1696708272ce334220ed0e26bbdf8e130
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# Chats (History)
+    [Auf Englisch lesen](https://himoose.com/docs/chat/chats-history/)
 
-## What this helps you do
+# Chats (Verlauf)
 
-The **Chats** section (labeled "Chat History" on the screen itself) is where you browse, reopen, rename, or delete previous conversations. It's the one place to manage every saved chat thread instead of losing older conversations once you start a new one.
+## Wofür das gut ist
 
-!!! note "Not the same as publish/content history"
-    Chats is specifically your **conversation** history — saved chat transcripts you can reopen and continue. It is not a log of published content changes or visibility outcomes; that kind of traceability is covered separately.
+Im Bereich **Chats** (auf dem Bildschirm selbst als „Chat History" bezeichnet) durchsuchen, öffnen, benennen oder löschen Sie frühere Gespräche. Es ist der eine Ort, an dem Sie alle gespeicherten Chatverläufe verwalten, statt ältere Gespräche zu verlieren, sobald Sie ein neues beginnen.
 
-## Finding a previous chat
+!!! note "Nicht dasselbe wie der Veröffentlichungs- oder Inhaltsverlauf"
+    Chats ist ausdrücklich Ihr **Gesprächs**verlauf: gespeicherte Mitschriften, die Sie erneut öffnen und fortsetzen können. Es ist kein Protokoll veröffentlichter Inhaltsänderungen oder von Sichtbarkeitsergebnissen; diese Nachvollziehbarkeit wird an anderer Stelle abgedeckt.
 
-Each saved chat in the list shows:
+## Ein früheres Gespräch finden
 
-- Its title (renameable — see below).
-- When it was last updated.
-- Which [specialist](tools-and-specialists.md#specialists), if any, was active in that thread.
+Jedes gespeicherte Gespräch in der Liste zeigt:
 
-Click **Open chat** to reopen a session exactly where you left off, with its full transcript restored.
+- Seinen Titel (umbenennbar, siehe unten).
+- Wann es zuletzt aktualisiert wurde.
+- Welcher [Spezialist](tools-and-specialists.md#spezialisten) in diesem Verlauf gegebenenfalls aktiv war.
 
-## Renaming a chat
+Klicken Sie auf **Open chat**, um eine Sitzung genau dort wieder zu öffnen, wo Sie sie verlassen haben, mit vollständig wiederhergestellter Mitschrift.
 
-Click the rename action on any chat to give it a clearer title than the auto-generated one — useful once you have several saved threads about different topics or pages.
+## Ein Gespräch umbenennen
 
-## Deleting a chat
+Klicken Sie bei einem beliebigen Gespräch auf die Umbenennen-Aktion, um ihm einen klareren Titel als den automatisch erzeugten zu geben. Das hilft, sobald Sie mehrere gespeicherte Verläufe zu unterschiedlichen Themen oder Seiten haben.
 
-Deleting a chat removes its saved transcript from local history permanently. Hi, Moose asks you to confirm first, since this can't be undone.
+## Ein Gespräch löschen
 
-## Starting fresh vs. continuing
+Beim Löschen eines Gesprächs wird dessen gespeicherte Mitschrift dauerhaft aus dem lokalen Verlauf entfernt. Hi, Moose fragt zuvor nach einer Bestätigung, denn das lässt sich nicht rückgängig machen.
 
-You don't have to dig into Chats every time — the chat composer itself has a session selector showing your current session and shortcuts to recent ones, plus a **New chat** action any time you want to start over. Chats is there for when you want the full list, or need to find something further back.
+## Neu beginnen oder fortsetzen
+
+Sie müssen nicht jedes Mal in Chats gehen: Das Eingabefeld des Chats hat selbst eine Sitzungsauswahl, die Ihre aktuelle Sitzung und Verknüpfungen zu den letzten anzeigt, dazu eine Aktion **New chat**, wann immer Sie neu beginnen möchten. Chats ist für die Momente da, in denen Sie die vollständige Liste sehen oder etwas weiter Zurückliegendes finden möchten.

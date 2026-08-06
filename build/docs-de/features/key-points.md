@@ -1,32 +1,37 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 8b57e0721844d9abea5dec327d239ae4880ee2cdfac6de4ba644f4300e24a272
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-# Key Points Extractor
+    [Auf Englisch lesen](https://himoose.com/docs/features/key-points/)
 
-## What this helps you do
+# Key-Points-Extraktor
 
-Extract the most important ideas from long-form content into a short, scannable set of key points (a TL;DR) that you can place at the top of the piece — giving busy readers instant value and giving answer engines an easy summary to extract.
+## Wofür das gut ist
 
-Key points generation uses semantic compression rather than a plain summarizer: Hi, Moose identifies what's actually important in the content, not just what's repeated most often, and produces a concise set of points that capture the core meaning.
+Die wichtigsten Gedanken aus einem langen Inhalt zu einem kurzen, überfliegbaren Satz von Kernaussagen verdichten (einem TL;DR), den Sie an den Anfang des Beitrags stellen können: sofortiger Nutzen für eilige Lesende und eine leicht entnehmbare Zusammenfassung für Antwortmaschinen.
 
-## Providing a source
+Die Erzeugung von Key Points arbeitet mit semantischer Verdichtung statt mit einer schlichten Zusammenfassung: Hi, Moose erkennt, was im Inhalt wirklich wichtig ist, und nicht bloß, was am häufigsten wiederholt wird, und erzeugt daraus einen knappen Satz von Aussagen, der den Kern trifft.
 
-From [Chat](../chat/overview.md), choose the **Generate optimized Key Points** quick start (or ask for it directly), then give Hi, Moose something to work from:
+## Eine Quelle bereitstellen
 
-- A source URL, or
-- An attached file, or
-- Pasted content
+Wählen Sie im [Chat](../chat/overview.md) den Schnellstart **Generate optimized Key Points** (oder bitten Sie direkt darum) und geben Sie Hi, Moose dann etwas an die Hand:
 
-## What you get
+- Eine Quell-URL,
+- Eine angehängte Datei, oder
+- Eingefügten Inhalt
 
-A titled set of compressed points under the source you provided, ready to reuse anywhere.
+## Was Sie erhalten
 
-## Working with the result
+Einen betitelten Satz verdichteter Aussagen unter der von Ihnen angegebenen Quelle, bereit zur Weiterverwendung.
 
-- **Save** — add the key points to your [Library](../library/overview.md).
-- **Edit** — opens an editor with the source and the key points as editable markdown, with **Save** or **Save and add to page** to both save and stage the change in one step.
-- **Add Key Points to the page** — if your project has a connected CMS and the source URL matches a page there, stage the key points directly onto that page as an edit for review — see [Drafts, Preview & Publishing](drafts-and-publishing.md).
+## Mit dem Ergebnis arbeiten
 
-## When to skip external research
+- **Save**: fügt die Key Points Ihrer [Library](../library/overview.md) hinzu.
+- **Edit**: öffnet einen Editor mit Quelle und Key Points als bearbeitbares Markdown, mit **Save** oder **Save and add to page**, um in einem Schritt zu speichern und die Änderung vorzubereiten.
+- **Add Key Points to the page**: Verfügt Ihr Projekt über ein verbundenes CMS und passt die Quell-URL zu einer dortigen Seite, werden die Key Points direkt auf dieser Seite als Änderung zur Durchsicht vorbereitet. Siehe [Entwürfe, Vorschau und Veröffentlichung](drafts-and-publishing.md).
 
-Key points generation works directly from your existing content and doesn't need the [search landscape](content-briefs.md) evidence bundle by default. Only bring in outside research if you specifically want competitive or search-grounded framing — for straightforward compression of your own content, it's unnecessary overhead.
+## Wann Sie auf externe Recherche verzichten können
+
+Die Erzeugung von Key Points arbeitet unmittelbar mit Ihren vorhandenen Inhalten und benötigt standardmäßig nicht das Belegpaket des [Suchpanoramas](content-briefs.md). Ziehen Sie externe Recherche nur hinzu, wenn Sie ausdrücklich eine wettbewerbliche oder suchgestützte Rahmung wünschen: Für das schlichte Verdichten Ihrer eigenen Inhalte ist sie unnötiger Aufwand.

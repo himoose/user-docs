@@ -1,41 +1,46 @@
-!!! info "Not translated yet"
-    This page is not available in your language yet, so it is shown in English.
+---
+source_hash: 654f5d1f13d58929fbda5ebfcaf964ae01d60316c4db812cc5aa09b54b172e5c
+---
+!!! note "Maschinell übersetzt"
+    Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
+
+    [Auf Englisch lesen](https://himoose.com/docs/features/content-briefs/)
 
 # Content Briefs
 
-## What this helps you do
+## Wofür das gut ist
 
-Generate a structured, evidence-grounded content brief before writing or drafting anything — built from live search results, answer-engine data, and your own site's context, not from a model's general training knowledge.
+Einen strukturierten, belegbasierten Content-Brief erstellen, bevor irgendetwas geschrieben wird, aufgebaut aus Live-Suchergebnissen, Daten aus Antwortmaschinen und dem Kontext Ihrer eigenen Website, und nicht aus dem allgemeinen Trainingswissen eines Modells.
 
-Briefs are the required first step in Hi, Moose's editorial workflow: if a piece of work needs structured planning, Hi, Moose generates or confirms a brief before it drafts anything. This keeps drafts grounded in real research instead of becoming a blind text expander.
+Briefs sind der verbindliche erste Schritt im redaktionellen Ablauf von Hi, Moose: Erfordert eine Aufgabe strukturierte Planung, erstellt oder bestätigt Hi, Moose einen Brief, bevor überhaupt etwas verfasst wird. So bleiben Entwürfe in echter Recherche verankert, statt zu einem blinden Textaufbläher zu werden.
 
-## What goes into a brief
+## Was in einen Brief einfließt
 
-To build a brief, Hi, Moose collects and reuses a **search landscape** — a durable evidence bundle — rather than re-researching from scratch every time:
+Um einen Brief zu erstellen, sammelt und verwendet Hi, Moose ein **Suchpanorama** wieder, ein dauerhaftes Belegpaket, statt jedes Mal neu zu recherchieren:
 
-- Live organic search results and People Also Ask questions for your target query.
-- Answer-engine snapshots (Google AI Overview, ChatGPT Search, and similar) and their cited sources.
-- A bounded crawl of top-ranking competitor pages.
-- Secondary keywords extracted from that competitor content, ranked by priority.
+- Live-Ergebnisse der organischen Suche und Fragen aus „Ähnliche Fragen" zu Ihrer Zielanfrage.
+- Momentaufnahmen von Antwortmaschinen (Google AI Overview, ChatGPT Search und ähnliche) samt ihrer zitierten Quellen.
+- Ein abgegrenztes Crawlen der bestplatzierten Wettbewerberseiten.
+- Sekundäre Suchbegriffe, aus diesen Wettbewerbsinhalten extrahiert und nach Priorität geordnet.
 
-Because this evidence is saved as its own artifact, generating a brief and then generating FAQs or key points for the same topic doesn't require re-collecting the same research twice — and if you ask for fresh research, Hi, Moose runs a new pass instead of silently reusing stale evidence.
+Da diese Belege als eigenes Artefakt gespeichert werden, erfordert es keine doppelte Recherche, erst einen Brief und danach FAQ oder Key Points zum selben Thema zu erzeugen. Und wenn Sie frische Recherche verlangen, führt Hi, Moose einen neuen Durchlauf aus, statt stillschweigend veraltete Belege wiederzuverwenden.
 
-## Generating a brief
+## Einen Brief erstellen
 
-1. Enter your **primary target query** — the main query or topic the brief should center on, phrased the way a real searcher would ask it.
-2. Choose a **template type**. Different structures need different sections, proof, and calls to action, so this shapes both the brief and the eventual first draft:
+1. Geben Sie Ihre **primäre Zielanfrage** ein: die Anfrage oder das Thema, um das der Brief kreisen soll, formuliert so, wie eine suchende Person es tatsächlich eingeben würde.
+2. Wählen Sie einen **Vorlagentyp**. Unterschiedliche Strukturen erfordern unterschiedliche Abschnitte, Belege und Handlungsaufforderungen, das prägt also sowohl den Brief als auch den späteren ersten Entwurf:
     - **Blog post**
     - **Glossary post**
     - **Landing page**
     - **Solutions page**
     - **Product Feature page**
-3. Hi, Moose collects the search landscape, then generates the brief: recommended word count, prioritized secondary keywords, People Also Ask questions to address, competitor analysis, and a structured outline shaped for the template you chose.
-4. Review, edit, and export the brief, or move straight into generating a [draft](drafts-and-publishing.md) from it.
+3. Hi, Moose sammelt das Suchpanorama und erstellt dann den Brief: empfohlene Länge, priorisierte sekundäre Suchbegriffe, zu behandelnde Fragen aus „Ähnliche Fragen", Wettbewerbsanalyse und eine strukturierte Gliederung, zugeschnitten auf die gewählte Vorlage.
+4. Sehen Sie den Brief durch, bearbeiten und exportieren Sie ihn, oder gehen Sie direkt zur Erzeugung eines [Entwurfs](drafts-and-publishing.md) daraus über.
 
-## Integrity
+## Integrität
 
-Brief generation is a real, model-backed step grounded in real evidence — not a template assembled from heuristic guesses. If Hi, Moose can't collect the research a brief needs, it says so rather than producing a plausible-looking but ungrounded brief.
+Die Erstellung eines Briefs ist ein echter, modellgestützter Schritt auf Basis realer Belege und keine aus heuristischen Vermutungen zusammengesetzte Vorlage. Kann Hi, Moose die für einen Brief nötige Recherche nicht sammeln, sagt er das, statt einen plausibel wirkenden, aber unfundierten Brief zu erzeugen.
 
-## Entitlements
+## Berechtigungen je Tarif
 
-Live research collection (search results, answer-engine snapshots, competitor crawling) is the cost-bearing step in this workflow. Paid Managed accounts draw on their single managed token balance; BYOK Premium includes bounded, explicit cloud-assisted research alongside local-first execution; BYOK Free does not include open-ended cloud-assisted research by default.
+Das Sammeln von Live-Recherche (Suchergebnisse, Momentaufnahmen von Antwortmaschinen, Crawlen von Wettbewerbern) ist der kostentragende Schritt dieses Ablaufs. Kostenpflichtige verwaltete Konten schöpfen aus ihrem einzigen verwalteten Guthaben; BYOK Premium enthält abgegrenzte, ausdrückliche cloudgestützte Recherche neben der lokalen Ausführung; BYOK Free enthält standardmäßig keine unbegrenzte cloudgestützte Recherche.
