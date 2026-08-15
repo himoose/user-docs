@@ -83,6 +83,29 @@
     var distinctId = sessionValue('hm_aid', uuid);
     var sessionId = sessionValue('hm_sid', uuidv7);
 
+    // First-touch campaign, remembered for the session. The utm query string
+    // only exists on the landing URL, so an ad visitor who clicks through to a
+    // second page stops looking like paid traffic from that click onward. The
+    // per-URL utm_* properties below are left exactly as they were; these are
+    // separate, sticky, and safe to group by across a whole visit.
+    var CAMPAIGN_KEY = 'hm_campaign';
+    var CAMPAIGN_FIELDS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'ref'];
+    var campaign = {};
+    try {
+      var landing = {};
+      var landingParams = new URLSearchParams(location.search);
+      CAMPAIGN_FIELDS.forEach(function (key) {
+        var value = landingParams.get(key);
+        if (value) landing[key] = value.slice(0, 200);
+      });
+      if (Object.keys(landing).length) {
+        campaign = landing;
+        sessionStorage.setItem(CAMPAIGN_KEY, JSON.stringify(landing));
+      } else {
+        campaign = JSON.parse(sessionStorage.getItem(CAMPAIGN_KEY) || '{}') || {};
+      }
+    } catch (e) { /* storage blocked or unparsable: this visit stays untagged */ }
+
     // Device, browser and OS. posthog-js would derive these client-side; we
     // do the same parse ourselves, using PostHog's own value spellings so the
     // Web Analytics device/browser tiles read them.
@@ -139,7 +162,11 @@
         // Anonymous events only: never create a person profile from the web.
         $process_person_profile: false,
         site: SITE,
-        page_lang: document.documentElement.getAttribute('lang') || 'en'
+        page_lang: document.documentElement.getAttribute('lang') || 'en',
+        campaign_source: campaign.utm_source || '(untagged)',
+        campaign_medium: campaign.utm_medium,
+        campaign_name: campaign.utm_campaign,
+        campaign_ref: campaign.ref
       };
       if (document.referrer) {
         try {
