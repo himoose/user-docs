@@ -166,7 +166,13 @@
         campaign_source: campaign.utm_source || '(untagged)',
         campaign_medium: campaign.utm_medium,
         campaign_name: campaign.utm_campaign,
-        campaign_ref: campaign.ref
+        campaign_ref: campaign.ref,
+        // Two cheap traffic-quality signals, both single booleans rather than
+        // anything fingerprintable. navigator.webdriver is the standard flag
+        // browsers set under automation. A real window has chrome above the
+        // page; a headless one is usually sized to the screen exactly.
+        is_webdriver: navigator.webdriver === true,
+        has_window_chrome: window.outerHeight > window.innerHeight
       };
       if (document.referrer) {
         try {
@@ -195,13 +201,23 @@
       if (properties) {
         for (var key in properties) payload.properties[key] = properties[key];
       }
-      // text/plain keeps this a CORS simple request (no preflight), and
-      // keepalive lets a download-click event outlive the navigation.
+      // text/plain keeps this a CORS simple request (no preflight) either way.
+      // sendBeacon is queued by the browser and survives the page going away,
+      // which keepalive fetch does not reliably do on a fast tab close; that
+      // was losing most exit events. fetch is the fallback when the beacon
+      // queue is full or the API is missing.
+      var body = JSON.stringify(payload);
+      try {
+        if (navigator.sendBeacon &&
+            navigator.sendBeacon(ENDPOINT, new Blob([body], { type: 'text/plain' }))) {
+          return;
+        }
+      } catch (e) { /* fall through to fetch */ }
       fetch(ENDPOINT, {
         method: 'POST',
         keepalive: true,
         headers: { 'Content-Type': 'text/plain' },
-        body: JSON.stringify(payload)
+        body: body
       }).catch(function () { /* analytics is best-effort */ });
     }
 
@@ -240,6 +256,15 @@
     var startedAt = Date.now();
     var clicked = false;
     var ticking = false;
+    var scrolled = false;
+    var interacted = false;
+
+    // A visitor who never moves the mouse, never presses a key and never
+    // scrolls has not read anything, whatever the timer says. One boolean,
+    // set once, no continuous input capture.
+    ['mousemove', 'keydown', 'touchstart', 'pointerdown', 'wheel'].forEach(function (type) {
+      window.addEventListener(type, function () { interacted = true; }, { once: true, passive: true });
+    });
 
     function pageHeight() {
       var body = document.body || {};
@@ -255,10 +280,22 @@
     function measureScroll() {
       var total = pageHeight();
       if (total <= 0) return;
-      var seen = (window.pageYOffset || document.documentElement.scrollTop || 0) +
-        window.innerHeight;
+      var offset = window.pageYOffset || document.documentElement.scrollTop || 0;
+      var seen = offset + window.innerHeight;
       var percent = Math.min(100, Math.round((seen / total) * 100));
       if (percent > maxScroll) maxScroll = percent;
+
+      // The first milestone is 25%, which on a long page is several screens
+      // down. Without this, a visitor who scrolled a little and one who never
+      // touched the page are indistinguishable: both report the percentage of
+      // the page their viewport happened to cover on arrival.
+      if (!scrolled && offset > 100) {
+        scrolled = true;
+        capture('scroll_started', {
+          seconds_to_first_scroll: Math.round((Date.now() - startedAt) / 1000),
+          section: maxSectionName || undefined
+        });
+      }
 
       // A page that fits on one screen is "100% scrolled" the moment it
       // loads. Firing five milestones for that is noise, so milestones are
@@ -307,7 +344,9 @@
         sections_on_page: sections.length,
         seconds_on_page: Math.round((Date.now() - startedAt) / 1000),
         page_scrollable: scrollable(),
-        clicked_something: clicked
+        clicked_something: clicked,
+        scrolled: scrolled,
+        interacted: interacted
       });
     }
 
