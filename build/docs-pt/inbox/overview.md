@@ -1,5 +1,5 @@
 ---
-source_hash: 9705deb0dc37b51cf84f956088049d0d7d87b416de55439c84ef17b2ef0d3d9c
+source_hash: 1f72c74789bd33352c926958756e3e381c10802d74ab9dd7100a890e068e2262
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -26,6 +26,12 @@ Todo item da Caixa de entrada aponta para algo concreto que você pode abrir e r
 Cada item traz uma próxima ação sugerida quando faz sentido: abrir o artefato, iniciar um briefing, dar sequência a uma auditoria, revisar um rascunho, aprovar uma alteração ou repetir uma execução que falhou. Assim você não apenas lê uma notificação, mas fica a um clique de agir.
 
 Os resumos de monitoramento do site também trazem a ação **Perguntar ao Moose sobre tudo isso**, que entrega a captura do rastreamento ao [chat](../chat/overview.md) e pergunta por onde começar.
+
+## Não lidos entre projetos
+
+A Caixa de entrada é restrita ao projeto atual, mas os itens não lidos não somem quando você troca de projeto.
+
+A barra lateral mostra um contador de não lidos no seletor de projetos e avisa quando há **itens não lidos em outro projeto**, para que uma constatação no espaço de um cliente que você não abriu nesta semana não fique sem ser vista. Abrir o projeto limpa o contador conforme você lê.
 
 ## Filtrar a Caixa de entrada
 

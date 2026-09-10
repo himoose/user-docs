@@ -1,5 +1,5 @@
 ---
-source_hash: 0f6961f608efb6e85e60c4cf390ea485c24faceeebdccfdedc53c19dadca3f23
+source_hash: 1c85ff53a55d4b6ecb7d8fbdd11b64ab53c6c37bdd4cb12540b5dc7616afc495
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -18,22 +18,42 @@ Sie finden das unter **Visibility → Wettbewerb**.
 
 Fügen Sie Wettbewerber unter **Visibility → Settings → Competitor tracking** hinzu. Jeder benötigt einen Namen und optional eine Website.
 
-Diese Liste wird mit Ihrem [Brand Truth Profile](../getting-started/context/brand-truth-profile.md) geteilt: An beiden Stellen hinzugefügte Wettbewerber erscheinen jeweils auch am anderen Ort. Die Zahl der in Sichtbarkeitsläufen verfolgten Wettbewerber ist begrenzt; der Einstellungsbildschirm nennt die Obergrenze und weist Sie darauf hin, wenn Ihre Liste sie überschreitet, denn dann werden nur die ersten verfolgt.
+Diese Liste wird mit Ihrem [Brand Truth Profile](../getting-started/context/brand-truth-profile.md) geteilt: An beiden Stellen hinzugefügte Wettbewerber erscheinen jeweils auch am anderen Ort.
+
+Wie viele in Sichtbarkeitsläufen verfolgt werden, hängt von Ihrem Tarif ab: **5 in Preview Mode und BYOK Free, 15 in jedem kostenpflichtigen Tarif**. Der Einstellungsbildschirm nennt die Zahl und weist Sie darauf hin, wenn Ihre Liste länger ist, damit Sie wissen, dass nur die ersten verfolgt werden.
 
 Drei bis fünf echte Wettbewerber funktionieren besser als eine lange Liste. Gemeint sind die Marken, mit denen Sie tatsächlich verglichen werden, nicht die gesamte Branche.
 
 ## Share of Voice
 
-Der **Share of Voice** ist der Anteil der Erwähnungen jeder Marke an allen Marken- und Wettbewerbererwähnungen des Zeitraums. Wurden Sie und vier Wettbewerber zusammen 100-mal erwähnt und 22 dieser Erwähnungen entfielen auf Sie, beträgt Ihr Share of Voice 22 %.
+Der **Share of Voice** ist der Anteil an Aufmerksamkeit, den jede Marke im Zeitraum in KI-Antworten erhält, aber nicht jede Erwähnung zählt gleich viel.
 
-Der Reiter Competition führt mit Ihrem Rang („You are 3rd"), und die Rangliste darunter zeigt jede verfolgte Marke mit ihrem Anteil.
+Als Erstes genannt zu werden ist mehr wert als an sechster Stelle, denn das ist der Name, den Leserinnen und Leser mitnehmen. Deshalb wird jede Erwähnung danach gewichtet, an welcher Stelle die Marke in der Antwort auftaucht:
+
+| Position in der Antwort | Gewicht |
+|---|---|
+| 1. | 1,00 |
+| 2. | 0,70 |
+| 3. | 0,50 |
+| 4. | 0,35 |
+| 5. | 0,25 |
+| 6. oder später | 0,15 |
+
+Eine Erwähnung, bei der sich keine klare Position ablesen ließ, zählt 0,50. Zusätzlich kommen 0,50 hinzu, wenn eine Antwort **die eigene Website der Marke zitiert**, denn eine Zitation ist ein stärkeres Signal als eine bloße Namensnennung.
+
+Der gewichtete Wert jeder Marke wird anschließend durch die Summe über alle verfolgten Marken geteilt, was ihren Anteil ergibt.
+
+Der Reiter Competition führt mit Ihrem Rang, und die Rangliste darunter zeigt jede verfolgte Marke mit ihrem Anteil. Daneben stehen **Erwähnungsanteil** und **Zitationsanteil** als schlichte, ungewichtete Zählungen, damit Sie das Rohbild neben dem gewichteten sehen.
+
+!!! note "Warum die gewichtete Zahl der reinen Zählung widersprechen kann"
+    Sie können genauso oft erwähnt werden wie ein Wettbewerber und beim Share of Voice trotzdem zurückliegen, wenn er stets zuerst genannt wird und Sie stets an vierter Stelle. Genau darum geht es bei dieser Kennzahl: Die Erwähnungen sind da, die Prominenz nicht, und das ist ein anderes Problem, das eine andere Lösung braucht.
 
 !!! warning "Share of Voice ist nicht Mention Rate"
     Das sind zwei verschiedene Zahlen, die sich unabhängig voneinander bewegen.
 
-    Der **Share of Voice** ist Ihr Anteil an den gesamten Markenerwähnungen. Er ist relativ: Ein Wettbewerber kann ihn drücken, ohne dass sich bei Ihnen etwas ändert.
+    Der **Share of Voice** ist Ihr gewichteter Anteil an der gesamten Markenaufmerksamkeit. Er ist relativ: Ein Wettbewerber kann ihn drücken, ohne dass sich bei Ihnen etwas ändert.
 
-    Die **Erwähnungsrate** (im Reiter Overview) ist der Anteil der überwachten Prompts, in denen Ihre Marke überhaupt erwähnt wurde. Sie ist absolut und blendet Wettbewerber vollständig aus.
+    Die **Mention Rate** (im Reiter Overview) ist der Anteil der überwachten Prompts, in denen Ihre Marke überhaupt erwähnt wurde. Sie ist absolut, ungewichtet und blendet Wettbewerber vollständig aus.
 
     Ihre Mention Rate kann steigen, während Ihr Share of Voice fällt, wenn Wettbewerber schneller zugelegt haben als Sie. Beide lohnen die Beobachtung, aus jeweils eigenen Gründen.
 

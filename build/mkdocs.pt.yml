@@ -162,6 +162,8 @@ nav:
   - Visão geral: workflows/overview.md
   - Recuperar a visibilidade perdida: workflows/recover-lost-visibility.md
   - Criar novo conteúdo: workflows/create-new-content.md
+- Send Moose:
+  - Visão geral: send-moose/overview.md
 - Chat:
   - Visão geral: chat/overview.md
   - Ferramentas e especialistas do chat: chat/tools-and-specialists.md
@@ -177,6 +179,7 @@ nav:
   - O menu Ferramentas: tools/overview.md
   - Verificação instantânea da marca na busca com IA: tools/instant-brand-check.md
   - Auditorias de AEO: features/aeo-audits.md
+  - Entity Graph: features/entity-graph.md
   - Briefings de conteúdo: features/content-briefs.md
   - Gerador de FAQ: features/faq-generator.md
   - Extrator de Pontos principais: features/key-points.md

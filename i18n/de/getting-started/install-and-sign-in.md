@@ -1,5 +1,5 @@
 ---
-source_hash: d26bd04f7f798fab89bd03eeac0f5a5397eb68290de23de6c9325e1c013f4f25
+source_hash: 8752131a2b250a931754464dabe425c465e2c954eb3dd94617a78b498040b2ca
 ---
 # Installation und Anmeldung
 
@@ -15,26 +15,36 @@ Die Hi, Moose-Desktop-App auf Ihrem Rechner installieren und sich zum ersten Mal
 
 ## Schritt für Schritt
 
-### 1. Installationsprogramm herunterladen
+### 1. Konto anlegen
 
-Laden Sie das Hi, Moose-Installationsprogramm für Ihr Betriebssystem über den Link des Hi, Moose-Teams oder von der Release-Seite der App herunter.
+Sie können im Web oder in der App beginnen, beide Wege enden am selben Ort.
+
+**Im Web** gehen Sie auf [console.himoose.com/sign-up](https://console.himoose.com/sign-up/). Dort wird gefragt, welche Art von Arbeit Sie machen, Ihre Website abgefragt und Ihr Konto mit Google oder per E-Mail angelegt. Kostenlos zum Start, ohne Karte. Anschließend liest Hi, Moose Ihre Website und schlägt die KI-Suchen vor, die sich zu verfolgen lohnen, sodass Sie mit echten Prompts in der App ankommen statt mit einem leeren Bildschirm. Der letzte Schritt gibt Ihnen das Installationsprogramm für Ihr Betriebssystem.
+
+**In der App** laden Sie zuerst das Installationsprogramm herunter und legen das Konto vom Anmeldebildschirm aus an. Verloren geht auf keinem der beiden Wege etwas: Der Weg über das Web erledigt die Einrichtung nur schon vor der Installation.
+
+### 2. App installieren
 
 - **Windows**: Führen Sie das `.exe`-Installationsprogramm aus.
-- **macOS**: Öffnen Sie die `.dmg`-Datei und ziehen Sie Hi, Moose in den Programme-Ordner.
+- **macOS**: Öffnen Sie die `.dmg` und ziehen Sie Hi, Moose in den Programme-Ordner.
 
-### 2. Anmelden
+Die Installationsprogramme für beide Plattformen finden Sie auf der [Downloadseite](https://himoose.com/downloads/).
 
-1. Öffnen Sie Hi, Moose.
-2. Melden Sie sich mit Ihrer E-Mail-Adresse oder Ihrem Google-Konto an.
-3. Falls Sie noch kein Konto haben, legen Sie es auf demselben Bildschirm an.
+### 3. Anmelden
 
-### 3. Tarif wählen oder bestätigen
+Öffnen Sie Hi, Moose und melden Sie sich mit der E-Mail-Adresse oder dem Google-Konto an, das Sie gerade verwendet haben. Wenn Sie sich im Web registriert haben, übernimmt die App die dort gewählten Suchen.
 
-Nach der Anmeldung gelangen Sie in den Einrichtungsassistenten, in dem Hi, Moose einige Fragen zu Ihrer Marke und Ihrer Domain stellt, um automatisch einen ersten Kontext aufzubauen. In einem BYOK-Tarif werden Sie an dieser Stelle gebeten, Ihren eigenen OpenRouter-API-Schlüssel zu hinterlegen. Was die einzelnen Tarife benötigen, steht unter [Kontotypen und Tarife](account-modes.md).
+### 4. Ihre erste Aufgabe
 
-### 4. Erstes Projekt anlegen
+Neue Konten landen in einem kurzen Ankunftsablauf statt auf einem Einstellungsbildschirm. Moose nimmt eine Ihrer verfolgten Suchen, prüft, ob Ihre Website bereits eine Seite hat, die sie beantwortet, und schlägt entweder Änderungen an dieser Seite vor oder entwirft eine neue. Sie können das Ergebnis direkt als Entwurf an ein verbundenes CMS schicken, es kopieren oder das Ganze überspringen und sich selbst umsehen.
 
-Der Einrichtungsassistent führt Sie durch das Anlegen Ihres ersten [Projekts](projects.md), also des Arbeitsbereichs, der Ihre Brand Voice, Ihre Wettbewerber, Ihre Verbindungen und die erzeugten Inhalte für eine Website oder Marke bündelt.
+Der Ablauf endet auf dem Bildschirm [Visibility](../visibility/overview.md), mit einer optionalen Tour durch das, was Sie dort sehen.
+
+### 5. Tarif und Schlüssel bestätigen
+
+In einem BYOK-Tarif werden Sie aufgefordert, Ihren eigenen OpenRouter-API-Schlüssel zu hinterlegen, bevor Modellaufrufe laufen. Unter [Kontotypen und Tarife](account-modes.md) steht, was jeder Tarif benötigt.
+
+Die Einrichtung legt außerdem Ihr erstes [Projekt](projects.md) an, den Arbeitsbereich mit Ihrer Brand Voice, Ihren Wettbewerbern, Ihren Verbindungen und den erzeugten Inhalten für eine Website oder Marke.
 
 ## Aktuell bleiben
 

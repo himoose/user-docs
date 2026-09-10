@@ -1,5 +1,5 @@
 ---
-source_hash: a520f220686779a4e43944e38365ca5142c3e85eb20112e98bb99e9f73e340de
+source_hash: e7e6f1bb4dadb22b857f73036d7b32d3fbaf18126ab7439d1d47d861e62269af
 ---
 # Le menu Outils
 
@@ -20,6 +20,7 @@ Les outils sont regroupés selon ce que vous cherchez à faire.
 | [Auditer une URL en AEO](../features/aeo-audits.md) | Évalue n'importe quelle page pour les moteurs de réponse |
 | [Capturer les requêtes fan-out de ChatGPT](../features/fan-out-queries.md) | Révèle les sous-questions derrière un prompt |
 | [Capturer les requêtes de grounding de Google AI Mode](../features/grounding-queries.md) | Consigne les recherches lancées par AI Mode pour fonder une réponse |
+| [Créer un entity graph](../features/entity-graph.md) | Cartographier ce que votre site établit et comment cela se relie |
 
 ### Enrich a page
 
@@ -38,6 +39,12 @@ Les outils sont regroupés selon ce que vous cherchez à faire.
 | [Créer du contenu de landing page](../features/landing-page-content.md) | Une page complète, structurée pour les réponses d'IA |
 | [Créer un article de glossaire](../features/glossary-post.md) | Définit un terme pour que les moteurs puissent le citer |
 | [Créer un brief de contenu](../features/content-briefs.md) | Plan, entités et questions à traiter |
+
+### Automatiser
+
+| Outil | Ce qu'il fait |
+|---|---|
+| [Créer un workflow](../workflows/overview.md) | Transformer un travail récurrent en routine d'arrière-plan |
 
 ## Vous n'êtes pas obligé d'utiliser le menu
 

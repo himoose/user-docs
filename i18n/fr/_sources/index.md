@@ -31,11 +31,12 @@ A working Hi, Moose session should be able to answer:
 
 ### 📈 Monitor & detect
 
-- **[Visibility](visibility/overview.md)** — Track how your brand shows up across Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini, and Grok, and get notified when something meaningful changes.
+- **[Visibility](visibility/overview.md)** — Track how your brand shows up across Google AI Overviews, Google AI Mode, ChatGPT, Claude, Perplexity, Gemini, Grok, Bing Copilot, DeepSeek and Meta AI, and get notified when something meaningful changes.
 - **[Competitors & Share of Voice](visibility/competitors.md)** — See who's getting recommended instead of you, which of their pages win the citations, and which questions you're absent from.
 - **[AEO Audits](features/aeo-audits.md)** — Score a page's answer-engine readiness, see what's holding it back, and track whether changes actually move the score.
 - **[Site Monitoring](site-monitoring/overview.md)** — Crawl your site, index it for semantic search, and get one digest per crawl when AEO-relevant things change.
 - **[Instant Brand Check](tools/instant-brand-check.md)** — Check a single query across five AI engines right now, without setting anything up.
+- **[Entity Graph](features/entity-graph.md)** — Map the people, products and topics your site establishes, and how they connect.
 
 ### ✍️ Brief, draft & publish
 
@@ -45,6 +46,11 @@ A working Hi, Moose session should be able to answer:
 - **[Drafts, Preview & Publishing](features/drafts-and-publishing.md)** — Turn a brief into a draft, preview the change, approve it, and publish it — with a full record of what happened.
 - **[Workflows](workflows/overview.md)** — Save recurring operator recipes (Recover Lost Visibility, Create New Content) that run in the background and land in your inbox for review.
 - **[Audio](audio/overview.md)** — Turn an article into a two-voice conversation, embed the player, and see how people listen.
+
+### 🤖 Hand over the work
+
+- **[Send Moose](send-moose/overview.md)** — Give Moose a goal in plain language and let him do the job, with your visibility data, site index, entity graph and Search Console already in hand.
+- **[Chat](chat/overview.md)** — Work turn by turn with an operator that can call tools, read your own pages, and remember earlier conversations in the project.
 
 ### 🔗 Connect your stack
 

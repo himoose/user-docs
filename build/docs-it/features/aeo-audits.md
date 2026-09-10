@@ -1,5 +1,5 @@
 ---
-source_hash: a8e831ea98a893f4158e5124991eae0686f8eb64e2448fe9541f8444c4680099
+source_hash: 8d507a868f7b497bde6ab6ed4a9826d17aab12195b04317adea91787622fcc6a
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -36,7 +36,7 @@ Accanto alla valutazione dei contenuti, ogni audit verifica se un motore di risp
 - **Accesso dei crawler di IA**: controlla le regole del robots.txt per ciascuno dei token specifici dei crawler di IA usati da OpenAI, Anthropic, Perplexity, Google e Bing (trattando separatamente i crawler di addestramento, di indicizzazione e di consultazione in tempo reale, poiché un sito può bloccarne uno e consentirne un altro). Un crawler di recupero o di indicizzazione bloccato è segnalato come critico; un agente di consultazione in tempo reale bloccato ha priorità media; un blocco limitato al solo addestramento viene annotato come scelta di policy legittima e neutra, che non incide sulle citazioni.
 - **Rendering lato server e rilevamento di gusci renderizzati lato client**: la maggior parte dei crawler di IA non esegue JavaScript. Se il contenuto essenziale di una pagina compare solo dopo il rendering lato client, il fatto viene segnalato come rilievo critico e in primo piano, non come nota tecnica minore, perché è un problema di recuperabilità che viene prima di qualsiasi ottimizzazione dei contenuti.
 - **Igiene di recupero**: controlla un campione di link interni alla ricerca di link rotti e catene di reindirizzamenti.
-- **Presenza nell'indice di Bing**: verifica se la pagina risulti indicizzata da Bing, poiché Microsoft Copilot e parte della ricerca di ChatGPT si appoggiano all'indice di Bing. I verdetti sono volutamente prudenti: un esito non conclusivo viene riportato come tale anziché ipotizzato, e il verdetto «non elencata» compare solo quando la verifica ha un segnale reale a sostegno.
+- **Presenza nell'indice di Bing**: verifica se la pagina risulti indicizzata da Bing, poiché Microsoft Copilot risponde dall’indice di Bing (ChatGPT ha un indice tutto suo, quindi questo non è un segnale su ChatGPT). I verdetti sono volutamente prudenti: un esito non conclusivo viene riportato come tale anziché ipotizzato, e il verdetto «non elencata» compare solo quando la verifica ha un segnale reale a sostegno.
 
 ## Contesto esterno e di copertura
 

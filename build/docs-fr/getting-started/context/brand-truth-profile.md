@@ -1,5 +1,5 @@
 ---
-source_hash: 266b8292b4154e6b52eab317de9e91cce7429af96c1d84999875493bfb8f09a8
+source_hash: c5ff2a271e0bd65a359303913cb736f19793b0f0562c6c4941f37c02efd742fb
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -54,7 +54,17 @@ Tous les champs sont facultatifs, mais plus vous en renseignez, plus Hi, Moose p
 
 ## Comment il est utilisé
 
+### Détecter les représentations erronées
+
 Pendant une exécution de visibilité, Hi, Moose charge le Brand Truth Profile du projet (lorsqu'il contient des informations significatives) et l'utilise pour évaluer chaque réponse de l'IA à la recherche de déformations ou d'écarts, en la comparant à votre description canonique, à vos offres, à vos concurrents, à votre vocabulaire privilégié et à proscrire, ainsi qu'aux schémas de déformation connus, plutôt que de se contenter de vérifier si le nom de votre marque apparaît.
+
+### Écrire un contenu qui vise votre acheteur
+
+Le profil alimente aussi les outils de contenu. Les [content briefs](../../features/content-briefs.md), les [brouillons d'articles](../../features/blog-post-draft.md), les [key points](../../features/key-points.md) et les [FAQ](../../features/faq-generator.md) le lisent avant d'écrire quoi que ce soit, y compris vos **segments de client idéal** et les notes libres qui les accompagnent.
+
+C'est la différence entre un brief écrit pour « des lecteurs intéressés par le sujet » et un brief écrit pour des équipes opérationnelles mid-market qui évaluent un changement de solution. Renseigner une seule fois les champs de client idéal change la production de tous les outils de rédaction par la suite, ce qui en fait parmi les champs les plus rentables de cet écran.
+
+[Send Moose](../../send-moose/overview.md) lit lui aussi le profil sur les travaux qui concernent votre propre marque.
 
 ## En quoi cela diffère de la Brand Voice
 

@@ -17,6 +17,7 @@ Tools are grouped by what you're trying to do.
 | [AEO Audit a URL](../features/aeo-audits.md) | Score any page for answer-engine readiness |
 | [Capture ChatGPT fan-out queries](../features/fan-out-queries.md) | See the sub-questions behind a prompt |
 | [Capture Google AI Mode grounding queries](../features/grounding-queries.md) | Log the searches AI Mode runs to ground an answer |
+| [Create an entity graph](../features/entity-graph.md) | Map what your site says it's about, and how it connects |
 
 ### Enrich a page
 
@@ -35,6 +36,12 @@ Tools are grouped by what you're trying to do.
 | [Create landing page content](../features/landing-page-content.md) | A full page, structured for AI answers |
 | [Create a new glossary post](../features/glossary-post.md) | Define a term so engines can cite it |
 | [Create a content brief](../features/content-briefs.md) | Outline, entities, and questions to cover |
+
+### Automate
+
+| Tool | What it does |
+|---|---|
+| [Create a workflow](../workflows/overview.md) | Turn a recurring job into a background routine |
 
 ## You don't have to use the menu
 

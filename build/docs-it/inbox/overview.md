@@ -1,5 +1,5 @@
 ---
-source_hash: 9705deb0dc37b51cf84f956088049d0d7d87b416de55439c84ef17b2ef0d3d9c
+source_hash: 1f72c74789bd33352c926958756e3e381c10802d74ab9dd7100a890e068e2262
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -26,6 +26,12 @@ Ogni voce dell'Inbox rimanda a qualcosa di concreto che può aprire e su cui pu�
 Ogni voce propone un'azione successiva quando ha senso: aprire l'artefatto, avviare un brief, dare seguito a un audit, rivedere una bozza, approvare una modifica o riprovare un'esecuzione fallita. Così non legge soltanto una notifica, ma è a un clic dall'agire.
 
 I riepiloghi di site monitoring includono inoltre l'azione **Chiedi a Moose di tutto questo**, che consegna l'istantanea della scansione alla [chat](../chat/overview.md) e le chiede da dove cominciare.
+
+## Non letti tra i progetti
+
+L'Inbox è limitata al progetto corrente, ma gli elementi non letti non spariscono quando cambia progetto.
+
+La barra laterale mostra un contatore di non letti sul selettore di progetto e la avvisa quando ci sono **elementi non letti in un altro progetto**, così che una segnalazione nello spazio di un cliente che non ha aperto questa settimana non resti invisibile. Aprendo il progetto il contatore si azzera man mano che legge.
 
 ## Filtrare l'Inbox
 

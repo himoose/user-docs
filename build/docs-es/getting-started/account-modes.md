@@ -1,5 +1,5 @@
 ---
-source_hash: 807f4fd0f8157bf27491590b13dd7b2b18f5cb12dd648c025f2c46cabf3ea0ed
+source_hash: 32a1d4d064d3d168231ee9531b0835d37b75dbd7507b4cc6c64f2b5bbb057681
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -72,9 +72,9 @@ Los tres funcionan con los modelos de Hi, Moose e incluyen puestos de equipo ili
 
 | Plan | Precio | Proyectos | Créditos mensuales | Modelos |
 |---|---|---|---|---|
-| Standard | 79 USD/mes o 849 USD/año | 3 | 1.700.000 | Modelos estándar, más locales |
-| Professional | 129 USD/mes o 1389 USD/año | 5 | 3.000.000 | Todos los modelos, más locales |
-| Premium | 249 USD/mes o 2689 USD/año | 10 | 6.000.000 | Todos los modelos, más locales |
+| Standard | 79 USD/mes o 849 USD/año | 3 | 2.200.000 | Modelos estándar, más locales |
+| Professional | 129 USD/mes o 1389 USD/año | 5 | 3.750.000 | Todos los modelos, más locales |
+| Premium | 249 USD/mes o 2689 USD/año | 10 | 7.500.000 | Todos los modelos, más locales |
 
 ## Planes Enterprise y para agencias
 

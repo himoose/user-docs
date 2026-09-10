@@ -1,5 +1,5 @@
 ---
-source_hash: 807f4fd0f8157bf27491590b13dd7b2b18f5cb12dd648c025f2c46cabf3ea0ed
+source_hash: 32a1d4d064d3d168231ee9531b0835d37b75dbd7507b4cc6c64f2b5bbb057681
 ---
 # Tipi di account e piani
 
@@ -67,9 +67,9 @@ Tutti e tre funzionano con i modelli di Hi, Moose e comprendono postazioni del t
 
 | Piano | Prezzo | Progetti | Crediti mensili | Modelli |
 |---|---|---|---|---|
-| Standard | 79 USD/mese o 849 USD/anno | 3 | 1.700.000 | Modelli standard, più quelli locali |
-| Professional | 129 USD/mese o 1.389 USD/anno | 5 | 3.000.000 | Tutti i modelli, più quelli locali |
-| Premium | 249 USD/mese o 2.689 USD/anno | 10 | 6.000.000 | Tutti i modelli, più quelli locali |
+| Standard | 79 USD/mese o 849 USD/anno | 3 | 2.200.000 | Modelli standard, più quelli locali |
+| Professional | 129 USD/mese o 1.389 USD/anno | 5 | 3.750.000 | Tutti i modelli, più quelli locali |
+| Premium | 249 USD/mese o 2.689 USD/anno | 10 | 7.500.000 | Tutti i modelli, più quelli locali |
 
 ## Piani Enterprise e per agenzie
 

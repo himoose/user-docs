@@ -25,10 +25,20 @@ Chat isn't limited to text generation. During a conversation, Moose can call too
 | Search Console | Query your connected [Search Console](../integrations/google-search-console.md) data |
 | Instant brand check | Check a query across five AI engines, see [Instant AI Search Brand Check](../tools/instant-brand-check.md) |
 | Coverage check | Find whether your site already covers a topic |
+| Research a topic | Go and read around a subject before answering |
+| Recall past chats | Look up what you discussed and decided in earlier chats in this project |
+| Visibility history | Query your tracked [visibility](../visibility/overview.md) history — mentions, citations, sources, movement |
+| Read the entity graph | Answer from your project's [entity graph](../features/entity-graph.md) |
+| Build an entity graph | Generate a new one |
 | Image generation | Produce an image for a draft |
 | App help | Point you at the right documentation or to support |
 
+Moose can also open the intake for an [AEO audit](../features/aeo-audits.md), a [content brief](../features/content-briefs.md), [FAQs](../features/faq-generator.md), [key points](../features/key-points.md) or an entity graph, and run it from the conversation.
+
 Tool use works on managed plans, BYOK plans, and local Gemma 4 models alike.
+
+!!! note "Recall is local and scoped to the project"
+    Past-chat recall is indexed on your machine and only ever searches the current project's chats. Ask what you decided about a page three weeks ago and Moose goes and looks it up rather than reconstructing it from the current conversation.
 
 !!! note "Search Console questions are answered agentically"
     Moose queries your Search Console data iteratively rather than running one fixed report. Ask a vague question and it will narrow down through several queries to answer it, rather than returning a generic dump.

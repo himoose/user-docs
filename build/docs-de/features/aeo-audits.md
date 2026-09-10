@@ -1,5 +1,5 @@
 ---
-source_hash: a8e831ea98a893f4158e5124991eae0686f8eb64e2448fe9541f8444c4680099
+source_hash: 8d507a868f7b497bde6ab6ed4a9826d17aab12195b04317adea91787622fcc6a
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -36,7 +36,7 @@ Neben der inhaltlichen Bewertung prüft jedes Audit, ob eine Antwortmaschine die
 - **Zugang für KI-Crawler**: prüft die robots.txt-Regeln für jeden der spezifischen KI-Crawler-Bezeichner von OpenAI, Anthropic, Perplexity, Google und Bing (Trainings-, Indexierungs- und Live-Abruf-Crawler jeweils getrennt, denn eine Website kann den einen sperren und den anderen zulassen). Ein gesperrter Abruf- oder Indexierungs-Crawler wird als kritisch gekennzeichnet; ein gesperrter Live-Abruf-Agent hat mittlere Priorität; eine reine Trainingssperre wird als legitime, neutrale Entscheidung vermerkt, die Zitierungen nicht beeinflusst.
 - **Serverseitiges Rendern und Erkennung clientseitig gerenderter Hüllen**: Die meisten KI-Crawler führen kein JavaScript aus. Erscheinen die wesentlichen Inhalte einer Seite erst nach clientseitigem Rendern, wird das als kritischer, hervorgehobener Befund gekennzeichnet und nicht als technische Randnotiz, denn es ist ein Abrufproblem, das jeder inhaltlichen Optimierung vorausgeht.
 - **Abrufhygiene**: prüft eine Stichprobe interner Links auf tote Links und Weiterleitungsketten.
-- **Vorhandensein im Bing-Index**: prüft, ob die Seite bei Bing indexiert zu sein scheint, denn Microsoft Copilot und Teile der ChatGPT-Suche stützen sich auf den Bing-Index. Die Urteile sind bewusst zurückhaltend: Ein nicht eindeutiges Ergebnis wird als nicht eindeutig gemeldet statt geraten, und das Urteil „nicht gelistet" erscheint nur, wenn die Prüfung dafür ein belastbares Signal hat.
+- **Vorhandensein im Bing-Index**: prüft, ob die Seite bei Bing indexiert zu sein scheint, denn Microsoft Copilot antwortet aus dem Bing-Index (ChatGPT hat einen eigenen Index, das ist also kein ChatGPT-Signal). Die Urteile sind bewusst zurückhaltend: Ein nicht eindeutiges Ergebnis wird als nicht eindeutig gemeldet statt geraten, und das Urteil „nicht gelistet" erscheint nur, wenn die Prüfung dafür ein belastbares Signal hat.
 
 ## Externer Kontext und Abdeckung
 

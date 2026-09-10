@@ -64,9 +64,9 @@ All three run on Hi, Moose's models, include unlimited team seats, unlimited aud
 
 | Plan | Price | Projects | Monthly credits | Models |
 |---|---|---|---|---|
-| Standard | $79/mo or $849/yr | 3 | 1,700,000 | Standard models, plus local |
-| Professional | $129/mo or $1,389/yr | 5 | 3,000,000 | All models, plus local |
-| Premium | $249/mo or $2,689/yr | 10 | 6,000,000 | All models, plus local |
+| Standard | $79/mo or $849/yr | 3 | 2,200,000 | Standard models, plus local |
+| Professional | $129/mo or $1,389/yr | 5 | 3,750,000 | All models, plus local |
+| Premium | $249/mo or $2,689/yr | 10 | 7,500,000 | All models, plus local |
 
 ## Enterprise & Agency plans
 

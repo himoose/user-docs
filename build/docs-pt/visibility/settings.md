@@ -1,5 +1,5 @@
 ---
-source_hash: 185a9611ccdaef3c98b73cc4349bc1d586a1fa03b38212ecab7ffca94af54a21
+source_hash: 0bf4df4be6bc4ecf9f90b0973d78ad5121f1c5f07aa1f1c11b5f4615df894dae
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -20,6 +20,9 @@ As configurações de Visibilidade controlam com que frequência o Hi, Moose ver
 
 !!! note "Execuções agendadas exigem este dispositivo ligado"
     No **Preview Mode** e nos planos **BYOK**, o agendamento roda localmente na sua máquina: uma execução agendada não começa com o computador desligado, em suspensão ou com o Hi, Moose totalmente fechado. Mantenha o aplicativo aberto (ou minimizado na bandeja do sistema) para que as execuções agendadas aconteçam. Os **planos gerenciados** liberam um agendador na nuvem sempre ativo, que não depende do seu dispositivo estar ligado. Os mecanismos de consulta local continuam exigindo o aplicativo aberto em qualquer plano, porque essas verificações partem da sua máquina.
+
+!!! note "Execuções na nuvem cobrem todos os prompts em todos os mecanismos"
+    Uma execução agendada na nuvem verifica cada um dos seus prompts monitorados contra cada mecanismo que você selecionou para ele, numa única passagem. Não há amostragem da sua lista de prompts por execução, então os números que uma execução agendada reporta cobrem o conjunto inteiro, e não uma fatia dele.
 
 ## Notificações por e-mail
 
@@ -53,6 +56,30 @@ Os modelos gratuitos do OpenRouter não são mais oferecidos como opção de ava
 ## Modelos padrão para novos prompts
 
 Escolha quais mecanismos ficam pré-selecionados sempre que você adiciona um prompt no [Gerenciador de Prompts](prompt-manager.md); depois você pode alterar a seleção prompt a prompt. Os modelos marcados como **Pago** exigem um plano pago ou BYOK; o Preview Mode fica limitado aos modelos de consulta local. Cada modelo marcado aqui entra no consumo de tokens quando as verificações de visibilidade rodam.
+
+### Os mecanismos que você pode monitorar
+
+| Mecanismo | Como roda | Plano |
+|---|---|---|
+| ChatGPT | API | Qualquer |
+| ChatGPT (local fetch) | Da sua máquina | Qualquer |
+| Claude | API | Qualquer |
+| Gemini | API | Qualquer |
+| Grok | API | Qualquer |
+| Grok (local fetch) | Da sua máquina | Qualquer |
+| Perplexity | API | Qualquer |
+| Perplexity (local fetch) | Da sua máquina | Qualquer |
+| Google AI Mode (local fetch) | Da sua máquina | Qualquer |
+| Google Search AI Overview (local fetch) | Da sua máquina | Qualquer |
+| Google AI Mode | API | Pago |
+| Google AI Overviews | API | Pago |
+| Bing Copilot | API | Pago |
+| DeepSeek | API | Pago |
+| Meta AI | API | Pago |
+
+**DeepSeek** e **Meta AI** vêm desligados por padrão. Vale ligá-los se a sua categoria tem tração real nos mercados em que esses dois são fortes; se não tem, deixá-los desligados mantém o custo de cada execução baixo.
+
+Os mecanismos **local fetch** leem a superfície pública de busca com IA a partir da sua própria máquina, em vez de chamar uma API. Eles não custam tokens, mas exigem o aplicativo de desktop aberto quando a execução acontece, em qualquer plano.
 
 ## Refazer a configuração inicial
 

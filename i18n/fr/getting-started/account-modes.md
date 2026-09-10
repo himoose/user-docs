@@ -1,5 +1,5 @@
 ---
-source_hash: 807f4fd0f8157bf27491590b13dd7b2b18f5cb12dd648c025f2c46cabf3ea0ed
+source_hash: 32a1d4d064d3d168231ee9531b0835d37b75dbd7507b4cc6c64f2b5bbb057681
 ---
 # Types de compte et forfaits
 
@@ -67,9 +67,9 @@ Les trois fonctionnent avec les modèles de Hi, Moose et comprennent des sièges
 
 | Forfait | Prix | Projets | Crédits mensuels | Modèles |
 |---|---|---|---|---|
-| Standard | 79 USD/mois ou 849 USD/an | 3 | 1 700 000 | Modèles standard, plus locaux |
-| Professional | 129 USD/mois ou 1 389 USD/an | 5 | 3 000 000 | Tous les modèles, plus locaux |
-| Premium | 249 USD/mois ou 2 689 USD/an | 10 | 6 000 000 | Tous les modèles, plus locaux |
+| Standard | 79 USD/mois ou 849 USD/an | 3 | 2 200 000 | Modèles standard, plus locaux |
+| Professional | 129 USD/mois ou 1 389 USD/an | 5 | 3 750 000 | Tous les modèles, plus locaux |
+| Premium | 249 USD/mois ou 2 689 USD/an | 10 | 7 500 000 | Tous les modèles, plus locaux |
 
 ## Forfaits Enterprise et agences
 

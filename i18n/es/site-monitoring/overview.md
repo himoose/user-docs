@@ -1,11 +1,11 @@
 ---
-source_hash: 87a7b6f091685fae0a59b09ee8abe0ec965085647eb82bd29c1661777efb87ab
+source_hash: 29ee2dfc08c9390fc91d11ea66fc96fc6fef4439d84b5f28508c2afbf8f0c1d3
 ---
 # Supervisión del sitio
 
 ## Para qué sirve
 
-Hi, Moose mantiene una imagen local de su sitio web: qué páginas existen, qué contienen y qué ha cambiado desde la última vez. Esa imagen alimenta tres cosas: los avisos de cambios relevantes para AEO en su [Inbox](../inbox/overview.md), el índice de búsqueda semántica que Moose utiliza para responder preguntas sobre su propio sitio, y el inventario de páginas del que se nutren las [auditorías](../features/aeo-audits.md) y los [briefs](../features/content-briefs.md).
+Hi, Moose mantiene una imagen local de su sitio web: qué páginas existen, qué contienen y qué ha cambiado desde la última vez. Esa imagen alimenta cuatro cosas: los avisos de cambios relevantes para AEO en su [Inbox](../inbox/overview.md), el índice de búsqueda semántica que Moose utiliza para responder preguntas sobre su propio sitio, el inventario de páginas del que se nutren las [auditorías](../features/aeo-audits.md) y los [briefs](../features/content-briefs.md), y el [entity graph](../features/entity-graph.md) que mapea de qué habla su sitio.
 
 Todo esto se encuentra en **Configuración → Supervisión del sitio**, acotado al proyecto actual.
 
@@ -13,9 +13,19 @@ Todo esto se encuentra en **Configuración → Supervisión del sitio**, acotado
 
 Active **Ejecutar rastreo semanal del sitio** y Hi, Moose actualizará las páginas supervisadas con cadencia semanal y le avisará cuando aparezcan cambios relevantes. Elija el día y la hora en su horario local.
 
-Los rastreos manuales siguen disponibles en cualquier caso. **Ejecutar rastreo ahora** inicia un rastreo completo de inmediato, con el progreso en la barra de estado inferior de la ventana. Puede **detener** un rastreo en curso, y las páginas encontradas hasta ese momento se conservan en lugar de descartarse.
+Los rastreos manuales siguen disponibles en cualquier caso. **Ejecutar rastreo ahora** inicia un rastreo completo de inmediato, con el progreso en la barra de estado inferior de la ventana. Puede **pausar**, **reanudar** o **detener** un rastreo en curso, y las páginas encontradas hasta ese momento se conservan en lugar de descartarse.
 
 Los sitios grandes tardan unos minutos.
+
+### El rastreador marca su propio ritmo
+
+Cada sitio tiene una velocidad a la que le resulta cómodo ser leído, y no es la misma para un sitio estático en una CDN que para una tienda con base de datos en un alojamiento compartido. Hi, Moose no la deduce de un ajuste: la encuentra.
+
+El rastreo empieza suave, acelera mientras las páginas siguen respondiendo rápido y afloja en cuanto el sitio da señales de esfuerzo: una respuesta más lenta, o una respuesta de límite de peticiones o de servidor ocupado. Cuando ocurre, la barra de estado indica **Ralentizando para adaptarse al sitio**, y el rastreo continúa al ritmo más lento en lugar de castigar al servidor o rendirse.
+
+El efecto práctico es que los inventarios llegan completos. Un rastreo que se topaba con un límite de peticiones a mitad de camino devolvía una imagen parcial de su sitio, y eso volvía parcial también todo lo construido encima: el índice de búsqueda, las auditorías y los briefs.
+
+No hace falta configurar nada de esto.
 
 ## El índice de búsqueda
 
@@ -34,6 +44,7 @@ La indexación es por pasajes, no por páginas. Una página larga se convierte e
 Las páginas que Hi, Moose comprueba en busca de cambios relevantes para AEO. Las páginas encontradas por el descubrimiento del sitio, por [Google Search Console](../integrations/google-search-console.md) y por las [ejecuciones de visibilidad](../visibility/overview.md) aparecen aquí automáticamente.
 
 También puede añadir páginas a mano con una URL completa, buscar y filtrar la lista, pasar páginas y eliminar las que no le interesen.
+Las páginas supervisadas están limitadas al dominio del propio proyecto. Sus subdominios son válidos; un dominio ajeno se rechaza, de modo que la supervisión de un proyecto no puede llenarse en silencio con páginas de otro.
 
 ## Rutas bloqueadas
 
@@ -42,6 +53,14 @@ Los rastreos omiten las rutas bloqueadas y todo lo que cuelga de ellas, y las p�
 La coincidencia es por prefijo de segmento de ruta. Bloquear `/results/` cubre `/results/` y todas sus subrutas, pero **no** `/results-archive/`: tiene que coincidir el segmento, no solo la cadena de texto.
 
 Es la herramienta adecuada para páginas de resultados de búsqueda, páginas de listado filtradas, archivos paginados y cualquier otra cosa que genere un gran número de URL casi idénticas que prefiera no rastrear, indexar ni recibir avisos sobre ellas.
+
+## Qué antigüedad tiene cada página
+
+Mientras rastrea, Hi, Moose lee las fechas de publicación y de última modificación que declaran sus páginas (en sus datos estructurados, en sus metadatos y en sus elementos `<time>`) y las guarda junto a la página.
+
+Esto importa porque la frescura es uno de los factores que los motores de respuesta sopesan al decidir en qué fuente confiar para una pregunta con respuesta actual. Una página que no dice nada sobre cuándo se escribió no puede defender ese argumento. Sus [auditorías AEO](../features/aeo-audits.md) usan estas fechas al puntuar la frescura, y ahí es donde verá el resultado.
+
+Si una página no declara ninguna fecha, eso ya es en sí un hallazgo sobre el que actuar.
 
 ## Qué llega a su Inbox
 

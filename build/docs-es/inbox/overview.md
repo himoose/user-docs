@@ -1,5 +1,5 @@
 ---
-source_hash: 9705deb0dc37b51cf84f956088049d0d7d87b416de55439c84ef17b2ef0d3d9c
+source_hash: 1f72c74789bd33352c926958756e3e381c10802d74ab9dd7100a890e068e2262
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -26,6 +26,12 @@ Cada elemento del Inbox apunta a algo real que puede abrir y sobre lo que puede 
 Cada elemento muestra una acción siguiente sugerida cuando tiene sentido (abrir el artefacto, iniciar un brief, dar seguimiento a una auditoría, revisar un borrador, aprobar un cambio o reintentar una ejecución fallida), de modo que no solo lee una notificación, sino que está a un clic de actuar.
 
 Los resúmenes de site monitoring incluyen además una acción **Preguntar a Moose sobre todo esto** que entrega la instantánea del rastreo al [chat](../chat/overview.md) y le pregunta qué hacer primero.
+
+## Sin leer entre proyectos
+
+El Inbox se limita al proyecto actual, pero los elementos sin leer no desaparecen cuando cambia de proyecto.
+
+La barra lateral muestra un contador de sin leer en el selector de proyectos y le avisa cuando hay **elementos sin leer en otro proyecto**, de modo que un hallazgo en el espacio de un cliente que no ha abierto esta semana no se quede sin ver. Abrir el proyecto lo va limpiando a medida que lee.
 
 ## Filtrar el Inbox
 

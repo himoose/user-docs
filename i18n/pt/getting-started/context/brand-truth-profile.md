@@ -1,5 +1,5 @@
 ---
-source_hash: 266b8292b4154e6b52eab317de9e91cce7429af96c1d84999875493bfb8f09a8
+source_hash: c5ff2a271e0bd65a359303913cb736f19793b0f0562c6c4941f37c02efd742fb
 ---
 # Perfil de Verdade da Marca
 
@@ -49,7 +49,17 @@ Todos os campos são opcionais, mas quanto mais você preencher, com mais precis
 
 ## Como ele é usado
 
+### Detectar deturpações
+
 Durante uma execução de visibilidade, o Hi, Moose carrega o Perfil de Verdade da Marca do projeto (quando ele tem conteúdo significativo) e o usa para avaliar cada resposta da IA em busca de distorção ou desvio, comparando-a com sua descrição canônica, suas ofertas, seus concorrentes, seu vocabulário preferido e evitado e os padrões conhecidos de distorção, em vez de apenas checar se o nome da sua marca aparece.
+
+### Escrever conteúdo dirigido ao seu comprador
+
+O perfil também alimenta as ferramentas de conteúdo. Os [briefings de conteúdo](../../features/content-briefs.md), os [rascunhos de post](../../features/blog-post-draft.md), os [pontos principais](../../features/key-points.md) e as [FAQs](../../features/faq-generator.md) leem o perfil antes de escrever qualquer coisa, incluindo seus **segmentos de cliente ideal** e as notas livres ao lado deles.
+
+Essa é a diferença entre um briefing escrito para "leitores interessados no assunto" e um escrito para times de operações do mid-market avaliando uma troca de fornecedor. Preencher os campos de cliente ideal uma vez muda o resultado de todas as ferramentas de escrita dali em diante, o que os torna alguns dos campos mais valiosos desta tela.
+
+O [Send Moose](../../send-moose/overview.md) também lê o perfil em trabalhos sobre a sua própria marca.
 
 ## Como isso difere da Voz da marca
 

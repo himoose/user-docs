@@ -163,6 +163,8 @@ nav:
   - Panoramica: workflows/overview.md
   - Recuperare la visibilità perduta: workflows/recover-lost-visibility.md
   - Creare nuovi contenuti: workflows/create-new-content.md
+- Send Moose:
+  - Panoramica: send-moose/overview.md
 - Chat:
   - Panoramica: chat/overview.md
   - Strumenti e specialisti della chat: chat/tools-and-specialists.md
@@ -178,6 +180,7 @@ nav:
   - Il menu Strumenti: tools/overview.md
   - Verifica istantanea del marchio nella ricerca con IA: tools/instant-brand-check.md
   - AEO Audits: features/aeo-audits.md
+  - Entity Graph: features/entity-graph.md
   - Content Briefs: features/content-briefs.md
   - Generatore di FAQ: features/faq-generator.md
   - Estrattore di Key Points: features/key-points.md

@@ -1,5 +1,5 @@
 ---
-source_hash: 90bb543cefb714f7fdb6facb1f7799b751aff22949ece082264e7713b4992995
+source_hash: 659813c24e3d334cb65df479575d60bccc59736ff6f29cd0a970408673a3f493
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -21,7 +21,9 @@ Abra el selector de modelo para ver los modelos disponibles en su [plan](../gett
 - **Local**: se ejecuta íntegramente en su dispositivo (véase más abajo).
 - Un **distintivo multiplicador** en los modelos más costosos, que indica cuánto más consumen de su saldo respecto a la opción estándar.
 
-La oferta sigue lo que publican los proveedores de modelos y actualmente incluye las familias Claude, GPT, Gemini y Gemma. Si un modelo no está disponible en su plan, Hi, Moose se lo dice directamente en lugar de recurrir a otro en silencio.
+La oferta sigue lo que publican los proveedores de modelos. Actualmente abarca las familias Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step y Trinity, incluidas varias opciones gratuitas y las versiones locales de Gemma. Si un modelo no está disponible en su plan, Hi, Moose se lo dice directamente en lugar de recurrir a otro en silencio.
+
+La lista cambia a medida que los proveedores lanzan y retiran modelos, así que trate el propio selector como la respuesta actual y no esta página.
 
 ## Modelos locales
 
@@ -43,6 +45,8 @@ Los modelos más caros están limitados por plan. Si el suyo no los incluye, se 
 ## Fundamentación con búsqueda web
 
 El chat puede fundamentar sus respuestas en resultados de búsqueda web en vivo para la conversación actual. Está disponible en BYOK Premium, BYOK Agency y todos los planes gestionados. No se incluye en BYOK Free ni en Preview Mode.
+
+En los planes gestionados, cada búsqueda web cuesta **500 créditos** además del consumo de tokens del propio modelo, porque la búsqueda pasa por un proveedor de pago y no es gratuita para nosotros. Una conversación que busque varias veces lo reflejará en su saldo. En los planes BYOK, la búsqueda se factura a través de su propia clave de OpenRouter como cualquier otra llamada.
 
 ## Idioma
 

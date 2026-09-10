@@ -1,5 +1,5 @@
 ---
-source_hash: a520f220686779a4e43944e38365ca5142c3e85eb20112e98bb99e9f73e340de
+source_hash: e7e6f1bb4dadb22b857f73036d7b32d3fbaf18126ab7439d1d47d861e62269af
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -25,6 +25,7 @@ Die Werkzeuge sind danach gruppiert, was Sie erreichen möchten.
 | [Eine URL per AEO auditieren](../features/aeo-audits.md) | Bewertet jede Seite für Antwortmaschinen |
 | [Fan-out-Suchanfragen von ChatGPT erfassen](../features/fan-out-queries.md) | Zeigt die Teilfragen hinter einem Prompt |
 | [Grounding-Suchanfragen von Google AI Mode erfassen](../features/grounding-queries.md) | Protokolliert die Suchen, mit denen AI Mode eine Antwort fundiert |
+| [Entity Graph erstellen](../features/entity-graph.md) | Kartieren, worum es auf Ihrer Website geht und wie es zusammenhängt |
 
 ### Enrich a page
 
@@ -43,6 +44,12 @@ Die Werkzeuge sind danach gruppiert, was Sie erreichen möchten.
 | [Landingpage-Inhalte erstellen](../features/landing-page-content.md) | Eine vollständige Seite, strukturiert für KI-Antworten |
 | [Einen Glossarbeitrag erstellen](../features/glossary-post.md) | Definiert einen Begriff so, dass Maschinen ihn zitieren können |
 | [Einen Content-Brief erstellen](../features/content-briefs.md) | Gliederung, Entitäten und abzudeckende Fragen |
+
+### Automatisieren
+
+| Werkzeug | Was es tut |
+|---|---|
+| [Workflow erstellen](../workflows/overview.md) | Eine wiederkehrende Aufgabe in eine Hintergrundroutine verwandeln |
 
 ## Sie müssen das Menü nicht benutzen
 

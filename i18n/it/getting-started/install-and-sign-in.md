@@ -1,5 +1,5 @@
 ---
-source_hash: d26bd04f7f798fab89bd03eeac0f5a5397eb68290de23de6c9325e1c013f4f25
+source_hash: 8752131a2b250a931754464dabe425c465e2c954eb3dd94617a78b498040b2ca
 ---
 # Installazione e accesso
 
@@ -15,26 +15,36 @@ Installare l'app desktop di Hi, Moose sul suo computer ed effettuare il primo ac
 
 ## Passo dopo passo
 
-### 1. Scarichi il programma di installazione
+### 1. Crei il suo account
 
-Scarichi il programma di installazione desktop di Hi, Moose per il suo sistema operativo dal link fornito dal team di Hi, Moose o dalla pagina delle versioni dell'app.
+Può partire dal web o dall'app: entrambe le strade arrivano nello stesso posto.
 
-- **Windows**: esegua il programma di installazione `.exe`.
-- **macOS**: apra il file `.dmg` e trascini Hi, Moose nella cartella Applicazioni.
+**Sul web**, vada su [console.himoose.com/sign-up](https://console.himoose.com/sign-up/). Le chiede che tipo di lavoro fa, prende il suo sito e crea l'account con Google o con un'e-mail. Gratis per iniziare, senza carta. Poi legge il suo sito e propone le ricerche con IA che vale la pena monitorare, così arriva nell'app con prompt reali già impostati anziché con una schermata vuota. L'ultimo passaggio le consegna l'installer per il suo sistema operativo.
 
-### 2. Acceda
+**Nell'app**, scarichi prima l'installer e crei l'account dalla schermata di accesso. Non si perde nulla in nessuno dei due casi: il percorso web si limita a fare il lavoro di configurazione prima dell'installazione.
 
-1. Apra Hi, Moose.
-2. Acceda con il suo indirizzo e-mail o con il suo account Google.
-3. Se non ha ancora un account, lo crei dalla stessa schermata.
+### 2. Installi l'app
 
-### 3. Scelga o confermi il suo piano
+- **Windows**: esegua l'installer `.exe`.
+- **macOS**: apra il `.dmg` e trascini Hi, Moose in Applicazioni.
 
-Dopo l'accesso arriverà alla procedura di configurazione iniziale, dove Hi, Moose le porrà alcune domande sul suo marchio e sul suo dominio per costruire automaticamente un contesto iniziale. Con un piano BYOK, a questo punto le verrà chiesto di inserire la sua chiave API di OpenRouter. Consulti [Tipi di account e piani](account-modes.md) per sapere di che cosa ha bisogno ciascun piano.
+Gli installer per entrambe le piattaforme sono nella [pagina dei download](https://himoose.com/downloads/).
 
-### 4. Crei il suo primo progetto
+### 3. Acceda
 
-La configurazione iniziale la accompagna nella creazione del suo primo [progetto](projects.md), lo spazio di lavoro che raccoglie la sua brand voice, i suoi concorrenti, le sue connessioni e i contenuti generati per un sito o un marchio.
+Apra Hi, Moose e acceda con l'e-mail o l'account Google che ha appena usato. Se si è registrato sul web, l'app riprende le ricerche che ha scelto lì.
+
+### 4. Il suo primo lavoro
+
+I nuovi account atterrano in un breve percorso di arrivo invece che su una schermata di impostazioni. Moose prende una delle sue ricerche monitorate, controlla se il suo sito ha già una pagina che le risponde e propone modifiche a quella pagina oppure ne scrive una nuova. Può inviare il risultato direttamente a un CMS collegato come bozza, copiarlo, oppure saltare tutto e guardarsi intorno da sé.
+
+Si conclude sulla schermata [Visibility](../visibility/overview.md), con un tour facoltativo di quello che sta guardando.
+
+### 5. Confermi il piano e la chiave
+
+Su un piano BYOK le verrà chiesto di aggiungere la sua chiave API di OpenRouter prima che venga eseguita qualsiasi chiamata ai modelli; veda [Tipi di account e piani](account-modes.md) per capire di che cosa ha bisogno ciascun piano.
+
+La configurazione iniziale crea anche il suo primo [progetto](projects.md), lo spazio di lavoro che raccoglie la sua brand voice, i suoi concorrenti, le sue connessioni e i contenuti generati per un sito o un marchio.
 
 ## Restare aggiornato
 

@@ -19,6 +19,12 @@ Each item shows a suggested next action where one makes sense — opening the ar
 
 Site monitoring digests also carry an **Ask Moose about all of this** action that hands the crawl snapshot to [chat](../chat/overview.md) and asks what to do first.
 
+## Unread across projects
+
+The Inbox is scoped to the current project, but unread items don't hide when you switch away from one.
+
+The sidebar shows an unread count on the project selector, and tells you when there are **unread items in another project**, so a finding in a client workspace you haven't opened this week doesn't sit unseen. Opening the project clears it as you read.
+
 ## Filtering the Inbox
 
 Two filters control what you see:

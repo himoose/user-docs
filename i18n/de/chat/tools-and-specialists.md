@@ -1,5 +1,5 @@
 ---
-source_hash: 6b12d8d972a33f212f60d823c287d184f083cfb60d8934f6b9ac8571ceb3c32e
+source_hash: b58a8ba99a61b64bb2209353aa0fa79de0889308fc888578032146544e64c54f
 ---
 # Chat-Werkzeuge und Spezialisten
 
@@ -28,10 +28,21 @@ Der Chat beschränkt sich nicht auf Texterzeugung. Im Verlauf eines Gesprächs k
 | Search Console | Ihre verbundenen [Search-Console](../integrations/google-search-console.md)-Daten abfragen |
 | Sofortige Markenprüfung | Eine Anfrage in fünf KI-Maschinen prüfen, siehe [Sofortprüfung der Marke](../tools/instant-brand-check.md) |
 | Abdeckungsprüfung | Feststellen, ob Ihre Website ein Thema bereits abdeckt |
+| Ein Thema recherchieren | Sich zu einem Thema einlesen, bevor geantwortet wird |
+| Frühere Chats abrufen | Nachschlagen, was Sie in früheren Chats dieses Projekts besprochen und entschieden haben |
+| Sichtbarkeitshistorie | Ihre verfolgte [Sichtbarkeits](../visibility/overview.md)-Historie abfragen: Erwähnungen, Zitationen, Quellen, Bewegung |
+| Entity Graph lesen | Aus dem [Entity Graph](../features/entity-graph.md) des Projekts antworten |
+| Entity Graph erstellen | Einen neuen erzeugen |
 | Bilderzeugung | Ein Bild für einen Entwurf erstellen |
 | Hilfe zur App | Sie zur passenden Dokumentation oder zum Support führen |
 
+Moose kann außerdem das Formular für einen [AEO-Audit](../features/aeo-audits.md), einen [Content Brief](../features/content-briefs.md), [FAQ](../features/faq-generator.md), [Key Points](../features/key-points.md) oder einen Entity Graph öffnen und direkt aus dem Gespräch heraus ausführen.
+
+
 Der Einsatz von Werkzeugen funktioniert in verwalteten Tarifen, BYOK-Tarifen und mit lokalen Gemma-4-Modellen gleichermaßen.
+
+!!! note "Der Abruf ist lokal und auf das Projekt begrenzt"
+    Der Abruf früherer Chats wird auf Ihrem Rechner indexiert und durchsucht nur die Chats des aktuellen Projekts. Fragen Sie, was Sie vor drei Wochen zu einer Seite entschieden haben, und Moose schlägt es nach, statt es aus dem laufenden Gespräch zu rekonstruieren.
 
 !!! note "Fragen zur Search Console werden agentisch beantwortet"
     Moose fragt Ihre Search-Console-Daten schrittweise ab, statt einen festen Bericht auszuführen. Stellen Sie eine vage Frage, grenzt er sie über mehrere Abfragen ein, um sie zu beantworten, statt einen allgemeinen Datenauszug zurückzugeben.

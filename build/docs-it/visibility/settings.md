@@ -1,5 +1,5 @@
 ---
-source_hash: 185a9611ccdaef3c98b73cc4349bc1d586a1fa03b38212ecab7ffca94af54a21
+source_hash: 0bf4df4be6bc4ecf9f90b0973d78ad5121f1c5f07aa1f1c11b5f4615df894dae
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -20,6 +20,9 @@ Le impostazioni di Visibility governano con quale frequenza Hi, Moose controlla 
 
 !!! note "Le esecuzioni programmate richiedono che questo dispositivo sia acceso"
     In **Preview Mode** e nei piani **BYOK** la pianificazione gira in locale sulla sua macchina: un'esecuzione programmata non può partire se il computer è spento o in sospensione, o se Hi, Moose è completamente chiuso. Tenga l'app aperta (o ridotta nella barra delle applicazioni) perché le esecuzioni programmate possano avvenire. I **piani gestiti** sbloccano una pianificazione in cloud sempre attiva, che non dipende dallo stato del suo dispositivo. I motori con interrogazione locale richiedono comunque l'app aperta, in qualunque piano, perché quei controlli partono dalla sua macchina.
+
+!!! note "Le esecuzioni nel cloud coprono ogni prompt su ogni motore"
+    Un'esecuzione programmata nel cloud controlla ciascuno dei suoi prompt monitorati su ciascun motore selezionato per quel prompt, in un unico passaggio. Non c'è alcun campionamento del suo elenco di prompt per esecuzione, quindi i numeri riportati da un'esecuzione programmata coprono l'intero insieme e non una parte.
 
 ## Notifiche via e-mail
 
@@ -53,6 +56,30 @@ I modelli gratuiti di OpenRouter non sono più proposti come opzione di valutazi
 ## Modelli predefiniti per i nuovi prompt
 
 Scelga quali motori sono preselezionati ogni volta che aggiunge un prompt nel [Prompt Manager](prompt-manager.md); potrà comunque modificare la selezione prompt per prompt. I modelli contrassegnati come **A pagamento** richiedono un piano a pagamento o BYOK; Preview Mode è limitato ai modelli con interrogazione locale. Ogni modello selezionato qui incide sul consumo di token quando vengono eseguite le verifiche di visibilità.
+
+### I motori che può monitorare
+
+| Motore | Come viene eseguito | Piano |
+|---|---|---|
+| ChatGPT | API | Qualsiasi |
+| ChatGPT (local fetch) | Dal suo computer | Qualsiasi |
+| Claude | API | Qualsiasi |
+| Gemini | API | Qualsiasi |
+| Grok | API | Qualsiasi |
+| Grok (local fetch) | Dal suo computer | Qualsiasi |
+| Perplexity | API | Qualsiasi |
+| Perplexity (local fetch) | Dal suo computer | Qualsiasi |
+| Google AI Mode (local fetch) | Dal suo computer | Qualsiasi |
+| Google Search AI Overview (local fetch) | Dal suo computer | Qualsiasi |
+| Google AI Mode | API | A pagamento |
+| Google AI Overviews | API | A pagamento |
+| Bing Copilot | API | A pagamento |
+| DeepSeek | API | A pagamento |
+| Meta AI | API | A pagamento |
+
+**DeepSeek** e **Meta AI** sono disattivati per impostazione predefinita. Vale la pena accenderli se la sua categoria ha una trazione reale nei mercati in cui questi due sono forti; altrimenti, lasciarli spenti tiene basso il costo di ogni esecuzione.
+
+I motori **local fetch** leggono la superficie pubblica di ricerca con IA dal suo computer invece di chiamare un'API. Non costano token, ma richiedono che l'app desktop sia aperta quando l'esecuzione parte, su qualsiasi piano.
 
 ## Ripetere la configurazione iniziale
 

@@ -1,5 +1,5 @@
 ---
-source_hash: a8e831ea98a893f4158e5124991eae0686f8eb64e2448fe9541f8444c4680099
+source_hash: 8d507a868f7b497bde6ab6ed4a9826d17aab12195b04317adea91787622fcc6a
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -36,7 +36,7 @@ Junto a la puntuación de contenido, cada auditoría comprueba si un motor de re
 - **Acceso de los rastreadores de IA**: comprueba las reglas de robots.txt para cada uno de los tokens concretos de rastreador de IA que utilizan OpenAI, Anthropic, Perplexity, Google y Bing (cubriendo por separado sus rastreadores de entrenamiento, de indexación y de consulta en vivo, ya que un sitio puede bloquear uno y permitir otro). Un rastreador de recuperación o de indexación bloqueado se marca como crítico; un agente de consulta en vivo bloqueado es de prioridad media; y un bloqueo solo de entrenamiento se anota como una decisión de política legítima y neutra que no afecta a las citas.
 - **Renderizado en servidor y detección de shell renderizado en cliente**: la mayoría de los rastreadores de IA no ejecutan JavaScript. Si el contenido esencial de una página solo aparece tras el renderizado en el cliente, se marca como un hallazgo crítico y destacado, no como una nota técnica menor, porque es un problema de recuperación previo a cualquier optimización de contenido.
 - **Higiene de recuperación**: comprueba una muestra de enlaces internos en busca de enlaces rotos y cadenas de redirecciones.
-- **Presencia en el índice de Bing**: comprueba si la página parece estar indexada por Bing, ya que Microsoft Copilot y parte de la búsqueda de ChatGPT dependen del índice de Bing. Los veredictos son deliberadamente conservadores: un resultado no concluyente se comunica como no concluyente en lugar de suponerse, y el veredicto de «no listada» solo se muestra cuando la comprobación tiene señales reales que lo respalden.
+- **Presencia en el índice de Bing**: comprueba si la página parece estar indexada por Bing, ya que Microsoft Copilot responde desde el índice de Bing (ChatGPT tiene su propio índice, así que esto no es una señal sobre ChatGPT). Los veredictos son deliberadamente conservadores: un resultado no concluyente se comunica como no concluyente en lugar de suponerse, y el veredicto de «no listada» solo se muestra cuando la comprobación tiene señales reales que lo respalden.
 
 ## Contexto externo y de cobertura
 

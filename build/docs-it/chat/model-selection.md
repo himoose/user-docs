@@ -1,5 +1,5 @@
 ---
-source_hash: 90bb543cefb714f7fdb6facb1f7799b751aff22949ece082264e7713b4992995
+source_hash: 659813c24e3d334cb65df479575d60bccc59736ff6f29cd0a970408673a3f493
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -21,7 +21,9 @@ Apra il selettore di modello per vedere i modelli disponibili nel suo [piano](..
 - **Locale**: gira interamente sul suo dispositivo (veda più sotto).
 - Un'**etichetta con moltiplicatore** sui modelli più costosi, che indica quanto consumano in più del suo saldo rispetto all'opzione standard.
 
-L'offerta segue ciò che pubblicano i fornitori di modelli e comprende attualmente le famiglie Claude, GPT, Gemini e Gemma. Se un modello non è disponibile nel suo piano, Hi, Moose glielo dice apertamente invece di ripiegare in silenzio su un altro.
+L'offerta segue ciò che pubblicano i fornitori di modelli. Al momento comprende le famiglie Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step e Trinity, comprese diverse opzioni gratuite e le versioni locali di Gemma. Se un modello non è disponibile nel suo piano, Hi, Moose glielo dice apertamente invece di ripiegare in silenzio su un altro.
+
+L'elenco cambia man mano che i fornitori pubblicano e ritirano modelli, quindi consideri il selettore stesso come la risposta aggiornata, non questa pagina.
 
 ## Modelli locali
 
@@ -43,6 +45,8 @@ I modelli più cari sono vincolati al piano. Se il suo non li comprende, compaio
 ## Ancoraggio tramite ricerca web
 
 La chat può fondare le proprie risposte su risultati di ricerca web in tempo reale per la conversazione in corso. È disponibile in BYOK Premium, BYOK Agency e in tutti i piani gestiti. Non è compresa in BYOK Free né in Preview Mode.
+
+Nei piani gestiti, ogni ricerca web costa **500 crediti** oltre al consumo di token del modello stesso, perché la ricerca passa da un fornitore a pagamento e non è gratuita per noi. Una conversazione che cerca più volte lo mostrerà sul suo saldo. Nei piani BYOK la ricerca viene addebitata tramite la sua chiave OpenRouter come qualsiasi altra chiamata.
 
 ## Lingua
 

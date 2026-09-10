@@ -1,5 +1,5 @@
 ---
-source_hash: 9705deb0dc37b51cf84f956088049d0d7d87b416de55439c84ef17b2ef0d3d9c
+source_hash: 1f72c74789bd33352c926958756e3e381c10802d74ab9dd7100a890e068e2262
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -26,6 +26,12 @@ Jeder Eintrag der Inbox verweist auf etwas Konkretes, das Sie öffnen und bearbe
 Jeder Eintrag zeigt eine sinnvolle nächste Aktion, wo es angebracht ist: das Artefakt öffnen, einen Brief starten, einem Audit nachgehen, einen Entwurf durchsehen, eine Änderung freigeben oder einen fehlgeschlagenen Lauf wiederholen. So lesen Sie nicht bloß eine Benachrichtigung, sondern sind einen Klick vom Handeln entfernt.
 
 Site-Monitoring-Zusammenfassungen enthalten zusätzlich die Aktion **Moose zu all dem fragen**, die die Momentaufnahme des Crawls an den [Chat](../chat/overview.md) übergibt und fragt, womit Sie beginnen sollten.
+
+## Ungelesenes über Projekte hinweg
+
+Die Inbox ist auf das aktuelle Projekt begrenzt, ungelesene Einträge verschwinden aber nicht, wenn Sie das Projekt wechseln.
+
+Die Seitenleiste zeigt einen Ungelesen-Zähler an der Projektauswahl und weist darauf hin, wenn es **ungelesene Einträge in einem anderen Projekt** gibt, damit ein Befund im Arbeitsbereich eines Kunden, den Sie diese Woche nicht geöffnet haben, nicht unbemerkt liegen bleibt. Beim Öffnen des Projekts baut er sich mit dem Lesen ab.
 
 ## Die Inbox filtern
 

@@ -83,6 +83,29 @@
     var distinctId = sessionValue('hm_aid', uuid);
     var sessionId = sessionValue('hm_sid', uuidv7);
 
+    // First-touch campaign, remembered for the session. The utm query string
+    // only exists on the landing URL, so an ad visitor who clicks through to a
+    // second page stops looking like paid traffic from that click onward. The
+    // per-URL utm_* properties below are left exactly as they were; these are
+    // separate, sticky, and safe to group by across a whole visit.
+    var CAMPAIGN_KEY = 'hm_campaign';
+    var CAMPAIGN_FIELDS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'ref'];
+    var campaign = {};
+    try {
+      var landing = {};
+      var landingParams = new URLSearchParams(location.search);
+      CAMPAIGN_FIELDS.forEach(function (key) {
+        var value = landingParams.get(key);
+        if (value) landing[key] = value.slice(0, 200);
+      });
+      if (Object.keys(landing).length) {
+        campaign = landing;
+        sessionStorage.setItem(CAMPAIGN_KEY, JSON.stringify(landing));
+      } else {
+        campaign = JSON.parse(sessionStorage.getItem(CAMPAIGN_KEY) || '{}') || {};
+      }
+    } catch (e) { /* storage blocked or unparsable: this visit stays untagged */ }
+
     // Device, browser and OS. posthog-js would derive these client-side; we
     // do the same parse ourselves, using PostHog's own value spellings so the
     // Web Analytics device/browser tiles read them.
@@ -139,7 +162,17 @@
         // Anonymous events only: never create a person profile from the web.
         $process_person_profile: false,
         site: SITE,
-        page_lang: document.documentElement.getAttribute('lang') || 'en'
+        page_lang: document.documentElement.getAttribute('lang') || 'en',
+        campaign_source: campaign.utm_source || '(untagged)',
+        campaign_medium: campaign.utm_medium,
+        campaign_name: campaign.utm_campaign,
+        campaign_ref: campaign.ref,
+        // Two cheap traffic-quality signals, both single booleans rather than
+        // anything fingerprintable. navigator.webdriver is the standard flag
+        // browsers set under automation. A real window has chrome above the
+        // page; a headless one is usually sized to the screen exactly.
+        is_webdriver: navigator.webdriver === true,
+        has_window_chrome: window.outerHeight > window.innerHeight
       };
       if (document.referrer) {
         try {
@@ -168,13 +201,23 @@
       if (properties) {
         for (var key in properties) payload.properties[key] = properties[key];
       }
-      // text/plain keeps this a CORS simple request (no preflight), and
-      // keepalive lets a download-click event outlive the navigation.
+      // text/plain keeps this a CORS simple request (no preflight) either way.
+      // sendBeacon is queued by the browser and survives the page going away,
+      // which keepalive fetch does not reliably do on a fast tab close; that
+      // was losing most exit events. fetch is the fallback when the beacon
+      // queue is full or the API is missing.
+      var body = JSON.stringify(payload);
+      try {
+        if (navigator.sendBeacon &&
+            navigator.sendBeacon(ENDPOINT, new Blob([body], { type: 'text/plain' }))) {
+          return;
+        }
+      } catch (e) { /* fall through to fetch */ }
       fetch(ENDPOINT, {
         method: 'POST',
         keepalive: true,
         headers: { 'Content-Type': 'text/plain' },
-        body: JSON.stringify(payload)
+        body: body
       }).catch(function () { /* analytics is best-effort */ });
     }
 
@@ -213,6 +256,15 @@
     var startedAt = Date.now();
     var clicked = false;
     var ticking = false;
+    var scrolled = false;
+    var interacted = false;
+
+    // A visitor who never moves the mouse, never presses a key and never
+    // scrolls has not read anything, whatever the timer says. One boolean,
+    // set once, no continuous input capture.
+    ['mousemove', 'keydown', 'touchstart', 'pointerdown', 'wheel'].forEach(function (type) {
+      window.addEventListener(type, function () { interacted = true; }, { once: true, passive: true });
+    });
 
     function pageHeight() {
       var body = document.body || {};
@@ -228,10 +280,22 @@
     function measureScroll() {
       var total = pageHeight();
       if (total <= 0) return;
-      var seen = (window.pageYOffset || document.documentElement.scrollTop || 0) +
-        window.innerHeight;
+      var offset = window.pageYOffset || document.documentElement.scrollTop || 0;
+      var seen = offset + window.innerHeight;
       var percent = Math.min(100, Math.round((seen / total) * 100));
       if (percent > maxScroll) maxScroll = percent;
+
+      // The first milestone is 25%, which on a long page is several screens
+      // down. Without this, a visitor who scrolled a little and one who never
+      // touched the page are indistinguishable: both report the percentage of
+      // the page their viewport happened to cover on arrival.
+      if (!scrolled && offset > 100) {
+        scrolled = true;
+        capture('scroll_started', {
+          seconds_to_first_scroll: Math.round((Date.now() - startedAt) / 1000),
+          section: maxSectionName || undefined
+        });
+      }
 
       // A page that fits on one screen is "100% scrolled" the moment it
       // loads. Firing five milestones for that is noise, so milestones are
@@ -280,7 +344,9 @@
         sections_on_page: sections.length,
         seconds_on_page: Math.round((Date.now() - startedAt) / 1000),
         page_scrollable: scrollable(),
-        clicked_something: clicked
+        clicked_something: clicked,
+        scrolled: scrolled,
+        interacted: interacted
       });
     }
 

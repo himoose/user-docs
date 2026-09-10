@@ -13,6 +13,9 @@ Visibility Settings control how often Hi, Moose checks visibility, which model s
 !!! note "Scheduled runs need this device awake"
     On **Preview Mode** and **BYOK** modes, scheduling runs locally on your machine — a scheduled run cannot start while your computer is off, asleep, or Hi, Moose is fully quit. Keep the app open (or minimized to the system tray) so scheduled runs can execute. **Paid Managed** unlocks an always-on cloud scheduler that doesn't depend on your device being awake. Local-fetch engines specifically still require the app to be open regardless of plan, since those checks run from your machine.
 
+!!! note "Cloud runs cover every prompt on every engine"
+    A scheduled cloud run checks each of your tracked prompts against each engine you've selected for it, in one pass. There's no per-run sampling of your prompt list, so the numbers a scheduled run reports cover the whole set rather than a slice of it.
+
 ## Email notifications
 
 Toggle **Scheduled visibility email reports** to receive the visibility report by email after scheduled runs complete. This is a personal notification preference, separate from the [Inbox notification settings](../inbox/notifications.md).
@@ -45,6 +48,30 @@ Free OpenRouter models are no longer offered as scoring options. They were unrel
 ## Default models for new prompts
 
 Choose which engines are pre-selected whenever you add a new prompt in [Prompt Manager](prompt-manager.md) — you can still override the selection per prompt afterward. Models marked **Paid** require a paid or BYOK plan; Preview Mode is limited to local-fetch models only. Every model checked here counts toward token usage when visibility runs execute.
+
+### The engines you can track
+
+| Engine | How it runs | Plan |
+|---|---|---|
+| ChatGPT | API | Any |
+| ChatGPT (local fetch) | From your machine | Any |
+| Claude | API | Any |
+| Gemini | API | Any |
+| Grok | API | Any |
+| Grok (local fetch) | From your machine | Any |
+| Perplexity | API | Any |
+| Perplexity (local fetch) | From your machine | Any |
+| Google AI Mode (local fetch) | From your machine | Any |
+| Google Search AI Overview (local fetch) | From your machine | Any |
+| Google AI Mode | API | Paid |
+| Google AI Overviews | API | Paid |
+| Bing Copilot | API | Paid |
+| DeepSeek | API | Paid |
+| Meta AI | API | Paid |
+
+**DeepSeek** and **Meta AI** are off by default. They're worth turning on if your category has real traction in the markets those two are strong in; if it doesn't, leaving them off keeps your run cost down.
+
+**Local-fetch** engines read the public AI search surface from your own machine rather than calling an API. They cost no tokens, but they need the desktop app open when the run executes, on every plan.
 
 ## Redo onboarding
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 9705deb0dc37b51cf84f956088049d0d7d87b416de55439c84ef17b2ef0d3d9c
+source_hash: 1f72c74789bd33352c926958756e3e381c10802d74ab9dd7100a890e068e2262
 ---
 # Inbox
 
@@ -21,6 +21,12 @@ Chaque élément de l'Inbox renvoie à quelque chose de concret que vous pouvez 
 Chaque élément propose une action suivante lorsque cela a du sens (ouvrir l'artefact, lancer un brief, donner suite à un audit, relire un brouillon, approuver une modification ou relancer une exécution en échec) : vous ne lisez pas seulement une notification, vous êtes à un clic d'agir.
 
 Les récapitulatifs de site monitoring comportent en outre une action **Demander à Moose à propos de tout ceci** qui transmet l'instantané de l'exploration au [chat](../chat/overview.md) et lui demande par quoi commencer.
+
+## Non lus entre projets
+
+L'Inbox est limitée au projet en cours, mais les éléments non lus ne disparaissent pas lorsque vous changez de projet.
+
+La barre latérale affiche un compteur de non-lus sur le sélecteur de projet et vous signale qu'il y a des **éléments non lus dans un autre projet**, afin qu'un constat dans l'espace d'un client que vous n'avez pas ouvert cette semaine ne reste pas invisible. Ouvrir le projet efface le compteur au fil de votre lecture.
 
 ## Filtrer l'Inbox
 

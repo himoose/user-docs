@@ -1,5 +1,5 @@
 ---
-source_hash: 807f4fd0f8157bf27491590b13dd7b2b18f5cb12dd648c025f2c46cabf3ea0ed
+source_hash: 32a1d4d064d3d168231ee9531b0835d37b75dbd7507b4cc6c64f2b5bbb057681
 ---
 # Tipos de conta e planos
 
@@ -67,9 +67,9 @@ Os três funcionam com os modelos do Hi, Moose e incluem assentos de equipe ilim
 
 | Plano | Preço | Projetos | Créditos mensais | Modelos |
 |---|---|---|---|---|
-| Standard | 79 USD/mês ou 849 USD/ano | 3 | 1.700.000 | Modelos padrão, mais os locais |
-| Professional | 129 USD/mês ou 1.389 USD/ano | 5 | 3.000.000 | Todos os modelos, mais os locais |
-| Premium | 249 USD/mês ou 2.689 USD/ano | 10 | 6.000.000 | Todos os modelos, mais os locais |
+| Standard | 79 USD/mês ou 849 USD/ano | 3 | 2.200.000 | Modelos padrão, mais os locais |
+| Professional | 129 USD/mês ou 1.389 USD/ano | 5 | 3.750.000 | Todos os modelos, mais os locais |
+| Premium | 249 USD/mês ou 2.689 USD/ano | 10 | 7.500.000 | Todos os modelos, mais os locais |
 
 ## Planos Enterprise e para agências
 

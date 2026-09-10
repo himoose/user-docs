@@ -1,5 +1,5 @@
 ---
-source_hash: d26bd04f7f798fab89bd03eeac0f5a5397eb68290de23de6c9325e1c013f4f25
+source_hash: 8752131a2b250a931754464dabe425c465e2c954eb3dd94617a78b498040b2ca
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -20,26 +20,36 @@ Installer l'application de bureau Hi, Moose sur votre ordinateur et vous connect
 
 ## Étape par étape
 
-### 1. Téléchargez le programme d'installation
+### 1. Créez votre compte
 
-Téléchargez le programme d'installation de bureau Hi, Moose correspondant à votre système d'exploitation depuis le lien fourni par l'équipe Hi, Moose ou depuis la page des versions de l'application.
+Vous pouvez commencer sur le web ou dans l'application : les deux chemins mènent au même endroit.
+
+**Sur le web**, rendez-vous sur [console.himoose.com/sign-up](https://console.himoose.com/sign-up/). On vous demande quel type de travail vous faites, on récupère votre site web et votre compte est créé avec Google ou par e-mail. Gratuit pour démarrer, sans carte. L'outil lit ensuite votre site et propose les recherches IA qui méritent d'être suivies, si bien que vous arrivez dans l'application avec de vrais prompts déjà en place plutôt qu'avec un écran vide. La dernière étape vous remet le programme d'installation correspondant à votre système.
+
+**Dans l'application**, téléchargez d'abord le programme d'installation et créez le compte depuis l'écran de connexion. Rien n'est perdu dans un cas comme dans l'autre : le parcours web fait simplement le travail de configuration avant l'installation.
+
+### 2. Installez l'application
 
 - **Windows** : exécutez le programme d'installation `.exe`.
-- **macOS** : ouvrez le fichier `.dmg` et faites glisser Hi, Moose dans le dossier Applications.
+- **macOS** : ouvrez le `.dmg` et faites glisser Hi, Moose dans Applications.
 
-### 2. Connectez-vous
+Les programmes d'installation des deux plateformes se trouvent sur la [page de téléchargement](https://himoose.com/downloads/).
 
-1. Ouvrez Hi, Moose.
-2. Connectez-vous avec votre adresse e-mail ou votre compte Google.
-3. Si vous n'avez pas encore de compte, créez-en un depuis le même écran.
+### 3. Connectez-vous
 
-### 3. Choisissez ou confirmez votre forfait
+Ouvrez Hi, Moose et connectez-vous avec l'e-mail ou le compte Google que vous venez d'utiliser. Si vous vous êtes inscrit sur le web, l'application récupère les recherches choisies là-bas.
 
-Après la connexion, vous arrivez dans le parcours d'accueil, où Hi, Moose vous pose quelques questions sur votre marque et votre domaine afin de constituer automatiquement un contexte initial. Sur un forfait BYOK, il vous sera demandé à ce stade d'ajouter votre propre clé d'API OpenRouter. Consultez [Types de compte et forfaits](account-modes.md) pour savoir ce dont chaque forfait a besoin.
+### 4. Votre premier travail
 
-### 4. Créez votre premier projet
+Les nouveaux comptes arrivent dans un court parcours d'accueil plutôt que sur un écran de réglages. Moose prend l'une de vos recherches suivies, vérifie si votre site possède déjà une page qui y répond, puis propose des modifications sur cette page ou en rédige une nouvelle. Vous pouvez envoyer le résultat directement dans un CMS connecté en brouillon, le copier, ou passer votre chemin et explorer par vous-même.
 
-Le parcours d'accueil vous guide dans la création de votre premier [projet](projects.md), l'espace de travail qui réunit votre brand voice, vos concurrents, vos connexions et le contenu généré pour un site web ou une marque.
+Le parcours se termine sur l'écran [Visibility](../visibility/overview.md), avec une visite guidée facultative de ce que vous avez sous les yeux.
+
+### 5. Confirmez votre forfait et votre clé
+
+Sur un forfait BYOK, il vous sera demandé d'ajouter votre propre clé d'API OpenRouter avant que le moindre appel de modèle puisse s'exécuter. Consultez [Types de compte et forfaits](account-modes.md) pour savoir ce dont chaque forfait a besoin.
+
+Le parcours d'accueil crée aussi votre premier [projet](projects.md), l'espace de travail qui réunit votre brand voice, vos concurrents, vos connexions et le contenu généré pour un site web ou une marque.
 
 ## Rester à jour
 

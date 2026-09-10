@@ -46,7 +46,17 @@ All fields are optional, but the more you fill in, the more precisely Hi, Moose 
 
 ## How it's used
 
+### Detecting misrepresentation
+
 During a visibility run, Hi, Moose loads the project's Brand Truth Profile (when it has meaningful content) and uses it to evaluate each AI response for misrepresentation or drift — comparing the response against your canonical description, offerings, competitors, preferred/avoided vocabulary, and known misrepresentation patterns, rather than just checking whether your brand name shows up.
+
+### Writing content aimed at your buyer
+
+The profile also feeds the content tools. [Content briefs](../../features/content-briefs.md), [blog post drafts](../../features/blog-post-draft.md), [key points](../../features/key-points.md) and [FAQs](../../features/faq-generator.md) all read it before they write anything — including your **ideal customer segments** and the free-text notes beside them.
+
+That's the difference between a brief written for "readers interested in this topic" and one written for mid-market operations teams evaluating a switch. Filling in the ideal customer fields once changes the output of every writing tool afterwards, which makes them among the highest-value fields on this screen.
+
+[Send Moose](../../send-moose/overview.md) reads the profile too, on jobs about your own brand.
 
 ## How this differs from Brand Voice
 

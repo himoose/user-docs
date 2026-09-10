@@ -1,5 +1,5 @@
 ---
-source_hash: 6b12d8d972a33f212f60d823c287d184f083cfb60d8934f6b9ac8571ceb3c32e
+source_hash: b58a8ba99a61b64bb2209353aa0fa79de0889308fc888578032146544e64c54f
 ---
 # Outils et spécialistes du chat
 
@@ -28,10 +28,21 @@ Le chat ne se limite pas à générer du texte. Au cours d'une conversation, Moo
 | Search Console | Interroger vos données [Search Console](../integrations/google-search-console.md) connectées |
 | Vérification instantanée de marque | Interroger une requête sur cinq moteurs d'IA ; voir [Vérification instantanée de marque](../tools/instant-brand-check.md) |
 | Vérification de couverture | Déterminer si votre site couvre déjà un sujet |
+| Étudier un sujet | Aller se documenter sur un sujet avant de répondre |
+| Se souvenir des chats passés | Retrouver ce que vous avez discuté et décidé dans les chats précédents de ce projet |
+| Historique de visibilité | Interroger votre historique de [visibilité](../visibility/overview.md) suivie : mentions, citations, sources, évolutions |
+| Lire l'entity graph | Répondre à partir de l'[entity graph](../features/entity-graph.md) du projet |
+| Construire un entity graph | En générer un nouveau |
 | Génération d'images | Produire une image pour un brouillon |
 | Aide sur l'application | Vous orienter vers la bonne documentation ou vers le support |
 
+Moose peut aussi ouvrir le formulaire d'un [audit AEO](../features/aeo-audits.md), d'un [content brief](../features/content-briefs.md), de [FAQ](../features/faq-generator.md), de [key points](../features/key-points.md) ou d'un entity graph, et le lancer depuis la conversation.
+
+
 L'usage des outils fonctionne de la même façon sur les forfaits gérés, les forfaits BYOK et les modèles locaux Gemma 4.
+
+!!! note "Le rappel est local et limité au projet"
+    Le rappel des chats passés est indexé sur votre machine et ne cherche que dans les chats du projet en cours. Demandez ce que vous aviez décidé au sujet d'une page il y a trois semaines : Moose va le consulter, plutôt que de le reconstituer à partir de la conversation actuelle.
 
 !!! note "Les questions sur Search Console reçoivent une réponse agentique"
     Moose interroge vos données Search Console de façon itérative plutôt que d'exécuter un rapport figé. Posez une question vague et il affinera à travers plusieurs requêtes pour y répondre, au lieu de renvoyer un export générique.

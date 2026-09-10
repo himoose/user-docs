@@ -1,5 +1,5 @@
 ---
-source_hash: 6b12d8d972a33f212f60d823c287d184f083cfb60d8934f6b9ac8571ceb3c32e
+source_hash: b58a8ba99a61b64bb2209353aa0fa79de0889308fc888578032146544e64c54f
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -33,10 +33,21 @@ El chat no se limita a generar texto. Durante una conversación, Moose puede uti
 | Search Console | Consultar sus datos conectados de [Search Console](../integrations/google-search-console.md) |
 | Comprobación instantánea de marca | Consultar una pregunta en cinco motores de IA; véase [Comprobación instantánea de marca en búsqueda con IA](../tools/instant-brand-check.md) |
 | Comprobación de cobertura | Averiguar si su sitio ya cubre un tema |
+| Investigar un tema | Documentarse sobre un asunto antes de responder |
+| Recordar chats anteriores | Consultar lo que habló y decidió en chats anteriores de este proyecto |
+| Historial de visibilidad | Consultar su historial de [visibilidad](../visibility/overview.md) supervisada: menciones, citas, fuentes y movimientos |
+| Leer el entity graph | Responder a partir del [entity graph](../features/entity-graph.md) del proyecto |
+| Construir un entity graph | Generar uno nuevo |
 | Generación de imágenes | Producir una imagen para un borrador |
 | Ayuda de la aplicación | Dirigirle a la documentación adecuada o al soporte |
 
+Moose también puede abrir el formulario de una [auditoría AEO](../features/aeo-audits.md), un [content brief](../features/content-briefs.md), unas [FAQ](../features/faq-generator.md), unos [key points](../features/key-points.md) o un entity graph, y ejecutarlo desde la conversación.
+
+
 El uso de herramientas funciona igual en los planes gestionados, en los planes BYOK y en los modelos locales Gemma 4.
+
+!!! note "El recuerdo es local y está limitado al proyecto"
+    El recuerdo de chats anteriores se indexa en su equipo y solo busca en los chats del proyecto actual. Pregunte qué decidió sobre una página hace tres semanas y Moose va a consultarlo, en lugar de reconstruirlo a partir de la conversación en curso.
 
 !!! note "Las preguntas sobre Search Console se responden de forma agéntica"
     Moose consulta sus datos de Search Console de forma iterativa en lugar de ejecutar un informe fijo. Si hace una pregunta vaga, acotará mediante varias consultas hasta responderla, en lugar de devolver un volcado genérico.

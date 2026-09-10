@@ -13,7 +13,9 @@ Open the model selector to see the models available on your [plan](../getting-st
 - **Local** — runs entirely on your device (see below).
 - A **multiplier badge** on higher-cost models, showing how much more of your balance they use than the standard option.
 
-The lineup tracks what the model providers ship, and currently includes the Claude, GPT, Gemini, and Gemma families. If a model isn't available on your current plan, Hi, Moose tells you so directly rather than silently falling back to a different one.
+The lineup tracks what the model providers ship. It currently spans the Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step and Trinity families, including several free options and the local Gemma builds. If a model isn't available on your current plan, Hi, Moose tells you so directly rather than silently falling back to a different one.
+
+The list changes as providers ship and retire models, so treat the selector itself as the current answer rather than this page.
 
 ## Local models
 
@@ -35,6 +37,8 @@ The most expensive models are gated by plan. If yours doesn't include them, they
 ## Web search grounding
 
 Chat can ground its answers in live web search results for the current conversation. This is available on BYOK Premium, BYOK Agency, and all managed plans. It isn't included on BYOK Free or Preview Mode.
+
+On managed plans, each web search costs **500 credits** on top of the model's own token usage, because the search runs through a paid provider rather than being free to us. A conversation that searches several times will show that on your balance. On BYOK plans the search is billed through your own OpenRouter key like any other call.
 
 ## Language
 

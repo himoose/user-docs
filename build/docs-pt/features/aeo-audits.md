@@ -1,5 +1,5 @@
 ---
-source_hash: a8e831ea98a893f4158e5124991eae0686f8eb64e2448fe9541f8444c4680099
+source_hash: 8d507a868f7b497bde6ab6ed4a9826d17aab12195b04317adea91787622fcc6a
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -36,7 +36,7 @@ Ao lado da avaliação de conteúdo, cada auditoria verifica se um mecanismo de 
 - **Acesso dos rastreadores de IA**: confere as regras do robots.txt para cada um dos tokens específicos de rastreador de IA usados por OpenAI, Anthropic, Perplexity, Google e Bing (tratando à parte os rastreadores de treinamento, de indexação e de consulta ao vivo, já que um site pode bloquear um e liberar outro). Um rastreador de recuperação ou indexação bloqueado é marcado como crítico; um agente de consulta ao vivo bloqueado é de prioridade média; e um bloqueio só de treinamento é anotado como escolha de política legítima e neutra, que não afeta as citações.
 - **Renderização no servidor e detecção de casca renderizada no cliente**: a maioria dos rastreadores de IA não executa JavaScript. Se o conteúdo essencial de uma página só aparece depois da renderização no cliente, isso é marcado como achado crítico e de destaque, não como nota técnica menor, porque é um problema de recuperação que vem antes de qualquer otimização de conteúdo.
 - **Higiene de recuperação**: confere uma amostra de links internos em busca de links quebrados e cadeias de redirecionamento.
-- **Presença no índice do Bing**: verifica se a página parece indexada pelo Bing, já que o Microsoft Copilot e parte da busca do ChatGPT se apoiam no índice do Bing. Os veredictos são deliberadamente cautelosos: um resultado inconclusivo é reportado como inconclusivo em vez de chutado, e o veredicto «não listada» só aparece quando a verificação tem sinal real que o sustente.
+- **Presença no índice do Bing**: verifica se a página parece indexada pelo Bing, já que o Microsoft Copilot responde a partir do índice do Bing (o ChatGPT tem o seu próprio índice, portanto isto não é um sinal sobre o ChatGPT). Os veredictos são deliberadamente cautelosos: um resultado inconclusivo é reportado como inconclusivo em vez de chutado, e o veredicto «não listada» só aparece quando a verificação tem sinal real que o sustente.
 
 ## Contexto externo e de cobertura
 

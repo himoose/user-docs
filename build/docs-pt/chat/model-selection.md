@@ -1,5 +1,5 @@
 ---
-source_hash: 90bb543cefb714f7fdb6facb1f7799b751aff22949ece082264e7713b4992995
+source_hash: 659813c24e3d334cb65df479575d60bccc59736ff6f29cd0a970408673a3f493
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -21,7 +21,9 @@ Abra o seletor de modelo para ver os modelos disponíveis no seu [plano](../gett
 - **Local**: roda inteiramente no seu dispositivo (veja abaixo).
 - Uma **etiqueta de multiplicador** nos modelos mais caros, mostrando quanto a mais do seu saldo eles consomem em relação à opção padrão.
 
-A oferta acompanha o que os fornecedores de modelos lançam e hoje inclui as famílias Claude, GPT, Gemini e Gemma. Se um modelo não estiver disponível no seu plano, o Hi, Moose diz isso diretamente em vez de trocar em silêncio por outro.
+A oferta acompanha o que os fornecedores de modelos lançam. Hoje ela abrange as famílias Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step e Trinity, incluindo várias opções gratuitas e as versões locais do Gemma. Se um modelo não estiver disponível no seu plano, o Hi, Moose diz isso diretamente em vez de trocar em silêncio por outro.
+
+A lista muda conforme os fornecedores lançam e aposentam modelos, então trate o próprio seletor como a resposta atual, e não esta página.
 
 ## Modelos locais
 
@@ -43,6 +45,8 @@ Os modelos mais caros são limitados por plano. Se o seu não os inclui, eles ap
 ## Fundamentação por busca web
 
 O chat pode fundamentar as respostas em resultados de busca em tempo real para a conversa atual. Está disponível no BYOK Premium, no BYOK Agency e em todos os planos gerenciados. Não está incluído no BYOK Free nem no Preview Mode.
+
+Nos planos gerenciados, cada busca na web custa **500 créditos** além do consumo de tokens do próprio modelo, porque a busca passa por um fornecedor pago e não é gratuita para nós. Uma conversa que faz várias buscas vai aparecer no seu saldo. Nos planos BYOK, a busca é cobrada pela sua própria chave da OpenRouter como qualquer outra chamada.
 
 ## Idioma
 

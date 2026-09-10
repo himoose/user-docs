@@ -1,5 +1,5 @@
 ---
-source_hash: 266b8292b4154e6b52eab317de9e91cce7429af96c1d84999875493bfb8f09a8
+source_hash: c5ff2a271e0bd65a359303913cb736f19793b0f0562c6c4941f37c02efd742fb
 ---
 # Brand Truth Profile
 
@@ -49,7 +49,17 @@ Tutti i campi sono facoltativi, ma più ne compila, più Hi, Moose potrà segnal
 
 ## Come viene utilizzato
 
+### Rilevare le rappresentazioni errate
+
 Durante un'esecuzione di visibilità, Hi, Moose carica il Brand Truth Profile del progetto (quando contiene informazioni significative) e lo utilizza per valutare ogni risposta dell'IA alla ricerca di travisamenti o scostamenti, confrontandola con la sua descrizione canonica, la sua offerta, i suoi concorrenti, il lessico preferito e da evitare e i modelli noti di travisamento, invece di limitarsi a controllare se compare il nome del suo marchio.
+
+### Scrivere contenuti mirati al suo acquirente
+
+Il profilo alimenta anche gli strumenti di contenuto. I [content brief](../../features/content-briefs.md), le [bozze di articolo](../../features/blog-post-draft.md), i [key points](../../features/key-points.md) e le [FAQ](../../features/faq-generator.md) lo leggono prima di scrivere qualsiasi cosa, compresi i suoi **segmenti di cliente ideale** e le note libere accanto a essi.
+
+È la differenza tra un brief scritto per «lettori interessati all'argomento» e uno scritto per team operativi di media impresa che stanno valutando un cambio di fornitore. Compilare una sola volta i campi del cliente ideale cambia il risultato di ogni strumento di scrittura da quel momento in poi, e questo li rende tra i campi più redditizi di questa schermata.
+
+Anche [Send Moose](../../send-moose/overview.md) legge il profilo nei lavori sulla sua marca.
 
 ## In cosa si differenzia dalla Brand Voice
 

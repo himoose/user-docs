@@ -1,5 +1,5 @@
 ---
-source_hash: d26bd04f7f798fab89bd03eeac0f5a5397eb68290de23de6c9325e1c013f4f25
+source_hash: 8752131a2b250a931754464dabe425c465e2c954eb3dd94617a78b498040b2ca
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -20,26 +20,36 @@ Instalar la aplicación de escritorio de Hi, Moose en su equipo e iniciar sesió
 
 ## Paso a paso
 
-### 1. Descargue el instalador
+### 1. Cree su cuenta
 
-Descargue el instalador de escritorio de Hi, Moose correspondiente a su sistema operativo desde el enlace facilitado por el equipo de Hi, Moose o desde la página de versiones de la aplicación.
+Puede empezar en la web o en la aplicación: ambos caminos acaban en el mismo sitio.
+
+**En la web**, vaya a [console.himoose.com/sign-up](https://console.himoose.com/sign-up/). Le pregunta a qué se dedica, le pide su sitio web y crea su cuenta con Google o con un correo electrónico. Gratis para empezar, sin tarjeta. Después lee su sitio y le propone las búsquedas con IA que merece la pena supervisar, de modo que llegue a la aplicación con prompts reales ya configurados en lugar de con una pantalla vacía. El último paso le entrega el instalador de su sistema operativo.
+
+**En la aplicación**, descargue primero el instalador y cree la cuenta desde la pantalla de inicio de sesión. No se pierde nada por ninguna de las dos vías: el recorrido web simplemente adelanta el trabajo de configuración antes de instalar.
+
+### 2. Instale la aplicación
 
 - **Windows**: ejecute el instalador `.exe`.
-- **macOS**: abra el archivo `.dmg` y arrastre Hi, Moose a la carpeta Aplicaciones.
+- **macOS**: abra el `.dmg` y arrastre Hi, Moose a Aplicaciones.
 
-### 2. Inicie sesión
+Los instaladores para ambas plataformas están en la [página de descargas](https://himoose.com/downloads/).
 
-1. Abra Hi, Moose.
-2. Inicie sesión con su correo electrónico o su cuenta de Google.
-3. Si aún no tiene cuenta, créela desde la misma pantalla.
+### 3. Inicie sesión
 
-### 3. Elija o confirme su plan
+Abra Hi, Moose e inicie sesión con el correo o la cuenta de Google que acaba de usar. Si se registró en la web, la aplicación recoge las búsquedas que eligió allí.
 
-Tras iniciar sesión, accederá al proceso de incorporación, donde Hi, Moose le hará algunas preguntas sobre su marca y su dominio para construir el contexto inicial de forma automática. Si utiliza un plan BYOK, en este punto se le pedirá que añada su propia clave de API de OpenRouter. Consulte [Tipos de cuenta y planes](account-modes.md) para saber qué necesita cada plan.
+### 4. Su primer trabajo
 
-### 4. Cree su primer proyecto
+Las cuentas nuevas aterrizan en un breve recorrido de llegada en lugar de en una pantalla de ajustes. Moose toma una de sus búsquedas supervisadas, comprueba si su sitio ya tiene una página que la responda y propone cambios en esa página o redacta una nueva. Puede enviar el resultado directamente a un CMS conectado como borrador, copiarlo, o saltarse todo y mirar por su cuenta.
 
-La incorporación le guía en la creación de su primer [proyecto](projects.md), el espacio de trabajo que reúne su brand voice, sus competidores, sus conexiones y el contenido generado para un sitio web o una marca.
+Termina en la pantalla de [Visibility](../visibility/overview.md) con un recorrido opcional por lo que está viendo.
+
+### 5. Confirme su plan y su clave
+
+En un plan BYOK se le pedirá que añada su propia clave de API de OpenRouter antes de que se ejecute ninguna llamada a modelos; consulte [Tipos de cuenta y planes](account-modes.md) para saber qué necesita cada plan.
+
+La incorporación también crea su primer [proyecto](projects.md), el espacio de trabajo que reúne su brand voice, sus competidores, sus conexiones y el contenido generado para un sitio web o una marca.
 
 ## Mantenerse actualizado
 

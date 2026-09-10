@@ -1,5 +1,5 @@
 ---
-source_hash: 0f6961f608efb6e85e60c4cf390ea485c24faceeebdccfdedc53c19dadca3f23
+source_hash: 1c85ff53a55d4b6ecb7d8fbdd11b64ab53c6c37bdd4cb12540b5dc7616afc495
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -18,22 +18,42 @@ Lo encontrará en **Visibility → Competencia**.
 
 Añada competidores en **Visibility → Settings → Competitor tracking**. Cada uno requiere un nombre y, opcionalmente, un sitio web.
 
-Esta lista se comparte con su [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), de modo que los competidores añadidos en cualquiera de los dos sitios aparecen en ambos. Hay un límite de cuántos se supervisan en las ejecuciones de visibilidad; la pantalla de configuración indica el número y le avisa si su lista lo supera: solo se supervisan los primeros.
+Esta lista se comparte con su [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), de modo que los competidores añadidos en cualquiera de los dos sitios aparecen en ambos.
+
+Cuántos se supervisan en las ejecuciones de visibilidad depende de su plan: **5 en Preview Mode y BYOK Free, 15 en todos los planes de pago**. La pantalla de configuración indica el número y le avisa si su lista es más larga, para que sepa que solo se supervisan los primeros.
 
 Entre tres y cinco competidores reales funcionan mejor que una lista larga. Son las marcas con las que realmente le comparan, no todo el sector.
 
 ## Share of Voice
 
-El **Share of Voice** es el porcentaje de menciones de cada marca sobre el total de menciones de marcas y competidores del periodo. Si usted y cuatro competidores fueron mencionados 100 veces entre todos y 22 de esas menciones fueron suyas, su Share of Voice es del 22 %.
+El **Share of Voice** es la porción de atención que cada marca se lleva en las respuestas de IA durante el periodo, pero no todas las menciones valen lo mismo.
 
-La pestaña Competition encabeza con su posición («You are 3rd») y la lista ordenada de debajo muestra cada marca supervisada con su porcentaje.
+Aparecer el primero en una respuesta vale más que aparecer el sexto, porque ese es el nombre que el lector se lleva. Por eso cada mención se pondera según el lugar que ocupa en la respuesta:
+
+| Posición en la respuesta | Peso |
+|---|---|
+| 1.ª | 1,00 |
+| 2.ª | 0,70 |
+| 3.ª | 0,50 |
+| 4.ª | 0,35 |
+| 5.ª | 0,25 |
+| 6.ª o posterior | 0,15 |
+
+Una mención en la que no se pudo determinar la posición cuenta como 0,50. Además, una respuesta que **cita el sitio web de la marca** suma otro 0,50, porque una cita es una señal más fuerte que una simple mención.
+
+La puntuación ponderada de cada marca se divide después entre el total de todas las marcas supervisadas para obtener su porcentaje.
+
+La pestaña Competition encabeza con su posición («You are 3rd») y la lista ordenada de debajo muestra cada marca supervisada con su porcentaje. Junto a él aparecen la **cuota de menciones** y la **cuota de citas**, que son los recuentos simples sin ponderar, para que pueda ver la imagen en bruto al lado de la ponderada.
+
+!!! note "Por qué la cifra ponderada puede no coincidir con el recuento simple"
+    Puede recibir tantas menciones como un competidor y aun así quedar por detrás en Share of Voice, si él aparece siempre el primero y usted siempre el cuarto. Esa diferencia es justo el sentido de la métrica: le está diciendo que las menciones existen pero la prominencia no, que es otro problema y tiene otra solución.
 
 !!! warning "Share of Voice no es Mention Rate"
     Son dos cifras distintas y se mueven de forma independiente.
 
-    El **Share of Voice** es su porción del total de menciones de marca. Es competitivo: un competidor puede hacerlo bajar sin que nada cambie por su parte.
+    El **Share of Voice** es su porción ponderada de la atención total de marca. Es competitivo: un competidor puede hacerlo bajar sin que nada cambie por su parte.
 
-    El **Tasa de mención** (en la pestaña Overview) es el porcentaje de prompts supervisados en los que se mencionó su marca. Es absoluto e ignora por completo a los competidores.
+    El **Mention Rate** (en la pestaña Overview) es el porcentaje de prompts supervisados en los que se mencionó su marca. Es absoluto, no está ponderado e ignora por completo a los competidores.
 
     Su Mention Rate puede subir mientras su Share of Voice baja, si los competidores han crecido más deprisa que usted. Merece la pena vigilar ambos, por motivos distintos.
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 1907634a13686d43288a5b306f0fe1987aee6bc02abacf969d308b522b1b0a18
+source_hash: e210d975308d249ca85fbc082df3530556d7488da877af76fedd12f88555930f
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -39,11 +39,12 @@ Uma sessão de trabalho no Hi, Moose deve conseguir responder ao seguinte:
 
 ### 📈 Monitorar e detectar
 
-- **[Visibilidade](visibility/overview.md)**: acompanhe como sua marca aparece no Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini e Grok, e seja avisado quando algo relevante mudar.
+- **[Visibilidade](visibility/overview.md)**: acompanhe como sua marca aparece no Google AI Overviews, Google AI Mode, ChatGPT, Claude, Perplexity, Gemini, Grok, Bing Copilot, DeepSeek e Meta AI, e seja avisado quando algo relevante mudar.
 - **[Concorrentes e Share of Voice](visibility/competitors.md)**: veja quem é recomendado no seu lugar, quais páginas dos concorrentes ganham as citações e em quais perguntas você está ausente.
 - **[Auditorias de AEO](features/aeo-audits.md)**: avalie o quanto uma página está pronta para os mecanismos de resposta, identifique o que a está travando e verifique se as alterações realmente movem a pontuação.
 - **[Monitoramento do site](site-monitoring/overview.md)**: rastreie seu site, indexe-o para busca semântica e receba um resumo por rastreamento quando algo relevante para AEO mudar.
 - **[Verificação instantânea da marca](tools/instant-brand-check.md)**: consulte uma única query em cinco mecanismos de IA agora mesmo, sem configurar nada.
+- **[Entity Graph](features/entity-graph.md)**: mapeie as pessoas, os produtos e os temas que seu site estabelece, e como eles se conectam.
 
 ### ✍️ Planejar, escrever e publicar
 
@@ -53,6 +54,11 @@ Uma sessão de trabalho no Hi, Moose deve conseguir responder ao seguinte:
 - **[Rascunhos, prévia e publicação](features/drafts-and-publishing.md)**: transforme um briefing em rascunho, veja a alteração em prévia, aprove-a e publique, com um registro completo do que aconteceu.
 - **[Fluxos de trabalho](workflows/overview.md)**: salve rotinas recorrentes (Recuperar a visibilidade perdida, Criar novo conteúdo) que rodam em segundo plano e chegam à sua Caixa de entrada para revisão.
 - **[Áudio](audio/overview.md)**: transforme um artigo em uma conversa de duas vozes, incorpore o player e veja como as pessoas ouvem.
+
+### 🤖 Delegue o trabalho
+
+- **[Send Moose](send-moose/overview.md)**: dê ao Moose um objetivo em linguagem simples e deixe que ele faça o trabalho, com seus dados de visibilidade, seu índice do site, seu entity graph e o Search Console já em mãos.
+- **[Chat](chat/overview.md)**: trabalhe passo a passo com um operador que pode chamar ferramentas, ler suas próprias páginas e lembrar conversas anteriores do projeto.
 
 ### 🔗 Conecte seu stack
 

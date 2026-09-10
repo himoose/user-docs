@@ -1,11 +1,11 @@
 ---
-source_hash: 87a7b6f091685fae0a59b09ee8abe0ec965085647eb82bd29c1661777efb87ab
+source_hash: 29ee2dfc08c9390fc91d11ea66fc96fc6fef4439d84b5f28508c2afbf8f0c1d3
 ---
 # Monitoraggio del sito
 
 ## A cosa serve
 
-Hi, Moose mantiene un quadro locale del suo sito: quali pagine esistono, che cosa contengono e che cosa è cambiato dall'ultima volta. Quel quadro alimenta tre cose: gli avvisi sulle modifiche rilevanti per l'AEO nella sua [Inbox](../inbox/overview.md), l'indice di ricerca semantica che Moose usa per rispondere alle domande sul suo sito, e l'inventario delle pagine a cui attingono [audit](../features/aeo-audits.md) e [brief](../features/content-briefs.md).
+Hi, Moose mantiene un quadro locale del suo sito: quali pagine esistono, che cosa contengono e che cosa è cambiato dall'ultima volta. Quel quadro alimenta quattro cose: gli avvisi sulle modifiche rilevanti per l'AEO nella sua [Inbox](../inbox/overview.md), l'indice di ricerca semantica che Moose usa per rispondere alle domande sul suo sito, l'inventario delle pagine a cui attingono [audit](../features/aeo-audits.md) e [brief](../features/content-briefs.md), e l'[entity graph](../features/entity-graph.md) che mappa di che cosa parla il suo sito.
 
 Tutto questo si trova in **Impostazioni → Monitoraggio del sito**, delimitato al progetto corrente.
 
@@ -13,9 +13,19 @@ Tutto questo si trova in **Impostazioni → Monitoraggio del sito**, delimitato 
 
 Attivi **Esegui scansione settimanale del sito** e Hi, Moose aggiornerà le pagine monitorate con cadenza settimanale, avvisandola quando emergono modifiche significative. Scelga giorno e ora nel suo orario locale.
 
-Le scansioni manuali restano comunque disponibili. **Esegui scansione ora** avvia subito una scansione completa, con l'avanzamento nella barra di stato in fondo alla finestra. Può **interrompere** una scansione in corso: le pagine trovate fino a quel momento vengono conservate anziché scartate.
+Le scansioni manuali restano comunque disponibili. **Esegui scansione ora** avvia subito una scansione completa, con l'avanzamento nella barra di stato in fondo alla finestra. Può **mettere in pausa**, **riprendere** o **interrompere** una scansione in corso: le pagine trovate fino a quel momento vengono conservate anziché scartate.
 
 Sui siti grandi servono alcuni minuti.
+
+### Il crawler trova da sé il proprio ritmo
+
+Ogni sito ha una velocità alla quale è a suo agio nell'essere letto, ed è diversa tra un sito statico su una CDN e un negozio basato su database su un hosting condiviso. Hi, Moose non la indovina da un'impostazione: la trova.
+
+La scansione parte con calma, accelera finché le pagine tornano rapidamente e rallenta appena il sito mostra fatica: tempi di risposta più lunghi, oppure una risposta di limite di richieste o di server occupato. Quando succede, la barra di stato dice **Sto rallentando per adattarmi al sito**, e la scansione prosegue al ritmo più lento invece di martellare il server o arrendersi.
+
+L'effetto pratico è che gli inventari tornano completi. Una scansione che veniva limitata a metà strada restituiva un quadro parziale del suo sito, e questo rendeva parziale anche tutto ciò che ci si costruisce sopra: l'indice di ricerca, gli audit, i brief.
+
+Non deve configurare nulla di tutto questo.
 
 ## L'indice di ricerca
 
@@ -34,6 +44,7 @@ L'indicizzazione avviene a livello di passaggio, non di pagina. Una pagina lunga
 Le pagine che Hi, Moose controlla per individuare modifiche rilevanti per l'AEO. Le pagine trovate dal rilevamento del sito, da [Google Search Console](../integrations/google-search-console.md) e dalle [esecuzioni di visibilità](../visibility/overview.md) compaiono qui automaticamente.
 
 Può anche aggiungere pagine a mano con l'URL completa, cercare e filtrare l'elenco, sfogliarlo per pagine e rimuovere quelle che non le interessano.
+Le pagine monitorate sono vincolate al dominio del progetto stesso. I suoi sottodomini vanno bene; un dominio estraneo viene rifiutato, così il monitoraggio di un progetto non può riempirsi in silenzio con le pagine di qualcun altro.
 
 ## Percorsi bloccati
 
@@ -42,6 +53,14 @@ Le scansioni saltano i percorsi bloccati e tutto ciò che ne dipende, e le pagin
 La corrispondenza avviene per prefisso di segmento del percorso. Bloccare `/results/` copre `/results/` e tutti i suoi sottopercorsi, ma **non** `/results-archive/`: deve corrispondere il segmento, non semplicemente la stringa.
 
 È lo strumento adatto per pagine di risultati di ricerca, pagine di elenco filtrate, archivi paginati e qualsiasi altra cosa generi un gran numero di URL quasi identiche che preferisce non scansionare, non indicizzare e su cui non vuole avvisi.
+
+## Quanto è vecchia ogni pagina
+
+Mentre scansiona, Hi, Moose legge le date di pubblicazione e di ultima modifica che le sue pagine dichiarano (nei dati strutturati, nei metadati e negli elementi `<time>`) e le registra accanto alla pagina.
+
+Conta perché la freschezza è uno degli elementi che i motori di risposta soppesano quando decidono di quale fonte fidarsi su una domanda la cui risposta cambia nel tempo. Una pagina che non dice nulla su quando è stata scritta non può sostenere quell'argomento. I suoi [audit AEO](../features/aeo-audits.md) usano queste date nella valutazione della freschezza, ed è lì che ne vedrà il risultato.
+
+Se una pagina non dichiara alcuna data da nessuna parte, quello è già di per sé un rilievo su cui intervenire.
 
 ## Che cosa arriva nella sua Inbox
 

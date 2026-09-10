@@ -1,5 +1,5 @@
 ---
-source_hash: 90bb543cefb714f7fdb6facb1f7799b751aff22949ece082264e7713b4992995
+source_hash: 659813c24e3d334cb65df479575d60bccc59736ff6f29cd0a970408673a3f493
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -21,7 +21,9 @@ Jeder Chat läuft mit einem bestimmten KI-Modell, und über die Modellauswahl se
 - **Lokal**: läuft vollständig auf Ihrem Gerät (siehe unten).
 - Eine **Multiplikator-Kennzeichnung** bei teureren Modellen, die zeigt, wie viel mehr sie von Ihrem Guthaben verbrauchen als die Standardoption.
 
-Das Angebot folgt dem, was die Modellanbieter veröffentlichen, und umfasst derzeit die Familien Claude, GPT, Gemini und Gemma. Ist ein Modell in Ihrem Tarif nicht verfügbar, sagt Hi, Moose Ihnen das direkt, statt stillschweigend auf ein anderes auszuweichen.
+Das Angebot folgt dem, was die Modellanbieter veröffentlichen. Derzeit umfasst es die Familien Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step und Trinity, darunter mehrere kostenlose Optionen und die lokalen Gemma-Varianten. Ist ein Modell in Ihrem Tarif nicht verfügbar, sagt Hi, Moose Ihnen das direkt, statt stillschweigend auf ein anderes auszuweichen.
+
+Die Liste ändert sich, während Anbieter Modelle einführen und abkündigen. Betrachten Sie daher die Auswahl in der App als die aktuelle Antwort, nicht diese Seite.
 
 ## Lokale Modelle
 
@@ -43,6 +45,8 @@ Die teuersten Modelle sind an den Tarif gebunden. Enthält Ihrer sie nicht, ersc
 ## Fundierung durch Websuche
 
 Der Chat kann seine Antworten für das laufende Gespräch auf Live-Suchergebnisse stützen. Das steht in BYOK Premium, BYOK Agency und allen verwalteten Tarifen zur Verfügung. In BYOK Free und Preview Mode ist es nicht enthalten.
+
+In verwalteten Tarifen kostet jede Websuche **500 Credits** zusätzlich zum Tokenverbrauch des Modells selbst, weil die Suche über einen kostenpflichtigen Anbieter läuft und für uns nicht gratis ist. Ein Gespräch, das mehrfach sucht, macht sich entsprechend auf Ihrem Guthaben bemerkbar. In BYOK-Tarifen wird die Suche wie jeder andere Aufruf über Ihren eigenen OpenRouter-Schlüssel abgerechnet.
 
 ## Sprache
 

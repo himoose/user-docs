@@ -1,5 +1,5 @@
 ---
-source_hash: 90bb543cefb714f7fdb6facb1f7799b751aff22949ece082264e7713b4992995
+source_hash: 659813c24e3d334cb65df479575d60bccc59736ff6f29cd0a970408673a3f493
 ---
 # Choix du modèle
 
@@ -16,7 +16,9 @@ Ouvrez le sélecteur de modèle pour voir les modèles disponibles sur votre [fo
 - **Local** : s'exécute entièrement sur votre appareil (voir ci-dessous).
 - Une **étiquette multiplicateur** sur les modèles les plus coûteux, indiquant à quel point ils consomment davantage votre solde que l'option standard.
 
-L'offre suit ce que publient les fournisseurs de modèles et comprend actuellement les familles Claude, GPT, Gemini et Gemma. Si un modèle n'est pas disponible sur votre forfait, Hi, Moose vous le dit directement plutôt que de basculer silencieusement sur un autre.
+L'offre suit ce que publient les fournisseurs de modèles. Elle couvre actuellement les familles Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step et Trinity, dont plusieurs options gratuites et les versions locales de Gemma. Si un modèle n'est pas disponible sur votre forfait, Hi, Moose vous le dit directement plutôt que de basculer silencieusement sur un autre.
+
+La liste évolue au fil des sorties et des retraits chez les fournisseurs : considérez donc le sélecteur lui-même comme la réponse à jour, plutôt que cette page.
 
 ## Modèles locaux
 
@@ -38,6 +40,8 @@ Les modèles les plus chers sont conditionnés au forfait. Si le vôtre ne les i
 ## Ancrage par recherche web
 
 Le chat peut fonder ses réponses sur des résultats de recherche web en direct pour la conversation en cours. Cette option est disponible sur BYOK Premium, BYOK Agency et tous les forfaits gérés. Elle n'est pas incluse dans BYOK Free ni dans Preview Mode.
+
+Sur les forfaits gérés, chaque recherche web coûte **500 crédits** en plus de la consommation de jetons du modèle lui-même, car la recherche passe par un fournisseur payant et n'est pas gratuite pour nous. Une conversation qui effectue plusieurs recherches le fera apparaître sur votre solde. Sur les forfaits BYOK, la recherche est facturée via votre propre clé OpenRouter comme n'importe quel autre appel.
 
 ## Langue
 

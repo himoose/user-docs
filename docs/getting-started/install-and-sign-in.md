@@ -12,26 +12,36 @@ Get the Hi, Moose desktop app installed on your computer and sign in for the fir
 
 ## Step-by-step
 
-### 1. Download the installer
+### 1. Create your account
 
-Download the Hi, Moose desktop installer for your operating system from the link provided by the Hi, Moose team or the app's release page.
+You can start on the web or in the app — both end up in the same place.
+
+**On the web**, go to [console.himoose.com/sign-up](https://console.himoose.com/sign-up/). It asks what kind of work you do, takes your website, and creates your account with Google or email. Free to start, no card. It then reads your site and suggests the AI searches worth tracking, so you arrive in the app with real prompts already set up rather than an empty screen. The last step hands you the installer for your operating system.
+
+**In the app**, download the installer first and create the account from the sign-in screen instead. Nothing is lost either way — the web flow just does the setup work before you install.
+
+### 2. Install the app
 
 - **Windows**: run the `.exe` installer.
 - **macOS**: open the `.dmg` and drag Hi, Moose into Applications.
 
-### 2. Sign in
+Installers for both platforms are on the [downloads page](https://himoose.com/downloads/).
 
-1. Open Hi, Moose.
-2. Sign in with your email or Google account.
-3. If you don't have an account yet, create one from the same screen — new signups now happen in the desktop app.
+### 3. Sign in
 
-### 3. Choose or confirm your plan
+Open Hi, Moose and sign in with the email or Google account you just used. If you signed up on the web, the app picks up the searches you chose there.
 
-After signing in, you'll land in onboarding, where Hi, Moose asks a few questions about your brand and domain to build initial context automatically. On a BYOK plan you'll be prompted to add your own OpenRouter API key at this point — see [Account Types & Plans](account-modes.md) for what each plan needs.
+### 4. Your first job
 
-### 4. Set up your first project
+New accounts land in a short arrival flow rather than a settings screen. Moose takes one of your tracked searches, checks whether your site already has a page that answers it, and either proposes changes to that page or drafts a new one. You can send the result straight to a connected CMS as a draft, copy it, or skip the whole thing and look around yourself.
 
-Onboarding walks you into creating your first [project](projects.md) — the workspace that holds your brand voice, competitors, connections, and generated content for one website or brand.
+It finishes on the [Visibility](../visibility/overview.md) screen with an optional tour of what you're looking at.
+
+### 5. Confirm your plan and key
+
+On a BYOK plan you'll be prompted to add your own OpenRouter API key before model calls will run — see [Account Types & Plans](account-modes.md) for what each plan needs.
+
+Onboarding also creates your first [project](projects.md) — the workspace that holds your brand voice, competitors, connections, and generated content for one website or brand.
 
 ## Staying up to date
 

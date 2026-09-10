@@ -1,5 +1,5 @@
 ---
-source_hash: 40b089c8c06f81c797410e131c0f51ee08f0beba3baaaf1ad18b0794a101df1a
+source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
 ---
 # Visibility
 
@@ -7,13 +7,16 @@ source_hash: 40b089c8c06f81c797410e131c0f51ee08f0beba3baaaf1ad18b0794a101df1a
 
 Das Visibility-Dashboard zeigt, wie sich Ihre Marke in der KI-Suche tatsächlich schlägt: welche Anfragen Kundinnen und Kunden nutzen, um Sie zu finden, ob Ihre Marke in die engere Wahl kommt und ob KI-Maschinen sie zutreffend beschreiben. Es ist die zentrale Ansicht für die Schritte **überwachen** und **erkennen** des [zentralen Operator-Kreislaufs](../index.md#der-zentrale-operator-kreislauf).
 
-Das Dashboard hat drei Reiter:
+Das Dashboard hat sechs Reiter:
 
 | Reiter | Welche Frage er beantwortet |
 |---|---|
 | **Übersicht** | Wie stehe ich da? |
 | **[Wettbewerb](competitors.md)** | Wie stehe ich im Vergleich zu ihnen da? |
+| **Erwähnungen** | Welche Marken werden in diesen Antworten genannt? |
+| **Zitationen** | Auf welche Quellen stützen sich die Engines tatsächlich? |
 | **Themen & Engines** | Wo genau bin ich stark oder schwach? |
+| **Prompts** | Was ist bei jedem einzelnen Prompt passiert? |
 
 ## Kennzahlen
 
@@ -51,6 +54,49 @@ Unter dem Diagramm:
 
 Jeder Prompt enthält einen Link **im Chat untersuchen**, der die genauen Beobachtungsdaten an Moose übergibt und um eine Empfehlung bittet, ob der nächste Schritt ein [AEO Audit](../features/aeo-audits.md) einer bestehenden Seite oder ein neuer [Content-Brief mit Entwurf](../features/content-briefs.md) sein sollte.
 
+## Der Reiter Übersicht
+
+Die Übersicht beginnt mit einer geschriebenen Zusammenfassung des aktuellen Ausschnitts: einige Absätze, die sagen, wo Sie stehen, was sich bewegt hat und was einen Blick wert ist, in Sätzen statt in Zahlen. Sie entsteht aus demselben Datenblatt, das auch der Bericht nutzt, und mit **Zusammenfassung neu schreiben** lassen Sie sie neu formulieren. Ist kein Modell verfügbar, das sie schreiben kann, greift die Übersicht auf eine direkt aus den Zahlen gebaute Fassung zurück und sagt das auch.
+
+Unter der Zusammenfassung stehen zwei Blöcke:
+
+- **Wo Sie stehen**: Ihr Share of Voice, die Erwähnungsrate über die gelesenen Antworten, Zitationen, der durchschnittliche Rang, wenn Sie genannt werden, und die Erwähnungsrate je Engine, mit dem gesamten Feld der verfolgten Marken daneben.
+- **Beschreibt die KI Sie zutreffend?**: Positionierungsabgleich, Tonaufschlüsselung und eine Liste **prüfenswerter Antworten**: die konkreten Antworten, in denen eine Engine eine Fähigkeit falsch dargestellt hat oder von Ihrer Positionierung abgewichen ist. Jede öffnet die Antwort oder springt im Reiter Prompts dorthin.
+
+## Erwähnungen
+
+Der Reiter **Erwähnungen** ist die vollständige Liste jeder Marke, jedes Produkts und jeder Website, die die Engines in den Antworten des aktuellen Ausschnitts genannt haben - nicht nur Sie und Ihre verfolgten Wettbewerber, sondern alle, die aufgetaucht sind.
+
+Jede Zeile zeigt, in wie vielen Antworten die Marke genannt wurde, das als Prozentsatz der Antworten im Ausschnitt, ihren Anteil an allen Erwähnungen, ihren durchschnittlichen Rang unter den in einer Antwort genannten Marken und ihr häufigstes Sentiment-Urteil. Fahren Sie über einen Sentiment-Wert für die Aufschlüsselung positiv/gemischt/neutral/negativ und über eine Spaltenüberschrift für ihre genaue Definition.
+
+Über der Tabelle zeichnet ein **Verlauf der Erwähnungspräsenz** die meistgenannten Marken und Sie über die Zeit.
+
+Hier finden Sie die Wettbewerber, von denen Sie nichts wussten. Marken werden vom Scoring-Modell aus dem Antworttext gelesen, die Liste bringt also Namen zum Vorschein, die Sie nie in Ihr Tracking aufgenommen haben.
+
+## Zitationen
+
+Der Reiter **Zitationen** ist dieselbe Idee für Quellen: jede Domain und jede Seite, die die Engines im aktuellen Ausschnitt zitiert haben.
+
+Wechseln Sie zwischen **Nach Domain** und **Nach Seiten-URL**, und filtern Sie auf **Alle** oder **Weder Sie noch ein Wettbewerber**, um die Drittquellen zu sehen, die die Antworten prägen. Jede Quelle ist kategorisiert: Ihre Marke, Wettbewerber, Social, Bewertungsseite, Publikation, Nachschlagewerk, Entwickler oder Sonstiges.
+
+Die Spalten sind:
+
+| Spalte | Was sie bedeutet |
+|---|---|
+| **Zitierte Prompts** | In wie vielen Antworten diese Domain oder URL zitiert wurde |
+| **Präsenz %** | Das als Anteil an den Antworten im Ausschnitt |
+| **Anzahl Zitationen** | Wie oft insgesamt zitiert, Wiederholungen mitgezählt |
+| **Sichtbarkeit %** | Ihr Anteil an allen Zitationen im Ausschnitt |
+| **Durchschn. Rang** | Ihre durchschnittliche Position in den Zitationslisten der Engines |
+| **Veränderung** | Bewegung gegenüber dem Vergleichszeitraum oder dem vorherigen Lauf |
+
+**Details** in einer Zeile listet die dahinterliegenden Seiten und die Prompts, für die jede Seite zitiert wurde. Jede Domain in der Tabelle lässt sich mit **Als Wettbewerber verfolgen** direkt zu Ihren verfolgten Wettbewerbern hinzufügen, sodass ein hier entdeckter Name ohne erneutes Tippen in den [Share of Voice](competitors.md) einfließt.
+
+Beide Tabellen lassen sich als CSV herunterladen.
+
+!!! note "Engines, die nicht im Web nachsehen, liefern keine Zitationen"
+    Zitationen stammen von Engines, die beim Antworten das Web abrufen. Ein lokales Modell oder eine Engine, die allein aus ihrem Training antwortet, liefert keine - eine leere Tabelle unter einem engen Filter bedeutet also nicht zwangsläufig ein Problem mit Ihrer Website.
+
 ## Topics & Engines
 
 Dieser Reiter schlüsselt die Leistung auf zwei Arten auf:
@@ -66,7 +112,9 @@ Die Themen stammen aus Ihren Prompt-Kategorien. Sind Ihre Prompts nicht kategori
 **Exportieren** bietet zwei Formate:
 
 - **CSV-Tabelle**: alle Ergebnisse der aktuellen Ansicht, für Excel oder Google Sheets.
-- **PDF-Managementbericht**: ein druckfertiger Bericht der aktuellen Ansicht, samt der Wettbewerbsdiagramme und -daten aus dem Reiter Competition.
+- **PDF-Managementbericht**: ein vollständiger Bericht in dreizehn Abschnitten zur aktuellen Ansicht, geschrieben, um ihn jemandem zu geben, der nicht im Raum war.
+
+Der Bericht beginnt mit einer geschriebenen Darstellung statt einer Diagrammflut und arbeitet dann durch: wo Sie stehen, ob die KI Sie zutreffend beschreibt, die Bewegung im Zeitraum, Engine für Engine, wo die KI Sie zitiert, Fragen, die Wettbewerber gewinnen, wofür Wettbewerber zitiert werden, das gesamte Feld, in KI-Antworten genannte Marken, von der KI zitierte Domains, Erwähnungsrate je Engine, Erwähnungsrate je Thema und einen Schlussabschnitt, der erklärt, wie jede Kennzahl zu lesen ist.
 
 Exporte berücksichtigen Ihre aktiven Filter, und das Deckblatt des PDF nennt die angewendeten Filter, damit ein Bericht nicht mit einem Gesamtbild des Kontos verwechselt werden kann. In kostenpflichtigen Tarifen trägt das PDF Ihr [White-Label-Branding](../agency/white-label.md), sofern Sie es eingerichtet haben.
 
@@ -79,6 +127,12 @@ Klicken Sie auf **Jetzt ausführen** für eine Prüfung auf Abruf. Das Verhalten
 - **Verwaltete Tarife** laufen über die Infrastruktur von Hi, Moose. Reicht das Kontingent Ihres Arbeitsbereichs in diesem Monat für den aktuellen Zeitplan nicht aus, pausieren geplante Läufe, bis Sie den Tarif wechseln, Ihre [Laufhäufigkeit](settings.md#zeitplan-fur-laufe) anpassen oder sich das Kontingent zurücksetzt. Hi, Moose nennt Ihnen, wie viele Einheiten nötig sind und wie viele verbleiben.
 
 Sie können einen Lauf vorzeitig beenden, und Läufe, die von einem App-Update unterbrochen werden, setzen fort, statt verloren zu gehen.
+
+## Wie viel Historie aufbewahrt wird
+
+Jede Beobachtung, die ein Lauf erzeugt, wird lokal archiviert, damit Verläufe, Vergleiche und die Tabellen Erwähnungen und Zitationen weiter zurückblicken können als nur auf die letzten Läufe. Das Archiv hält bis zu **400 Tage** je Arbeitsbereich und bis zu 200.000 Beobachtungen; jenseits einer der beiden Grenzen fallen die ältesten Zeilen weg.
+
+In kostenpflichtigen verwalteten Tarifen synchronisieren auch Sichtbarkeitsläufe, die auf Ihrem Rechner laufen, ihre Ergebnisse in die Cloud, sodass Teammitglieder dieselbe Historie sehen wie Sie und nicht nur die Läufe, die auf ihrem eigenen Gerät stattgefunden haben.
 
 ## Wie es weitergeht
 

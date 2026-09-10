@@ -1,5 +1,5 @@
 ---
-source_hash: 266b8292b4154e6b52eab317de9e91cce7429af96c1d84999875493bfb8f09a8
+source_hash: c5ff2a271e0bd65a359303913cb736f19793b0f0562c6c4941f37c02efd742fb
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -54,7 +54,17 @@ Alle Felder sind optional, aber je mehr Sie ausfüllen, desto genauer kann Hi, M
 
 ## Wie es genutzt wird
 
+### Falschdarstellungen erkennen
+
 Während eines Sichtbarkeitslaufs lädt Hi, Moose das Brand Truth Profile des Projekts (sofern es aussagekräftige Inhalte enthält) und bewertet damit jede KI-Antwort auf Verzerrungen oder Abweichungen. Verglichen wird mit Ihrer kanonischen Beschreibung, Ihren Angeboten, Ihren Wettbewerbern, Ihrem bevorzugten und zu vermeidenden Vokabular sowie bekannten Verzerrungsmustern, statt lediglich zu prüfen, ob Ihr Markenname auftaucht.
+
+### Inhalte schreiben, die auf Ihren Käufer zielen
+
+Das Profil speist auch die Content-Werkzeuge. [Content Briefs](../../features/content-briefs.md), [Blogentwürfe](../../features/blog-post-draft.md), [Key Points](../../features/key-points.md) und [FAQ](../../features/faq-generator.md) lesen es, bevor sie irgendetwas schreiben, einschließlich Ihrer **Zielkundensegmente** und der Freitextnotizen daneben.
+
+Das ist der Unterschied zwischen einem Brief für „Leser, die sich für das Thema interessieren" und einem Brief für Operations-Teams im Mittelstand, die einen Wechsel prüfen. Die Zielkundenfelder einmal auszufüllen verändert danach das Ergebnis jedes Schreibwerkzeugs, was sie zu den lohnendsten Feldern dieses Bildschirms macht.
+
+Auch [Send Moose](../../send-moose/overview.md) liest das Profil bei Aufgaben rund um Ihre eigene Marke.
 
 ## Worin es sich von der Brand Voice unterscheidet
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 185a9611ccdaef3c98b73cc4349bc1d586a1fa03b38212ecab7ffca94af54a21
+source_hash: 0bf4df4be6bc4ecf9f90b0973d78ad5121f1c5f07aa1f1c11b5f4615df894dae
 ---
 # Paramètres de Visibility
 
@@ -15,6 +15,9 @@ Les paramètres de Visibility déterminent à quelle fréquence Hi, Moose vérif
 
 !!! note "Les exécutions planifiées nécessitent que cet appareil soit allumé"
     Sur **Preview Mode** et les forfaits **BYOK**, la planification s'exécute en local sur votre machine : une exécution planifiée ne peut pas démarrer si l'ordinateur est éteint ou en veille, ou si Hi, Moose est complètement fermé. Gardez l'application ouverte (ou réduite dans la barre d'état système) pour que les exécutions planifiées puissent avoir lieu. Les **forfaits gérés** débloquent un planificateur cloud toujours actif, qui ne dépend pas de l'état de votre appareil. Les moteurs en interrogation locale exigent toujours que l'application soit ouverte, quel que soit le forfait, puisque ces vérifications partent de votre machine.
+
+!!! note "Les exécutions dans le cloud couvrent chaque prompt sur chaque moteur"
+    Une exécution planifiée dans le cloud vérifie chacun de vos prompts surveillés sur chaque moteur que vous avez sélectionné pour lui, en une seule passe. Il n'y a pas d'échantillonnage de votre liste de prompts par exécution : les chiffres renvoyés par une exécution planifiée couvrent donc l'ensemble, et non une partie.
 
 ## Notifications par e-mail
 
@@ -48,6 +51,30 @@ Les modèles gratuits d'OpenRouter ne sont plus proposés comme option de scorin
 ## Modèles par défaut pour les nouveaux prompts
 
 Choisissez quels moteurs sont présélectionnés chaque fois que vous ajoutez un prompt dans le [Prompt Manager](prompt-manager.md) ; vous pourrez ensuite modifier la sélection prompt par prompt. Les modèles marqués **Payant** nécessitent un forfait payant ou BYOK ; Preview Mode est limité aux modèles en interrogation locale. Chaque modèle coché ici compte dans la consommation de jetons lors des exécutions de visibilité.
+
+### Les moteurs que vous pouvez suivre
+
+| Moteur | Mode d'exécution | Forfait |
+|---|---|---|
+| ChatGPT | API | Tous |
+| ChatGPT (local fetch) | Depuis votre machine | Tous |
+| Claude | API | Tous |
+| Gemini | API | Tous |
+| Grok | API | Tous |
+| Grok (local fetch) | Depuis votre machine | Tous |
+| Perplexity | API | Tous |
+| Perplexity (local fetch) | Depuis votre machine | Tous |
+| Google AI Mode (local fetch) | Depuis votre machine | Tous |
+| Google Search AI Overview (local fetch) | Depuis votre machine | Tous |
+| Google AI Mode | API | Payant |
+| Google AI Overviews | API | Payant |
+| Bing Copilot | API | Payant |
+| DeepSeek | API | Payant |
+| Meta AI | API | Payant |
+
+**DeepSeek** et **Meta AI** sont désactivés par défaut. Ils valent la peine d'être activés si votre catégorie a une vraie traction sur les marchés où ces deux-là sont forts ; sinon, les laisser éteints maintient le coût de vos exécutions au plus bas.
+
+Les moteurs **local fetch** lisent la surface publique de recherche IA depuis votre propre machine plutôt que d'appeler une API. Ils ne consomment aucun token, mais ils exigent que l'application de bureau soit ouverte au moment de l'exécution, quel que soit le forfait.
 
 ## Refaire le parcours d'accueil
 
