@@ -1,5 +1,5 @@
 ---
-source_hash: 911f9de16e31d26b16256a2d2d7eb92c2a092404af37ad258c44e41c76fd53bd
+source_hash: 881e1739f4af1f17baba45f2cc1c504a8346efdb54a337e50548b762cc06b74d
 ---
 # Brand Voice
 
@@ -36,6 +36,10 @@ Plutôt que de renseigner chaque champ à la main, vous pouvez lancer le **rempl
 3. Les champs de Brand Voice actuellement vides sont renseignés avec les valeurs suggérées issues de l'exploration.
 
 Le remplissage automatique ne renseigne que les champs vides : il n'écrase rien de ce que vous avez déjà écrit. Si l'exploration ne trouve rien d'utile pour un champ donné, ce champ est simplement laissé tel quel.
+
+## Remplir depuis vos documents de marque
+
+Si votre équipe dispose d'un message house ou d'une charte éditoriale, importez-le dans les [documents de marque](brand-documents.md) et cliquez sur **Remplir les profils depuis les documents**. Hi, Moose propose des valeurs de Brand Voice tirées du document, chacune appuyée par une citation, et vous choisissez celles à appliquer. Contrairement au remplissage automatique depuis le site web, il peut aussi proposer une nouvelle valeur pour un champ que vous avez déjà renseigné. Ces suggestions sont décochées au départ : rien ne change sauf si vous les choisissez.
 
 ## Modifier et enregistrer
 

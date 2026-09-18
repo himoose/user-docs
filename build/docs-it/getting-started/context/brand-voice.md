@@ -1,5 +1,5 @@
 ---
-source_hash: 911f9de16e31d26b16256a2d2d7eb92c2a092404af37ad258c44e41c76fd53bd
+source_hash: 881e1739f4af1f17baba45f2cc1c504a8346efdb54a337e50548b762cc06b74d
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -41,6 +41,10 @@ Invece di compilare ogni campo a mano, può avviare **Compila automaticamente**:
 3. I campi di Brand Voice attualmente vuoti vengono compilati con i valori suggeriti dalla scansione.
 
 La compilazione automatica riempie solo i campi vuoti: non sovrascrive nulla di ciò che lei ha già scritto. Se la scansione non trova nulla di utile per un campo, quel campo resta semplicemente com'è.
+
+## Compilazione dai documenti del brand
+
+Se il suo team ha un message house o una guida di stile, lo carichi in [Documenti del brand](brand-documents.md) e faccia clic su **Compila i profili dai documenti**. Hi, Moose suggerisce valori per la Brand Voice a partire dal documento, ciascuno sostenuto da una citazione, e lei sceglie quali applicare. A differenza della compilazione automatica dal sito, può suggerire un nuovo valore anche per un campo che ha già compilato. Questi suggerimenti partono non selezionati, quindi nulla cambia a meno che lei non li scelga.
 
 ## Modificare e salvare
 

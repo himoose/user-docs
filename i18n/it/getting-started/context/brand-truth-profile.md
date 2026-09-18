@@ -1,5 +1,5 @@
 ---
-source_hash: c5ff2a271e0bd65a359303913cb736f19793b0f0562c6c4941f37c02efd742fb
+source_hash: 5904a00ba3d332904ad56c2821ae256bf5463e1eabcaa2b39e0c5d75e3fe3d67
 ---
 # Brand Truth Profile
 
@@ -12,6 +12,8 @@ Come la Brand Voice, il Brand Truth Profile è delimitato al [progetto](../proje
 Tutti i campi sono facoltativi, ma più ne compila, più Hi, Moose potrà segnalare con precisione i travisamenti e raccomandare correzioni.
 
 ## Campi che può compilare
+
+Può compilarli a mano oppure lasciare che Hi, Moose suggerisca valori a partire dal suo message house o dai documenti di posizionamento. Veda [Compilazione dai documenti del brand](#compilazione-dai-documenti-del-brand) più sotto.
 
 ### Descrizione principale
 
@@ -46,6 +48,10 @@ Tutti i campi sono facoltativi, ma più ne compila, più Hi, Moose potrà segnal
 - **Affermazioni da trattare con cautela**: prezzi, prestazioni, certificazioni o altre affermazioni che richiedono un linguaggio prudente e circostanziato.
 - **Pagine o fonti che provano il suo posizionamento attuale**: pagine, documenti o casi di studio precisi da considerare prove importanti, ciascuno con una nota facoltativa.
 - **Fonti già note come superate o inesatte**: pagine di terzi, elenchi o citazioni precedenti dell'IA che notoriamente descrivono male la sua azienda, ciascuna con una nota su che cosa non va.
+
+## Compilazione dai documenti del brand
+
+Carichi il suo message house o i documenti di posizionamento in [Documenti del brand](brand-documents.md), poi faccia clic su **Compila i profili dai documenti**. Hi, Moose suggerisce valori per campi come la descrizione canonica, il cliente ideale, l'offerta, i concorrenti e le affermazioni sensibili. Ogni suggerimento mostra la citazione da cui proviene, e i suggerimenti che il documento non sostiene parola per parola vengono scartati. I campi vuoti sono selezionati per impostazione predefinita. I campi che ha già compilato partono non selezionati.
 
 ## Come viene utilizzato
 

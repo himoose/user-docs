@@ -1,5 +1,5 @@
 ---
-source_hash: 911f9de16e31d26b16256a2d2d7eb92c2a092404af37ad258c44e41c76fd53bd
+source_hash: 881e1739f4af1f17baba45f2cc1c504a8346efdb54a337e50548b762cc06b74d
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -41,6 +41,10 @@ En lugar de rellenar cada campo a mano, puede ejecutar **Autocompletar**:
 3. Los campos de Brand Voice que estén vacíos se rellenan con los valores sugeridos a partir del rastreo.
 
 El autocompletado solo rellena los campos vacíos: no sobrescribe nada de lo que usted ya haya escrito. Si el rastreo no encuentra nada útil para un campo, ese campo simplemente se deja como está.
+
+## Rellenar desde sus documentos de marca
+
+Si su equipo tiene un message house o una guía de estilo, súbalo en [Documentos de marca](brand-documents.md) y haga clic en **Rellenar perfiles desde documentos**. Hi, Moose sugiere valores de Brand Voice a partir del documento, cada uno respaldado por una cita, y usted elige cuáles aplicar. A diferencia del autocompletado desde el sitio web, también puede sugerir un valor nuevo para un campo que ya haya rellenado. Esas sugerencias vienen sin marcar, así que nada cambia salvo que usted lo elija.
 
 ## Editar y guardar
 

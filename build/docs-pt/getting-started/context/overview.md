@@ -1,5 +1,5 @@
 ---
-source_hash: 05fae21b2ec70be5a8bae1ca0e58f085c9da2140a80bae1dc2e083051aeffb43
+source_hash: 25544d4dba4331f336f53923c9a635bc4442b022e472aec88392d921d34dfefb
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -10,40 +10,46 @@ source_hash: 05fae21b2ec70be5a8bae1ca0e58f085c9da2140a80bae1dc2e083051aeffb43
 
 ## Para que serve
 
-O **Contexto** é a camada de fundamentação na navegação esquerda do aplicativo para desktop. É o contexto operacional compartilhado do seu projeto atual: as informações que o operador, o chat e todos os recursos de geração reaproveitam em vez de começar do zero a cada pedido.
+O **Contexto** é a camada de fundamentação na navegação à esquerda da aplicação de desktop. É o contexto operacional partilhado do seu projeto atual: a informação que o operador, o chat e todas as capacidades de geração reutilizam, em vez de começarem do zero a cada pedido.
 
-O Contexto tem três partes distintas:
+O Contexto tem quatro partes:
 
-| | Alcance | Para que serve |
+| | Âmbito | Para que serve |
 |---|---|---|
-| **[Voz da marca](brand-voice.md)** | Por projeto | Como sua marca deve soar: tom, público, valores, terminologia. Define o estilo de escrita de tudo o que o Hi, Moose gera. |
-| **[Perfil de Verdade da Marca](brand-truth-profile.md)** | Por projeto | Uma fonte de verdade legível por máquina sobre o que sua empresa é, vende e atende de fato. Serve para detectar quando as respostas da IA distorcem isso ou se afastam. |
-| **[Sobre você](about-you.md)** | Por dispositivo, não por projeto | Anotações sobre você como pessoa: sua função, seus objetivos e seu jeito de trabalhar, para que o chat conheça a pessoa e não só a marca. |
+| **[Voz da marca](brand-voice.md)** | Por projeto | Como a sua marca deve soar: tom, público, valores, terminologia. Define o estilo de escrita de tudo o que o Hi, Moose gera. |
+| **[Perfil de Verdade da Marca](brand-truth-profile.md)** | Por projeto | Uma fonte de verdade legível por máquina sobre o que a sua empresa é, vende e serve. Serve para detetar quando as respostas da IA distorcem essa verdade ou se afastam dela. |
+| **[Documentos de marca](brand-documents.md)** | Por projeto | O seu message house, guia de estilo e documentos de posicionamento. O Hi, Moose divide-os em secções, aplica as suas regras de escrita a tudo e vai buscar o resto quando um trabalho precisa. |
+| **[Sobre você](about-you.md)** | Por dispositivo, não por projeto | Notas sobre si enquanto pessoa: a sua função, os seus objetivos e a forma como gosta de trabalhar, para que o chat conheça a pessoa e não só a marca. |
 
-## Por que são três artefatos separados
+## Porque são artefactos separados
 
-A Voz da marca e o Perfil de Verdade da Marca respondem a perguntas diferentes, mesmo descrevendo os dois a sua marca:
+A Voz da marca e o Perfil de Verdade da Marca respondem a perguntas diferentes, embora ambos descrevam a sua marca:
 
-- A **Voz da marca** responde a «como isso deve soar?»: tom, estilo, preferências de vocabulário. É uma orientação criativa e estilística para o conteúdo gerado.
-- O **Perfil de Verdade da Marca** responde a «o que é verdade sobre nós?»: descrição canônica, cliente ideal, ofertas, concorrentes e os pontos específicos em que a IA costuma errar. É uma referência factual para flagrar distorções, não um guia de estilo.
+- A **Voz da marca** responde a «como deve isto soar?»: tom, estilo, preferências de vocabulário. É uma orientação criativa e estilística para o conteúdo gerado.
+- O **Perfil de Verdade da Marca** responde a «o que é verdade sobre nós?»: descrição canónica, cliente ideal, ofertas, concorrentes e os pontos específicos em que a IA costuma errar. É uma referência factual para detetar distorções, não um guia de estilo.
 
-**Sobre você** difere dos dois: não trata da marca de forma alguma. É contexto pessoal sobre **você**, a pessoa que usa o aplicativo, salvo localmente no seu dispositivo em vez de vinculado a um projeto. Por isso acompanha você entre projetos, em vez de zerar a cada troca de espaço de trabalho.
+Os **Documentos de marca** guardam o material de origem completo por trás dos dois. A Voz da marca e o Perfil de Verdade da Marca continuam a ser resumos curtos. Os documentos guardam o detalhe, e o Hi, Moose pesquisa neles as secções que se adequam a cada trabalho. Também os pode usar para preencher os dois perfis.
+
+**Sobre você** é diferente de todos estes: não trata da marca. É contexto pessoal sobre **si**, a pessoa que usa a aplicação, guardado localmente no seu dispositivo em vez de associado a um projeto. Por isso acompanha-o de projeto para projeto, em vez de ser reposto sempre que muda de espaço de trabalho.
 
 ## Onde o Contexto é usado
 
-- A **Voz da marca** é reaproveitada nos [Briefings de conteúdo](../../features/content-briefs.md), no [Gerador de FAQ](../../features/faq-generator.md), no [Extrator de Pontos principais](../../features/key-points.md), em [rascunhos, prévia e publicação](../../features/drafts-and-publishing.md) e nas recomendações das [auditorias de AEO](../../features/aeo-audits.md).
-- O **Perfil de Verdade da Marca** é reaproveitado durante as execuções de [Visibilidade](../../visibility/overview.md), em que o Hi, Moose verifica se a resposta de um mecanismo de IA sobre sua marca bate com sua descrição canônica, suas ofertas, seus concorrentes e os padrões conhecidos de distorção.
-- **Sobre você** é reaproveitado no [Chat](../../chat/overview.md), para que as respostas considerem sua função, seus objetivos e seu estilo de comunicação preferido.
+- A **Voz da marca** é reutilizada nos [Briefings de conteúdo](../../features/content-briefs.md), no [Gerador de FAQ](../../features/faq-generator.md), no [Extrator de Pontos principais](../../features/key-points.md), em [rascunhos, pré-visualização e publicação](../../features/drafts-and-publishing.md) e nas recomendações das [auditorias de AEO](../../features/aeo-audits.md).
+- O **Perfil de Verdade da Marca** é reutilizado durante as execuções de [Visibilidade](../../visibility/overview.md), em que o Hi, Moose verifica se a resposta de um motor de IA sobre a sua marca corresponde à sua descrição canónica, às suas ofertas, aos seus concorrentes e aos padrões conhecidos de distorção.
+- Os **Documentos de marca** são reutilizados nos Briefings de conteúdo, nos rascunhos de post, nos Pontos principais, no Gerador de FAQ, na pesquisa do [Send Moose](../../send-moose/overview.md) e no [Chat](../../chat/overview.md), onde o chat também os pode pesquisar. Veja [Onde os seus documentos são usados](brand-documents.md#onde-os-seus-documentos-sao-usados).
+- **Sobre você** é reutilizado no [Chat](../../chat/overview.md), para que as respostas tenham em conta a sua função, os seus objetivos e o seu estilo de comunicação preferido.
 
 ## Como preencher
 
-Cada artefato indica quantos campos você preencheu e mostra uma prévia curta assim que você adiciona algo. Todos os campos dos três artefatos são opcionais: o Hi, Moose funciona com contexto parcial e fica mais preciso conforme você acrescenta mais.
+Cada artefacto indica quantos campos preencheu e mostra uma pré-visualização curta assim que adiciona alguma coisa. Todos os campos são opcionais: o Hi, Moose funciona com contexto parcial e fica mais preciso à medida que acrescenta mais.
 
-No caso específico da Voz da marca, você não precisa preencher cada campo à mão: uma ação de **preenchimento automático** pode rastrear o site do seu projeto localmente e sugerir valores para os campos vazios.
+No caso da Voz da marca, não precisa de preencher cada campo à mão: uma ação de **preenchimento automático** pode rastrear o site do seu projeto localmente e sugerir valores para os campos vazios.
+
+Se já tem um message house ou um guia de estilo, carregue-o em [Documentos de marca](brand-documents.md) e clique em **Preencher perfis a partir dos documentos**. O Hi, Moose sugere valores para a Voz da marca e para o Perfil de Verdade da Marca, cada um sustentado por uma citação do documento, e escolhe quais aplicar.
 
 ## Armazenamento local e sincronização na nuvem
 
-Por padrão, a Voz da marca e o Perfil de Verdade da Marca ficam salvos **localmente para o projeto atual**, e Sobre você fica salvo **localmente no seu dispositivo**. A sincronização na nuvem, que faz backup da Voz da marca e do Perfil de Verdade da Marca e os compartilha com a equipe, está disponível em **todos os planos pagos**, incluindo os planos BYOK pagos. O Preview Mode e o BYOK Free permanecem apenas locais; ao mudar para um plano superior, a sincronização é ativada, de modo que sua equipe compartilhe a mesma base e ela fique protegida se algo acontecer com a sua máquina.
+Por predefinição, a Voz da marca, o Perfil de Verdade da Marca e os Documentos de marca ficam guardados **localmente para o projeto atual**, e Sobre você fica guardado **localmente no seu dispositivo**. A sincronização na nuvem, que cria uma cópia de segurança da Voz da marca, do Perfil de Verdade da Marca e dos Documentos de marca e os partilha com a equipa, está disponível em **todos os planos pagos**, incluindo os planos BYOK pagos. O Preview Mode e o BYOK Free ficam apenas locais. Ao mudar para um plano pago, a sincronização é ativada, para que a sua equipa partilhe a mesma base e esta fique protegida se acontecer alguma coisa ao seu computador.
 
 !!! note "Nos planos BYOK"
-    O rastreamento do contexto da marca (a etapa de preenchimento automático) e a análise do Perfil de Verdade da Marca rodam localmente no aplicativo para desktop. O Hi, Moose não precisa ver o conteúdo do seu site nos próprios servidores para montar ou usar esse contexto.
+    O rastreamento do contexto da marca (o passo de preenchimento automático) e a análise do Perfil de Verdade da Marca são executados localmente na aplicação de desktop. O Hi, Moose não precisa de ver o conteúdo do seu site nos próprios servidores para criar ou usar este contexto.

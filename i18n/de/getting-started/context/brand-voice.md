@@ -1,5 +1,5 @@
 ---
-source_hash: 911f9de16e31d26b16256a2d2d7eb92c2a092404af37ad258c44e41c76fd53bd
+source_hash: 881e1739f4af1f17baba45f2cc1c504a8346efdb54a337e50548b762cc06b74d
 ---
 # Brand Voice
 
@@ -36,6 +36,10 @@ Statt jedes Feld von Hand auszufüllen, können Sie **Automatisch ausfüllen** a
 3. Alle derzeit leeren Brand-Voice-Felder werden mit Vorschlägen aus dem Crawl befüllt.
 
 Das automatische Ausfüllen befüllt ausschließlich leere Felder und überschreibt nichts, was Sie bereits geschrieben haben. Findet der Crawl für ein Feld nichts Brauchbares, bleibt dieses Feld einfach unverändert.
+
+## Aus Ihren Markendokumenten füllen
+
+Wenn Ihr Team ein Message House oder einen Styleguide hat, laden Sie es unter [Markendokumente](brand-documents.md) hoch und klicken Sie auf **Profile aus Dokumenten füllen**. Hi, Moose schlägt Brand-Voice-Werte aus dem Dokument vor, jeweils belegt durch ein Zitat, und Sie wählen aus, welche Sie übernehmen. Anders als das automatische Ausfüllen über die Website kann es auch einen neuen Wert für ein Feld vorschlagen, das Sie bereits ausgefüllt haben. Solche Vorschläge sind zunächst abgewählt, sodass sich nichts ändert, solange Sie sie nicht auswählen.
 
 ## Bearbeiten und speichern
 

@@ -1,5 +1,5 @@
 ---
-source_hash: c5ff2a271e0bd65a359303913cb736f19793b0f0562c6c4941f37c02efd742fb
+source_hash: 5904a00ba3d332904ad56c2821ae256bf5463e1eabcaa2b39e0c5d75e3fe3d67
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -17,6 +17,8 @@ Comme la Brand Voice, le Brand Truth Profile est délimité au [projet](../proje
 Tous les champs sont facultatifs, mais plus vous en renseignez, plus Hi, Moose pourra signaler précisément les déformations et recommander des corrections.
 
 ## Champs que vous pouvez renseigner
+
+Vous pouvez les renseigner à la main, ou laisser Hi, Moose proposer des valeurs à partir de votre message house ou de vos documents de positionnement. Voir [Remplir depuis vos documents de marque](#remplir-depuis-vos-documents-de-marque) ci-dessous.
 
 ### Description principale
 
@@ -51,6 +53,10 @@ Tous les champs sont facultatifs, mais plus vous en renseignez, plus Hi, Moose p
 - **Affirmations que l'IA doit manier avec précaution** : tarifs, performances, certifications ou autres affirmations exigeant un langage nuancé.
 - **Pages ou sources qui prouvent votre positionnement actuel** : pages, documents ou études de cas précis à considérer comme des preuves importantes, chacun avec une note facultative.
 - **Sources déjà connues comme obsolètes ou inexactes** : pages tierces, annuaires ou citations antérieures de l'IA connus pour décrire votre entreprise de façon erronée, chacun avec une note sur ce qui est faux.
+
+## Remplir depuis vos documents de marque
+
+Importez votre message house ou vos documents de positionnement dans les [documents de marque](brand-documents.md), puis cliquez sur **Remplir les profils depuis les documents**. Hi, Moose propose des valeurs pour des champs comme la description canonique, le client idéal, les offres, les concurrents et les affirmations sensibles. Chaque suggestion affiche la citation dont elle provient, et les suggestions que le document n'appuie pas mot pour mot sont écartées. Les champs vides sont cochés par défaut. Les champs déjà renseignés sont décochés au départ.
 
 ## Comment il est utilisé
 

@@ -1,5 +1,5 @@
 ---
-source_hash: c5ff2a271e0bd65a359303913cb736f19793b0f0562c6c4941f37c02efd742fb
+source_hash: 5904a00ba3d332904ad56c2821ae256bf5463e1eabcaa2b39e0c5d75e3fe3d67
 ---
 # Brand Truth Profile
 
@@ -12,6 +12,8 @@ Wie die Brand Voice ist das Brand Truth Profile auf das aktuelle [Projekt](../pr
 Alle Felder sind optional, aber je mehr Sie ausfüllen, desto genauer kann Hi, Moose Verzerrungen benennen und Korrekturen empfehlen.
 
 ## Felder, die Sie ausfüllen können
+
+Sie können diese Felder von Hand ausfüllen oder Hi, Moose Werte aus Ihrem Message House oder Ihren Positionierungsdokumenten vorschlagen lassen. Siehe [Aus Ihren Markendokumenten füllen](#aus-ihren-markendokumenten-fullen) weiter unten.
 
 ### Kernbeschreibung
 
@@ -46,6 +48,10 @@ Alle Felder sind optional, aber je mehr Sie ausfüllen, desto genauer kann Hi, M
 - **Aussagen, mit denen KI vorsichtig umgehen soll**: Preise, Leistung, Zertifizierungen oder andere Aussagen, die eine sorgfältige, differenzierte Sprache erfordern.
 - **Seiten oder Quellen, die Ihre aktuelle Positionierung belegen**: konkrete Seiten, Dokumente oder Fallstudien, die als wichtiger Beleg gelten sollen, jeweils mit einer optionalen Notiz.
 - **Quellen, die bekanntermaßen überholt oder unzutreffend sind**: Seiten Dritter, Verzeichnisse oder frühere KI-Zitierungen, die Ihr Unternehmen nachweislich falsch beschreiben, jeweils mit einer Notiz, was daran falsch ist.
+
+## Aus Ihren Markendokumenten füllen
+
+Laden Sie Ihr Message House oder Ihre Positionierungsdokumente unter [Markendokumente](brand-documents.md) hoch und klicken Sie dann auf **Profile aus Dokumenten füllen**. Hi, Moose schlägt Werte für Felder wie die kanonische Beschreibung, den idealen Kunden, die Angebote, die Wettbewerber und sensible Aussagen vor. Jeder Vorschlag zeigt das Zitat, aus dem er stammt, und Vorschläge, die das Dokument nicht wörtlich belegt, werden verworfen. Leere Felder sind standardmäßig ausgewählt. Felder, die Sie bereits ausgefüllt haben, sind zunächst abgewählt.
 
 ## Wie es genutzt wird
 

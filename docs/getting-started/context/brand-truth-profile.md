@@ -10,6 +10,8 @@ All fields are optional, but the more you fill in, the more precisely Hi, Moose 
 
 ## Fields you can fill in
 
+You can fill these in by hand, or let Hi, Moose suggest values from your message house or positioning documents. See [Fill from your brand documents](#fill-from-your-brand-documents) below.
+
 ### Core description
 
 - **How should AI describe your company today?** — the canonical one-or-two sentence description you'd want to see in a ChatGPT, Perplexity, Gemini, or Google AI answer.
@@ -43,6 +45,10 @@ All fields are optional, but the more you fill in, the more precisely Hi, Moose 
 - **Claims AI should be careful with** — pricing, performance, certifications, or other claims that need careful, qualified language.
 - **Pages or sources that prove your current positioning** — specific pages, docs, or case studies to treat as important proof, each with an optional note.
 - **Sources already known to be outdated or inaccurate** — third-party pages, directories, or prior AI citations known to describe your company incorrectly, each with a note on what's wrong.
+
+## Fill from your brand documents
+
+Upload your message house or positioning documents under [Brand Documents](brand-documents.md), then click **Fill profiles from documents**. Hi, Moose suggests values for fields like the canonical description, ideal customer, offerings, competitors, and sensitive claims. Every suggestion shows the quote it came from, and suggestions that the document doesn't back up word for word are dropped. Empty fields are checked by default. Fields you've already filled in start unchecked.
 
 ## How it's used
 

@@ -1,5 +1,5 @@
 ---
-source_hash: c5ff2a271e0bd65a359303913cb736f19793b0f0562c6c4941f37c02efd742fb
+source_hash: 5904a00ba3d332904ad56c2821ae256bf5463e1eabcaa2b39e0c5d75e3fe3d67
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -13,6 +13,8 @@ source_hash: c5ff2a271e0bd65a359303913cb736f19793b0f0562c6c4941f37c02efd742fb
 El Brand Truth Profile es una fuente de verdad legible por máquina sobre cómo debe describir la IA a su empresa: qué vende, a quién atiende y con qué no debe confundirse nunca. Hi, Moose lo utiliza durante las ejecuciones de [Visibility](../../visibility/overview.md) para detectar cuándo la respuesta de un motor de IA tergiversa su marca o repite una narrativa desfasada, en lugar de dejar ese juicio en manos de una puntuación de sentimiento genérica.
 
 Al igual que Brand Voice, el Brand Truth Profile está acotado al [proyecto](../projects.md) actual.
+
+Puede rellenar estos campos a mano o dejar que Hi, Moose sugiera valores a partir de su message house o sus documentos de posicionamiento. Consulte [Rellenar desde sus documentos de marca](#rellenar-desde-sus-documentos-de-marca) más abajo.
 
 Todos los campos son opcionales, pero cuantos más rellene, con mayor precisión podrá Hi, Moose señalar tergiversaciones y recomendar correcciones.
 
@@ -77,3 +79,7 @@ Al igual que Brand Voice, el Brand Truth Profile se guarda de forma predetermina
 ## Seguimiento de competidores
 
 La lista de competidores de esta página se comparte con la [configuración de Visibility](../../visibility/settings.md). Los competidores añadidos en cualquiera de los dos sitios aparecen en ambos y alimentan el [Share of Voice, las citas de competidores y las brechas](../../visibility/competitors.md).
+
+## Rellenar desde sus documentos de marca
+
+Suba su message house o sus documentos de posicionamiento en [Documentos de marca](brand-documents.md) y haga clic en **Rellenar perfiles desde documentos**. Hi, Moose sugiere valores para campos como la descripción canónica, el cliente ideal, la oferta, los competidores y las afirmaciones sensibles. Cada sugerencia muestra la cita de la que proviene, y se descartan las sugerencias que el documento no respalda palabra por palabra. Los campos vacíos vienen marcados por defecto. Los campos que ya ha rellenado vienen sin marcar.

@@ -10,29 +10,29 @@ source_hash: 6b626247301ccb574a07ca68954224dc2c2db39fba0d3b67fb3b922f16cabd30
 
 ## Para que serve
 
-«Sobre você» é o contexto pessoal a seu respeito, **você**, a pessoa que usa o Hi, Moose, para que o chat se pareça mais com trabalhar ao lado de um colega que conhece você do que com uma ferramenta a quem é preciso se explicar de novo a cada sessão.
+«Sobre você» é o contexto pessoal sobre **si**, a pessoa que usa o Hi, Moose, para que o chat se pareça mais com trabalhar ao lado de um colega que o conhece do que com uma ferramenta a quem tem de se explicar outra vez em cada sessão.
 
-Diferente da [Voz da marca](brand-voice.md) e do [Perfil de Verdade da Marca](brand-truth-profile.md), «Sobre você» **não é delimitado a um projeto**. Essas informações são suas e ficam salvas localmente neste dispositivo, então permanecem as mesmas quando você troca de projeto.
+Ao contrário da [Voz da marca](brand-voice.md) e do [Perfil de Verdade da Marca](brand-truth-profile.md), «Sobre você» **não pertence a um projeto**. Esta informação é sua e fica guardada localmente neste dispositivo, por isso mantém-se igual quando muda de projeto.
 
-Tudo aqui é opcional, e tudo permanece na sua máquina.
+Tudo aqui é opcional, e tudo fica no seu computador.
 
-## Campos que você pode preencher
+## Campos que pode preencher
 
-- **Sua função**: por exemplo, «head de marketing em uma startup de SaaS».
-- **Sua equipe**: por exemplo, «time de conteúdo pequeno, de 3 pessoas, com um designer».
-- **No que você foca**: uma área por linha, por exemplo AEO, crescimento do blog, distribuição de podcast.
-- **Objetivos de longo prazo**: o que significa sucesso para você nos próximos trimestres.
-- **Como você prefere que o Moose fale com você**: por exemplo, «respostas curtas primeiro, detalhe só se eu pedir. Sem discurso motivacional».
-- **Qualquer outra coisa que o Moose deva lembrar**: particularidades, restrições ou contexto recorrente que ajudaria um colega a trabalhar melhor com você.
+- **Sua função**: por exemplo, «responsável de marketing numa startup de SaaS».
+- **Sua equipe**: por exemplo, «equipa de conteúdo pequena, de 3 pessoas, com um designer».
+- **No que você se concentra**: uma área por linha, por exemplo AEO, crescimento do blog, distribuição de podcasts.
+- **Objetivos de longo prazo**: o que significa sucesso para si nos próximos trimestres.
+- **Como você gosta que o Moose fale com você**: por exemplo, «respostas curtas primeiro, detalhe só se eu pedir. Sem discursos motivacionais».
+- **O que mais o Moose deve lembrar**: particularidades, restrições ou contexto recorrente que ajudaria um colega a trabalhar melhor consigo.
 
 ## Editar e limpar
 
-Acrescente ou edite qualquer um desses campos no cartão «Sobre você» dentro do Contexto. Se preferir não guardar nenhum contexto pessoal, pode limpar tudo a qualquer momento: a limpeza remove tudo o que estiver salvo aqui.
+Acrescente ou edite qualquer um destes campos no cartão «Sobre você», dentro do Contexto. Se preferir não guardar nenhum contexto pessoal, pode limpar tudo a qualquer momento: a limpeza remove tudo o que estiver guardado aqui.
 
 ## Onde é usado
 
-«Sobre você» entra como contexto de fundo quando você usa o [Chat](../../chat/overview.md), para que as respostas considerem sua função, seus objetivos e seu estilo de comunicação preferido sem que você precise repeti-los.
+«Sobre você» entra como contexto de fundo quando usa o [Chat](../../chat/overview.md), para que as respostas tenham em conta a sua função, os seus objetivos e o seu estilo de comunicação preferido sem ter de os repetir.
 
 ## Armazenamento
 
-«Sobre você» permanece sempre local neste dispositivo. Essas informações não fazem parte da sincronização na nuvem dos planos pagos que vale para a Voz da marca e o Perfil de Verdade da Marca, porque são pessoais e não contexto compartilhado da equipe.
+«Sobre você» fica sempre local neste dispositivo. Esta informação não faz parte da sincronização na nuvem dos planos pagos que se aplica à Voz da marca e ao Perfil de Verdade da Marca, porque é pessoal e não contexto partilhado da equipa.

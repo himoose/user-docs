@@ -34,6 +34,10 @@ Instead of filling in every field by hand, you can run **Auto fill**:
 
 Auto-fill only fills in fields that are empty — it won't overwrite anything you've already written. If the crawl doesn't turn up anything useful for a given field, that field is simply left as-is.
 
+## Fill from your brand documents
+
+If your team has a message house or style guide, upload it under [Brand Documents](brand-documents.md) and click **Fill profiles from documents**. Hi, Moose suggests Brand Voice values from the document, each backed by a quote, and you pick which ones to apply. Unlike website auto-fill, it can also suggest a new value for a field you've already filled in. Those suggestions start unchecked, so nothing changes unless you choose it.
+
 ## Editing and saving
 
 Brand Voice changes are local to the project until you save them. If you navigate away with unsaved changes, Hi, Moose will ask whether you want to save before leaving, leave without saving, or stay and keep editing.
