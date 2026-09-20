@@ -1,5 +1,5 @@
 ---
-source_hash: 32a1d4d064d3d168231ee9531b0835d37b75dbd7507b4cc6c64f2b5bbb057681
+source_hash: 2ba70f00f21e9d4751be22470dd7212080bc851cf96917788479b101bf0c1896
 ---
 # Kontotypen und Tarife
 
@@ -11,7 +11,7 @@ Die Tarife sind im Bildschirm **Upgrade** in zwei Reitern gruppiert: **Startup**
 
 ### BYOK: eigenen Schlüssel mitbringen
 
-Sie stellen einen [OpenRouter](https://openrouter.ai)-API-Schlüssel bereit, und die Modellaufrufe laufen **aus der Desktop-App heraus auf Ihrem Rechner** mit diesem Schlüssel. Hi, Moose leitet BYOK-Inferenz niemals über eigene Server, Ihr Schlüssel und Ihre Prompts bleiben also lokal.
+Sie stellen einen [OpenRouter](https://openrouter.ai)-API-Schlüssel bereit, und die Modellaufrufe laufen **aus der Desktop-App heraus auf Ihrem Rechner** mit diesem Schlüssel. Hi, Moose leitet BYOK-Inferenz niemals über eigene Server, Ihr Schlüssel bleibt also lokal, und die Inferenz geht direkt an OpenRouter.
 
 Daran ändert auch ein kostenpflichtiger BYOK-Tarif nichts. Sie zahlen für mehr Arbeitsmöglichkeiten (Projekte, Sitzplätze, Gedächtnis, Workflows, Search Console), nicht dafür, dass Hi, Moose Ihre Modellaufrufe ausführt. Die Modellkosten gehen direkt an OpenRouter, und es gibt keinen Hi, Moose-Tokenzähler, den Sie im Auge behalten müssten.
 

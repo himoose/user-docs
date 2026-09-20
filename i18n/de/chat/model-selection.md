@@ -1,5 +1,5 @@
 ---
-source_hash: 659813c24e3d334cb65df479575d60bccc59736ff6f29cd0a970408673a3f493
+source_hash: a5f6ba4ca639882531f721cd6d5669ca1865f2c242b18c3fa8bbfa39f0ddb815
 ---
 # Modellauswahl
 
@@ -13,7 +13,7 @@ Jeder Chat läuft mit einem bestimmten KI-Modell, und über die Modellauswahl se
 
 - **Kostenlos** / **HiMoose Cloud** / **Bezahlt oder BYOK**: welche Tarife dieses Modell nutzen können.
 - **Speed: Slow / Average / Very Fast**: ein grober Eindruck der Antwortzeit.
-- **Lokal**: läuft vollständig auf Ihrem Gerät (siehe unten).
+- **Lokal**: das Modell läuft auf Ihrem Gerät (siehe unten).
 - Eine **Multiplikator-Kennzeichnung** bei teureren Modellen, die zeigt, wie viel mehr sie von Ihrem Guthaben verbrauchen als die Standardoption.
 
 Das Angebot folgt dem, was die Modellanbieter veröffentlichen. Derzeit umfasst es die Familien Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step und Trinity, darunter mehrere kostenlose Optionen und die lokalen Gemma-Varianten. Ist ein Modell in Ihrem Tarif nicht verfügbar, sagt Hi, Moose Ihnen das direkt, statt stillschweigend auf ein anderes auszuweichen.
@@ -22,7 +22,7 @@ Die Liste ändert sich, während Anbieter Modelle einführen und abkündigen. Be
 
 ## Lokale Modelle
 
-Zugelassene lokale Modelle wie Googles Gemma 4 laufen **vollständig auf Ihrem Rechner**. Keine Token verbraucht, kein Umweg über die Cloud, und keine Daten verlassen Ihr Gerät. Wenn Sie zum ersten Mal ein lokales Modell wählen, führt Hi, Moose Sie durch die Einrichtung.
+Zugelassene lokale Modelle wie Googles Gemma 4 laufen **auf Ihrem Rechner**, und ihre Antworten entstehen dort. Keine Token verbraucht. Standardmäßig sendet ein kurzer Routing-Schritt den Text Ihrer Nachricht an einen Cloud-Dienst, der das passende Werkzeug dafür wählt. Das haben Sie in der Hand: Schalten Sie **Intelligentes Routing** unter **Einstellungen → Lokale KI** ab, dann bleibt auch dieser Schritt auf Ihrem Gerät. Wenn Sie zum ersten Mal ein lokales Modell wählen, führt Hi, Moose Sie durch die Einrichtung.
 
 Nach Download und Aktivierung sind lokale Antworten auf Apple Silicon schnell. Auf Macs mit Intel-Prozessor läuft das Modell auf der CPU und ist deutlich langsamer als Cloud-Modelle; Hi, Moose weist Sie darauf hin, bevor Sie den Download starten.
 

@@ -8,7 +8,7 @@ Plans are grouped into two tabs in the **Upgrade** screen: **Startup** and **Ent
 
 ### BYOK — bring your own key
 
-You supply an [OpenRouter](https://openrouter.ai) API key, and model calls run **from the desktop app on your machine** using that key. Hi, Moose never proxies BYOK inference through its own servers, so your key and your prompts stay local.
+You supply an [OpenRouter](https://openrouter.ai) API key, and model calls run **from the desktop app on your machine** using that key. Hi, Moose never proxies BYOK inference through its own servers, so your key stays local and inference goes straight to OpenRouter.
 
 Paying for a BYOK plan doesn't change that. You're paying for more workflow capability — projects, seats, memory, workflows, Search Console — not for Hi, Moose to run your model calls for you. Model costs go to OpenRouter directly, and there's no Hi, Moose token meter to watch.
 

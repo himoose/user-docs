@@ -10,7 +10,7 @@ Open the model selector to see the models available on your [plan](../getting-st
 
 - **Free** / **HiMoose Cloud** / **Paid or BYOK** — which plans can use this model.
 - **Speed: Slow / Average / Very Fast** — a rough sense of response latency.
-- **Local** — runs entirely on your device (see below).
+- **Local** — the model runs on your device (see below).
 - A **multiplier badge** on higher-cost models, showing how much more of your balance they use than the standard option.
 
 The lineup tracks what the model providers ship. It currently spans the Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step and Trinity families, including several free options and the local Gemma builds. If a model isn't available on your current plan, Hi, Moose tells you so directly rather than silently falling back to a different one.
@@ -19,7 +19,7 @@ The list changes as providers ship and retire models, so treat the selector itse
 
 ## Local models
 
-Approved local models such as Google's Gemma 4 run **entirely on your computer**. No tokens used, no cloud round-trip, and no data leaves your device. The first time you select a local model, Hi, Moose walks you through setup.
+Approved local models such as Google's Gemma 4 run **on your computer**, and their answers are generated there. No tokens used. By default, a short routing step sends the text of your message to a cloud service to pick the right tool for it. You're in control of that: turn off **Smart routing** under **Settings → Local AI** and that step stays on your device too. The first time you select a local model, Hi, Moose walks you through setup.
 
 Once downloaded and activated, local responses are fast on Apple Silicon. On Intel-based Macs the model runs on CPU and will be noticeably slower than cloud models, and Hi, Moose warns you about this before you commit to the download.
 

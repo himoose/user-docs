@@ -1,5 +1,5 @@
 ---
-source_hash: f081840e659e67696268902173c5c0f26e8413e1debac31049488ad42cb5c005
+source_hash: 694ddd0a18767e3b704aea45e0ef8b871e073118174ccf12a707ce8030373f80
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -61,7 +61,7 @@ Der Schlüssel wird pro Konto und nicht pro Gerät gespeichert und begleitet Sie
 
 ## Local Model
 
-Laden Sie ein zugelassenes Modell auf das Gerät und aktivieren Sie es, etwa Gemma 4. Die lokale Ausführung nutzt weder die Modelle von Hi, Moose noch Ihren OpenRouter-Schlüssel: Sie läuft vollständig auf Ihrem Rechner und ist kostenfrei.
+Laden Sie ein zugelassenes Modell auf das Gerät und aktivieren Sie es, etwa Gemma 4. Antworten eines lokalen Modells entstehen auf Ihrem Rechner, ohne die verwalteten Modelle von Hi, Moose und ohne Ihren OpenRouter-Schlüssel, und die Nutzung ist kostenfrei. Standardmäßig nutzt der Chat einen kurzen Cloud-Routing-Schritt, um für jede Nachricht das passende Werkzeug zu wählen, und sendet dafür den Text der Nachricht an einen Cloud-Routing-Dienst. Schalten Sie **Intelligentes Routing** unter **Einstellungen → Lokale KI** ab, damit auch dieser Schritt auf Ihrem Gerät bleibt.
 
 Lokale Modelle stehen in allen Tarifen zur Verfügung und sind im Preview Mode **erforderlich** für [AEO Audits](../features/aeo-audits.md) und die Sichtbarkeitsbewertung.
 

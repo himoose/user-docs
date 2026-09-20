@@ -1,5 +1,5 @@
 ---
-source_hash: 32a1d4d064d3d168231ee9531b0835d37b75dbd7507b4cc6c64f2b5bbb057681
+source_hash: 2ba70f00f21e9d4751be22470dd7212080bc851cf96917788479b101bf0c1896
 ---
 # Tipos de cuenta y planes
 
@@ -11,7 +11,7 @@ Los planes se agrupan en dos pestañas dentro de la pantalla **Mejorar plan**: *
 
 ### BYOK: aporte su propia clave
 
-Usted facilita una clave de API de [OpenRouter](https://openrouter.ai) y las llamadas a los modelos se ejecutan **desde la aplicación de escritorio, en su equipo**, con esa clave. Hi, Moose nunca canaliza la inferencia BYOK a través de sus propios servidores, de modo que su clave y sus prompts permanecen en local.
+Usted facilita una clave de API de [OpenRouter](https://openrouter.ai) y las llamadas a los modelos se ejecutan **desde la aplicación de escritorio, en su equipo**, con esa clave. Hi, Moose nunca canaliza la inferencia BYOK a través de sus propios servidores, de modo que su clave permanece en local y la inferencia va directamente a OpenRouter.
 
 Pagar por un plan BYOK no cambia eso. Usted paga por más capacidad de trabajo (proyectos, puestos, memoria, workflows, Search Console), no para que Hi, Moose ejecute sus llamadas a los modelos. El coste de los modelos se abona directamente a OpenRouter y no hay ningún contador de tokens de Hi, Moose que vigilar.
 

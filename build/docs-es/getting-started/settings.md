@@ -1,5 +1,5 @@
 ---
-source_hash: f081840e659e67696268902173c5c0f26e8413e1debac31049488ad42cb5c005
+source_hash: 694ddd0a18767e3b704aea45e0ef8b871e073118174ccf12a707ce8030373f80
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -61,7 +61,7 @@ La clave se guarda por cuenta y no por dispositivo, de modo que le acompaña a u
 
 ## Local Model
 
-Descargue y active un modelo aprobado en el dispositivo, como Gemma 4. La ejecución local nunca utiliza los modelos de Hi, Moose ni su clave de OpenRouter: se ejecuta íntegramente en su equipo y su uso es gratuito.
+Descargue y active un modelo aprobado en el dispositivo, como Gemma 4. Las respuestas de un modelo local se generan en su equipo, sin los modelos gestionados de Hi, Moose ni su clave de OpenRouter, y su uso es gratuito. Por defecto, el chat usa un breve paso de enrutamiento en la nube para elegir la herramienta adecuada para cada mensaje, y para ello envía el texto del mensaje a un servicio de enrutamiento en la nube. Desactive **Enrutamiento inteligente** en **Configuración → IA local** para que ese paso también se quede en su dispositivo.
 
 Los modelos locales están disponibles en todos los planes y son **obligatorios** en Preview Mode para las [AEO audits](../features/aeo-audits.md) y la puntuación de visibilidad.
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 32a1d4d064d3d168231ee9531b0835d37b75dbd7507b4cc6c64f2b5bbb057681
+source_hash: 2ba70f00f21e9d4751be22470dd7212080bc851cf96917788479b101bf0c1896
 ---
 # Types de compte et forfaits
 
@@ -11,7 +11,7 @@ Les forfaits sont regroupés en deux onglets dans l'écran **Upgrade** : **Start
 
 ### BYOK : apportez votre propre clé
 
-Vous fournissez une clé d'API [OpenRouter](https://openrouter.ai) et les appels aux modèles s'exécutent **depuis l'application de bureau, sur votre machine**, avec cette clé. Hi, Moose ne fait jamais transiter l'inférence BYOK par ses propres serveurs : votre clé et vos prompts restent en local.
+Vous fournissez une clé d'API [OpenRouter](https://openrouter.ai) et les appels aux modèles s'exécutent **depuis l'application de bureau, sur votre machine**, avec cette clé. Hi, Moose ne fait jamais transiter l'inférence BYOK par ses propres serveurs : votre clé reste en local et l'inférence part directement vers OpenRouter.
 
 Payer un forfait BYOK n'y change rien. Vous payez pour davantage de capacités de travail (projets, sièges, mémoire, workflows, Search Console), pas pour que Hi, Moose exécute vos appels aux modèles. Le coût des modèles est réglé directement à OpenRouter et il n'y a aucun compteur de jetons Hi, Moose à surveiller.
 

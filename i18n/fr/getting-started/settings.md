@@ -1,5 +1,5 @@
 ---
-source_hash: f081840e659e67696268902173c5c0f26e8413e1debac31049488ad42cb5c005
+source_hash: 694ddd0a18767e3b704aea45e0ef8b871e073118174ccf12a707ce8030373f80
 ---
 # Paramètres
 
@@ -56,7 +56,7 @@ La clé est enregistrée par compte et non par appareil : elle vous suit lors d'
 
 ## Local Model
 
-Téléchargez et activez un modèle approuvé sur l'appareil, comme Gemma 4. L'exécution locale n'utilise jamais les modèles de Hi, Moose ni votre clé OpenRouter : elle se déroule entièrement sur votre machine et son usage est gratuit.
+Téléchargez et activez un modèle approuvé sur l'appareil, comme Gemma 4. Les réponses d'un modèle local sont générées sur votre machine, sans les modèles gérés de Hi, Moose ni votre clé OpenRouter, et son usage est gratuit. Par défaut, le chat utilise une courte étape de routage dans le cloud pour choisir le bon outil pour chaque message, et envoie pour cela le texte du message à un service de routage cloud. Désactivez **Routage intelligent** dans **Paramètres → IA locale** pour que cette étape reste aussi sur votre appareil.
 
 Les modèles locaux sont disponibles sur tous les forfaits et sont **obligatoires** sur Preview Mode pour les [AEO audits](../features/aeo-audits.md) et le scoring de visibilité.
 

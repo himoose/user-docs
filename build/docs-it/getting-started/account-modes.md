@@ -1,5 +1,5 @@
 ---
-source_hash: 32a1d4d064d3d168231ee9531b0835d37b75dbd7507b4cc6c64f2b5bbb057681
+source_hash: 2ba70f00f21e9d4751be22470dd7212080bc851cf96917788479b101bf0c1896
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -16,7 +16,7 @@ I piani sono raggruppati in due schede nella schermata **Esegui upgrade**: **Sta
 
 ### BYOK: porti la sua chiave
 
-Lei fornisce una chiave API di [OpenRouter](https://openrouter.ai) e le chiamate ai modelli vengono eseguite **dall'app desktop, sulla sua macchina**, con quella chiave. Hi, Moose non instrada mai l'inferenza BYOK attraverso i propri server, quindi la sua chiave e i suoi prompt restano in locale.
+Lei fornisce una chiave API di [OpenRouter](https://openrouter.ai) e le chiamate ai modelli vengono eseguite **dall'app desktop, sulla sua macchina**, con quella chiave. Hi, Moose non instrada mai l'inferenza BYOK attraverso i propri server, quindi la sua chiave resta in locale e l'inferenza va direttamente a OpenRouter.
 
 Pagare un piano BYOK non cambia questo. Lei paga per maggiori capacità di lavoro (progetti, postazioni, memoria, workflows, Search Console), non perché Hi, Moose esegua le sue chiamate ai modelli. Il costo dei modelli va direttamente a OpenRouter e non c'è alcun contatore di token di Hi, Moose da sorvegliare.
 

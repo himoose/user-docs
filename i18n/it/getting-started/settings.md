@@ -1,5 +1,5 @@
 ---
-source_hash: f081840e659e67696268902173c5c0f26e8413e1debac31049488ad42cb5c005
+source_hash: 694ddd0a18767e3b704aea45e0ef8b871e073118174ccf12a707ce8030373f80
 ---
 # Impostazioni
 
@@ -56,7 +56,7 @@ La chiave viene salvata per account e non per dispositivo, quindi la accompagna 
 
 ## Local Model
 
-Scarichi e attivi un modello approvato sul dispositivo, come Gemma 4. L'esecuzione locale non usa né i modelli di Hi, Moose né la sua chiave OpenRouter: avviene interamente sulla sua macchina ed è gratuita.
+Scarichi e attivi un modello approvato sul dispositivo, come Gemma 4. Le risposte di un modello locale vengono generate sulla sua macchina, senza i modelli gestiti di Hi, Moose né la sua chiave OpenRouter, e l'uso è gratuito. Per impostazione predefinita, la chat usa un breve passaggio di instradamento nel cloud per scegliere lo strumento giusto per ogni messaggio, e per farlo invia il testo del messaggio a un servizio di instradamento cloud. Disattivi **Instradamento intelligente** in **Impostazioni → IA locale** perché anche quel passaggio resti sul suo dispositivo.
 
 I modelli locali sono disponibili in tutti i piani e sono **necessari** in Preview Mode per gli [AEO audits](../features/aeo-audits.md) e per la valutazione della visibilità.
 

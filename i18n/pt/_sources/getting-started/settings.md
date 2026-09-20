@@ -53,7 +53,7 @@ The key is stored per account rather than per device, so it follows you to a new
 
 ## Local Model
 
-Download and activate an approved on-device model such as Gemma 4. Local execution never uses Hi, Moose's models or your OpenRouter key. It runs entirely on your machine, and it's free to run.
+Download and activate an approved on-device model such as Gemma 4. Answers from a local model are generated on your machine, without Hi, Moose's managed models or your OpenRouter key, and it's free to run. By default, chat uses a short cloud routing step to pick the right tool for each message, which sends the message text to a cloud routing service. Turn off **Smart routing** under **Settings → Local AI** to keep that step on your device too.
 
 Local models are available on every plan, and they're **required** on Preview Mode for [AEO audits](../features/aeo-audits.md) and visibility scoring.
 

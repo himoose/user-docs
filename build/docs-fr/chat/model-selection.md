@@ -1,5 +1,5 @@
 ---
-source_hash: 659813c24e3d334cb65df479575d60bccc59736ff6f29cd0a970408673a3f493
+source_hash: a5f6ba4ca639882531f721cd6d5669ca1865f2c242b18c3fa8bbfa39f0ddb815
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -18,7 +18,7 @@ Ouvrez le sélecteur de modèle pour voir les modèles disponibles sur votre [fo
 
 - **Gratuit** / **HiMoose Cloud** / **Payant ou BYOK** : quels forfaits peuvent utiliser ce modèle.
 - **Speed: Slow / Average / Very Fast** : une idée approximative du temps de réponse.
-- **Local** : s'exécute entièrement sur votre appareil (voir ci-dessous).
+- **Local** : le modèle s'exécute sur votre appareil (voir ci-dessous).
 - Une **étiquette multiplicateur** sur les modèles les plus coûteux, indiquant à quel point ils consomment davantage votre solde que l'option standard.
 
 L'offre suit ce que publient les fournisseurs de modèles. Elle couvre actuellement les familles Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step et Trinity, dont plusieurs options gratuites et les versions locales de Gemma. Si un modèle n'est pas disponible sur votre forfait, Hi, Moose vous le dit directement plutôt que de basculer silencieusement sur un autre.
@@ -27,7 +27,7 @@ La liste évolue au fil des sorties et des retraits chez les fournisseurs : cons
 
 ## Modèles locaux
 
-Les modèles locaux approuvés, comme Gemma 4 de Google, s'exécutent **entièrement sur votre ordinateur**. Aucun jeton consommé, aucun aller-retour vers le cloud et aucune donnée ne quitte votre appareil. La première fois que vous sélectionnez un modèle local, Hi, Moose vous guide dans l'installation.
+Les modèles locaux approuvés, comme Gemma 4 de Google, s'exécutent **sur votre ordinateur**, et leurs réponses y sont générées. Aucun jeton consommé. Par défaut, une courte étape de routage envoie le texte de votre message à un service cloud pour choisir le bon outil. Vous gardez le contrôle : désactivez **Routage intelligent** dans **Paramètres → IA locale** et cette étape reste aussi sur votre appareil. La première fois que vous sélectionnez un modèle local, Hi, Moose vous guide dans l'installation.
 
 Une fois téléchargées et activées, les réponses locales sont rapides sur Apple Silicon. Sur les Mac à processeur Intel, le modèle s'exécute sur le CPU et sera nettement plus lent que les modèles cloud ; Hi, Moose vous en avertit avant que vous ne lanciez le téléchargement.
 
