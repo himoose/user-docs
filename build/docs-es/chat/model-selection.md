@@ -1,5 +1,5 @@
 ---
-source_hash: a5f6ba4ca639882531f721cd6d5669ca1865f2c242b18c3fa8bbfa39f0ddb815
+source_hash: 1a5fa4052c39973532d6cdbeb0b0f3b6980e9a5231278c640355c5dec895a22d
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -21,7 +21,7 @@ Abra el selector de modelo para ver los modelos disponibles en su [plan](../gett
 - **Local**: el modelo se ejecuta en su dispositivo (véase más abajo).
 - Un **distintivo multiplicador** en los modelos más costosos, que indica cuánto más consumen de su saldo respecto a la opción estándar.
 
-La oferta sigue lo que publican los proveedores de modelos. Actualmente abarca las familias Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step y Trinity, incluidas varias opciones gratuitas y las versiones locales de Gemma. Si un modelo no está disponible en su plan, Hi, Moose se lo dice directamente en lugar de recurrir a otro en silencio.
+La oferta sigue lo que publican los proveedores de modelos. Actualmente abarca las familias Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Llama, Muse, Nemotron, Step y Trinity, incluidas varias opciones gratuitas y las versiones locales de Gemma. Si un modelo no está disponible en su plan, Hi, Moose se lo dice directamente en lugar de recurrir a otro en silencio.
 
 La lista cambia a medida que los proveedores lanzan y retiran modelos, así que trate el propio selector como la respuesta actual y no esta página.
 

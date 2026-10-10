@@ -1,5 +1,5 @@
 ---
-source_hash: a5f6ba4ca639882531f721cd6d5669ca1865f2c242b18c3fa8bbfa39f0ddb815
+source_hash: 1a5fa4052c39973532d6cdbeb0b0f3b6980e9a5231278c640355c5dec895a22d
 ---
 # Choix du modèle
 
@@ -16,7 +16,7 @@ Ouvrez le sélecteur de modèle pour voir les modèles disponibles sur votre [fo
 - **Local** : le modèle s'exécute sur votre appareil (voir ci-dessous).
 - Une **étiquette multiplicateur** sur les modèles les plus coûteux, indiquant à quel point ils consomment davantage votre solde que l'option standard.
 
-L'offre suit ce que publient les fournisseurs de modèles. Elle couvre actuellement les familles Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step et Trinity, dont plusieurs options gratuites et les versions locales de Gemma. Si un modèle n'est pas disponible sur votre forfait, Hi, Moose vous le dit directement plutôt que de basculer silencieusement sur un autre.
+L'offre suit ce que publient les fournisseurs de modèles. Elle couvre actuellement les familles Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Llama, Muse, Nemotron, Step et Trinity, dont plusieurs options gratuites et les versions locales de Gemma. Si un modèle n'est pas disponible sur votre forfait, Hi, Moose vous le dit directement plutôt que de basculer silencieusement sur un autre.
 
 La liste évolue au fil des sorties et des retraits chez les fournisseurs : considérez donc le sélecteur lui-même comme la réponse à jour, plutôt que cette page.
 

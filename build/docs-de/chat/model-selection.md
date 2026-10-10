@@ -1,5 +1,5 @@
 ---
-source_hash: a5f6ba4ca639882531f721cd6d5669ca1865f2c242b18c3fa8bbfa39f0ddb815
+source_hash: 1a5fa4052c39973532d6cdbeb0b0f3b6980e9a5231278c640355c5dec895a22d
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -21,7 +21,7 @@ Jeder Chat läuft mit einem bestimmten KI-Modell, und über die Modellauswahl se
 - **Lokal**: das Modell läuft auf Ihrem Gerät (siehe unten).
 - Eine **Multiplikator-Kennzeichnung** bei teureren Modellen, die zeigt, wie viel mehr sie von Ihrem Guthaben verbrauchen als die Standardoption.
 
-Das Angebot folgt dem, was die Modellanbieter veröffentlichen. Derzeit umfasst es die Familien Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step und Trinity, darunter mehrere kostenlose Optionen und die lokalen Gemma-Varianten. Ist ein Modell in Ihrem Tarif nicht verfügbar, sagt Hi, Moose Ihnen das direkt, statt stillschweigend auf ein anderes auszuweichen.
+Das Angebot folgt dem, was die Modellanbieter veröffentlichen. Derzeit umfasst es die Familien Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Llama, Muse, Nemotron, Step und Trinity, darunter mehrere kostenlose Optionen und die lokalen Gemma-Varianten. Ist ein Modell in Ihrem Tarif nicht verfügbar, sagt Hi, Moose Ihnen das direkt, statt stillschweigend auf ein anderes auszuweichen.
 
 Die Liste ändert sich, während Anbieter Modelle einführen und abkündigen. Betrachten Sie daher die Auswahl in der App als die aktuelle Antwort, nicht diese Seite.
 

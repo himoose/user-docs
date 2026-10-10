@@ -13,7 +13,7 @@ Open the model selector to see the models available on your [plan](../getting-st
 - **Local** — the model runs on your device (see below).
 - A **multiplier badge** on higher-cost models, showing how much more of your balance they use than the standard option.
 
-The lineup tracks what the model providers ship. It currently spans the Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Kimi, Llama, Muse, Nemotron, Step and Trinity families, including several free options and the local Gemma builds. If a model isn't available on your current plan, Hi, Moose tells you so directly rather than silently falling back to a different one.
+The lineup tracks what the model providers ship. It currently spans the Claude, GPT, Gemini, Gemma, Grok, DeepSeek, GLM, Llama, Muse, Nemotron, Step and Trinity families, including several free options and the local Gemma builds. If a model isn't available on your current plan, Hi, Moose tells you so directly rather than silently falling back to a different one.
 
 The list changes as providers ship and retire models, so treat the selector itself as the current answer rather than this page.
 
