@@ -1,5 +1,5 @@
 ---
-source_hash: 0bf4df4be6bc4ecf9f90b0973d78ad5121f1c5f07aa1f1c11b5f4615df894dae
+source_hash: 4c556d4fb46ef581843a6485001e4bcb5bca5e6cb807598a5721189e08265d89
 ---
 # Configuración de Visibility
 
@@ -60,6 +60,7 @@ Elija qué motores se preseleccionan cada vez que añade un prompt en el [Prompt
 | ChatGPT (local fetch) | Desde su equipo | Cualquiera |
 | Claude | API | Cualquiera |
 | Gemini | API | Cualquiera |
+| Gemini (local fetch) | Desde su equipo | Cualquiera |
 | Grok | API | Cualquiera |
 | Grok (local fetch) | Desde su equipo | Cualquiera |
 | Perplexity | API | Cualquiera |

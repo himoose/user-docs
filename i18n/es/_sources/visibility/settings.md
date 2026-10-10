@@ -57,6 +57,7 @@ Choose which engines are pre-selected whenever you add a new prompt in [Prompt M
 | ChatGPT (local fetch) | From your machine | Any |
 | Claude | API | Any |
 | Gemini | API | Any |
+| Gemini (local fetch) | From your machine | Any |
 | Grok | API | Any |
 | Grok (local fetch) | From your machine | Any |
 | Perplexity | API | Any |

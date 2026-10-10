@@ -1,5 +1,5 @@
 ---
-source_hash: 0bf4df4be6bc4ecf9f90b0973d78ad5121f1c5f07aa1f1c11b5f4615df894dae
+source_hash: 4c556d4fb46ef581843a6485001e4bcb5bca5e6cb807598a5721189e08265d89
 ---
 # Visibility-Einstellungen
 
@@ -60,6 +60,7 @@ Wählen Sie, welche Maschinen vorausgewählt sind, wenn Sie im [Prompt Manager](
 | ChatGPT (local fetch) | Von Ihrem Rechner | Alle |
 | Claude | API | Alle |
 | Gemini | API | Alle |
+| Gemini (local fetch) | Von Ihrem Rechner | Alle |
 | Grok | API | Alle |
 | Grok (local fetch) | Von Ihrem Rechner | Alle |
 | Perplexity | API | Alle |
