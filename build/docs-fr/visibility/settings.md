@@ -1,5 +1,5 @@
 ---
-source_hash: 0bf4df4be6bc4ecf9f90b0973d78ad5121f1c5f07aa1f1c11b5f4615df894dae
+source_hash: 4c556d4fb46ef581843a6485001e4bcb5bca5e6cb807598a5721189e08265d89
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -65,6 +65,7 @@ Choisissez quels moteurs sont présélectionnés chaque fois que vous ajoutez un
 | ChatGPT (local fetch) | Depuis votre machine | Tous |
 | Claude | API | Tous |
 | Gemini | API | Tous |
+| Gemini (local fetch) | Depuis votre machine | Tous |
 | Grok | API | Tous |
 | Grok (local fetch) | Depuis votre machine | Tous |
 | Perplexity | API | Tous |

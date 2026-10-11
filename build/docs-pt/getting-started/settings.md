@@ -1,5 +1,5 @@
 ---
-source_hash: 694ddd0a18767e3b704aea45e0ef8b871e073118174ccf12a707ce8030373f80
+source_hash: 5e04bb7695f1f99212eabfd919c84bee187e08b6c4462119c39e32c6d927f1fd
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -86,6 +86,10 @@ As conexões com CMS e fontes de dados são outra coisa e ficam na tela **Conex�
 ## Marca
 
 Aplique sua marca aos relatórios PDF exportados e aos players de áudio incorporados. Disponível em todos os planos pagos e editável pelo titular da assinatura. Veja **[Marca white label](../agency/white-label.md)**.
+
+## Hi, Moose MCP
+
+Conecte o Claude, o ChatGPT ou qualquer outro app MCP à sua conta Hi, Moose, escolha o dispositivo host que executa o trabalho e veja os apps conectados e os trabalhos recentes. Veja **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
 
 ## Logs
 

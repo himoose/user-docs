@@ -79,6 +79,10 @@ Connected CMS and data sources are separate, and live in the **Connections** scr
 
 White-label your exported PDF reports and embedded audio players. Available on every paid plan, editable by the subscription owner. See **[White-Label Branding](../agency/white-label.md)**.
 
+## Hi, Moose MCP
+
+Connect Claude, ChatGPT or any other MCP app to your Hi, Moose account, choose the host device that runs the work, and see connected apps and recent jobs. See **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
+
 ## Logs
 
 Action logs for the current project, showing type, user, date, status, and metadata for each recorded action. On managed plans, team-shared logs sync in alongside your local ones.

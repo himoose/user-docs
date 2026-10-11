@@ -1,5 +1,5 @@
 ---
-source_hash: 694ddd0a18767e3b704aea45e0ef8b871e073118174ccf12a707ce8030373f80
+source_hash: 5e04bb7695f1f99212eabfd919c84bee187e08b6c4462119c39e32c6d927f1fd
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -86,6 +86,10 @@ Les connexions aux CMS et aux sources de données sont distinctes et se trouvent
 ## Branding
 
 Appliquez votre marque blanche aux rapports PDF exportés et aux lecteurs audio intégrés. Disponible sur tous les forfaits payants et modifiable par le titulaire de l'abonnement. Voir **[Marque blanche](../agency/white-label.md)**.
+
+## Hi, Moose MCP
+
+Connectez Claude, ChatGPT ou toute autre application MCP à votre compte Hi, Moose, choisissez l'appareil hôte qui exécute le travail et consultez les applications connectées et les tâches récentes. Voir **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
 
 ## Logs
 

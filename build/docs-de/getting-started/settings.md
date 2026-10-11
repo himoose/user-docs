@@ -1,5 +1,5 @@
 ---
-source_hash: 694ddd0a18767e3b704aea45e0ef8b871e073118174ccf12a707ce8030373f80
+source_hash: 5e04bb7695f1f99212eabfd919c84bee187e08b6c4462119c39e32c6d927f1fd
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -86,6 +86,10 @@ Verbindungen zu CMS und Datenquellen sind davon getrennt und liegen im Bildschir
 ## Branding
 
 Versehen Sie exportierte PDF-Berichte und eingebettete Audio-Player mit Ihrer eigenen Marke. In allen kostenpflichtigen Tarifen verfügbar und von der Inhaberin oder dem Inhaber des Abonnements bearbeitbar. Siehe **[White-Label-Branding](../agency/white-label.md)**.
+
+## Hi, Moose MCP
+
+Verbinden Sie Claude, ChatGPT oder jede andere MCP-App mit Ihrem Hi, Moose-Konto, wählen Sie das Host-Gerät, das die Arbeit ausführt, und sehen Sie verbundene Apps und letzte Aufträge. Siehe **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
 
 ## Logs
 

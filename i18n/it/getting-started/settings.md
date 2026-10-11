@@ -1,5 +1,5 @@
 ---
-source_hash: 694ddd0a18767e3b704aea45e0ef8b871e073118174ccf12a707ce8030373f80
+source_hash: 5e04bb7695f1f99212eabfd919c84bee187e08b6c4462119c39e32c6d927f1fd
 ---
 # Impostazioni
 
@@ -81,6 +81,10 @@ Le connessioni a CMS e fonti dati sono un'altra cosa e si trovano nella schermat
 ## Branding
 
 Applichi il suo marchio ai report PDF esportati e ai player audio incorporati. Disponibile in tutti i piani a pagamento e modificabile dal titolare dell'abbonamento. Veda **[Personalizzazione white label](../agency/white-label.md)**.
+
+## Hi, Moose MCP
+
+Collega Claude, ChatGPT o qualsiasi altra app MCP al tuo account Hi, Moose, scegli il dispositivo host che esegue il lavoro e consulta le app collegate e i lavori recenti. Vedi **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
 
 ## Logs
 

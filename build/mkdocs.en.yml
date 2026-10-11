@@ -195,6 +195,7 @@ nav:
   - Grav: integrations/grav.md
   - WordPress: integrations/wordpress.md
   - Webflow: integrations/webflow.md
+  - Hi, Moose MCP: integrations/hi-moose-mcp.md
   - Google Search Console: integrations/google-search-console.md
 - Legacy Web App:
   - Versus Pages (Programmatic SEO): legacy/versus-pages.md

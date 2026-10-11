@@ -1,5 +1,5 @@
 ---
-source_hash: 0bf4df4be6bc4ecf9f90b0973d78ad5121f1c5f07aa1f1c11b5f4615df894dae
+source_hash: 4c556d4fb46ef581843a6485001e4bcb5bca5e6cb807598a5721189e08265d89
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -65,6 +65,7 @@ Escolha quais mecanismos ficam pré-selecionados sempre que você adiciona um pr
 | ChatGPT (local fetch) | Da sua máquina | Qualquer |
 | Claude | API | Qualquer |
 | Gemini | API | Qualquer |
+| Gemini (local fetch) | Da sua máquina | Qualquer |
 | Grok | API | Qualquer |
 | Grok (local fetch) | Da sua máquina | Qualquer |
 | Perplexity | API | Qualquer |

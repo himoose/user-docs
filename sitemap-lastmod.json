@@ -2,1252 +2,1276 @@
   "version": 1,
   "pages": {
     "https://himoose.com/docs/": {
-      "hash": "dd43fca277f79b7654e7ae0f318a1751889782c3f8d688acd90d18bea6b887bf",
-      "lastmod": "2026-09-18"
+      "hash": "54a4f082ea8c3a46dedf60fa3b2ce2b4bd13d6c8945f1937cbeaaa571fe94b86",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/agency/white-label/": {
-      "hash": "9c21a0c2dc62b65108de2602bacd85e1ed6dc0cc34c7bf886b39342fdedb9a60",
-      "lastmod": "2026-09-18"
+      "hash": "b374fddc436cf5f870b9fd209d241e8ad52302c8e88f01421863ad78b0d862d7",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/audio/analytics/": {
-      "hash": "76003792b9f5d4f9d6913e0444103355fe85e7ae3d169a49adb58db8d708e56c",
-      "lastmod": "2026-09-18"
+      "hash": "021ee8cb7af2039b05af36d6929b57adbb129d6f191d0137a6f3c3f04766c585",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/audio/overview/": {
-      "hash": "92d49c54a274666812cc2df5cf24f925b3c6edb4fc610baf63e327da356b6ff9",
-      "lastmod": "2026-09-18"
+      "hash": "f8a6f2db95f885ff8be42e68d55a9271170787083e22861b87c3d026b33b6fc6",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/audio/player-and-embed/": {
-      "hash": "dd9af562551b44b4fe80707e751cee142f978bbd277c56b3266e8c8009f29024",
-      "lastmod": "2026-09-18"
+      "hash": "7d43b7ea6171b2a389bb7c645136f9d0e2889d5d987c6337086ed8e097b7313c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/chat/chats-history/": {
-      "hash": "e48ea95a88f151c6ae43b9f0fac8f213e5f93bcb72e9307e79b3fdcf409e5825",
-      "lastmod": "2026-09-18"
+      "hash": "12e1765643cbaed39851cce0d073be07ab8c7a5fcbb7400f8676e3d3d3b7786c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/chat/model-selection/": {
-      "hash": "295477cadc2b2a8b5702494ead69b80130e8075b7e818d461c7f606cb103c19c",
-      "lastmod": "2026-10-10"
+      "hash": "cc612d8b180469cbe6d7bb54e832e63703dae503014a2ffe36fbb8cdf0d19250",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/chat/overview/": {
-      "hash": "9faa288e60254a26eb966c03d8bd5bd058d6aed2df353c1823ed178616000780",
-      "lastmod": "2026-09-18"
+      "hash": "060ef1f9bbf582c4d2e85cbaaad6416a74d2ec43169514cc72a03232e606761b",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/chat/tools-and-specialists/": {
-      "hash": "b5f1042db11256f51007d289ccb1538f2310fb1cd182df4d0aac6b7999434d84",
-      "lastmod": "2026-09-18"
+      "hash": "e47b02b37ea55734efb65f8e4acf9c200e626432032289ef1c32193d3aaf8087",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/": {
-      "hash": "c4465b7875d63c44303aa5d6ad7f6f3061a326e848bd2dfc010701569fd3dfcf",
-      "lastmod": "2026-09-18"
+      "hash": "7fb12d8b625998a1300da10b9d225895f8be8a7d0936d845397ae2575c794121",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/agency/white-label/": {
-      "hash": "678522e501c4ac0a0e619cf84f045b3cd1c533f36c85c8965e9be9a9a2101126",
-      "lastmod": "2026-09-18"
+      "hash": "5dc1aab7195950052224b652287a4d4ccc62a2d5e1a278ba984abcd069e2a3ca",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/audio/analytics/": {
-      "hash": "0b561f52ea6310a551ca9739f6c647cc5fb67cadb93a3a0d229c119fee87ddec",
-      "lastmod": "2026-09-18"
+      "hash": "130c984a1a45278e028acad5c88946cc893e46f53be1252e3767731014448464",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/audio/overview/": {
-      "hash": "cdbaed9ebe44cc301696cdaa88d5f16ee0c32e8e819d19443767795a8814be39",
-      "lastmod": "2026-09-18"
+      "hash": "24cbf8ee24f3d7c2bf8f9b9d0b3dcf17cad40224ab28ed52144a26936a68b514",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/audio/player-and-embed/": {
-      "hash": "0b455982317b7affaea2678ea0bbc11fda35d6ae26a978e339a2b924252c3e0c",
-      "lastmod": "2026-09-18"
+      "hash": "4efdff6ab0d42085eff70f25de2fed4baf5a4994fb1a05d1f0eecc8bd825bfcb",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/chat/chats-history/": {
-      "hash": "165a1245b13f6fd7b097692deaf40f6abf68d54264d0a1af305d67fb8df69391",
-      "lastmod": "2026-09-18"
+      "hash": "587465f4f5fd1cc46d768a26ef20663675338d539f59e35bd6e4069e2b1f57c0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/chat/model-selection/": {
-      "hash": "715838c3c6b2d976d114396f887d1dea03beb79c5d34705518df38a087a1ce7b",
-      "lastmod": "2026-10-10"
+      "hash": "3a0233c4148e2c352be1ab40e75f42c7fd7dc9ab99a2a44b274b7148e08766f9",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/chat/overview/": {
-      "hash": "55526307b9e58426353fe76c273d022c3c6b72b971ea51e49fa4e9e2319bced4",
-      "lastmod": "2026-09-18"
+      "hash": "e18766750ad33deb6ec19d752262ba191a18b6ed3e3d18f5af9e45037c24e8ba",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/chat/tools-and-specialists/": {
-      "hash": "8283bc191d8c90e64e0a9e916d11ea9c5476d1dbfc3093af7b4666068767e195",
-      "lastmod": "2026-09-18"
+      "hash": "fe27817878014319fc69d7152c976dfa4dbe59e95f8494b72e047f41b5799004",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/aeo-audits/": {
-      "hash": "380117ced249d4a868ee6a6fa2cb6d7c89e509b9b9ff82d1a99dcd36e74e210c",
-      "lastmod": "2026-09-18"
+      "hash": "180bc4d45fc8aa7e480eabb207fae4bef1f4070b25da4ddef2c7cb3fe10ad183",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/blog-post-draft/": {
-      "hash": "2c2399742d4dab3b1913537749a0cd75378f00d3f18be8f7b05b58254b877bcd",
-      "lastmod": "2026-09-18"
+      "hash": "335b9f9c401fe8424c9f2443977d621a1d39db2798920d7303ee0b8a404ba00b",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/content-briefs/": {
-      "hash": "0de66f2448f9139be5849af3abd92ba5931e04bb28bfcf8dc4a7b7776f31b5f6",
-      "lastmod": "2026-09-18"
+      "hash": "68c625576cf7184280d5081536a804d7cec1d1e198d7cf72eff33e13ed159d09",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/drafts-and-publishing/": {
-      "hash": "6d1c719b652ba0e94f9d9f2238619975fea8c86afa8d949cf09a640d4fb67eb0",
-      "lastmod": "2026-09-18"
+      "hash": "e0875cc0768a9e90092c5700bb1b09aacedb60ff39870f927b592a0a425641cf",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/entity-graph/": {
-      "hash": "611d775776fb5447d27839406a7fc3e20611edf065445f617db987f04575d329",
-      "lastmod": "2026-09-18"
+      "hash": "3469b8995ef75c140ea4993a67c395b539c1118130ef2998e91036200bee85f4",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/fan-out-queries/": {
-      "hash": "98528c341a283dada6ded2397a2e4113f3bfa4213d057b2396118e00a04fd2e2",
-      "lastmod": "2026-09-18"
+      "hash": "90f0dfd9635c46c4f1d52d73ca7a4eae4a5805adf1ab4336b514d88356245ccf",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/faq-generator/": {
-      "hash": "1884d0106a5fe907866f35082ab52bd9c18f29ca67538888d23a828928f2d4cd",
-      "lastmod": "2026-09-18"
+      "hash": "a5332556486b8446edd82472b5244cb564f2506b1d7856fe1b11459f7841d27d",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/glossary-post/": {
-      "hash": "0cdba2673bfe4644bc8dad81ab06ede5779303333d0c899f65a05d55401d8f89",
-      "lastmod": "2026-09-18"
+      "hash": "13ccce70b872dc88fbf611d5a33056e54efa98616a07cb167888cde6b0054a0e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/grounding-queries/": {
-      "hash": "79314e04559ac7d506c583e07760bb0752b38e99b367ed3ee0a46b0436f2c095",
-      "lastmod": "2026-09-18"
+      "hash": "34e9fb098128365fd78925d9ae291c945d6875ca6738b3a7b8b66ee4dcbc15ed",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/key-points/": {
-      "hash": "e459d39f6b04d5fa27fd00d78937a6be5d4526b0806c3a564559484b95ab7b52",
-      "lastmod": "2026-09-18"
+      "hash": "047b288efb6535fd2728f6e219ce865506a1a3795e5a39da695760028a0ba370",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/landing-page-content/": {
-      "hash": "033c6124778fbe08887d542eb9cdef131dbc537e42cf1862e81c248fb097a35e",
-      "lastmod": "2026-09-18"
+      "hash": "2b8be7efdad4defaee7dfc94f0b9baa3be6d17d162fef773b32d5171e12109fc",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/features/product-page-content/": {
-      "hash": "1344f13359627266ad2287a518259a7822037edbc0c6886920a106c56fc4a0b3",
-      "lastmod": "2026-09-18"
+      "hash": "4d805cb043037b23e1e6a98357cdb7fe76e0b489ba3d4229471620cf618dd61c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/getting-started/account-modes/": {
-      "hash": "89d6321ead2ee156f710ec8eb0e24eaa8482fdfaf738759349072f698a314f93",
-      "lastmod": "2026-09-20"
+      "hash": "b6c668952220bed25c7a7a53f75a1c5bdbb59b76162d1d73fa3df2e75ae606f0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/getting-started/context/about-you/": {
-      "hash": "8dfb0700343a859b74aa7a9afba63771c3c053bca242162fd89f3be825a79416",
-      "lastmod": "2026-09-18"
+      "hash": "197c8aab1a951deb1f1e9c1d9f8b71eeaf4cb4bd2246c79bd54f40e01039fdeb",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/getting-started/context/brand-documents/": {
-      "hash": "63a137afd3ed390f48caf26017d9f8db3fb03aff4d1a47c5e1cf8d41702ce90e",
-      "lastmod": "2026-09-18"
+      "hash": "617398fc96a0fa2f7c81882105752b813507c05483c766519540f12cab490054",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/getting-started/context/brand-truth-profile/": {
-      "hash": "a6641527f25207c5300126799258ef70a34a29d02008bef61b89ea6f7af6027c",
-      "lastmod": "2026-09-18"
+      "hash": "ec784364e4945d74e5edbbc2368d25281d968979b8d36acb65d5bab07c0618db",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/getting-started/context/brand-voice/": {
-      "hash": "20c3466bbd3edd7906827455a5f6900386d6cde21b4072c13db92972b090af5c",
-      "lastmod": "2026-09-18"
+      "hash": "e9c193559bb109d90ef1e73aa42ed5cde34ace605587c615bd680d5cd34208ec",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/getting-started/context/overview/": {
-      "hash": "30104198e64b1931dfffef26f038d415cf2b88f9d2acef0bd2c648d80c88eaf7",
-      "lastmod": "2026-09-18"
+      "hash": "35cac4fd7e4cabf101d004e6fe30c937f3d1d8a8d70d0542257f24f14003c807",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/getting-started/install-and-sign-in/": {
-      "hash": "922b55c5eafc4a52d70a12dbb6d2e5ade16cb45de5003f4c90b9f29775259e01",
-      "lastmod": "2026-09-18"
+      "hash": "757e7442a44c194ae6a928d2fb955b798b47273db166110b4af729c2d8af2d7a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/getting-started/projects/": {
-      "hash": "f9250f4a4d84e1bdb22a41ca634fc1039724d9e96187e6e7ee867b7bdea8c588",
-      "lastmod": "2026-09-18"
+      "hash": "03aa1065931733054be4e2b7c3e1814a1a60e9b881af6f3040fdb2729cc4bb19",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/getting-started/settings/": {
-      "hash": "9f901dac0b5e4ed065f975449719b11a3aedb2cfe11c498d58a32184772500ba",
-      "lastmod": "2026-09-20"
+      "hash": "d4d85138c2ee3786ffa12345708c05bd5dd0bd85bf1a2b1743f3575007659e0a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/getting-started/team-management/": {
-      "hash": "8c316f3b5a53dca3be7b2aa00db2d21322d0ce3cd4049ab4ef466b9564ae5ffb",
-      "lastmod": "2026-09-18"
+      "hash": "1b45aafc1ae6ef92b7f35ab2c9e9f6277493bb858c84a84d2394643e6c4c2a9a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/inbox/notifications/": {
-      "hash": "850a528128fc6d7c0998453dc46526323fd074033a1bf594f751376141f3ff33",
-      "lastmod": "2026-09-18"
+      "hash": "43f148663f30ff75414a8697abf349d44a1982a94488150ac9b9913eb47c8596",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/inbox/overview/": {
-      "hash": "708727d5193b9c4ce66a01e83e8fc4503512c12c1071139f58153d83c1eabf13",
-      "lastmod": "2026-09-18"
+      "hash": "2a2e3ae0c9a1f7dd72f6215539117ae2305f7e676e8bab6ff274fd0ffbba0e8b",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/integrations/google-search-console/": {
-      "hash": "888470dec2f7b9559ac713c8970172f8f712b1011a3c30bae26fa35df6d7ea76",
-      "lastmod": "2026-09-18"
+      "hash": "e6ad8ccaccb9fe159acbc82a013c01bca6c7f339e82af51a6dcd571f62d4f3b7",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/integrations/grav/": {
-      "hash": "fbe96691e768606d5c8298b8e5c96714e27db59abe297528d710f428993b9052",
-      "lastmod": "2026-09-18"
+      "hash": "d123dd7b1230e32d7048afb6848bb6402d1ec84f8ddb8cd9046c93809caff65e",
+      "lastmod": "2026-10-11"
+    },
+    "https://himoose.com/docs/de/integrations/hi-moose-mcp/": {
+      "hash": "2550fe6efac644038965fa8bda04b087c3ba177161f1af1b76e550aff8e25db2",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/integrations/webflow/": {
-      "hash": "4f63788d5f66bb8de70c75e280459e6caad9ca742dfd2f67b05d4ebdf7395645",
-      "lastmod": "2026-09-18"
+      "hash": "d21ac2d3bce9a068e20b6938df0ccccf387018ea37e1ef948822fcaf4d85cc0e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/integrations/wordpress/": {
-      "hash": "02925bd060e14e086bce7eafb6ee916b4782dae1e35aa699a259283ad149ff31",
-      "lastmod": "2026-09-18"
+      "hash": "7fde61bc232c2d25edf20a4a69eade6746e03540482502237576da0f8c963e11",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/legacy/listen-to-this-article/": {
-      "hash": "c5ee4998744b16a97a6b541bdd7b301191107e402ee541f72aaf4e7e5f871f1e",
-      "lastmod": "2026-09-18"
+      "hash": "ab415e5861d6787ddf385659950a1c78807f6b860bc2ae9cbc691b43b5898e92",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/legacy/topical-authority/": {
-      "hash": "7bf84451f3bbe8023b1be7478377f8dd74c0077e2337b0b3b1140231408ac468",
-      "lastmod": "2026-09-18"
+      "hash": "aebfda208263689bbbc15a4e10bdd323e86d61c6844cd518a5c4bc63f7fd1104",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/legacy/versus-pages/": {
-      "hash": "0411f4c145598c04d63861434b15895f36763bb4fcef41cac00b3cd0e42ca8ad",
-      "lastmod": "2026-09-18"
+      "hash": "e82cf838ec35d32d2e2bd1aafd07f30e50c641cb5be49f65378cf8643acea131",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/library/overview/": {
-      "hash": "23a11c3e5f3a53ede37cf7c7bc5c67b46fdca50d59b077985d0de993ab5ee81a",
-      "lastmod": "2026-09-18"
+      "hash": "134d67ed9fa98344129c45595874185ff88eaaa746dbaa6caf8cecc0355a5498",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/send-moose/overview/": {
-      "hash": "a809104eb6f37ea5c01325de3dfbb7067120e08400bfa5279508d41d17e2cfed",
-      "lastmod": "2026-09-18"
+      "hash": "9a13c8318b36d733a1a5cd22a3d55a5fc5527597479c827a7d73cd66689c9fd3",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/site-monitoring/overview/": {
-      "hash": "65f1744a5cd39b7038dd565279215bda53b9be429549ac9e31b91e5d43419ca8",
-      "lastmod": "2026-09-18"
+      "hash": "20ef85affdbffac759ab16452cbdcff9a1f50aa2753589f9c89d267c37bffdbc",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/tools/instant-brand-check/": {
-      "hash": "91e30872a5099b984eaf1739c5ed6e538e179297fc7a0075de51beab3a8d4eb4",
-      "lastmod": "2026-09-18"
+      "hash": "aa220e9302c2a5527108956ebc644f986424912a2e6fd47b14bced17b6c01153",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/tools/overview/": {
-      "hash": "2fe9cddf0732fef4fc5feebf9cf907bd37bf85cf358e80cfec32ac54b8b46dce",
-      "lastmod": "2026-09-18"
+      "hash": "3db881c3b5077f5b2c262a66c671223d7abfdc0aaf138edcf74b7db06d70d74f",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/visibility/competitors/": {
-      "hash": "55413d44c25fa629dd50d55fdaed88550ff75daeb46642863b61ceb56b5733d2",
-      "lastmod": "2026-09-18"
+      "hash": "576ca7af71a50aebe18c2391aded5a941330304ee0c197346282853ddf7d4562",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/visibility/overview/": {
-      "hash": "946ef013e2a6f99ef2be49d52268147373eb783f76181a761684fb5f655d3b48",
-      "lastmod": "2026-09-18"
+      "hash": "e868c894250d2b3091804afbe61a92c27649bef34dbeb6eb279bf0de57638e23",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/visibility/prompt-manager/": {
-      "hash": "61b567303c0c30e4f46613d6ac6710e50d8a196530fabba6ee30f7baec44d91a",
-      "lastmod": "2026-09-18"
+      "hash": "f7acf7aa35123639aa1cd8627d1f19f2cdecc9f7e1dbde2d2847ce4a26488ae1",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/visibility/settings/": {
-      "hash": "52686881b8f9449694083d092b9ee657018e1c364b754b8369050eab4965d2fc",
-      "lastmod": "2026-09-18"
+      "hash": "fe0c6b6a00474a84a4eac0af04ae9605a96e12492b3f965ef283dead0a91168a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/workflows/create-new-content/": {
-      "hash": "deccaf82df72cd798ea05a9e96472c1939efe11254027dee47d7ea9e91447576",
-      "lastmod": "2026-09-18"
+      "hash": "fb90d676c9d12c4d24439ba441b376a84b8d32e5425b1e65f80273a0aef43e17",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/workflows/overview/": {
-      "hash": "d77931fd9e67f000a4941ec79086fb0ab144528aa9c0d5e8412bc00e2b3d0321",
-      "lastmod": "2026-09-18"
+      "hash": "d98f6b5f6bf91df7da1be490c6b290ccd256d87edd681e73b8c550677529239e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/de/workflows/recover-lost-visibility/": {
-      "hash": "f50cfa434da7aeca8bb302e16ed2279177842da27dbdc52df87def2f857e01d0",
-      "lastmod": "2026-09-18"
+      "hash": "8e303e0db431920d826725585399332d18fb596bce943eb7142b9d424adf63ab",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/": {
-      "hash": "25f97094b7e9ba31d044f54b604d9c1a7ddd3bb6a456e3106c04ce9783ce4b0b",
-      "lastmod": "2026-09-18"
+      "hash": "a788793f3441f2c028660be9ae6590ef6b5bf85e9fdd4defa01e95df98b475ee",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/agency/white-label/": {
-      "hash": "9fc590c02455d5a81cc72448e85ad73c0f299614ab75e3ff5e6bf0396ed54de3",
-      "lastmod": "2026-09-18"
+      "hash": "50b404209f13d9d6f19d7a08ad60e316d471334271fd12a2f8485d788f85d633",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/audio/analytics/": {
-      "hash": "715fb2797cb063dd4fec917394b563b547f1c91750b44e2881e5f72ef0a51078",
-      "lastmod": "2026-09-18"
+      "hash": "3bc1e45e001e3a670cae26d8a22ac405ced36758f7cea7fc9b5b4d0ef56000e3",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/audio/overview/": {
-      "hash": "b7535c1327242dfed0bbd9aaa8ebee991db54564c40f10a05b81bcc1f0a9fbce",
-      "lastmod": "2026-09-18"
+      "hash": "f5508232ca2f655469d23964344235e7108c5e53deb654ac89ac8a555f96b6a0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/audio/player-and-embed/": {
-      "hash": "27a67942c4e8b313bbc4a089de6f5d0ffa5e2161312d4c2137ed69d1afe1c9de",
-      "lastmod": "2026-09-18"
+      "hash": "266d12b58dad9a3d8bc93530d9c9ed408d030d49f56dfd03e5b5ac2fb62d0b3a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/chat/chats-history/": {
-      "hash": "52976eac2eb80ff78a425b9d4c690b6a849bf7273eeac8147eeb5e5f3be0b791",
-      "lastmod": "2026-09-18"
+      "hash": "4dcab3fedeea895972aa80b11a01b0a1f818ef0d16847cd059855bc805c31736",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/chat/model-selection/": {
-      "hash": "cb7cfadb195bade6844e598197021ba978247d175399faadf4c6f1933e7c264d",
-      "lastmod": "2026-10-10"
+      "hash": "6fe9ba6eb1f69481ed9bf1170ad25c1d43f077ce2f7cb0043aba55051abc40fc",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/chat/overview/": {
-      "hash": "7dd9d57b4d4c49614f95b95b972700ec720ddddd1367e05ede86d01160bb13ed",
-      "lastmod": "2026-09-18"
+      "hash": "591c0f9469d284e755ae1cb34dca4fb8bf61855ef9f96bb5d1d9f59758c34f67",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/chat/tools-and-specialists/": {
-      "hash": "8047da218892b8c2f67f35a3351787de0235756734d1c82c62a7b1cb5bf50870",
-      "lastmod": "2026-09-18"
+      "hash": "7ce6a3c6e292fd9202514b676cfbaf3ff099f65f023b4285917e5ae28da543e9",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/aeo-audits/": {
-      "hash": "9316ca871fe3e67b7cfad459a49a5a5edc8785266b3771cef9469a92d234cb63",
-      "lastmod": "2026-09-18"
+      "hash": "f2a9c057586655d73248a904d82572abe7757bdd04b0d059792d567645875214",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/blog-post-draft/": {
-      "hash": "b52a4b889ba5c00e7abf1753ebae8b0dd37878f1bebaf31749f272f2e7dacb02",
-      "lastmod": "2026-09-18"
+      "hash": "2a11dc32c270618299b404eb288e324546e971650d9e3040a2034b98d92563a1",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/content-briefs/": {
-      "hash": "1b72ed67e4f1625e22bed3d60e2d66aa133e4cc58b4b5746adbbc7796cd6fb75",
-      "lastmod": "2026-09-18"
+      "hash": "ac32f57f22096aebfcfbe50c77b5f6fb3c2a9c63acb8d315bb4ae34aa1bb6805",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/drafts-and-publishing/": {
-      "hash": "085de03c1519ceaba56102cc2d402554b54180bb9c28df5289e29bf8b18b82b6",
-      "lastmod": "2026-09-18"
+      "hash": "b9e7febbed482aaff96600721c7118cde166e69c9b9fd7919d1ade7fcf8ce5c0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/entity-graph/": {
-      "hash": "4e6a04fcdfb348ef8b07b7a54d779bb007341ecb504ce28ae9be16eb5a19e9f1",
-      "lastmod": "2026-09-18"
+      "hash": "d7a7d6d69ee6175ec12f4d4256564e2d009c06c00dc673d9d52678070dcc5666",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/fan-out-queries/": {
-      "hash": "d719e847d144c39a20472a8bd1b01ee548c861d6c2ffee2a79844fa99bd0b9d9",
-      "lastmod": "2026-09-18"
+      "hash": "83680200a73b53517890524c5481d355388d2ad2383212e93995abc3e1b344f0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/faq-generator/": {
-      "hash": "3cc4537e661c4f833ef409df7357234dd56ee5ecdf543812a6b44114a3f873a7",
-      "lastmod": "2026-09-18"
+      "hash": "2a9d13ea431035544a095e020360a84aead6e8bdda86d9ace83f82626886bdd3",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/glossary-post/": {
-      "hash": "6c9a27baa14796d9c8c170eaf884630abfd02c4c1058c97c76f15ccacc57d61a",
-      "lastmod": "2026-09-18"
+      "hash": "db07c32e9f5e4cdd8f214277404552e03cf80b8823a967eb82c939c32988a15d",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/grounding-queries/": {
-      "hash": "94d8ba1d127ac849921d4d94a74366dc8db71aab3f89edb868c69a598edac450",
-      "lastmod": "2026-09-18"
+      "hash": "4b2f86ba8ecba652e4a5ec05a3a816ce4513d2267fd212fd77e00ee6fb290dcd",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/key-points/": {
-      "hash": "ae059c137081496ad45b27368c80f0c416858f6f76d7fe44a73f784f8970ffa9",
-      "lastmod": "2026-09-18"
+      "hash": "9b069a05fbf90a5f5fa5c242202e85e5052ab29c6f9387bb5bc832af1f69242d",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/landing-page-content/": {
-      "hash": "609976f789876177e37d17e2364378677dd720bace4598b816164f26e396da0b",
-      "lastmod": "2026-09-18"
+      "hash": "66791bb78227db3a0e0d7f3c55a637d18b247b213f3b5a4b814eb6433f514d57",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/features/product-page-content/": {
-      "hash": "6280ba9acc0f1213657d70f8a4330ec194948899b591a2be3bcfbe8590d1220d",
-      "lastmod": "2026-09-18"
+      "hash": "fd5ed2ffa770f6db3251976d4cf26cb70f9fd2a534481eff933a6fa970eeb024",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/getting-started/account-modes/": {
-      "hash": "9a8f4bdb1b2108182b1f7fb92349cf68aad1b6c57bd5169791fab7829178e766",
-      "lastmod": "2026-09-20"
+      "hash": "0df42ce53d2ce913b2478d9d0b38a78e97a03491aef6ec5248f721f37225753f",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/getting-started/context/about-you/": {
-      "hash": "39bfda40be0df8a5fe10698175dcad23b4ee0aa919311332072aaa04de04445d",
-      "lastmod": "2026-09-18"
+      "hash": "05a904bd3585e4a6a166372f8f245ae5d83af8c6f64778f217b68a05fa24168e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/getting-started/context/brand-documents/": {
-      "hash": "6d4fd5bf4b7e7278bf4262a14e81e2dc1884e1eae0edf7a10e31e7147d8c7ba2",
-      "lastmod": "2026-09-18"
+      "hash": "7278b7692881f7e1bd33076c7eaf65e1bd69dc84854d6744d40beeb3021130a6",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/getting-started/context/brand-truth-profile/": {
-      "hash": "301b568317dd3f7d8111723503afae945255571a9dc7588e04269f9c7730c634",
-      "lastmod": "2026-09-18"
+      "hash": "a9d5a3a30acdbbea306e32643926842444b7cf2e0ee1209a22e5091851bd6665",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/getting-started/context/brand-voice/": {
-      "hash": "bed2faceadd421eeb408e5860ab0aaa37d0f4f154ec47b54f02efb9e0dfb103e",
-      "lastmod": "2026-09-18"
+      "hash": "f35141660e4862a29542ecbe991689701d0c28b8ee6fb9d82ff53ab09a0590b0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/getting-started/context/overview/": {
-      "hash": "5e2d1c64826365424ec9c6eb319efac6dde3227f0628e62795e742b9e7813993",
-      "lastmod": "2026-09-18"
+      "hash": "ed2efba7babc720d3798a73bf2455ea7dd5d44590cd4262c3907489a422277c4",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/getting-started/install-and-sign-in/": {
-      "hash": "8b45253f2e6c65f42cba070618651446fc51e62f51ae23c53ac1cecd2225ffd4",
-      "lastmod": "2026-09-18"
+      "hash": "3c3dc0f8e6bec5007efd6522fa835fe7231ce3141f353f6f8d3465693d14c8d7",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/getting-started/projects/": {
-      "hash": "9c89cf1e33fcdbeabccd716c53e100fea80ac21e6607283726342f9d1b1ec6c4",
-      "lastmod": "2026-09-18"
+      "hash": "f56e4bb19e0d479cc90075dbc2cbe4b8b1fb23df38e1d2c9fc52c218fe83bccd",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/getting-started/settings/": {
-      "hash": "91fd56b7108a45716c296459049074661fdb8b68d9f38033a7931e493bd817a0",
-      "lastmod": "2026-09-20"
+      "hash": "71d4af8f85f224f86411ded4411fc39ae8b3358bb0538f2961d5b1709fa6ca46",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/getting-started/team-management/": {
-      "hash": "dae7e2124ed40ab85f756bccdc6c577172fcd92089d6e83d2885e090826ec5fa",
-      "lastmod": "2026-09-18"
+      "hash": "5b567a7842d7d1542ef265e28d5d64f4e4b08fc8a969c4e88dca83128889e26d",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/inbox/notifications/": {
-      "hash": "eb1e60ed19953d91aca483f8c30d7d5569312f5159cc8011b1860c838191ff9e",
-      "lastmod": "2026-09-18"
+      "hash": "472d3b9b901a23938ed86e7e8e48577ca1a4caa7947c8a83b9ee2a6cba1d5cc0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/inbox/overview/": {
-      "hash": "d73d530d723bc42448886ae6d66b7adb1c6e1bf74f54205da71ecfa0dcc08c74",
-      "lastmod": "2026-09-18"
+      "hash": "ce8fe0f15127c7e7b255cd1b22c0ab04878c55f221a92f26478677e637c6e9f2",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/integrations/google-search-console/": {
-      "hash": "054930418a8534b89898e481f7f655b8969b31160634c409dfb67a1cfa7d74fc",
-      "lastmod": "2026-09-18"
+      "hash": "cdfc9c1288cff8200a011fe87699e9b190874cf12861ce0b9f0fd3fb7eb0a567",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/integrations/grav/": {
-      "hash": "e951ee539cbd35a8c4fe70fd6b5914825247a43eec61752fee6e2d07629b0ee6",
-      "lastmod": "2026-09-18"
+      "hash": "9763360455464d8ab5a2bda990cdae72099b8fcb6a1fbbc20c3954a0deb8f488",
+      "lastmod": "2026-10-11"
+    },
+    "https://himoose.com/docs/es/integrations/hi-moose-mcp/": {
+      "hash": "e7ad00e7f6692785df420d6e02e3b48907f348842122db55f9a1d7c191570726",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/integrations/webflow/": {
-      "hash": "a2318f9284e1d4299535facfb64f5c2ff448b32fccf0833e352c36baf93d3084",
-      "lastmod": "2026-09-18"
+      "hash": "222bc8314be6ddedf2438e92e1bfe31e89dc14311b1deb0369d537d4ff74cfaf",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/integrations/wordpress/": {
-      "hash": "9008c94c210d5ab52528c37a3946fcf49725941fe7ae3a2dd0655e32e844f2b2",
-      "lastmod": "2026-09-18"
+      "hash": "7fa1cf9ce3ea69de5244b2b1e3c66ebc3ab8a6bdbeb5cffdea97f256eb1fb6fa",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/legacy/listen-to-this-article/": {
-      "hash": "615bfdccc34d4de1233a21a1fa59236882563c0ff9216afac370e0dfed432599",
-      "lastmod": "2026-09-18"
+      "hash": "1a498a67f9294810174629c15ecc456f784d17d41a74baaac19753b6197329b3",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/legacy/topical-authority/": {
-      "hash": "ef15215f7f07e4ad8ba72063eaa819302bd32638987521cef0bff84d56320a6b",
-      "lastmod": "2026-09-18"
+      "hash": "056d246d0cead5917c13984f2292842267d36f658b47325530b975df4e5f824d",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/legacy/versus-pages/": {
-      "hash": "6570f80f3400198722049f9f75ca8d50513f4bf8f5effae3f04f17b47a1d5e7b",
-      "lastmod": "2026-09-18"
+      "hash": "dc643c2894e526c3d89fbbdf1a153b20bfbe7faf6e79cb862c1557056e2ff9d6",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/library/overview/": {
-      "hash": "772e9a3eb865e99d90cc1532e137ae2780a438bc1b30b1ca2c83d54f95d1733c",
-      "lastmod": "2026-09-18"
+      "hash": "0dc660411bb5ed07ce40241223014fdae572df6a39d9d9f3e8a619d9561293f9",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/send-moose/overview/": {
-      "hash": "28308eeb29026788056d4427f7424c025cf72d905affff9a055a8166ae57cf0d",
-      "lastmod": "2026-09-18"
+      "hash": "a1c351d173bf5c713a0fe345eaf18c4ad86f2bb4c23fea871c282380b1a32740",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/site-monitoring/overview/": {
-      "hash": "1551e65e4ed1b25d61f460f66483bc2c633fe4ed2181bb9c8027cb4c5c33b5cd",
-      "lastmod": "2026-09-18"
+      "hash": "aabcd13122fda7acb2762c5542f793328c02923c8ee5d6597843edca9102a563",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/tools/instant-brand-check/": {
-      "hash": "e333aa454c206fa910a37e68a1b4f21cf7a031b0714e2390adb4106f7aa97822",
-      "lastmod": "2026-09-18"
+      "hash": "23403dc6d88401bca356fe77d13d8e8b17a1a18e96872a64f538785e23ad55a9",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/tools/overview/": {
-      "hash": "8862a8e0c7de4ffa15393af078264e14d4022f76bc37534129e706c4e47ac7f6",
-      "lastmod": "2026-09-18"
+      "hash": "3e5b437876e667e9c542ed8dd5d74890b20b8459b72e759ac7bab147f0fb0118",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/visibility/competitors/": {
-      "hash": "e4cea7bc5659d3c70b80ea92b3fd191383d3f34e6db5be9a18446eee356a460c",
-      "lastmod": "2026-09-18"
+      "hash": "8e4c9879de2309716dec1faf0ec11bffda76e894e6a4ca583ca901acd2ae4ce5",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/visibility/overview/": {
-      "hash": "57ad4a3a6130c2996c820ab0b4cac2f880ed35f2dcf18d197237603984e67e26",
-      "lastmod": "2026-09-18"
+      "hash": "88a078a93d7b89f8c062fdf283a4fb1452b0e7d560926c82a8b44fe652de748c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/visibility/prompt-manager/": {
-      "hash": "80a4f539db11af4d05ad5e24332bf5a97abdd64d91f4fa32bee2c8aa2bfe1ad0",
-      "lastmod": "2026-09-18"
+      "hash": "124060f3c80b429316c7a0d8cfd3f5999219cfcf16816b868d975bd28e8f75f0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/visibility/settings/": {
-      "hash": "337ad5fc4677e667830cf05d6f594f2463dc1808bd94d634c92ef29d837be341",
-      "lastmod": "2026-09-18"
+      "hash": "455eae8c80d0d4398159aa7bfc94e7f149a6381120d9c29f860fcabf9576777f",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/workflows/create-new-content/": {
-      "hash": "13e3f5a8205a35f88a60e55fcf5de0541badfc6e0a1485ae2f70e0758fea7f16",
-      "lastmod": "2026-09-18"
+      "hash": "1baaef88d71e7436253822786351870ad318bd7dea2717d16c5665860761f0e2",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/workflows/overview/": {
-      "hash": "ca1138bf3030ebcf93fd0bd50420764bf57a8599e3b19113a05c96c31c197270",
-      "lastmod": "2026-09-18"
+      "hash": "3257cdbb96e4554af86bcfb1c3c89c15c5d2a19a0b108ee68d50196c873f8b39",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/es/workflows/recover-lost-visibility/": {
-      "hash": "bac7180856635eae3e08bb3f564836a05a7b5d0b9d21eae3493945bf5d629549",
-      "lastmod": "2026-09-18"
+      "hash": "d3be220d82b25959a73987e5e61493fe2427d445d73b097a331bd3ddb0bdfffd",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/aeo-audits/": {
-      "hash": "3bfbf6f5d0c25bd63b009dcb929bb24d57b7f588dfd1179d5c0de48818f5e62b",
-      "lastmod": "2026-09-18"
+      "hash": "eb7e19bad485bb143a0f3440c22bdb11a27336c094f468e5a5e3522de403a9d7",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/blog-post-draft/": {
-      "hash": "fdb14c7da79eef939a0985b98d410db64cadd8e68a10d6b630c33f0741dea041",
-      "lastmod": "2026-09-18"
+      "hash": "bb0e9c58d0a6dc28f0e7355afefc89cacd198781fbc13133bc1cf6cee0c00725",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/content-briefs/": {
-      "hash": "467ddce8e79cd06a05fcafdd5b1be097100cef8b465d689fe2506c0d3503267f",
-      "lastmod": "2026-09-18"
+      "hash": "1328ce0834ac29530d3f6a440abff0f1b309afebb90d9b1f244142205599036a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/drafts-and-publishing/": {
-      "hash": "f6789688e146ba0e232ff1e26e42dcf926752a59de2a190c56a8c45c8e9680fe",
-      "lastmod": "2026-09-18"
+      "hash": "5b8ff3fc25851582596077d7f655e8de645f3364b345acac42244f8c949b38c3",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/entity-graph/": {
-      "hash": "463da5826c293180c6d589ef95ce771b339a4d96234f94e38f42b9b97f43e2b1",
-      "lastmod": "2026-09-18"
+      "hash": "44c5e028aad664e4d37f6c4cada3bf9d23f2f11f0e3ec9d93b13842ba29c5965",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/fan-out-queries/": {
-      "hash": "ebb92e5f997098f7b070f0a8e49f7a3e532033be62ab60f0062eb6c884d7b728",
-      "lastmod": "2026-09-18"
+      "hash": "50d1e05f283ce04716b92231eab2b361533514475b1eccd015ef49facd78820a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/faq-generator/": {
-      "hash": "7970ab8add6003829e6dbf2f41e49209069fdba018b861e14031dfb42076a29c",
-      "lastmod": "2026-09-18"
+      "hash": "d8e585cbedd677289e5f182f4ffa061aa660b17cdd95ea8a64654072ce9b3590",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/glossary-post/": {
-      "hash": "1b8e819529196c1a9060e9d286a7508053e6d1b9ad4d95f25eb816b22b6e7332",
-      "lastmod": "2026-09-18"
+      "hash": "ed96902fc667048fe00502fb3f221aa40da6a3ff83064b847e4cb501c929f2ce",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/grounding-queries/": {
-      "hash": "6998edd5e025f76a6d38a6507970b4d6ffce5a78107f190ca6d33f9b9f002f4b",
-      "lastmod": "2026-09-18"
+      "hash": "bb9d4960e5175f5a80ffce936253d3f1b53591ed80b2871dd4f5dba9c41821c0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/key-points/": {
-      "hash": "8af52f53c45605d086df63b77e86bd1423d2f0931c7538d94bdaafae89918b0b",
-      "lastmod": "2026-09-18"
+      "hash": "f3bc5a7acb9bad036a0e3142afb8f87cb2edcf116e9cf4a1f21d56a88a4ef048",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/landing-page-content/": {
-      "hash": "b9d907b8d2889ecb7457e14d9824be6bfac2f6572cda57e1785c8efea1cc4671",
-      "lastmod": "2026-09-18"
+      "hash": "1f69d6bb5ebdb1c8c1a0e9f4b2f34aaeba334eca0f274328f889372a37260fcd",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/features/product-page-content/": {
-      "hash": "4a8cd0e2466d238828551ceb3248e01fe3ea9a2df2089ca6743d2348476895ea",
-      "lastmod": "2026-09-18"
+      "hash": "141465a356363f00e186a7eb9f19f68f8ff7b296647b2c11ffd5c7735c017914",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/": {
-      "hash": "a37223f3a69883f90693982c1e79cf49d41b8a9f0bcdabe8f3e1f782d0494128",
-      "lastmod": "2026-09-18"
+      "hash": "9ae33da7bc7f10a0068b3e5d6a81ce4b64c20191a2cc1c24033e187b2ccaba3b",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/agency/white-label/": {
-      "hash": "d8ea4088cd2bd140d5afc937a6cc3aa0ee0d895d834b7d46e39713bebe2baaa5",
-      "lastmod": "2026-09-18"
+      "hash": "2506b977ce02912923c3c619c5a84f5438c7ff24cd64ffdd14d78d52ec23c321",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/audio/analytics/": {
-      "hash": "d1bfef4657775e546d9e6c0cf158571357ab402b2c863e2ef5e70ea7ad4c945a",
-      "lastmod": "2026-09-18"
+      "hash": "a936d1414cff1a0ca37b6dfaaa123ad4b86945bee6b7c6985657d91e8a0fbeab",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/audio/overview/": {
-      "hash": "4250d263ae97384da95752a44e84ccf5a082302bd335cc171b7c16b43d7b69f0",
-      "lastmod": "2026-09-18"
+      "hash": "2a2b59f1268b4ff6d9d71c470808e761f515b3cd309172b26b3f7a438defbf1f",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/audio/player-and-embed/": {
-      "hash": "3229b1857a517522ee85635a407f135c56049e6c7a20020cb65245c3487f22df",
-      "lastmod": "2026-09-18"
+      "hash": "2ca591004030a8df16fa2a0598e38a26a116bc6e82a72180749020a871ada391",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/chat/chats-history/": {
-      "hash": "c10551740190fbf79c6e50058eebc1452575b3746e1dd32b38738b0c03238fe4",
-      "lastmod": "2026-09-18"
+      "hash": "8a47466b9dd089f081e396a18e30eb0235ab7a30d1f65d4a500fa62618f898e8",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/chat/model-selection/": {
-      "hash": "cf17e0a2f984e2db6357ce9139fc6332764ca062d363678b92ddb8ee081e8a89",
-      "lastmod": "2026-10-10"
+      "hash": "46ce2f578d53794309e5639a0c39200d6e205647ab48cb572661f596e43adf9c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/chat/overview/": {
-      "hash": "00e032fc396af2919e4c32880060aeca78c2980d157ae4fe823527951d15f98f",
-      "lastmod": "2026-09-18"
+      "hash": "95fdd5d876dc9c1909544d287941f7fc38468fce842e70ab5c8428ef887961e7",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/chat/tools-and-specialists/": {
-      "hash": "b510fa24ed738445cc2a669e248076d51553780789458b9228262f7ef845394e",
-      "lastmod": "2026-09-18"
+      "hash": "0afa6bd3ccdb4ab047f51b3392e8fe371420291354dddba38552c64d544c36b2",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/aeo-audits/": {
-      "hash": "a73fbb930bb3bbafc7dbcd5dfc920adc3cde4a7f7ce0a85093899a9ede7668ba",
-      "lastmod": "2026-09-18"
+      "hash": "c26e8f31f6b2232a36f2894a627e2b14331f92dee43daaee1d6c968302df7235",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/blog-post-draft/": {
-      "hash": "f7da59d84da8fdbb2ec01cb68844fd38f5fb9ee46d1110ba773335cf7ddbaf9b",
-      "lastmod": "2026-09-18"
+      "hash": "8a6ae65e04b86988717013c80f2dd8ace54c98763cd69b582a760eacf0128d62",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/content-briefs/": {
-      "hash": "31161d8e0ce8aa6ee2916bf477d94eca0899001e16db66447732e6af54498100",
-      "lastmod": "2026-09-18"
+      "hash": "ee9bc7f80e64063dab704b71d6a3ff28154af0296353ca60e1d8755e143c6831",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/drafts-and-publishing/": {
-      "hash": "7651d9ab6322bf9ce48e31416363e54e09775149d7478c0a2f7e2780c45619d6",
-      "lastmod": "2026-09-18"
+      "hash": "c19d39cc155b6e4dd170c581a8c8408c5719085b04494f5531ae4517280d68b1",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/entity-graph/": {
-      "hash": "8c7ca1d2a77634b00e19ff02d691f096fe4651399f70eaadb75fdfa1a0364414",
-      "lastmod": "2026-09-18"
+      "hash": "f71a73636b0a7128227fdf476a6266425692ebee8eaf7e0ffaf174c5889fd825",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/fan-out-queries/": {
-      "hash": "4d49515b6729710bb3666cd70f5b0c7312e5538b0c68df8d1222cba6c2f1ea7c",
-      "lastmod": "2026-09-18"
+      "hash": "7171c83726cc50e29c5b06baa140a01acc8aaec1986df1498cdbcd7fd0b0245b",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/faq-generator/": {
-      "hash": "4febc7cefb42b962866bd7e43dce0e28a9c9bf2ae77928c7e7602307bf900064",
-      "lastmod": "2026-09-18"
+      "hash": "104c3d1552dff81ef72ecfc522262a9cb387bfde9f43ae7815a7f155ec6422e0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/glossary-post/": {
-      "hash": "7f6d07ea78456ff9c5202ea7b8e16f574e62d459940e25bcad6c66ef6613b3b0",
-      "lastmod": "2026-09-18"
+      "hash": "88b312827d9fe1f4ddfd8cc1bd5a7d24d85ba08db43f2332de701363b151aa67",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/grounding-queries/": {
-      "hash": "0e57777e825dd50f953682502d0a2a00462aaae614b8434504682661440ae801",
-      "lastmod": "2026-09-18"
+      "hash": "9ceb4e5c487134497a11f37832aed30215530230548f80b54c5ffad6415d1281",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/key-points/": {
-      "hash": "3bb4a582e40416b757bee857d1ea7615db375bd43aaa3ea70e282d9f18021864",
-      "lastmod": "2026-09-18"
+      "hash": "a2b5e892d6e77005c3d914d9c388c4ab9966b7476feff6a5001002e7ae3c0daa",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/landing-page-content/": {
-      "hash": "4daa133446d594b753bae765a66f21bf2d7182f5a819cee53a4deb75e899afdb",
-      "lastmod": "2026-09-18"
+      "hash": "389eabe6c14804830ee5fdd4d46a525f12f30ec1e374fc11e70f50eece8b2921",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/features/product-page-content/": {
-      "hash": "5957cfa0e4c3775e92dfcf036a0c5df9a85fb8d315db3a5d5db4f80fb013da98",
-      "lastmod": "2026-09-18"
+      "hash": "8b06a22f48fa4d00720c158311cad69692fd226ab3c42dfb2c13fb9f52769c65",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/getting-started/account-modes/": {
-      "hash": "5990fbc3f66f69b3bca158a1a8d976993f6b17c09bfaaaa180903375ca90395f",
-      "lastmod": "2026-09-20"
+      "hash": "b0c16b10c2b78c9e6c9140c5b938ff741ab053951888eff487c03ea30934af13",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/getting-started/context/about-you/": {
-      "hash": "687a8a357803a9ea677e35654d8cb516df120dd28c44334e55b79df382beed8b",
-      "lastmod": "2026-09-18"
+      "hash": "48ac57238def60a5e4cb0088966957d8356181c825b4c1c2f5f7b7f24841a15d",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/getting-started/context/brand-documents/": {
-      "hash": "7332d28b093c927af5ff52b97da0f04c38172cdaa93a99363ab7840abb2b6d71",
-      "lastmod": "2026-09-18"
+      "hash": "cfb321ffe03f85a8029cfcc0d4f2991ba47674b894a3b0dc840ee5eccce3a906",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/getting-started/context/brand-truth-profile/": {
-      "hash": "1a632f503b356802b1348f0a1e917c163c6c2a5558b3b1fdcd1b2c2cadabada2",
-      "lastmod": "2026-09-18"
+      "hash": "12c2fd12654b8d28cf27de0fa735662dc506744b138cd624b936ca8041aec696",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/getting-started/context/brand-voice/": {
-      "hash": "7eb0fa617109fcd6f359aed7f8c951e53a2cfe384b39ccb767c2e98f947f3cc1",
-      "lastmod": "2026-09-18"
+      "hash": "2ff4032e5c64dc5ce19d31b22ab07b8008305221e0533dd2967fe1abcedc72eb",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/getting-started/context/overview/": {
-      "hash": "770d72601ceca60e47c5d40da3af4fea2c55a89c03bacb59f9300a08169c8320",
-      "lastmod": "2026-09-18"
+      "hash": "ce98d69e510d042d6680c1abb83364a129481a544f268a38c1679afa3d0cf566",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/getting-started/install-and-sign-in/": {
-      "hash": "495e7b3479bce909cab010532a291fed91987224eebffeb641b33d59e3db78a0",
-      "lastmod": "2026-09-18"
+      "hash": "8f59eb91b66e2e5ea4d906068d67a2f0a2ec25c1b58ada436f8f71c4234ac1ee",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/getting-started/projects/": {
-      "hash": "47a1b801178389382a34c90b4f594dad3d8c6e441cec45661537d3d41b467b50",
-      "lastmod": "2026-09-18"
+      "hash": "eaca7902d4aa3ddaa5e520ffb349a2418a25ce5aa869e133e2101ad9619c3a49",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/getting-started/settings/": {
-      "hash": "d3750082a675b5b4ddfaee400dc8a308952a98c164ed1086183afb781c777365",
-      "lastmod": "2026-09-20"
+      "hash": "30da88d308552e66890566982a6273bfc1e2377cb9117876ad205034c1e827f1",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/getting-started/team-management/": {
-      "hash": "77b838ad5b781add5774c3643af726b320154db8187ecd292bbc358164ac7857",
-      "lastmod": "2026-09-18"
+      "hash": "e043722958a1002752c936d07022545654670576ab43b7cd833918bc2535d435",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/inbox/notifications/": {
-      "hash": "f4abdb321b35b60a8294884e71a9677be2b0de88ef1b47e87f7b378792df2164",
-      "lastmod": "2026-09-18"
+      "hash": "fbf802b5c4a6a4cc9a5c6b802352e5b35262349698c208a95eb6cf91d99f4a1a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/inbox/overview/": {
-      "hash": "63591a19d16285e2dcf903ba70cf25df8cb4a57b8dcbc98345f4eefdeb46d741",
-      "lastmod": "2026-09-18"
+      "hash": "6d7b24a3464ce577742f905e55d58fb93ddee54017385f2f28679b5b330f3746",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/integrations/google-search-console/": {
-      "hash": "9914d542791cfcdbe865ad19b97098a50394cacbbe32e95de9339725d6ef1c26",
-      "lastmod": "2026-09-18"
+      "hash": "2c140b6996f67040179b15fb3260299fbd6bb585a8a1c3175fd1ab2d89036f46",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/integrations/grav/": {
-      "hash": "5308b5d8d5411c8aa5aaf92e8d69c72001a46ecf5da707b9745bd4434c21c095",
-      "lastmod": "2026-09-18"
+      "hash": "6c2843f6905f7723bf01ade2a8dea998b52f5f9c3879095c1a3222367399cb91",
+      "lastmod": "2026-10-11"
+    },
+    "https://himoose.com/docs/fr/integrations/hi-moose-mcp/": {
+      "hash": "a9b9e4edcf4092e66f265db75f1ad85660b375ab24a930f99708d631ce6d635e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/integrations/webflow/": {
-      "hash": "7a373905be9c855ffafdb64ff6fbf11185bf338301d43d4276d875d09cfecf93",
-      "lastmod": "2026-09-18"
+      "hash": "00c85db6bc1fffea1f7ebcda812106a8229a3ad188da47caa88df4cd3aff66f7",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/integrations/wordpress/": {
-      "hash": "f890bbf3f52886204c2e818b06327e93925b9b438eae0982c9c27c0047094376",
-      "lastmod": "2026-09-18"
+      "hash": "628ab139895dff0a12239677f987ac669d3ea99345a6922acc94a3f76ab191b4",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/legacy/listen-to-this-article/": {
-      "hash": "25bcf56b0060c7d8d5dfe705efb006373a093f2b0f766788ec74b3e11bdc5580",
-      "lastmod": "2026-09-18"
+      "hash": "59128dba66aed8ecdedc4968b770afacd857b0388ffb97ff4854a16dafffb715",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/legacy/topical-authority/": {
-      "hash": "822e327beb9727bc281d8ad63f1033e21865883f9ea1693a162f81c4a6de2ee7",
-      "lastmod": "2026-09-18"
+      "hash": "a175752cceee5f234dc723d3627714c34b085bde5185688913e0000466450096",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/legacy/versus-pages/": {
-      "hash": "4646bc3580222d1046628e4e18b5abe5343d54f0fb0357ae14d909a6ed49e789",
-      "lastmod": "2026-09-18"
+      "hash": "d47b3c6f2e2abe3750ea25e5add3dad1cc253b237491ac1d759cefb6ba472336",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/library/overview/": {
-      "hash": "0cdd3633714fd8bacea7dcee2a86fffa0d12bee179373d33e866734ae3705e0b",
-      "lastmod": "2026-09-18"
+      "hash": "74964db65993b0d8805e1f0845861886e446922aac6584a414373c0e904f6c27",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/send-moose/overview/": {
-      "hash": "7adc20b632b8fdea970f40e79a973243fdf2078a17ce9a64b65951f9a3be15c8",
-      "lastmod": "2026-09-18"
+      "hash": "1d2839bfde304872daed0277f1b4521f3c72ae2d8de4db6b4da708c4a0f2d5f8",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/site-monitoring/overview/": {
-      "hash": "fe0775a2dddc5689a1c40af9f32de4f516915bef4841b8d293711ae11f701819",
-      "lastmod": "2026-09-18"
+      "hash": "bf16f6f34563c123cc30c85ea1270eea60f9e11bbb239b475690f7135c760bb9",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/tools/instant-brand-check/": {
-      "hash": "17db4aeb09f0ae56e5efa2082836cb1bad0f365dbc9f9fc8e6dd91b07d575856",
-      "lastmod": "2026-09-18"
+      "hash": "8c7544bbec3cb90514e6f71a129942d0bf617b98528f4bd52d97695c2068a6e6",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/tools/overview/": {
-      "hash": "7b26db015125448e40bf17d8ade9282d826e0f8ef97e9411bcb062c4c03aa984",
-      "lastmod": "2026-09-18"
+      "hash": "4319dc98dffa2f03edbc8a9e19d1dee56153b738058bcbdb26c65e6c03731550",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/visibility/competitors/": {
-      "hash": "79c0656cfe2a8635fc9fb03f9a276414e5e8999c1886e7bbc2f2d4106696f547",
-      "lastmod": "2026-09-18"
+      "hash": "821c287759b3ddedb4bc2b6acb132fdd34167493a46ddc7f8b76f0483cc3b253",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/visibility/overview/": {
-      "hash": "ce3ee26da7e83a55bc15986f33777e5a5735ad8d16e304aebd24f5f24e2ef089",
-      "lastmod": "2026-09-18"
+      "hash": "b13a191ea3d03c97ca143dc00587e04d0c018f4821bc9971cc0efe822f9781b3",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/visibility/prompt-manager/": {
-      "hash": "9904d60a7292ed76d7af716858bbfe229da99fbbf43106ecc58c01331abc2a09",
-      "lastmod": "2026-09-18"
+      "hash": "9aadecc3e62e374e48e3d59fbc44b0ee699993c76a8dff90f0015e3073206303",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/visibility/settings/": {
-      "hash": "dbe51bc3b01ef7161fbd4437ca0c0eae6cc938a2f771da395331501d952fc3ab",
-      "lastmod": "2026-09-18"
+      "hash": "c333bbdb9f367dd84f073c3da822904e90fa40ff66ac1c160a7cec1c61a49477",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/workflows/create-new-content/": {
-      "hash": "706bb03a718fa525cb79036c4edc5c7f892150ec4eb0ba7af159af1465672019",
-      "lastmod": "2026-09-18"
+      "hash": "9ea7d6dbf21371bc6bcec8b079089941aa157ee724b8772fbeb85bd6355bb06d",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/workflows/overview/": {
-      "hash": "c19d19e86b6c67b37edb8ee49f96fd6cf8e8f235ab64bae1c2906087924d7680",
-      "lastmod": "2026-09-18"
+      "hash": "d24a3d2c4068d57e5e8126d89a61407a11df90c6f2f648f95511ab76fdc57b71",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/fr/workflows/recover-lost-visibility/": {
-      "hash": "3150508dc84be13f843d83e29dbda117e7a6810e4d5f1948dc06b87f1645a076",
-      "lastmod": "2026-09-18"
+      "hash": "ac93807594047285dc86808a41d54a4f3825131328d96bb181131d840cfecdd6",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/getting-started/account-modes/": {
-      "hash": "992c719c2e4de99205aad2e1ec0a3d5b169f379148f90f19fc17855807c092ec",
-      "lastmod": "2026-09-20"
+      "hash": "77358bc7bde813f6dd48e215ff00eccee5d620ebd235a7b9a14e07a87986694a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/getting-started/context/about-you/": {
-      "hash": "c43bb7f5be8698ff83255d91fa035c477e5a2aa62801721122d4ad4b68a1918a",
-      "lastmod": "2026-09-18"
+      "hash": "d9918d49b716402ed56eb2c962c1f1ea9dd2ec876bf6bdd74ddfdb5a608f5848",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/getting-started/context/brand-documents/": {
-      "hash": "76880e1aecb52e13d79c93fc55cf8dcf7b8d4fb372590c9b7eed62037345b284",
-      "lastmod": "2026-09-18"
+      "hash": "d2c1bc20960c379dd0ba02e2b18cde9954287a71646636b892c3f98158706862",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/getting-started/context/brand-truth-profile/": {
-      "hash": "75393603960f9a188c8b16fcef26b4f6f902338f2c64129dec8b43b79a3dbc6a",
-      "lastmod": "2026-09-18"
+      "hash": "f3e355b403245b2729c6087838be6787da7decbca3c815a9210da898ccdbd0e4",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/getting-started/context/brand-voice/": {
-      "hash": "b59e4d686e5f2dfaae8ef10ff4a8ba26b1d9f15dc180c45c5670f5b1a3ed466f",
-      "lastmod": "2026-09-18"
+      "hash": "2145558e8103562f536326a8c61308d757bcd48e0229d592ac27427b5130f63b",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/getting-started/context/overview/": {
-      "hash": "ee03c17f03590d3542442d219e5359486f4306c84f20d5d8ae4c82d093322710",
-      "lastmod": "2026-09-18"
+      "hash": "c91ac109891f9572deee3003e3a22d46d4ed98df7922e9f046517ffa40a173f1",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/getting-started/install-and-sign-in/": {
-      "hash": "dfa0d3110eceb62019b1d313c6224e705958f45c81978bf009146060f9f5d9a3",
-      "lastmod": "2026-09-18"
+      "hash": "51465b2a1fa4a64f99675a00ed0c1885a9122b703c01c859bbab9639cbaf45b2",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/getting-started/projects/": {
-      "hash": "cb96a56cfeb97c3699c34635cf84bab11eada1b2e263edb4c4a524ba8bc6011f",
-      "lastmod": "2026-09-18"
+      "hash": "4e7f29c339d9af7723731341eae60131fb937b9e6d2592fe81a7825e2bdf70fe",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/getting-started/settings/": {
-      "hash": "8702f83adacd364ce167f17d545042bee7b8f6937d096afba067216cbd08593f",
-      "lastmod": "2026-09-20"
+      "hash": "14c9f27de4878e04c65bf80eae188ffb5d56ca621e2163bf6bb26ead78895c3e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/getting-started/team-management/": {
-      "hash": "e8b2df1a1f1b372083cc3aad8fcd70961745a8c5267c8a75a6cf6fcd312ad3a8",
-      "lastmod": "2026-09-18"
+      "hash": "fbda4202f8446d03a167dd65f6ee5bd449ee4f2714c86f8b41d0cd4a8f081e1e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/inbox/notifications/": {
-      "hash": "c3bcd82927a318629921ae3e0a694ac3f6ec2b21bc4bf27991c277b122a435c2",
-      "lastmod": "2026-09-18"
+      "hash": "74e5a8b5b3c5d832d85f60d93b8dc71133b2292cfd8a07bdd905294ca3115884",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/inbox/overview/": {
-      "hash": "5a0dbca7ffce904c3bffc3712880d22e34e5a88afed377294eed6fb84cb891bf",
-      "lastmod": "2026-09-18"
+      "hash": "2d656c94e883ea2199ca7902be0f5dccc9d9e0a3640538d2cb1daf9242f88b64",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/integrations/google-search-console/": {
-      "hash": "1c6527369011813455a3d594cb9ba87fc5ac5b5407b03f9da969607ec97031da",
-      "lastmod": "2026-09-18"
+      "hash": "995f96035a3fd50ffbce6ae2c0d87ba65735e158f686cae5140dad3a6356189d",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/integrations/grav/": {
-      "hash": "f610cb2dc384705a96ad3c1888e69d52942c2a488f9c0075a7811a578f51c09a",
-      "lastmod": "2026-09-18"
+      "hash": "6bb4ad226db1a01539863178c6fef21af5799fd8ac480e7012a592f0cc3a6c19",
+      "lastmod": "2026-10-11"
+    },
+    "https://himoose.com/docs/integrations/hi-moose-mcp/": {
+      "hash": "ebc16308f804bcd8b0b692657ca50b3c67c4e863bf3036c4c75e50b151e15258",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/integrations/webflow/": {
-      "hash": "5a5d06ef6d6e1e643b89f3c67f1e5b465e7a9f777a4f15a3aff8ce9bea3c4893",
-      "lastmod": "2026-09-18"
+      "hash": "d11768208101a99ffc21e4089c7b44518a788c73f8786160f6a573191609b946",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/integrations/wordpress/": {
-      "hash": "89c3f49aa501bc2b3f9a45e112b056f227b962e5d124133e747fc467379c6fa4",
-      "lastmod": "2026-09-18"
+      "hash": "42945193c558acc83341cf6ffbba13da9a078108a6ec2000dbba93be203c5671",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/": {
-      "hash": "fbd28b33500beed21a1b9ef3cd429ab8249976f07a161976667ffdb6fe67d14a",
-      "lastmod": "2026-09-18"
+      "hash": "41a497469b46605671962983f0c219ccd45868079942aae91a33d3efd821da99",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/agency/white-label/": {
-      "hash": "eb7f24cade76c9b778d0abd1920f8bdfd9f327e3f3d044d866a4a99fe30eba6b",
-      "lastmod": "2026-09-18"
+      "hash": "f5d0d15a59c16d11fc929a6667290bf021a7de6510e9abb9992c205126597a2e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/audio/analytics/": {
-      "hash": "9047d01935a6e0eba01f5c1df993244068bf2d8b1ca521af2ffc297b6fdeb9f2",
-      "lastmod": "2026-09-18"
+      "hash": "f17912006a37707f9d576d98efcb2e07052541f0cf81e7f40d939b0adde7d7d7",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/audio/overview/": {
-      "hash": "de67371d2c81c4607e1d405696eafd65234e566aee20ba09c2f655e07412bac3",
-      "lastmod": "2026-09-18"
+      "hash": "a00e8cd688e2289bda8681a3bd789a6b97b30b477fcad3723480ab98c19194c4",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/audio/player-and-embed/": {
-      "hash": "e225bcb696a17c1cdc1413ec60d8f3502876a2d9926826c93fc3f58188e2d542",
-      "lastmod": "2026-09-18"
+      "hash": "1edff1f2002901064ade830f41a9d5f5ebb951c1d1674a4f698f11ca31c444d5",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/chat/chats-history/": {
-      "hash": "6ec4b3c8c7e675feca92826c8f337ca855421efd05352b4897771119d38e7203",
-      "lastmod": "2026-09-18"
+      "hash": "14f0dbc318d012d8e52baa0c839b72e823102ef015778d682a2f98654267fd85",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/chat/model-selection/": {
-      "hash": "9def62cba2e57bb80975fe8e55bcd9131f55fbd0c16077b19198cece484e6d1d",
-      "lastmod": "2026-10-10"
+      "hash": "6cad76fc7ed7bff75baa0c64bd93bb2ecaddbd7e7067df217c853bed779d1385",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/chat/overview/": {
-      "hash": "e0a5446d6d4107ee50671f63e127693ab443e72f1ffc19b5c11089c85102cc9a",
-      "lastmod": "2026-09-18"
+      "hash": "0cd4204ab2e15898faee0e118b40bb110e98f57626d9cb2d0b4dd8c57fd1c8e0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/chat/tools-and-specialists/": {
-      "hash": "3cbe0e577c39c6ae76fa8b803c1da887cd1183ce96860d28c4d4d5d9eed99370",
-      "lastmod": "2026-09-18"
+      "hash": "8cde6f9e67a08e0ad1b2cf55e7df492f036027560ad4954001b92b49bf3f135c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/aeo-audits/": {
-      "hash": "686d5e36d66cc59c8223a161e4033c672a9e8a4686620b4bc7d7f2d6148a0867",
-      "lastmod": "2026-09-18"
+      "hash": "1a1a32bdb398ec7cbff9b515269bcee22e6153dc293533a41c5bea99f21af711",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/blog-post-draft/": {
-      "hash": "4b468aaf69e778c17f1a44e9fd2545ef80195936eba5365fffff939a810f0b1c",
-      "lastmod": "2026-09-18"
+      "hash": "f15edd204367653ba702780e35b2c7a9b69bb2091a50b893a0e541e386f2eccd",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/content-briefs/": {
-      "hash": "04b91ecff0165554cba57bdcafab9e2803921b160ab2548460f8f86b8945b747",
-      "lastmod": "2026-09-18"
+      "hash": "09fb4097b7fb84fb9f238edeb3c82606b0260fce915307efbeb7bf93a549857c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/drafts-and-publishing/": {
-      "hash": "25cafdb0a37740d8bd841ea5e99577a1f7995a9623fd2abb58304d83a826634d",
-      "lastmod": "2026-09-18"
+      "hash": "5d586e55aa2c3c6808b94b597d7dae511c1bae2f485a4576af00ec644a993928",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/entity-graph/": {
-      "hash": "8f8aad7e8f8921ea289f166e2f59f7b8caf02d64013f1ccec2eaffc30ff1bc9f",
-      "lastmod": "2026-09-18"
+      "hash": "9475f636b60c734c2e492d3ccc52e5789fb64fa2a41df6918244381d6323b97c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/fan-out-queries/": {
-      "hash": "619e05528bc502d40ef4b261d761452e7edb240bcbda5a8cfad211866d6152f3",
-      "lastmod": "2026-09-18"
+      "hash": "1c2d00c5f863f71782fb2be37a00e5bf9faf6292e59529e9f6b7227b744d6330",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/faq-generator/": {
-      "hash": "622db8e50a6f0fe2995081faa2df7a11c1019e020247bed92d6e4dc058d273ca",
-      "lastmod": "2026-09-18"
+      "hash": "6f79d7ec6804452d67a2e9196089269a06f0a0603b8be98c357f13713a06c565",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/glossary-post/": {
-      "hash": "63a41cd259c47517b6d1d6a7a9e9042914a4b702b14ef963888e5e73cad90fe0",
-      "lastmod": "2026-09-18"
+      "hash": "8926cffe335a36b6e772d36fdf0b91dd5e6e3080e320bbe67ba5e3044e2069b2",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/grounding-queries/": {
-      "hash": "aff624579e5c7b2c96d8161e324582b7476ea3066220325f3485c05e8aa31b44",
-      "lastmod": "2026-09-18"
+      "hash": "bbe82882211c4c4770376f46fc53ae351300ceb6da58ea728e94fc11468bcebf",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/key-points/": {
-      "hash": "5ad246c13366f9ea38cb98cec955d32a1381d77af4ef368164520536e46141ee",
-      "lastmod": "2026-09-18"
+      "hash": "665c016357fc1d1cc4b6a5e11bf615256fe47647161e75269582877790aeb4d5",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/landing-page-content/": {
-      "hash": "80bb6666702bcfe1f18bebbbb721418360e1a083d53679d9a36e775304f3bbdf",
-      "lastmod": "2026-09-18"
+      "hash": "d6529de511e145646b578c6f9052147c200196801c8e4f1c44f3f7f4e26a88f6",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/features/product-page-content/": {
-      "hash": "e2358d03d1e193ff87b8084f4d1025e406ea74c122d5984b23b6ab5e12726ce3",
-      "lastmod": "2026-09-18"
+      "hash": "ae3a7d040379ba283e77b682b740ce16cfdabaa368331a51764fd3cca54c85c5",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/getting-started/account-modes/": {
-      "hash": "e0955bf78c5220c7da3951c38e58598b54a25b0cc6d6181909e544ee74e3a454",
-      "lastmod": "2026-09-20"
+      "hash": "ebcfa31e1dcdb9c4e7c8fdacf3577586891eea128de9c7cf0ead959ab713a8f6",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/getting-started/context/about-you/": {
-      "hash": "56d05af06eab7dd25f3ed3f919b5237958709da6290262ec1417ac6269944e86",
-      "lastmod": "2026-09-18"
+      "hash": "e2d80f56bafa95f0a5d589e6988d85ac6510a7ddaa5d77b0b65833e50d9082be",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/getting-started/context/brand-documents/": {
-      "hash": "fc28847749922b6ec3b5283f0dd8e3f693d704aeb3b0443b441567cb4958d74e",
-      "lastmod": "2026-09-18"
+      "hash": "66761b7e6f88f30517564fd3ab2c0cd8a801289739bf18483e479802fe5e266e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/getting-started/context/brand-truth-profile/": {
-      "hash": "71360d5622ee8137afb65212ef0c1d0aac2ffb55f866785a15775e7515adcef2",
-      "lastmod": "2026-09-18"
+      "hash": "523a2f39b1107ece2088e1660ba84082e05e66bd2de392969358c74a7e647548",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/getting-started/context/brand-voice/": {
-      "hash": "f3b45c22d7417ca6b4bb093c67b1561159cf10450f8aee74ce0f6796d42e9e50",
-      "lastmod": "2026-09-18"
+      "hash": "97be09eb8efd5d5f074d13541250c6047a32e1c1bf9983654bbbdffb77d04e5d",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/getting-started/context/overview/": {
-      "hash": "34ff878d195c9c323f0c4148e587747e11f35efb6851e097f743ae4e7c462222",
-      "lastmod": "2026-09-18"
+      "hash": "f36be25c8f70d012b8e3afeedd755e96725e66d2107f5b74272b86287636ddda",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/getting-started/install-and-sign-in/": {
-      "hash": "8f27160b8e6da9ad42fbeb6e442bd7985effec489110326f4d71ffe45d94fa5b",
-      "lastmod": "2026-09-18"
+      "hash": "8db44dbc8c5f3a6c5c3df9edc98e20d2e9696bbd4a670c09951585d94e828817",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/getting-started/projects/": {
-      "hash": "fa9b8b036fc07b648e33d23e7a384c290d6f2b82ba8a6149f1b562cd095a9e66",
-      "lastmod": "2026-09-18"
+      "hash": "156863ceb4663cee03b5c93ffcf1db55875f63109491f92061fb0a941a495d7a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/getting-started/settings/": {
-      "hash": "3bcd251f58bbe99f93b9b8bff432f8359573f4f30a2087f20c90ba78a7bf9c87",
-      "lastmod": "2026-09-20"
+      "hash": "77d4dc02c9dd965dd3c010064f96754129c080cf43fee2971a4dd77226141a9a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/getting-started/team-management/": {
-      "hash": "bd7e08954f5d25056428b6ee927b95357a3c17e99bf448f04e2c1ed1d6ef807f",
-      "lastmod": "2026-09-18"
+      "hash": "87dafeb8e9cebe67fec90dc8b70bdc9aca3e6bf7941f61e0a58c07dc8d6e61a0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/inbox/notifications/": {
-      "hash": "fa29b676ef05db11de4667be6989f0f548f929cd8b71cc57a319c39c3f014d86",
-      "lastmod": "2026-09-18"
+      "hash": "1977ac1c6a2229b3f5b7677f9d4f31a1a4824bddc4130d782584c9ea09e9de12",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/inbox/overview/": {
-      "hash": "53999e2075b18fc975f67dca3c65670db2c4ace27830d9dd5ae947c21b139fdb",
-      "lastmod": "2026-09-18"
+      "hash": "a8b9edef32f1153b8adb4787d48b3c54dc117ec6fc5a643cd38b28bfd1abb4e4",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/integrations/google-search-console/": {
-      "hash": "bccf844c871d4e5493f8ccc901e2a1c8afa717f1f386c705cfa2e002c404d31a",
-      "lastmod": "2026-09-18"
+      "hash": "5a5cbeb7261e8cc87ddac537587deaefd021654883349347133013c93de052b7",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/integrations/grav/": {
-      "hash": "1e02e297a033c1ef6bb404faa95722a44c8097620ec9dbc9d66872e413035eba",
-      "lastmod": "2026-09-18"
+      "hash": "955b6a592888064ba9376d8951a6d94929f5e3bd1dcdf0a9e6be19eef2b3a7f3",
+      "lastmod": "2026-10-11"
+    },
+    "https://himoose.com/docs/it/integrations/hi-moose-mcp/": {
+      "hash": "cb1276c6b3a74a64d5c0aa862a26f2f6a5852610978c534ce922a30b69e70d39",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/integrations/webflow/": {
-      "hash": "b4eadcaaa3685f4a94c6f1416177f4904235368ea27cd2cce8d1a7c43029a3b5",
-      "lastmod": "2026-09-18"
+      "hash": "7788c12e3981982ccb7bde3e23c0377caf21529dedbf71b99176e889433b7ac8",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/integrations/wordpress/": {
-      "hash": "680c65dc89c7897f671e9004d2a1e2a2c7d7d2a1d18d6e37ebabea77cbb53d20",
-      "lastmod": "2026-09-18"
+      "hash": "626086351caecee797687a16b594eb502d8f2c224903ab74f64adaf6d8cff8df",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/legacy/listen-to-this-article/": {
-      "hash": "96163c0888e9ea55d78a9e310f372dcfce86c6dc175aa0919e638b97913a2d09",
-      "lastmod": "2026-09-18"
+      "hash": "ac72a165909f717642a1cfd3f6185bdea286cdceecea465f2724cc7d19541fe0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/legacy/topical-authority/": {
-      "hash": "e100bd7b91dde1a1163472001037fbf1821523cc18446597e8f44c997922a214",
-      "lastmod": "2026-09-18"
+      "hash": "ae00cf8b5fb537f9f1558b972d5527dc2dd58c0b30f4734f96a7f14a83f43831",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/legacy/versus-pages/": {
-      "hash": "92049e633afb11ec47c32ebf9192873b3ee27cc01c3d302efb14b370188a3060",
-      "lastmod": "2026-09-18"
+      "hash": "3e506d2d34f44687ae021404456db9f3d80bbfa8bc26f41798f124033d9d2831",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/library/overview/": {
-      "hash": "314eb7940375f28c35353af227dbf7dfb1de2a3a1f57f64cae0de8d505b5188a",
-      "lastmod": "2026-09-18"
+      "hash": "78c7b7c6b38d19dd72be61f2b25c31a8afe410c387d2ebee73393a0f4d032c7f",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/send-moose/overview/": {
-      "hash": "090eb8449f45310eb7d427214f3b3888dd4ce434791f559fdcb52e9d9057bccd",
-      "lastmod": "2026-09-18"
+      "hash": "9ad87296a612e7857b3972208cde84a5c9d1972722ff1505cf53cdc616155cf1",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/site-monitoring/overview/": {
-      "hash": "34a84ae2d20f85f2fe090b4f7d712e4fa360506033b4c478b28dde94869953fb",
-      "lastmod": "2026-09-18"
+      "hash": "f200a1256287b6509c25636f37c7eb70613b10b7bb9fb129823c42d3853cca9c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/tools/instant-brand-check/": {
-      "hash": "227d1946106e8ecba6da87471035b81593ede0bed5e6cf2ccc80a6af1eec139e",
-      "lastmod": "2026-09-18"
+      "hash": "500c0009eeab5aca517d3d4d9d3e6afe91bd85c1b0cfbd0805cc5e7d251190ca",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/tools/overview/": {
-      "hash": "dd9b455a6f909846da71d5d7c9ebe89884f4d8f1df82059f7f03e1ee5fa7f3d2",
-      "lastmod": "2026-09-18"
+      "hash": "40975cb382a492cda680835c0650543ed755cf7dfab4981222a80ded5834394e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/visibility/competitors/": {
-      "hash": "fdd2b4cb68d7170b8f589ff43b8b58a15c4f24dfbf388cef6b0f0caab1e8dd0a",
-      "lastmod": "2026-09-18"
+      "hash": "532c2af8702ab67be91e2192fdfb04d2143289f7333b12f05562f13e30137d9e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/visibility/overview/": {
-      "hash": "8acab8736114dfb862f7e96c30747617be505aa471e4eaaf221f698c9c3f494e",
-      "lastmod": "2026-09-18"
+      "hash": "9a838f67a05d0bc36baef982496dcbbbd7821f549bd20283f961fbe9bb73ea18",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/visibility/prompt-manager/": {
-      "hash": "45b9ec0e7b058c3b45154ce0aa68ba338aeb6dfc014aeb1970fcbbdafd050ee0",
-      "lastmod": "2026-09-18"
+      "hash": "6ce8c2da93c5431a3f63a1b0720177e5d80c2f4ff30ef8c041de12c2cb87a067",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/visibility/settings/": {
-      "hash": "b78ef27329c2be06f846f99320c7405449d83fe2dd82967b7763853d7018f0cc",
-      "lastmod": "2026-09-18"
+      "hash": "d3a869b1339ac7c2d797def646d1dc48ab57ff088091fdfec3fc1b6300906df7",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/workflows/create-new-content/": {
-      "hash": "3116906955b2fb261801d7aac48f420836c6e143003054460d8f292d1a0b54b4",
-      "lastmod": "2026-09-18"
+      "hash": "51a2d1b9d62cb69ac9265b99e4a26781e8a3a9ba23054f5902395020ac780160",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/workflows/overview/": {
-      "hash": "4be232dbd9b450aef8374002812fc16f18d8c30f08a8f5723a31f15b325998f6",
-      "lastmod": "2026-09-18"
+      "hash": "b9f831f64063f561f9e83e18dcc16b53f9de770ffc3da814ace385ea24c68376",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/it/workflows/recover-lost-visibility/": {
-      "hash": "bc4d7ad0b57d1c3aa454af335794fc88b297c14a8c9369f81285e43822143491",
-      "lastmod": "2026-09-18"
+      "hash": "37da3c4c44d9dd85e4b20a7c9c144041ecab6913dc85b5daf53485571b109abd",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/legacy/listen-to-this-article/": {
-      "hash": "b236ed0b475e5c06455bc30a33ccb4861078dd20cc6314a42e3ed65cf34218f3",
-      "lastmod": "2026-09-18"
+      "hash": "5eecd307c050f3a6194f3918a07e9986e8a85f1d8b6f60ead6ed78ed6c5a7c53",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/legacy/topical-authority/": {
-      "hash": "3bedc1256ba385eb8a6280bebcb9ec54bf7fd36f5af69b8c71725a1e3e864b62",
-      "lastmod": "2026-09-18"
+      "hash": "d64d43a247d0d06927b3097dbced52148f77e86361e0c940e494f4856d22a298",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/legacy/versus-pages/": {
-      "hash": "8dbc3fe4533ad3750310c87e578e17b95c948609dbd790df374e84f5a9b4baa5",
-      "lastmod": "2026-09-18"
+      "hash": "76ee1ae53bc9fef9c29b6ea0cb96dfd7abd5a343f102b4b27693e96dd2866c5c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/library/overview/": {
-      "hash": "eb68eed4f27d4191d9b2ae01bd3b72c89b562938b0cfa45b8f6dfcc0a2b22e04",
-      "lastmod": "2026-09-18"
+      "hash": "eaf24c990cdd3bfdff962ca8f050a30efc8780ae16d0c38f9e995c586ed65c16",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/": {
-      "hash": "451fcd5aac9a24e722174a150824b07157823522b878a9aec7a2c732be91a310",
-      "lastmod": "2026-09-18"
+      "hash": "cf7ff381fbd3de63c7a17f93dfed6c00b524e7ac5060692039594da8f882acb8",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/agency/white-label/": {
-      "hash": "f3a0a4495eb2b280ec115092f04313181ef5a5045838c26bfff30a779fd30e48",
-      "lastmod": "2026-09-18"
+      "hash": "64c8d0d5ccc86992c82fef188002701cd4d10ecbbf6e9c0491abc345395014f4",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/audio/analytics/": {
-      "hash": "5c38f7c06d7ed5541c93eba7412e7a82c9bb660b72995f61964dac5545aca7eb",
-      "lastmod": "2026-09-18"
+      "hash": "cfbab21dc632479c184fac4915b52de95a57890449c1cb2a49e16289bcbc7d91",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/audio/overview/": {
-      "hash": "c36830ba23ccb02b668073deffd9bd5a028b1d116d5813308c4d091ee4f51cf3",
-      "lastmod": "2026-09-18"
+      "hash": "323ac8f4ea941dd4bd112745f7212dd4de22975d7f17854b1ec92514f05c0598",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/audio/player-and-embed/": {
-      "hash": "a9e5fbd1562c40c641aada2887434b1d45588cadc0381296a69c959ab14c6a84",
-      "lastmod": "2026-09-18"
+      "hash": "3fa051f7dccd24ee6408651be320b07020b9b86b63bf0845c41c7c34e6bea4dc",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/chat/chats-history/": {
-      "hash": "d3b6743c049f6a12343311987b66dd5ca38b56a454d89672bb51c8959e4c1cae",
-      "lastmod": "2026-09-18"
+      "hash": "0b42f2385eba373163f2549f1ec6b0d5875f97756f61d629983d1844bd1c29e9",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/chat/model-selection/": {
-      "hash": "69f37fe20fa44bde0804f9880ba922d66b297d75a51196c4eb36ad2a543d8896",
-      "lastmod": "2026-10-10"
+      "hash": "8ed088efd37619e315d82324f83d653bc27641df6da47c063a942ded52533662",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/chat/overview/": {
-      "hash": "175a9f2060c1a2e4a65fd207ae7223edbd77222919e92f58ae08393af7e4b4dd",
-      "lastmod": "2026-09-18"
+      "hash": "69ff9247b82f09bafbe1ddba9f7e9d8faa02377468d6dc7269b4e6abc70849b2",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/chat/tools-and-specialists/": {
-      "hash": "a2a8711c9c796f9bf4eb7f912d674e8a541451141e72bcaf39bc3c76140dda8c",
-      "lastmod": "2026-09-18"
+      "hash": "80a303afbe94451ee3e774d5d0d48e783883ce7467486726cdd1c019e37e76d9",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/aeo-audits/": {
-      "hash": "861ff743b5b3a2be22394f86894e9393714c9c1e232f13e11da5c2735639c8cb",
-      "lastmod": "2026-09-18"
+      "hash": "07181a4d55c1dbc7d2996cf8284aa7cf0f28a3dad6a9c0cd6bed37ce70faa6e8",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/blog-post-draft/": {
-      "hash": "956193ef60f1e16d93b42a154218790158a39292cafdd6e90447c736e1a163d5",
-      "lastmod": "2026-09-18"
+      "hash": "8d2095ad415d89695b900d073d67b68a00fc15a1ac488f8a61cc6edbaf4094a5",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/content-briefs/": {
-      "hash": "3bfcf0983861a7251b37ab61ae06079aba576d3bb13ae5a5e660d32ef3e2f300",
-      "lastmod": "2026-09-18"
+      "hash": "2351af6ab874455018eecf957dbe9ed2b014ed3c950875a8b339449c4c2ba786",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/drafts-and-publishing/": {
-      "hash": "93c3af2c44ae21b9f91381b2f75d53f67961b8efa018ae0bb82a849ccaeee11a",
-      "lastmod": "2026-09-18"
+      "hash": "7ce55ae7c2625f4d06bdfb27978176b88cd6e9313de359db36f4a9e87141b152",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/entity-graph/": {
-      "hash": "b7ada9fbe294a2ddc55ff195d3a9ed788fba183335e435106d569a765ed39272",
-      "lastmod": "2026-09-18"
+      "hash": "bc1288a44a507e71d0f049b5ec1528628009f71fe67f3f90c894b82e6a9f1b57",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/fan-out-queries/": {
-      "hash": "c4e3ac87fddf508309129355ffd48fa37dad99a3e36f199c62da335153625dda",
-      "lastmod": "2026-09-18"
+      "hash": "9384e42669a9c3b7b098d3ac87c6988148fefcfcd6eb23b03fd37a704d5a5a87",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/faq-generator/": {
-      "hash": "dd31f988744b47b09c638693e427e170aa98b071dcd7bef6e19060d580067f0b",
-      "lastmod": "2026-09-18"
+      "hash": "18903118a352be652ec500cd8b7c8ae9144a15209c1958e478fb1b3d4c75efe8",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/glossary-post/": {
-      "hash": "905b30d93ab3d44ec386c6e103a52ca8b002290276e1346515d9e20f6eeb7d96",
-      "lastmod": "2026-09-18"
+      "hash": "3907bc07dd6e2c516ac717477b71dbff393c9c275e995b31b26d35808f1f2062",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/grounding-queries/": {
-      "hash": "74db4df2456648e7a21426053dcc43a5eaf2de7c86914dfbe3ad63c7b309cd6b",
-      "lastmod": "2026-09-18"
+      "hash": "d8f388770e60711ed04f9391a82540ef1c719402cca6822223d93350140c4416",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/key-points/": {
-      "hash": "061e0bb25b10d8751dde2f7472ef3aada18c75506f6448ef48fc2acfd784b9a6",
-      "lastmod": "2026-09-18"
+      "hash": "c248cfb737cf27898bb65d2a5f455ed5a58ed64113ef0824733bc9d2bbbb3f0c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/landing-page-content/": {
-      "hash": "b6c459d527185b3090203824ad285a44ee1512fdf36476d4fcb742855acf163b",
-      "lastmod": "2026-09-18"
+      "hash": "a746a51ecf7a7f8f0f413e9e128efd70b5d06c1d1c816f0b77d266d9f28a3dc5",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/features/product-page-content/": {
-      "hash": "a2182158fea50c8154e7f258a9402df7cc60c710bb99237f208e25a4d5ba0ace",
-      "lastmod": "2026-09-18"
+      "hash": "5aef584df944899ae56dcf03dea8d6ed5a220d8ce6f82c9996238967e73b5b61",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/getting-started/account-modes/": {
-      "hash": "ed225982cf1a290a95cefdcb32163c0e8b94aabf2a6d8f6c3dd565c658de5f94",
-      "lastmod": "2026-09-20"
+      "hash": "3e815096395924ae9455b9823c72458795a94a14df973b1f431e550b158287c1",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/getting-started/context/about-you/": {
-      "hash": "f8947f81b7e3bb976ebf5df4ced48434bd2439b75a08ee632ccb1ad02adb2227",
-      "lastmod": "2026-09-18"
+      "hash": "eb025e99456b9b071164244c2b278235124304c0e2c877f24f255814c43334a0",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/getting-started/context/brand-documents/": {
-      "hash": "718f386cacd420dd8e1636aad5c9084e1f52a7e05f8651b676e46fb096e605e1",
-      "lastmod": "2026-09-18"
+      "hash": "470b9857de6906e2bb92eaf8952cb8d6ef7eaf4270ec8df1723430e9a29ebcba",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/getting-started/context/brand-truth-profile/": {
-      "hash": "3ef4d1eadc121f03f5e1aab89f5bf58c270b500b92fc8a168b585f023cc7d1ac",
-      "lastmod": "2026-09-18"
+      "hash": "5d1a83a9c93522ae8d5b3ce341a357b833d8251f34123e96593cc37ea5ea6201",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/getting-started/context/brand-voice/": {
-      "hash": "305f469b767830121613e5b8b0e69103103bcc924d02719ecb370c849b78cc54",
-      "lastmod": "2026-09-18"
+      "hash": "7a2a408c40f68a2b138e27a24ceb5f46cd26c323c3fbe86c36fa26381e32d312",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/getting-started/context/overview/": {
-      "hash": "d4ba5b550352aa82052c7abb9bf337ff08659e0aa85273d1e8ab394e75e9db26",
-      "lastmod": "2026-09-18"
+      "hash": "62fdf826f7154c627e23db3b7e1b3539c706aaa164a1aa607a53d824df6bf643",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/getting-started/install-and-sign-in/": {
-      "hash": "903cbe51b4dd741a94ff96bd66fad336d620334c79a32e5696afad09a1dfcb39",
-      "lastmod": "2026-09-18"
+      "hash": "822ccd25a8dd3252d38a9b290ee53521cfd36772c61f4c4646c43e72b91524d6",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/getting-started/projects/": {
-      "hash": "4419a74d6a63532ae4504fb81e83af89cc1dbd9eba2cbd0c634d1d2ef6f51770",
-      "lastmod": "2026-09-18"
+      "hash": "33ba4125cb6bc3c1ad6e626501ea2026e922f72cf2930ab57cf74d721bb36129",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/getting-started/settings/": {
-      "hash": "680795c567c40e043e6db02b7c53aff47bc6dded55531d2cdecf4cd808044602",
-      "lastmod": "2026-09-20"
+      "hash": "9807e39eec7c5a198ca0a301d986db2cad0b19044d24a5a9b9e782b8e4f606bf",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/getting-started/team-management/": {
-      "hash": "55ec3a91906a2b0a46d1b8c2d883a9c74f40808f972259d6b367b75c450e980a",
-      "lastmod": "2026-09-18"
+      "hash": "3066c0e811b86d66c38053e6bd7163ea0b3c457c594bddd90812c583eae5937d",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/inbox/notifications/": {
-      "hash": "962f5cf21091b47046f2df7fb98cc12133a572d6e795f5248b3dc2835532c9b9",
-      "lastmod": "2026-09-18"
+      "hash": "a62e21df633af73eec4a4838ce828f8de7864dcf62d713867e8bf7fa07ef41c5",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/inbox/overview/": {
-      "hash": "6d52a66d8b0197d113ed3361ca25fa30010859f0807a39826cd727706bbf6101",
-      "lastmod": "2026-09-18"
+      "hash": "bdaaa81541a0ad894e3e5462e74ca22ac74ef8d02b5964c3ed7dab97abe8564c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/integrations/google-search-console/": {
-      "hash": "e69851ec90e62884d000d430306bb36b781cdac695d6b125012e4285ad327f3f",
-      "lastmod": "2026-09-18"
+      "hash": "b64209668a023350b768e79144e72ca985379a860eadf4b914dde52c75adfc64",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/integrations/grav/": {
-      "hash": "5869f98cefc5764c6132fb4824e63082d72e4a009ead6ea867f25ea2c97769a3",
-      "lastmod": "2026-09-18"
+      "hash": "41eb084fd3650ff1e471f9a10fb0a2dafeb5598b5fce96c2e158c9d74d7fa749",
+      "lastmod": "2026-10-11"
+    },
+    "https://himoose.com/docs/pt/integrations/hi-moose-mcp/": {
+      "hash": "e263241dca5a782d98e9f1673588943eb55052ec701dcd78a0b47a3553a72e75",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/integrations/webflow/": {
-      "hash": "0d77ac0afd52ccb861e4687f3aa87b280334fc9070a893956c957283826b3a93",
-      "lastmod": "2026-09-18"
+      "hash": "672d2f051ab5f6eb393a9fee1d0487d628fdff7064b50bed4dc590878ec36ecb",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/integrations/wordpress/": {
-      "hash": "166398cba86623884710c3093d1e17aef31cf37452bd17be8e0c5f90bff5a87a",
-      "lastmod": "2026-09-18"
+      "hash": "ea424f4d1752ee9a482e8aeb5ace2e7a5eea550b47685fc7567c5184cc0674c8",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/legacy/listen-to-this-article/": {
-      "hash": "36ece33d2e03b0bf42b7cac62c67d8e0215fa43dd126b1aadf88929f91cf86a8",
-      "lastmod": "2026-09-18"
+      "hash": "6a1c9e115069b36958d256870568034495d3c5fd472075a375f7599b77ec4bb3",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/legacy/topical-authority/": {
-      "hash": "5bf6c462fc3bb891b345af33265d9006d8060dd5b596bc37b7731aeb78586790",
-      "lastmod": "2026-09-18"
+      "hash": "02c38334653923059dd26d4866fe8221d8aea6b2daa06ebe3148612853351f08",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/legacy/versus-pages/": {
-      "hash": "fe32b881b3170c99b3b20148c7e62842b884420382f6fa2efc84305fc2d207cd",
-      "lastmod": "2026-09-18"
+      "hash": "1ab217e56d3dc5ed078cac0121fe8b8506c628e3f946a7d8e6a87ce243da5dc1",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/library/overview/": {
-      "hash": "d4e373249b6d0763099359868014f6d22d52930ca43bb063f0f1e14c8fcd4ee0",
-      "lastmod": "2026-09-18"
+      "hash": "a86a99bed26c9c76adc295624ec2c279e47436aef8d91717243a5e7603ca51a2",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/send-moose/overview/": {
-      "hash": "84a22e2fe451c6c7c4cd2ea50ad1d9cbda879f2a3e022ea98385de7b02f78d66",
-      "lastmod": "2026-09-18"
+      "hash": "0d285e9c9575f21ae0dc43d5b35a34ecdff2ca01cf9ca745288ecbae39332e1e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/site-monitoring/overview/": {
-      "hash": "ab3bd702606eb9ddeec2451cd18784f495a1c1f8c48014ebdd0c9cc84cdf97d2",
-      "lastmod": "2026-09-18"
+      "hash": "5773a7c36daf20342554e8f3898548fe7f8c239ca5c495e43d03e436afa20f7e",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/tools/instant-brand-check/": {
-      "hash": "59e1af9691012e71a3f6d2c82ae48b38e18544783a1de04560090e3094d4e9cd",
-      "lastmod": "2026-09-18"
+      "hash": "b60b5340ed5766cdc2258bc1eeaf459308e2fe712897f81646d9e54da16164b6",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/tools/overview/": {
-      "hash": "f5f16c18985180d55c08bf5c179c5f5b6f144acadf355ba631610877ab9b1eff",
-      "lastmod": "2026-09-18"
+      "hash": "15045d3101374143c10e3262257aa222de73b0b9138688a0c0bc3e925d6e4af6",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/visibility/competitors/": {
-      "hash": "2c129e1982ad759ff03d22b56abafeb04cb4e1eaa56fb4967d5747567549045c",
-      "lastmod": "2026-09-18"
+      "hash": "49bf5ff797046f0bc4b286c25d7b254b3be94fb475eb6bd4270f74ff381b46da",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/visibility/overview/": {
-      "hash": "1555834bf9dc25002c5e56b56a7bafb6e76a4682f8bc13fe9eb8599dd184f529",
-      "lastmod": "2026-09-18"
+      "hash": "43d0ff22e2efc2fa028d579a7706f61fac50e8ae9be13705e719c4e01974ba67",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/visibility/prompt-manager/": {
-      "hash": "b4791de64e3e6673e32cc82bbbbab6c286410fea21f9546ecaaf2d68b62afd77",
-      "lastmod": "2026-09-18"
+      "hash": "6c4e34dbb1282c5c5afc2fa01529b347448916bafeeeb45add479978f76e16e5",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/visibility/settings/": {
-      "hash": "2b3b656df143e975bb90449b645584333651c351558e507008f0b1fcee94695c",
-      "lastmod": "2026-09-18"
+      "hash": "64beb6aaee5215db7c2ff194cc51fb43f696fe1450f8b39f5e4c4e6d41835660",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/workflows/create-new-content/": {
-      "hash": "c62ae0b07315490b8463240650cdf07432f4f44ac613a63e97967d14dbfe4eaf",
-      "lastmod": "2026-09-18"
+      "hash": "7ec062597c5091e5e0a9518bc4306a96584e770307f636de40a1c5d3f8a7c952",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/workflows/overview/": {
-      "hash": "f2b638f332a18872ff0ae8f2185c3c99429d5fd35424aa8a472719fe6b51a731",
-      "lastmod": "2026-09-18"
+      "hash": "07f4067469e22f290850c4a2e37e8eed1f762dc35ee71d67ad611429515da790",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/pt/workflows/recover-lost-visibility/": {
-      "hash": "fc7ec5c3ef69d4f72c2b7977b9494ee91b94788b659ad60c32a5dc179647ee5d",
-      "lastmod": "2026-09-18"
+      "hash": "894c558bb8b6a0d4ec4900805163e768b9da2edcfcfd370dcd2279916cdd5b0b",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/send-moose/overview/": {
-      "hash": "9a2e70feb2d21dc1766fed6bbbc2239373a7037767a517969817124c075b0b27",
-      "lastmod": "2026-09-18"
+      "hash": "a3dd477df05b32b83f1f617891cc2a03e85c3e3869c85691c9783ae81cb90b8d",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/site-monitoring/overview/": {
-      "hash": "679803fdbc779ab1a125d20c7d40034867f1945ab84eedd627a1a83cc3650f48",
-      "lastmod": "2026-09-18"
+      "hash": "b84b97bd0f9ced215397effdacb145f0a7ead4f311df93dab29449762aad040a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/tools/instant-brand-check/": {
-      "hash": "6562c5a278a3f61fb68f0893e0b60395fcb78471511329df0d1bfc66160d7690",
-      "lastmod": "2026-09-18"
+      "hash": "a87ab0c56067e0c156bbb5731cacb90f17106d2751d94dcd01466313e4d75527",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/tools/overview/": {
-      "hash": "83b23939368b66c20e19e20559548b0aebdeaba429635ee3a98642c6aed106c5",
-      "lastmod": "2026-09-18"
+      "hash": "c557f5c6bf8e8bc7c76d0ee1f319b5a2fa2cdc843204ed9309166e96f3a07752",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/visibility/competitors/": {
-      "hash": "d334303a859cadd147db390b051748c8ef2ca39f8111e57cbda63f664ab28256",
-      "lastmod": "2026-09-18"
+      "hash": "1cc78b25d32c4fd5f9528af495a0aa4bf49217bd99e4a4c27898071c5cfbc70a",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/visibility/overview/": {
-      "hash": "8d51534d725ff55c9d2b2d886c3a1487ffe393ef590d1b146b0f606c8baa692c",
-      "lastmod": "2026-09-18"
+      "hash": "2f9a35bfaf8c656c42dea1d9d189b49d312e6f78d882cc04d2faef1aa7272936",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/visibility/prompt-manager/": {
-      "hash": "e93a5bc2bfa65415fc49c0c3e5a798f5a676db0b79f2060b6978cad520f0c6af",
-      "lastmod": "2026-09-18"
+      "hash": "bd7226a9a38d25304ed06f253def0e39341c05a0e7f5a296acc5f18146af6af7",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/visibility/settings/": {
-      "hash": "9e10a0793a39ed07bfd97ad9b7b915ff8193d7c93eb330c8c10402e8f45a6995",
-      "lastmod": "2026-09-18"
+      "hash": "a08c23a22379c862d5ef7bbdd4d7a0b812ded35990c3eb010aa079a733813de5",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/workflows/create-new-content/": {
-      "hash": "0f39996f716c8a1aa1af2d40c8aced85c401faf4f234e083a35a177930d7fbd0",
-      "lastmod": "2026-09-18"
+      "hash": "e353c7ea66e5c941352045d0f18a7ae46297adf5a3854f2f5dcf06184f298249",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/workflows/overview/": {
-      "hash": "90c7aeaec591fbaf258954856770201fabdf9dfe0653aca29799149ac7e5c131",
-      "lastmod": "2026-09-18"
+      "hash": "21e70b567619db7648458f129758b38d1dd4370c3fc6cd46940c21c5f81c8d2c",
+      "lastmod": "2026-10-11"
     },
     "https://himoose.com/docs/workflows/recover-lost-visibility/": {
-      "hash": "4e83b9ba5d65fe2c259945c9551b2007bc96237a8c8e44e45442a746385bc819",
-      "lastmod": "2026-09-18"
+      "hash": "8e4828f319b5c6a35e5234b86c05988f49e77d2f7e97e840bb9d0b698d77c28a",
+      "lastmod": "2026-10-11"
     }
   }
 }
