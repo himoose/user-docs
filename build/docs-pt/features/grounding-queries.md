@@ -4,7 +4,7 @@ source_hash: 3856622231055de776fe82082345666ad4d8429b9d735111e9d399831a122f47
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](https://himoose.com/docs/features/grounding-queries/)
+    [Ler em inglês](http://localhost:8000/features/grounding-queries/)
 
 # Consultas de grounding do AI Mode
 

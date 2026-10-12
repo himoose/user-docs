@@ -4,7 +4,7 @@ source_hash: 1d027fe8d7c0bf155818720c05a7777b1744c302a9ab057860377dc301df1947
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](https://himoose.com/docs/integrations/grav/)
+    [Leerla en inglés](http://localhost:8000/integrations/grav/)
 
 # Grav
 

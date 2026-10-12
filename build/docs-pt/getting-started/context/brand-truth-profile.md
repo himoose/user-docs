@@ -4,7 +4,7 @@ source_hash: 5904a00ba3d332904ad56c2821ae256bf5463e1eabcaa2b39e0c5d75e3fe3d67
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](https://himoose.com/docs/getting-started/context/brand-truth-profile/)
+    [Ler em inglês](http://localhost:8000/getting-started/context/brand-truth-profile/)
 
 # Perfil de Verdade da Marca
 

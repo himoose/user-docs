@@ -4,7 +4,7 @@ source_hash: 67912e0c53e927d4836f8b9c545fb59268db0fbc9165037df2930f6cfada0988
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](https://himoose.com/docs/integrations/webflow/)
+    [Leerla en inglés](http://localhost:8000/integrations/webflow/)
 
 # Webflow
 

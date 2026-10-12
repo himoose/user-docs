@@ -4,7 +4,7 @@ source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](https://himoose.com/docs/visibility/overview/)
+    [La lire en anglais](http://localhost:8000/visibility/overview/)
 
 # Visibility
 

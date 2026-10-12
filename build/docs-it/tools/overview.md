@@ -4,7 +4,7 @@ source_hash: e7e6f1bb4dadb22b857f73036d7b32d3fbaf18126ab7439d1d47d861e62269af
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-    [Leggila in inglese](https://himoose.com/docs/tools/overview/)
+    [Leggila in inglese](http://localhost:8000/tools/overview/)
 
 # Il menu Strumenti
 

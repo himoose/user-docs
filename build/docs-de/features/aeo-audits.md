@@ -4,7 +4,7 @@ source_hash: 8d507a868f7b497bde6ab6ed4a9826d17aab12195b04317adea91787622fcc6a
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](https://himoose.com/docs/features/aeo-audits/)
+    [Auf Englisch lesen](http://localhost:8000/features/aeo-audits/)
 
 # AEO Audits
 

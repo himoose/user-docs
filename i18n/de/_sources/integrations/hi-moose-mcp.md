@@ -2,6 +2,8 @@
 
 ## What this helps you do
 
+Overview, tool list and questions and answers: [himoose.com/hi-moose-mcp](https://himoose.com/hi-moose-mcp/). This page is the setup guide.
+
 Hi, Moose MCP lets the AI apps you already work in use Hi, Moose. Add it as an MCP connector in Claude, ChatGPT, or any other app that supports MCP with sign-in, sign in with your Hi, Moose account, and ask for Hi, Moose work from inside that app. MCP (Model Context Protocol) is the standard these apps use to connect to outside tools.
 
 The work runs on one of your own devices, the **host device**, where Hi, Moose stays open and signed in. Results come back to the app and are saved in your [Library](../library/overview.md).
@@ -19,6 +21,12 @@ With the current tools, a connected app can:
 - Write FAQs with FAQPage schema for a saved draft or a page on your site
 - Write key points for a saved draft or a page on your site
 - Run an AEO audit on a live page, a saved draft or pasted content, with scores, issues and proposed fixes
+- Plan internal links for a page, a saved draft or pasted content: which crawled pages it should link to, with the anchor text, and which pages should link back to it
+- Answer "are we showing up in AI search for this topic" from the stored visibility results: per engine, whether your brand was mentioned or cited in the latest run and earlier, with a short excerpt from the latest answer
+- Read the full text of one stored AI search answer
+- List the opportunities worth working on, the same ranked rows as the Opportunities tab: the exact gap, the next step, the priority and the evidence, with the full detail for any one row on request
+- Turn a live page, a saved draft or pasted text into a "listen to this article" audio episode, with the embeddable player snippet for the page; voices, length, language and the player look can be picked on the [audio settings page](https://himoose.com/hi-moose-mcp/audio/) and pasted back into the chat as one settings line
+- Restyle the player of an existing audio episode without re-rendering the audio
 - Pick up finished work
 
 It cannot change settings or team members, and it cannot delete anything. More tools are on the way.
@@ -72,7 +80,7 @@ Any app that can add a remote MCP server with OAuth sign-in works the same way: 
 2. Hi, Moose MCP hands it to the host device, which runs the work with the project's crawl, Brand Truth and research.
 3. The result goes back to the app and is saved in your Library.
 
-A brief, draft, image, FAQ set or key points list takes one to three minutes, an AEO audit two to four. If the app says the work is still running, ask it to check again; it picks the result up when it is ready. If the host device is off or signed out, the app gets a message saying so.
+A brief, draft, image, FAQ set or key points list takes one to three minutes, an AEO audit two to four. A visibility question answers in a few seconds, and the opportunities list in under a minute. If the app says the work is still running, ask it to check again; it picks the result up when it is ready. If the host device is off or signed out, the app gets a message saying so.
 
 Jobs run as the account signed in on the host device, so the Library they read and write is that account's Library. The **Recent agent jobs** table in Settings shows what was asked, by which app, and whether it finished.
 

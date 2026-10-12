@@ -4,7 +4,7 @@ source_hash: 410caaf5a622c9af650cfa3c1b0e032fed0ca9b6511ff29670cf3f4be2e5e7b2
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](https://himoose.com/docs/workflows/create-new-content/)
+    [La lire en anglais](http://localhost:8000/workflows/create-new-content/)
 
 # Créer du contenu
 

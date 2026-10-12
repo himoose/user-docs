@@ -4,7 +4,7 @@ source_hash: 7e432cdd4918eeb01a120c373ca83181288da1c2c0b01d3aee18207e05092124
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](https://himoose.com/docs/send-moose/overview/)
+    [Ler em inglês](http://localhost:8000/send-moose/overview/)
 
 # Send Moose
 

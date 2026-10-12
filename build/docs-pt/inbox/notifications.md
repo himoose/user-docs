@@ -4,7 +4,7 @@ source_hash: 685c1e28ae96f03a47645cdef302b5b0d4b54afda3810ab2ce0dae64df47c45a
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](https://himoose.com/docs/inbox/notifications/)
+    [Ler em inglês](http://localhost:8000/inbox/notifications/)
 
 # Notificações da Caixa de entrada
 

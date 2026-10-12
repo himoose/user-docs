@@ -4,7 +4,7 @@ source_hash: fd74e34b467a2aec2ad0abc74e8a74c6865ee781fe1c9eceff1c780dcc8517c7
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](https://himoose.com/docs/features/blog-post-draft/)
+    [Auf Englisch lesen](http://localhost:8000/features/blog-post-draft/)
 
 # Blogbeitrags-Entwurf
 

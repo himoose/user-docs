@@ -1,5 +1,5 @@
 site_name: User Documentation
-site_url: https://himoose.com/docs/
+site_url: http://localhost:8000/
 site_description: User documentation for Hi, Moose - AI search optimization platform
 site_author: Hi, Moose Team
 repo_url: https://github.com/himoose/user-docs
@@ -65,7 +65,7 @@ extra:
   - icon: fontawesome/brands/linkedin
     link: https://www.linkedin.com/company/hi-moose/
     name: Hi, Moose on LinkedIn
-  base_url: https://himoose.com/docs
+  base_url: http://localhost:8000
   locale: &id001
     code: en
     tag: en
@@ -196,6 +196,7 @@ nav:
   - WordPress: integrations/wordpress.md
   - Webflow: integrations/webflow.md
   - Hi, Moose MCP: integrations/hi-moose-mcp.md
+  - Hi, Moose API: integrations/developer-api.md
   - Google Search Console: integrations/google-search-console.md
 - Legacy Web App:
   - Versus Pages (Programmatic SEO): legacy/versus-pages.md

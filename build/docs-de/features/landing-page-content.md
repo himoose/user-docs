@@ -4,7 +4,7 @@ source_hash: 74350e56e731651f6ec3d16f665469ed0f3a02cd5ed2fd4ddca3af2f63feb121
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](https://himoose.com/docs/features/landing-page-content/)
+    [Auf Englisch lesen](http://localhost:8000/features/landing-page-content/)
 
 # Landingpage-Inhalte
 

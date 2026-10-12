@@ -1,9 +1,11 @@
 ---
-source_hash: 5b66e35e4cc4b5ac9c7567edd481631bcbd56d2ff1ca7f0d3e2f1b0c1fbbd5c3
+source_hash: f8bed3710d485cfbb6c81b3eb1dbbe3b84992ab0cca97d2b156d49bdc6941616
 ---
 # Hi, Moose MCP
 
 ## À quoi ça sert
+
+Présentation, liste des outils et questions-réponses : [himoose.com/hi-moose-mcp](https://himoose.com/fr/hi-moose-mcp/). Cette page est le guide de configuration.
 
 Hi, Moose MCP permet aux applications d'IA dans lesquelles vous travaillez déjà d'utiliser Hi, Moose. Ajoutez-le comme connecteur MCP dans Claude, ChatGPT ou toute autre application compatible MCP avec connexion, connectez-vous avec votre compte Hi, Moose et demandez du travail à Hi, Moose depuis cette application. MCP (Model Context Protocol) est le standard que ces applications utilisent pour se connecter à des outils externes.
 
@@ -22,6 +24,12 @@ Avec les outils actuels, une application connectée peut :
 - Rédiger une FAQ avec le balisage FAQPage pour un brouillon enregistré ou une page de votre site
 - Rédiger les points clés d'un brouillon enregistré ou d'une page de votre site
 - Lancer un audit AEO d'une page en ligne, d'un brouillon enregistré ou d'un texte collé, avec scores, problèmes et corrections proposées
+- Planifier les liens internes d'une page, d'un brouillon enregistré ou d'un texte collé : vers quelles pages explorées elle devrait pointer, avec le texte d'ancrage, et quelles pages devraient pointer vers elle
+- Répondre à « apparaissons-nous dans la recherche IA pour ce sujet ? » à partir des résultats de visibilité enregistrés : par moteur, si votre marque a été mentionnée ou citée lors de la dernière exécution et avant, avec un court extrait de la dernière réponse
+- Lire le texte complet d'une réponse de recherche IA enregistrée
+- Lister les opportunités qui méritent du travail, les mêmes lignes classées que l'onglet Opportunités : l'écart exact, la prochaine étape, la priorité et les preuves, avec le détail complet d'une ligne sur demande
+- Transformer une page en ligne, un brouillon enregistré ou un texte collé en épisode audio « écouter cet article », avec l'extrait du lecteur intégrable pour la page ; les voix, la durée, la langue et l'apparence du lecteur se choisissent sur la [page des réglages audio](https://himoose.com/fr/hi-moose-mcp/audio/) et se collent dans le chat sous la forme d'une seule ligne de réglages
+- Restyler le lecteur d'un épisode audio existant sans régénérer l'audio
 - Récupérer un travail terminé
 
 Elle ne peut pas modifier les réglages ni les membres de l'équipe, et ne peut rien supprimer. D'autres outils arrivent.
@@ -75,7 +83,7 @@ Toute application capable d'ajouter un serveur MCP distant avec connexion OAuth 
 2. Hi, Moose MCP la transmet à l'appareil hôte, qui exécute le travail avec l'exploration, le Brand Truth et la recherche du projet.
 3. Le résultat revient dans l'application et est enregistré dans votre Library.
 
-Un brief, un brouillon, une image, une FAQ ou une liste de points clés prend une à trois minutes, un audit AEO deux à quatre. Si l'application dit que le travail est toujours en cours, demandez-lui de vérifier à nouveau ; elle récupère le résultat dès qu'il est prêt. Si l'appareil hôte est éteint ou déconnecté, l'application reçoit un message qui le signale.
+Un brief, un brouillon, une image, une FAQ ou une liste de points clés prend une à trois minutes, un audit AEO deux à quatre. Une question de visibilité obtient sa réponse en quelques secondes, et la liste des opportunités en moins d'une minute. Si l'application dit que le travail est toujours en cours, demandez-lui de vérifier à nouveau ; elle récupère le résultat dès qu'il est prêt. Si l'appareil hôte est éteint ou déconnecté, l'application reçoit un message qui le signale.
 
 Les tâches s'exécutent avec le compte connecté sur l'appareil hôte : la Library qu'elles lisent et écrivent est donc celle de ce compte. Le tableau **Tâches récentes des agents** dans les Réglages montre ce qui a été demandé, par quelle application, et si c'est terminé.
 

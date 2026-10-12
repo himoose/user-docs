@@ -4,7 +4,7 @@ source_hash: 29ee2dfc08c9390fc91d11ea66fc96fc6fef4439d84b5f28508c2afbf8f0c1d3
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](https://himoose.com/docs/site-monitoring/overview/)
+    [Ler em inglês](http://localhost:8000/site-monitoring/overview/)
 
 # Monitoramento do site
 

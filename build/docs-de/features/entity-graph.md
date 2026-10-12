@@ -4,7 +4,7 @@ source_hash: 1d8f1dffb939a9b3587c4b3a3f298386f6f202a5a02672b6b3dfd79bbccc2135
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](https://himoose.com/docs/features/entity-graph/)
+    [Auf Englisch lesen](http://localhost:8000/features/entity-graph/)
 
 # Entity Graph
 

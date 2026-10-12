@@ -1,9 +1,11 @@
 ---
-source_hash: 5b66e35e4cc4b5ac9c7567edd481631bcbd56d2ff1ca7f0d3e2f1b0c1fbbd5c3
+source_hash: f8bed3710d485cfbb6c81b3eb1dbbe3b84992ab0cca97d2b156d49bdc6941616
 ---
 # Hi, Moose MCP
 
 ## Para qué sirve
+
+Resumen, lista de herramientas y preguntas y respuestas: [himoose.com/hi-moose-mcp](https://himoose.com/es/hi-moose-mcp/). Esta página es la guía de configuración.
 
 Hi, Moose MCP permite que las apps de IA en las que ya trabajas usen Hi, Moose. Añádelo como conector MCP en Claude, ChatGPT o cualquier otra app compatible con MCP con inicio de sesión, inicia sesión con tu cuenta de Hi, Moose y pide trabajo a Hi, Moose desde dentro de esa app. MCP (Model Context Protocol) es el estándar que usan estas apps para conectarse a herramientas externas.
 
@@ -22,6 +24,12 @@ Con las herramientas actuales, una app conectada puede:
 - Escribir preguntas frecuentes con esquema FAQPage para un borrador guardado o una página de tu sitio
 - Escribir los puntos clave de un borrador guardado o de una página de tu sitio
 - Ejecutar una auditoría AEO de una página publicada, un borrador guardado o un texto pegado, con puntuaciones, problemas y correcciones propuestas
+- Planificar enlaces internos para una página, un borrador guardado o un texto pegado: a qué páginas rastreadas debería enlazar, con el texto de anclaje, y qué páginas deberían enlazar a ella
+- Responder a "¿aparecemos en la búsqueda con IA para este tema?" a partir de los resultados de visibilidad guardados: por motor, si tu marca fue mencionada o citada en la última ejecución y antes, con un breve extracto de la última respuesta
+- Leer el texto completo de una respuesta guardada de búsqueda con IA
+- Listar las oportunidades en las que merece la pena trabajar, las mismas filas priorizadas que la pestaña Oportunidades: la brecha exacta, el siguiente paso, la prioridad y la evidencia, con el detalle completo de cualquier fila si se pide
+- Convertir una página publicada, un borrador guardado o un texto pegado en un episodio de audio "escucha este artículo", con el fragmento del reproductor insertable para la página; las voces, la duración, el idioma y el aspecto del reproductor se eligen en la [página de ajustes de audio](https://himoose.com/es/hi-moose-mcp/audio/) y se pegan en el chat como una sola línea de ajustes
+- Cambiar el estilo del reproductor de un episodio de audio existente sin volver a generar el audio
 - Recoger el trabajo terminado
 
 No puede cambiar ajustes ni miembros del equipo, y no puede eliminar nada. Habrá más herramientas.
@@ -75,7 +83,7 @@ Cualquier app que pueda añadir un servidor MCP remoto con inicio de sesión OAu
 2. Hi, Moose MCP la pasa al dispositivo anfitrión, que ejecuta el trabajo con el rastreo, el Brand Truth y la investigación del proyecto.
 3. El resultado vuelve a la app y se guarda en tu Library.
 
-Un brief, un borrador, una imagen, un conjunto de preguntas frecuentes o una lista de puntos clave tardan de uno a tres minutos; una auditoría AEO, de dos a cuatro. Si la app dice que el trabajo sigue en curso, pídele que vuelva a comprobarlo; recoge el resultado cuando está listo. Si el dispositivo anfitrión está apagado o sin sesión, la app recibe un mensaje que lo indica.
+Un brief, un borrador, una imagen, un conjunto de preguntas frecuentes o una lista de puntos clave tardan de uno a tres minutos; una auditoría AEO, de dos a cuatro. Una pregunta de visibilidad se responde en unos segundos y la lista de oportunidades, en menos de un minuto. Si la app dice que el trabajo sigue en curso, pídele que vuelva a comprobarlo; recoge el resultado cuando está listo. Si el dispositivo anfitrión está apagado o sin sesión, la app recibe un mensaje que lo indica.
 
 Los trabajos se ejecutan con la cuenta con sesión iniciada en el dispositivo anfitrión, así que la Library que leen y escriben es la de esa cuenta. La tabla **Trabajos recientes de agentes** en Ajustes muestra qué se pidió, desde qué app y si terminó.
 

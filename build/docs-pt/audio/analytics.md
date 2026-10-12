@@ -4,7 +4,7 @@ source_hash: 8e5f176360171f83e694a39fb79a4acc54f788a8c083d72307d849f2b1f0fdf6
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](https://himoose.com/docs/audio/analytics/)
+    [Ler em inglês](http://localhost:8000/audio/analytics/)
 
 # Análises de audiência
 
