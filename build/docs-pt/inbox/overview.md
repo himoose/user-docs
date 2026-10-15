@@ -4,7 +4,7 @@ source_hash: 1f72c74789bd33352c926958756e3e381c10802d74ab9dd7100a890e068e2262
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](http://localhost:8000/inbox/overview/)
+    [Ler em inglês](https://himoose.com/docs/inbox/overview/)
 
 # Caixa de entrada
 

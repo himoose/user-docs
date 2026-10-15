@@ -4,7 +4,7 @@ source_hash: f8772689cac35fb3db3b2391391de3ea27e63ee267597800996e792b83b1baf1
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](http://localhost:8000/features/product-page-content/)
+    [Ler em inglês](https://himoose.com/docs/features/product-page-content/)
 
 # Conteúdo de página de produto
 

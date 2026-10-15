@@ -4,7 +4,7 @@ source_hash: 4c4464127307d4868030179db68f9e4a62bbbf644a638e16130eede61b00dbe8
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](http://localhost:8000/getting-started/team-management/)
+    [La lire en anglais](https://himoose.com/docs/getting-started/team-management/)
 
 # Gestion de l'équipe
 

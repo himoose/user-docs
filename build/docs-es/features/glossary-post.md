@@ -4,7 +4,7 @@ source_hash: bbf5a9a7e3ebd537b29b229f3fbb3c08ef3b7c88e0f56ddf517a97911cda6c81
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](http://localhost:8000/features/glossary-post/)
+    [Leerla en inglés](https://himoose.com/docs/features/glossary-post/)
 
 # Entrada de glosario
 

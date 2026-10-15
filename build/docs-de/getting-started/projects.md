@@ -4,7 +4,7 @@ source_hash: e96cd8b5f8823c1fb071deaee6515896c4117d09c1e03a47d374c6e66b43e7ec
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/getting-started/projects/)
+    [Auf Englisch lesen](https://himoose.com/docs/getting-started/projects/)
 
 # Projekte und Arbeitsbereich
 

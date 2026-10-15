@@ -1,5 +1,5 @@
 site_name: Documentación de usuario
-site_url: http://localhost:8000/es/
+site_url: https://himoose.com/docs/es/
 site_description: Documentación de usuario de Hi, Moose - plataforma de optimización
   para búsqueda con IA
 site_author: Hi, Moose Team
@@ -66,7 +66,7 @@ extra:
   - icon: fontawesome/brands/linkedin
     link: https://www.linkedin.com/company/hi-moose/
     name: Hi, Moose on LinkedIn
-  base_url: http://localhost:8000
+  base_url: https://himoose.com/docs
   locale: &id001
     code: es
     tag: es
@@ -197,8 +197,20 @@ nav:
   - Grav: integrations/grav.md
   - WordPress: integrations/wordpress.md
   - Webflow: integrations/webflow.md
-  - Hi, Moose MCP: integrations/hi-moose-mcp.md
-  - Hi, Moose API: integrations/developer-api.md
+  - Hi, Moose MCP:
+    - Guía de configuración: integrations/hi-moose-mcp.md
+    - Referencia de herramientas: integrations/hi-moose-mcp/tools.md
+    - Solución de problemas: integrations/hi-moose-mcp/troubleshooting.md
+  - Hi, Moose API:
+    - Resumen: integrations/developer-api.md
+    - Inicio rápido: integrations/developer-api/quickstart.md
+    - Claves y autenticación: integrations/developer-api/keys-and-auth.md
+    - Leer datos: integrations/developer-api/reading-data.md
+    - Seguimiento y ejecuciones: integrations/developer-api/tracking-and-runs.md
+    - Webhooks: integrations/developer-api/webhooks.md
+    - Errores y límites: integrations/developer-api/errors-and-limits.md
+    - Referencia de endpoints: integrations/developer-api/reference.md
+    - Cambios: integrations/developer-api/changelog.md
   - Google Search Console: integrations/google-search-console.md
 - Aplicación web anterior:
   - Versus Pages (SEO programático): legacy/versus-pages.md

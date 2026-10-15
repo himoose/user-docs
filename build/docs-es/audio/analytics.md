@@ -4,7 +4,7 @@ source_hash: 8e5f176360171f83e694a39fb79a4acc54f788a8c083d72307d849f2b1f0fdf6
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](http://localhost:8000/audio/analytics/)
+    [Leerla en inglés](https://himoose.com/docs/audio/analytics/)
 
 # Analíticas de escucha
 

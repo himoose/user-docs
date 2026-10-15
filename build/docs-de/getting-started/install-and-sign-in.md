@@ -4,7 +4,7 @@ source_hash: 8752131a2b250a931754464dabe425c465e2c954eb3dd94617a78b498040b2ca
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/getting-started/install-and-sign-in/)
+    [Auf Englisch lesen](https://himoose.com/docs/getting-started/install-and-sign-in/)
 
 # Installation und Anmeldung
 

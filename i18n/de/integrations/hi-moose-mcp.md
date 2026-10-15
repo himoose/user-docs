@@ -1,11 +1,11 @@
 ---
-source_hash: f8bed3710d485cfbb6c81b3eb1dbbe3b84992ab0cca97d2b156d49bdc6941616
+source_hash: aa78a0860e851aace3fbc9ece941987e357a37bac7d3122cf7b79d3760d17301
 ---
 # Hi, Moose MCP
 
 ## Wofür das gut ist
 
-Überblick, Werkzeugliste und Fragen und Antworten: [himoose.com/hi-moose-mcp](https://himoose.com/de/hi-moose-mcp/). Diese Seite ist die Einrichtungsanleitung.
+Überblick, Werkzeugliste und Fragen und Antworten: [himoose.com/hi-moose-mcp](https://himoose.com/de/hi-moose-mcp/). Diese Seite ist die Einrichtungsanleitung. Die [Werkzeug-Referenz](hi-moose-mcp/tools.md) beschreibt jedes Werkzeug mit dem, was es braucht und was zurückkommt, und die [Fehlerbehebung](hi-moose-mcp/troubleshooting.md) behandelt das Host-Gerät, wartende Aufträge und Verbindungsprobleme.
 
 Mit Hi, Moose MCP können die KI-Apps, in denen Sie schon arbeiten, Hi, Moose nutzen. Fügen Sie es als MCP-Connector in Claude, ChatGPT oder jeder anderen App hinzu, die MCP mit Anmeldung unterstützt, melden Sie sich mit Ihrem Hi, Moose-Konto an und fordern Sie Hi, Moose-Arbeit direkt aus dieser App an. MCP (Model Context Protocol) ist der Standard, über den diese Apps externe Werkzeuge anbinden.
 

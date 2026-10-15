@@ -4,7 +4,7 @@ source_hash: 21ee532adaad878cd1451a3d1bdcc53d85735a142ee0c75a7a2da59686684e1b
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/agency/white-label/)
+    [Auf Englisch lesen](https://himoose.com/docs/agency/white-label/)
 
 # White-Label-Branding
 

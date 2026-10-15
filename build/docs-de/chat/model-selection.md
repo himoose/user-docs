@@ -4,7 +4,7 @@ source_hash: 1a5fa4052c39973532d6cdbeb0b0f3b6980e9a5231278c640355c5dec895a22d
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/chat/model-selection/)
+    [Auf Englisch lesen](https://himoose.com/docs/chat/model-selection/)
 
 # Modellauswahl
 

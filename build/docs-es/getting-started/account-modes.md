@@ -4,7 +4,7 @@ source_hash: 2ba70f00f21e9d4751be22470dd7212080bc851cf96917788479b101bf0c1896
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](http://localhost:8000/getting-started/account-modes/)
+    [Leerla en inglés](https://himoose.com/docs/getting-started/account-modes/)
 
 # Tipos de cuenta y planes
 

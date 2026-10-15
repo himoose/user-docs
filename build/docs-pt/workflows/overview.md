@@ -4,7 +4,7 @@ source_hash: 64e2aed1c2f7aabf153fe284450b0ab8f444f0f39122092a8b927f546a3f2318
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](http://localhost:8000/workflows/overview/)
+    [Ler em inglês](https://himoose.com/docs/workflows/overview/)
 
 # Fluxos de trabalho
 

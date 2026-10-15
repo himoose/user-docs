@@ -4,7 +4,7 @@ source_hash: 1f72c74789bd33352c926958756e3e381c10802d74ab9dd7100a890e068e2262
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/inbox/overview/)
+    [Auf Englisch lesen](https://himoose.com/docs/inbox/overview/)
 
 # Inbox
 

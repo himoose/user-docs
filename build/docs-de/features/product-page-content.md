@@ -4,7 +4,7 @@ source_hash: f8772689cac35fb3db3b2391391de3ea27e63ee267597800996e792b83b1baf1
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/features/product-page-content/)
+    [Auf Englisch lesen](https://himoose.com/docs/features/product-page-content/)
 
 # Produktseiten-Inhalte
 

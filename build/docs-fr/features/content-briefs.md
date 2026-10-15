@@ -4,7 +4,7 @@ source_hash: 654f5d1f13d58929fbda5ebfcaf964ae01d60316c4db812cc5aa09b54b172e5c
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](http://localhost:8000/features/content-briefs/)
+    [La lire en anglais](https://himoose.com/docs/features/content-briefs/)
 
 # Content Briefs
 

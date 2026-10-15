@@ -4,7 +4,7 @@ source_hash: 3b2a6720bd62d36c159ec05f39cfb8f6e59efa7a27d7e6054053a2fcb1d2c950
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](http://localhost:8000/features/fan-out-queries/)
+    [La lire en anglais](https://himoose.com/docs/features/fan-out-queries/)
 
 # Requêtes fan-out de ChatGPT
 

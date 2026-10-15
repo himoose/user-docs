@@ -4,7 +4,7 @@ source_hash: 29ee2dfc08c9390fc91d11ea66fc96fc6fef4439d84b5f28508c2afbf8f0c1d3
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/site-monitoring/overview/)
+    [Auf Englisch lesen](https://himoose.com/docs/site-monitoring/overview/)
 
 # Website-Monitoring
 

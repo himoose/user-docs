@@ -144,8 +144,20 @@ nav:
       - Grav: integrations/grav.md
       - WordPress: integrations/wordpress.md
       - Webflow: integrations/webflow.md
-      - Hi, Moose MCP: integrations/hi-moose-mcp.md
-      - Hi, Moose API: integrations/developer-api.md
+      - Hi, Moose MCP:
+          - Setup guide: integrations/hi-moose-mcp.md
+          - Tool reference: integrations/hi-moose-mcp/tools.md
+          - Troubleshooting: integrations/hi-moose-mcp/troubleshooting.md
+      - Hi, Moose API:
+          - Overview: integrations/developer-api.md
+          - Quickstart: integrations/developer-api/quickstart.md
+          - Keys and authentication: integrations/developer-api/keys-and-auth.md
+          - Reading data: integrations/developer-api/reading-data.md
+          - Tracking and runs: integrations/developer-api/tracking-and-runs.md
+          - Webhooks: integrations/developer-api/webhooks.md
+          - Errors and limits: integrations/developer-api/errors-and-limits.md
+          - Endpoint reference: integrations/developer-api/reference.md
+          - Changelog: integrations/developer-api/changelog.md
       - Google Search Console: integrations/google-search-console.md
   - Legacy Web App:
       - Versus Pages (Programmatic SEO): legacy/versus-pages.md

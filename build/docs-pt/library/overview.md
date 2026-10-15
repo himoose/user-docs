@@ -4,7 +4,7 @@ source_hash: 545b690f7614ab6f5b7422350be349c1b55383430de6969e6d3a94bcc5810df9
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](http://localhost:8000/library/overview/)
+    [Ler em inglês](https://himoose.com/docs/library/overview/)
 
 # Biblioteca de artefatos
 

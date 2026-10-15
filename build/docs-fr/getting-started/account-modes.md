@@ -4,7 +4,7 @@ source_hash: 2ba70f00f21e9d4751be22470dd7212080bc851cf96917788479b101bf0c1896
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](http://localhost:8000/getting-started/account-modes/)
+    [La lire en anglais](https://himoose.com/docs/getting-started/account-modes/)
 
 # Types de compte et forfaits
 
