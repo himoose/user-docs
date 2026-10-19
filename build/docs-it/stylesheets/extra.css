@@ -75,3 +75,28 @@ div[data-slot="sidebar"] a[data-sidebar="menu-button"][data-active="true"] {
     padding-top: 0.65rem !important;
     padding-bottom: 0.65rem !important;
 }
+
+/* Code blocks: a visible container. The theme's own background is a 40%
+   mix of the page colour, which disappears on the dark page. */
+article div.codehilite {
+    position: relative;
+    background-color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+article div.codehilite pre {
+    background: transparent;
+    margin: 0;
+}
+
+/* Screenshots inside the text: match the product UI's rounded corners. */
+article li img,
+article p img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+}

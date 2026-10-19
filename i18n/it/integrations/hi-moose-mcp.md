@@ -1,5 +1,5 @@
 ---
-source_hash: dae511b0faf98dbbba96694317debe6f9004e64f74fa94ef58b382067450c1ff
+source_hash: 0c58c150e7de7a9bc7b9f685480b2badf84240adba1a182969d587c2bd6c5d8f
 ---
 # Hi, Moose MCP
 
@@ -46,7 +46,7 @@ https://mcp.himoose.com/mcp
 
 ## Collegare in Claude
 
-In Claude.ai e nell'app desktop di Claude:
+Questa sezione riguarda Claude.ai nel browser e l'app desktop di Claude. Claude Code, lo strumento da terminale, ha una sezione a parte più sotto.
 
 1. Apri **Impostazioni → Connettori** (raggiungibile anche da claude.ai/customize/connectors).
 2. Scegli **Aggiungi connettore personalizzato**. Inserisci un nome che comparirà nel tuo elenco di connettori, per esempio `Hi, Moose`, incolla l'indirizzo del server e fai clic su **Continua**.
@@ -64,9 +64,11 @@ In Claude.ai e nell'app desktop di Claude:
 
 Nei piani Team ed Enterprise, un owner aggiunge prima il connettore per l'organizzazione, poi ogni membro si collega.
 
-In Claude Code:
+## Collegare in Claude Code
 
-```
+Claude Code è lo strumento a riga di comando di Anthropic per sviluppatori. Se invece lavori in Claude.ai o nell'app desktop di Claude, usa la sezione sopra. Esegui questo in un terminale:
+
+```text
 claude mcp add --transport http himoose https://mcp.himoose.com/mcp
 ```
 

@@ -1,5 +1,5 @@
 ---
-source_hash: dae511b0faf98dbbba96694317debe6f9004e64f74fa94ef58b382067450c1ff
+source_hash: 0c58c150e7de7a9bc7b9f685480b2badf84240adba1a182969d587c2bd6c5d8f
 ---
 # Hi, Moose MCP
 
@@ -46,7 +46,7 @@ https://mcp.himoose.com/mcp
 
 ## In Claude verbinden
 
-In Claude.ai und der Claude-Desktop-App:
+Dieser Abschnitt gilt für Claude.ai im Browser und die Claude-Desktop-App. Claude Code, das Terminal-Werkzeug, hat unten einen eigenen Abschnitt.
 
 1. Öffnen Sie **Einstellungen → Connectors** (auch erreichbar unter claude.ai/customize/connectors).
 2. Wählen Sie **Benutzerdefinierten Connector hinzufügen**. Geben Sie einen Namen ein, der in Ihrer Connector-Liste erscheint, zum Beispiel `Hi, Moose`, fügen Sie die Serveradresse ein und klicken Sie auf **Weiter**.
@@ -64,9 +64,11 @@ In Claude.ai und der Claude-Desktop-App:
 
 In Team- und Enterprise-Plänen fügt zuerst ein Owner den Connector für die Organisation hinzu, danach verbindet sich jedes Mitglied einzeln.
 
-In Claude Code:
+## In Claude Code verbinden
 
-```
+Claude Code ist Anthropics Kommandozeilen-Werkzeug für Entwickler. Wenn Sie stattdessen Claude.ai oder die Claude-Desktop-App verwenden, nutzen Sie den Abschnitt oben. Führen Sie dies in einem Terminal aus:
+
+```text
 claude mcp add --transport http himoose https://mcp.himoose.com/mcp
 ```
 
