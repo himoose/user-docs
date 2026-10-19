@@ -4,7 +4,7 @@ source_hash: d13fbe0e44e283bca3759e24ae06c4632b5ccb20e66f5806145543eb82fe5f65
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](https://himoose.com/docs/features/drafts-and-publishing/)
+    [Ler em inglês](http://localhost:8000/features/drafts-and-publishing/)
 
 # Rascunhos, prévia e publicação
 

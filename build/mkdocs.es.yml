@@ -1,5 +1,5 @@
 site_name: Documentación de usuario
-site_url: https://himoose.com/docs/es/
+site_url: http://localhost:8000/es/
 site_description: Documentación de usuario de Hi, Moose - plataforma de optimización
   para búsqueda con IA
 site_author: Hi, Moose Team
@@ -67,7 +67,7 @@ extra:
   - icon: fontawesome/brands/linkedin
     link: https://www.linkedin.com/company/hi-moose/
     name: Hi, Moose on LinkedIn
-  base_url: https://himoose.com/docs
+  base_url: http://localhost:8000
   locale: &id001
     code: es
     tag: es
@@ -148,6 +148,7 @@ nav:
   - Guía de configuración: integrations/hi-moose-mcp.md
   - Referencia de herramientas: integrations/hi-moose-mcp/tools.md
   - Solución de problemas: integrations/hi-moose-mcp/troubleshooting.md
+  - Seguridad y tratamiento de datos: integrations/hi-moose-mcp/security.md
 - Hi, Moose API:
   - Resumen: integrations/developer-api.md
   - Inicio rápido: integrations/developer-api/quickstart.md

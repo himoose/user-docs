@@ -4,7 +4,7 @@ source_hash: 21ee532adaad878cd1451a3d1bdcc53d85735a142ee0c75a7a2da59686684e1b
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](https://himoose.com/docs/agency/white-label/)
+    [Leerla en inglés](http://localhost:8000/agency/white-label/)
 
 # Marca blanca
 

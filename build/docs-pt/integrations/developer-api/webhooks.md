@@ -4,7 +4,7 @@ source_hash: 6467de19290f42e43d33241a37345989dbd6267011d89947d750f7e073ea66e2
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](https://himoose.com/docs/integrations/developer-api/webhooks/)
+    [Ler em inglês](http://localhost:8000/integrations/developer-api/webhooks/)
 
 
 # Webhooks

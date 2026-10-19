@@ -4,7 +4,7 @@ source_hash: 5904a00ba3d332904ad56c2821ae256bf5463e1eabcaa2b39e0c5d75e3fe3d67
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-    [Leggila in inglese](https://himoose.com/docs/getting-started/context/brand-truth-profile/)
+    [Leggila in inglese](http://localhost:8000/getting-started/context/brand-truth-profile/)
 
 # Brand Truth Profile
 

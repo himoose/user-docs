@@ -4,7 +4,7 @@ source_hash: d13fbe0e44e283bca3759e24ae06c4632b5ccb20e66f5806145543eb82fe5f65
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](https://himoose.com/docs/features/drafts-and-publishing/)
+    [Leerla en inglés](http://localhost:8000/features/drafts-and-publishing/)
 
 # Borradores, vista previa y publicación
 

@@ -4,7 +4,7 @@ source_hash: 57da778b8080a64ebc5109b126f5476b6c79e01e5d3115f6c2b42a61e7aa4d1a
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](https://himoose.com/docs/features/faq-generator/)
+    [La lire en anglais](http://localhost:8000/features/faq-generator/)
 
 # Générateur de FAQ
 

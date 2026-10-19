@@ -95,6 +95,7 @@ nav:
       - Setup guide: integrations/hi-moose-mcp.md
       - Tool reference: integrations/hi-moose-mcp/tools.md
       - Troubleshooting: integrations/hi-moose-mcp/troubleshooting.md
+      - Security and data handling: integrations/hi-moose-mcp/security.md
   - Hi, Moose API:
       - Overview: integrations/developer-api.md
       - Quickstart: integrations/developer-api/quickstart.md

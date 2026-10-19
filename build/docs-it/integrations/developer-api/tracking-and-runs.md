@@ -4,7 +4,7 @@ source_hash: 638e427715918eeab4249561f6f095b46f57a8531e8ee857a78f4e07d0941c4e
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-    [Leggila in inglese](https://himoose.com/docs/integrations/developer-api/tracking-and-runs/)
+    [Leggila in inglese](http://localhost:8000/integrations/developer-api/tracking-and-runs/)
 
 
 # Monitoraggio ed esecuzioni

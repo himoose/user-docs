@@ -1,16 +1,16 @@
 ---
-source_hash: c15e312eb89f29895cc89a42531b5530682b868f6094058a212adb896f91a1bc
+source_hash: ab200c9b278260267dd0a5a64c7e5ca24b5e20ef4c200b250f090d4d14785fe8
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](https://himoose.com/docs/integrations/hi-moose-mcp/)
+    [Leerla en inglés](http://localhost:8000/integrations/hi-moose-mcp/)
 
 # Hi, Moose MCP
 
 ## Para qué sirve
 
-Resumen, lista de herramientas y preguntas y respuestas: [himoose.com/hi-moose-mcp](https://himoose.com/es/hi-moose-mcp/). Esta página es la guía de configuración. La [referencia de herramientas](hi-moose-mcp/tools.md) describe cada herramienta con lo que necesita y lo que devuelve, y la [solución de problemas](hi-moose-mcp/troubleshooting.md) cubre el dispositivo anfitrión, los trabajos en espera y los problemas de conexión.
+Resumen, lista de herramientas y preguntas y respuestas: [himoose.com/hi-moose-mcp](https://himoose.com/es/hi-moose-mcp/). Esta página es la guía de configuración. La [referencia de herramientas](hi-moose-mcp/tools.md) describe cada herramienta con lo que necesita y lo que devuelve, y la [solución de problemas](hi-moose-mcp/troubleshooting.md) cubre el dispositivo anfitrión, los trabajos en espera y los problemas de conexión. [Seguridad y tratamiento de datos](hi-moose-mcp/security.md) responde a las preguntas que hace una revisión de seguridad antes de que un equipo se conecte.
 
 Hi, Moose MCP permite que las apps de IA en las que ya trabajas usen Hi, Moose. Añádelo como conector MCP en Claude, ChatGPT o cualquier otra app compatible con MCP con inicio de sesión, inicia sesión con tu cuenta de Hi, Moose y pide trabajo a Hi, Moose desde dentro de esa app. MCP (Model Context Protocol) es el estándar que usan estas apps para conectarse a herramientas externas.
 

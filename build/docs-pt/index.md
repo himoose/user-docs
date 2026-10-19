@@ -4,7 +4,7 @@ source_hash: e210d975308d249ca85fbc082df3530556d7488da877af76fedd12f88555930f
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](https://himoose.com/docs/)
+    [Ler em inglês](http://localhost:8000/)
 
 # Bem-vindo à documentação do Hi, Moose
 

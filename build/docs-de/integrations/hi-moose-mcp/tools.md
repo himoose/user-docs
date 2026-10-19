@@ -4,7 +4,7 @@ source_hash: 02739399b48594689facbef6808edfaaedea42f90e6577cf6c6b9bb9f23939c1
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](https://himoose.com/docs/integrations/hi-moose-mcp/tools/)
+    [Auf Englisch lesen](http://localhost:8000/integrations/hi-moose-mcp/tools/)
 
 
 # Werkzeug-Referenz

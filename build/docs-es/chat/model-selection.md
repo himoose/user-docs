@@ -4,7 +4,7 @@ source_hash: 1a5fa4052c39973532d6cdbeb0b0f3b6980e9a5231278c640355c5dec895a22d
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](https://himoose.com/docs/chat/model-selection/)
+    [Leerla en inglés](http://localhost:8000/chat/model-selection/)
 
 # Selección de modelo
 

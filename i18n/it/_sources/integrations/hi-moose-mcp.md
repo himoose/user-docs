@@ -2,7 +2,7 @@
 
 ## What this helps you do
 
-Overview, tool list and questions and answers: [himoose.com/hi-moose-mcp](https://himoose.com/hi-moose-mcp/). This page is the setup guide. The [tool reference](hi-moose-mcp/tools.md) describes every tool with what it takes and what comes back, and [troubleshooting](hi-moose-mcp/troubleshooting.md) covers the host device, waiting jobs and connection problems.
+Overview, tool list and questions and answers: [himoose.com/hi-moose-mcp](https://himoose.com/hi-moose-mcp/). This page is the setup guide. The [tool reference](hi-moose-mcp/tools.md) describes every tool with what it takes and what comes back, and [troubleshooting](hi-moose-mcp/troubleshooting.md) covers the host device, waiting jobs and connection problems. [Security and data handling](hi-moose-mcp/security.md) answers the questions a security review asks before a team connects.
 
 Hi, Moose MCP lets the AI apps you already work in use Hi, Moose. Add it as an MCP connector in Claude, ChatGPT, or any other app that supports MCP with sign-in, sign in with your Hi, Moose account, and ask for Hi, Moose work from inside that app. MCP (Model Context Protocol) is the standard these apps use to connect to outside tools.
 

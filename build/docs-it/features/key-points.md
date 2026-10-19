@@ -4,7 +4,7 @@ source_hash: 8b57e0721844d9abea5dec327d239ae4880ee2cdfac6de4ba644f4300e24a272
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-    [Leggila in inglese](https://himoose.com/docs/features/key-points/)
+    [Leggila in inglese](http://localhost:8000/features/key-points/)
 
 # Estrattore di Key Points
 

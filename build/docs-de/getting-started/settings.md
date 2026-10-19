@@ -4,7 +4,7 @@ source_hash: 5e04bb7695f1f99212eabfd919c84bee187e08b6c4462119c39e32c6d927f1fd
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](https://himoose.com/docs/getting-started/settings/)
+    [Auf Englisch lesen](http://localhost:8000/getting-started/settings/)
 
 # Einstellungen
 

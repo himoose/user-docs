@@ -4,7 +4,7 @@ source_hash: 399cb3ab67be171f7aec402853ccc087cffad8b03562b16db57f4d80c7058766
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](https://himoose.com/docs/getting-started/context/brand-documents/)
+    [Ler em inglês](http://localhost:8000/getting-started/context/brand-documents/)
 
 # Documentos de marca
 

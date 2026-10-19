@@ -4,7 +4,7 @@ source_hash: 1c85ff53a55d4b6ecb7d8fbdd11b64ab53c6c37bdd4cb12540b5dc7616afc495
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](https://himoose.com/docs/visibility/competitors/)
+    [Auf Englisch lesen](http://localhost:8000/visibility/competitors/)
 
 # Wettbewerber und Share of Voice
 

@@ -4,7 +4,7 @@ source_hash: b6472884da7df3e651f78be6893eb9896b38a6327a26378ca1d4cc26b2d0454e
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](https://himoose.com/docs/visibility/prompt-manager/)
+    [Auf Englisch lesen](http://localhost:8000/visibility/prompt-manager/)
 
 # Prompt Manager
 

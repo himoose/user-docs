@@ -4,7 +4,7 @@ source_hash: b8f7ae90a01c1895210f6cf67a2a0fd1696708272ce334220ed0e26bbdf8e130
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](https://himoose.com/docs/chat/chats-history/)
+    [La lire en anglais](http://localhost:8000/chat/chats-history/)
 
 # Chats (historique)
 

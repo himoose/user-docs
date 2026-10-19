@@ -4,7 +4,7 @@ source_hash: eef50f1fe484ff2af95068f006064217adac902f902e7159b98801260bb5cb9a
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](https://himoose.com/docs/integrations/developer-api/keys-and-auth/)
+    [La lire en anglais](http://localhost:8000/integrations/developer-api/keys-and-auth/)
 
 
 # Clés et authentification

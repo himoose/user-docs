@@ -4,7 +4,7 @@ source_hash: bcecd80050cfb1493af12129d0dc0a3b15b503d5be08491855f621850f94d8d5
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](https://himoose.com/docs/integrations/developer-api/quickstart/)
+    [La lire en anglais](http://localhost:8000/integrations/developer-api/quickstart/)
 
 
 # Démarrage rapide

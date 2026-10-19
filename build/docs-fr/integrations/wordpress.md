@@ -4,7 +4,7 @@ source_hash: 57477f3edd7e63b53a23c12a7676c0c723e2f37903e1f4aa75a613f296e8277b
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](https://himoose.com/docs/integrations/wordpress/)
+    [La lire en anglais](http://localhost:8000/integrations/wordpress/)
 
 # WordPress
 

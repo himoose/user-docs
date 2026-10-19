@@ -4,7 +4,7 @@ source_hash: 9cb1f82df3ab1a21aa5b240256af6954d672dc3d11dd311e044918cd3a30f531
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](https://himoose.com/docs/tools/instant-brand-check/)
+    [Auf Englisch lesen](http://localhost:8000/tools/instant-brand-check/)
 
 # Sofortprüfung der Marke in der KI-Suche
 

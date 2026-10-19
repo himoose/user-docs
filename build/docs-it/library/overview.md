@@ -4,7 +4,7 @@ source_hash: 545b690f7614ab6f5b7422350be349c1b55383430de6969e6d3a94bcc5810df9
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-    [Leggila in inglese](https://himoose.com/docs/library/overview/)
+    [Leggila in inglese](http://localhost:8000/library/overview/)
 
 # Library
 

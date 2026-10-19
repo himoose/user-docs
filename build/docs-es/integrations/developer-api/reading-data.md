@@ -4,7 +4,7 @@ source_hash: 28ad9511fc5703f0dd6c90a7f591758445fdd08a95dcdb389dc29a304c90278d
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](https://himoose.com/docs/integrations/developer-api/reading-data/)
+    [Leerla en inglés](http://localhost:8000/integrations/developer-api/reading-data/)
 
 
 # Leer datos

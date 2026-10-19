@@ -4,7 +4,7 @@ source_hash: 6b626247301ccb574a07ca68954224dc2c2db39fba0d3b67fb3b922f16cabd30
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-    [Leggila in inglese](https://himoose.com/docs/getting-started/context/about-you/)
+    [Leggila in inglese](http://localhost:8000/getting-started/context/about-you/)
 
 # Su di lei
 

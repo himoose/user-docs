@@ -4,7 +4,7 @@ source_hash: 67912e0c53e927d4836f8b9c545fb59268db0fbc9165037df2930f6cfada0988
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](https://himoose.com/docs/integrations/webflow/)
+    [Auf Englisch lesen](http://localhost:8000/integrations/webflow/)
 
 # Webflow
 

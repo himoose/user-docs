@@ -4,7 +4,7 @@ source_hash: 799fa86d4b93065bdbc58d1b0a7cc5400446cfdee289750eafd31c6a0c8371b2
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](https://himoose.com/docs/chat/overview/)
+    [La lire en anglais](http://localhost:8000/chat/overview/)
 
 # Vue d'ensemble du Chat
 
