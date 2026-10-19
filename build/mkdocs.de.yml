@@ -144,6 +144,20 @@ nav:
   - Projekte und Arbeitsbereich: getting-started/projects.md
   - Einstellungen: getting-started/settings.md
   - Teamverwaltung: getting-started/team-management.md
+- Hi, Moose MCP:
+  - Einrichtung: integrations/hi-moose-mcp.md
+  - Werkzeuge: integrations/hi-moose-mcp/tools.md
+  - Fehlerbehebung: integrations/hi-moose-mcp/troubleshooting.md
+- Hi, Moose API:
+  - Übersicht: integrations/developer-api.md
+  - Schnellstart: integrations/developer-api/quickstart.md
+  - Schlüssel und Anmeldung: integrations/developer-api/keys-and-auth.md
+  - Daten lesen: integrations/developer-api/reading-data.md
+  - Tracking und Läufe: integrations/developer-api/tracking-and-runs.md
+  - Webhooks: integrations/developer-api/webhooks.md
+  - Fehler und Limits: integrations/developer-api/errors-and-limits.md
+  - Endpunkt-Referenz: integrations/developer-api/reference.md
+  - Änderungen: integrations/developer-api/changelog.md
 - Posteingang:
   - Übersicht: inbox/overview.md
   - Benachrichtigungen: inbox/notifications.md
@@ -198,20 +212,6 @@ nav:
   - Grav: integrations/grav.md
   - WordPress: integrations/wordpress.md
   - Webflow: integrations/webflow.md
-  - Hi, Moose MCP:
-    - Einrichtung: integrations/hi-moose-mcp.md
-    - Werkzeuge: integrations/hi-moose-mcp/tools.md
-    - Fehlerbehebung: integrations/hi-moose-mcp/troubleshooting.md
-  - Hi, Moose API:
-    - Übersicht: integrations/developer-api.md
-    - Schnellstart: integrations/developer-api/quickstart.md
-    - Schlüssel und Anmeldung: integrations/developer-api/keys-and-auth.md
-    - Daten lesen: integrations/developer-api/reading-data.md
-    - Tracking und Läufe: integrations/developer-api/tracking-and-runs.md
-    - Webhooks: integrations/developer-api/webhooks.md
-    - Fehler und Limits: integrations/developer-api/errors-and-limits.md
-    - Endpunkt-Referenz: integrations/developer-api/reference.md
-    - Änderungen: integrations/developer-api/changelog.md
   - Google Search Console: integrations/google-search-console.md
 - Frühere Web-App:
   - Versus Pages (programmatisches SEO): legacy/versus-pages.md

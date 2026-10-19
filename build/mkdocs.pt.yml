@@ -143,6 +143,20 @@ nav:
   - Projetos e espaço de trabalho: getting-started/projects.md
   - Configurações: getting-started/settings.md
   - Gerenciamento da equipe: getting-started/team-management.md
+- Hi, Moose MCP:
+  - Guia de configuração: integrations/hi-moose-mcp.md
+  - Referência das ferramentas: integrations/hi-moose-mcp/tools.md
+  - Resolução de problemas: integrations/hi-moose-mcp/troubleshooting.md
+- Hi, Moose API:
+  - Visão geral: integrations/developer-api.md
+  - Início rápido: integrations/developer-api/quickstart.md
+  - Chaves e autenticação: integrations/developer-api/keys-and-auth.md
+  - Ler dados: integrations/developer-api/reading-data.md
+  - Acompanhamento e execuções: integrations/developer-api/tracking-and-runs.md
+  - Webhooks: integrations/developer-api/webhooks.md
+  - Erros e limites: integrations/developer-api/errors-and-limits.md
+  - Referência de endpoints: integrations/developer-api/reference.md
+  - Alterações: integrations/developer-api/changelog.md
 - Caixa de entrada:
   - Visão geral: inbox/overview.md
   - Notificações: inbox/notifications.md
@@ -197,20 +211,6 @@ nav:
   - Grav: integrations/grav.md
   - WordPress: integrations/wordpress.md
   - Webflow: integrations/webflow.md
-  - Hi, Moose MCP:
-    - Guia de configuração: integrations/hi-moose-mcp.md
-    - Referência das ferramentas: integrations/hi-moose-mcp/tools.md
-    - Resolução de problemas: integrations/hi-moose-mcp/troubleshooting.md
-  - Hi, Moose API:
-    - Visão geral: integrations/developer-api.md
-    - Início rápido: integrations/developer-api/quickstart.md
-    - Chaves e autenticação: integrations/developer-api/keys-and-auth.md
-    - Ler dados: integrations/developer-api/reading-data.md
-    - Acompanhamento e execuções: integrations/developer-api/tracking-and-runs.md
-    - Webhooks: integrations/developer-api/webhooks.md
-    - Erros e limites: integrations/developer-api/errors-and-limits.md
-    - Referência de endpoints: integrations/developer-api/reference.md
-    - Alterações: integrations/developer-api/changelog.md
   - Google Search Console: integrations/google-search-console.md
 - Aplicativo web antigo:
   - Versus Pages (SEO programático): legacy/versus-pages.md
