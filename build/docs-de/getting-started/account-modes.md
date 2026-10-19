@@ -4,7 +4,7 @@ source_hash: 2ba70f00f21e9d4751be22470dd7212080bc851cf96917788479b101bf0c1896
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/getting-started/account-modes/)
+    [Auf Englisch lesen](https://himoose.com/docs/getting-started/account-modes/)
 
 # Kontotypen und Tarife
 

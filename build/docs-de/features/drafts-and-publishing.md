@@ -4,7 +4,7 @@ source_hash: d13fbe0e44e283bca3759e24ae06c4632b5ccb20e66f5806145543eb82fe5f65
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/features/drafts-and-publishing/)
+    [Auf Englisch lesen](https://himoose.com/docs/features/drafts-and-publishing/)
 
 # Entwürfe, Vorschau und Veröffentlichung
 

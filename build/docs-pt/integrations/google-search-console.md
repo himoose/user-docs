@@ -4,7 +4,7 @@ source_hash: 07b1b5e8bf746dc48362fa004a86b7566ef960fafcbe265cebb6ecd32d7aff91
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](http://localhost:8000/integrations/google-search-console/)
+    [Ler em inglês](https://himoose.com/docs/integrations/google-search-console/)
 
 # Google Search Console
 

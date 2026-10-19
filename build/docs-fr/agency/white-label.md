@@ -4,7 +4,7 @@ source_hash: 21ee532adaad878cd1451a3d1bdcc53d85735a142ee0c75a7a2da59686684e1b
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](http://localhost:8000/agency/white-label/)
+    [La lire en anglais](https://himoose.com/docs/agency/white-label/)
 
 # Marque blanche
 

@@ -4,7 +4,7 @@ source_hash: 74350e56e731651f6ec3d16f665469ed0f3a02cd5ed2fd4ddca3af2f63feb121
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](http://localhost:8000/features/landing-page-content/)
+    [Leerla en inglés](https://himoose.com/docs/features/landing-page-content/)
 
 # Contenido de landing page
 

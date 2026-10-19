@@ -4,7 +4,7 @@ source_hash: 85052baa431b76ba0d9c99312dbc2fdf61031a24075e6841f48c0662cc8c5cdb
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](http://localhost:8000/integrations/developer-api/)
+    [Leerla en inglés](https://himoose.com/docs/integrations/developer-api/)
 
 
 # Hi, Moose API

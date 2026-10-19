@@ -1,5 +1,5 @@
 site_name: Benutzerdokumentation
-site_url: http://localhost:8000/de/
+site_url: https://himoose.com/docs/de/
 site_description: Benutzerdokumentation für Hi, Moose - Plattform zur Optimierung
   für KI-Suche
 site_author: Hi, Moose Team
@@ -67,7 +67,7 @@ extra:
   - icon: fontawesome/brands/linkedin
     link: https://www.linkedin.com/company/hi-moose/
     name: Hi, Moose on LinkedIn
-  base_url: http://localhost:8000
+  base_url: https://himoose.com/docs
   locale: &id001
     code: de
     tag: de

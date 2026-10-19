@@ -4,7 +4,7 @@ source_hash: 9cb1f82df3ab1a21aa5b240256af6954d672dc3d11dd311e044918cd3a30f531
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](http://localhost:8000/tools/instant-brand-check/)
+    [La lire en anglais](https://himoose.com/docs/tools/instant-brand-check/)
 
 # Vérification instantanée de marque dans la recherche par IA
 

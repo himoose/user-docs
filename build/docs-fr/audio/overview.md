@@ -4,7 +4,7 @@ source_hash: 3de48b1823942dd1ca44b6be6cf581f170fdffe9e0e850d467f3322e9e89f1a8
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](http://localhost:8000/audio/overview/)
+    [La lire en anglais](https://himoose.com/docs/audio/overview/)
 
 # Audio
 

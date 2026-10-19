@@ -4,7 +4,7 @@ source_hash: b58a8ba99a61b64bb2209353aa0fa79de0889308fc888578032146544e64c54f
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](http://localhost:8000/chat/tools-and-specialists/)
+    [La lire en anglais](https://himoose.com/docs/chat/tools-and-specialists/)
 
 # Outils et spécialistes du chat
 

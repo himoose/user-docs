@@ -4,7 +4,7 @@ source_hash: b5d0a07f31228ccaaa2c18a76dddb8de404f3871f7b879591e111c89bae3e9c5
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-    [Leggila in inglese](http://localhost:8000/audio/player-and-embed/)
+    [Leggila in inglese](https://himoose.com/docs/audio/player-and-embed/)
 
 # Player e incorporamento
 

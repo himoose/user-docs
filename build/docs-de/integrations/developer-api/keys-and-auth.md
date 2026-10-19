@@ -4,7 +4,7 @@ source_hash: eef50f1fe484ff2af95068f006064217adac902f902e7159b98801260bb5cb9a
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/integrations/developer-api/keys-and-auth/)
+    [Auf Englisch lesen](https://himoose.com/docs/integrations/developer-api/keys-and-auth/)
 
 
 # Schlüssel und Authentifizierung

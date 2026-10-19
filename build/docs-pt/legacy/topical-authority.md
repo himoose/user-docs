@@ -4,7 +4,7 @@ source_hash: 55d8ee86d437abb758c9ecbb384cf0f678344f4e731d27cf7a7625efebcb05d1
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](http://localhost:8000/legacy/topical-authority/)
+    [Ler em inglês](https://himoose.com/docs/legacy/topical-authority/)
 
 # Topical Authority Builder
 

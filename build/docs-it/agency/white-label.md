@@ -4,7 +4,7 @@ source_hash: 21ee532adaad878cd1451a3d1bdcc53d85735a142ee0c75a7a2da59686684e1b
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-    [Leggila in inglese](http://localhost:8000/agency/white-label/)
+    [Leggila in inglese](https://himoose.com/docs/agency/white-label/)
 
 # Personalizzazione white label
 

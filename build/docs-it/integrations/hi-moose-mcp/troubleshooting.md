@@ -4,7 +4,7 @@ source_hash: 44a098b9f501f2117290c2037c5635c5aa9f250b49d72a34e103dba9d3cb8b5b
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-    [Leggila in inglese](http://localhost:8000/integrations/hi-moose-mcp/troubleshooting/)
+    [Leggila in inglese](https://himoose.com/docs/integrations/hi-moose-mcp/troubleshooting/)
 
 
 # Risoluzione dei problemi

@@ -4,7 +4,7 @@ source_hash: e11490165d12e857f2010b68d56d5c652789c58e6494a9d6df637b41040130c7
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](http://localhost:8000/legacy/versus-pages/)
+    [Ler em inglês](https://himoose.com/docs/legacy/versus-pages/)
 
 # Versus Pages (SEO programático)
 

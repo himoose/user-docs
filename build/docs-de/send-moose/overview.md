@@ -4,7 +4,7 @@ source_hash: 7e432cdd4918eeb01a120c373ca83181288da1c2c0b01d3aee18207e05092124
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/send-moose/overview/)
+    [Auf Englisch lesen](https://himoose.com/docs/send-moose/overview/)
 
 # Send Moose
 

@@ -4,7 +4,7 @@ source_hash: 881e1739f4af1f17baba45f2cc1c504a8346efdb54a337e50548b762cc06b74d
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](http://localhost:8000/getting-started/context/brand-voice/)
+    [La lire en anglais](https://himoose.com/docs/getting-started/context/brand-voice/)
 
 # Brand Voice
 

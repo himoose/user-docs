@@ -4,7 +4,7 @@ source_hash: ab200c9b278260267dd0a5a64c7e5ca24b5e20ef4c200b250f090d4d14785fe8
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
 
-    [Leerla en inglés](http://localhost:8000/integrations/hi-moose-mcp/)
+    [Leerla en inglés](https://himoose.com/docs/integrations/hi-moose-mcp/)
 
 # Hi, Moose MCP
 

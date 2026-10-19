@@ -4,7 +4,7 @@ source_hash: 422edf700d29e3ee080f114ca1c4fbdc3f92677eb196cdf636fdac1f0e5e4cad
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](http://localhost:8000/integrations/developer-api/changelog/)
+    [La lire en anglais](https://himoose.com/docs/integrations/developer-api/changelog/)
 
 
 # Journal des modifications

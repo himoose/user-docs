@@ -4,7 +4,7 @@ source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/visibility/overview/)
+    [Auf Englisch lesen](https://himoose.com/docs/visibility/overview/)
 
 # Visibility
 

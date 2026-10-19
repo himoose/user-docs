@@ -4,7 +4,7 @@ source_hash: 7907c08f25052f66801891d4fc6f24fe3bdcd307070021aede9005fe5995996b
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
 
-    [Ler em inglês](http://localhost:8000/workflows/recover-lost-visibility/)
+    [Ler em inglês](https://himoose.com/docs/workflows/recover-lost-visibility/)
 
 # Recuperar a visibilidade perdida
 

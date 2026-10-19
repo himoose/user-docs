@@ -4,7 +4,7 @@ source_hash: fd74e34b467a2aec2ad0abc74e8a74c6865ee781fe1c9eceff1c780dcc8517c7
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
 
-    [La lire en anglais](http://localhost:8000/features/blog-post-draft/)
+    [La lire en anglais](https://himoose.com/docs/features/blog-post-draft/)
 
 # Brouillon d'article de blog
 

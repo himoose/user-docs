@@ -4,7 +4,7 @@ source_hash: f262de43811a037ebe40f0f411828409a4bc1eda0f592f12d08358e5530d41e6
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/integrations/hi-moose-mcp/security/)
+    [Auf Englisch lesen](https://himoose.com/docs/integrations/hi-moose-mcp/security/)
 
 
 # Sicherheit und Datenverarbeitung

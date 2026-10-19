@@ -4,7 +4,7 @@ source_hash: 3d580f650a10ac332979413d4663c7fecfdcccd56bcc167b4cc56b3e5e150adb
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
 
-    [Leggila in inglese](http://localhost:8000/legacy/listen-to-this-article/)
+    [Leggila in inglese](https://himoose.com/docs/legacy/listen-to-this-article/)
 
 # Listen to this Article (generazione audio)
 

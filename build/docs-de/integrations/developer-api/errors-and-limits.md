@@ -4,7 +4,7 @@ source_hash: 85fe7ea99ed19540350085410907cba880592b989251ce17fdb81570b24829a2
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
 
-    [Auf Englisch lesen](http://localhost:8000/integrations/developer-api/errors-and-limits/)
+    [Auf Englisch lesen](https://himoose.com/docs/integrations/developer-api/errors-and-limits/)
 
 
 # Fehler und Grenzen
