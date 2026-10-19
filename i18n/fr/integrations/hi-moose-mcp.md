@@ -1,5 +1,5 @@
 ---
-source_hash: 0c58c150e7de7a9bc7b9f685480b2badf84240adba1a182969d587c2bd6c5d8f
+source_hash: c15e312eb89f29895cc89a42531b5530682b868f6094058a212adb896f91a1bc
 ---
 # Hi, Moose MCP
 
@@ -55,7 +55,7 @@ Cette section concerne Claude.ai dans le navigateur et l'application de bureau C
     https://mcp.himoose.com/mcp
     ```
 
-    ![Fenêtre « Ajouter un connecteur personnalisé » de Claude avec le nom Hi, Moose et l'adresse du serveur renseignés](../assets/images/connect-hi-moose-mcp-to-claude.png)
+    ![Fenêtre « Ajouter un connecteur personnalisé » de Claude avec le nom Hi, Moose et l'adresse du serveur renseignés](../assets/images/connect-hi-moose-mcp-to-claude.webp)
 
 3. Sur l'écran suivant, gardez les réglages détectés par Claude : **Se connecter maintenant** sous Authentification et **Utiliser l'identité publiée de Claude** sous Client OAuth. N'ajoutez aucun en-tête de requête. Dans Avancé, laissez le transport en automatique ; le serveur utilise Streamable HTTP. Cliquez sur **Ajouter**.
 

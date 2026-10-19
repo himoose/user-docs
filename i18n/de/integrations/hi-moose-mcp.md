@@ -1,5 +1,5 @@
 ---
-source_hash: 0c58c150e7de7a9bc7b9f685480b2badf84240adba1a182969d587c2bd6c5d8f
+source_hash: c15e312eb89f29895cc89a42531b5530682b868f6094058a212adb896f91a1bc
 ---
 # Hi, Moose MCP
 
@@ -55,7 +55,7 @@ Dieser Abschnitt gilt für Claude.ai im Browser und die Claude-Desktop-App. Clau
     https://mcp.himoose.com/mcp
     ```
 
-    ![Claude-Dialog „Benutzerdefinierten Connector hinzufügen“ mit dem Namen Hi, Moose und der eingetragenen Serveradresse](../assets/images/connect-hi-moose-mcp-to-claude.png)
+    ![Claude-Dialog „Benutzerdefinierten Connector hinzufügen“ mit dem Namen Hi, Moose und der eingetragenen Serveradresse](../assets/images/connect-hi-moose-mcp-to-claude.webp)
 
 3. Behalten Sie auf dem nächsten Bildschirm die von Claude erkannten Einstellungen bei: **Jetzt anmelden** unter Authentifizierung und **Veröffentlichte Identität von Claude verwenden** unter OAuth-Client. Fügen Sie keine Request-Header hinzu. Lassen Sie unter Erweitert den Transport auf automatisch; der Server verwendet Streamable HTTP. Klicken Sie auf **Hinzufügen**.
 

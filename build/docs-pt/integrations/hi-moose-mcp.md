@@ -1,5 +1,5 @@
 ---
-source_hash: 0c58c150e7de7a9bc7b9f685480b2badf84240adba1a182969d587c2bd6c5d8f
+source_hash: c15e312eb89f29895cc89a42531b5530682b868f6094058a212adb896f91a1bc
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -60,7 +60,7 @@ Esta seção é para o Claude.ai no navegador e o app de desktop do Claude. O Cl
     https://mcp.himoose.com/mcp
     ```
 
-    ![Janela "Adicionar conector personalizado" do Claude com o nome Hi, Moose e o endereço do servidor preenchidos](../assets/images/connect-hi-moose-mcp-to-claude.png)
+    ![Janela "Adicionar conector personalizado" do Claude com o nome Hi, Moose e o endereço do servidor preenchidos](../assets/images/connect-hi-moose-mcp-to-claude.webp)
 
 3. Na tela seguinte, mantenha as configurações que o Claude detecta: **Entrar agora** em Autenticação e **Usar a identidade publicada do Claude** em Cliente OAuth. Não adicione cabeçalhos de requisição. Em Avançado, deixe o transporte em automático; o servidor usa Streamable HTTP. Clique em **Adicionar**.
 

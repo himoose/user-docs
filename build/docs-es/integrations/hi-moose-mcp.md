@@ -1,5 +1,5 @@
 ---
-source_hash: 0c58c150e7de7a9bc7b9f685480b2badf84240adba1a182969d587c2bd6c5d8f
+source_hash: c15e312eb89f29895cc89a42531b5530682b868f6094058a212adb896f91a1bc
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -60,7 +60,7 @@ Esta sección es para Claude.ai en el navegador y la app de escritorio de Claude
     https://mcp.himoose.com/mcp
     ```
 
-    ![Ventana «Añadir conector personalizado» de Claude con el nombre Hi, Moose y la dirección del servidor rellenados](../assets/images/connect-hi-moose-mcp-to-claude.png)
+    ![Ventana «Añadir conector personalizado» de Claude con el nombre Hi, Moose y la dirección del servidor rellenados](../assets/images/connect-hi-moose-mcp-to-claude.webp)
 
 3. En la siguiente pantalla, mantén los ajustes que Claude detecta: **Iniciar sesión ahora** en Autenticación y **Usar la identidad publicada de Claude** en Cliente OAuth. No añadas cabeceras de solicitud. En Avanzado, deja el transporte en automático; el servidor usa Streamable HTTP. Pulsa **Añadir**.
 

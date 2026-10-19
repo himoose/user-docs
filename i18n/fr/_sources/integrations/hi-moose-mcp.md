@@ -52,7 +52,7 @@ This section is for Claude.ai in the browser and the Claude desktop app. Claude 
     https://mcp.himoose.com/mcp
     ```
 
-    ![Claude's Add custom connector dialog with the name Hi, Moose and the server address filled in](../assets/images/connect-hi-moose-mcp-to-claude.png)
+    ![Claude's Add custom connector dialog with the name Hi, Moose and the server address filled in](../assets/images/connect-hi-moose-mcp-to-claude.webp)
 
 3. Keep the settings Claude detects on the next screen: **Sign in now** under Authentication and **Use Claude's published identity** under OAuth client. Add no request headers. Under Advanced, leave Transport on automatic; the server uses streamable HTTP. Click **Add**.
 
