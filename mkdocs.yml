@@ -52,6 +52,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.highlight:     # Code highlighting
       anchor_linenums: true
+      css_class: codehilite
   - pymdownx.inlinehilite   # Inline code highlighting
   - pymdownx.snippets       # Include snippets
   - pymdownx.emoji          # Emoji support

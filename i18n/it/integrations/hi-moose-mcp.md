@@ -1,5 +1,5 @@
 ---
-source_hash: aa78a0860e851aace3fbc9ece941987e357a37bac7d3122cf7b79d3760d17301
+source_hash: dae511b0faf98dbbba96694317debe6f9004e64f74fa94ef58b382067450c1ff
 ---
 # Hi, Moose MCP
 
@@ -40,7 +40,7 @@ Non può modificare impostazioni o membri del team e non può eliminare nulla. A
 2. Vai in **Impostazioni → Hi, Moose MCP** e scegli quel dispositivo come dispositivo host del progetto. Solo il proprietario dell'account può scegliere il dispositivo host.
 3. Copia l'indirizzo del server mostrato lì:
 
-```
+```text
 https://mcp.himoose.com/mcp
 ```
 
@@ -49,9 +49,18 @@ https://mcp.himoose.com/mcp
 In Claude.ai e nell'app desktop di Claude:
 
 1. Apri **Impostazioni → Connettori** (raggiungibile anche da claude.ai/customize/connectors).
-2. Scegli **Aggiungi connettore personalizzato**, incolla l'indirizzo del server e fai clic su **Aggiungi**. Lascia vuoti i campi del client OAuth.
-3. Fai clic su **Collega** accanto a Hi, Moose MCP. Si apre una pagina di Hi, Moose che mostra cosa potrà fare l'app e ti chiede di accedere con il tuo account Hi, Moose.
-4. Avvia una nuova chat e chiedi, per esempio, «Elenca i miei progetti Hi, Moose».
+2. Scegli **Aggiungi connettore personalizzato**. Inserisci un nome che comparirà nel tuo elenco di connettori, per esempio `Hi, Moose`, incolla l'indirizzo del server e fai clic su **Continua**.
+
+    ```text
+    https://mcp.himoose.com/mcp
+    ```
+
+    ![Finestra «Aggiungi connettore personalizzato» di Claude con il nome Hi, Moose e l'indirizzo del server compilati](../assets/images/connect-hi-moose-mcp-to-claude.png)
+
+3. Nella schermata successiva mantieni le impostazioni rilevate da Claude: **Accedi ora** in Autenticazione e **Usa l'identità pubblicata di Claude** in Client OAuth. Non aggiungere header di richiesta. In Avanzate lascia il trasporto su automatico; il server usa Streamable HTTP. Fai clic su **Aggiungi**.
+
+4. Fai clic su **Collega** accanto a Hi, Moose MCP. Si apre una pagina di Hi, Moose che mostra cosa potrà fare l'app e ti chiede di accedere con il tuo account Hi, Moose.
+5. Avvia una nuova chat e chiedi, per esempio, «Elenca i miei progetti Hi, Moose».
 
 Nei piani Team ed Enterprise, un owner aggiunge prima il connettore per l'organizzazione, poi ogni membro si collega.
 
@@ -70,12 +79,21 @@ ChatGPT supporta server MCP personalizzati nei piani a pagamento. I nomi dei men
 1. Apri **Impostazioni → App** (chiamato **Connettori** in alcune versioni). Negli spazi Business ed Enterprise, un owner potrebbe dover prima consentire i connettori personalizzati.
 2. Scegli **Aggiungi** e poi **Crea server MCP personalizzato**. Le versioni più vecchie mostrano **Crea app MCP** e potrebbero richiedere prima la **Modalità sviluppatore** nelle impostazioni avanzate.
 3. Incolla l'indirizzo del server, scegli **OAuth** come autenticazione e salva.
+
+    ```text
+    https://mcp.himoose.com/mcp
+    ```
+
 4. Accedi con il tuo account Hi, Moose nella pagina che si apre.
 5. In una chat, attiva il connettore per quella conversazione e chiedi lavoro a Hi, Moose.
 
 ## Altre app
 
 Qualsiasi app che può aggiungere un server MCP remoto con accesso OAuth funziona allo stesso modo: aggiungi l'indirizzo del server, accedi con il tuo account Hi, Moose e usalo da lì.
+
+```text
+https://mcp.himoose.com/mcp
+```
 
 ## Come viene eseguita una richiesta
 
