@@ -1,5 +1,5 @@
 ---
-source_hash: ab200c9b278260267dd0a5a64c7e5ca24b5e20ef4c200b250f090d4d14785fe8
+source_hash: 7b00b29f252379097b6d53c6cc6eb4e0a2d6c564e7b8f2040ee9bb3688947d3f
 ---
 # Hi, Moose MCP
 
@@ -20,6 +20,7 @@ Avec les outils actuels, une application connectée peut :
 - Vérifier si votre site couvre déjà un sujet, avec les pages qui le couvrent et la date de l'exploration vérifiée
 - Créer un brief de contenu
 - Rédiger un brouillon à partir d'un brief
+- Actualiser un contenu que vous avez déjà : comparer une page en ligne, un brouillon enregistré ou un texte collé avec les résultats de recherche actuels, et obtenir un brief d'actualisation avec les manques et un brouillon révisé
 - Créer une image à la une
 - Rédiger une FAQ avec le balisage FAQPage pour un brouillon enregistré ou une page de votre site
 - Rédiger les points clés d'un brouillon enregistré ou d'une page de votre site
@@ -103,7 +104,7 @@ https://mcp.himoose.com/mcp
 2. Hi, Moose MCP la transmet à l'appareil hôte, qui exécute le travail avec l'exploration, le Brand Truth et la recherche du projet.
 3. Le résultat revient dans l'application et est enregistré dans votre Library.
 
-Un brief, un brouillon, une image, une FAQ ou une liste de points clés prend une à trois minutes, un audit AEO deux à quatre. Une question de visibilité obtient sa réponse en quelques secondes, et la liste des opportunités en moins d'une minute. Si l'application dit que le travail est toujours en cours, demandez-lui de vérifier à nouveau ; elle récupère le résultat dès qu'il est prêt. Si l'appareil hôte est éteint ou déconnecté, l'application reçoit un message qui le signale.
+Un brief, un brouillon, une image, une FAQ ou une liste de points clés prend une à trois minutes, un audit AEO deux à quatre, et une actualisation de contenu trois à six. Une question de visibilité obtient sa réponse en quelques secondes, et la liste des opportunités en moins d'une minute. Si l'application dit que le travail est toujours en cours, demandez-lui de vérifier à nouveau ; elle récupère le résultat dès qu'il est prêt. Si l'appareil hôte est éteint ou déconnecté, l'application reçoit un message qui le signale.
 
 Les tâches s'exécutent avec le compte connecté sur l'appareil hôte : la Library qu'elles lisent et écrivent est donc celle de ce compte. Le tableau **Tâches récentes des agents** dans les Paramètres montre ce qui a été demandé, par quelle application, et si c'est terminé.
 

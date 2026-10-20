@@ -1,5 +1,5 @@
 ---
-source_hash: ab200c9b278260267dd0a5a64c7e5ca24b5e20ef4c200b250f090d4d14785fe8
+source_hash: 7b00b29f252379097b6d53c6cc6eb4e0a2d6c564e7b8f2040ee9bb3688947d3f
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -25,6 +25,7 @@ Con gli strumenti attuali, un'app collegata può:
 - Verificare se il tuo sito copre già un argomento, con le pagine che lo coprono e la data della scansione verificata
 - Creare un brief di contenuto
 - Scrivere una bozza da un brief
+- Aggiornare un contenuto che hai già: confrontare una pagina pubblicata, una bozza salvata o un testo incollato con i risultati di ricerca attuali e ottenere un brief di aggiornamento con le lacune e una bozza revisionata
 - Creare un'immagine in evidenza
 - Scrivere le FAQ con schema FAQPage per una bozza salvata o una pagina del tuo sito
 - Scrivere i punti chiave di una bozza salvata o di una pagina del tuo sito
@@ -108,7 +109,7 @@ https://mcp.himoose.com/mcp
 2. Hi, Moose MCP la passa al dispositivo host, che esegue il lavoro con la scansione, il Brand Truth e la ricerca del progetto.
 3. Il risultato torna all'app e viene salvato nella tua Library.
 
-Un brief, una bozza, un'immagine, una serie di FAQ o un elenco di punti chiave richiedono da uno a tre minuti; un audit AEO da due a quattro. Una domanda di visibilità riceve risposta in pochi secondi e l'elenco delle opportunità in meno di un minuto. Se l'app dice che il lavoro è ancora in corso, chiedile di controllare di nuovo; ritira il risultato quando è pronto. Se il dispositivo host è spento o disconnesso, l'app riceve un messaggio che lo segnala.
+Un brief, una bozza, un'immagine, una serie di FAQ o un elenco di punti chiave richiedono da uno a tre minuti; un audit AEO da due a quattro; un aggiornamento di contenuto da tre a sei. Una domanda di visibilità riceve risposta in pochi secondi e l'elenco delle opportunità in meno di un minuto. Se l'app dice che il lavoro è ancora in corso, chiedile di controllare di nuovo; ritira il risultato quando è pronto. Se il dispositivo host è spento o disconnesso, l'app riceve un messaggio che lo segnala.
 
 I lavori vengono eseguiti con l'account connesso sul dispositivo host, quindi la Library che leggono e scrivono è quella di quell'account. La tabella **Lavori recenti degli agenti** nelle Impostazioni mostra cosa è stato chiesto, da quale app e se è terminato.
 

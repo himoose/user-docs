@@ -14,6 +14,7 @@ Every tool except `list_projects` and `get_result` takes a **project**, by the n
 | Opportunities list | A few seconds to a minute |
 | Content brief, draft, FAQs, key points, featured image | One to three minutes |
 | AEO audit | Two to four minutes |
+| Content refresh | Three to six minutes |
 | Internal links | About a minute |
 | Audio episode | 5 minutes for short, 9 for standard, 15 for deep |
 
@@ -90,6 +91,24 @@ Writes a publishable first draft from a brief, in your brand's voice, grounded i
 Returns the draft as text plus a draft id. Saved in the Library.
 
 Ask: "Draft the article from that brief." or "Here is a brief I wrote, draft it for Acme: ..."
+
+### refresh_content
+
+Refreshes content you already have. Hi, Moose reads the current content, works out the search query it targets (or uses the one you give), runs the same live research as a content brief for that query, and compares the two: what still works, what reads as stale, facts to update, what ranking and cited pages cover that your content does not, and the questions searchers ask that it does not answer.
+
+| Input | Required | Meaning |
+|---|---|---|
+| url | one of the three | The live page. Best, because the comparison then uses exactly what is published. |
+| draftId | one of the three | A saved draft |
+| content | one of the three | The current content as text, up to 60,000 characters |
+| title | no | The title, when passing content as text |
+| targetQuery | no | The question or search prompt the refreshed content should win, up to 200 characters. Without it Hi, Moose detects the main query from the content and names it in the result. |
+| templateType | no | The kind of content, such as "Blog post" or "Landing page" |
+| guidance | no | Requirements for the refresh: sections to keep, points to add, tone. Up to 4,000 characters. |
+
+Returns two things, both saved in the Library: a refresh brief (the comparison, a change list, and a full content brief for the updated piece) and a revised draft that keeps the current structure, voice and links and applies the changes. Download the brief from the Library as PDF, Word or Markdown when you need to make the case for the refresh internally.
+
+Ask: "Refresh https://acme.example/guides/sbom." or "This article is two years old, refresh it for 'SBOM generation tools': ..."
 
 ### create_featured_image
 

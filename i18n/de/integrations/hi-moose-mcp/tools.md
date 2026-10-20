@@ -1,5 +1,5 @@
 ---
-source_hash: 02739399b48594689facbef6808edfaaedea42f90e6577cf6c6b9bb9f23939c1
+source_hash: 9f28cef13a975ad78da4716aa179f501b7552d5e70ee5517e47c8582b3e9d005
 ---
 
 # Werkzeug-Referenz
@@ -18,6 +18,7 @@ Jedes Werkzeug außer `list_projects` und `get_result` braucht ein **Projekt**, 
 | Chancenliste | Wenige Sekunden bis eine Minute |
 | Content-Briefing, Entwurf, FAQs, Kernaussagen, Beitragsbild | Ein bis drei Minuten |
 | AEO-Audit | Zwei bis vier Minuten |
+| Inhaltsaktualisierung | Drei bis sechs Minuten |
 | Interne Links | Etwa eine Minute |
 | Audio-Episode | 5 Minuten für kurz, 9 für standard, 15 für ausführlich |
 
@@ -94,6 +95,24 @@ Schreibt einen veröffentlichungsreifen ersten Entwurf aus einem Briefing, in de
 Gibt den Entwurf als Text zurück plus eine Entwurfs-ID. Wird in der Library gespeichert.
 
 Fragen Sie: „Schreibe den Artikel aus diesem Briefing.“ oder „Hier ist ein Briefing, das ich geschrieben habe, entwirf es für Acme: ...“
+
+### refresh_content
+
+Aktualisiert Inhalte, die Sie bereits haben. Hi, Moose liest den aktuellen Inhalt, ermittelt die Suchanfrage, auf die er abzielt (oder nutzt die von Ihnen genannte), führt dieselbe Live-Recherche wie für ein Content-Briefing zu dieser Anfrage durch und vergleicht beides: was noch funktioniert, was veraltet wirkt, welche Fakten zu aktualisieren sind, was die rankenden und zitierten Seiten abdecken und Ihr Inhalt nicht, und welche Fragen Suchende stellen, die er nicht beantwortet.
+
+| Eingabe | Erforderlich | Bedeutung |
+|---|---|---|
+| url | eine von dreien | Die veröffentlichte Seite. Am besten, denn dann vergleicht Hi, Moose genau das, was online ist. |
+| draftId | eine von dreien | Ein gespeicherter Entwurf |
+| content | eine von dreien | Der aktuelle Inhalt als Text, bis zu 60.000 Zeichen |
+| title | nein | Der Titel, wenn Sie den Inhalt als Text übergeben |
+| targetQuery | nein | Die Frage oder Suchanfrage, die der aktualisierte Inhalt gewinnen soll, bis zu 200 Zeichen. Ohne Angabe ermittelt Hi, Moose die Hauptanfrage aus dem Inhalt und nennt sie im Ergebnis. |
+| templateType | nein | Die Art des Inhalts, etwa „Blogbeitrag“ oder „Landingpage“ |
+| guidance | nein | Vorgaben für die Aktualisierung: Abschnitte, die bleiben sollen, Punkte, die dazukommen sollen, Tonalität. Bis zu 4.000 Zeichen. |
+
+Liefert zwei Dinge, beide in der Library gespeichert: ein Aktualisierungs-Briefing (den Vergleich, eine Änderungsliste und ein vollständiges Content-Briefing für die aktualisierte Fassung) und einen überarbeiteten Entwurf, der Struktur, Tonfall und Links beibehält und die Änderungen umsetzt. Laden Sie das Briefing aus der Library als PDF, Word oder Markdown herunter, wenn Sie die Aktualisierung intern begründen müssen.
+
+Fragen Sie: „Aktualisiere https://acme.example/guides/sbom.“ oder „Dieser Artikel ist zwei Jahre alt, aktualisiere ihn für ‚SBOM-Tools‘: ...“
 
 ### create_featured_image
 

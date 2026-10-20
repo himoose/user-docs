@@ -1,5 +1,5 @@
 ---
-source_hash: ab200c9b278260267dd0a5a64c7e5ca24b5e20ef4c200b250f090d4d14785fe8
+source_hash: 7b00b29f252379097b6d53c6cc6eb4e0a2d6c564e7b8f2040ee9bb3688947d3f
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -25,6 +25,7 @@ Com as ferramentas atuais, um app conectado pode:
 - Verificar se o seu site já cobre um tema, com as páginas que o cobrem e a data do rastreamento verificado
 - Criar um brief de conteúdo
 - Escrever um rascunho a partir de um brief
+- Atualizar conteúdo que você já tem: comparar uma página publicada, um rascunho salvo ou um texto colado com os resultados de pesquisa atuais e receber um brief de atualização com as lacunas e um rascunho revisado
 - Criar uma imagem destacada
 - Escrever perguntas frequentes com esquema FAQPage para um rascunho salvo ou uma página do seu site
 - Escrever os pontos-chave de um rascunho salvo ou de uma página do seu site
@@ -108,7 +109,7 @@ https://mcp.himoose.com/mcp
 2. O Hi, Moose MCP o repassa ao dispositivo host, que executa o trabalho com o rastreamento, o Brand Truth e a pesquisa do projeto.
 3. O resultado volta para o app e é salvo na sua Library.
 
-Um brief, rascunho, imagem, conjunto de perguntas frequentes ou lista de pontos-chave leva de um a três minutos; uma auditoria AEO, de dois a quatro. Uma pergunta de visibilidade é respondida em poucos segundos e a lista de oportunidades em menos de um minuto. Se o app disser que o trabalho ainda está em andamento, peça para ele verificar de novo; ele busca o resultado quando estiver pronto. Se o dispositivo host estiver desligado ou desconectado, o app recebe uma mensagem informando isso.
+Um brief, rascunho, imagem, conjunto de perguntas frequentes ou lista de pontos-chave leva de um a três minutos; uma auditoria AEO, de dois a quatro; uma atualização de conteúdo, de três a seis. Uma pergunta de visibilidade é respondida em poucos segundos e a lista de oportunidades em menos de um minuto. Se o app disser que o trabalho ainda está em andamento, peça para ele verificar de novo; ele busca o resultado quando estiver pronto. Se o dispositivo host estiver desligado ou desconectado, o app recebe uma mensagem informando isso.
 
 Os trabalhos rodam com a conta que está com a sessão iniciada no dispositivo host, então a Library que eles leem e gravam é a dessa conta. A tabela **Trabalhos recentes de agentes** em Configurações mostra o que foi pedido, por qual app e se terminou.
 

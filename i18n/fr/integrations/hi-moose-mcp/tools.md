@@ -1,5 +1,5 @@
 ---
-source_hash: 02739399b48594689facbef6808edfaaedea42f90e6577cf6c6b9bb9f23939c1
+source_hash: 9f28cef13a975ad78da4716aa179f501b7552d5e70ee5517e47c8582b3e9d005
 ---
 
 # Référence des outils
@@ -18,6 +18,7 @@ Chaque outil sauf `list_projects` et `get_result` prend un **projet**, par le no
 | Liste des opportunités | De quelques secondes à une minute |
 | Brief de contenu, brouillon, FAQ, points clés, image à la une | Une à trois minutes |
 | Audit AEO | Deux à quatre minutes |
+| Actualisation de contenu | Trois à six minutes |
 | Liens internes | Environ une minute |
 | Épisode audio | 5 minutes pour court, 9 pour standard, 15 pour approfondi |
 
@@ -94,6 +95,24 @@ Rédige un premier brouillon publiable à partir d'un brief, dans la voix de vot
 Renvoie le brouillon en texte plus un identifiant de brouillon. Enregistré dans la Library.
 
 Demandez : « Rédige l'article à partir de ce brief. » ou « Voici un brief que j'ai écrit, rédige-le pour Acme : ... »
+
+### refresh_content
+
+Actualise un contenu que vous avez déjà. Hi, Moose lit le contenu actuel, déduit la requête de recherche qu'il vise (ou utilise celle que vous indiquez), mène la même recherche en direct qu'un brief de contenu pour cette requête et compare les deux : ce qui fonctionne encore, ce qui paraît dépassé, les faits à mettre à jour, ce que les pages classées et citées couvrent et que votre contenu ne couvre pas, et les questions que posent les internautes auxquelles il ne répond pas.
+
+| Entrée | Obligatoire | Signification |
+|---|---|---|
+| url | une des trois | La page en ligne. Le meilleur choix, car la comparaison porte alors exactement sur ce qui est publié. |
+| draftId | une des trois | Un brouillon enregistré |
+| content | une des trois | Le contenu actuel sous forme de texte, jusqu'à 60 000 caractères |
+| title | non | Le titre, quand vous transmettez le contenu sous forme de texte |
+| targetQuery | non | La question ou la requête de recherche que le contenu actualisé doit remporter, jusqu'à 200 caractères. Sans elle, Hi, Moose détecte la requête principale à partir du contenu et la nomme dans le résultat. |
+| templateType | non | Le type de contenu, par exemple « Article de blog » ou « Page d'atterrissage » |
+| guidance | non | Les exigences pour l'actualisation : sections à conserver, points à ajouter, ton. Jusqu'à 4 000 caractères. |
+
+Renvoie deux éléments, tous deux enregistrés dans la Library : un brief d'actualisation (la comparaison, une liste de modifications et un brief de contenu complet pour la version mise à jour) et un brouillon révisé qui conserve la structure, la voix et les liens actuels et applique les modifications. Téléchargez le brief depuis la Library en PDF, Word ou Markdown quand vous devez justifier l'actualisation en interne.
+
+Demandez : « Actualise https://acme.example/guides/sbom. » ou « Cet article a deux ans, actualise-le pour "outils de génération de SBOM" : ... »
 
 ### create_featured_image
 

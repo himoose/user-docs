@@ -1,5 +1,5 @@
 ---
-source_hash: ab200c9b278260267dd0a5a64c7e5ca24b5e20ef4c200b250f090d4d14785fe8
+source_hash: 7b00b29f252379097b6d53c6cc6eb4e0a2d6c564e7b8f2040ee9bb3688947d3f
 ---
 # Hi, Moose MCP
 
@@ -20,6 +20,7 @@ Con las herramientas actuales, una app conectada puede:
 - Comprobar si tu sitio ya cubre un tema, con las páginas que lo cubren y la fecha del rastreo comprobado
 - Crear un brief de contenido
 - Escribir un borrador a partir de un brief
+- Actualizar contenido que ya tienes: comparar una página publicada, un borrador guardado o un texto pegado con los resultados de búsqueda actuales y recibir un brief de actualización con las carencias y un borrador revisado
 - Crear una imagen destacada
 - Escribir preguntas frecuentes con esquema FAQPage para un borrador guardado o una página de tu sitio
 - Escribir los puntos clave de un borrador guardado o de una página de tu sitio
@@ -103,7 +104,7 @@ https://mcp.himoose.com/mcp
 2. Hi, Moose MCP la pasa al dispositivo anfitrión, que ejecuta el trabajo con el rastreo, el Brand Truth y la investigación del proyecto.
 3. El resultado vuelve a la app y se guarda en tu Library.
 
-Un brief, un borrador, una imagen, un conjunto de preguntas frecuentes o una lista de puntos clave tardan de uno a tres minutos; una auditoría AEO, de dos a cuatro. Una pregunta de visibilidad se responde en unos segundos y la lista de oportunidades, en menos de un minuto. Si la app dice que el trabajo sigue en curso, pídele que vuelva a comprobarlo; recoge el resultado cuando está listo. Si el dispositivo anfitrión está apagado o sin sesión, la app recibe un mensaje que lo indica.
+Un brief, un borrador, una imagen, un conjunto de preguntas frecuentes o una lista de puntos clave tardan de uno a tres minutos; una auditoría AEO, de dos a cuatro; una actualización de contenido, de tres a seis. Una pregunta de visibilidad se responde en unos segundos y la lista de oportunidades, en menos de un minuto. Si la app dice que el trabajo sigue en curso, pídele que vuelva a comprobarlo; recoge el resultado cuando está listo. Si el dispositivo anfitrión está apagado o sin sesión, la app recibe un mensaje que lo indica.
 
 Los trabajos se ejecutan con la cuenta con sesión iniciada en el dispositivo anfitrión, así que la Library que leen y escriben es la de esa cuenta. La tabla **Trabajos recientes de agentes** en Ajustes muestra qué se pidió, desde qué app y si terminó.
 

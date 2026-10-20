@@ -1,5 +1,5 @@
 ---
-source_hash: ab200c9b278260267dd0a5a64c7e5ca24b5e20ef4c200b250f090d4d14785fe8
+source_hash: 7b00b29f252379097b6d53c6cc6eb4e0a2d6c564e7b8f2040ee9bb3688947d3f
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -25,6 +25,7 @@ Mit den aktuellen Werkzeugen kann eine verbundene App:
 - Prüfen, ob Ihre Website ein Thema schon abdeckt, mit den passenden Seiten und dem Datum des geprüften Crawls
 - Ein Content-Briefing erstellen
 - Einen Entwurf aus einem Briefing schreiben
+- Bestehende Inhalte aktualisieren: eine veröffentlichte Seite, einen gespeicherten Entwurf oder eingefügten Text mit den aktuellen Suchergebnissen vergleichen und ein Aktualisierungs-Briefing mit den Lücken sowie einen überarbeiteten Entwurf erhalten
 - Ein Beitragsbild erstellen
 - FAQs mit FAQPage-Schema für einen gespeicherten Entwurf oder eine Seite Ihrer Website schreiben
 - Kernaussagen für einen gespeicherten Entwurf oder eine Seite Ihrer Website schreiben
@@ -108,7 +109,7 @@ https://mcp.himoose.com/mcp
 2. Hi, Moose MCP übergibt sie an das Host-Gerät, das die Arbeit mit dem Crawl, Brand Truth und der Recherche des Projekts ausführt.
 3. Das Ergebnis geht an die App zurück und wird in Ihrer Library gespeichert.
 
-Ein Briefing, ein Entwurf, ein Bild, ein FAQ-Satz oder eine Liste von Kernaussagen dauert ein bis drei Minuten, ein AEO-Audit zwei bis vier. Eine Sichtbarkeitsfrage wird in wenigen Sekunden beantwortet, die Chancenliste in unter einer Minute. Sagt die App, die Arbeit laufe noch, bitten Sie sie, erneut nachzusehen; sie holt das Ergebnis ab, sobald es fertig ist. Ist das Host-Gerät aus oder abgemeldet, erhält die App eine entsprechende Meldung.
+Ein Briefing, ein Entwurf, ein Bild, ein FAQ-Satz oder eine Liste von Kernaussagen dauert ein bis drei Minuten, ein AEO-Audit zwei bis vier, eine Inhaltsaktualisierung drei bis sechs. Eine Sichtbarkeitsfrage wird in wenigen Sekunden beantwortet, die Chancenliste in unter einer Minute. Sagt die App, die Arbeit laufe noch, bitten Sie sie, erneut nachzusehen; sie holt das Ergebnis ab, sobald es fertig ist. Ist das Host-Gerät aus oder abgemeldet, erhält die App eine entsprechende Meldung.
 
 Aufträge laufen unter dem Konto, das auf dem Host-Gerät angemeldet ist. Die Library, die sie lesen und beschreiben, ist also die Library dieses Kontos. Die Tabelle **Letzte Agenten-Aufträge** in den Einstellungen zeigt, was angefragt wurde, von welcher App, und ob es fertig wurde.
 

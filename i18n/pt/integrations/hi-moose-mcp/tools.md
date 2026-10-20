@@ -1,5 +1,5 @@
 ---
-source_hash: 02739399b48594689facbef6808edfaaedea42f90e6577cf6c6b9bb9f23939c1
+source_hash: 9f28cef13a975ad78da4716aa179f501b7552d5e70ee5517e47c8582b3e9d005
 ---
 
 # Referência de ferramentas
@@ -18,6 +18,7 @@ Todas as ferramentas, exceto `list_projects` e `get_result`, recebem um **projet
 | Lista de oportunidades | De alguns segundos a um minuto |
 | Brief de conteúdo, rascunho, perguntas frequentes, pontos-chave, imagem destacada | De um a três minutos |
 | Auditoria AEO | De dois a quatro minutos |
+| Atualização de conteúdo | De três a seis minutos |
 | Links internos | Cerca de um minuto |
 | Episódio de áudio | 5 minutos para curto, 9 para padrão, 15 para profundo |
 
@@ -94,6 +95,24 @@ Escreve um primeiro rascunho publicável a partir de um brief, na voz da sua mar
 Devolve o rascunho como texto mais um id de rascunho. Salvo na Library.
 
 Peça: "Escreva o artigo a partir daquele brief." ou "Aqui está um brief que eu escrevi, faça o rascunho para a Acme: ..."
+
+### refresh_content
+
+Atualiza conteúdo que você já tem. O Hi, Moose lê o conteúdo atual, identifica a consulta de pesquisa que ele mira (ou usa a que você informar), executa a mesma pesquisa ao vivo de um brief de conteúdo para essa consulta e compara os dois: o que ainda funciona, o que parece desatualizado, fatos a atualizar, o que as páginas ranqueadas e citadas cobrem e o seu conteúdo não cobre, e as perguntas que as pessoas fazem e ele não responde.
+
+| Entrada | Obrigatória | Significado |
+|---|---|---|
+| url | uma das três | A página publicada. A melhor opção, porque a comparação usa exatamente o que está no ar. |
+| draftId | uma das três | Um rascunho salvo |
+| content | uma das três | O conteúdo atual como texto, até 60.000 caracteres |
+| title | não | O título, quando você passa o conteúdo como texto |
+| targetQuery | não | A pergunta ou consulta de pesquisa que o conteúdo atualizado deve vencer, até 200 caracteres. Sem ela, o Hi, Moose detecta a consulta principal a partir do conteúdo e a indica no resultado. |
+| templateType | não | O tipo de conteúdo, como "Post de blog" ou "Página de destino" |
+| guidance | não | Requisitos para a atualização: seções a manter, pontos a acrescentar, tom. Até 4.000 caracteres. |
+
+Retorna duas coisas, ambas salvas na Library: um brief de atualização (a comparação, uma lista de mudanças e um brief de conteúdo completo para a versão atualizada) e um rascunho revisado que mantém a estrutura, a voz e os links atuais e aplica as mudanças. Baixe o brief na Library em PDF, Word ou Markdown quando precisar justificar a atualização internamente.
+
+Peça: "Atualize https://acme.example/guides/sbom." ou "Este artigo tem dois anos, atualize-o para 'ferramentas de geração de SBOM': ..."
 
 ### create_featured_image
 

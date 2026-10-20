@@ -1,5 +1,5 @@
 ---
-source_hash: 02739399b48594689facbef6808edfaaedea42f90e6577cf6c6b9bb9f23939c1
+source_hash: 9f28cef13a975ad78da4716aa179f501b7552d5e70ee5517e47c8582b3e9d005
 ---
 
 # Riferimento degli strumenti
@@ -18,6 +18,7 @@ Ogni strumento tranne `list_projects` e `get_result` riceve un **progetto**, con
 | Elenco delle opportunità | Da pochi secondi a un minuto |
 | Brief di contenuto, bozza, FAQ, punti chiave, immagine in evidenza | Da uno a tre minuti |
 | Audit AEO | Da due a quattro minuti |
+| Aggiornamento contenuto | Da tre a sei minuti |
 | Link interni | Circa un minuto |
 | Episodio audio | 5 minuti per short, 9 per standard, 15 per deep |
 
@@ -94,6 +95,24 @@ Scrive una prima bozza pubblicabile da un brief, nella voce del tuo brand, fonda
 Restituisce la bozza come testo più un id della bozza. Salvata nella Library.
 
 Chiedi: «Scrivi l'articolo da quel brief.» oppure «Ecco un brief che ho scritto, scrivi la bozza per Acme: ...»
+
+### refresh_content
+
+Aggiorna un contenuto che hai già. Hi, Moose legge il contenuto attuale, ricava la query di ricerca a cui punta (o usa quella che indichi), esegue la stessa ricerca dal vivo di un brief di contenuto per quella query e confronta i due: cosa funziona ancora, cosa sembra datato, quali fatti vanno aggiornati, cosa coprono le pagine posizionate e citate che il tuo contenuto non copre, e quali domande fanno gli utenti a cui non risponde.
+
+| Input | Obbligatorio | Significato |
+|---|---|---|
+| url | uno dei tre | La pagina pubblicata. La scelta migliore, perché il confronto usa esattamente ciò che è online. |
+| draftId | uno dei tre | Una bozza salvata |
+| content | uno dei tre | Il contenuto attuale come testo, fino a 60.000 caratteri |
+| title | no | Il titolo, quando passi il contenuto come testo |
+| targetQuery | no | La domanda o la query di ricerca che il contenuto aggiornato deve vincere, fino a 200 caratteri. Senza di essa Hi, Moose individua la query principale dal contenuto e la indica nel risultato. |
+| templateType | no | Il tipo di contenuto, per esempio "Articolo del blog" o "Pagina di destinazione" |
+| guidance | no | Requisiti per l'aggiornamento: sezioni da mantenere, punti da aggiungere, tono. Fino a 4.000 caratteri. |
+
+Restituisce due cose, entrambe salvate nella Library: un brief di aggiornamento (il confronto, un elenco di modifiche e un brief di contenuto completo per la versione aggiornata) e una bozza revisionata che mantiene struttura, voce e link attuali e applica le modifiche. Scarica il brief dalla Library come PDF, Word o Markdown quando devi motivare l'aggiornamento internamente.
+
+Chiedi: "Aggiorna https://acme.example/guides/sbom." oppure "Questo articolo ha due anni, aggiornalo per 'strumenti per generare SBOM': ..."
 
 ### create_featured_image
 
