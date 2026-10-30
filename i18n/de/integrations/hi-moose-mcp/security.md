@@ -1,5 +1,5 @@
 ---
-source_hash: f262de43811a037ebe40f0f411828409a4bc1eda0f592f12d08358e5530d41e6
+source_hash: f50d42778eec26eb2b371241e3833f13730f3bbd068b5d5e0ebfe295c2d59507
 ---
 
 # Sicherheit und Datenverarbeitung
@@ -96,7 +96,7 @@ Was das für Ihre Daten bedeutet:
 
 Manche Ergebnisse enthalten Text, den Hi, Moose nicht geschrieben hat: Passagen von Seiten Ihrer Website, aus einer Seite zitierten Ankertext, kurze Auszüge dessen, was eine KI-Suchmaschine geantwortet hat, oder den vollständigen Text einer gespeicherten Antwort. Solcher Text könnte Anweisungen enthalten, die sich an einen KI-Agenten richten. OWASP nennt das indirekte Prompt-Injection.
 
-Jedes Ergebnis mit fremdem Text markiert ihn. Der Text kommt zwischen einer Start- und einer Endmarkierung zurück, davor eine Zeile, die die Herkunft nennt und festhält, dass alles zwischen den Markierungen Daten sind, keine Anweisungen. Die strukturierte Form desselben Ergebnisses trägt ein Feld `dataNotice`, das dasselbe sagt. Das gilt für `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer` und `visibility_list_opportunities`.
+Jedes Ergebnis mit fremdem Text markiert ihn. Der Text kommt zwischen einer Start- und einer Endmarkierung zurück, davor eine Zeile, die die Herkunft nennt und festhält, dass alles zwischen den Markierungen Daten sind, keine Anweisungen. Die strukturierte Form desselben Ergebnisses trägt ein Feld `dataNotice`, das dasselbe sagt. Das gilt für `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `visibility_list_tracked`, `visibility_get_summary` und `visibility_list_results`.
 
 Briefings, Entwürfe, FAQs, Kernaussagen und Audio-Skripte schreibt Hi, Moose für Sie. Die Recherche dahinter wird auf dem Host-Gerät gelesen und nicht an den Agenten durchgereicht.
 
