@@ -1,5 +1,5 @@
 ---
-source_hash: 9f28cef13a975ad78da4716aa179f501b7552d5e70ee5517e47c8582b3e9d005
+source_hash: c90c357b8a3c44af4f16e7c329b944d63b3b01e0de53381d49c1bbaf6d9304bd
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -21,6 +21,7 @@ Jedes Werkzeug außer `list_projects` und `get_result` braucht ein **Projekt**, 
 | Site-Abdeckung prüfen | Unter einer Minute |
 | Sichtbarkeitsfrage, eine Antwort lesen | Wenige Sekunden |
 | Chancenliste | Wenige Sekunden bis eine Minute |
+| Verfolgungsliste, Sichtbarkeits-Zusammenfassung, Ergebnisliste | Wenige Sekunden |
 | Content-Briefing, Entwurf, FAQs, Kernaussagen, Beitragsbild | Ein bis drei Minuten |
 | AEO-Audit | Zwei bis vier Minuten |
 | Inhaltsaktualisierung | Drei bis sechs Minuten |
@@ -227,6 +228,58 @@ Gibt die priorisierte Arbeitsliste zurück, die Hi, Moose aus gespeicherten Sich
 Die fünf Arten von Zeilen: **create-coverage** (keine Ihrer Seiten beantwortet einen Prompt, den Wettbewerber gewinnen), **improve-page** (eine Ihrer Seiten wird zitiert oder ist der nächstliegende Treffer, aber die Marke fehlt oder liegt hinten), **earn-inclusion** (eine Drittseite, die die Engines zitieren, nennt Wettbewerber, aber nicht Sie), **correct-description** (Antworten wiederholen eine Aussage über die Marke, die geprüft werden muss) und **investigate-change** (die Marke wurde früher genannt oder zitiert und jetzt nicht mehr).
 
 Fragen Sie: „Woran sollen wir diese Woche für die KI-Suche arbeiten?“ und dann „Zeige mir die Belege für die erste.“
+
+## Sichtbarkeitsdaten für Berichte und Dashboards
+
+Drei Werkzeuge liefern die gespeicherten Sichtbarkeitsdaten als strukturiertes JSON mit veröffentlichtem Ausgabeschema, sodass sich ein Skill, ein Skript oder ein Dashboard auf die Feldnamen verlassen kann. Sie nehmen dieselben Filter wie der Bildschirm Sichtbarkeit in Hi, Moose. Jede Zahl deckt die verfolgten Prompts auf den verfolgten Engines an den Tagen mit Durchläufen ab, nie die gesamte KI-Suche.
+
+### visibility_list_tracked
+
+Listet auf, was das Projekt verfolgt, und die genauen Werte, die die anderen beiden Werkzeuge als Filter annehmen: jeden verfolgten Prompt mit ID, Themen, Engines und ob er markenbezogen ist oder nicht; die Themen und Engines mit Prompt-Anzahl; die verfolgten Wettbewerber; Markenname, Aliasse und eigene Domains; den Ausführungsplan; und den Zeitraum der gespeicherten Antworten (erster und letzter Tag, gespeicherte Antworten, gesehene Engines und Themen). Die App ruft dieses Werkzeug zuerst auf, wenn Sie ein Thema, eine Engine, einen Prompt, eine Seite oder einen Wettbewerber nennen.
+
+Fragen Sie: „Was verfolgen wir in der KI-Suche für Acme?“
+
+### visibility_get_summary
+
+Liefert die Zahlen hinter dem Sichtbarkeits-Dashboard für einen Zeitraum.
+
+| Eingabe | Pflicht | Bedeutung |
+|---|---|---|
+| from, to | nein | Der Zeitraum als JJJJ-MM-TT. Standard: die letzten 30 Tage. Höchstens 400 Tage. |
+| lookbackDays | nein | Länge des Zeitraums, wenn from fehlt. Standard 30. |
+| topics, engines, prompts | nein | Nur diese Themen, Engines oder Prompts, mit den genauen Werten aus `visibility_list_tracked`. Ein einfacher Engine-Name wie „ChatGPT“ schließt auch die Local-Fetch-Variante ein. |
+| promptType | nein | `branded` (der Prompt nennt die Marke, einen Alias oder eine eigene Domain) oder `non-branded` |
+| pages | nein | Nur Prompts, deren Antworten eine dieser Seiten-URLs zitiert haben, dann alle Engines dieser Prompts, so wie der Seitenfilter in der App arbeitet |
+| sentiment | nein | `positive`, `mixed`, `neutral` oder `negative`. Gilt für Antworten, in denen die Marke genannt wurde. |
+| narrative | nein | `aligned`, `partial` oder `drifted`, das Narrativ-Urteil gegenüber dem Brand Truth Profile |
+| featureParity | nein | `accurate`, `needs-review`, `inaccurate` oder `not-applicable` |
+| mentioned, cited | nein | true oder false, um nur Antworten zu behalten, die die Marke nennen oder zitieren, oder nur die, die es nicht tun |
+| competitor | nein | Nur Antworten, die diesen Wettbewerber nennen, nach Name |
+| sections | nein | Welche Blöcke zurückkommen: `totals` (immer), `engines`, `topics`, `prompts`, `trend` (pro Tag), `competitors` (Share of Voice, pro Engine und Thema, Seiten, von denen Wettbewerber zitiert werden, Prompts, die Wettbewerber gewinnen), `citations` (Seiten und Domains, die die Engines zitieren, eigene Seiten markiert), `mentions` (jede genannte Marke mit Rang und Stimmung). Standard totals, engines und topics. |
+| compare | nein | true liefert zusätzlich die Summen für den gleich langen Zeitraum unmittelbar davor |
+| compareFrom, compareTo | nein | Ein eigener Vergleichszeitraum |
+
+Jeder Block enthält die Zahl der Antworten, wie viele nicht verfügbar waren, die Nennungen und Zitate, die Nennungs- und Zitierraten, den durchschnittlichen Rang der Marke sowie die Zählungen zu Stimmung, Narrativ und Funktionsparität. Raten sind Anteile der Antworten; nicht verfügbare Antworten bleiben dabei außen vor.
+
+Fragen Sie: „Gib mir die Sichtbarkeits-Zusammenfassung für September im Vergleich zu August, nach Engine und Thema.“ oder „Share of Voice gegenüber den Wettbewerbern für das Thema SBOM, letzte 90 Tage.“
+
+### visibility_list_results
+
+Listet die gespeicherten Antworten auf, eine Zeile pro Prompt, Engine und Durchlauf, neueste zuerst, mit denselben Filtern wie die Zusammenfassung.
+
+| Eingabe | Pflicht | Bedeutung |
+|---|---|---|
+| from, to, lookbackDays, topics, engines, prompts, promptType, pages, sentiment, narrative, featureParity, mentioned, cited, competitor | nein | Dieselben Filter wie `visibility_get_summary` |
+| fields | nein | `compact` (Standard) oder `full`. Full ergänzt die Begründungen des Bewerters, die von der Engine genannten Quellen, jede genannte Marke mit Rang und Stimmung und einen kurzen Auszug der Antwort. |
+| sort | nein | `newest` (Standard) oder `oldest` |
+| pageSize | nein | Zeilen pro Seite. Standard 50, höchstens 200. |
+| cursor | nein | Der `nextCursor` der vorherigen Seite, mit denselben Filtern |
+
+Jede Zeile enthält die Antwort-ID, das Datum, die Durchlauf-ID, Engine, Thema, Prompt, markenbezogen oder nicht, ob die Marke genannt und zitiert wurde, ihren Rang, die zitierte Seite, die Urteile zu Stimmung, Narrativ und Funktionsparität sowie die genannten und zitierten Wettbewerber. Die Antwort-ID funktioniert mit `visibility_get_answer` für den vollständigen Text.
+
+Fragen Sie: „Liste jede Antwort der letzten zwei Wochen auf, in der ein Wettbewerber genannt wurde und wir nicht, als Tabelle.“ oder „Exportiere die Perplexity-Ergebnisse von Oktober in eine Tabellenkalkulation.“
+
+Das Ausgabeschema jedes Werkzeugs ist Teil der Werkzeugliste, die der Server unter `https://mcp.himoose.com/tools.json` veröffentlicht, Sie können es also dem Assistenten geben, der Ihren Skill oder Ihr Skript schreibt.
 
 ## Audio
 

@@ -12,6 +12,7 @@ Every tool except `list_projects` and `get_result` takes a **project**, by the n
 | Check site coverage | Under a minute |
 | Visibility check, read an answer | A few seconds |
 | Opportunities list | A few seconds to a minute |
+| Tracked list, visibility summary, results list | A few seconds |
 | Content brief, draft, FAQs, key points, featured image | One to three minutes |
 | AEO audit | Two to four minutes |
 | Content refresh | Three to six minutes |
@@ -218,6 +219,58 @@ Returns the ranked work queue Hi, Moose builds from stored visibility results, t
 The five kinds of row: **create-coverage** (no page of yours answers a prompt competitors win), **improve-page** (a page of yours is cited or is the closest match but the brand is left out or ranked behind), **earn-inclusion** (a third-party page the engines cite names competitors but not you), **correct-description** (answers repeat a claim about the brand that needs checking) and **investigate-change** (the brand was named or cited before and is not any more).
 
 Ask: "What should we work on for AI search this week?" then "Show me the evidence for the first one."
+
+## Visibility data for reports and dashboards
+
+Three tools return the stored visibility data as structured JSON with a published output schema, so a Skill, a script or a dashboard can rely on the field names. They take the same filters as the Visibility screen in Hi, Moose. Every number covers the tracked prompts on the tracked engines on the days runs happened, never the whole of AI search.
+
+### visibility_list_tracked
+
+Lists what the project tracks and the exact values the other two tools accept as filters: every tracked prompt with its id, topics, engines and whether it is branded or non-branded; the topics and engines with prompt counts; the tracked competitors; the brand name, aliases and owned domains; the run schedule; and the span of stored answers (first and last day, answers stored, engines and topics seen). The app calls this first when you name a topic, engine, prompt, page or competitor.
+
+Ask: "What do we track in AI search for Acme?"
+
+### visibility_get_summary
+
+Returns the numbers behind the Visibility dashboard for one date range.
+
+| Input | Required | Meaning |
+|---|---|---|
+| from, to | no | The window as YYYY-MM-DD. Default: the last 30 days. At most 400 days. |
+| lookbackDays | no | Window length when from is not given. Default 30. |
+| topics, engines, prompts | no | Only these topics, engines or prompts, by the exact values from `visibility_list_tracked`. A plain engine name such as "ChatGPT" also matches its local-fetch variant. |
+| promptType | no | `branded` (the prompt names the brand, an alias or an owned domain) or `non-branded` |
+| pages | no | Only prompts whose answers cited one of these page URLs, then every engine for those prompts, which is how the Page filter works in the app |
+| sentiment | no | `positive`, `mixed`, `neutral` or `negative`. Applies to answers where the brand was mentioned. |
+| narrative | no | `aligned`, `partial` or `drifted`, the narrative verdict against the Brand Truth Profile |
+| featureParity | no | `accurate`, `needs-review`, `inaccurate` or `not-applicable` |
+| mentioned, cited | no | true or false, to keep only answers that mention or cite the brand, or only those that do not |
+| competitor | no | Only answers that mention this competitor, by name |
+| sections | no | Which blocks to return: `totals` (always), `engines`, `topics`, `prompts`, `trend` (per day), `competitors` (share of voice, per engine and topic, pages competitors get cited from, prompts competitors win), `citations` (pages and domains the engines cite, own pages flagged), `mentions` (every brand named, with rank and sentiment). Default totals, engines and topics. |
+| compare | no | true also returns the totals for the window of the same length immediately before |
+| compareFrom, compareTo | no | A custom comparison window instead |
+
+Each block carries the answer count, how many were unavailable, mentioned and cited counts, mention and cite rates, the average rank of the brand, and the sentiment, narrative and feature parity counts. Rates are fractions of answers; unavailable answers are left out of them.
+
+Ask: "Give me the visibility summary for September with a comparison to August, by engine and topic." or "Share of voice against competitors for the SBOM topic, last 90 days."
+
+### visibility_list_results
+
+Lists the stored answers one row per prompt, engine and run, newest first, with the same filters as the summary.
+
+| Input | Required | Meaning |
+|---|---|---|
+| from, to, lookbackDays, topics, engines, prompts, promptType, pages, sentiment, narrative, featureParity, mentioned, cited, competitor | no | The same filters as `visibility_get_summary` |
+| fields | no | `compact` (default) or `full`. Full adds the scorer reasons, the sources the engine listed, every brand named with its rank and sentiment, and a short excerpt of the answer. |
+| sort | no | `newest` (default) or `oldest` |
+| pageSize | no | Rows per page. Default 50, at most 200. |
+| cursor | no | The `nextCursor` from the previous page, with the same filters |
+
+Each row carries the answer id, date, run id, engine, topic, prompt, branded or non-branded, whether the brand was mentioned and cited, its rank, the page cited, the sentiment, narrative and feature parity verdicts, and the competitors mentioned and cited. The answer id works with `visibility_get_answer` for the full text.
+
+Ask: "List every answer from the last two weeks where a competitor was named and we were not, as a table." or "Export the Perplexity results for October to a spreadsheet."
+
+The output schema of each tool is part of the tool list the server publishes at `https://mcp.himoose.com/tools.json`, so you can hand it to the assistant that writes your Skill or script.
 
 ## Audio
 

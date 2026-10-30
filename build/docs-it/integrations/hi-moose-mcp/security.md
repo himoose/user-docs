@@ -1,5 +1,5 @@
 ---
-source_hash: f262de43811a037ebe40f0f411828409a4bc1eda0f592f12d08358e5530d41e6
+source_hash: f50d42778eec26eb2b371241e3833f13730f3bbd068b5d5e0ebfe295c2d59507
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -101,7 +101,7 @@ Cosa significa per i tuoi dati:
 
 Alcuni risultati contengono testo che Hi, Moose non ha scritto: passaggi di pagine del tuo sito, testo di ancoraggio citato da una pagina, brevi estratti di ciò che ha risposto un motore di IA, o il testo completo di una risposta archiviata. Un testo così potrebbe contenere istruzioni rivolte a un agente di IA. OWASP lo chiama prompt injection indiretta.
 
-Ogni risultato che contiene testo esterno lo contrassegna. Il testo torna tra un marcatore di inizio e uno di fine, preceduto da una riga che ne indica la provenienza e dice che tutto ciò che sta tra i marcatori sono dati, non istruzioni. La forma strutturata dello stesso risultato porta un campo `dataNotice` che dice la stessa cosa. Vale per `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer` e `visibility_list_opportunities`.
+Ogni risultato che contiene testo esterno lo contrassegna. Il testo torna tra un marcatore di inizio e uno di fine, preceduto da una riga che ne indica la provenienza e dice che tutto ciò che sta tra i marcatori sono dati, non istruzioni. La forma strutturata dello stesso risultato porta un campo `dataNotice` che dice la stessa cosa. Vale per `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `visibility_list_tracked`, `visibility_get_summary` e `visibility_list_results`.
 
 Brief, bozze, FAQ, punti chiave e copioni audio sono scritti da Hi, Moose per te. La ricerca alle loro spalle viene letta sul dispositivo host e non viene passata all'agente.
 
