@@ -1,5 +1,5 @@
 ---
-source_hash: 7b00b29f252379097b6d53c6cc6eb4e0a2d6c564e7b8f2040ee9bb3688947d3f
+source_hash: c0e86aa287011385729b74d0356154a633aae41651da6757d60dc8ad873cee3a
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -102,6 +102,45 @@ Qualquer app que consiga adicionar um servidor MCP remoto com login OAuth funcio
 ```text
 https://mcp.himoose.com/mcp
 ```
+
+## Skills para Claude e ChatGPT
+
+O Hi, Moose publica no GitHub skills gratuitas e de código aberto para otimização para mecanismos de resposta (AEO), também chamada de GEO ou AI SEO: [himoose/aeo-skills](https://github.com/himoose/aeo-skills) (licença MIT). Uma skill é uma pasta de instruções que o seu app de IA segue para um tipo específico de tarefa; estas usam o formato aberto [Agent Skills](https://agentskills.io).
+
+A primeira skill, `ai-visibility`, lê pelo Hi, Moose MCP os resultados de busca com IA que o Hi, Moose já salvou. Ela nunca executa novas verificações, não muda configurações e não publica nada. Peça, por exemplo:
+
+- "Crie meu painel de visibilidade na busca com IA." Este é o resultado padrão: um painel interativo em uma única página HTML. Escolha 7, 30 ou 90 dias ou as suas próprias datas, filtre por mecanismo de IA, passe o mouse sobre um gráfico para ver os números, compare a sua marca monitorada com os concorrentes, veja as respostas que deixaram a sua marca de fora e avance por uma lista de tarefas com botões **Open in Hi, Moose**. Os gráficos são salvos como PNG, os números como CSV e a página como PDF.
+- "Escreva meu relatório de visibilidade na busca com IA como texto para um e-mail." Você recebe um relatório escrito curto.
+- "No que devo trabalhar esta semana para aparecer mais na busca com IA?" Você recebe as suas correções em aberto como uma lista de tarefas ordenada por prioridade.
+
+A skill funciona em todos os planos. As pontuações de sentimento, narrativa e precisão de recursos fazem parte dos planos pagos; menções, citações, posição e concorrentes funcionam em todos os planos. Como em qualquer ferramenta do Hi, Moose MCP, mantenha o Hi, Moose aberto no dispositivo host enquanto pergunta.
+
+### Adicionar a skill no Claude.ai ou no app de desktop do Claude
+
+1. Na [página do GitHub](https://github.com/himoose/aeo-skills), clique em **Code → Download ZIP** e descompacte o arquivo.
+2. Abra a pasta `skills` e compacte em ZIP apenas a pasta `ai-visibility`, para ter `ai-visibility.zip` com a pasta `ai-visibility` dentro.
+3. No Claude, vá em **Customize → Skills**, clique em **+**, depois em **Create skill → Upload a skill**, e escolha `ai-visibility.zip`.
+4. Verifique se **code execution** está ativado nas configurações do Claude; as skills precisam disso.
+5. Comece um chat novo, verifique se o conector do Hi, Moose está ativado nele e faça o seu pedido.
+
+### Adicionar a skill no Claude Code
+
+O repositório também é um plugin do Claude Code. Uma única instalação adiciona a skill e o conector do Hi, Moose:
+
+```text
+/plugin marketplace add himoose/aeo-skills
+/plugin install himoose@himoose
+```
+
+Depois execute `/mcp`, escolha `plugin:himoose:himoose` e **Authenticate** para entrar. Se você já adicionou o Hi, Moose com `claude mcp add` como mostrado acima, as mesmas ferramentas aparecem duas vezes; remova uma delas em `/mcp`.
+
+### Adicionar a skill no ChatGPT
+
+As skills estão disponíveis apenas em alguns planos do ChatGPT; a OpenAI lista os workspaces Business, Enterprise, Healthcare e Edu ([Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt)).
+
+1. Conecte o Hi, Moose MCP no ChatGPT como descrito acima.
+2. Adicione a pasta `skills/ai-visibility` do repositório do GitHub como skill, seguindo as instruções da OpenAI para o seu workspace.
+3. Em um chat, digite `@` para escolher a skill, ou simplesmente pergunte.
 
 ## Como um pedido é executado
 

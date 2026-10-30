@@ -95,6 +95,45 @@ Any app that can add a remote MCP server with OAuth sign-in works the same way: 
 https://mcp.himoose.com/mcp
 ```
 
+## Skills for Claude and ChatGPT
+
+Hi, Moose publishes free, open source skills for answer engine optimization (AEO), also called GEO or AI SEO, on GitHub: [himoose/aeo-skills](https://github.com/himoose/aeo-skills) (MIT license). A skill is a folder of instructions your AI app follows for one kind of task; these use the open [Agent Skills](https://agentskills.io) format.
+
+The first skill, `ai-visibility`, reads the AI search results Hi, Moose has already stored, through Hi, Moose MCP. It never runs new checks, changes settings or publishes anything. Ask, for example:
+
+- "Build my AI search visibility dashboard." This is the default: an interactive dashboard on one HTML page. Pick 7, 30 or 90 days or your own dates, filter by AI engine, hover over a chart for the numbers, see your tracked brand against competitors and the answers that left your brand out, and work through a to-do list with **Open in Hi, Moose** buttons. Charts save as PNG, the numbers as CSV and the page as PDF.
+- "Write my AI search visibility report as text for an email." You get a short written report.
+- "What should I work on this week to show up more in AI search?" You get your open fixes as a ranked to-do list.
+
+The skill works on every plan. Sentiment, narrative and feature accuracy scores are part of paid plans; mentions, citations, rank and competitors work on every plan. As with every Hi, Moose MCP tool, keep Hi, Moose open on the host device while you ask.
+
+### Add the skill in Claude.ai or the Claude desktop app
+
+1. On the [GitHub page](https://github.com/himoose/aeo-skills), click **Code → Download ZIP** and unzip the file.
+2. Open the `skills` folder and zip the `ai-visibility` folder on its own, so you have `ai-visibility.zip` with the `ai-visibility` folder inside it.
+3. In Claude, go to **Customize → Skills**, click **+**, then **Create skill → Upload a skill**, and choose `ai-visibility.zip`.
+4. Make sure **code execution** is turned on in Claude's settings; skills need it.
+5. Start a new chat, check that the Hi, Moose connector is turned on for it, and ask.
+
+### Add the skill in Claude Code
+
+The repository is also a Claude Code plugin. One install adds the skill and the Hi, Moose connector:
+
+```text
+/plugin marketplace add himoose/aeo-skills
+/plugin install himoose@himoose
+```
+
+Then run `/mcp`, choose `plugin:himoose:himoose` and **Authenticate** to sign in. If you already added Hi, Moose with `claude mcp add` as shown above, the same tools appear twice; remove one of them in `/mcp`.
+
+### Add the skill in ChatGPT
+
+Skills are available on some ChatGPT plans only; OpenAI lists Business, Enterprise, Healthcare and Edu workspaces ([Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt)).
+
+1. Connect Hi, Moose MCP in ChatGPT as described above.
+2. Add the `skills/ai-visibility` folder from the GitHub repository as a skill, following OpenAI's instructions for your workspace.
+3. In a chat, type `@` to pick the skill, or just ask.
+
 ## How a request runs
 
 1. The app sends your request to Hi, Moose MCP.
