@@ -1,5 +1,5 @@
 ---
-source_hash: c90c357b8a3c44af4f16e7c329b944d63b3b01e0de53381d49c1bbaf6d9304bd
+source_hash: 8041c8e0642cea4b400e4963874e48a0ab71e48bec388f0b6f9961b24ad759c8
 ---
 
 # Référence des outils
@@ -76,8 +76,10 @@ Crée un brief de contenu fondé sur la recherche : objectif, audience, justific
 | targetUrl | non | La page de votre site pour laquelle le brief est destiné |
 | templateType | non | Le type de contenu : « Blog post », « Landing page », « Comparison page », « Guide » |
 | guidance | non | Les exigences décidées ailleurs : angle, points à inclure, ton. Jusqu'à 4 000 caractères. |
+| opportunityId | non | L'identifiant d'une ligne de `visibility_list_opportunities`. Hi, Moose sur l'appareil hôte retrouve la ligne, ajoute au brief ses preuves de l'écart et lit les pages que les moteurs de réponse ont citées pour elle. |
+| referenceUrls | non | Jusqu'à 6 URL de pages que les moteurs de réponse ont citées pour ce sujet, en général les sources de cette ligne d'opportunité. Hi, Moose lit chaque page en entier et la donne au brief comme source de référence. Fonctionne sur l'appareil hôte et dans le cloud. |
 
-Renvoie le brief en texte plus un identifiant de brief que l'outil de brouillon utilise. Enregistré dans la Library.
+Renvoie le brief en texte plus un identifiant de brief que l'outil de brouillon utilise. Enregistré dans la Library. Quand le brief part d'une opportunité, sa liste « Données utilisées » indique combien de ces pages citées ont été lues, avec le nombre de mots.
 
 Demandez : « Rédige un brief de contenu pour un guide sur la génération de SBOM pour les équipes Python. »
 

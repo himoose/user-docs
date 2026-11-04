@@ -1,5 +1,5 @@
 ---
-source_hash: c90c357b8a3c44af4f16e7c329b944d63b3b01e0de53381d49c1bbaf6d9304bd
+source_hash: 8041c8e0642cea4b400e4963874e48a0ab71e48bec388f0b6f9961b24ad759c8
 ---
 
 # Werkzeug-Referenz
@@ -76,8 +76,10 @@ Erstellt ein suchbasiertes Content-Briefing: Ziel, Zielgruppe, Begründung, Keyw
 | targetUrl | nein | Die Seite Ihrer Website, für die das Briefing ist |
 | templateType | nein | Die Art des Inhalts: „Blog post“, „Landing page“, „Comparison page“, „Guide“ |
 | guidance | nein | Anderswo festgelegte Anforderungen: Blickwinkel, Pflichtpunkte, Tonalität. Bis zu 4.000 Zeichen. |
+| opportunityId | nein | Die ID einer Zeile aus `visibility_list_opportunities`. Hi, Moose auf dem Host-Gerät schlägt die Zeile nach, ergänzt das Briefing um ihre Belege zur Lücke und liest die Seiten, die die KI-Engines dafür zitiert haben. |
+| referenceUrls | nein | Bis zu 6 Seiten-URLs, die die KI-Engines zu diesem Thema zitiert haben, meist die Quellen dieser Chancen-Zeile. Hi, Moose liest jede Seite vollständig und gibt sie dem Briefing als Referenzquelle mit. Funktioniert auf dem Host-Gerät und in der Cloud. |
 
-Gibt das Briefing als Text zurück plus eine Briefing-ID, die das Entwurfs-Werkzeug nutzt. Wird in der Library gespeichert.
+Gibt das Briefing als Text zurück plus eine Briefing-ID, die das Entwurfs-Werkzeug nutzt. Wird in der Library gespeichert. Startet das Briefing von einer Chance, nennt seine Liste „Verwendete Daten“, wie viele dieser zitierten Seiten gelesen wurden, mit Wortzahlen.
 
 Fragen Sie: „Schreibe ein Content-Briefing für einen Leitfaden zur SBOM-Erstellung für Python-Teams.“
 

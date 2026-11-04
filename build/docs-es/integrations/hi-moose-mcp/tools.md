@@ -1,5 +1,5 @@
 ---
-source_hash: c90c357b8a3c44af4f16e7c329b944d63b3b01e0de53381d49c1bbaf6d9304bd
+source_hash: 8041c8e0642cea4b400e4963874e48a0ab71e48bec388f0b6f9961b24ad759c8
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -81,8 +81,10 @@ Crea un brief de contenido informado por la búsqueda: objetivo, audiencia, just
 | targetUrl | no | La página de tu sitio a la que va dirigido el brief |
 | templateType | no | El tipo de contenido: «Blog post», «Landing page», «Comparison page», «Guide» |
 | guidance | no | Requisitos decididos en otro sitio: enfoque, puntos imprescindibles, tono. Hasta 4.000 caracteres. |
+| opportunityId | no | El id de una fila de `visibility_list_opportunities`. Hi, Moose en el dispositivo host busca la fila, añade al brief sus pruebas del hueco y lee las páginas que los motores de respuesta citaron para ella. |
+| referenceUrls | no | Hasta 6 URL de páginas que los motores de respuesta citaron para este tema, normalmente las fuentes de esa fila de oportunidad. Hi, Moose lee cada página completa y se la da al brief como fuente de referencia. Funciona en el dispositivo host y en la nube. |
 
-Devuelve el brief como texto más un id de brief que usa la herramienta de borrador. Se guarda en la Library.
+Devuelve el brief como texto más un id de brief que usa la herramienta de borrador. Se guarda en la Library. Cuando el brief parte de una oportunidad, su lista «Datos utilizados» indica cuántas de esas páginas citadas se leyeron, con el número de palabras.
 
 Pide: «Escribe un brief de contenido para una guía de generación de SBOM para equipos de Python».
 

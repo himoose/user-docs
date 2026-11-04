@@ -1,5 +1,5 @@
 ---
-source_hash: c90c357b8a3c44af4f16e7c329b944d63b3b01e0de53381d49c1bbaf6d9304bd
+source_hash: 8041c8e0642cea4b400e4963874e48a0ab71e48bec388f0b6f9961b24ad759c8
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -81,8 +81,10 @@ Cria um brief de conteúdo informado pela pesquisa: objetivo, público, justific
 | targetUrl | não | A página do seu site para a qual o brief é feito |
 | templateType | não | O tipo de conteúdo: "Blog post", "Landing page", "Comparison page", "Guide" |
 | guidance | não | Requisitos decididos em outro lugar: ângulo, pontos obrigatórios, tom. Até 4.000 caracteres. |
+| opportunityId | não | O id de uma linha de `visibility_list_opportunities`. O Hi, Moose no dispositivo host procura a linha, acrescenta ao brief as evidências da lacuna e lê as páginas que os motores de resposta citaram para ela. |
+| referenceUrls | não | Até 6 URLs de páginas que os motores de resposta citaram para este tema, normalmente as fontes dessa linha de oportunidade. O Hi, Moose lê cada página por completo e a entrega ao brief como fonte de referência. Funciona no dispositivo host e na nuvem. |
 
-Devolve o brief como texto mais um id de brief que a ferramenta de rascunho usa. Salvo na Library.
+Devolve o brief como texto mais um id de brief que a ferramenta de rascunho usa. Salvo na Library. Quando o brief parte de uma oportunidade, a lista "Dados usados" do brief mostra quantas dessas páginas citadas foram lidas, com a contagem de palavras.
 
 Peça: "Escreva um brief de conteúdo para um guia de geração de SBOM para equipes Python."
 

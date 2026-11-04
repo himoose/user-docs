@@ -72,8 +72,10 @@ Creates a search-informed content brief: objective, audience, rationale, keyword
 | targetUrl | no | The page on your site the brief is for |
 | templateType | no | The kind of content: "Blog post", "Landing page", "Comparison page", "Guide" |
 | guidance | no | Requirements decided elsewhere: angle, must-include points, tone. Up to 4,000 characters. |
+| opportunityId | no | The id of a row from `visibility_list_opportunities`. Hi, Moose on the host device looks the row up, adds its gap evidence to the brief and reads the pages the AI engines cited for it. |
+| referenceUrls | no | Up to 6 page URLs the AI engines cited for this topic, usually the sources of that opportunity row. Hi, Moose reads each page in full and gives it to the brief as a reference source. Works on the host device and in the cloud. |
 
-Returns the brief as text plus a brief id the draft tool uses. Saved in the Library.
+Returns the brief as text plus a brief id the draft tool uses. Saved in the Library. When the brief starts from an opportunity, its "Data used" list says how many of those cited pages were read, with word counts.
 
 Ask: "Write a content brief for a guide to SBOM generation for Python teams."
 
