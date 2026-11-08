@@ -1,5 +1,5 @@
 ---
-source_hash: 1c85ff53a55d4b6ecb7d8fbdd11b64ab53c6c37bdd4cb12540b5dc7616afc495
+source_hash: 89e095503fa4df7ea8ea80ace92a8719b5fc7e831f391899ed8b386d12d0accc
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -20,7 +20,7 @@ Ajoutez vos concurrents dans **Visibility → Settings → Competitor tracking**
 
 Cette liste est partagée avec votre [Brand Truth Profile](../getting-started/context/brand-truth-profile.md) : les concurrents ajoutés à l'un ou l'autre endroit apparaissent dans les deux.
 
-Le nombre de concurrents suivis dans les exécutions de visibilité dépend de votre offre : **5 en Preview Mode et BYOK Free, 15 sur toutes les offres payantes**. L'écran de paramètres indique ce nombre et vous avertit si votre liste est plus longue, afin que vous sachiez que seuls les premiers sont suivis.
+Le nombre de concurrents suivis dans les exécutions de visibilité dépend de votre offre : **5 en Preview Mode et BYOK Free, 30 sur toutes les offres payantes**. L'écran de paramètres indique ce nombre et vous avertit si votre liste est plus longue, afin que vous sachiez que seuls les premiers sont suivis.
 
 Trois à cinq concurrents réels fonctionnent mieux qu'une longue liste. Ce sont les marques auxquelles on vous compare véritablement, pas l'ensemble du secteur.
 

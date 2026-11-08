@@ -1,5 +1,5 @@
 ---
-source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
+source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -12,11 +12,12 @@ source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
 
 Il pannello Visibility mostra come il suo marchio si comporta davvero nella ricerca con IA: le query che i clienti usano per trovarla, se il suo marchio entra nella rosa dei candidati e se i motori di IA lo descrivono con accuratezza. È la vista principale per i passaggi **monitorare** e **rilevare** del [ciclo operativo centrale](../index.md#il-ciclo-operativo-centrale).
 
-Il pannello ha sei schede:
+Il pannello ha sette schede:
 
 | Scheda | A quale domanda risponde |
 |---|---|
 | **Panoramica** | Come sto andando? |
+| **[Opportunità](#opportunita)** | Su cosa dovrei lavorare? |
 | **[Concorrenza](competitors.md)** | Come sto andando rispetto a loro? |
 | **Menzioni** | Quali marchi vengono nominati in queste risposte? |
 | **Citazioni** | Su quali fonti si appoggiano davvero i motori? |
@@ -67,6 +68,27 @@ Sotto il riepilogo ci sono due blocchi:
 
 - **A che punto è**: il suo Share of Voice, il tasso di menzione sulle risposte lette, le citazioni, la posizione media quando viene nominato e il tasso di menzione per motore, con l'intero campo dei marchi monitorati accanto.
 - **L'IA la sta descrivendo in modo accurato?**: allineamento del posizionamento, ripartizione del tono e un elenco di **risposte da rivedere**: le risposte precise in cui un motore ha descritto male una capacità o si è allontanato dal suo posizionamento. Ognuna apre la risposta o ci salta nella scheda Prompt.
+
+## Opportunità
+
+La scheda **Opportunità** trasforma i risultati monitorati in un elenco di lavoro in ordine di priorità. Ogni riga è una cosa da sistemare: un titolo di una riga, i prompt e i motori di IA interessati, la sua quota rispetto al rivale principale e una riga **Prossimo passo:** che indica il primo passo.
+
+Le righe nascono solo dai prompt che monitora, dalle dieci esecuzioni più recenti su ogni motore. Il filtro del periodo in alto non cambia l'elenco, e i [prompt ritirati](prompt-manager.md#ritirare-un-prompt) restano fuori.
+
+Ogni riga riporta:
+
+- **Un tipo di azione.** **Creare copertura** quando nessuna sua pagina risponde a un prompt per cui i motori non la nominano mai. **Migliorare una pagina** quando la sua pagina esiste ma sta perdendo. **Ottenere l'inclusione** quando una pagina di terzi citata dai motori potrebbe elencarla. **Correggere la descrizione** quando una risposta contraddice il suo Brand Truth Profile. **Indagare un cambiamento** quando un motore ha smesso di nominarla o citarla. **Mantenere il vantaggio** quando è davanti e deve restarci.
+- **Una priorità.** Alta, Media o Bassa, in base a quante coppie prompt e motore riguarda la lacuna, a quanto è rimasta costante nelle esecuzioni, alla presenza di un concorrente monitorato davanti a lei e al fatto che la soluzione sia su una pagina che controlla.
+- **Un'affidabilità.** Solida, Indicativa o Da verificare, in base a in quante esecuzioni la lacuna è stata vista e a quanto spesso è cambiata tra un'esecuzione e l'altra.
+- **Uno sforzo.** Piccolo, Medio o Grande, da contenuto nuovo da ricercare e scrivere fino a una modifica di una riga nel suo Brand Truth Profile.
+
+Faccia clic su una riga per aprirla. Il dettaglio mostra cosa sta succedendo, i passi da fare e le prove dietro la riga: la griglia di prompt e motori con i punti in cui era assente, nominato o citato, le risposte segnalate, i concorrenti davanti a lei, le pagine concorrenti che i motori citano, la sua pagina corrispondente con un eventuale audit precedente e cosa è cambiato rispetto al periodo precedente.
+
+Dal dettaglio avvia il lavoro: **Crea brief**, **Audit della pagina**, **Scrivi una proposta** al sito che potrebbe includerla, **Aggiorna Brand Truth**, **Scrivi una richiesta di correzione** o **Rivedi le risposte**. Il brief e l'audit si aprono con i prompt e le pagine della riga già compilati, e il risultato viene collegato alla riga, il cui stato passa a **Brief pronto**, **Bozza pronta** o **Audit pronto**.
+
+Le righe hanno uno stato. **Segna come fatto**, **Scarta** o **Rimanda** di un numero di giorni, **Assegna** a un collega e **Aggiungi nota** sono su ogni riga. Una riga chiusa resta nascosta finché non mostra le righe chiuse, e torna come **Riaperta da nuove prove** quando esecuzioni successive mostrano di nuovo la lacuna. Filtri l'elenco per azione, priorità, affidabilità, stato, motore o tema, e usi **Esporta in Excel** per l'intero elenco con le colonne delle prove.
+
+Un'app MCP collegata riceve lo stesso elenco, nello stesso ordine, tramite [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
 
 ## Menzioni
 

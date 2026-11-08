@@ -1,5 +1,5 @@
 ---
-source_hash: e11490165d12e857f2010b68d56d5c652789c58e6494a9d6df637b41040130c7
+source_hash: 946c0115798ec842ae8482da8c081642600239e1d6b55996d0bf95e8c12f8e04
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -9,7 +9,7 @@ source_hash: e11490165d12e857f2010b68d56d5c652789c58e6494a9d6df637b41040130c7
 # Versus Pages (programmatisches SEO)
 
 !!! note "Diese Funktion liegt in der früheren Web-App"
-    Während Hi, Moose zu einem Desktop-orientierten Produkt wird, sind die meisten Funktionen in die Desktop-App gewandert. **Versus Pages sind eine der beiden Funktionen, die in der früheren Web-App verbleiben** (`app.himoose.com`); die andere ist der [Topical Authority Builder](topical-authority.md). Wenn Sie die Desktop-App nutzen, erreichen Sie diese Funktion über das Kontomenü, ohne eine separate Anmeldung anzulegen.
+    Während Hi, Moose zu einem Desktop-orientierten Produkt wird, sind die meisten Funktionen in die Desktop-App gewandert. **Versus Pages sind eine der beiden Funktionen, die in der früheren Web-App verbleiben** (`app.himoose.com`); die andere ist der [Topical Authority Builder](topical-authority.md). Wenn Sie die Desktop-App mit einem kostenpflichtigen Tarif nutzen, bitten Sie Moose im Chat um Versus Pages oder nutzen Sie die Aktion **Versus Pages in großem Umfang erstellen**; die Web-App öffnet sich mit Ihrem Konto angemeldet, ohne separate Anmeldung.
 
     Versus Pages setzen einen kostenpflichtigen Tarif voraus.
 

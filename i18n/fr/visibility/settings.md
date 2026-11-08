@@ -1,5 +1,5 @@
 ---
-source_hash: 4c556d4fb46ef581843a6485001e4bcb5bca5e6cb807598a5721189e08265d89
+source_hash: 566edf125c99ef57599940389c2fe7f0e8a70e6b5b9e0b66f8c23727b6864ac7
 ---
 # Paramètres de Visibility
 
@@ -70,12 +70,13 @@ Choisissez quels moteurs sont présélectionnés chaque fois que vous ajoutez un
 | Google AI Mode | API | Payant |
 | Google AI Overviews | API | Payant |
 | Bing Copilot | API | Payant |
+| Bing Copilot (local fetch) | Depuis votre machine | Payant |
 | DeepSeek | API | Payant |
 | Meta AI | API | Payant |
 
 **DeepSeek** et **Meta AI** sont désactivés par défaut. Ils valent la peine d'être activés si votre catégorie a une vraie traction sur les marchés où ces deux-là sont forts ; sinon, les laisser éteints maintient le coût de vos exécutions au plus bas.
 
-Les moteurs **local fetch** lisent la surface publique de recherche IA depuis votre propre machine plutôt que d'appeler une API. Ils ne consomment aucun token, mais ils exigent que l'application de bureau soit ouverte au moment de l'exécution, quel que soit le forfait.
+Les moteurs **local fetch** lisent la surface publique de recherche IA depuis votre propre machine plutôt que d'appeler une API. Ils ne consomment aucun token, mais ils exigent que l'application de bureau soit ouverte au moment de l'exécution, quel que soit le forfait. Connectez-vous une fois à chaque moteur dans **Paramètres → [Connexions aux comptes](../getting-started/settings.md#connexions-aux-comptes)** pour que les exécutions utilisent votre session connectée et cessent de vous demander de confirmer que vous êtes humain.
 
 ## Refaire le parcours d'accueil
 

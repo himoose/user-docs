@@ -1,5 +1,5 @@
 ---
-source_hash: 8041c8e0642cea4b400e4963874e48a0ab71e48bec388f0b6f9961b24ad759c8
+source_hash: a42d8b4c91884c29e9f5380f4247a0b3601d1910f72fe346eb70ae656895ba05
 ---
 
 # Werkzeug-Referenz
@@ -127,7 +127,7 @@ Erstellt ein Beitragsbild für einen Artikel, 1200 mal 630, in Ihrem gespeichert
 | title und summary | eines von beiden | Der Artikeltitel und eine kurze Zusammenfassung, bis zu 6.000 Zeichen, wenn es keinen Entwurf gibt |
 | styleIntent | nein | Ein Wunsch für dieses eine Bild: Stimmung, Szene, Farben. Der gespeicherte Stil gilt weiterhin. |
 
-Gibt das Bild und einen Link zur PNG zurück. Die Datei wird auch auf dem Host-Gerät gespeichert.
+Gibt das Bild, einen Link zur PNG und einen Alt-Text zurück, der anhand des fertigen Bildes geschrieben wird: Er beschreibt zuerst das Bild und nennt einmal das Thema des Artikels, etwa 125 Zeichen, in der Sprache des Artikels. Die Datei wird auch auf dem Host-Gerät gespeichert.
 
 Fragen Sie: „Erstelle ein Beitragsbild für diesen Entwurf, Abendlicht, keine Personen.“
 

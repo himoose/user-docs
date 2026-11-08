@@ -1,11 +1,11 @@
 ---
-source_hash: 5e04bb7695f1f99212eabfd919c84bee187e08b6c4462119c39e32c6d927f1fd
+source_hash: 0a9a56ce00908be9642b519b71a66ed53535f416da94c0f65e7bb741595259e0
 ---
 # Einstellungen
 
 ## Wofür das gut ist
 
-In den Einstellungen verwalten Sie Ihr Profil, Ihren Tarif, Ihre Modelle, Ihr Team und das Verhalten der App auf diesem Rechner. Sie sind in zehn Bereiche in der linken Spalte gegliedert.
+In den Einstellungen verwalten Sie Ihr Profil, Ihren Tarif, Ihre Modelle, Ihr Team und das Verhalten der App auf diesem Rechner. Sie sind in Bereiche in der linken Spalte gegliedert; einige erscheinen nur für den Kontoinhaber oder in kostenpflichtigen Tarifen.
 
 | Bereich | Inhalt |
 |---|---|
@@ -16,8 +16,12 @@ In den Einstellungen verwalten Sie Ihr Profil, Ihren Tarif, Ihre Modelle, Ihr Te
 | Team | Sitzplätze, Einladungen, Rollen |
 | [Website-Monitoring](../site-monitoring/overview.md) | Crawl-Zeitplan, Suchindex, überwachte Seiten, gesperrte Pfade |
 | [Branding](../agency/white-label.md) | White-Label-Berichte und Audio-Attribution (nur kostenpflichtige Tarife) |
-| Protokolle | Aktionsprotokolle und CSV-Export |
+| Konto-Anmeldungen | Die Websites, bei denen Moose für Sichtbarkeitsläufe und Send Moose angemeldet ist |
+| [Hi, Moose MCP](../integrations/hi-moose-mcp.md) | Host-Gerät, Modell für Schreibaufgaben, verbundene Apps, letzte Aufträge |
+| [Hi, Moose REST API](../integrations/developer-api.md) | API-Schlüssel und Webhooks (nur Inhaber) |
+| Protokolle | Aktionsprotokolle und CSV-Export (nur Inhaber) |
 | Daten & Backup | Lokale Sicherung und Wiederherstellung |
+| Sichtbarkeitsverlauf | Die lokale Kopie Ihrer KI-Suchantworten und ihr Speicherbudget |
 | Fehlerbehebung | Cache, Diagnoseprotokoll, Zurücksetzen lokaler Daten |
 
 ## General
@@ -82,9 +86,21 @@ Verbindungen zu CMS und Datenquellen sind davon getrennt und liegen im Bildschir
 
 Versehen Sie exportierte PDF-Berichte und eingebettete Audio-Player mit Ihrer eigenen Marke. In allen kostenpflichtigen Tarifen verfügbar und von der Inhaberin oder dem Inhaber des Abonnements bearbeitbar. Siehe **[White-Label-Branding](../agency/white-label.md)**.
 
+## Konto-Anmeldungen
+
+Moose nutzt für Local-fetch-Sichtbarkeitsläufe und für Send Moose einen eigenen Browser. Dieser Bereich listet die Websites, bei denen er angemeldet sein kann, gruppiert in KI-Antwortmaschinen (ChatGPT, Google AI Mode und Gemini, Grok, Perplexity, Bing Copilot) und Websites, die die Send-Moose-Agenten nutzen (Reddit, LinkedIn, X), jeweils mit dem Hinweis **Angemeldet** oder **Nicht angemeldet**. Öffnen Sie eine Website hier und melden Sie sich einmal an; jeder spätere Lauf übernimmt die Sitzung. Die Anmeldung beendet auch die „Bestätigen Sie, dass Sie ein Mensch sind“-Prüfungen, die Engines bei ersten Läufen zeigen. Die Anmeldungen bleiben auf diesem Rechner und gehen nie in die Cloud.
+
+Der Hinweis ist eine Schätzung anhand der Cookies jeder Website. Verlangt ein Lauf weiterhin eine Anmeldung, öffnen Sie die Website hier und melden Sie sich erneut an.
+
+Für Send Moose lässt sich ein **Webmail**-Postfach hinzufügen, damit Moose Bestätigungslinks lesen kann, während er an einem Auftrag arbeitet. Er sendet, antwortet, löscht oder ändert nie Einstellungen. Verwenden Sie ein für Moose angelegtes Postfach und halten Sie Ihr persönliches Postfach getrennt.
+
 ## Hi, Moose MCP
 
-Verbinden Sie Claude, ChatGPT oder jede andere MCP-App mit Ihrem Hi, Moose-Konto, wählen Sie das Host-Gerät, das die Arbeit ausführt, und sehen Sie verbundene Apps und letzte Aufträge. Siehe **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
+Verbinden Sie Claude, ChatGPT oder jede andere MCP-App mit Ihrem Hi, Moose-Konto, wählen Sie das Host-Gerät, das die Arbeit ausführt, wählen Sie das **Modell für Schreibaufgaben** und sehen Sie verbundene Apps und letzte Aufträge. Siehe **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
+
+## Hi, Moose REST API
+
+Dieser Bereich erscheint nur für den Kontoinhaber. Erstellen und widerrufen Sie die API-Schlüssel, die Ihre gespeicherten Sichtbarkeitsdaten aus Ihren eigenen Dashboards und Berichten lesen, legen Sie fest, was jeder Schlüssel darf (Sichtbarkeitsdaten lesen, Verfolgung verwalten, Läufe starten), und sehen oder entfernen Sie die für das Projekt registrierten Webhooks. Siehe **[Hi, Moose API](../integrations/developer-api.md)**.
 
 ## Logs
 
@@ -104,6 +120,10 @@ Erstellen Sie eine komprimierte `.hmbk`-Sicherung Ihres Verlaufs auf dem Gerät 
     Ein Import ersetzt die lokalen Hi, Moose-Daten dieses Geräts durch den Inhalt der Sicherung. Der Bestätigungsdialog nennt Ihnen, wie viele Einträge wiederhergestellt werden und wann die Sicherung erstellt wurde. Starten Sie die App anschließend neu, damit alle Bildschirme aus den wiederhergestellten Daten neu laden.
 
 Importe akzeptieren ausschließlich `.hmbk`-Dateien, die von der Hi, Moose-Desktop-App exportiert wurden.
+
+## Sichtbarkeitsverlauf
+
+Hi, Moose bewahrt auf diesem Rechner eine Kopie Ihrer KI-Suchantworten auf, damit die Visibility-Seite jeden Zeitraum anzeigen kann, ohne ihn erneut herunterzuladen. Dieser Bereich zeigt, wie viel Platz die Kopie des aktuellen Projekts belegt und welche Daten sie abdeckt, sowie ein **Speicherbudget**: Überschreitet die Kopie diese Größe, werden die ältesten Tage nur von diesem Rechner entfernt und kommen aus der Cloud zurück, wenn Sie einen Zeitraum wählen, der sie braucht. In Tarifen ohne Cloud-Kopie wird nichts automatisch entfernt; sichern Sie die Antworten stattdessen unter Daten & Backup.
 
 ## Troubleshooting
 

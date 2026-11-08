@@ -1,5 +1,5 @@
 ---
-source_hash: 1c85ff53a55d4b6ecb7d8fbdd11b64ab53c6c37bdd4cb12540b5dc7616afc495
+source_hash: 89e095503fa4df7ea8ea80ace92a8719b5fc7e831f391899ed8b386d12d0accc
 ---
 # Competidores y Share of Voice
 
@@ -15,7 +15,7 @@ Añada competidores en **Visibility → Settings → Competitor tracking**. Cada
 
 Esta lista se comparte con su [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), de modo que los competidores añadidos en cualquiera de los dos sitios aparecen en ambos.
 
-Cuántos se supervisan en las ejecuciones de visibilidad depende de su plan: **5 en Preview Mode y BYOK Free, 15 en todos los planes de pago**. La pantalla de configuración indica el número y le avisa si su lista es más larga, para que sepa que solo se supervisan los primeros.
+Cuántos se supervisan en las ejecuciones de visibilidad depende de su plan: **5 en Preview Mode y BYOK Free, 30 en todos los planes de pago**. La pantalla de configuración indica el número y le avisa si su lista es más larga, para que sepa que solo se supervisan los primeros.
 
 Entre tres y cinco competidores reales funcionan mejor que una lista larga. Son las marcas con las que realmente le comparan, no todo el sector.
 

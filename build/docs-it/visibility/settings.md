@@ -1,5 +1,5 @@
 ---
-source_hash: 4c556d4fb46ef581843a6485001e4bcb5bca5e6cb807598a5721189e08265d89
+source_hash: 566edf125c99ef57599940389c2fe7f0e8a70e6b5b9e0b66f8c23727b6864ac7
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -75,12 +75,13 @@ Scelga quali motori sono preselezionati ogni volta che aggiunge un prompt nel [P
 | Google AI Mode | API | A pagamento |
 | Google AI Overviews | API | A pagamento |
 | Bing Copilot | API | A pagamento |
+| Bing Copilot (local fetch) | Dal suo computer | A pagamento |
 | DeepSeek | API | A pagamento |
 | Meta AI | API | A pagamento |
 
 **DeepSeek** e **Meta AI** sono disattivati per impostazione predefinita. Vale la pena accenderli se la sua categoria ha una trazione reale nei mercati in cui questi due sono forti; altrimenti, lasciarli spenti tiene basso il costo di ogni esecuzione.
 
-I motori **local fetch** leggono la superficie pubblica di ricerca con IA dal suo computer invece di chiamare un'API. Non costano token, ma richiedono che l'app desktop sia aperta quando l'esecuzione parte, su qualsiasi piano.
+I motori **local fetch** leggono la superficie pubblica di ricerca con IA dal suo computer invece di chiamare un'API. Non costano token, ma richiedono che l'app desktop sia aperta quando l'esecuzione parte, su qualsiasi piano. Acceda una volta a ogni motore in **Impostazioni → [Accessi agli account](../getting-started/settings.md#accessi-agli-account)** perché le esecuzioni usino la sua sessione e smettano di chiederle di confermare che è una persona.
 
 ## Ripetere la configurazione iniziale
 

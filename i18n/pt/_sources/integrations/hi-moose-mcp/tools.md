@@ -123,7 +123,7 @@ Creates a featured image for an article, 1200 by 630, in your saved image style 
 | title and summary | one of the two | The article title and a short summary, up to 6,000 characters, when there is no draft |
 | styleIntent | no | A wish for this one image: mood, scene, colours. The saved style still applies. |
 
-Returns the image and a link to the PNG. The file is also saved on the host device.
+Returns the image, a link to the PNG and alt text written from the finished picture: it describes the image first and names the article's topic once, about 125 characters, in the article's language. The file is also saved on the host device.
 
 Ask: "Make a featured image for that draft, evening light, no people."
 

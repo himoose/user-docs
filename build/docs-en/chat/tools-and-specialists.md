@@ -30,10 +30,12 @@ Chat isn't limited to text generation. During a conversation, Moose can call too
 | Visibility history | Query your tracked [visibility](../visibility/overview.md) history — mentions, citations, sources, movement |
 | Read the entity graph | Answer from your project's [entity graph](../features/entity-graph.md) |
 | Build an entity graph | Generate a new one |
-| Image generation | Produce an image for a draft |
+| Image generation | Produce an image for a draft, with alt text |
 | App help | Point you at the right documentation or to support |
 
 Moose can also open the intake for an [AEO audit](../features/aeo-audits.md), a [content brief](../features/content-briefs.md), [FAQs](../features/faq-generator.md), [key points](../features/key-points.md) or an entity graph, and run it from the conversation.
+
+Every generated image comes with **alt text** written from the finished picture: it describes the image first and names the article's topic once, in the article's language. It shows under the image in chat, in the Library and in the draft editor with a **Copy** button, and you can edit it there.
 
 Tool use works on managed plans, BYOK plans, and local Gemma 4 models alike.
 

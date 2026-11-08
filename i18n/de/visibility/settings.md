@@ -1,5 +1,5 @@
 ---
-source_hash: 4c556d4fb46ef581843a6485001e4bcb5bca5e6cb807598a5721189e08265d89
+source_hash: 566edf125c99ef57599940389c2fe7f0e8a70e6b5b9e0b66f8c23727b6864ac7
 ---
 # Visibility-Einstellungen
 
@@ -70,12 +70,13 @@ Wählen Sie, welche Maschinen vorausgewählt sind, wenn Sie im [Prompt Manager](
 | Google AI Mode | API | Kostenpflichtig |
 | Google AI Overviews | API | Kostenpflichtig |
 | Bing Copilot | API | Kostenpflichtig |
+| Bing Copilot (local fetch) | Von Ihrem Rechner | Kostenpflichtig |
 | DeepSeek | API | Kostenpflichtig |
 | Meta AI | API | Kostenpflichtig |
 
 **DeepSeek** und **Meta AI** sind standardmäßig aus. Sie lohnen sich, wenn Ihre Kategorie in den Märkten, in denen diese beiden stark sind, echte Relevanz hat; ist das nicht der Fall, hält das Ausschalten die Kosten pro Lauf niedrig.
 
-**Local-fetch**-Engines lesen die öffentliche KI-Suchoberfläche von Ihrem eigenen Rechner, statt eine API aufzurufen. Sie kosten keine Token, brauchen aber in jedem Tarif eine geöffnete Desktop-App, wenn der Lauf ausgeführt wird.
+**Local-fetch**-Engines lesen die öffentliche KI-Suchoberfläche von Ihrem eigenen Rechner, statt eine API aufzurufen. Sie kosten keine Token, brauchen aber in jedem Tarif eine geöffnete Desktop-App, wenn der Lauf ausgeführt wird. Melden Sie sich unter **Einstellungen → [Konto-Anmeldungen](../getting-started/settings.md#konto-anmeldungen)** einmal bei jeder Engine an, damit Läufe Ihre angemeldete Sitzung nutzen und nicht mehr verlangen, dass Sie bestätigen, ein Mensch zu sein.
 
 ## Einrichtung wiederholen
 

@@ -1,5 +1,5 @@
 ---
-source_hash: b58a8ba99a61b64bb2209353aa0fa79de0889308fc888578032146544e64c54f
+source_hash: a85cf6e7bae4e5f6f1e42809519e08b2b1fce05c59eac51a0ca80daa3b20e0a3
 ---
 # Herramientas y especialistas del chat
 
@@ -33,10 +33,12 @@ El chat no se limita a generar texto. Durante una conversación, Moose puede uti
 | Historial de visibilidad | Consultar su historial de [visibilidad](../visibility/overview.md) supervisada: menciones, citas, fuentes y movimientos |
 | Leer el entity graph | Responder a partir del [entity graph](../features/entity-graph.md) del proyecto |
 | Construir un entity graph | Generar uno nuevo |
-| Generación de imágenes | Producir una imagen para un borrador |
+| Generación de imágenes | Producir una imagen para un borrador, con texto alternativo |
 | Ayuda de la aplicación | Dirigirle a la documentación adecuada o al soporte |
 
 Moose también puede abrir el formulario de una [auditoría AEO](../features/aeo-audits.md), un [content brief](../features/content-briefs.md), unas [FAQ](../features/faq-generator.md), unos [key points](../features/key-points.md) o un entity graph, y ejecutarlo desde la conversación.
+
+Cada imagen generada viene con un **texto alternativo** escrito a partir de la imagen terminada: describe primero la imagen y nombra una vez el tema del artículo, en el idioma del artículo. Aparece bajo la imagen en el chat, en la Library y en el editor de borradores con un botón **Copiar**, y puede editarlo ahí.
 
 
 El uso de herramientas funciona igual en los planes gestionados, en los planes BYOK y en los modelos locales Gemma 4.

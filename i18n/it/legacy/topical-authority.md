@@ -1,10 +1,10 @@
 ---
-source_hash: 55d8ee86d437abb758c9ecbb384cf0f678344f4e731d27cf7a7625efebcb05d1
+source_hash: 41c4d79246aa9dc543c3525e86723942ee0c67a33094e9af0aed4ffa15b91878
 ---
 # Topical Authority Builder
 
 !!! note "Questa funzione si trova nella vecchia app web"
-    Il Topical Authority Builder è una funzione della vecchia app web (`app.himoose.com`) e non fa parte dell'app desktop. Se usa l'app desktop, può raggiungere questa funzione dal menu dell'account, senza creare un accesso separato.
+    Il Topical Authority Builder è una funzione della vecchia app web (`app.himoose.com`) e non fa parte dell'app desktop. L'app desktop non vi rimanda. Resta disponibile su `app.himoose.com` per gli account che già usano la vecchia app web.
 
 ## A cosa serve
 

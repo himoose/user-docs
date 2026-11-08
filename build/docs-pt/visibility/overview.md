@@ -1,5 +1,5 @@
 ---
-source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
+source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -12,11 +12,12 @@ source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
 
 O painel de Visibilidade mostra como sua marca realmente se sai na busca com IA: as consultas que os clientes usam para encontrar você, se sua marca entra na lista de indicações e se os mecanismos de IA a descrevem com precisão. É a visão principal para as etapas **monitorar** e **detectar** do [ciclo central de operações](../index.md#o-ciclo-central-de-operacoes).
 
-O painel tem seis abas:
+O painel tem sete abas:
 
 | Aba | A que ela responde |
 |---|---|
 | **Visão geral** | Como estou indo? |
+| **[Oportunidades](#oportunidades)** | No que devo trabalhar? |
 | **[Concorrência](competitors.md)** | Como estou indo em relação a eles? |
 | **Menções** | Quais marcas são citadas nessas respostas? |
 | **Citações** | Em quais fontes os mecanismos realmente se apoiam? |
@@ -67,6 +68,27 @@ Abaixo do resumo há dois blocos:
 
 - **Onde você está**: seu Share of Voice, a taxa de menção sobre as respostas lidas, as citações, a posição média quando você é citado e a taxa de menção por mecanismo, com todo o conjunto de marcas monitoradas ao lado.
 - **A IA está descrevendo você com precisão?**: alinhamento de posicionamento, distribuição de tom e uma lista de **respostas que merecem revisão**: as respostas específicas em que um mecanismo descreveu mal uma capacidade ou se afastou do seu posicionamento. Cada uma abre a resposta ou salta para ela na aba Prompts.
+
+## Oportunidades
+
+A aba **Oportunidades** transforma os resultados monitorados em uma lista de trabalho ordenada por prioridade. Cada linha é uma coisa a corrigir: um título de uma linha, os prompts e mecanismos de IA afetados, sua parcela em relação ao principal rival e uma linha **Próximo passo:** que nomeia o primeiro passo.
+
+As linhas são construídas apenas com os prompts que você monitora, a partir das dez execuções mais recentes em cada mecanismo. O filtro de período acima não altera a lista, e os [prompts aposentados](prompt-manager.md#aposentar-um-prompt) ficam de fora.
+
+Cada linha traz:
+
+- **Um tipo de ação.** **Criar cobertura** quando nenhuma página sua responde a um prompt em que os mecanismos nunca citam você. **Melhorar uma página** quando sua página existe mas está perdendo. **Conquistar inclusão** quando uma página de terceiros citada pelos mecanismos poderia listar você. **Corrigir a descrição** quando uma resposta contradiz seu Brand Truth Profile. **Investigar uma mudança** quando um mecanismo deixou de citar ou mencionar você. **Manter a liderança** quando você está à frente e deve continuar.
+- **Uma prioridade.** Alta, Média ou Baixa, conforme quantos pares de prompt e mecanismo a lacuna afeta, quão constante ela se manteve nas execuções, se um concorrente monitorado está à sua frente e se a correção está em uma página que você controla.
+- **Uma confiança.** Sólida, Indicativa ou Precisa de investigação, conforme em quantas execuções a lacuna foi vista e com que frequência mudou entre execuções.
+- **Um esforço.** Pequeno, Médio ou Grande, de conteúdo novo para pesquisar e escrever até uma edição de uma linha no seu Brand Truth Profile.
+
+Clique em uma linha para abri-la. O detalhe mostra o que está acontecendo, os passos a dar e as evidências por trás da linha: a grade de prompts e mecanismos com onde você esteve ausente, mencionado ou citado, as respostas sinalizadas, os concorrentes à sua frente, as páginas concorrentes que os mecanismos citam, sua própria página correspondente com qualquer auditoria anterior e o que mudou em relação ao período anterior.
+
+A partir do detalhe você inicia o trabalho: **Criar briefing**, **Auditar página**, **Redigir uma proposta** para o site que poderia incluir você, **Atualizar Brand Truth**, **Redigir um pedido de correção** ou **Revisar respostas**. O briefing e a auditoria abrem com os prompts e páginas da linha já preenchidos, e o resultado fica vinculado à linha, cujo status passa a **Briefing pronto**, **Rascunho pronto** ou **Auditoria pronta**.
+
+As linhas têm um status. **Marcar como concluída**, **Descartar** ou **Adiar** por um número de dias, **Atribuir** a um colega e **Adicionar nota** estão em todas as linhas. Uma linha fechada fica oculta até você mostrar as linhas fechadas, e volta como **Reaberta por novas evidências** quando execuções posteriores mostram a lacuna de novo. Filtre a lista por ação, prioridade, confiança, status, mecanismo ou tema, e use **Exportar para Excel** para obter a lista inteira com as colunas de evidências.
+
+Um app MCP conectado recebe a mesma lista, na mesma ordem, por meio de [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
 
 ## Menções
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 44a098b9f501f2117290c2037c5635c5aa9f250b49d72a34e103dba9d3cb8b5b
+source_hash: ad46e40e72ad2b7b2419cc3412e58e92618718f92c9fe65d25441f5987556e64
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -29,7 +29,7 @@ Nadie ha elegido todavía un dispositivo anfitrión para el proyecto. Abre Hi, M
 
 Los briefs, borradores, auditorías y audios tardan minutos, y algunas apps dejan de esperar antes de que termine el trabajo. Pide a la app que vuelva a comprobarlo; recoge el resultado con el id de trabajo que recibió. El trabajo también se guarda en tu [Library](../../library/overview.md) en Hi, Moose, así que no se pierde nada si el chat sigue adelante.
 
-El audio es lo que más tarda: unos 5 minutos un episodio corto, 9 el estándar y 15 el profundo. Mientras tanto el dispositivo anfitrión no trabaja en nada más, así que una segunda petición espera detrás.
+El audio es lo que más tarda: unos 5 minutos un episodio corto, 9 el estándar y 15 el profundo. El dispositivo anfitrión ejecuta varios trabajos a la vez: las listas, las comprobaciones de cobertura y las preguntas de visibilidad responden mientras un borrador o un episodio de audio sigue en marcha, y los trabajos de redacción se ejecutan de pocos en pocos. Una ejecución de visibilidad iniciada en el dispositivo es el único trabajo que se ejecuta solo.
 
 ## La app eligió el proyecto equivocado
 

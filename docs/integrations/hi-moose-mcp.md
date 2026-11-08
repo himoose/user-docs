@@ -18,7 +18,7 @@ With the current tools, a connected app can:
 - Create a content brief
 - Write a draft from a brief
 - Refresh content you already have: compare a live page, a saved draft or pasted text with the current search results, and get a refresh brief with the gaps and a revised draft
-- Create a featured image
+- Create a featured image, with alt text for the page
 - Write FAQs with FAQPage schema for a saved draft or a page on your site
 - Write key points for a saved draft or a page on your site
 - Run an AEO audit on a live page, a saved draft or pasted content, with scores, issues and proposed fixes
@@ -41,6 +41,10 @@ It cannot change settings or team members, and it cannot delete anything. More t
 ```text
 https://mcp.himoose.com/mcp
 ```
+
+### Model for writing tasks
+
+Under **Settings → Hi, Moose MCP** the account owner also picks the **model for writing tasks**: the model that writes the briefs, drafts, FAQs, key points, content refreshes and AEO audits an MCP app asks for. Featured images use the image model. The default is Claude Sonnet 5.5. The list matches the chat model picker, with models outside your plan greyed out; if a saved model later leaves your plan, writing tasks fall back to the default until you pick another. Team members see which model is in use but cannot change it.
 
 ## Connect in Claude
 
@@ -99,39 +103,42 @@ https://mcp.himoose.com/mcp
 
 Hi, Moose publishes free, open source skills for answer engine optimization (AEO), also called GEO or AI SEO, on GitHub: [himoose/aeo-skills](https://github.com/himoose/aeo-skills) (MIT license). A skill is a folder of instructions your AI app follows for one kind of task; these use the open [Agent Skills](https://agentskills.io) format.
 
-The first skill, `ai-visibility`, reads the AI search results Hi, Moose has already stored, through Hi, Moose MCP. It never runs new checks, changes settings or publishes anything. Ask, for example:
+There are three skills, and all of them work through Hi, Moose MCP:
 
-- "Build my AI search visibility dashboard." This is the default: an interactive dashboard on one HTML page. Pick 7, 30 or 90 days or your own dates, filter by AI engine, hover over a chart for the numbers, see your tracked brand against competitors and the answers that left your brand out, and work through a to-do list with **Open in Hi, Moose** buttons. Charts save as PNG, the numbers as CSV and the page as PDF.
-- "Write my AI search visibility report as text for an email." You get a short written report.
-- "What should I work on this week to show up more in AI search?" You get your open fixes as a ranked to-do list.
+- `ai-visibility` reads the AI search results Hi, Moose has already stored. It never runs new checks, changes settings or publishes anything. Ask, for example:
+    - "Build my AI search visibility dashboard." This is the default: an interactive dashboard on one HTML page. Pick 7, 30 or 90 days or your own dates, filter by AI engine, hover over a chart for the numbers, see your tracked brand against competitors and the answers that left your brand out, and work through a to-do list with **Open in Hi, Moose** buttons. Charts save as PNG, the numbers as CSV and the page as PDF.
+    - "Write my AI search visibility report as text for an email." You get a short written report.
+    - "What should I work on this week to show up more in AI search?" You get your open fixes as a ranked to-do list.
+- `weekly-content-plan` reads your Opportunities list, keeps the writing work, groups it by topic, checks your site and your saved briefs so nothing is written twice, and picks the top three pieces for the week with the evidence behind each. On request it makes a researched brief for each one. Ask "What should I write this week?"
+- `publish-ready-draft` takes one opportunity or topic all the way to a finished article: the brief, the draft in your brand's voice, the AEO audit with its text fixes applied, internal links from your site crawl, key points and FAQs with schema markup, and the featured image. Ask "Write the article for opportunity 3 and get it ready to publish." For a page that already exists it refreshes the page instead of writing a new one.
 
-The skill works on every plan. Sentiment, narrative and feature accuracy scores are part of paid plans; mentions, citations, rank and competitors work on every plan. As with every Hi, Moose MCP tool, keep Hi, Moose open on the host device while you ask.
+The skills work on every plan. Sentiment, narrative and feature accuracy scores are part of paid plans; mentions, citations, rank and competitors work on every plan. Briefs use live search research, which free plans get once a day. As with every Hi, Moose MCP tool, keep Hi, Moose open on the host device while you ask.
 
 ### Add the skill in Claude.ai or the Claude desktop app
 
 1. On the [GitHub page](https://github.com/himoose/aeo-skills), click **Code → Download ZIP** and unzip the file.
-2. Open the `skills` folder and zip the `ai-visibility` folder on its own, so you have `ai-visibility.zip` with the `ai-visibility` folder inside it.
-3. In Claude, go to **Customize → Skills**, click **+**, then **Create skill → Upload a skill**, and choose `ai-visibility.zip`.
+2. Open the `skills` folder and zip the skill folder you want on its own, for example `ai-visibility`, so you have `ai-visibility.zip` with the `ai-visibility` folder inside it. Repeat for each skill you want.
+3. In Claude, go to **Customize → Skills**, click **+**, then **Create skill → Upload a skill**, and choose the ZIP.
 4. Make sure **code execution** is turned on in Claude's settings; skills need it.
 5. Start a new chat, check that the Hi, Moose connector is turned on for it, and ask.
 
 ### Add the skill in Claude Code
 
-The repository is also a Claude Code plugin. One install adds the skill and the Hi, Moose connector:
+The repository is also a Claude Code plugin. One install adds all three skills and the Hi, Moose connector:
 
 ```text
 /plugin marketplace add himoose/aeo-skills
 /plugin install himoose@himoose
 ```
 
-Then run `/mcp`, choose `plugin:himoose:himoose` and **Authenticate** to sign in. If you already added Hi, Moose with `claude mcp add` as shown above, the same tools appear twice; remove one of them in `/mcp`.
+Then run `/mcp`, choose `plugin:himoose:himoose` and **Authenticate** to sign in. If you already added Hi, Moose with `claude mcp add` as shown above, the same tools appear twice; remove one of them in `/mcp`. Ask in plain words, or run `/himoose:ai-visibility`, `/himoose:weekly-content-plan` or `/himoose:publish-ready-draft`.
 
 ### Add the skill in ChatGPT
 
 Skills are available on some ChatGPT plans only; OpenAI lists Business, Enterprise, Healthcare and Edu workspaces ([Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt)).
 
 1. Connect Hi, Moose MCP in ChatGPT as described above.
-2. Add the `skills/ai-visibility` folder from the GitHub repository as a skill, following OpenAI's instructions for your workspace.
+2. Add each skill folder you want from the GitHub repository as a skill, for example `skills/ai-visibility`, following OpenAI's instructions for your workspace.
 3. In a chat, type `@` to pick the skill, or just ask.
 
 ## How a request runs

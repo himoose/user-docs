@@ -1,5 +1,5 @@
 ---
-source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
+source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -12,11 +12,12 @@ source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
 
 El panel de Visibility muestra cómo se comporta realmente su marca en la búsqueda con IA: las consultas que usan los clientes para encontrarle, si su marca entra en la lista corta y si los motores de IA la describen con exactitud. Es la vista principal para los pasos **supervisar** y **detectar** del [ciclo central de operaciones](../index.md#el-ciclo-central-de-operaciones).
 
-El panel tiene seis pestañas:
+El panel tiene siete pestañas:
 
 | Pestaña | A qué responde |
 |---|---|
 | **Resumen** | ¿Cómo lo estoy haciendo? |
+| **[Oportunidades](#oportunidades)** | ¿En qué debería trabajar? |
 | **[Competencia](competitors.md)** | ¿Cómo lo estoy haciendo frente a ellos? |
 | **Menciones** | ¿Qué marcas se nombran en estas respuestas? |
 | **Citas** | ¿En qué fuentes se apoyan realmente los motores? |
@@ -67,6 +68,27 @@ Debajo del resumen hay dos bloques:
 
 - **En qué punto está**: su Share of Voice, la tasa de mención sobre las respuestas leídas, las citas, la posición media cuando se le nombra y la tasa de mención por motor, con todo el conjunto de marcas supervisadas a su lado.
 - **¿La IA le describe con precisión?**: alineación del posicionamiento, desglose del tono y una lista de **respuestas que conviene revisar**: las respuestas concretas en las que un motor describió mal una capacidad o se apartó de su posicionamiento. Cada una abre la respuesta o salta a ella en la pestaña Prompts.
+
+## Oportunidades
+
+La pestaña **Oportunidades** convierte los resultados supervisados en una lista de trabajo ordenada por prioridad. Cada fila es una cosa que arreglar: un titular de una línea, los prompts y motores de IA a los que afecta, su cuota frente al principal rival y una línea **Siguiente:** que nombra el primer paso.
+
+Las filas se construyen solo con los prompts que usted supervisa, a partir de las diez ejecuciones más recientes en cada motor. El filtro de periodo de arriba no cambia la lista, y los [prompts retirados](prompt-manager.md#retirar-un-prompt) quedan fuera.
+
+Cada fila incluye:
+
+- **Un tipo de acción.** **Crear cobertura** cuando ninguna página suya responde a un prompt en el que los motores nunca le nombran. **Mejorar una página** cuando su página existe pero está perdiendo. **Conseguir la inclusión** cuando una página de terceros que los motores citan podría incluirle. **Corregir la descripción** cuando una respuesta contradice su Brand Truth Profile. **Investigar un cambio** cuando un motor ha dejado de nombrarle o citarle. **Mantener la ventaja** cuando va por delante y debe conservarlo.
+- **Una prioridad.** Alta, Media o Baja, según cuántos pares de prompt y motor afecta la brecha, con qué constancia se mantuvo en las ejecuciones, si un competidor supervisado va por delante de usted y si la solución está en una página que usted controla.
+- **Una confianza.** Sólida, Orientativa o Requiere investigación, según en cuántas ejecuciones se observó la brecha y con qué frecuencia cambió entre ejecuciones.
+- **Un esfuerzo.** Pequeño, Medio o Grande, desde contenido nuevo que investigar y escribir hasta una edición de una línea en su Brand Truth Profile.
+
+Pulse una fila para abrirla. El detalle muestra qué está ocurriendo, los pasos que dar y la evidencia que hay detrás de la fila: la cuadrícula de prompts y motores con dónde estuvo ausente, nombrado o citado, las respuestas señaladas, los competidores que van por delante, las páginas de la competencia que citan los motores, su propia página coincidente con cualquier auditoría anterior y qué cambió respecto al periodo anterior.
+
+Desde el detalle se inicia el trabajo: **Crear brief**, **Auditar página**, **Redactar una propuesta** para el sitio que podría incluirle, **Actualizar Brand Truth**, **Redactar una solicitud de corrección** o **Revisar respuestas**. El brief y la auditoría se abren con los prompts y páginas de la fila ya rellenados, y el resultado queda enlazado a la fila, cuyo estado pasa a **Brief listo**, **Borrador listo** o **Auditoría lista**.
+
+Las filas tienen un estado. **Marcar como hecha**, **Descartar** o **Posponer** un número de días, **Asignar** a un compañero y **Añadir nota** están en todas las filas. Una fila cerrada se oculta hasta que muestra las filas cerradas, y vuelve como **Reabierta por nueva evidencia** cuando ejecuciones posteriores muestran de nuevo la brecha. Filtre la lista por acción, prioridad, confianza, estado, motor o tema, y use **Exportar a Excel** para obtener toda la lista con las columnas de evidencia.
+
+Una app MCP conectada recibe la misma lista, en el mismo orden, a través de [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
 
 ## Menciones
 

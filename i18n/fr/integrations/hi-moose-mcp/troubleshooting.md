@@ -1,5 +1,5 @@
 ---
-source_hash: 44a098b9f501f2117290c2037c5635c5aa9f250b49d72a34e103dba9d3cb8b5b
+source_hash: ad46e40e72ad2b7b2419cc3412e58e92618718f92c9fe65d25441f5987556e64
 ---
 
 # Dépannage
@@ -24,7 +24,7 @@ Personne n'a encore choisi d'appareil hôte pour le projet. Ouvrez Hi, Moose sur
 
 Les briefs, brouillons, audits et épisodes audio prennent plusieurs minutes, et certaines applications cessent d'attendre avant la fin du travail. Demandez à l'application de vérifier à nouveau ; elle récupère le résultat avec l'identifiant de tâche qu'elle a reçu. Le travail est aussi enregistré dans votre [Library](../../library/overview.md) dans Hi, Moose, donc rien n'est perdu si la conversation avance.
 
-L'audio est le plus long : environ 5 minutes pour un épisode court, 9 pour standard et 15 pour approfondi. L'appareil hôte ne travaille sur rien d'autre pendant ce temps, donc une seconde demande attend derrière.
+L'audio est le plus long : environ 5 minutes pour un épisode court, 9 pour standard et 15 pour approfondi. L'appareil hôte exécute plusieurs tâches à la fois : les listes, les vérifications de couverture et les questions de visibilité répondent pendant qu'un brouillon ou un épisode audio est encore en cours, et les tâches de rédaction s'exécutent par petits groupes. Une exécution de visibilité lancée sur l'appareil est la seule tâche qui s'exécute seule.
 
 ## L'application a choisi le mauvais projet
 

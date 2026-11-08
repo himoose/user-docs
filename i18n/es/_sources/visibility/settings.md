@@ -67,12 +67,13 @@ Choose which engines are pre-selected whenever you add a new prompt in [Prompt M
 | Google AI Mode | API | Paid |
 | Google AI Overviews | API | Paid |
 | Bing Copilot | API | Paid |
+| Bing Copilot (local fetch) | From your machine | Paid |
 | DeepSeek | API | Paid |
 | Meta AI | API | Paid |
 
 **DeepSeek** and **Meta AI** are off by default. They're worth turning on if your category has real traction in the markets those two are strong in; if it doesn't, leaving them off keeps your run cost down.
 
-**Local-fetch** engines read the public AI search surface from your own machine rather than calling an API. They cost no tokens, but they need the desktop app open when the run executes, on every plan.
+**Local-fetch** engines read the public AI search surface from your own machine rather than calling an API. They cost no tokens, but they need the desktop app open when the run executes, on every plan. Sign in to each engine once under **Settings → [Account logins](../getting-started/settings.md#account-logins)** so runs use your signed-in session and stop asking you to confirm you are human.
 
 ## Redo onboarding
 

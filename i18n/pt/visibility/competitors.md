@@ -1,5 +1,5 @@
 ---
-source_hash: 1c85ff53a55d4b6ecb7d8fbdd11b64ab53c6c37bdd4cb12540b5dc7616afc495
+source_hash: 89e095503fa4df7ea8ea80ace92a8719b5fc7e831f391899ed8b386d12d0accc
 ---
 # Concorrentes e Share of Voice
 
@@ -15,7 +15,7 @@ Adicione concorrentes em **Visibilidade → Configurações → Monitoramento de
 
 Essa lista é compartilhada com o seu [Perfil de Verdade da Marca](../getting-started/context/brand-truth-profile.md), então concorrentes adicionados em qualquer um dos dois lugares aparecem em ambos.
 
-Quantos são monitorados nas execuções de visibilidade depende do seu plano: **5 no Preview Mode e no BYOK Free, 15 em todos os planos pagos**. A tela de configurações informa o número e avisa se sua lista for maior, para que você saiba que só os primeiros são monitorados.
+Quantos são monitorados nas execuções de visibilidade depende do seu plano: **5 no Preview Mode e no BYOK Free, 30 em todos os planos pagos**. A tela de configurações informa o número e avisa se sua lista for maior, para que você saiba que só os primeiros são monitorados.
 
 De três a cinco concorrentes reais funcionam melhor do que uma lista longa. São as marcas com que você é de fato comparado, não o setor inteiro.
 

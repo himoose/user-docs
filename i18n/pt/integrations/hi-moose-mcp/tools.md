@@ -1,5 +1,5 @@
 ---
-source_hash: 8041c8e0642cea4b400e4963874e48a0ab71e48bec388f0b6f9961b24ad759c8
+source_hash: a42d8b4c91884c29e9f5380f4247a0b3601d1910f72fe346eb70ae656895ba05
 ---
 
 # Referência de ferramentas
@@ -127,7 +127,7 @@ Cria uma imagem destacada para um artigo, 1200 por 630, no seu estilo de imagem 
 | title e summary | um dos dois | O título do artigo e um resumo curto, até 6.000 caracteres, quando não há rascunho |
 | styleIntent | não | Um desejo para esta imagem em particular: clima, cena, cores. O estilo salvo continua valendo. |
 
-Devolve a imagem e um link para o PNG. O arquivo também é salvo no dispositivo host.
+Devolve a imagem, um link para o PNG e um texto alternativo escrito a partir da imagem pronta: ele descreve a imagem primeiro e cita uma vez o tema do artigo, cerca de 125 caracteres, no idioma do artigo. O arquivo também é salvo no dispositivo host.
 
 Peça: "Faça uma imagem destacada para aquele rascunho, luz de fim de tarde, sem pessoas."
 

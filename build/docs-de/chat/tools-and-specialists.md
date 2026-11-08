@@ -1,5 +1,5 @@
 ---
-source_hash: b58a8ba99a61b64bb2209353aa0fa79de0889308fc888578032146544e64c54f
+source_hash: a85cf6e7bae4e5f6f1e42809519e08b2b1fce05c59eac51a0ca80daa3b20e0a3
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -38,10 +38,12 @@ Der Chat beschränkt sich nicht auf Texterzeugung. Im Verlauf eines Gesprächs k
 | Sichtbarkeitshistorie | Ihre verfolgte [Sichtbarkeits](../visibility/overview.md)-Historie abfragen: Erwähnungen, Zitationen, Quellen, Bewegung |
 | Entity Graph lesen | Aus dem [Entity Graph](../features/entity-graph.md) des Projekts antworten |
 | Entity Graph erstellen | Einen neuen erzeugen |
-| Bilderzeugung | Ein Bild für einen Entwurf erstellen |
+| Bilderzeugung | Ein Bild für einen Entwurf erstellen, mit Alt-Text |
 | Hilfe zur App | Sie zur passenden Dokumentation oder zum Support führen |
 
 Moose kann außerdem das Formular für einen [AEO-Audit](../features/aeo-audits.md), einen [Content Brief](../features/content-briefs.md), [FAQ](../features/faq-generator.md), [Key Points](../features/key-points.md) oder einen Entity Graph öffnen und direkt aus dem Gespräch heraus ausführen.
+
+Jedes erzeugte Bild bekommt einen **Alt-Text**, der anhand des fertigen Bildes geschrieben wird: Er beschreibt zuerst das Bild und nennt einmal das Thema des Artikels, in der Sprache des Artikels. Er erscheint unter dem Bild im Chat, in der Library und im Entwurfseditor mit einer Schaltfläche **Kopieren**, und Sie können ihn dort bearbeiten.
 
 
 Der Einsatz von Werkzeugen funktioniert in verwalteten Tarifen, BYOK-Tarifen und mit lokalen Gemma-4-Modellen gleichermaßen.

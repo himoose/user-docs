@@ -1,5 +1,5 @@
 ---
-source_hash: b58a8ba99a61b64bb2209353aa0fa79de0889308fc888578032146544e64c54f
+source_hash: a85cf6e7bae4e5f6f1e42809519e08b2b1fce05c59eac51a0ca80daa3b20e0a3
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -38,10 +38,12 @@ O chat não se limita a gerar texto. No decorrer de uma conversa, o Moose pode u
 | Histórico de visibilidade | Consultar seu histórico de [visibilidade](../visibility/overview.md) monitorada: menções, citações, fontes, movimento |
 | Ler o entity graph | Responder a partir do [entity graph](../features/entity-graph.md) do projeto |
 | Construir um entity graph | Gerar um novo |
-| Geração de imagens | Produzir uma imagem para um rascunho |
+| Geração de imagens | Produzir uma imagem para um rascunho, com texto alternativo |
 | Ajuda sobre o aplicativo | Apontar a documentação certa ou o suporte |
 
 O Moose também pode abrir o formulário de uma [auditoria de AEO](../features/aeo-audits.md), um [briefing de conteúdo](../features/content-briefs.md), [FAQs](../features/faq-generator.md), [pontos principais](../features/key-points.md) ou um entity graph, e executá-lo a partir da conversa.
+
+Toda imagem gerada vem com um **texto alternativo** escrito a partir da imagem pronta: ele descreve a imagem primeiro e cita uma vez o tema do artigo, no idioma do artigo. Ele aparece abaixo da imagem no chat, na Library e no editor de rascunhos com um botão **Copiar**, e você pode editá-lo ali.
 
 
 O uso de ferramentas funciona igual nos planos gerenciados, nos planos BYOK e nos modelos locais Gemma 4.

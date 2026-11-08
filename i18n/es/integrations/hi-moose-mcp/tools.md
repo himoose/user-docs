@@ -1,5 +1,5 @@
 ---
-source_hash: 8041c8e0642cea4b400e4963874e48a0ab71e48bec388f0b6f9961b24ad759c8
+source_hash: a42d8b4c91884c29e9f5380f4247a0b3601d1910f72fe346eb70ae656895ba05
 ---
 
 # Referencia de herramientas
@@ -127,7 +127,7 @@ Crea una imagen destacada para un artículo, de 1200 por 630, con tu estilo de i
 | title y summary | una de las dos | El título del artículo y un resumen breve, hasta 6.000 caracteres, cuando no hay borrador |
 | styleIntent | no | Un deseo para esta imagen concreta: ambiente, escena, colores. El estilo guardado sigue aplicándose. |
 
-Devuelve la imagen y un enlace al PNG. El archivo también se guarda en el dispositivo anfitrión.
+Devuelve la imagen, un enlace al PNG y un texto alternativo escrito a partir de la imagen terminada: describe primero la imagen y nombra una vez el tema del artículo, unos 125 caracteres, en el idioma del artículo. El archivo también se guarda en el dispositivo anfitrión.
 
 Pide: «Haz una imagen destacada para ese borrador, luz de tarde, sin personas».
 

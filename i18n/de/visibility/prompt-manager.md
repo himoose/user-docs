@@ -1,5 +1,5 @@
 ---
-source_hash: b6472884da7df3e651f78be6893eb9896b38a6327a26378ca1d4cc26b2d0454e
+source_hash: 52e4fc142ac45ba9ec93251b7b681cb95c1e09d409fef443f88b56ac8cbebaa7
 ---
 # Prompt Manager
 
@@ -16,10 +16,25 @@ Prompts werden in Kategorien gruppiert, die in der Filterliste links erscheinen:
 Geben Sie einen neuen Prompt ein und fügen Sie ihn einer Kategorie hinzu. Für jeden Prompt können Sie:
 
 - Den Prompt-Text bearbeiten.
-- Wählen, gegen welche KI-Maschinen oder Modelle er läuft. **Modelle auswählen** öffnet eine Auswahl mit ChatGPT, Claude, Gemini, Grok, Perplexity, Google AI Mode, Google AI Overview und Bing Copilot (die Verfügbarkeit hängt von Ihrem Tarif ab und, bei Maschinen mit lokaler Abfrage, davon, dass die Desktop-App läuft).
+- Wählen, gegen welche KI-Engines er läuft. **Modelle auswählen** öffnet eine Auswahl mit allen Engines, die Ihr Tarif verfolgen kann, API- und Local-fetch-Varianten gleichermaßen (siehe [die Engines, die Sie verfolgen können](settings.md#die-engines-die-sie-verfolgen-konnen)). Local-fetch-Engines brauchen eine geöffnete Desktop-App, wenn der Lauf ausgeführt wird.
+- Den Prompt stilllegen (siehe unten).
 - Den Prompt löschen.
 
 Anders als bei einer einzigen kontoweiten Einstellung erfolgt die **Modellauswahl je Prompt**: Ein Prompt kann ausschließlich gegen ChatGPT und Gemini laufen, während ein anderer alle unterstützten Maschinen abdeckt. So verbrauchen Sie Ihr Kontingent nur für die Maschinen, die für diese konkrete Anfrage zählen.
+
+## Mehrere Prompts finden und auswählen
+
+**Prompts durchsuchen** filtert die Liste nach Text. Haken Sie mehrere Prompts an, und die Werkzeugleiste bietet **Kategorien zuweisen**, **Modelle zuweisen**, **Ausgewählte stilllegen** und **Ausgewählte löschen**, sodass eine Änderung an vielen Prompts in einem Schritt gespeichert wird statt Prompt für Prompt. Löschen können Sie nur Prompts, die Sie selbst angelegt haben, es sei denn, Sie sind Team-Inhaber.
+
+## Einen Prompt stilllegen
+
+Legen Sie einen Prompt still, wenn er veraltet ist, seine Historie aber erhalten bleiben soll, zum Beispiel ein Prompt, der das letzte Jahr nennt. Ein stillgelegter Prompt:
+
+- behält alle bisherigen Ergebnisse, sodass Verläufe und Berichte sie weiterhin enthalten;
+- bleibt bei neuen Läufen außen vor, kostet also nichts;
+- bleibt in der Liste der [Chancen](overview.md#chancen) außen vor.
+
+Stillgelegte Prompts stehen im Abschnitt **Stillgelegte Prompts** der Filterliste, jeweils mit dem Datum der Stilllegung, und **Wiederherstellen** nimmt einen wieder in die Verfolgung auf. Einen neuen Prompt mit demselben Text wie ein stillgelegter anzulegen bewirkt nichts; stellen Sie ihn stattdessen wieder her. **Löschen** nimmt einen Prompt ebenfalls aus der künftigen Verfolgung und behält die historischen Laufdaten für Berichte, lässt sich aber nicht rückgängig machen.
 
 ## Diagnostic Prompts
 

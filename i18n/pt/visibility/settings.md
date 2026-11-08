@@ -1,5 +1,5 @@
 ---
-source_hash: 4c556d4fb46ef581843a6485001e4bcb5bca5e6cb807598a5721189e08265d89
+source_hash: 566edf125c99ef57599940389c2fe7f0e8a70e6b5b9e0b66f8c23727b6864ac7
 ---
 # Configurações de Visibilidade
 
@@ -70,12 +70,13 @@ Escolha quais mecanismos ficam pré-selecionados sempre que você adiciona um pr
 | Google AI Mode | API | Pago |
 | Google AI Overviews | API | Pago |
 | Bing Copilot | API | Pago |
+| Bing Copilot (local fetch) | Da sua máquina | Pago |
 | DeepSeek | API | Pago |
 | Meta AI | API | Pago |
 
 **DeepSeek** e **Meta AI** vêm desligados por padrão. Vale ligá-los se a sua categoria tem tração real nos mercados em que esses dois são fortes; se não tem, deixá-los desligados mantém o custo de cada execução baixo.
 
-Os mecanismos **local fetch** leem a superfície pública de busca com IA a partir da sua própria máquina, em vez de chamar uma API. Eles não custam tokens, mas exigem o aplicativo de desktop aberto quando a execução acontece, em qualquer plano.
+Os mecanismos **local fetch** leem a superfície pública de busca com IA a partir da sua própria máquina, em vez de chamar uma API. Eles não custam tokens, mas exigem o aplicativo de desktop aberto quando a execução acontece, em qualquer plano. Entre uma vez em cada mecanismo em **Configurações → [Logins de contas](../getting-started/settings.md#logins-de-contas)** para que as execuções usem a sua sessão conectada e parem de pedir que você confirme que é humano.
 
 ## Refazer a configuração inicial
 

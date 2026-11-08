@@ -2,7 +2,7 @@
 
 ## What this helps you do
 
-Settings is where you manage your profile, your plan, your models, your team, and how the app behaves on this computer. It's organized into ten sections down the left side.
+Settings is where you manage your profile, your plan, your models, your team, and how the app behaves on this computer. It's organized into sections down the left side; a few only show for the account owner or on paid plans.
 
 | Section | What's in it |
 |---|---|
@@ -13,8 +13,12 @@ Settings is where you manage your profile, your plan, your models, your team, an
 | Team | Seats, invitations, roles |
 | [Site Monitoring](../site-monitoring/overview.md) | Crawl schedule, search index, monitored pages, blocked paths |
 | [Branding](../agency/white-label.md) | White-label reports and audio attribution (paid plans only) |
-| Logs | Action logs and CSV export |
+| Account logins | The sites Moose is signed in to for visibility runs and Send Moose |
+| [Hi, Moose MCP](../integrations/hi-moose-mcp.md) | Host device, model for writing tasks, connected apps, recent jobs |
+| [Hi, Moose REST API](../integrations/developer-api.md) | API keys and webhooks (owner only) |
+| Logs | Action logs and CSV export (owner only) |
 | Data & Backup | Local backup and restore |
+| Visibility history | The local copy of your AI search answers and its space budget |
 | Troubleshooting | Cache, diagnostic log, local data reset |
 
 ## General
@@ -79,9 +83,21 @@ Connected CMS and data sources are separate, and live in the **Connections** scr
 
 White-label your exported PDF reports and embedded audio players. Available on every paid plan, editable by the subscription owner. See **[White-Label Branding](../agency/white-label.md)**.
 
+## Account logins
+
+Moose uses its own browser for local-fetch visibility runs and for Send Moose. This section lists the sites it can be signed in to, grouped into AI answer engines (ChatGPT, Google AI Mode and Gemini, Grok, Perplexity, Bing Copilot) and the sites Send Moose agents use (Reddit, LinkedIn, X), each with a **Signed in** or **Not signed in** badge. Open a site here and sign in once; every later run picks the session up. Signing in also stops the "confirm you are human" checks that engines show on first runs. The logins stay on this computer and never go to the cloud.
+
+The badge is a best guess from each site's cookies. If a run still asks you to sign in, open the site here and sign in again.
+
+A **web mail** inbox can be added for Send Moose, so Moose can read confirmation links while it works on a job. It never sends, replies, deletes or changes settings. Use a mailbox created for Moose and keep your personal inbox separate.
+
 ## Hi, Moose MCP
 
-Connect Claude, ChatGPT or any other MCP app to your Hi, Moose account, choose the host device that runs the work, and see connected apps and recent jobs. See **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
+Connect Claude, ChatGPT or any other MCP app to your Hi, Moose account, choose the host device that runs the work, pick the **model for writing tasks**, and see connected apps and recent jobs. See **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
+
+## Hi, Moose REST API
+
+This section shows for the account owner only. Create and revoke the API keys that read your stored visibility data from your own dashboards and reports, choose what each key may do (read visibility data, manage tracking, start runs), and see or remove the webhooks registered for the project. See **[Hi, Moose API](../integrations/developer-api.md)**.
 
 ## Logs
 
@@ -101,6 +117,10 @@ Create a compressed `.hmbk` backup of your on-device history, and import it late
     An import replaces this device's local Hi, Moose data with the contents of the backup. The confirmation dialog tells you how many rows will be restored and when the backup was made. Restart the app afterward so every screen reloads from the restored data.
 
 Imports only accept `.hmbk` files exported by the Hi, Moose desktop app.
+
+## Visibility history
+
+Hi, Moose keeps a copy of your AI search answers on this computer so the Visibility page can show any period without downloading it again. This section shows how much space the current project's copy uses and the dates it covers, and a **space budget**: when the copy passes that size, the oldest days are removed from this computer only, and they come back from the cloud when you pick a period that needs them. On plans without a cloud copy nothing is removed automatically; back the answers up under Data & Backup instead.
 
 ## Troubleshooting
 

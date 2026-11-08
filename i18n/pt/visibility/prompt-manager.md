@@ -1,5 +1,5 @@
 ---
-source_hash: b6472884da7df3e651f78be6893eb9896b38a6327a26378ca1d4cc26b2d0454e
+source_hash: 52e4fc142ac45ba9ec93251b7b681cb95c1e09d409fef443f88b56ac8cbebaa7
 ---
 # Gerenciador de Prompts
 
@@ -16,10 +16,25 @@ Os prompts ficam agrupados em categorias exibidas na lista de filtros à esquerd
 Digite um prompt novo e adicione-o a uma categoria. Para cada prompt você pode:
 
 - Editar o texto do prompt.
-- Escolher em quais mecanismos ou modelos de IA ele roda. **Selecionar modelos** abre um seletor com ChatGPT, Claude, Gemini, Grok, Perplexity, Google AI Mode, Google AI Overview e Bing Copilot (a disponibilidade depende do seu plano e, nos mecanismos de consulta local, de o aplicativo para desktop estar em execução).
+- Escolher em quais mecanismos de IA ele roda. **Selecionar modelos** abre um seletor com todos os mecanismos que o seu plano pode monitorar, versões por API e de consulta local (veja [os mecanismos que você pode monitorar](settings.md#os-mecanismos-que-voce-pode-monitorar)). Os mecanismos de consulta local precisam do aplicativo para desktop aberto quando a execução acontece.
+- Aposentar o prompt (veja abaixo).
 - Excluir o prompt.
 
 Diferente de uma única configuração para a conta inteira, **a escolha de modelos é por prompt**: um prompt pode rodar só no ChatGPT e no Gemini enquanto outro cobre todos os mecanismos compatíveis, então você gasta sua cota apenas nos mecanismos que importam para aquela consulta.
+
+## Buscar e selecionar vários prompts
+
+**Buscar prompts** filtra a lista por texto. Marque vários prompts e a barra de ferramentas oferece **Atribuir categorias**, **Atribuir modelos**, **Aposentar selecionados** e **Excluir selecionados**, de modo que uma mudança em muitos prompts é salva em um único passo, e não prompt a prompt. Você só pode excluir os prompts que criou, a menos que seja o proprietário da equipe.
+
+## Aposentar um prompt
+
+Aposente um prompt quando ele ficou desatualizado mas o histórico ainda vale a pena guardar, por exemplo um prompt que cita o ano passado. Um prompt aposentado:
+
+- mantém todos os resultados anteriores, então tendências e relatórios continuam a incluí-los;
+- fica de fora das novas execuções, então não custa nada;
+- fica de fora da lista de [Oportunidades](overview.md#oportunidades).
+
+Os prompts aposentados ficam na seção **Prompts aposentados** da lista de filtros, cada um com a data em que foi aposentado, e **Restaurar** o devolve ao monitoramento. Adicionar um prompt novo com o mesmo texto de um aposentado não faz nada; restaure-o em vez disso. **Excluir** também tira um prompt do monitoramento futuro e mantém os dados históricos de execução para relatórios, mas não há como restaurar.
 
 ## Diagnostic Prompts
 

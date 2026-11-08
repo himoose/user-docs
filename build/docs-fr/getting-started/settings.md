@@ -1,5 +1,5 @@
 ---
-source_hash: 5e04bb7695f1f99212eabfd919c84bee187e08b6c4462119c39e32c6d927f1fd
+source_hash: 0a9a56ce00908be9642b519b71a66ed53535f416da94c0f65e7bb741595259e0
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -10,7 +10,7 @@ source_hash: 5e04bb7695f1f99212eabfd919c84bee187e08b6c4462119c39e32c6d927f1fd
 
 ## À quoi cela sert
 
-Les Paramètres vous permettent de gérer votre profil, votre forfait, vos modèles, votre équipe et le comportement de l'application sur cet ordinateur. Ils sont organisés en dix sections dans la colonne de gauche.
+Les Paramètres vous permettent de gérer votre profil, votre forfait, vos modèles, votre équipe et le comportement de l'application sur cet ordinateur. Ils sont organisés en sections dans la colonne de gauche ; quelques-unes n'apparaissent que pour le propriétaire du compte ou sur les forfaits payants.
 
 | Section | Contenu |
 |---|---|
@@ -21,8 +21,12 @@ Les Paramètres vous permettent de gérer votre profil, votre forfait, vos modè
 | Équipe | Sièges, invitations, rôles |
 | [Surveillance du site](../site-monitoring/overview.md) | Planification de l'exploration, index de recherche, pages surveillées, chemins bloqués |
 | [Image de marque](../agency/white-label.md) | Rapports en marque blanche et attribution audio (forfaits payants uniquement) |
-| Journaux | Journaux d'actions et export CSV |
+| Connexions aux comptes | Les sites où Moose est connecté pour les exécutions de visibilité et Send Moose |
+| [Hi, Moose MCP](../integrations/hi-moose-mcp.md) | Appareil hôte, modèle pour les tâches de rédaction, applications connectées, tâches récentes |
+| [API REST Hi, Moose](../integrations/developer-api.md) | Clés d'API et webhooks (propriétaire uniquement) |
+| Journaux | Journaux d'actions et export CSV (propriétaire uniquement) |
 | Données et sauvegarde | Sauvegarde et restauration locales |
+| Historique de visibilité | La copie locale de vos réponses de recherche IA et son budget d'espace |
 | Dépannage | Cache, journal de diagnostic, réinitialisation des données locales |
 
 ## General
@@ -87,9 +91,21 @@ Les connexions aux CMS et aux sources de données sont distinctes et se trouvent
 
 Appliquez votre marque blanche aux rapports PDF exportés et aux lecteurs audio intégrés. Disponible sur tous les forfaits payants et modifiable par le titulaire de l'abonnement. Voir **[Marque blanche](../agency/white-label.md)**.
 
+## Connexions aux comptes
+
+Moose utilise son propre navigateur pour les exécutions de visibilité en interrogation locale et pour Send Moose. Cette section liste les sites où il peut être connecté, regroupés en moteurs de réponse IA (ChatGPT, Google AI Mode et Gemini, Grok, Perplexity, Bing Copilot) et en sites utilisés par les agents de Send Moose (Reddit, LinkedIn, X), chacun avec un badge **Connecté** ou **Non connecté**. Ouvrez un site ici et connectez-vous une fois ; chaque exécution suivante reprend la session. Se connecter supprime aussi les vérifications « confirmez que vous êtes humain » que les moteurs affichent lors des premières exécutions. Les connexions restent sur cet ordinateur et ne vont jamais dans le cloud.
+
+Le badge est une estimation à partir des cookies de chaque site. Si une exécution vous demande encore de vous connecter, ouvrez le site ici et reconnectez-vous.
+
+Une boîte de **messagerie web** peut être ajoutée pour Send Moose, afin que Moose puisse lire les liens de confirmation pendant qu'il travaille sur une tâche. Il n'envoie, ne répond, ne supprime ni ne modifie jamais de réglages. Utilisez une boîte créée pour Moose et gardez votre messagerie personnelle à part.
+
 ## Hi, Moose MCP
 
-Connectez Claude, ChatGPT ou toute autre application MCP à votre compte Hi, Moose, choisissez l'appareil hôte qui exécute le travail et consultez les applications connectées et les tâches récentes. Voir **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
+Connectez Claude, ChatGPT ou toute autre application MCP à votre compte Hi, Moose, choisissez l'appareil hôte qui exécute le travail, choisissez le **modèle pour les tâches de rédaction** et consultez les applications connectées et les tâches récentes. Voir **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
+
+## API REST Hi, Moose
+
+Cette section n'apparaît que pour le propriétaire du compte. Créez et révoquez les clés d'API qui lisent vos données de visibilité enregistrées depuis vos propres tableaux de bord et rapports, choisissez ce que chaque clé peut faire (lire les données de visibilité, gérer le suivi, lancer des exécutions) et consultez ou supprimez les webhooks enregistrés pour le projet. Voir **[API Hi, Moose](../integrations/developer-api.md)**.
 
 ## Logs
 
@@ -109,6 +125,10 @@ Créez une sauvegarde compressée `.hmbk` de votre historique sur l'appareil, et
     Un import remplace les données locales Hi, Moose de cet appareil par le contenu de la sauvegarde. La boîte de dialogue de confirmation vous indique combien d'enregistrements seront restaurés et à quelle date la sauvegarde a été créée. Redémarrez ensuite l'application pour que tous les écrans se rechargent à partir des données restaurées.
 
 Les imports n'acceptent que les fichiers `.hmbk` exportés par l'application de bureau Hi, Moose.
+
+## Historique de visibilité
+
+Hi, Moose conserve sur cet ordinateur une copie de vos réponses de recherche IA pour que la page Visibility puisse afficher n'importe quelle période sans la retélécharger. Cette section indique l'espace occupé par la copie du projet en cours et les dates qu'elle couvre, ainsi qu'un **budget d'espace** : quand la copie dépasse cette taille, les jours les plus anciens sont supprimés de cet ordinateur seulement, et ils reviennent depuis le cloud quand vous choisissez une période qui en a besoin. Sur les forfaits sans copie cloud, rien n'est supprimé automatiquement ; sauvegardez plutôt les réponses dans Données et sauvegarde.
 
 ## Troubleshooting
 

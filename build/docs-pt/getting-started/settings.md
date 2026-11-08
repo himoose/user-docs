@@ -1,5 +1,5 @@
 ---
-source_hash: 5e04bb7695f1f99212eabfd919c84bee187e08b6c4462119c39e32c6d927f1fd
+source_hash: 0a9a56ce00908be9642b519b71a66ed53535f416da94c0f65e7bb741595259e0
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -10,7 +10,7 @@ source_hash: 5e04bb7695f1f99212eabfd919c84bee187e08b6c4462119c39e32c6d927f1fd
 
 ## Para que serve
 
-Nas Configurações você gerencia seu perfil, seu plano, seus modelos, sua equipe e o comportamento do aplicativo neste computador. Elas estão organizadas em dez seções na coluna da esquerda.
+Nas Configurações você gerencia seu perfil, seu plano, seus modelos, sua equipe e o comportamento do aplicativo neste computador. Elas estão organizadas em seções na coluna da esquerda; algumas só aparecem para o proprietário da conta ou nos planos pagos.
 
 | Seção | O que contém |
 |---|---|
@@ -21,8 +21,12 @@ Nas Configurações você gerencia seu perfil, seu plano, seus modelos, sua equi
 | Equipe | Assentos, convites, funções |
 | [Monitoramento do site](../site-monitoring/overview.md) | Agendamento do rastreamento, índice de busca, páginas monitoradas, caminhos bloqueados |
 | [Marca](../agency/white-label.md) | Relatórios white label e atribuição de áudio (somente planos pagos) |
-| Logs | Registros de ações e exportação CSV |
+| Logins de contas | Os sites em que o Moose está conectado para execuções de visibilidade e Send Moose |
+| [Hi, Moose MCP](../integrations/hi-moose-mcp.md) | Dispositivo host, modelo para tarefas de escrita, apps conectados, trabalhos recentes |
+| [API REST do Hi, Moose](../integrations/developer-api.md) | Chaves de API e webhooks (somente proprietário) |
+| Logs | Registros de ações e exportação CSV (somente proprietário) |
 | Dados e backup | Backup e restauração locais |
+| Histórico de visibilidade | A cópia local das suas respostas de busca com IA e seu limite de espaço |
 | Solução de problemas | Cache, registro de diagnóstico, redefinição dos dados locais |
 
 ## Geral
@@ -87,9 +91,21 @@ As conexões com CMS e fontes de dados são outra coisa e ficam na tela **Conex�
 
 Aplique sua marca aos relatórios PDF exportados e aos players de áudio incorporados. Disponível em todos os planos pagos e editável pelo titular da assinatura. Veja **[Marca white label](../agency/white-label.md)**.
 
+## Logins de contas
+
+O Moose usa um navegador próprio para as execuções de visibilidade por consulta local e para o Send Moose. Esta seção lista os sites em que ele pode estar conectado, agrupados em mecanismos de resposta com IA (ChatGPT, Google AI Mode e Gemini, Grok, Perplexity, Bing Copilot) e sites usados pelos agentes do Send Moose (Reddit, LinkedIn, X), cada um com um selo **Conectado** ou **Não conectado**. Abra um site aqui e entre uma vez; toda execução seguinte aproveita a sessão. Entrar também encerra as verificações de "confirme que você é humano" que os mecanismos mostram nas primeiras execuções. Os logins ficam neste computador e nunca vão para a nuvem.
+
+O selo é uma estimativa a partir dos cookies de cada site. Se uma execução ainda pedir que você entre, abra o site aqui e entre de novo.
+
+Uma caixa de **webmail** pode ser adicionada para o Send Moose, para que o Moose leia links de confirmação enquanto trabalha em uma tarefa. Ele nunca envia, responde, exclui nem altera configurações. Use uma caixa criada para o Moose e mantenha a sua caixa pessoal separada.
+
 ## Hi, Moose MCP
 
-Conecte o Claude, o ChatGPT ou qualquer outro app MCP à sua conta Hi, Moose, escolha o dispositivo host que executa o trabalho e veja os apps conectados e os trabalhos recentes. Veja **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
+Conecte o Claude, o ChatGPT ou qualquer outro app MCP à sua conta Hi, Moose, escolha o dispositivo host que executa o trabalho, escolha o **modelo para tarefas de escrita** e veja os apps conectados e os trabalhos recentes. Veja **[Hi, Moose MCP](../integrations/hi-moose-mcp.md)**.
+
+## API REST do Hi, Moose
+
+Esta seção aparece apenas para o proprietário da conta. Crie e revogue as chaves de API que leem seus dados de visibilidade salvos a partir dos seus próprios painéis e relatórios, escolha o que cada chave pode fazer (ler dados de visibilidade, gerenciar o monitoramento, iniciar execuções) e veja ou remova os webhooks registrados para o projeto. Veja **[API do Hi, Moose](../integrations/developer-api.md)**.
 
 ## Logs
 
@@ -109,6 +125,10 @@ Crie um backup compactado `.hmbk` do seu histórico no dispositivo e importe-o d
     Uma importação substitui os dados locais do Hi, Moose deste dispositivo pelo conteúdo do backup. A caixa de confirmação informa quantos registros serão restaurados e quando o backup foi criado. Reinicie o aplicativo em seguida para que todas as telas recarreguem a partir dos dados restaurados.
 
 As importações aceitam somente arquivos `.hmbk` exportados pelo aplicativo para desktop do Hi, Moose.
+
+## Histórico de visibilidade
+
+O Hi, Moose guarda neste computador uma cópia das suas respostas de busca com IA para que a página de Visibility mostre qualquer período sem baixá-lo de novo. Esta seção mostra quanto espaço a cópia do projeto atual ocupa e as datas que ela cobre, e um **limite de espaço**: quando a cópia passa desse tamanho, os dias mais antigos são removidos apenas deste computador e voltam da nuvem quando você escolhe um período que precisa deles. Nos planos sem cópia na nuvem nada é removido automaticamente; faça backup das respostas em Dados e backup.
 
 ## Solução de problemas
 

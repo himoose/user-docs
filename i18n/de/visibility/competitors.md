@@ -1,5 +1,5 @@
 ---
-source_hash: 1c85ff53a55d4b6ecb7d8fbdd11b64ab53c6c37bdd4cb12540b5dc7616afc495
+source_hash: 89e095503fa4df7ea8ea80ace92a8719b5fc7e831f391899ed8b386d12d0accc
 ---
 # Wettbewerber und Share of Voice
 
@@ -15,7 +15,7 @@ Fügen Sie Wettbewerber unter **Visibility → Settings → Competitor tracking*
 
 Diese Liste wird mit Ihrem [Brand Truth Profile](../getting-started/context/brand-truth-profile.md) geteilt: An beiden Stellen hinzugefügte Wettbewerber erscheinen jeweils auch am anderen Ort.
 
-Wie viele in Sichtbarkeitsläufen verfolgt werden, hängt von Ihrem Tarif ab: **5 in Preview Mode und BYOK Free, 15 in jedem kostenpflichtigen Tarif**. Der Einstellungsbildschirm nennt die Zahl und weist Sie darauf hin, wenn Ihre Liste länger ist, damit Sie wissen, dass nur die ersten verfolgt werden.
+Wie viele in Sichtbarkeitsläufen verfolgt werden, hängt von Ihrem Tarif ab: **5 in Preview Mode und BYOK Free, 30 in jedem kostenpflichtigen Tarif**. Der Einstellungsbildschirm nennt die Zahl und weist Sie darauf hin, wenn Ihre Liste länger ist, damit Sie wissen, dass nur die ersten verfolgt werden.
 
 Drei bis fünf echte Wettbewerber funktionieren besser als eine lange Liste. Gemeint sind die Marken, mit denen Sie tatsächlich verglichen werden, nicht die gesamte Branche.
 

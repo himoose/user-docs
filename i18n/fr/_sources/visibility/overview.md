@@ -4,11 +4,12 @@
 
 The Visibility dashboard shows how your brand actually performs in AI search: the queries customers use to find you, whether your brand gets shortlisted, and whether AI engines describe it accurately. This is the primary view for the [core operator loop](../index.md#the-core-operator-loop)'s **monitor** and **detect** steps.
 
-The dashboard has six tabs:
+The dashboard has seven tabs:
 
 | Tab | What it answers |
 |---|---|
 | **Overview** | How am I doing? |
+| **[Opportunities](#opportunities)** | What should I work on? |
 | **[Competition](competitors.md)** | How am I doing compared to them? |
 | **Mentions** | Which brands get named in these answers? |
 | **Citations** | Which sources do the engines lean on? |
@@ -59,6 +60,27 @@ Underneath the summary are two blocks:
 
 - **Where you stand** — your Share of Voice, mention rate across the answers that were read, citations, average rank when you're named, and mention rate by engine, with the full field of tracked brands beside you.
 - **Is AI describing you accurately?** — positioning alignment, tone breakdown, and a list of **answers worth a review**: the specific responses where an engine misstated a capability or drifted from your positioning. Each one opens the answer or jumps to it in the Prompts tab.
+
+## Opportunities
+
+The **Opportunities** tab turns the tracked results into a ranked work list. Each row is one thing to fix: a one-line headline, the prompts and AI engines it affects, your share against the top rival, and a **Next:** line naming the first step.
+
+Rows are built only from the prompts you track, using the newest ten runs on each engine. The period filter above does not change the list, and [retired prompts](prompt-manager.md#retiring-a-prompt) are left out.
+
+Each row carries:
+
+- **An action type.** **Create coverage** when no page of yours answers a prompt the engines never name you for. **Improve a page** when your page exists but is losing. **Earn inclusion** when a third-party page the engines cite could list you. **Correct the description** when an answer contradicts your Brand Truth Profile. **Investigate a change** when an engine stopped naming or citing you. **Hold the lead** when you are ahead and should keep it.
+- **A priority.** High, Medium or Low, from how many prompt and engine pairs the gap affects, how consistently it held across runs, whether a tracked competitor ranks ahead of you, and whether the fix is on a page you control.
+- **A confidence.** Strong, Directional or Needs investigation, from how many runs the gap was seen in and how often it flipped between runs.
+- **An effort.** Small, Medium or Large, from new content to research and write down to a one-line edit of your Brand Truth Profile.
+
+Click a row to open it. The detail shows what is happening, the steps to take, and the evidence behind the row: the grid of prompts and engines with where you were absent, named or cited, the flagged answers, the competitors ahead of you, the competing pages the engines cite, your own matching page with any earlier audit, and what changed against the previous period.
+
+From the detail you start the work: **Create brief**, **Audit page**, **Draft a pitch** to the site that could include you, **Update Brand Truth**, **Draft a correction request** or **Review answers**. The brief and the audit open with the row's prompts and pages already filled in, and the result is linked back to the row, whose status moves to **Brief ready**, **Draft ready** or **Audit ready**.
+
+Rows have a status. **Mark done**, **Dismiss** or **Snooze** for a number of days, **Assign** to a teammate and **Add note** are on every row. A closed row is hidden until you show closed rows, and it comes back as **Reopened by new evidence** when later runs show the gap again. Filter the list by action, priority, confidence, status, engine or topic, and **Export to Excel** for the whole list with the evidence columns.
+
+A connected MCP app gets the same list, in the same order, through [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
 
 ## Mentions
 

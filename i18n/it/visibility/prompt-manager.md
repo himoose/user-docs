@@ -1,5 +1,5 @@
 ---
-source_hash: b6472884da7df3e651f78be6893eb9896b38a6327a26378ca1d4cc26b2d0454e
+source_hash: 52e4fc142ac45ba9ec93251b7b681cb95c1e09d409fef443f88b56ac8cbebaa7
 ---
 # Prompt Manager
 
@@ -16,10 +16,25 @@ I prompt sono raggruppati in categorie che compaiono nell'elenco dei filtri a si
 Digiti un nuovo prompt e lo aggiunga a una categoria. Per ogni prompt può:
 
 - Modificare il testo del prompt.
-- Scegliere su quali motori o modelli di IA viene eseguito. **Seleziona modelli** apre un selettore con ChatGPT, Claude, Gemini, Grok, Perplexity, Google AI Mode, Google AI Overview e Bing Copilot (la disponibilità dipende dal suo piano e, per i motori con interrogazione locale, dal fatto che l'app desktop sia in esecuzione).
+- Scegliere su quali motori di IA viene eseguito. **Seleziona modelli** apre un selettore con tutti i motori che il suo piano può monitorare, versioni API e con interrogazione locale comprese (veda [i motori che può monitorare](settings.md#i-motori-che-puo-monitorare)). I motori con interrogazione locale richiedono che l'app desktop sia aperta quando l'esecuzione parte.
+- Ritirare il prompt (veda sotto).
 - Eliminare il prompt.
 
 A differenza di un'unica impostazione valida per tutto l'account, **la scelta dei modelli avviene prompt per prompt**: un prompt può girare solo su ChatGPT e Gemini mentre un altro copre tutti i motori supportati, così spende la sua dotazione solo sui motori che contano per quella query specifica.
+
+## Cercare e selezionare più prompt
+
+**Cerca prompt** filtra l'elenco per testo. Spunti più prompt e la barra degli strumenti offre **Assegna categorie**, **Assegna modelli**, **Ritira selezionati** ed **Elimina selezionati**, così una modifica su molti prompt si salva in un solo passaggio invece che un prompt alla volta. Può eliminare solo i prompt che ha creato lei, a meno che non sia il proprietario del team.
+
+## Ritirare un prompt
+
+Ritiri un prompt quando è diventato obsoleto ma la sua cronologia merita di essere conservata, per esempio un prompt che nomina l'anno scorso. Un prompt ritirato:
+
+- conserva tutti i risultati passati, così andamenti e report continuano a includerli;
+- resta fuori dalle nuove esecuzioni, quindi non costa nulla;
+- resta fuori dall'elenco delle [Opportunità](overview.md#opportunita).
+
+I prompt ritirati stanno nella sezione **Prompt ritirati** dell'elenco dei filtri, ciascuno con la data del ritiro, e **Ripristina** lo rimette nel monitoraggio. Aggiungere un nuovo prompt con lo stesso testo di uno ritirato non fa nulla; lo ripristini invece. Anche **Elimina** toglie un prompt dal monitoraggio futuro e conserva i dati storici delle esecuzioni per i report, ma non si può ripristinare.
 
 ## Diagnostic Prompts
 

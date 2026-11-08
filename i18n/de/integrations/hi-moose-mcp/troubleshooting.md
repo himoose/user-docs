@@ -1,5 +1,5 @@
 ---
-source_hash: 44a098b9f501f2117290c2037c5635c5aa9f250b49d72a34e103dba9d3cb8b5b
+source_hash: ad46e40e72ad2b7b2419cc3412e58e92618718f92c9fe65d25441f5987556e64
 ---
 
 # Fehlerbehebung
@@ -24,7 +24,7 @@ Für das Projekt hat noch niemand ein Host-Gerät gewählt. Öffnen Sie Hi, Moos
 
 Briefings, Entwürfe, Audits und Audio dauern Minuten, und manche Apps hören auf zu warten, bevor die Arbeit fertig ist. Bitten Sie die App, erneut nachzusehen; sie holt das Ergebnis mit der Auftrags-ID ab, die sie erhalten hat. Die Arbeit wird auch in Ihrer [Library](../../library/overview.md) in Hi, Moose gespeichert, es geht also nichts verloren, wenn der Chat weitergeht.
 
-Audio dauert am längsten: etwa 5 Minuten für eine kurze Episode, 9 für standard und 15 für ausführlich. Das Host-Gerät arbeitet währenddessen an nichts anderem, eine zweite Anfrage wartet also dahinter.
+Audio dauert am längsten: etwa 5 Minuten für eine kurze Episode, 9 für standard und 15 für ausführlich. Das Host-Gerät führt mehrere Aufträge gleichzeitig aus: Listen, Abdeckungsprüfungen und Sichtbarkeitsfragen antworten, während ein Entwurf oder eine Audio-Episode noch entsteht, und Schreibaufträge laufen zu wenigen gleichzeitig. Ein auf dem Gerät gestarteter Sichtbarkeitslauf ist der einzige Auftrag, der allein läuft.
 
 ## Die App hat das falsche Projekt gewählt
 

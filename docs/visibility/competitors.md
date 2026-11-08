@@ -12,7 +12,7 @@ Add competitors in **Visibility → Settings → Competitor tracking**. Each one
 
 This list is shared with your [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), so competitors added in either place show up in both.
 
-How many are tracked in visibility runs depends on your plan: **5 on Preview Mode and BYOK Free, 15 on every paid plan**. The settings screen shows the number and warns you if your list is longer, so you know only the first ones are being tracked.
+How many are tracked in visibility runs depends on your plan: **5 on Preview Mode and BYOK Free, 30 on every paid plan**. The settings screen shows the number and warns you if your list is longer, so you know only the first ones are being tracked.
 
 Three to five real competitors works better than a long list. These are the brands you're genuinely compared against, not everyone in the category.
 

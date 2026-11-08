@@ -1,5 +1,5 @@
 ---
-source_hash: 8041c8e0642cea4b400e4963874e48a0ab71e48bec388f0b6f9961b24ad759c8
+source_hash: a42d8b4c91884c29e9f5380f4247a0b3601d1910f72fe346eb70ae656895ba05
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -132,7 +132,7 @@ Crée une image à la une pour un article, en 1200 par 630, dans votre style d'i
 | title et summary | l'un des deux | Le titre de l'article et un court résumé, jusqu'à 6 000 caractères, quand il n'y a pas de brouillon |
 | styleIntent | non | Un souhait pour cette seule image : ambiance, scène, couleurs. Le style enregistré s'applique toujours. |
 
-Renvoie l'image et un lien vers le PNG. Le fichier est aussi enregistré sur l'appareil hôte.
+Renvoie l'image, un lien vers le PNG et un texte alternatif rédigé à partir de l'image terminée : il décrit d'abord l'image, puis nomme une fois le sujet de l'article, environ 125 caractères, dans la langue de l'article. Le fichier est aussi enregistré sur l'appareil hôte.
 
 Demandez : « Crée une image à la une pour ce brouillon, lumière du soir, sans personnes. »
 

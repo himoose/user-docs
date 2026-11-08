@@ -1,5 +1,5 @@
 ---
-source_hash: b6472884da7df3e651f78be6893eb9896b38a6327a26378ca1d4cc26b2d0454e
+source_hash: 52e4fc142ac45ba9ec93251b7b681cb95c1e09d409fef443f88b56ac8cbebaa7
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -21,10 +21,25 @@ Los prompts se agrupan en categorías que aparecen en la lista de filtros de la 
 Escriba un prompt nuevo y añádalo a una categoría. Para cada prompt puede:
 
 - Editar el texto del prompt.
-- Elegir en qué motores o modelos de IA se ejecuta. **Seleccionar modelos** abre un selector con ChatGPT, Claude, Gemini, Grok, Perplexity, Google AI Mode, Google AI Overview y Bing Copilot (la disponibilidad depende de su plan y, en los motores de consulta local, de que la aplicación de escritorio esté en ejecución).
+- Elegir en qué motores de IA se ejecuta. **Seleccionar modelos** abre un selector con todos los motores que su plan puede supervisar, tanto las versiones por API como las de consulta local (véase [los motores que puede supervisar](settings.md#los-motores-que-puede-supervisar)). Los motores de consulta local necesitan que la aplicación de escritorio esté abierta cuando se ejecuta la comprobación.
+- Retirar el prompt (véase más abajo).
 - Eliminar el prompt.
 
 A diferencia de un único ajuste para toda la cuenta, **la selección de modelos es por prompt**: un prompt puede ejecutarse solo en ChatGPT y Gemini mientras otro se ejecuta en todos los motores compatibles, de modo que solo gasta asignación en los motores que importan para esa consulta concreta.
+
+## Buscar y seleccionar varios prompts
+
+**Buscar prompts** filtra la lista por texto. Marque varios prompts y la barra de herramientas ofrece **Asignar categorías**, **Asignar modelos**, **Retirar seleccionados** y **Eliminar seleccionados**, de modo que un cambio en muchos prompts se guarda en un solo paso en lugar de prompt a prompt. Solo puede eliminar los prompts que usted creó, salvo que sea el propietario del equipo.
+
+## Retirar un prompt
+
+Retire un prompt cuando se haya quedado desactualizado pero su historial siga mereciendo la pena, por ejemplo un prompt que menciona el año pasado. Un prompt retirado:
+
+- conserva todos sus resultados anteriores, así que las tendencias y los informes siguen incluyéndolos;
+- queda fuera de las nuevas ejecuciones, así que no cuesta nada;
+- queda fuera de la lista de [Oportunidades](overview.md#oportunidades).
+
+Los prompts retirados aparecen en la sección **Prompts retirados** de la lista de filtros, cada uno con la fecha en que se retiró, y **Restaurar** lo devuelve a la supervisión. Añadir un prompt nuevo con el mismo texto que uno retirado no hace nada; restáurelo en su lugar. **Eliminar** también saca un prompt de la supervisión futura y conserva los datos históricos de ejecución para los informes, pero no se puede restaurar.
 
 ## Diagnostic Prompts
 

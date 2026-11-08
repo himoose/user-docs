@@ -13,10 +13,25 @@ Prompts are grouped into categories shown in the left-hand filter list — **All
 Type a new prompt and add it to a category. For each prompt, you can:
 
 - Edit the prompt text.
-- Choose which AI engines/models it runs against — **Select models** opens a picker covering ChatGPT, Claude, Gemini, Grok, Perplexity, Google AI Mode, Google AI Overview, and Bing Copilot (availability depends on your account mode and, for local-fetch engines, running the desktop app).
+- Choose which AI engines it runs against — **Select models** opens a picker with every engine your plan can track, API and local-fetch versions alike (see [the engines you can track](settings.md#the-engines-you-can-track)). Local-fetch engines need the desktop app open when the run executes.
+- Retire the prompt (see below).
 - Delete the prompt.
 
 Unlike a single account-wide setting, **model selection is per-prompt** — one prompt can run only against ChatGPT and Gemini while another runs across all supported engines, so you only spend allowance on the engines that matter for that specific query.
+
+## Finding and selecting several prompts
+
+**Search prompts** filters the list by text. Tick several prompts and the toolbar offers **Assign categories**, **Assign models**, **Retire selected** and **Delete selected**, so a change across many prompts saves in one step instead of one prompt at a time. Only prompts you created can be deleted unless you are the team owner.
+
+## Retiring a prompt
+
+Retire a prompt when it has gone out of date but its history is still worth keeping, for example a prompt that names last year. A retired prompt:
+
+- keeps every past result, so trends and reports still include them;
+- is left out of new runs, so it costs nothing;
+- is left out of the [Opportunities](overview.md#opportunities) list.
+
+Retired prompts sit in the **Retired prompts** section of the filter list, each with the date it was retired, and **Restore** puts one back into tracking. Adding a new prompt with the same text as a retired one does nothing; restore it instead. **Delete** also removes a prompt from future tracking and keeps the historical run data for reporting, but there is no restore.
 
 ## Diagnostic Prompts
 

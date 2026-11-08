@@ -1,5 +1,5 @@
 ---
-source_hash: 1c85ff53a55d4b6ecb7d8fbdd11b64ab53c6c37bdd4cb12540b5dc7616afc495
+source_hash: 89e095503fa4df7ea8ea80ace92a8719b5fc7e831f391899ed8b386d12d0accc
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -20,7 +20,7 @@ Aggiunga i concorrenti in **Visibility → Settings → Competitor tracking**. C
 
 Questo elenco è condiviso con il suo [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), perciò i concorrenti aggiunti in uno dei due punti compaiono in entrambi.
 
-Quanti vengono monitorati nelle esecuzioni di visibilità dipende dal suo piano: **5 in Preview Mode e BYOK Free, 15 in tutti i piani a pagamento**. La schermata delle impostazioni indica il numero e la avvisa se il suo elenco è più lungo, così sa che vengono monitorati solo i primi.
+Quanti vengono monitorati nelle esecuzioni di visibilità dipende dal suo piano: **5 in Preview Mode e BYOK Free, 30 in tutti i piani a pagamento**. La schermata delle impostazioni indica il numero e la avvisa se il suo elenco è più lungo, così sa che vengono monitorati solo i primi.
 
 Da tre a cinque concorrenti reali funzionano meglio di un elenco lungo. Sono i marchi con cui la si confronta davvero, non l'intero settore.
 

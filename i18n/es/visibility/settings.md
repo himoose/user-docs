@@ -1,5 +1,5 @@
 ---
-source_hash: 4c556d4fb46ef581843a6485001e4bcb5bca5e6cb807598a5721189e08265d89
+source_hash: 566edf125c99ef57599940389c2fe7f0e8a70e6b5b9e0b66f8c23727b6864ac7
 ---
 # Configuración de Visibility
 
@@ -70,12 +70,13 @@ Elija qué motores se preseleccionan cada vez que añade un prompt en el [Prompt
 | Google AI Mode | API | De pago |
 | Google AI Overviews | API | De pago |
 | Bing Copilot | API | De pago |
+| Bing Copilot (local fetch) | Desde su equipo | De pago |
 | DeepSeek | API | De pago |
 | Meta AI | API | De pago |
 
 **DeepSeek** y **Meta AI** están desactivados por defecto. Merece la pena activarlos si su categoría tiene tracción real en los mercados donde esos dos son fuertes; si no la tiene, dejarlos apagados mantiene bajo el coste de cada ejecución.
 
-Los motores **local fetch** leen la superficie pública de búsqueda con IA desde su propio equipo en lugar de llamar a una API. No consumen tokens, pero necesitan que la aplicación de escritorio esté abierta cuando se ejecute la comprobación, en cualquier plan.
+Los motores **local fetch** leen la superficie pública de búsqueda con IA desde su propio equipo en lugar de llamar a una API. No consumen tokens, pero necesitan que la aplicación de escritorio esté abierta cuando se ejecute la comprobación, en cualquier plan. Inicie sesión una vez en cada motor en **Configuración → [Inicios de sesión](../getting-started/settings.md#inicios-de-sesion)** para que las ejecuciones usen su sesión iniciada y dejen de pedirle que confirme que es humano.
 
 ## Repetir la incorporación
 

@@ -1,5 +1,5 @@
 ---
-source_hash: b58a8ba99a61b64bb2209353aa0fa79de0889308fc888578032146544e64c54f
+source_hash: a85cf6e7bae4e5f6f1e42809519e08b2b1fce05c59eac51a0ca80daa3b20e0a3
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -38,10 +38,12 @@ Le chat ne se limite pas à générer du texte. Au cours d'une conversation, Moo
 | Historique de visibilité | Interroger votre historique de [visibilité](../visibility/overview.md) suivie : mentions, citations, sources, évolutions |
 | Lire l'entity graph | Répondre à partir de l'[entity graph](../features/entity-graph.md) du projet |
 | Construire un entity graph | En générer un nouveau |
-| Génération d'images | Produire une image pour un brouillon |
+| Génération d'images | Produire une image pour un brouillon, avec texte alternatif |
 | Aide sur l'application | Vous orienter vers la bonne documentation ou vers le support |
 
 Moose peut aussi ouvrir le formulaire d'un [audit AEO](../features/aeo-audits.md), d'un [content brief](../features/content-briefs.md), de [FAQ](../features/faq-generator.md), de [key points](../features/key-points.md) ou d'un entity graph, et le lancer depuis la conversation.
+
+Chaque image générée s'accompagne d'un **texte alternatif** rédigé à partir de l'image terminée : il décrit d'abord l'image, puis nomme une fois le sujet de l'article, dans la langue de l'article. Il apparaît sous l'image dans le chat, dans la Library et dans l'éditeur de brouillons avec un bouton **Copier**, et vous pouvez le modifier à cet endroit.
 
 
 L'usage des outils fonctionne de la même façon sur les forfaits gérés, les forfaits BYOK et les modèles locaux Gemma 4.

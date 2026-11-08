@@ -20,7 +20,7 @@ Nobody has chosen a host device for the project yet. Open Hi, Moose on the compu
 
 Briefs, drafts, audits and audio take minutes, and some apps stop waiting before the work is done. Ask the app to check again; it picks the result up with the job id it was given. The work is also saved in your [Library](../../library/overview.md) in Hi, Moose, so nothing is lost if the chat moves on.
 
-Audio takes longest: about 5 minutes for a short episode, 9 for standard and 15 for deep. The host device works on nothing else meanwhile, so a second request waits behind it.
+Audio takes longest: about 5 minutes for a short episode, 9 for standard and 15 for deep. The host device runs several jobs at once: lists, coverage checks and visibility questions answer while a draft or an audio episode is still being made, and writing jobs run a few at a time. A visibility run started on the device is the one job that runs alone.
 
 ## The app picked the wrong project
 

@@ -1,7 +1,7 @@
 # Topical Authority Builder
 
 !!! note "This feature lives in the legacy web app"
-    Topical Authority Builder is a legacy web app (`app.himoose.com`) feature and is not part of the desktop app. If you're a desktop app user, you can reach this feature from the account menu without creating a separate login.
+    Topical Authority Builder is a legacy web app (`app.himoose.com`) feature and is not part of the desktop app. The desktop app does not link to it. It stays available at `app.himoose.com` for accounts that already use the legacy web app.
 
 ## What this helps you do
 

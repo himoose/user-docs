@@ -1,5 +1,5 @@
 ---
-source_hash: 44a098b9f501f2117290c2037c5635c5aa9f250b49d72a34e103dba9d3cb8b5b
+source_hash: ad46e40e72ad2b7b2419cc3412e58e92618718f92c9fe65d25441f5987556e64
 ---
 
 # Risoluzione dei problemi
@@ -24,7 +24,7 @@ Nessuno ha ancora scelto un dispositivo host per il progetto. Apri Hi, Moose sul
 
 Brief, bozze, audit e audio richiedono minuti, e alcune app smettono di aspettare prima che il lavoro sia finito. Chiedi all'app di controllare di nuovo; ritira il risultato con l'id del lavoro che ha ricevuto. Il lavoro viene salvato anche nella tua [Library](../../library/overview.md) in Hi, Moose, quindi non si perde nulla se la chat va avanti.
 
-L'audio è il più lungo: circa 5 minuti per un episodio short, 9 per standard e 15 per deep. Nel frattempo il dispositivo host non lavora su nient'altro, quindi una seconda richiesta aspetta dietro la prima.
+L'audio è il più lungo: circa 5 minuti per un episodio short, 9 per standard e 15 per deep. Il dispositivo host esegue più lavori insieme: elenchi, controlli di copertura e domande di visibilità rispondono mentre una bozza o un episodio audio è ancora in corso, e i lavori di scrittura girano pochi alla volta. Un'esecuzione di visibilità avviata sul dispositivo è l'unico lavoro che gira da solo.
 
 ## L'app ha scelto il progetto sbagliato
 

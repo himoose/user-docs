@@ -1,5 +1,5 @@
 ---
-source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
+source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -12,11 +12,12 @@ source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
 
 Das Visibility-Dashboard zeigt, wie sich Ihre Marke in der KI-Suche tatsächlich schlägt: welche Anfragen Kundinnen und Kunden nutzen, um Sie zu finden, ob Ihre Marke in die engere Wahl kommt und ob KI-Maschinen sie zutreffend beschreiben. Es ist die zentrale Ansicht für die Schritte **überwachen** und **erkennen** des [zentralen Operator-Kreislaufs](../index.md#der-zentrale-operator-kreislauf).
 
-Das Dashboard hat sechs Reiter:
+Das Dashboard hat sieben Reiter:
 
 | Reiter | Welche Frage er beantwortet |
 |---|---|
 | **Übersicht** | Wie stehe ich da? |
+| **[Chancen](#chancen)** | Woran sollte ich arbeiten? |
 | **[Wettbewerb](competitors.md)** | Wie stehe ich im Vergleich zu ihnen da? |
 | **Erwähnungen** | Welche Marken werden in diesen Antworten genannt? |
 | **Zitationen** | Auf welche Quellen stützen sich die Engines tatsächlich? |
@@ -67,6 +68,27 @@ Unter der Zusammenfassung stehen zwei Blöcke:
 
 - **Wo Sie stehen**: Ihr Share of Voice, die Erwähnungsrate über die gelesenen Antworten, Zitationen, der durchschnittliche Rang, wenn Sie genannt werden, und die Erwähnungsrate je Engine, mit dem gesamten Feld der verfolgten Marken daneben.
 - **Beschreibt die KI Sie zutreffend?**: Positionierungsabgleich, Tonaufschlüsselung und eine Liste **prüfenswerter Antworten**: die konkreten Antworten, in denen eine Engine eine Fähigkeit falsch dargestellt hat oder von Ihrer Positionierung abgewichen ist. Jede öffnet die Antwort oder springt im Reiter Prompts dorthin.
+
+## Chancen
+
+Der Reiter **Chancen** macht aus den verfolgten Ergebnissen eine priorisierte Arbeitsliste. Jede Zeile ist eine Sache, die zu beheben ist: eine einzeilige Überschrift, die betroffenen Prompts und KI-Engines, Ihr Anteil gegenüber dem stärksten Rivalen und eine Zeile **Nächster Schritt:**, die den ersten Schritt nennt.
+
+Die Zeilen entstehen nur aus den Prompts, die Sie verfolgen, aus den zehn neuesten Läufen je Engine. Der Zeitraumfilter oben ändert die Liste nicht, und [stillgelegte Prompts](prompt-manager.md#einen-prompt-stilllegen) bleiben außen vor.
+
+Jede Zeile trägt:
+
+- **Eine Aktionsart.** **Abdeckung schaffen**, wenn keine Ihrer Seiten einen Prompt beantwortet, bei dem die Engines Sie nie nennen. **Eine Seite verbessern**, wenn Ihre Seite existiert, aber verliert. **Aufnahme erreichen**, wenn eine von den Engines zitierte Drittseite Sie aufführen könnte. **Die Beschreibung korrigieren**, wenn eine Antwort Ihrem Brand Truth Profile widerspricht. **Eine Veränderung untersuchen**, wenn eine Engine aufgehört hat, Sie zu nennen oder zu zitieren. **Den Vorsprung halten**, wenn Sie vorn liegen und das bleiben sollten.
+- **Eine Priorität.** Hoch, Mittel oder Niedrig, abhängig davon, wie viele Prompt-und-Engine-Paare die Lücke betrifft, wie beständig sie über die Läufe bestand, ob ein verfolgter Wettbewerber vor Ihnen liegt und ob die Lösung auf einer Seite liegt, die Sie kontrollieren.
+- **Eine Verlässlichkeit.** Belastbar, Richtungsweisend oder Prüfung nötig, abhängig davon, in wie vielen Läufen die Lücke zu sehen war und wie oft sie zwischen Läufen gekippt ist.
+- **Einen Aufwand.** Klein, Mittel oder Groß, von neuem Inhalt, der zu recherchieren und zu schreiben ist, bis zu einer einzeiligen Änderung in Ihrem Brand Truth Profile.
+
+Klicken Sie auf eine Zeile, um sie zu öffnen. Das Detail zeigt, was passiert, welche Schritte zu tun sind und welche Belege hinter der Zeile stehen: das Raster aus Prompts und Engines mit den Stellen, an denen Sie fehlten, genannt oder zitiert wurden, die markierten Antworten, die Wettbewerber vor Ihnen, die konkurrierenden Seiten, die die Engines zitieren, Ihre eigene passende Seite mit einem etwaigen früheren Audit und was sich gegenüber dem vorherigen Zeitraum geändert hat.
+
+Aus dem Detail starten Sie die Arbeit: **Brief erstellen**, **Seite prüfen**, **Pitch entwerfen** an die Website, die Sie aufnehmen könnte, **Brand Truth aktualisieren**, **Korrekturanfrage entwerfen** oder **Antworten prüfen**. Brief und Audit öffnen sich mit den Prompts und Seiten der Zeile bereits ausgefüllt, und das Ergebnis wird mit der Zeile verknüpft, deren Status auf **Brief fertig**, **Entwurf fertig** oder **Audit fertig** wechselt.
+
+Zeilen haben einen Status. **Als erledigt markieren**, **Verwerfen** oder **Zurückstellen** um eine Anzahl Tage, **Zuweisen** an ein Teammitglied und **Notiz hinzufügen** gibt es in jeder Zeile. Eine geschlossene Zeile ist ausgeblendet, bis Sie geschlossene Zeilen einblenden, und sie kommt als **Durch neue Belege wieder geöffnet** zurück, wenn spätere Läufe die Lücke erneut zeigen. Filtern Sie die Liste nach Aktion, Priorität, Verlässlichkeit, Status, Engine oder Thema, und nutzen Sie **Nach Excel exportieren** für die gesamte Liste mit den Belegspalten.
+
+Eine verbundene MCP-App erhält dieselbe Liste in derselben Reihenfolge über [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
 
 ## Erwähnungen
 

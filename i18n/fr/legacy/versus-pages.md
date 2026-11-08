@@ -1,10 +1,10 @@
 ---
-source_hash: e11490165d12e857f2010b68d56d5c652789c58e6494a9d6df637b41040130c7
+source_hash: 946c0115798ec842ae8482da8c081642600239e1d6b55996d0bf95e8c12f8e04
 ---
 # Versus Pages (SEO programmatique)
 
 !!! note "Cette fonctionnalité se trouve dans l'ancienne application web"
-    Alors que Hi, Moose devient un produit centré sur le bureau, la plupart des fonctionnalités ont rejoint l'application de bureau. **Les versus pages font partie des deux fonctionnalités qui restent dans l'ancienne application web** (`app.himoose.com`) ; l'autre est le [Topical Authority Builder](topical-authority.md). Si vous utilisez l'application de bureau, vous pouvez y accéder depuis le menu du compte, sans créer de connexion distincte.
+    Alors que Hi, Moose devient un produit centré sur le bureau, la plupart des fonctionnalités ont rejoint l'application de bureau. **Les versus pages font partie des deux fonctionnalités qui restent dans l'ancienne application web** (`app.himoose.com`) ; l'autre est le [Topical Authority Builder](topical-authority.md). Si vous utilisez l'application de bureau avec un forfait payant, demandez des versus pages à Moose dans le chat ou utilisez l'action **Créer des versus pages à grande échelle** ; l'application web s'ouvre connectée à votre compte, sans connexion distincte.
 
     Les versus pages nécessitent un forfait payant.
 

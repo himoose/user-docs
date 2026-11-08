@@ -1,5 +1,5 @@
 ---
-source_hash: c0e86aa287011385729b74d0356154a633aae41651da6757d60dc8ad873cee3a
+source_hash: 67d89041bb6247231a02d204fde74a2bacc0669eef840056ac42a02ee719a1e5
 ---
 # Hi, Moose MCP
 
@@ -21,7 +21,7 @@ Mit den aktuellen Werkzeugen kann eine verbundene App:
 - Ein Content-Briefing erstellen
 - Einen Entwurf aus einem Briefing schreiben
 - Bestehende Inhalte aktualisieren: eine veröffentlichte Seite, einen gespeicherten Entwurf oder eingefügten Text mit den aktuellen Suchergebnissen vergleichen und ein Aktualisierungs-Briefing mit den Lücken sowie einen überarbeiteten Entwurf erhalten
-- Ein Beitragsbild erstellen
+- Ein Beitragsbild erstellen, mit Alt-Text für die Seite
 - FAQs mit FAQPage-Schema für einen gespeicherten Entwurf oder eine Seite Ihrer Website schreiben
 - Kernaussagen für einen gespeicherten Entwurf oder eine Seite Ihrer Website schreiben
 - Ein AEO-Audit für eine Live-Seite, einen gespeicherten Entwurf oder eingefügten Text ausführen, mit Bewertungen, Problemen und Korrekturvorschlägen
@@ -44,6 +44,10 @@ Sie kann keine Einstellungen oder Teammitglieder ändern und nichts löschen. We
 ```text
 https://mcp.himoose.com/mcp
 ```
+
+### Modell für Schreibaufgaben
+
+Unter **Einstellungen → Hi, Moose MCP** wählt der Kontoinhaber auch das **Modell für Schreibaufgaben**: das Modell, das die Briefs, Entwürfe, FAQs, Kernaussagen, Inhaltsaktualisierungen und AEO-Audits schreibt, die eine MCP-App anfordert. Beitragsbilder nutzen das Bildmodell. Standard ist Claude Sonnet 5.5. Die Liste entspricht der Modellauswahl im Chat, Modelle außerhalb Ihres Tarifs sind ausgegraut; verlässt ein gespeichertes Modell später Ihren Tarif, fallen Schreibaufgaben auf den Standard zurück, bis Sie ein anderes wählen. Teammitglieder sehen, welches Modell verwendet wird, können es aber nicht ändern.
 
 ## In Claude verbinden
 
@@ -102,39 +106,42 @@ https://mcp.himoose.com/mcp
 
 Hi, Moose veröffentlicht auf GitHub kostenlose Open-Source-Skills für Answer Engine Optimization (AEO), auch GEO oder AI SEO genannt: [himoose/aeo-skills](https://github.com/himoose/aeo-skills) (MIT-Lizenz). Ein Skill ist ein Ordner mit Anweisungen, denen Ihre KI-App bei einer bestimmten Art von Aufgabe folgt; diese Skills nutzen das offene Format [Agent Skills](https://agentskills.io).
 
-Der erste Skill, `ai-visibility`, liest über Hi, Moose MCP die KI-Suchergebnisse, die Hi, Moose bereits gespeichert hat. Er startet nie neue Prüfungen, ändert keine Einstellungen und veröffentlicht nichts. Fragen Sie zum Beispiel:
+Es gibt drei Skills, und alle arbeiten über Hi, Moose MCP:
 
-- „Erstelle mein Dashboard zur Sichtbarkeit in der KI-Suche.“ Das ist die Standardausgabe: ein interaktives Dashboard auf einer einzigen HTML-Seite. Wählen Sie 7, 30 oder 90 Tage oder eigene Daten, filtern Sie nach KI-Engine, fahren Sie mit der Maus über ein Diagramm, um die Zahlen zu sehen, vergleichen Sie Ihre beobachtete Marke mit Wettbewerbern, sehen Sie die Antworten, in denen Ihre Marke fehlte, und arbeiten Sie eine To-do-Liste mit Schaltflächen **Open in Hi, Moose** ab. Diagramme lassen sich als PNG speichern, die Zahlen als CSV und die Seite als PDF.
-- „Schreibe meinen Bericht zur Sichtbarkeit in der KI-Suche als Text für eine E-Mail.“ Sie erhalten einen kurzen schriftlichen Bericht.
-- „Woran sollte ich diese Woche arbeiten, um in der KI-Suche häufiger zu erscheinen?“ Sie erhalten Ihre offenen Korrekturen als priorisierte To-do-Liste.
+- `ai-visibility` liest die KI-Suchergebnisse, die Hi, Moose bereits gespeichert hat. Er startet nie neue Prüfungen, ändert keine Einstellungen und veröffentlicht nichts. Fragen Sie zum Beispiel:
+    - „Erstelle mein Dashboard zur Sichtbarkeit in der KI-Suche.“ Das ist die Standardausgabe: ein interaktives Dashboard auf einer einzigen HTML-Seite. Wählen Sie 7, 30 oder 90 Tage oder eigene Daten, filtern Sie nach KI-Engine, fahren Sie mit der Maus über ein Diagramm, um die Zahlen zu sehen, vergleichen Sie Ihre beobachtete Marke mit Wettbewerbern, sehen Sie die Antworten, in denen Ihre Marke fehlte, und arbeiten Sie eine To-do-Liste mit Schaltflächen **Open in Hi, Moose** ab. Diagramme lassen sich als PNG speichern, die Zahlen als CSV und die Seite als PDF.
+    - „Schreibe meinen Bericht zur Sichtbarkeit in der KI-Suche als Text für eine E-Mail.“ Sie erhalten einen kurzen schriftlichen Bericht.
+    - „Woran sollte ich diese Woche arbeiten, um in der KI-Suche häufiger zu erscheinen?“ Sie erhalten Ihre offenen Korrekturen als priorisierte To-do-Liste.
+- `weekly-content-plan` liest Ihre Liste der Chancen, behält die Schreibarbeit, gruppiert sie nach Thema, prüft Ihre Website und Ihre gespeicherten Briefs, damit nichts doppelt geschrieben wird, und wählt die drei wichtigsten Inhalte der Woche mit den Belegen zu jedem. Auf Wunsch erstellt er zu jedem einen recherchierten Brief. Fragen Sie „Was sollte ich diese Woche schreiben?“.
+- `publish-ready-draft` führt eine Chance oder ein Thema bis zum fertigen Artikel: Brief, Entwurf in der Stimme Ihrer Marke, AEO-Audit mit angewendeten Textkorrekturen, interne Links aus Ihrem Website-Crawl, Kernaussagen und FAQs mit Schema-Markup sowie das Beitragsbild. Fragen Sie „Schreibe den Artikel zu Chance 3 und mache ihn veröffentlichungsreif“. Bei einer Seite, die bereits existiert, aktualisiert er die Seite, statt eine neue zu schreiben.
 
-Der Skill funktioniert in jedem Plan. Bewertungen zu Stimmung, Narrativ und Funktionsgenauigkeit gehören zu den Bezahlplänen; Erwähnungen, Zitierungen, Rang und Wettbewerber funktionieren in jedem Plan. Wie bei jedem Werkzeug von Hi, Moose MCP muss Hi, Moose auf dem Host-Gerät geöffnet bleiben, während Sie fragen.
+Die Skills funktionieren in jedem Plan. Bewertungen zu Stimmung, Narrativ und Funktionsgenauigkeit gehören zu den Bezahlplänen; Erwähnungen, Zitierungen, Rang und Wettbewerber funktionieren in jedem Plan. Briefs nutzen Live-Suchrecherche, die kostenlose Pläne einmal am Tag erhalten. Wie bei jedem Werkzeug von Hi, Moose MCP muss Hi, Moose auf dem Host-Gerät geöffnet bleiben, während Sie fragen.
 
 ### Den Skill in Claude.ai oder der Claude-Desktop-App hinzufügen
 
 1. Klicken Sie auf der [GitHub-Seite](https://github.com/himoose/aeo-skills) auf **Code → Download ZIP** und entpacken Sie die Datei.
-2. Öffnen Sie den Ordner `skills` und packen Sie nur den Ordner `ai-visibility` in eine ZIP-Datei, sodass Sie `ai-visibility.zip` mit dem Ordner `ai-visibility` darin haben.
-3. Gehen Sie in Claude zu **Customize → Skills**, klicken Sie auf **+**, dann auf **Create skill → Upload a skill**, und wählen Sie `ai-visibility.zip`.
+2. Öffnen Sie den Ordner `skills` und packen Sie nur den Ordner des gewünschten Skills in eine ZIP-Datei, zum Beispiel `ai-visibility`, sodass Sie `ai-visibility.zip` mit dem Ordner `ai-visibility` darin haben. Wiederholen Sie das für jeden gewünschten Skill.
+3. Gehen Sie in Claude zu **Customize → Skills**, klicken Sie auf **+**, dann auf **Create skill → Upload a skill**, und wählen Sie die ZIP-Datei.
 4. Prüfen Sie, dass **code execution** in den Einstellungen von Claude eingeschaltet ist; Skills brauchen das.
 5. Starten Sie einen neuen Chat, prüfen Sie, dass der Hi, Moose-Connector dort eingeschaltet ist, und stellen Sie Ihre Frage.
 
 ### Den Skill in Claude Code hinzufügen
 
-Das Repository ist auch ein Claude Code-Plugin. Eine einzige Installation fügt den Skill und den Hi, Moose-Connector hinzu:
+Das Repository ist auch ein Claude Code-Plugin. Eine einzige Installation fügt alle drei Skills und den Hi, Moose-Connector hinzu:
 
 ```text
 /plugin marketplace add himoose/aeo-skills
 /plugin install himoose@himoose
 ```
 
-Führen Sie dann `/mcp` aus, wählen Sie `plugin:himoose:himoose` und **Authenticate**, um sich anzumelden. Wenn Sie Hi, Moose bereits wie oben gezeigt mit `claude mcp add` hinzugefügt haben, erscheinen dieselben Werkzeuge zweimal; entfernen Sie einen der beiden Einträge in `/mcp`.
+Führen Sie dann `/mcp` aus, wählen Sie `plugin:himoose:himoose` und **Authenticate**, um sich anzumelden. Wenn Sie Hi, Moose bereits wie oben gezeigt mit `claude mcp add` hinzugefügt haben, erscheinen dieselben Werkzeuge zweimal; entfernen Sie einen der beiden Einträge in `/mcp`. Fragen Sie in eigenen Worten oder führen Sie `/himoose:ai-visibility`, `/himoose:weekly-content-plan` oder `/himoose:publish-ready-draft` aus.
 
 ### Den Skill in ChatGPT hinzufügen
 
 Skills gibt es nur in einigen ChatGPT-Plänen; OpenAI nennt Business-, Enterprise-, Healthcare- und Edu-Workspaces ([Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt)).
 
 1. Verbinden Sie Hi, Moose MCP in ChatGPT wie oben beschrieben.
-2. Fügen Sie den Ordner `skills/ai-visibility` aus dem GitHub-Repository als Skill hinzu und folgen Sie dabei den Anleitungen von OpenAI für Ihren Workspace.
+2. Fügen Sie jeden gewünschten Skill-Ordner aus dem GitHub-Repository als Skill hinzu, zum Beispiel `skills/ai-visibility`, und folgen Sie dabei den Anleitungen von OpenAI für Ihren Workspace.
 3. Tippen Sie in einem Chat `@`, um den Skill zu wählen, oder fragen Sie einfach.
 
 ## So läuft eine Anfrage

@@ -1,5 +1,5 @@
 ---
-source_hash: 8041c8e0642cea4b400e4963874e48a0ab71e48bec388f0b6f9961b24ad759c8
+source_hash: a42d8b4c91884c29e9f5380f4247a0b3601d1910f72fe346eb70ae656895ba05
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -132,7 +132,7 @@ Crea un'immagine in evidenza per un articolo, 1200 per 630, nel tuo stile di imm
 | title e summary | uno dei due | Il titolo dell'articolo e un breve riassunto, fino a 6.000 caratteri, quando non c'è una bozza |
 | styleIntent | no | Un desiderio per questa singola immagine: atmosfera, scena, colori. Lo stile salvato si applica comunque. |
 
-Restituisce l'immagine e un link al PNG. Il file viene salvato anche sul dispositivo host.
+Restituisce l'immagine, un link al PNG e un testo alternativo scritto a partire dall'immagine finita: descrive prima l'immagine e nomina una volta l'argomento dell'articolo, circa 125 caratteri, nella lingua dell'articolo. Il file viene salvato anche sul dispositivo host.
 
 Chiedi: «Crea un'immagine in evidenza per quella bozza, luce serale, senza persone.»
 

@@ -1,5 +1,5 @@
 ---
-source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
+source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -12,11 +12,12 @@ source_hash: e5cf87efe7298e31a0e0c034a7c0d36431b70c08378225d4dd5c73357dd59a4f
 
 Le tableau de bord Visibility montre comment votre marque se comporte réellement dans la recherche par IA : les requêtes que vos clients utilisent pour vous trouver, si votre marque est retenue et si les moteurs d'IA la décrivent avec exactitude. C'est la vue principale pour les étapes **surveiller** et **détecter** du [cycle d'opérations central](../index.md#le-cycle-doperations-central).
 
-Le tableau de bord comporte six onglets :
+Le tableau de bord comporte sept onglets :
 
 | Onglet | Question à laquelle il répond |
 |---|---|
 | **Vue d'ensemble** | Où en suis-je ? |
+| **[Opportunités](#opportunites)** | Sur quoi devrais-je travailler ? |
 | **[Concurrence](competitors.md)** | Où en suis-je par rapport à eux ? |
 | **Mentions** | Quelles marques sont nommées dans ces réponses ? |
 | **Citations** | Sur quelles sources les moteurs s'appuient-ils réellement ? |
@@ -67,6 +68,27 @@ Sous le résumé, deux blocs :
 
 - **Où vous en êtes** : votre Share of Voice, le taux de mention sur les réponses lues, les citations, le rang moyen lorsque vous êtes nommé et le taux de mention par moteur, avec l'ensemble des marques suivies à côté de vous.
 - **L'IA vous décrit-elle correctement ?** : alignement du positionnement, répartition du ton, et une liste de **réponses à revoir** : les réponses précises où un moteur a mal décrit une capacité ou s'est écarté de votre positionnement. Chacune ouvre la réponse ou y saute dans l'onglet Prompts.
+
+## Opportunités
+
+L'onglet **Opportunités** transforme les résultats suivis en une liste de travail classée par priorité. Chaque ligne est une chose à corriger : un titre d'une ligne, les prompts et moteurs d'IA concernés, votre part face au principal rival, et une ligne **Suivant :** qui nomme la première étape.
+
+Les lignes sont construites uniquement à partir des prompts que vous suivez, sur les dix exécutions les plus récentes de chaque moteur. Le filtre de période au-dessus ne change pas la liste, et les [prompts retirés](prompt-manager.md#retirer-un-prompt) en sont exclus.
+
+Chaque ligne porte :
+
+- **Un type d'action.** **Créer une couverture** quand aucune de vos pages ne répond à un prompt pour lequel les moteurs ne vous nomment jamais. **Améliorer une page** quand votre page existe mais perd du terrain. **Obtenir l'inclusion** quand une page tierce citée par les moteurs pourrait vous lister. **Corriger la description** quand une réponse contredit votre Brand Truth Profile. **Examiner un changement** quand un moteur a cessé de vous nommer ou de vous citer. **Garder l'avance** quand vous êtes devant et devez le rester.
+- **Une priorité.** Haute, Moyenne ou Basse, selon le nombre de paires prompt et moteur touchées par l'écart, sa constance d'une exécution à l'autre, la présence d'un concurrent suivi devant vous, et le fait que la correction se trouve ou non sur une page que vous contrôlez.
+- **Une confiance.** Solide, Indicative ou À vérifier, selon le nombre d'exécutions où l'écart a été observé et la fréquence à laquelle il a changé d'une exécution à l'autre.
+- **Un effort.** Petit, Moyen ou Grand, du contenu nouveau à rechercher et rédiger jusqu'à une modification d'une ligne dans votre Brand Truth Profile.
+
+Cliquez sur une ligne pour l'ouvrir. Le détail montre ce qui se passe, les étapes à suivre et les preuves derrière la ligne : la grille des prompts et des moteurs avec les endroits où vous étiez absent, nommé ou cité, les réponses signalées, les concurrents devant vous, les pages concurrentes que les moteurs citent, votre propre page correspondante avec tout audit antérieur, et ce qui a changé par rapport à la période précédente.
+
+Depuis le détail, vous lancez le travail : **Créer un brief**, **Auditer la page**, **Rédiger une proposition** pour le site qui pourrait vous inclure, **Mettre à jour le Brand Truth**, **Rédiger une demande de correction** ou **Revoir les réponses**. Le brief et l'audit s'ouvrent avec les prompts et les pages de la ligne déjà renseignés, et le résultat est relié à la ligne, dont le statut passe à **Brief prêt**, **Brouillon prêt** ou **Audit prêt**.
+
+Les lignes ont un statut. **Marquer comme terminé**, **Écarter** ou **Reporter** d'un nombre de jours, **Attribuer** à un collègue et **Ajouter une note** sont sur chaque ligne. Une ligne fermée est masquée jusqu'à ce que vous affichiez les lignes fermées, et elle revient comme **Rouverte par de nouvelles preuves** quand des exécutions ultérieures montrent à nouveau l'écart. Filtrez la liste par action, priorité, confiance, statut, moteur ou thème, et utilisez **Exporter vers Excel** pour obtenir toute la liste avec les colonnes de preuves.
+
+Une application MCP connectée reçoit la même liste, dans le même ordre, via [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
 
 ## Mentions
 
