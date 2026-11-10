@@ -1,5 +1,5 @@
 ---
-source_hash: a42d8b4c91884c29e9f5380f4247a0b3601d1910f72fe346eb70ae656895ba05
+source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
 ---
 
 # Référence des outils
@@ -14,6 +14,7 @@ Chaque outil sauf `list_projects` et `get_result` prend un **projet**, par le no
 |---|---|
 | Lister les projets, briefs, brouillons | Quelques secondes |
 | Vérifier la couverture du site | Moins d'une minute |
+| Trouver les pages du site | Environ une minute ; quelques minutes sur un grand site |
 | Vérification de visibilité, lire une réponse | Quelques secondes |
 | Liste des opportunités | De quelques secondes à une minute |
 | Liste du suivi, résumé de visibilité, liste des résultats | Quelques secondes |
@@ -63,6 +64,21 @@ Vérifie dans la dernière exploration de votre site les pages qui couvrent déj
 Pour chaque sujet, il répond **covered**, **partial**, **uncovered** ou **unknown**, avec les URL des pages les plus proches comme preuves et la date de l'exploration vérifiée. Unknown signifie que la vérification n'a pas pu s'exécuter pour ce sujet, pas que le site ne le couvre pas.
 
 Demandez : « Notre site couvre-t-il déjà SCA vs SAST ? »
+
+### find_site_pages
+
+Liste toutes les pages de la dernière exploration de votre site liées à un sujet, pour un inventaire de contenu ou un audit de ce qui existe déjà. Hi, Moose note chaque page indexée par rapport au sujet, puis un modèle vérifie chaque candidate et écarte les pages qui ne partagent qu'un mot avec lui.
+
+| Entrée | Obligatoire | Signification |
+|---|---|---|
+| topic | oui | Une phrase courte, par exemple « génération de SBOM », jusqu'à 200 caractères |
+| limit | non | Une liste plus courte, quand vous ne voulez que les pages les plus proches. Sans lui, vous recevez toutes les pages liées, jusqu'à 500. |
+| urlContains | non | Uniquement les pages dont l'URL contient ce texte, par exemple « /learn/ » |
+| includePassages | non | Renvoie aussi le passage de chaque page qui correspond le mieux au sujet. Allonge beaucoup le résultat. Par défaut false. |
+
+Renvoie les pages liées, de la plus proche à la moins proche, chacune avec son URL, son titre, son score de similarité, son type de page et ses dates, ainsi que le nombre de pages vérifiées, si la liste a été coupée et la date de l'exploration. Utilisez plutôt `check_site_coverage` quand la question est de savoir si un sujet est couvert.
+
+Demandez : « Liste toutes les pages que nous avons sur la génération de SBOM. »
 
 ## Contenu
 
@@ -246,12 +262,18 @@ Renvoie les chiffres derrière le tableau de bord Visibilité pour une période.
 | lookbackDays | non | Longueur de la période quand from n'est pas donné. Par défaut 30. |
 | topics, engines, prompts | non | Seulement ces sujets, moteurs ou prompts, avec les valeurs exactes de `visibility_list_tracked`. Un nom de moteur simple comme « ChatGPT » inclut aussi sa variante local-fetch. |
 | promptType | non | `branded` (le prompt nomme la marque, un alias ou un domaine possédé) ou `non-branded` |
-| pages | non | Seulement les prompts dont les réponses ont cité l'une de ces URL de page, puis tous les moteurs de ces prompts, comme le filtre Page dans l'application |
+| pages | non | Seulement les prompts dont les réponses ont cité l'une de ces pages, puis tous les moteurs de ces prompts. Accepte des URL de page ou des domaines sans chemin comme `example.com`, de votre site ou de tout autre |
 | sentiment | non | `positive`, `mixed`, `neutral` ou `negative`. S'applique aux réponses où la marque a été mentionnée. |
 | narrative | non | `aligned`, `partial` ou `drifted`, le verdict narratif par rapport au Brand Truth Profile |
 | featureParity | non | `accurate`, `needs-review`, `inaccurate` ou `not-applicable` |
 | mentioned, cited | non | true ou false, pour ne garder que les réponses qui mentionnent ou citent la marque, ou seulement celles qui ne le font pas |
 | competitor | non | Seulement les réponses qui mentionnent ce concurrent, par son nom |
+| citationsList | non | Pour le bloc `citations` : `both` (par défaut), `domains` ou `pages`. Demandez une seule liste pour faire tenir plus de lignes dans un résultat |
+| citationsLimit | non | Pour le bloc `citations` : combien de lignes de chaque liste renvoyer par appel, les plus citées d'abord. Par défaut 50, jusqu'à 150 |
+| citationsOffset | non | Pour le bloc `citations` : ignore ce nombre de domaines et de pages, pour parcourir les listes complètes. Utilisez le `nextOffset` de l'appel précédent |
+| minCitations | non | Pour le bloc `citations` : seulement les domaines et pages cités au moins ce nombre de fois sur la période |
+| citedDomains | non | Pour le bloc `citations` : les chiffres exacts pour ces seuls domaines et leurs pages, même s'ils sont rarement cités |
+| mergeEngineVariants | non | Pour le bloc `citations` : compte la variante en récupération locale d'un moteur sous le nom simple du moteur dans les chiffres par moteur. Par défaut true |
 | sections | non | Quels blocs renvoyer : `totals` (toujours), `engines`, `topics`, `prompts`, `trend` (par jour), `competitors` (part de voix, par moteur et sujet, pages d'où les concurrents sont cités, prompts gagnés par les concurrents), `citations` (pages et domaines cités par les moteurs, pages possédées signalées), `mentions` (chaque marque nommée, avec rang et sentiment). Par défaut totals, engines et topics. |
 | compare | non | true renvoie aussi les totaux de la période de même longueur immédiatement avant |
 | compareFrom, compareTo | non | Une période de comparaison personnalisée |

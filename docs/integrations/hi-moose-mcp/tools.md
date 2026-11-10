@@ -10,6 +10,7 @@ Every tool except `list_projects` and `get_result` takes a **project**, by the n
 |---|---|
 | List projects, briefs, drafts | A few seconds |
 | Check site coverage | Under a minute |
+| Find site pages | About a minute; a few minutes on a large site |
 | Visibility check, read an answer | A few seconds |
 | Opportunities list | A few seconds to a minute |
 | Tracked list, visibility summary, results list | A few seconds |
@@ -59,6 +60,21 @@ Checks the latest crawl of your site for pages that already cover one or more to
 For each topic it answers **covered**, **partial**, **uncovered** or **unknown**, with the closest page URLs as evidence and the date of the crawl it checked. Unknown means the check could not run for that topic, not that the site lacks it.
 
 Ask: "Does our site already cover SCA vs SAST?"
+
+### find_site_pages
+
+Lists every page in the latest crawl of your site that is related to a topic, for a content inventory or an audit of what already exists. Hi, Moose scores every indexed page against the topic, then a model checks each candidate and drops pages that only share a word with it.
+
+| Input | Required | Meaning |
+|---|---|---|
+| topic | yes | A short phrase, such as "SBOM generation", up to 200 characters |
+| limit | no | A shorter list, when you want only the closest pages. Without it you get every related page, up to 500. |
+| urlContains | no | Only pages whose URL contains this text, for example "/learn/" |
+| includePassages | no | Also return the passage of each page that best matched the topic. Makes the result much longer. Default false. |
+
+Returns the related pages closest first, each with URL, title, similarity score, page type and dates, plus how many pages were checked, whether the list was cut, and the date of the crawl. Use `check_site_coverage` instead when the question is whether a topic is covered.
+
+Ask: "List every page we have about SBOM generation."
 
 ## Content
 
@@ -242,12 +258,18 @@ Returns the numbers behind the Visibility dashboard for one date range.
 | lookbackDays | no | Window length when from is not given. Default 30. |
 | topics, engines, prompts | no | Only these topics, engines or prompts, by the exact values from `visibility_list_tracked`. A plain engine name such as "ChatGPT" also matches its local-fetch variant. |
 | promptType | no | `branded` (the prompt names the brand, an alias or an owned domain) or `non-branded` |
-| pages | no | Only prompts whose answers cited one of these page URLs, then every engine for those prompts, which is how the Page filter works in the app |
+| pages | no | Only prompts whose answers cited one of these pages, then every engine for those prompts. Takes page URLs or bare domains such as `example.com`, your own or any other site |
 | sentiment | no | `positive`, `mixed`, `neutral` or `negative`. Applies to answers where the brand was mentioned. |
 | narrative | no | `aligned`, `partial` or `drifted`, the narrative verdict against the Brand Truth Profile |
 | featureParity | no | `accurate`, `needs-review`, `inaccurate` or `not-applicable` |
 | mentioned, cited | no | true or false, to keep only answers that mention or cite the brand, or only those that do not |
 | competitor | no | Only answers that mention this competitor, by name |
+| citationsList | no | For the `citations` block: `both` (default), `domains` or `pages`. Ask for one list alone to fit more rows in a result |
+| citationsLimit | no | For the `citations` block: how many rows of each list to return per call, most cited first. Default 50, up to 150 |
+| citationsOffset | no | For the `citations` block: skip this many domains and pages, to page through the full lists. Use the `nextOffset` of the previous call |
+| minCitations | no | For the `citations` block: only domains and pages cited at least this many times in the window |
+| citedDomains | no | For the `citations` block: exact counts for only these domains and the pages on them, however rarely they were cited |
+| mergeEngineVariants | no | For the `citations` block: count an engine's local-fetch variant under the engine's plain name in the per-engine counts. Default true |
 | sections | no | Which blocks to return: `totals` (always), `engines`, `topics`, `prompts`, `trend` (per day), `competitors` (share of voice, per engine and topic, pages competitors get cited from, prompts competitors win), `citations` (pages and domains the engines cite, own pages flagged), `mentions` (every brand named, with rank and sentiment). Default totals, engines and topics. |
 | compare | no | true also returns the totals for the window of the same length immediately before |
 | compareFrom, compareTo | no | A custom comparison window instead |

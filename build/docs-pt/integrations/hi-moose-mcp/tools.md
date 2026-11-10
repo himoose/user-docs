@@ -1,5 +1,5 @@
 ---
-source_hash: a42d8b4c91884c29e9f5380f4247a0b3601d1910f72fe346eb70ae656895ba05
+source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -19,6 +19,7 @@ Todas as ferramentas, exceto `list_projects` e `get_result`, recebem um **projet
 |---|---|
 | Listar projetos, briefs, rascunhos | Alguns segundos |
 | Verificar cobertura do site | Menos de um minuto |
+| Encontrar páginas do site | Cerca de um minuto; alguns minutos em um site grande |
 | Verificação de visibilidade, ler uma resposta | Alguns segundos |
 | Lista de oportunidades | De alguns segundos a um minuto |
 | Lista de acompanhamento, resumo de visibilidade, lista de resultados | Alguns segundos |
@@ -68,6 +69,21 @@ Verifica no rastreamento mais recente do seu site se há páginas que já cobrem
 Para cada tema ela responde **covered**, **partial**, **uncovered** ou **unknown**, com os URLs das páginas mais próximas como evidência e a data do rastreamento verificado. Unknown significa que a verificação não pôde rodar para aquele tema, não que o site não o cobre.
 
 Peça: "Nosso site já cobre SCA vs SAST?"
+
+### find_site_pages
+
+Lista todas as páginas do rastreamento mais recente do seu site relacionadas com um tema, para um inventário de conteúdo ou uma revisão do que já existe. O Hi, Moose pontua cada página indexada em relação ao tema; depois um modelo verifica cada candidata e descarta as páginas que só têm uma palavra em comum com ele.
+
+| Entrada | Obrigatório | Significado |
+|---|---|---|
+| topic | sim | Uma frase curta, como "geração de SBOM", com até 200 caracteres |
+| limit | não | Uma lista mais curta, quando você quer só as páginas mais próximas. Sem ele você recebe todas as páginas relacionadas, até 500. |
+| urlContains | não | Só as páginas cujo URL contém este texto, por exemplo "/learn/" |
+| includePassages | não | Retorna também o trecho de cada página que melhor correspondeu ao tema. Deixa o resultado bem mais longo. Padrão false. |
+
+Retorna as páginas relacionadas, da mais próxima à menos próxima, cada uma com URL, título, pontuação de similaridade, tipo de página e datas, além de quantas páginas foram verificadas, se a lista foi cortada e a data do rastreamento. Use `check_site_coverage` quando a pergunta for se um tema está coberto.
+
+Peça: "Liste todas as páginas que temos sobre geração de SBOM."
 
 ## Conteúdo
 

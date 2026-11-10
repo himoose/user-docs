@@ -10,6 +10,7 @@ Every tool except `list_projects` and `get_result` takes a **project**, by the n
 |---|---|
 | List projects, briefs, drafts | A few seconds |
 | Check site coverage | Under a minute |
+| Find site pages | About a minute; a few minutes on a large site |
 | Visibility check, read an answer | A few seconds |
 | Opportunities list | A few seconds to a minute |
 | Tracked list, visibility summary, results list | A few seconds |
@@ -59,6 +60,21 @@ Checks the latest crawl of your site for pages that already cover one or more to
 For each topic it answers **covered**, **partial**, **uncovered** or **unknown**, with the closest page URLs as evidence and the date of the crawl it checked. Unknown means the check could not run for that topic, not that the site lacks it.
 
 Ask: "Does our site already cover SCA vs SAST?"
+
+### find_site_pages
+
+Lists every page in the latest crawl of your site that is related to a topic, for a content inventory or an audit of what already exists. Hi, Moose scores every indexed page against the topic, then a model checks each candidate and drops pages that only share a word with it.
+
+| Input | Required | Meaning |
+|---|---|---|
+| topic | yes | A short phrase, such as "SBOM generation", up to 200 characters |
+| limit | no | A shorter list, when you want only the closest pages. Without it you get every related page, up to 500. |
+| urlContains | no | Only pages whose URL contains this text, for example "/learn/" |
+| includePassages | no | Also return the passage of each page that best matched the topic. Makes the result much longer. Default false. |
+
+Returns the related pages closest first, each with URL, title, similarity score, page type and dates, plus how many pages were checked, whether the list was cut, and the date of the crawl. Use `check_site_coverage` instead when the question is whether a topic is covered.
+
+Ask: "List every page we have about SBOM generation."
 
 ## Content
 

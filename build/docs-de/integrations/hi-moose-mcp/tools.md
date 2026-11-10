@@ -1,5 +1,5 @@
 ---
-source_hash: a42d8b4c91884c29e9f5380f4247a0b3601d1910f72fe346eb70ae656895ba05
+source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -19,6 +19,7 @@ Jedes Werkzeug außer `list_projects` und `get_result` braucht ein **Projekt**, 
 |---|---|
 | Projekte, Briefings, Entwürfe auflisten | Wenige Sekunden |
 | Site-Abdeckung prüfen | Unter einer Minute |
+| Seiten der Website finden | Etwa eine Minute; einige Minuten bei einer großen Website |
 | Sichtbarkeitsfrage, eine Antwort lesen | Wenige Sekunden |
 | Chancenliste | Wenige Sekunden bis eine Minute |
 | Verfolgungsliste, Sichtbarkeits-Zusammenfassung, Ergebnisliste | Wenige Sekunden |
@@ -68,6 +69,21 @@ Prüft den letzten Crawl Ihrer Website auf Seiten, die ein oder mehrere Themen s
 Für jedes Thema antwortet es mit **covered**, **partial**, **uncovered** oder **unknown**, mit den nächstliegenden Seiten-URLs als Beleg und dem Datum des geprüften Crawls. Unknown heißt, dass die Prüfung für dieses Thema nicht laufen konnte, nicht, dass die Website es nicht hat.
 
 Fragen Sie: „Deckt unsere Website SCA vs. SAST schon ab?“
+
+### find_site_pages
+
+Listet alle Seiten aus dem letzten Crawl Ihrer Website auf, die zu einem Thema gehören, für eine Bestandsaufnahme der Inhalte oder eine Prüfung dessen, was schon existiert. Hi, Moose bewertet jede indexierte Seite gegen das Thema, dann prüft ein Modell jeden Kandidaten und verwirft Seiten, die nur ein Wort mit dem Thema gemeinsam haben.
+
+| Eingabe | Pflicht | Bedeutung |
+|---|---|---|
+| topic | ja | Eine kurze Formulierung, etwa „SBOM-Erstellung“, bis zu 200 Zeichen |
+| limit | nein | Eine kürzere Liste, wenn Sie nur die nächstliegenden Seiten möchten. Ohne diese Angabe erhalten Sie alle zugehörigen Seiten, bis zu 500. |
+| urlContains | nein | Nur Seiten, deren URL diesen Text enthält, zum Beispiel „/learn/“ |
+| includePassages | nein | Gibt zusätzlich die Passage jeder Seite zurück, die am besten zum Thema passte. Macht das Ergebnis deutlich länger. Standard false. |
+
+Gibt die zugehörigen Seiten zurück, die nächstliegenden zuerst, jeweils mit URL, Titel, Ähnlichkeitswert, Seitentyp und Datumsangaben, dazu die Zahl der geprüften Seiten, ob die Liste gekürzt wurde, und das Datum des Crawls. Nutzen Sie stattdessen `check_site_coverage`, wenn die Frage lautet, ob ein Thema abgedeckt ist.
+
+Fragen Sie: „Liste alle Seiten auf, die wir zur SBOM-Erstellung haben.“
 
 ## Content
 

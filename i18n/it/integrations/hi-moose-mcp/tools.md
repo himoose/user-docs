@@ -1,5 +1,5 @@
 ---
-source_hash: a42d8b4c91884c29e9f5380f4247a0b3601d1910f72fe346eb70ae656895ba05
+source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
 ---
 
 # Riferimento degli strumenti
@@ -14,6 +14,7 @@ Ogni strumento tranne `list_projects` e `get_result` riceve un **progetto**, con
 |---|---|
 | Elencare progetti, brief, bozze | Pochi secondi |
 | Verificare la copertura del sito | Meno di un minuto |
+| Trovare le pagine del sito | Circa un minuto; qualche minuto su un sito grande |
 | Verifica di visibilità, lettura di una risposta | Pochi secondi |
 | Elenco delle opportunità | Da pochi secondi a un minuto |
 | Elenco del monitoraggio, riepilogo di visibilità, elenco dei risultati | Pochi secondi |
@@ -63,6 +64,21 @@ Verifica nell'ultima scansione del tuo sito se ci sono pagine che coprono già u
 Per ogni argomento risponde **covered**, **partial**, **uncovered** o **unknown**, con gli URL delle pagine più vicine come prova e la data della scansione verificata. Unknown significa che la verifica non ha potuto girare per quell'argomento, non che il sito ne è privo.
 
 Chiedi: «Il nostro sito copre già SCA vs SAST?»
+
+### find_site_pages
+
+Elenca tutte le pagine dell'ultima scansione del tuo sito legate a un argomento, per un inventario dei contenuti o una verifica di ciò che esiste già. Hi, Moose assegna un punteggio a ogni pagina indicizzata rispetto all'argomento, poi un modello controlla ogni candidata e scarta le pagine che hanno in comune con l'argomento solo una parola.
+
+| Input | Obbligatorio | Significato |
+|---|---|---|
+| topic | sì | Una frase breve, per esempio «generazione SBOM», fino a 200 caratteri |
+| limit | no | Un elenco più corto, quando vuoi solo le pagine più vicine. Senza, ricevi tutte le pagine correlate, fino a 500. |
+| urlContains | no | Solo le pagine il cui URL contiene questo testo, per esempio «/learn/» |
+| includePassages | no | Restituisce anche il passaggio di ogni pagina che corrisponde meglio all'argomento. Allunga molto il risultato. Predefinito false. |
+
+Restituisce le pagine correlate, dalla più vicina alla meno vicina, ognuna con URL, titolo, punteggio di somiglianza, tipo di pagina e date, più quante pagine sono state controllate, se l'elenco è stato tagliato e la data della scansione. Usa invece `check_site_coverage` quando la domanda è se un argomento è coperto.
+
+Chiedi: «Elenca tutte le pagine che abbiamo sulla generazione SBOM.»
 
 ## Contenuti
 
@@ -246,12 +262,18 @@ Restituisce i numeri dietro la dashboard Visibilità per un intervallo di date.
 | lookbackDays | no | Lunghezza dell'intervallo quando from non è indicato. Predefinito 30. |
 | topics, engines, prompts | no | Solo questi argomenti, motori o prompt, con i valori esatti di `visibility_list_tracked`. Un nome di motore semplice come «ChatGPT» include anche la sua variante local-fetch. |
 | promptType | no | `branded` (il prompt nomina il brand, un alias o un dominio di proprietà) o `non-branded` |
-| pages | no | Solo i prompt le cui risposte hanno citato uno di questi URL di pagina, poi tutti i motori di quei prompt, come funziona il filtro Pagina nell'app |
+| pages | no | Solo i prompt le cui risposte hanno citato una di queste pagine, poi tutti i motori di quei prompt. Accetta URL di pagina o domini senza percorso come `example.com`, del tuo sito o di qualsiasi altro |
 | sentiment | no | `positive`, `mixed`, `neutral` o `negative`. Si applica alle risposte in cui il brand è stato menzionato. |
 | narrative | no | `aligned`, `partial` o `drifted`, il verdetto narrativo rispetto al Brand Truth Profile |
 | featureParity | no | `accurate`, `needs-review`, `inaccurate` o `not-applicable` |
 | mentioned, cited | no | true o false, per tenere solo le risposte che menzionano o citano il brand, o solo quelle che non lo fanno |
 | competitor | no | Solo le risposte che menzionano questo concorrente, per nome |
+| citationsList | no | Per il blocco `citations`: `both` (predefinito), `domains` o `pages`. Chiedi un solo elenco per far stare più righe in un risultato |
+| citationsLimit | no | Per il blocco `citations`: quante righe di ciascun elenco restituire per chiamata, le più citate per prime. Predefinito 50, fino a 150 |
+| citationsOffset | no | Per il blocco `citations`: salta questo numero di domini e pagine, per scorrere gli elenchi completi. Usa il `nextOffset` della chiamata precedente |
+| minCitations | no | Per il blocco `citations`: solo domini e pagine citati almeno questo numero di volte nel periodo |
+| citedDomains | no | Per il blocco `citations`: conteggi esatti solo per questi domini e le loro pagine, anche se citati di rado |
+| mergeEngineVariants | no | Per il blocco `citations`: conta la variante con recupero locale di un motore sotto il nome semplice del motore nei conteggi per motore. Predefinito true |
 | sections | no | Quali blocchi restituire: `totals` (sempre), `engines`, `topics`, `prompts`, `trend` (per giorno), `competitors` (share of voice, per motore e argomento, pagine da cui i concorrenti vengono citati, prompt vinti dai concorrenti), `citations` (pagine e domini citati dai motori, con le pagine proprie segnalate), `mentions` (ogni brand nominato, con posizione e sentiment). Predefinito totals, engines e topics. |
 | compare | no | true restituisce anche i totali dell'intervallo della stessa lunghezza immediatamente precedente |
 | compareFrom, compareTo | no | Un intervallo di confronto personalizzato |

@@ -1,5 +1,5 @@
 ---
-source_hash: a42d8b4c91884c29e9f5380f4247a0b3601d1910f72fe346eb70ae656895ba05
+source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -19,6 +19,7 @@ Chaque outil sauf `list_projects` et `get_result` prend un **projet**, par le no
 |---|---|
 | Lister les projets, briefs, brouillons | Quelques secondes |
 | Vérifier la couverture du site | Moins d'une minute |
+| Trouver les pages du site | Environ une minute ; quelques minutes sur un grand site |
 | Vérification de visibilité, lire une réponse | Quelques secondes |
 | Liste des opportunités | De quelques secondes à une minute |
 | Liste du suivi, résumé de visibilité, liste des résultats | Quelques secondes |
@@ -68,6 +69,21 @@ Vérifie dans la dernière exploration de votre site les pages qui couvrent déj
 Pour chaque sujet, il répond **covered**, **partial**, **uncovered** ou **unknown**, avec les URL des pages les plus proches comme preuves et la date de l'exploration vérifiée. Unknown signifie que la vérification n'a pas pu s'exécuter pour ce sujet, pas que le site ne le couvre pas.
 
 Demandez : « Notre site couvre-t-il déjà SCA vs SAST ? »
+
+### find_site_pages
+
+Liste toutes les pages de la dernière exploration de votre site liées à un sujet, pour un inventaire de contenu ou un audit de ce qui existe déjà. Hi, Moose note chaque page indexée par rapport au sujet, puis un modèle vérifie chaque candidate et écarte les pages qui ne partagent qu'un mot avec lui.
+
+| Entrée | Obligatoire | Signification |
+|---|---|---|
+| topic | oui | Une phrase courte, par exemple « génération de SBOM », jusqu'à 200 caractères |
+| limit | non | Une liste plus courte, quand vous ne voulez que les pages les plus proches. Sans lui, vous recevez toutes les pages liées, jusqu'à 500. |
+| urlContains | non | Uniquement les pages dont l'URL contient ce texte, par exemple « /learn/ » |
+| includePassages | non | Renvoie aussi le passage de chaque page qui correspond le mieux au sujet. Allonge beaucoup le résultat. Par défaut false. |
+
+Renvoie les pages liées, de la plus proche à la moins proche, chacune avec son URL, son titre, son score de similarité, son type de page et ses dates, ainsi que le nombre de pages vérifiées, si la liste a été coupée et la date de l'exploration. Utilisez plutôt `check_site_coverage` quand la question est de savoir si un sujet est couvert.
+
+Demandez : « Liste toutes les pages que nous avons sur la génération de SBOM. »
 
 ## Contenu
 

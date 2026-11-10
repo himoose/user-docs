@@ -1,5 +1,5 @@
 ---
-source_hash: a42d8b4c91884c29e9f5380f4247a0b3601d1910f72fe346eb70ae656895ba05
+source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
 ---
 
 # Werkzeug-Referenz
@@ -14,6 +14,7 @@ Jedes Werkzeug außer `list_projects` und `get_result` braucht ein **Projekt**, 
 |---|---|
 | Projekte, Briefings, Entwürfe auflisten | Wenige Sekunden |
 | Site-Abdeckung prüfen | Unter einer Minute |
+| Seiten der Website finden | Etwa eine Minute; einige Minuten bei einer großen Website |
 | Sichtbarkeitsfrage, eine Antwort lesen | Wenige Sekunden |
 | Chancenliste | Wenige Sekunden bis eine Minute |
 | Verfolgungsliste, Sichtbarkeits-Zusammenfassung, Ergebnisliste | Wenige Sekunden |
@@ -63,6 +64,21 @@ Prüft den letzten Crawl Ihrer Website auf Seiten, die ein oder mehrere Themen s
 Für jedes Thema antwortet es mit **covered**, **partial**, **uncovered** oder **unknown**, mit den nächstliegenden Seiten-URLs als Beleg und dem Datum des geprüften Crawls. Unknown heißt, dass die Prüfung für dieses Thema nicht laufen konnte, nicht, dass die Website es nicht hat.
 
 Fragen Sie: „Deckt unsere Website SCA vs. SAST schon ab?“
+
+### find_site_pages
+
+Listet alle Seiten aus dem letzten Crawl Ihrer Website auf, die zu einem Thema gehören, für eine Bestandsaufnahme der Inhalte oder eine Prüfung dessen, was schon existiert. Hi, Moose bewertet jede indexierte Seite gegen das Thema, dann prüft ein Modell jeden Kandidaten und verwirft Seiten, die nur ein Wort mit dem Thema gemeinsam haben.
+
+| Eingabe | Pflicht | Bedeutung |
+|---|---|---|
+| topic | ja | Eine kurze Formulierung, etwa „SBOM-Erstellung“, bis zu 200 Zeichen |
+| limit | nein | Eine kürzere Liste, wenn Sie nur die nächstliegenden Seiten möchten. Ohne diese Angabe erhalten Sie alle zugehörigen Seiten, bis zu 500. |
+| urlContains | nein | Nur Seiten, deren URL diesen Text enthält, zum Beispiel „/learn/“ |
+| includePassages | nein | Gibt zusätzlich die Passage jeder Seite zurück, die am besten zum Thema passte. Macht das Ergebnis deutlich länger. Standard false. |
+
+Gibt die zugehörigen Seiten zurück, die nächstliegenden zuerst, jeweils mit URL, Titel, Ähnlichkeitswert, Seitentyp und Datumsangaben, dazu die Zahl der geprüften Seiten, ob die Liste gekürzt wurde, und das Datum des Crawls. Nutzen Sie stattdessen `check_site_coverage`, wenn die Frage lautet, ob ein Thema abgedeckt ist.
+
+Fragen Sie: „Liste alle Seiten auf, die wir zur SBOM-Erstellung haben.“
 
 ## Content
 
@@ -246,12 +262,18 @@ Liefert die Zahlen hinter dem Sichtbarkeits-Dashboard für einen Zeitraum.
 | lookbackDays | nein | Länge des Zeitraums, wenn from fehlt. Standard 30. |
 | topics, engines, prompts | nein | Nur diese Themen, Engines oder Prompts, mit den genauen Werten aus `visibility_list_tracked`. Ein einfacher Engine-Name wie „ChatGPT“ schließt auch die Local-Fetch-Variante ein. |
 | promptType | nein | `branded` (der Prompt nennt die Marke, einen Alias oder eine eigene Domain) oder `non-branded` |
-| pages | nein | Nur Prompts, deren Antworten eine dieser Seiten-URLs zitiert haben, dann alle Engines dieser Prompts, so wie der Seitenfilter in der App arbeitet |
+| pages | nein | Nur Prompts, deren Antworten eine dieser Seiten zitiert haben, dann alle Engines dieser Prompts. Nimmt Seiten-URLs oder Domains ohne Pfad wie `example.com`, von der eigenen oder jeder anderen Website |
 | sentiment | nein | `positive`, `mixed`, `neutral` oder `negative`. Gilt für Antworten, in denen die Marke genannt wurde. |
 | narrative | nein | `aligned`, `partial` oder `drifted`, das Narrativ-Urteil gegenüber dem Brand Truth Profile |
 | featureParity | nein | `accurate`, `needs-review`, `inaccurate` oder `not-applicable` |
 | mentioned, cited | nein | true oder false, um nur Antworten zu behalten, die die Marke nennen oder zitieren, oder nur die, die es nicht tun |
 | competitor | nein | Nur Antworten, die diesen Wettbewerber nennen, nach Name |
+| citationsList | nein | Für den Block `citations`: `both` (Standard), `domains` oder `pages`. Fordern Sie eine Liste allein an, damit mehr Zeilen in ein Ergebnis passen |
+| citationsLimit | nein | Für den Block `citations`: wie viele Zeilen jeder Liste pro Aufruf zurückkommen, die meistzitierten zuerst. Standard 50, bis zu 150 |
+| citationsOffset | nein | Für den Block `citations`: überspringt so viele Domains und Seiten, um die vollständigen Listen durchzugehen. Nehmen Sie den `nextOffset` des vorigen Aufrufs |
+| minCitations | nein | Für den Block `citations`: nur Domains und Seiten, die im Zeitraum mindestens so oft zitiert wurden |
+| citedDomains | nein | Für den Block `citations`: genaue Zahlen nur für diese Domains und ihre Seiten, auch wenn sie selten zitiert wurden |
+| mergeEngineVariants | nein | Für den Block `citations`: zählt die Local-Fetch-Variante einer Engine in den Zahlen pro Engine unter dem einfachen Namen der Engine. Standard true |
 | sections | nein | Welche Blöcke zurückkommen: `totals` (immer), `engines`, `topics`, `prompts`, `trend` (pro Tag), `competitors` (Share of Voice, pro Engine und Thema, Seiten, von denen Wettbewerber zitiert werden, Prompts, die Wettbewerber gewinnen), `citations` (Seiten und Domains, die die Engines zitieren, eigene Seiten markiert), `mentions` (jede genannte Marke mit Rang und Stimmung). Standard totals, engines und topics. |
 | compare | nein | true liefert zusätzlich die Summen für den gleich langen Zeitraum unmittelbar davor |
 | compareFrom, compareTo | nein | Ein eigener Vergleichszeitraum |
