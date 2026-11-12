@@ -13,6 +13,7 @@ Every tool except `list_projects` and `get_result` takes a **project**, by the n
 | Find site pages | About a minute; a few minutes on a large site |
 | Visibility check, read an answer | A few seconds |
 | Opportunities list | A few seconds to a minute |
+| Competitor gap analysis | One to two minutes |
 | Tracked list, visibility summary, results list | A few seconds |
 | Content brief, draft, FAQs, key points, featured image | One to three minutes |
 | AEO audit | Two to four minutes |
@@ -237,6 +238,22 @@ Returns the ranked work queue Hi, Moose builds from stored visibility results, t
 The five kinds of row: **create-coverage** (no page of yours answers a prompt competitors win), **improve-page** (a page of yours is cited or is the closest match but the brand is left out or ranked behind), **earn-inclusion** (a third-party page the engines cite names competitors but not you), **correct-description** (answers repeat a claim about the brand that needs checking) and **investigate-change** (the brand was named or cited before and is not any more).
 
 Ask: "What should we work on for AI search this week?" then "Show me the evidence for the first one."
+
+### get_gap_analysis
+
+Compares your brand's AI search visibility with one tracked competitor over a period, from the answers Hi, Moose has stored. It is the same report as the Gap analysis button on a competitor row under Visibility, Competition. It reads stored results and never runs new checks.
+
+| Input | Required | Meaning |
+|---|---|---|
+| competitor | yes | The competitor's name or domain. It must be one of the project's tracked competitors. |
+| period | no | A start and end date, `from` and `to`, as YYYY-MM-DD. Defaults to the last 7 days, the period the Visibility screen opens with. |
+| project | no | Optional when your account has one project. |
+
+Returns share of voice for both brands, how often each is named in answers, mention share and citation share, share of voice by engine, the topics where the competitor is named more, the sources cited in answers that name the competitor and not you, and a prioritised list of action items. Each action item has a priority, the action, the reason with its evidence, a type (create a page, improve a page, get mentioned, or protect), the topic, the engines and the sources. These are the same columns as the Excel and CSV export in the app. Where Hi, Moose has a tool for the work, the action item also names it: a content brief for a new page, a content refresh for a page to rework, or FAQs or key points to add to a page. The result ends with a link that opens the report in Hi, Moose.
+
+If the competitor is not tracked, no report is built. The tool returns the tracked competitors so the app can ask which one you meant. The report is part of paid plans, including paid plans where you bring your own OpenRouter key. On a free plan no report is built and the tool says so, with a link to the plans.
+
+Ask: "How do we compare with Globex in AI search?"
 
 ## Visibility data for reports and dashboards
 

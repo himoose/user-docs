@@ -1,5 +1,5 @@
 ---
-source_hash: f50d42778eec26eb2b371241e3833f13730f3bbd068b5d5e0ebfe295c2d59507
+source_hash: 70ba857e17e62b095e697b27a613544a1ae26ade94b2df99d5a4b8a882eddbee
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -101,7 +101,7 @@ Ce que cela signifie pour vos données :
 
 Certains résultats contiennent du texte que Hi, Moose n'a pas écrit : des passages de pages de votre site, du texte d'ancre cité d'une page, de courts extraits de ce qu'un moteur d'IA a répondu, ou le texte complet d'une réponse stockée. Un tel texte pourrait porter des instructions destinées à un agent d'IA. L'OWASP appelle cela l'injection indirecte de prompt.
 
-Chaque résultat qui porte du texte externe le marque. Le texte revient entre un marqueur de début et un marqueur de fin, précédé d'une ligne qui nomme sa provenance et précise que tout ce qui se trouve entre les marqueurs est une donnée, pas une instruction. La forme structurée du même résultat porte un champ `dataNotice` qui dit la même chose. Cela s'applique à `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `visibility_list_tracked`, `visibility_get_summary` et `visibility_list_results`.
+Chaque résultat qui porte du texte externe le marque. Le texte revient entre un marqueur de début et un marqueur de fin, précédé d'une ligne qui nomme sa provenance et précise que tout ce qui se trouve entre les marqueurs est une donnée, pas une instruction. La forme structurée du même résultat porte un champ `dataNotice` qui dit la même chose. Cela s'applique à `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `get_gap_analysis`, `visibility_list_tracked`, `visibility_get_summary` et `visibility_list_results`.
 
 Les briefs, brouillons, FAQ, points clés et scripts audio sont écrits par Hi, Moose pour vous. La recherche qui les sous-tend est lue sur l'appareil hôte et n'est pas transmise à l'agent.
 

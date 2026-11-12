@@ -1,5 +1,5 @@
 ---
-source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
+source_hash: f728fd208d6c88924d2f4d16ecc591b09da226ac8f4f806a074a01277fd29d72
 ---
 
 # Referencia de herramientas
@@ -17,6 +17,7 @@ Todas las herramientas salvo `list_projects` y `get_result` reciben un **proyect
 | Buscar páginas del sitio | Alrededor de un minuto; unos minutos en un sitio grande |
 | Comprobación de visibilidad, leer una respuesta | Unos segundos |
 | Lista de oportunidades | De unos segundos a un minuto |
+| Análisis de brechas frente a un competidor | De uno a dos minutos |
 | Lista de seguimiento, resumen de visibilidad, lista de resultados | Unos segundos |
 | Brief de contenido, borrador, preguntas frecuentes, puntos clave, imagen destacada | De uno a tres minutos |
 | Auditoría AEO | De dos a cuatro minutos |
@@ -241,6 +242,22 @@ Devuelve la cola de trabajo priorizada que Hi, Moose construye a partir de los r
 Los cinco tipos de fila: **create-coverage** (ninguna página tuya responde a un prompt que ganan los competidores), **improve-page** (una página tuya está citada o es la más cercana pero la marca queda fuera o por detrás), **earn-inclusion** (una página de terceros que citan los motores nombra a competidores pero no a ti), **correct-description** (las respuestas repiten una afirmación sobre la marca que hay que comprobar) e **investigate-change** (la marca se nombraba o citaba antes y ya no).
 
 Pide: «¿En qué deberíamos trabajar para la búsqueda con IA esta semana?» y después «Muéstrame la evidencia de la primera».
+
+### get_gap_analysis
+
+Compara la visibilidad de tu marca en la búsqueda con IA con la de un competidor seguido durante un periodo, a partir de las respuestas que Hi, Moose tiene guardadas. Es el mismo informe que el botón Análisis de brechas de la fila de un competidor en Visibilidad, Competencia. Lee resultados guardados y nunca lanza comprobaciones nuevas.
+
+| Entrada | Obligatoria | Significado |
+|---|---|---|
+| competitor | sí | El nombre o el dominio del competidor. Debe ser uno de los competidores seguidos del proyecto. |
+| period | no | Una fecha de inicio y una de fin, `from` y `to`, como YYYY-MM-DD. Por defecto, los últimos 7 días, el periodo con el que se abre la pantalla Visibilidad. |
+| project | no | Opcional cuando tu cuenta tiene un solo proyecto. |
+
+Devuelve la cuota de voz de las dos marcas, con qué frecuencia se nombra a cada una en las respuestas, la cuota de menciones y la cuota de citas, la cuota de voz por motor, los temas en los que se nombra más al competidor, las fuentes citadas en las respuestas que nombran al competidor y no a ti, y una lista priorizada de acciones. Cada acción tiene una prioridad, la acción, el motivo con su evidencia, un tipo (crear una página, mejorar una página, conseguir menciones o proteger), el tema, los motores y las fuentes. Son las mismas columnas que la exportación a Excel y CSV de la app. Cuando Hi, Moose tiene una herramienta para ese trabajo, la acción también la nombra: un brief de contenido para una página nueva, una actualización de contenido para una página que hay que rehacer, o preguntas frecuentes o puntos clave para añadir a una página. El resultado termina con un enlace que abre el informe en Hi, Moose.
+
+Si el competidor no está entre los seguidos, no se genera ningún informe. La herramienta devuelve los competidores seguidos para que la app pueda preguntarte a cuál te referías. El informe forma parte de los planes de pago, incluidos los planes de pago en los que aportas tu propia clave de OpenRouter. En un plan gratuito no se genera ningún informe y la herramienta lo indica, con un enlace a los planes.
+
+Pide: «¿Cómo estamos frente a Globex en la búsqueda con IA?».
 
 ## Datos de visibilidad para informes y paneles
 

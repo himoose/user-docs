@@ -13,6 +13,7 @@ Every tool except `list_projects` and `get_result` takes a **project**, by the n
 | Find site pages | About a minute; a few minutes on a large site |
 | Visibility check, read an answer | A few seconds |
 | Opportunities list | A few seconds to a minute |
+| Competitor gap analysis | One to two minutes |
 | Tracked list, visibility summary, results list | A few seconds |
 | Content brief, draft, FAQs, key points, featured image | One to three minutes |
 | AEO audit | Two to four minutes |
@@ -238,6 +239,22 @@ The five kinds of row: **create-coverage** (no page of yours answers a prompt co
 
 Ask: "What should we work on for AI search this week?" then "Show me the evidence for the first one."
 
+### get_gap_analysis
+
+Compares your brand's AI search visibility with one tracked competitor over a period, from the answers Hi, Moose has stored. It is the same report as the Gap analysis button on a competitor row under Visibility, Competition. It reads stored results and never runs new checks.
+
+| Input | Required | Meaning |
+|---|---|---|
+| competitor | yes | The competitor's name or domain. It must be one of the project's tracked competitors. |
+| period | no | A start and end date, `from` and `to`, as YYYY-MM-DD. Defaults to the last 7 days, the period the Visibility screen opens with. |
+| project | no | Optional when your account has one project. |
+
+Returns share of voice for both brands, how often each is named in answers, mention share and citation share, share of voice by engine, the topics where the competitor is named more, the sources cited in answers that name the competitor and not you, and a prioritised list of action items. Each action item has a priority, the action, the reason with its evidence, a type (create a page, improve a page, get mentioned, or protect), the topic, the engines and the sources. These are the same columns as the Excel and CSV export in the app. Where Hi, Moose has a tool for the work, the action item also names it: a content brief for a new page, a content refresh for a page to rework, or FAQs or key points to add to a page. The result ends with a link that opens the report in Hi, Moose.
+
+If the competitor is not tracked, no report is built. The tool returns the tracked competitors so the app can ask which one you meant. The report is part of paid plans, including paid plans where you bring your own OpenRouter key. On a free plan no report is built and the tool says so, with a link to the plans.
+
+Ask: "How do we compare with Globex in AI search?"
+
 ## Visibility data for reports and dashboards
 
 Three tools return the stored visibility data as structured JSON with a published output schema, so a Skill, a script or a dashboard can rely on the field names. They take the same filters as the Visibility screen in Hi, Moose. Every number covers the tracked prompts on the tracked engines on the days runs happened, never the whole of AI search.
@@ -258,12 +275,18 @@ Returns the numbers behind the Visibility dashboard for one date range.
 | lookbackDays | no | Window length when from is not given. Default 30. |
 | topics, engines, prompts | no | Only these topics, engines or prompts, by the exact values from `visibility_list_tracked`. A plain engine name such as "ChatGPT" also matches its local-fetch variant. |
 | promptType | no | `branded` (the prompt names the brand, an alias or an owned domain) or `non-branded` |
-| pages | no | Only prompts whose answers cited one of these page URLs, then every engine for those prompts, which is how the Page filter works in the app |
+| pages | no | Only prompts whose answers cited one of these pages, then every engine for those prompts. Takes page URLs or bare domains such as `example.com`, your own or any other site |
 | sentiment | no | `positive`, `mixed`, `neutral` or `negative`. Applies to answers where the brand was mentioned. |
 | narrative | no | `aligned`, `partial` or `drifted`, the narrative verdict against the Brand Truth Profile |
 | featureParity | no | `accurate`, `needs-review`, `inaccurate` or `not-applicable` |
 | mentioned, cited | no | true or false, to keep only answers that mention or cite the brand, or only those that do not |
 | competitor | no | Only answers that mention this competitor, by name |
+| citationsList | no | For the `citations` block: `both` (default), `domains` or `pages`. Ask for one list alone to fit more rows in a result |
+| citationsLimit | no | For the `citations` block: how many rows of each list to return per call, most cited first. Default 50, up to 150 |
+| citationsOffset | no | For the `citations` block: skip this many domains and pages, to page through the full lists. Use the `nextOffset` of the previous call |
+| minCitations | no | For the `citations` block: only domains and pages cited at least this many times in the window |
+| citedDomains | no | For the `citations` block: exact counts for only these domains and the pages on them, however rarely they were cited |
+| mergeEngineVariants | no | For the `citations` block: count an engine's local-fetch variant under the engine's plain name in the per-engine counts. Default true |
 | sections | no | Which blocks to return: `totals` (always), `engines`, `topics`, `prompts`, `trend` (per day), `competitors` (share of voice, per engine and topic, pages competitors get cited from, prompts competitors win), `citations` (pages and domains the engines cite, own pages flagged), `mentions` (every brand named, with rank and sentiment). Default totals, engines and topics. |
 | compare | no | true also returns the totals for the window of the same length immediately before |
 | compareFrom, compareTo | no | A custom comparison window instead |

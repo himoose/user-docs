@@ -1,5 +1,5 @@
 ---
-source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
+source_hash: f728fd208d6c88924d2f4d16ecc591b09da226ac8f4f806a074a01277fd29d72
 ---
 
 # Riferimento degli strumenti
@@ -17,6 +17,7 @@ Ogni strumento tranne `list_projects` e `get_result` riceve un **progetto**, con
 | Trovare le pagine del sito | Circa un minuto; qualche minuto su un sito grande |
 | Verifica di visibilità, lettura di una risposta | Pochi secondi |
 | Elenco delle opportunità | Da pochi secondi a un minuto |
+| Analisi dei divari con un concorrente | Da uno a due minuti |
 | Elenco del monitoraggio, riepilogo di visibilità, elenco dei risultati | Pochi secondi |
 | Brief di contenuto, bozza, FAQ, punti chiave, immagine in evidenza | Da uno a tre minuti |
 | Audit AEO | Da due a quattro minuti |
@@ -241,6 +242,22 @@ Restituisce la coda di lavoro in ordine di priorità che Hi, Moose costruisce da
 I cinque tipi di riga: **create-coverage** (nessuna tua pagina risponde a un prompt che i concorrenti vincono), **improve-page** (una tua pagina è citata o è la più vicina ma il brand è escluso o dietro agli altri), **earn-inclusion** (una pagina di terzi citata dai motori nomina i concorrenti ma non te), **correct-description** (le risposte ripetono un'affermazione sul brand da verificare) e **investigate-change** (il brand era nominato o citato prima e ora non più).
 
 Chiedi: «Su cosa dovremmo lavorare per la ricerca IA questa settimana?» e poi «Mostrami le prove per la prima.»
+
+### get_gap_analysis
+
+Confronta la visibilità del tuo brand nella ricerca IA con quella di un concorrente monitorato in un periodo, dalle risposte che Hi, Moose ha salvato. È lo stesso report del pulsante Analisi dei divari sulla riga di un concorrente in Visibilità, Concorrenza. Legge i risultati salvati e non avvia mai nuove verifiche.
+
+| Input | Obbligatorio | Significato |
+|---|---|---|
+| competitor | sì | Il nome o il dominio del concorrente. Deve essere uno dei concorrenti monitorati del progetto. |
+| period | no | Una data di inizio e una di fine, `from` e `to`, come YYYY-MM-DD. Predefinito: gli ultimi 7 giorni, il periodo con cui si apre la schermata Visibilità. |
+| project | no | Facoltativo quando il tuo account ha un solo progetto. |
+
+Restituisce lo share of voice dei due brand, quanto spesso ciascuno è nominato nelle risposte, la quota di menzioni e la quota di citazioni, lo share of voice per motore, gli argomenti in cui il concorrente è nominato di più, le fonti citate nelle risposte che nominano il concorrente e non te, e un elenco di azioni in ordine di priorità. Ogni azione ha una priorità, l'azione, il motivo con le sue prove, un tipo (creare una pagina, migliorare una pagina, ottenere menzioni o proteggere), l'argomento, i motori e le fonti. Sono le stesse colonne dell'esportazione Excel e CSV nell'app. Quando Hi, Moose ha uno strumento per quel lavoro, l'azione indica anche quello: un brief di contenuto per una nuova pagina, un aggiornamento del contenuto per una pagina da rivedere, oppure FAQ o punti chiave da aggiungere a una pagina. Il risultato termina con un link che apre il report in Hi, Moose.
+
+Se il concorrente non è monitorato, non viene creato alcun report. Lo strumento restituisce i concorrenti monitorati, così l'app può chiederti quale intendevi. Il report fa parte dei piani a pagamento, compresi i piani a pagamento in cui porti la tua chiave OpenRouter. In un piano gratuito non viene creato alcun report e lo strumento lo dice, con un link ai piani.
+
+Chiedi: «Come siamo messi rispetto a Globex nella ricerca IA?»
 
 ## Dati di visibilità per report e dashboard
 

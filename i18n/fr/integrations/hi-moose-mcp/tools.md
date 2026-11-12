@@ -1,5 +1,5 @@
 ---
-source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
+source_hash: f728fd208d6c88924d2f4d16ecc591b09da226ac8f4f806a074a01277fd29d72
 ---
 
 # Référence des outils
@@ -17,6 +17,7 @@ Chaque outil sauf `list_projects` et `get_result` prend un **projet**, par le no
 | Trouver les pages du site | Environ une minute ; quelques minutes sur un grand site |
 | Vérification de visibilité, lire une réponse | Quelques secondes |
 | Liste des opportunités | De quelques secondes à une minute |
+| Analyse des écarts face à un concurrent | Une à deux minutes |
 | Liste du suivi, résumé de visibilité, liste des résultats | Quelques secondes |
 | Brief de contenu, brouillon, FAQ, points clés, image à la une | Une à trois minutes |
 | Audit AEO | Deux à quatre minutes |
@@ -241,6 +242,22 @@ Renvoie la file de travail classée que Hi, Moose construit à partir des résul
 Les cinq types de ligne : **create-coverage** (aucune de vos pages ne répond à un prompt que les concurrents gagnent), **improve-page** (une de vos pages est citée ou est la plus proche, mais la marque est absente ou classée derrière), **earn-inclusion** (une page tierce citée par les moteurs nomme des concurrents mais pas vous), **correct-description** (les réponses répètent une affirmation sur la marque qui demande vérification) et **investigate-change** (la marque était nommée ou citée avant et ne l'est plus).
 
 Demandez : « Sur quoi devrions-nous travailler pour la recherche IA cette semaine ? » puis « Montre-moi les preuves pour la première. »
+
+### get_gap_analysis
+
+Compare la visibilité de votre marque dans la recherche IA à celle d'un concurrent suivi sur une période, à partir des réponses que Hi, Moose a enregistrées. C'est le même rapport que le bouton Analyse des écarts sur la ligne d'un concurrent dans Visibilité, Concurrence. Il lit les résultats enregistrés et ne lance jamais de nouvelles vérifications.
+
+| Entrée | Obligatoire | Signification |
+|---|---|---|
+| competitor | oui | Le nom ou le domaine du concurrent. Il doit faire partie des concurrents suivis du projet. |
+| period | non | Une date de début et une date de fin, `from` et `to`, au format YYYY-MM-DD. Par défaut, les 7 derniers jours, la période sur laquelle s'ouvre l'écran Visibilité. |
+| project | non | Facultatif quand votre compte n'a qu'un seul projet. |
+
+Renvoie la part de voix des deux marques, la fréquence à laquelle chacune est nommée dans les réponses, la part des mentions et la part des citations, la part de voix par moteur, les sujets où le concurrent est nommé plus souvent, les sources citées dans les réponses qui nomment le concurrent et pas vous, et une liste d'actions classées par priorité. Chaque action a une priorité, l'action, la raison avec ses preuves, un type (créer une page, améliorer une page, obtenir des mentions ou protéger), le sujet, les moteurs et les sources. Ce sont les mêmes colonnes que l'export Excel et CSV de l'application. Quand Hi, Moose a un outil pour ce travail, l'action le nomme aussi : un brief de contenu pour une nouvelle page, une actualisation de contenu pour une page à retravailler, ou une FAQ ou des points clés à ajouter à une page. Le résultat se termine par un lien qui ouvre le rapport dans Hi, Moose.
+
+Si le concurrent n'est pas suivi, aucun rapport n'est créé. L'outil renvoie les concurrents suivis pour que l'application puisse vous demander lequel vous vouliez dire. Le rapport fait partie des offres payantes, y compris les offres payantes où vous apportez votre propre clé OpenRouter. Sur une offre gratuite, aucun rapport n'est créé et l'outil le dit, avec un lien vers les offres.
+
+Demandez : « Où en sommes-nous face à Globex dans la recherche IA ? »
 
 ## Données de visibilité pour les rapports et tableaux de bord
 

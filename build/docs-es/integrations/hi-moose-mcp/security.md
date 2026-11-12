@@ -1,5 +1,5 @@
 ---
-source_hash: f50d42778eec26eb2b371241e3833f13730f3bbd068b5d5e0ebfe295c2d59507
+source_hash: 70ba857e17e62b095e697b27a613544a1ae26ade94b2df99d5a4b8a882eddbee
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -101,7 +101,7 @@ Qué significa eso para tus datos:
 
 Algunos resultados contienen texto que Hi, Moose no escribió: pasajes de páginas de tu sitio, texto ancla citado de una página, extractos breves de lo que respondió un motor de IA, o el texto completo de una respuesta almacenada. Un texto así podría llevar instrucciones dirigidas a un agente de IA. El nombre que OWASP da a esto es inyección indirecta de prompts.
 
-Cada resultado que lleva texto externo lo marca. El texto vuelve entre un marcador de inicio y uno de fin, con una línea delante que indica de dónde viene y que todo lo que hay entre los marcadores son datos, no instrucciones. La forma estructurada del mismo resultado lleva un campo `dataNotice` que dice lo mismo. Esto aplica a `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `visibility_list_tracked`, `visibility_get_summary` y `visibility_list_results`.
+Cada resultado que lleva texto externo lo marca. El texto vuelve entre un marcador de inicio y uno de fin, con una línea delante que indica de dónde viene y que todo lo que hay entre los marcadores son datos, no instrucciones. La forma estructurada del mismo resultado lleva un campo `dataNotice` que dice lo mismo. Esto aplica a `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `get_gap_analysis`, `visibility_list_tracked`, `visibility_get_summary` y `visibility_list_results`.
 
 Los briefs, borradores, FAQ, puntos clave y guiones de audio los escribe Hi, Moose para ti. La investigación que hay detrás se lee en el dispositivo anfitrión y no se pasa al agente.
 

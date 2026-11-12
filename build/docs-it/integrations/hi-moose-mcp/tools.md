@@ -1,5 +1,5 @@
 ---
-source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
+source_hash: f728fd208d6c88924d2f4d16ecc591b09da226ac8f4f806a074a01277fd29d72
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -22,6 +22,7 @@ Ogni strumento tranne `list_projects` e `get_result` riceve un **progetto**, con
 | Trovare le pagine del sito | Circa un minuto; qualche minuto su un sito grande |
 | Verifica di visibilità, lettura di una risposta | Pochi secondi |
 | Elenco delle opportunità | Da pochi secondi a un minuto |
+| Analisi dei divari con un concorrente | Da uno a due minuti |
 | Elenco del monitoraggio, riepilogo di visibilità, elenco dei risultati | Pochi secondi |
 | Brief di contenuto, bozza, FAQ, punti chiave, immagine in evidenza | Da uno a tre minuti |
 | Audit AEO | Da due a quattro minuti |
@@ -247,6 +248,22 @@ I cinque tipi di riga: **create-coverage** (nessuna tua pagina risponde a un pro
 
 Chiedi: «Su cosa dovremmo lavorare per la ricerca IA questa settimana?» e poi «Mostrami le prove per la prima.»
 
+### get_gap_analysis
+
+Confronta la visibilità del tuo brand nella ricerca IA con quella di un concorrente monitorato in un periodo, dalle risposte che Hi, Moose ha salvato. È lo stesso report del pulsante Analisi dei divari sulla riga di un concorrente in Visibilità, Concorrenza. Legge i risultati salvati e non avvia mai nuove verifiche.
+
+| Input | Obbligatorio | Significato |
+|---|---|---|
+| competitor | sì | Il nome o il dominio del concorrente. Deve essere uno dei concorrenti monitorati del progetto. |
+| period | no | Una data di inizio e una di fine, `from` e `to`, come YYYY-MM-DD. Predefinito: gli ultimi 7 giorni, il periodo con cui si apre la schermata Visibilità. |
+| project | no | Facoltativo quando il tuo account ha un solo progetto. |
+
+Restituisce lo share of voice dei due brand, quanto spesso ciascuno è nominato nelle risposte, la quota di menzioni e la quota di citazioni, lo share of voice per motore, gli argomenti in cui il concorrente è nominato di più, le fonti citate nelle risposte che nominano il concorrente e non te, e un elenco di azioni in ordine di priorità. Ogni azione ha una priorità, l'azione, il motivo con le sue prove, un tipo (creare una pagina, migliorare una pagina, ottenere menzioni o proteggere), l'argomento, i motori e le fonti. Sono le stesse colonne dell'esportazione Excel e CSV nell'app. Quando Hi, Moose ha uno strumento per quel lavoro, l'azione indica anche quello: un brief di contenuto per una nuova pagina, un aggiornamento del contenuto per una pagina da rivedere, oppure FAQ o punti chiave da aggiungere a una pagina. Il risultato termina con un link che apre il report in Hi, Moose.
+
+Se il concorrente non è monitorato, non viene creato alcun report. Lo strumento restituisce i concorrenti monitorati, così l'app può chiederti quale intendevi. Il report fa parte dei piani a pagamento, compresi i piani a pagamento in cui porti la tua chiave OpenRouter. In un piano gratuito non viene creato alcun report e lo strumento lo dice, con un link ai piani.
+
+Chiedi: «Come siamo messi rispetto a Globex nella ricerca IA?»
+
 ## Dati di visibilità per report e dashboard
 
 Tre strumenti restituiscono i dati di visibilità salvati come JSON strutturato con uno schema di output pubblicato, così uno Skill, uno script o una dashboard possono fare affidamento sui nomi dei campi. Accettano gli stessi filtri della schermata Visibilità di Hi, Moose. Ogni numero copre i prompt monitorati sui motori monitorati nei giorni in cui ci sono state esecuzioni, mai l'intera ricerca IA.
@@ -267,12 +284,18 @@ Restituisce i numeri dietro la dashboard Visibilità per un intervallo di date.
 | lookbackDays | no | Lunghezza dell'intervallo quando from non è indicato. Predefinito 30. |
 | topics, engines, prompts | no | Solo questi argomenti, motori o prompt, con i valori esatti di `visibility_list_tracked`. Un nome di motore semplice come «ChatGPT» include anche la sua variante local-fetch. |
 | promptType | no | `branded` (il prompt nomina il brand, un alias o un dominio di proprietà) o `non-branded` |
-| pages | no | Solo i prompt le cui risposte hanno citato uno di questi URL di pagina, poi tutti i motori di quei prompt, come funziona il filtro Pagina nell'app |
+| pages | no | Solo i prompt le cui risposte hanno citato una di queste pagine, poi tutti i motori di quei prompt. Accetta URL di pagina o domini senza percorso come `example.com`, del tuo sito o di qualsiasi altro |
 | sentiment | no | `positive`, `mixed`, `neutral` o `negative`. Si applica alle risposte in cui il brand è stato menzionato. |
 | narrative | no | `aligned`, `partial` o `drifted`, il verdetto narrativo rispetto al Brand Truth Profile |
 | featureParity | no | `accurate`, `needs-review`, `inaccurate` o `not-applicable` |
 | mentioned, cited | no | true o false, per tenere solo le risposte che menzionano o citano il brand, o solo quelle che non lo fanno |
 | competitor | no | Solo le risposte che menzionano questo concorrente, per nome |
+| citationsList | no | Per il blocco `citations`: `both` (predefinito), `domains` o `pages`. Chiedi un solo elenco per far stare più righe in un risultato |
+| citationsLimit | no | Per il blocco `citations`: quante righe di ciascun elenco restituire per chiamata, le più citate per prime. Predefinito 50, fino a 150 |
+| citationsOffset | no | Per il blocco `citations`: salta questo numero di domini e pagine, per scorrere gli elenchi completi. Usa il `nextOffset` della chiamata precedente |
+| minCitations | no | Per il blocco `citations`: solo domini e pagine citati almeno questo numero di volte nel periodo |
+| citedDomains | no | Per il blocco `citations`: conteggi esatti solo per questi domini e le loro pagine, anche se citati di rado |
+| mergeEngineVariants | no | Per il blocco `citations`: conta la variante con recupero locale di un motore sotto il nome semplice del motore nei conteggi per motore. Predefinito true |
 | sections | no | Quali blocchi restituire: `totals` (sempre), `engines`, `topics`, `prompts`, `trend` (per giorno), `competitors` (share of voice, per motore e argomento, pagine da cui i concorrenti vengono citati, prompt vinti dai concorrenti), `citations` (pagine e domini citati dai motori, con le pagine proprie segnalate), `mentions` (ogni brand nominato, con posizione e sentiment). Predefinito totals, engines e topics. |
 | compare | no | true restituisce anche i totali dell'intervallo della stessa lunghezza immediatamente precedente |
 | compareFrom, compareTo | no | Un intervallo di confronto personalizzato |

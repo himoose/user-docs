@@ -1,5 +1,5 @@
 ---
-source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
+source_hash: f728fd208d6c88924d2f4d16ecc591b09da226ac8f4f806a074a01277fd29d72
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -22,6 +22,7 @@ Jedes Werkzeug außer `list_projects` und `get_result` braucht ein **Projekt**, 
 | Seiten der Website finden | Etwa eine Minute; einige Minuten bei einer großen Website |
 | Sichtbarkeitsfrage, eine Antwort lesen | Wenige Sekunden |
 | Chancenliste | Wenige Sekunden bis eine Minute |
+| Lückenanalyse zu einem Wettbewerber | Ein bis zwei Minuten |
 | Verfolgungsliste, Sichtbarkeits-Zusammenfassung, Ergebnisliste | Wenige Sekunden |
 | Content-Briefing, Entwurf, FAQs, Kernaussagen, Beitragsbild | Ein bis drei Minuten |
 | AEO-Audit | Zwei bis vier Minuten |
@@ -247,6 +248,22 @@ Die fünf Arten von Zeilen: **create-coverage** (keine Ihrer Seiten beantwortet 
 
 Fragen Sie: „Woran sollen wir diese Woche für die KI-Suche arbeiten?“ und dann „Zeige mir die Belege für die erste.“
 
+### get_gap_analysis
+
+Vergleicht die KI-Suchsichtbarkeit Ihrer Marke mit der eines verfolgten Wettbewerbers über einen Zeitraum, aus den Antworten, die Hi, Moose gespeichert hat. Es ist derselbe Bericht wie die Schaltfläche Lückenanalyse in der Zeile eines Wettbewerbers unter Sichtbarkeit, Wettbewerb. Es liest gespeicherte Ergebnisse und führt nie neue Prüfungen aus.
+
+| Eingabe | Pflicht | Bedeutung |
+|---|---|---|
+| competitor | ja | Der Name oder die Domain des Wettbewerbers. Er muss einer der verfolgten Wettbewerber des Projekts sein. |
+| period | nein | Ein Start- und ein Enddatum, `from` und `to`, als YYYY-MM-DD. Standard: die letzten 7 Tage, der Zeitraum, mit dem sich der Bildschirm Sichtbarkeit öffnet. |
+| project | nein | Optional, wenn Ihr Konto nur ein Projekt hat. |
+
+Gibt den Share of Voice beider Marken zurück, wie oft jede in Antworten genannt wird, den Anteil an den Nennungen und den Anteil an den Zitaten, den Share of Voice pro Engine, die Themen, bei denen der Wettbewerber häufiger genannt wird, die Quellen, die in Antworten zitiert werden, die den Wettbewerber nennen und Sie nicht, und eine nach Priorität geordnete Liste von Maßnahmen. Jede Maßnahme hat eine Priorität, die Maßnahme selbst, den Grund mit seinen Belegen, eine Art (eine Seite erstellen, eine Seite verbessern, erwähnt werden oder schützen), das Thema, die Engines und die Quellen. Das sind dieselben Spalten wie im Excel- und CSV-Export der App. Hat Hi, Moose ein Werkzeug für die Arbeit, nennt die Maßnahme es ebenfalls: ein Content-Briefing für eine neue Seite, eine Inhaltsaktualisierung für eine Seite, die überarbeitet werden soll, oder FAQs oder Kernaussagen, die auf einer Seite ergänzt werden. Das Ergebnis endet mit einem Link, der den Bericht in Hi, Moose öffnet.
+
+Wird der Wettbewerber nicht verfolgt, entsteht kein Bericht. Das Werkzeug gibt die verfolgten Wettbewerber zurück, damit die App fragen kann, welchen Sie gemeint haben. Der Bericht gehört zu den bezahlten Plänen, auch zu den bezahlten Plänen, bei denen Sie Ihren eigenen OpenRouter-Schlüssel mitbringen. In einem kostenlosen Plan entsteht kein Bericht, und das Werkzeug sagt das, mit einem Link zu den Plänen.
+
+Fragen Sie: „Wie stehen wir in der KI-Suche im Vergleich zu Globex da?“
+
 ## Sichtbarkeitsdaten für Berichte und Dashboards
 
 Drei Werkzeuge liefern die gespeicherten Sichtbarkeitsdaten als strukturiertes JSON mit veröffentlichtem Ausgabeschema, sodass sich ein Skill, ein Skript oder ein Dashboard auf die Feldnamen verlassen kann. Sie nehmen dieselben Filter wie der Bildschirm Sichtbarkeit in Hi, Moose. Jede Zahl deckt die verfolgten Prompts auf den verfolgten Engines an den Tagen mit Durchläufen ab, nie die gesamte KI-Suche.
@@ -267,12 +284,18 @@ Liefert die Zahlen hinter dem Sichtbarkeits-Dashboard für einen Zeitraum.
 | lookbackDays | nein | Länge des Zeitraums, wenn from fehlt. Standard 30. |
 | topics, engines, prompts | nein | Nur diese Themen, Engines oder Prompts, mit den genauen Werten aus `visibility_list_tracked`. Ein einfacher Engine-Name wie „ChatGPT“ schließt auch die Local-Fetch-Variante ein. |
 | promptType | nein | `branded` (der Prompt nennt die Marke, einen Alias oder eine eigene Domain) oder `non-branded` |
-| pages | nein | Nur Prompts, deren Antworten eine dieser Seiten-URLs zitiert haben, dann alle Engines dieser Prompts, so wie der Seitenfilter in der App arbeitet |
+| pages | nein | Nur Prompts, deren Antworten eine dieser Seiten zitiert haben, dann alle Engines dieser Prompts. Nimmt Seiten-URLs oder Domains ohne Pfad wie `example.com`, von der eigenen oder jeder anderen Website |
 | sentiment | nein | `positive`, `mixed`, `neutral` oder `negative`. Gilt für Antworten, in denen die Marke genannt wurde. |
 | narrative | nein | `aligned`, `partial` oder `drifted`, das Narrativ-Urteil gegenüber dem Brand Truth Profile |
 | featureParity | nein | `accurate`, `needs-review`, `inaccurate` oder `not-applicable` |
 | mentioned, cited | nein | true oder false, um nur Antworten zu behalten, die die Marke nennen oder zitieren, oder nur die, die es nicht tun |
 | competitor | nein | Nur Antworten, die diesen Wettbewerber nennen, nach Name |
+| citationsList | nein | Für den Block `citations`: `both` (Standard), `domains` oder `pages`. Fordern Sie eine Liste allein an, damit mehr Zeilen in ein Ergebnis passen |
+| citationsLimit | nein | Für den Block `citations`: wie viele Zeilen jeder Liste pro Aufruf zurückkommen, die meistzitierten zuerst. Standard 50, bis zu 150 |
+| citationsOffset | nein | Für den Block `citations`: überspringt so viele Domains und Seiten, um die vollständigen Listen durchzugehen. Nehmen Sie den `nextOffset` des vorigen Aufrufs |
+| minCitations | nein | Für den Block `citations`: nur Domains und Seiten, die im Zeitraum mindestens so oft zitiert wurden |
+| citedDomains | nein | Für den Block `citations`: genaue Zahlen nur für diese Domains und ihre Seiten, auch wenn sie selten zitiert wurden |
+| mergeEngineVariants | nein | Für den Block `citations`: zählt die Local-Fetch-Variante einer Engine in den Zahlen pro Engine unter dem einfachen Namen der Engine. Standard true |
 | sections | nein | Welche Blöcke zurückkommen: `totals` (immer), `engines`, `topics`, `prompts`, `trend` (pro Tag), `competitors` (Share of Voice, pro Engine und Thema, Seiten, von denen Wettbewerber zitiert werden, Prompts, die Wettbewerber gewinnen), `citations` (Seiten und Domains, die die Engines zitieren, eigene Seiten markiert), `mentions` (jede genannte Marke mit Rang und Stimmung). Standard totals, engines und topics. |
 | compare | nein | true liefert zusätzlich die Summen für den gleich langen Zeitraum unmittelbar davor |
 | compareFrom, compareTo | nein | Ein eigener Vergleichszeitraum |

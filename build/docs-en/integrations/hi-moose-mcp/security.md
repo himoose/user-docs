@@ -92,7 +92,7 @@ What that means for your data:
 
 Some results contain text Hi, Moose did not write: passages from pages of your site, anchor text quoted from a page, short excerpts of what an AI engine answered, or the full text of a stored answer. Text like that could carry instructions aimed at an AI agent. The OWASP name for this is indirect prompt injection.
 
-Every result that carries outside text marks it. The text comes back between a start marker and an end marker, with a line in front naming where it came from and saying that everything between the markers is data, not instructions. The structured form of the same result carries a `dataNotice` field saying the same thing. This applies to `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `visibility_list_tracked`, `visibility_get_summary` and `visibility_list_results`.
+Every result that carries outside text marks it. The text comes back between a start marker and an end marker, with a line in front naming where it came from and saying that everything between the markers is data, not instructions. The structured form of the same result carries a `dataNotice` field saying the same thing. This applies to `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `get_gap_analysis`, `visibility_list_tracked`, `visibility_get_summary` and `visibility_list_results`.
 
 Briefs, drafts, FAQs, key points and audio scripts are written by Hi, Moose for you. The research behind them is read on the host device and is not passed through to the agent.
 

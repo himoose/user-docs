@@ -1,5 +1,5 @@
 ---
-source_hash: d11497c51ae5f95a411bdfd48f508205dd0f32f86a10589b82cec6ea10f6fdf7
+source_hash: f728fd208d6c88924d2f4d16ecc591b09da226ac8f4f806a074a01277fd29d72
 ---
 
 # Werkzeug-Referenz
@@ -17,6 +17,7 @@ Jedes Werkzeug außer `list_projects` und `get_result` braucht ein **Projekt**, 
 | Seiten der Website finden | Etwa eine Minute; einige Minuten bei einer großen Website |
 | Sichtbarkeitsfrage, eine Antwort lesen | Wenige Sekunden |
 | Chancenliste | Wenige Sekunden bis eine Minute |
+| Lückenanalyse zu einem Wettbewerber | Ein bis zwei Minuten |
 | Verfolgungsliste, Sichtbarkeits-Zusammenfassung, Ergebnisliste | Wenige Sekunden |
 | Content-Briefing, Entwurf, FAQs, Kernaussagen, Beitragsbild | Ein bis drei Minuten |
 | AEO-Audit | Zwei bis vier Minuten |
@@ -241,6 +242,22 @@ Gibt die priorisierte Arbeitsliste zurück, die Hi, Moose aus gespeicherten Sich
 Die fünf Arten von Zeilen: **create-coverage** (keine Ihrer Seiten beantwortet einen Prompt, den Wettbewerber gewinnen), **improve-page** (eine Ihrer Seiten wird zitiert oder ist der nächstliegende Treffer, aber die Marke fehlt oder liegt hinten), **earn-inclusion** (eine Drittseite, die die Engines zitieren, nennt Wettbewerber, aber nicht Sie), **correct-description** (Antworten wiederholen eine Aussage über die Marke, die geprüft werden muss) und **investigate-change** (die Marke wurde früher genannt oder zitiert und jetzt nicht mehr).
 
 Fragen Sie: „Woran sollen wir diese Woche für die KI-Suche arbeiten?“ und dann „Zeige mir die Belege für die erste.“
+
+### get_gap_analysis
+
+Vergleicht die KI-Suchsichtbarkeit Ihrer Marke mit der eines verfolgten Wettbewerbers über einen Zeitraum, aus den Antworten, die Hi, Moose gespeichert hat. Es ist derselbe Bericht wie die Schaltfläche Lückenanalyse in der Zeile eines Wettbewerbers unter Sichtbarkeit, Wettbewerb. Es liest gespeicherte Ergebnisse und führt nie neue Prüfungen aus.
+
+| Eingabe | Pflicht | Bedeutung |
+|---|---|---|
+| competitor | ja | Der Name oder die Domain des Wettbewerbers. Er muss einer der verfolgten Wettbewerber des Projekts sein. |
+| period | nein | Ein Start- und ein Enddatum, `from` und `to`, als YYYY-MM-DD. Standard: die letzten 7 Tage, der Zeitraum, mit dem sich der Bildschirm Sichtbarkeit öffnet. |
+| project | nein | Optional, wenn Ihr Konto nur ein Projekt hat. |
+
+Gibt den Share of Voice beider Marken zurück, wie oft jede in Antworten genannt wird, den Anteil an den Nennungen und den Anteil an den Zitaten, den Share of Voice pro Engine, die Themen, bei denen der Wettbewerber häufiger genannt wird, die Quellen, die in Antworten zitiert werden, die den Wettbewerber nennen und Sie nicht, und eine nach Priorität geordnete Liste von Maßnahmen. Jede Maßnahme hat eine Priorität, die Maßnahme selbst, den Grund mit seinen Belegen, eine Art (eine Seite erstellen, eine Seite verbessern, erwähnt werden oder schützen), das Thema, die Engines und die Quellen. Das sind dieselben Spalten wie im Excel- und CSV-Export der App. Hat Hi, Moose ein Werkzeug für die Arbeit, nennt die Maßnahme es ebenfalls: ein Content-Briefing für eine neue Seite, eine Inhaltsaktualisierung für eine Seite, die überarbeitet werden soll, oder FAQs oder Kernaussagen, die auf einer Seite ergänzt werden. Das Ergebnis endet mit einem Link, der den Bericht in Hi, Moose öffnet.
+
+Wird der Wettbewerber nicht verfolgt, entsteht kein Bericht. Das Werkzeug gibt die verfolgten Wettbewerber zurück, damit die App fragen kann, welchen Sie gemeint haben. Der Bericht gehört zu den bezahlten Plänen, auch zu den bezahlten Plänen, bei denen Sie Ihren eigenen OpenRouter-Schlüssel mitbringen. In einem kostenlosen Plan entsteht kein Bericht, und das Werkzeug sagt das, mit einem Link zu den Plänen.
+
+Fragen Sie: „Wie stehen wir in der KI-Suche im Vergleich zu Globex da?“
 
 ## Sichtbarkeitsdaten für Berichte und Dashboards
 
