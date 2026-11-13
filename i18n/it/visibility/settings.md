@@ -1,5 +1,5 @@
 ---
-source_hash: 566edf125c99ef57599940389c2fe7f0e8a70e6b5b9e0b66f8c23727b6864ac7
+source_hash: 6e6abeb88edd31e840aae59d2d0c367d7fe5c9956e8e983e6c9cdf375a8bef5a
 ---
 # Impostazioni di Visibility
 
@@ -35,6 +35,12 @@ Aggiunga i marchi con cui questo progetto viene confrontato. Ogni concorrente ri
 Quando una risposta dell'IA ne menziona o ne cita uno, il dato alimenta [Share of Voice, citazioni dei concorrenti e lacune](competitors.md).
 
 Questo elenco è condiviso con il suo [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), perciò i concorrenti aggiunti in uno dei due punti compaiono in entrambi. Il numero di concorrenti monitorati nelle esecuzioni di visibilità è limitato: la schermata indica il limite e la avvisa se il suo elenco lo supera, così sa che vengono monitorati solo i primi.
+
+## Query di secondo turno
+
+Una query di secondo turno è la domanda successiva che un motore di IA invita a fare alla fine della sua risposta. Attivi **Rileva le query di secondo turno** e Hi, Moose le rileva durante le esecuzioni di visibilità e le elenca nella scheda [Query di secondo turno](second-turn-queries.md).
+
+L'opzione è disattivata per impostazione predefinita e si attiva separatamente per ogni progetto. Aggiunge una piccola chiamata al modello per ogni risposta di un'esecuzione. Può attivarla con i piani gestiti a pagamento, BYOK Premium e BYOK Agency. In Preview Mode e BYOK Free l'interruttore è disabilitato e mostra la nota **Disponibile nei piani a pagamento**.
 
 ## Modello di valutazione
 

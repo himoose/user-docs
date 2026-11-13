@@ -1,5 +1,5 @@
 ---
-source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
+source_hash: 02c545f70047313a4c36954447b568374fe63b2e3f1f0b6f4722c629bbce64da
 ---
 # Visibility
 
@@ -7,12 +7,13 @@ source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
 
 Le tableau de bord Visibility montre comment votre marque se comporte réellement dans la recherche par IA : les requêtes que vos clients utilisent pour vous trouver, si votre marque est retenue et si les moteurs d'IA la décrivent avec exactitude. C'est la vue principale pour les étapes **surveiller** et **détecter** du [cycle d'opérations central](../index.md#le-cycle-doperations-central).
 
-Le tableau de bord comporte sept onglets :
+Le tableau de bord comporte sept onglets, et un huitième, Requêtes de second tour, lorsque vous l'activez pour le projet :
 
 | Onglet | Question à laquelle il répond |
 |---|---|
 | **Vue d'ensemble** | Où en suis-je ? |
 | **[Opportunités](#opportunites)** | Sur quoi devrais-je travailler ? |
+| **[Requêtes de second tour](second-turn-queries.md)** | Quelles questions les moteurs invitent-ils à poser ensuite ? |
 | **[Concurrence](competitors.md)** | Où en suis-je par rapport à eux ? |
 | **Mentions** | Quelles marques sont nommées dans ces réponses ? |
 | **Citations** | Sur quelles sources les moteurs s'appuient-ils réellement ? |
@@ -84,6 +85,10 @@ Depuis le détail, vous lancez le travail : **Créer un brief**, **Auditer la pa
 Les lignes ont un statut. **Marquer comme terminé**, **Écarter** ou **Reporter** d'un nombre de jours, **Attribuer** à un collègue et **Ajouter une note** sont sur chaque ligne. Une ligne fermée est masquée jusqu'à ce que vous affichiez les lignes fermées, et elle revient comme **Rouverte par de nouvelles preuves** quand des exécutions ultérieures montrent à nouveau l'écart. Filtrez la liste par action, priorité, confiance, statut, moteur ou thème, et utilisez **Exporter vers Excel** pour obtenir toute la liste avec les colonnes de preuves.
 
 Une application MCP connectée reçoit la même liste, dans le même ordre, via [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
+
+## Requêtes de second tour
+
+L'onglet **Requêtes de second tour** liste les questions suivantes que les moteurs d'IA invitent à poser à la fin de leurs réponses à vos prompts surveillés. Il apparaît après Opportunités une fois que vous avez activé **Relever les requêtes de second tour** dans les [Paramètres de Visibility](settings.md#requetes-de-second-tour). Consultez [Requêtes de second tour](second-turn-queries.md) pour savoir comment fonctionne l'onglet.
 
 ## Mentions
 

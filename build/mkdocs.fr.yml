@@ -170,6 +170,7 @@ nav:
   - À propos de vous: getting-started/context/about-you.md
 - Visibilité:
   - Vue d’ensemble: visibility/overview.md
+  - Requêtes de second tour: visibility/second-turn-queries.md
   - Concurrents et Share of Voice: visibility/competitors.md
   - Prompt Manager: visibility/prompt-manager.md
   - Paramètres: visibility/settings.md

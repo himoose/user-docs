@@ -1,5 +1,5 @@
 ---
-source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
+source_hash: 02c545f70047313a4c36954447b568374fe63b2e3f1f0b6f4722c629bbce64da
 ---
 !!! note "Traduzione automatica"
     Questa pagina è stata tradotta da un'IA. La versione inglese è quella di riferimento.
@@ -12,12 +12,13 @@ source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
 
 Il pannello Visibility mostra come il suo marchio si comporta davvero nella ricerca con IA: le query che i clienti usano per trovarla, se il suo marchio entra nella rosa dei candidati e se i motori di IA lo descrivono con accuratezza. È la vista principale per i passaggi **monitorare** e **rilevare** del [ciclo operativo centrale](../index.md#il-ciclo-operativo-centrale).
 
-Il pannello ha sette schede:
+Il pannello ha sette schede, e un'ottava, Query di secondo turno, quando la attiva per il progetto:
 
 | Scheda | A quale domanda risponde |
 |---|---|
 | **Panoramica** | Come sto andando? |
 | **[Opportunità](#opportunita)** | Su cosa dovrei lavorare? |
+| **[Query di secondo turno](second-turn-queries.md)** | Quali domande invitano a fare i motori subito dopo? |
 | **[Concorrenza](competitors.md)** | Come sto andando rispetto a loro? |
 | **Menzioni** | Quali marchi vengono nominati in queste risposte? |
 | **Citazioni** | Su quali fonti si appoggiano davvero i motori? |
@@ -89,6 +90,10 @@ Dal dettaglio avvia il lavoro: **Crea brief**, **Audit della pagina**, **Scrivi 
 Le righe hanno uno stato. **Segna come fatto**, **Scarta** o **Rimanda** di un numero di giorni, **Assegna** a un collega e **Aggiungi nota** sono su ogni riga. Una riga chiusa resta nascosta finché non mostra le righe chiuse, e torna come **Riaperta da nuove prove** quando esecuzioni successive mostrano di nuovo la lacuna. Filtri l'elenco per azione, priorità, affidabilità, stato, motore o tema, e usi **Esporta in Excel** per l'intero elenco con le colonne delle prove.
 
 Un'app MCP collegata riceve lo stesso elenco, nello stesso ordine, tramite [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
+
+## Query di secondo turno
+
+La scheda **Query di secondo turno** elenca le domande successive che i motori di IA invitano a fare alla fine delle loro risposte ai suoi prompt monitorati. Compare dopo Opportunità quando attiva **Rileva le query di secondo turno** nelle [Impostazioni di Visibility](settings.md#query-di-secondo-turno). Consulti [Query di secondo turno](second-turn-queries.md) per sapere come funziona la scheda.
 
 ## Menzioni
 

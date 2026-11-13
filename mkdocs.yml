@@ -117,6 +117,7 @@ nav:
       - About You: getting-started/context/about-you.md
   - Visibility:
       - Overview: visibility/overview.md
+      - Second-turn Queries: visibility/second-turn-queries.md
       - Competitors & Share of Voice: visibility/competitors.md
       - Prompt Manager: visibility/prompt-manager.md
       - Settings: visibility/settings.md

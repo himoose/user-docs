@@ -4,12 +4,13 @@
 
 The Visibility dashboard shows how your brand actually performs in AI search: the queries customers use to find you, whether your brand gets shortlisted, and whether AI engines describe it accurately. This is the primary view for the [core operator loop](../index.md#the-core-operator-loop)'s **monitor** and **detect** steps.
 
-The dashboard has seven tabs:
+The dashboard has seven tabs, and an eighth, Second-turn Queries, when you turn it on for the project:
 
 | Tab | What it answers |
 |---|---|
 | **Overview** | How am I doing? |
 | **[Opportunities](#opportunities)** | What should I work on? |
+| **[Second-turn Queries](second-turn-queries.md)** | Which questions do the engines invite people to ask next? |
 | **[Competition](competitors.md)** | How am I doing compared to them? |
 | **Mentions** | Which brands get named in these answers? |
 | **Citations** | Which sources do the engines lean on? |
@@ -81,6 +82,10 @@ From the detail you start the work: **Create brief**, **Audit page**, **Draft a 
 Rows have a status. **Mark done**, **Dismiss** or **Snooze** for a number of days, **Assign** to a teammate and **Add note** are on every row. A closed row is hidden until you show closed rows, and it comes back as **Reopened by new evidence** when later runs show the gap again. Filter the list by action, priority, confidence, status, engine or topic, and **Export to Excel** for the whole list with the evidence columns.
 
 A connected MCP app gets the same list, in the same order, through [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
+
+## Second-turn Queries
+
+The **Second-turn Queries** tab lists the next questions AI engines invite people to ask at the end of their answers to your tracked prompts. It appears after Opportunities once you turn on **Capture second-turn queries** in [Visibility Settings](settings.md#second-turn-queries). See [Second-turn Queries](second-turn-queries.md) for how the tab works.
 
 ## Mentions
 

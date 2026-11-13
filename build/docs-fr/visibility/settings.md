@@ -1,5 +1,5 @@
 ---
-source_hash: 566edf125c99ef57599940389c2fe7f0e8a70e6b5b9e0b66f8c23727b6864ac7
+source_hash: 6e6abeb88edd31e840aae59d2d0c367d7fe5c9956e8e983e6c9cdf375a8bef5a
 ---
 !!! note "Traduction automatique"
     Cette page a été traduite par IA. La version anglaise fait foi.
@@ -40,6 +40,12 @@ Ajoutez les marques auxquelles ce projet est comparé. Chaque concurrent demande
 Lorsqu'une réponse d'IA en mentionne ou en cite un, cela alimente le [Share of Voice, les citations de concurrents et les écarts](competitors.md).
 
 Cette liste est partagée avec votre [Brand Truth Profile](../getting-started/context/brand-truth-profile.md) : les concurrents ajoutés à l'un ou l'autre endroit apparaissent dans les deux. Le nombre de concurrents suivis dans les exécutions de visibilité est plafonné : l'écran indique ce nombre et vous avertit si votre liste le dépasse, afin que vous sachiez que seuls les premiers sont suivis.
+
+## Requêtes de second tour
+
+Une requête de second tour est la question suivante qu'un moteur d'IA invite à poser à la fin de sa réponse. Activez **Relever les requêtes de second tour** et Hi, Moose les relève pendant les exécutions de visibilité et les affiche dans l'onglet [Requêtes de second tour](second-turn-queries.md).
+
+L'option est désactivée par défaut et s'active séparément pour chaque projet. Elle ajoute un petit appel au modèle pour chaque réponse d'une exécution. Vous pouvez l'activer avec les forfaits gérés payants, BYOK Premium et BYOK Agency. Avec Preview Mode et BYOK Free, l'interrupteur est grisé et affiche la mention **Disponible avec les offres payantes**.
 
 ## Modèle de scoring
 

@@ -1,5 +1,5 @@
 ---
-source_hash: 566edf125c99ef57599940389c2fe7f0e8a70e6b5b9e0b66f8c23727b6864ac7
+source_hash: 6e6abeb88edd31e840aae59d2d0c367d7fe5c9956e8e983e6c9cdf375a8bef5a
 ---
 # Visibility-Einstellungen
 
@@ -35,6 +35,12 @@ Fügen Sie die Marken hinzu, mit denen dieses Projekt verglichen wird. Jeder Wet
 Wenn eine KI-Antwort einen davon erwähnt oder zitiert, fließt das in [Share of Voice, Wettbewerberzitierungen und Lücken](competitors.md) ein.
 
 Diese Liste wird mit Ihrem [Brand Truth Profile](../getting-started/context/brand-truth-profile.md) geteilt: An beiden Stellen hinzugefügte Wettbewerber erscheinen jeweils auch am anderen Ort. Die Zahl der in Sichtbarkeitsläufen verfolgten Wettbewerber ist begrenzt: Der Bildschirm nennt die Obergrenze und weist Sie darauf hin, wenn Ihre Liste sie überschreitet, damit Sie wissen, dass nur die ersten verfolgt werden.
+
+## Second-Turn-Anfragen
+
+Eine Second-Turn-Anfrage ist die nächste Frage, zu der eine KI-Engine am Ende ihrer Antwort einlädt. Schalten Sie **Second-Turn-Anfragen erfassen** ein, und Hi, Moose erfasst sie während der Sichtbarkeitsläufe und zeigt sie im Reiter [Second-Turn-Anfragen](second-turn-queries.md) an.
+
+Die Einstellung ist standardmäßig ausgeschaltet und wird für jedes Projekt einzeln eingeschaltet. Sie fügt für jede Antwort eines Laufs einen kleinen Modellaufruf hinzu. Sie können sie in kostenpflichtigen verwalteten Tarifen, in BYOK Premium und in BYOK Agency einschalten. In Preview Mode und BYOK Free ist der Schalter ausgegraut und zeigt den Hinweis **In kostenpflichtigen Tarifen verfügbar**.
 
 ## Bewertungsmodell
 

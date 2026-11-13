@@ -1,5 +1,5 @@
 ---
-source_hash: 566edf125c99ef57599940389c2fe7f0e8a70e6b5b9e0b66f8c23727b6864ac7
+source_hash: 6e6abeb88edd31e840aae59d2d0c367d7fe5c9956e8e983e6c9cdf375a8bef5a
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -40,6 +40,12 @@ Añada las marcas con las que se compara este proyecto. Cada competidor requiere
 Cuando una respuesta de IA menciona o cita a uno de ellos, alimenta el [Share of Voice, las citas de competidores y las brechas](competitors.md).
 
 Esta lista se comparte con su [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), de modo que los competidores añadidos en cualquiera de los dos sitios aparecen en ambos. Hay un límite de cuántos se supervisan en las ejecuciones de visibilidad: la pantalla indica el número y le avisa si su lista lo supera, para que sepa que solo se están supervisando los primeros.
+
+## Consultas de segundo turno
+
+Una consulta de segundo turno es la siguiente pregunta que un motor de IA invita a hacer al final de su respuesta. Active **Capturar consultas de segundo turno** y Hi, Moose las captura durante las ejecuciones de visibilidad y las muestra en la pestaña [Consultas de segundo turno](second-turn-queries.md).
+
+La opción está desactivada por defecto y se activa por separado en cada proyecto. Añade una pequeña llamada al modelo por cada respuesta de una ejecución. Puede activarla con los planes gestionados de pago, BYOK Premium y BYOK Agency. En Preview Mode y BYOK Free el interruptor aparece atenuado y muestra la nota **Disponible en los planes de pago**.
 
 ## Modelo de puntuación
 

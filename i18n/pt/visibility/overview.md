@@ -1,5 +1,5 @@
 ---
-source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
+source_hash: 02c545f70047313a4c36954447b568374fe63b2e3f1f0b6f4722c629bbce64da
 ---
 # Visibilidade
 
@@ -7,12 +7,13 @@ source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
 
 O painel de Visibilidade mostra como sua marca realmente se sai na busca com IA: as consultas que os clientes usam para encontrar você, se sua marca entra na lista de indicações e se os mecanismos de IA a descrevem com precisão. É a visão principal para as etapas **monitorar** e **detectar** do [ciclo central de operações](../index.md#o-ciclo-central-de-operacoes).
 
-O painel tem sete abas:
+O painel tem sete abas, e uma oitava, Consultas de segundo turno, quando você a ativa no projeto:
 
 | Aba | A que ela responde |
 |---|---|
 | **Visão geral** | Como estou indo? |
 | **[Oportunidades](#oportunidades)** | No que devo trabalhar? |
+| **[Consultas de segundo turno](second-turn-queries.md)** | Quais perguntas os mecanismos convidam a fazer em seguida? |
 | **[Concorrência](competitors.md)** | Como estou indo em relação a eles? |
 | **Menções** | Quais marcas são citadas nessas respostas? |
 | **Citações** | Em quais fontes os mecanismos realmente se apoiam? |
@@ -84,6 +85,10 @@ A partir do detalhe você inicia o trabalho: **Criar briefing**, **Auditar pági
 As linhas têm um status. **Marcar como concluída**, **Descartar** ou **Adiar** por um número de dias, **Atribuir** a um colega e **Adicionar nota** estão em todas as linhas. Uma linha fechada fica oculta até você mostrar as linhas fechadas, e volta como **Reaberta por novas evidências** quando execuções posteriores mostram a lacuna de novo. Filtre a lista por ação, prioridade, confiança, status, mecanismo ou tema, e use **Exportar para Excel** para obter a lista inteira com as colunas de evidências.
 
 Um app MCP conectado recebe a mesma lista, na mesma ordem, por meio de [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
+
+## Consultas de segundo turno
+
+A aba **Consultas de segundo turno** lista as próximas perguntas que os mecanismos de IA convidam a fazer no fim das respostas aos seus prompts monitorados. Ela aparece depois de Oportunidades quando você ativa **Capturar consultas de segundo turno** nas [Configurações de Visibilidade](settings.md#consultas-de-segundo-turno). Consulte [Consultas de segundo turno](second-turn-queries.md) para saber como a aba funciona.
 
 ## Menções
 

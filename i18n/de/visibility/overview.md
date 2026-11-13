@@ -1,5 +1,5 @@
 ---
-source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
+source_hash: 02c545f70047313a4c36954447b568374fe63b2e3f1f0b6f4722c629bbce64da
 ---
 # Visibility
 
@@ -7,12 +7,13 @@ source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
 
 Das Visibility-Dashboard zeigt, wie sich Ihre Marke in der KI-Suche tatsächlich schlägt: welche Anfragen Kundinnen und Kunden nutzen, um Sie zu finden, ob Ihre Marke in die engere Wahl kommt und ob KI-Maschinen sie zutreffend beschreiben. Es ist die zentrale Ansicht für die Schritte **überwachen** und **erkennen** des [zentralen Operator-Kreislaufs](../index.md#der-zentrale-operator-kreislauf).
 
-Das Dashboard hat sieben Reiter:
+Das Dashboard hat sieben Reiter und einen achten, Second-Turn-Anfragen, wenn Sie ihn für das Projekt einschalten:
 
 | Reiter | Welche Frage er beantwortet |
 |---|---|
 | **Übersicht** | Wie stehe ich da? |
 | **[Chancen](#chancen)** | Woran sollte ich arbeiten? |
+| **[Second-Turn-Anfragen](second-turn-queries.md)** | Zu welchen Fragen laden die Engines als Nächstes ein? |
 | **[Wettbewerb](competitors.md)** | Wie stehe ich im Vergleich zu ihnen da? |
 | **Erwähnungen** | Welche Marken werden in diesen Antworten genannt? |
 | **Zitationen** | Auf welche Quellen stützen sich die Engines tatsächlich? |
@@ -84,6 +85,10 @@ Aus dem Detail starten Sie die Arbeit: **Brief erstellen**, **Seite prüfen**, *
 Zeilen haben einen Status. **Als erledigt markieren**, **Verwerfen** oder **Zurückstellen** um eine Anzahl Tage, **Zuweisen** an ein Teammitglied und **Notiz hinzufügen** gibt es in jeder Zeile. Eine geschlossene Zeile ist ausgeblendet, bis Sie geschlossene Zeilen einblenden, und sie kommt als **Durch neue Belege wieder geöffnet** zurück, wenn spätere Läufe die Lücke erneut zeigen. Filtern Sie die Liste nach Aktion, Priorität, Verlässlichkeit, Status, Engine oder Thema, und nutzen Sie **Nach Excel exportieren** für die gesamte Liste mit den Belegspalten.
 
 Eine verbundene MCP-App erhält dieselbe Liste in derselben Reihenfolge über [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
+
+## Second-Turn-Anfragen
+
+Der Reiter **Second-Turn-Anfragen** listet die nächsten Fragen auf, zu denen KI-Engines am Ende ihrer Antworten auf Ihre überwachten Prompts einladen. Er erscheint hinter Chancen, sobald Sie in den [Visibility-Einstellungen](settings.md#second-turn-anfragen) **Second-Turn-Anfragen erfassen** einschalten. Wie der Reiter funktioniert, steht unter [Second-Turn-Anfragen](second-turn-queries.md).
 
 ## Erwähnungen
 

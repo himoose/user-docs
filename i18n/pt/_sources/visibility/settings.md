@@ -33,6 +33,12 @@ When an AI answer mentions or cites one of them, it feeds [Share of Voice, compe
 
 This list is shared with your [Brand Truth Profile](../getting-started/context/brand-truth-profile.md), so competitors added in either place appear in both. There's a cap on how many are tracked in visibility runs — the screen shows the number, and warns you if your list is longer than the cap so you know only the first N are being tracked.
 
+## Second-turn queries
+
+A second-turn query is the next question an AI engine invites a person to ask at the end of its answer. Turn on **Capture second-turn queries** and Hi, Moose captures them during visibility runs and lists them in the [Second-turn Queries](second-turn-queries.md) tab.
+
+The setting is off by default, and you turn it on for each project separately. It adds one small model call for each answer in a run. You can turn it on with paid managed plans, BYOK Premium and BYOK Agency. On Preview Mode and BYOK Free the toggle is greyed out and shows the note **Available on paid plans**.
+
 ## Scoring model
 
 Choose the model Hi, Moose uses to score sentiment, narrative drift, and feature parity once a response has been captured:

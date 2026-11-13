@@ -1,5 +1,5 @@
 ---
-source_hash: 566edf125c99ef57599940389c2fe7f0e8a70e6b5b9e0b66f8c23727b6864ac7
+source_hash: 6e6abeb88edd31e840aae59d2d0c367d7fe5c9956e8e983e6c9cdf375a8bef5a
 ---
 # Configurações de Visibilidade
 
@@ -35,6 +35,12 @@ Adicione as marcas com que este projeto é comparado. Cada concorrente pede um n
 Quando uma resposta de IA menciona ou cita um deles, o dado alimenta o [Share of Voice, as citações de concorrentes e as lacunas](competitors.md).
 
 Essa lista é compartilhada com o seu [Perfil de Verdade da Marca](../getting-started/context/brand-truth-profile.md), então concorrentes adicionados em qualquer um dos dois lugares aparecem em ambos. Há um limite de quantos são monitorados nas execuções de visibilidade: a tela informa o número e avisa se sua lista o ultrapassa, para você saber que só os primeiros estão sendo monitorados.
+
+## Consultas de segundo turno
+
+Uma consulta de segundo turno é a próxima pergunta que um mecanismo de IA convida a fazer no fim da resposta. Ative **Capturar consultas de segundo turno** e o Hi, Moose as captura durante as execuções de visibilidade e as lista na aba [Consultas de segundo turno](second-turn-queries.md).
+
+A opção vem desativada por padrão e é ativada separadamente em cada projeto. Ela adiciona uma pequena chamada ao modelo para cada resposta de uma execução. Você pode ativá-la com os planos gerenciados pagos, o BYOK Premium e o BYOK Agency. No Preview Mode e no BYOK Free, o botão de ativação aparece esmaecido e mostra a nota **Disponível nos planos pagos**.
 
 ## Modelo de avaliação
 

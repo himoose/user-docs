@@ -1,5 +1,5 @@
 ---
-source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
+source_hash: 02c545f70047313a4c36954447b568374fe63b2e3f1f0b6f4722c629bbce64da
 ---
 !!! note "Traducción automática"
     Esta página fue traducida por IA. La versión en inglés es la versión autorizada.
@@ -12,12 +12,13 @@ source_hash: 1dc177bd9d47a042bd000ba0afbc51f44bad29916bc4af372cc495b526aa80e3
 
 El panel de Visibility muestra cómo se comporta realmente su marca en la búsqueda con IA: las consultas que usan los clientes para encontrarle, si su marca entra en la lista corta y si los motores de IA la describen con exactitud. Es la vista principal para los pasos **supervisar** y **detectar** del [ciclo central de operaciones](../index.md#el-ciclo-central-de-operaciones).
 
-El panel tiene siete pestañas:
+El panel tiene siete pestañas, y una octava, Consultas de segundo turno, cuando la activa en el proyecto:
 
 | Pestaña | A qué responde |
 |---|---|
 | **Resumen** | ¿Cómo lo estoy haciendo? |
 | **[Oportunidades](#oportunidades)** | ¿En qué debería trabajar? |
+| **[Consultas de segundo turno](second-turn-queries.md)** | ¿Qué preguntas invitan a hacer los motores a continuación? |
 | **[Competencia](competitors.md)** | ¿Cómo lo estoy haciendo frente a ellos? |
 | **Menciones** | ¿Qué marcas se nombran en estas respuestas? |
 | **Citas** | ¿En qué fuentes se apoyan realmente los motores? |
@@ -89,6 +90,10 @@ Desde el detalle se inicia el trabajo: **Crear brief**, **Auditar página**, **R
 Las filas tienen un estado. **Marcar como hecha**, **Descartar** o **Posponer** un número de días, **Asignar** a un compañero y **Añadir nota** están en todas las filas. Una fila cerrada se oculta hasta que muestra las filas cerradas, y vuelve como **Reabierta por nueva evidencia** cuando ejecuciones posteriores muestran de nuevo la brecha. Filtre la lista por acción, prioridad, confianza, estado, motor o tema, y use **Exportar a Excel** para obtener toda la lista con las columnas de evidencia.
 
 Una app MCP conectada recibe la misma lista, en el mismo orden, a través de [visibility_list_opportunities](../integrations/hi-moose-mcp/tools.md#visibility_list_opportunities).
+
+## Consultas de segundo turno
+
+La pestaña **Consultas de segundo turno** muestra las siguientes preguntas que los motores de IA invitan a hacer al final de sus respuestas a los prompts que usted supervisa. Aparece después de Oportunidades cuando activa **Capturar consultas de segundo turno** en la [Configuración de Visibility](settings.md#consultas-de-segundo-turno). Consulte [Consultas de segundo turno](second-turn-queries.md) para saber cómo funciona la pestaña.
 
 ## Menciones
 
