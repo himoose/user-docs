@@ -218,7 +218,7 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/de/integrations/hi-moose-mcp/security/": {
-      "hash": "a99dc91178420c4e68789ed487ff3a8ea96155744a116d43a4561ed7b912ba60",
+      "hash": "ebf84fab0159da4e685589a4e6b5e937ef32c290efd87d05b8454fc4e704ecab",
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/de/integrations/hi-moose-mcp/tools/": {
@@ -226,8 +226,8 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/de/integrations/hi-moose-mcp/troubleshooting/": {
-      "hash": "9438979ed2112621ba5baa6713f4722451a7d2ddf0bb74310d7a109cccfd9629",
-      "lastmod": "2026-11-13"
+      "hash": "0778d1691a96e4a5cfa4039302ec53b90cd8f56e51f6bb257b5dd99b581b9d8d",
+      "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/de/integrations/webflow/": {
       "hash": "cb5cef614c6cfa2e3bd286840f48ee6aa405a2bcb74949bc0e03f1bc3e6397c7",
@@ -482,7 +482,7 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/es/integrations/hi-moose-mcp/security/": {
-      "hash": "9fc9f2c079f3d62b75a4d91950605da7521158b55288c1cc08cc27fbc0cb5b56",
+      "hash": "4f263246642e798d7ad890442cbfd39b5f0f451de4945fa5ba8632a0f60ced40",
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/es/integrations/hi-moose-mcp/tools/": {
@@ -490,8 +490,8 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/es/integrations/hi-moose-mcp/troubleshooting/": {
-      "hash": "a9d69c00b336b026c152d913cdd55e3b8388a7469285f9f5268ab837700dabdf",
-      "lastmod": "2026-11-13"
+      "hash": "7c0e4a4c72c9fbcfe406c5ba7abd0cec2745ed32c1f6c32a45b23c069dc41729",
+      "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/es/integrations/webflow/": {
       "hash": "2448721bfb7db9853bc9910c3f45a791e18c191570d5db10edd002899e5d26f3",
@@ -794,7 +794,7 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/fr/integrations/hi-moose-mcp/security/": {
-      "hash": "890d3fa0edb83b048fbeea15409e3051e053ccbb9eb5a30f12a885b0c2206620",
+      "hash": "9e7d078508a2e5f4be44b5be42450070c0a97c4a80ff8d5a65376c6a1848cb3e",
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/fr/integrations/hi-moose-mcp/tools/": {
@@ -802,8 +802,8 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/fr/integrations/hi-moose-mcp/troubleshooting/": {
-      "hash": "b71de3d7d063218a93ef391e831848cb488d5523642ded518d075e659018612e",
-      "lastmod": "2026-11-13"
+      "hash": "28caf07b8c6be2d49be5aec177ce53e516758355807b81f227474d10bee60a80",
+      "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/fr/integrations/webflow/": {
       "hash": "3cb6445adb727500616cf34c8917baa18dadc0baf673a5463889f2d2dfb36dc4",
@@ -974,7 +974,7 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/integrations/hi-moose-mcp/security/": {
-      "hash": "10f86fc919758ad425ee69911af148db52c049ef31bc6c8301798813793e7d17",
+      "hash": "f2887cfa6ac0b42c45b670343975b6d908e519fd78bbe81b492fb1dc552cc5dc",
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/integrations/hi-moose-mcp/tools/": {
@@ -982,8 +982,8 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/integrations/hi-moose-mcp/troubleshooting/": {
-      "hash": "2ab2b16f83db6fc1a17761e0535d4076a7fba43cd0002d19727148719a7333d4",
-      "lastmod": "2026-11-13"
+      "hash": "5514ff0e7916b706a2116bd51d5fc15bc663b768dcbc750902c46e67ed1410f1",
+      "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/integrations/webflow/": {
       "hash": "6b6dbc83c3bc5adf4b8c9fae26bf5be6c09cd4f7d0406b6309eebcb6c9aa478a",
@@ -1174,7 +1174,7 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/it/integrations/hi-moose-mcp/security/": {
-      "hash": "e1df3005dc7bb6e6f98c6cca3778c78ecd85658108dd4bba54fc53ba18201930",
+      "hash": "be796a5270bf06a8a11d458809d7988f19bf8d38c536e19a59bbd05faff87089",
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/it/integrations/hi-moose-mcp/tools/": {
@@ -1182,8 +1182,8 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/it/integrations/hi-moose-mcp/troubleshooting/": {
-      "hash": "408a3fad6619ca4044f95f04a70d01b9defe024a9a7599b25822c68e876b6009",
-      "lastmod": "2026-11-13"
+      "hash": "ac8b01dde0dd149241bac684d6b5c492ffc48f66a077d4ac721d3b9c45c1b7f5",
+      "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/it/integrations/webflow/": {
       "hash": "48f3914db76d3b67714ce61ff73d0b132f93ed5dd82c0fada9f56d25f1686ee0",
@@ -1454,7 +1454,7 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/pt/integrations/hi-moose-mcp/security/": {
-      "hash": "b25b9d799de2ec89b37e250a279062072785b250dc0120d7911835f6457be31b",
+      "hash": "139a78d9b8c1a8880c992df046b9244c0e90e3e2906b917f86d3961c0d2319ba",
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/pt/integrations/hi-moose-mcp/tools/": {
@@ -1462,8 +1462,8 @@
       "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/pt/integrations/hi-moose-mcp/troubleshooting/": {
-      "hash": "56482595b9abe0cb72b4e4483bbee3ea4c598389285b3dd41191f0b40a615daa",
-      "lastmod": "2026-11-13"
+      "hash": "2df8040013613096f9c22719f4adb8f5e8286e651a113341bf81dcd2f9e870e2",
+      "lastmod": "2026-11-18"
     },
     "https://himoose.com/docs/pt/integrations/webflow/": {
       "hash": "1a76ef5c592143b80e1d8c739d85274f9806bd0743443b0223a495858a674228",

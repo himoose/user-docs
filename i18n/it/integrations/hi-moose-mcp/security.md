@@ -1,5 +1,5 @@
 ---
-source_hash: 83af6b82af4f2b400351f1edc3d19623b831784f5f6aa12eed64cca4907ea507
+source_hash: 92b709aa9110d9c3a7437a333bdd7dabed324b876e92fdc43d26ac88bd2ad3ad
 ---
 
 # Sicurezza e trattamento dei dati
@@ -87,7 +87,8 @@ Ecco il percorso di una richiesta:
 
 Cosa significa per i tuoi dati:
 
-- La richiesta e il risultato passano per il cloud di Hi, Moose (Google Cloud, regione Stati Uniti) come record di lavoro. Il record resta con il progetto perché la tabella **Lavori recenti degli agenti** nelle Impostazioni possa mostrare cosa è stato chiesto, da quale app e account, e se è finito.
+- La richiesta e il risultato passano per il cloud di Hi, Moose (Google Cloud, regione Stati Uniti) come record di lavoro. La tabella **Lavori recenti degli agenti** nelle Impostazioni lo legge per mostrare cosa è stato chiesto, da quale app e account, e se è finito. I record di lavoro vengono eliminati automaticamente, di solito entro un giorno. Il lavoro salvato nella Library resta lì e non rientra in questa eliminazione.
+- Nei piani a pagamento, Hi, Moose conserva anche un record di attività di ogni lavoro per 12 mesi: quale account e quale app l'hanno chiesto, per quale progetto e strumento, quando, cosa è stato chiesto, se è finito e quanto era grande il risultato. Non contiene mai il risultato, e il testo incollato più lungo di 2.000 caratteri viene sostituito dalla sua lunghezza. Solo il cloud di Hi, Moose scrive questi record, quindi un'app collegata o un membro del team non possono modificarli né eliminarli. I piani gratuiti non hanno un record di attività.
 - Le immagini generate sono conservate nello spazio cloud Hi, Moose dell'account e restituite come link.
 - Le chiamate ai modelli usano lo stesso percorso dell'app: i modelli gestiti del tuo piano, le tue chiavi di modello se le hai portate, o un modello locale se ne esegui uno. Collegare un'app MCP non cambia quali modelli vedono i tuoi contenuti.
 - I log del server stesso conservano il nome dello strumento, la durata della chiamata e se il client ha usato lo streaming. Non conservano mai l'input né il risultato.

@@ -1,5 +1,5 @@
 ---
-source_hash: ad46e40e72ad2b7b2419cc3412e58e92618718f92c9fe65d25441f5987556e64
+source_hash: 977a6ada886e819cd249d9998b4b2a595f0857e7471b53a7bae2bb4d8ec2d52a
 ---
 
 # Risoluzione dei problemi
@@ -48,7 +48,7 @@ L'accesso scade da solo dopo 30 giorni senza utilizzo, e il proprietario dell'ac
 
 ## È stato eseguito qualcosa che non ti aspettavi
 
-La tabella **Lavori recenti degli agenti** in **Impostazioni → Hi, Moose MCP** elenca ogni lavoro: cosa è stato chiesto, da quale app, quando e se è terminato. I lavori vengono eseguiti con l'account connesso sul dispositivo host, quindi un'app collegata può leggere e scrivere solo la Library di quell'account.
+La tabella **Lavori recenti degli agenti** in **Impostazioni → Hi, Moose MCP** elenca i lavori più recenti: cosa è stato chiesto, da quale app, quando e se sono terminati. I lavori vengono eseguiti con l'account connesso sul dispositivo host, quindi un'app collegata può leggere e scrivere solo la Library di quell'account.
 
 ## Ancora bloccato
 

@@ -1,5 +1,5 @@
 ---
-source_hash: ad46e40e72ad2b7b2419cc3412e58e92618718f92c9fe65d25441f5987556e64
+source_hash: 977a6ada886e819cd249d9998b4b2a595f0857e7471b53a7bae2bb4d8ec2d52a
 ---
 
 # Resolución de problemas
@@ -48,7 +48,7 @@ El acceso caduca por sí solo tras 30 días sin uso, y el propietario de la cuen
 
 ## Se ejecutó algo que no esperabas
 
-La tabla **Trabajos recientes de agentes** en **Ajustes → Hi, Moose MCP** lista cada trabajo: qué se pidió, desde qué app, cuándo y si terminó. Los trabajos se ejecutan con la cuenta con sesión iniciada en el dispositivo anfitrión, así que una app conectada solo puede leer y escribir la Library de esa cuenta.
+La tabla **Trabajos recientes de agentes** en **Ajustes → Hi, Moose MCP** lista los trabajos más recientes: qué se pidió, desde qué app, cuándo y si terminó. Los trabajos se ejecutan con la cuenta con sesión iniciada en el dispositivo anfitrión, así que una app conectada solo puede leer y escribir la Library de esa cuenta.
 
 ## Sigues atascado
 

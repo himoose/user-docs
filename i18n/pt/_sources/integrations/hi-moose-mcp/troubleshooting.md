@@ -44,7 +44,7 @@ Access expires on its own after 30 days without use, and the account owner can r
 
 ## Something ran that you did not expect
 
-The **Recent agent jobs** table under **Settings → Hi, Moose MCP** lists every job: what was asked, by which app, when, and whether it finished. Jobs run as the account signed in on the host device, so a connected app can only read and write that account's Library.
+The **Recent agent jobs** table under **Settings → Hi, Moose MCP** lists the most recent jobs: what was asked, by which app, when, and whether it finished. Jobs run as the account signed in on the host device, so a connected app can only read and write that account's Library.
 
 ## Still stuck
 

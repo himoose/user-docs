@@ -1,5 +1,5 @@
 ---
-source_hash: 83af6b82af4f2b400351f1edc3d19623b831784f5f6aa12eed64cca4907ea507
+source_hash: 92b709aa9110d9c3a7437a333bdd7dabed324b876e92fdc43d26ac88bd2ad3ad
 ---
 
 # Segurança e tratamento de dados
@@ -87,7 +87,8 @@ Este é o caminho de uma solicitação:
 
 O que isso significa para os seus dados:
 
-- A solicitação e o resultado passam pela nuvem do Hi, Moose (Google Cloud, região dos Estados Unidos) como um registro de trabalho. O registro fica com o projeto para que a tabela **Trabalhos recentes de agentes** em Configurações possa mostrar o que foi pedido, por qual app e conta, e se terminou.
+- A solicitação e o resultado passam pela nuvem do Hi, Moose (Google Cloud, região dos Estados Unidos) como um registro de trabalho. A tabela **Trabalhos recentes de agentes** em Configurações o lê para mostrar o que foi pedido, por qual app e conta, e se terminou. Os registros de trabalho são excluídos automaticamente, normalmente em até um dia. O trabalho salvo na Library fica guardado lá e não faz parte dessa exclusão.
+- Nos planos pagos, o Hi, Moose também guarda um registro de atividade de cada trabalho por 12 meses: qual conta e qual app pediram, para qual projeto e ferramenta, quando, o que foi pedido, se terminou e qual foi o tamanho do resultado. Ele nunca contém o resultado, e um texto colado com mais de 2.000 caracteres é substituído pelo seu tamanho. Só a nuvem do Hi, Moose grava esses registros, então um app conectado ou um membro da equipe não pode alterá-los nem excluí-los. Os planos gratuitos não têm registro de atividade.
 - Imagens geradas são guardadas no armazenamento em nuvem do Hi, Moose da conta e devolvidas como um link.
 - Chamadas a modelos usam o mesmo caminho do app: os modelos gerenciados do seu plano, as suas próprias chaves de modelo se você as trouxe, ou um modelo local se você roda um. Conectar um app MCP não muda quais modelos veem o seu conteúdo.
 - Os registros do próprio servidor guardam o nome da ferramenta, quanto tempo a chamada levou e se o cliente usou streaming. Eles nunca guardam a entrada nem o resultado.

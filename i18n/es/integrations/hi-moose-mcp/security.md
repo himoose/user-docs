@@ -1,5 +1,5 @@
 ---
-source_hash: 83af6b82af4f2b400351f1edc3d19623b831784f5f6aa12eed64cca4907ea507
+source_hash: 92b709aa9110d9c3a7437a333bdd7dabed324b876e92fdc43d26ac88bd2ad3ad
 ---
 
 # Seguridad y tratamiento de datos
@@ -87,7 +87,8 @@ Este es el camino que sigue una solicitud:
 
 Qué significa eso para tus datos:
 
-- La solicitud y el resultado viajan por la nube de Hi, Moose (Google Cloud, región de Estados Unidos) como un registro de trabajo. El registro se queda con el proyecto para que la tabla **Trabajos recientes de agentes** de Ajustes pueda mostrar qué se pidió, desde qué app y cuenta, y si terminó.
+- La solicitud y el resultado viajan por la nube de Hi, Moose (Google Cloud, región de Estados Unidos) como un registro de trabajo. La tabla **Trabajos recientes de agentes** de Ajustes lo lee para mostrar qué se pidió, desde qué app y cuenta, y si terminó. Los registros de trabajo se eliminan automáticamente, normalmente en un día. El trabajo guardado en la Library se conserva allí y no forma parte de esta eliminación.
+- En los planes de pago, Hi, Moose guarda además un registro de actividad de cada trabajo durante 12 meses: qué cuenta y qué app lo pidieron, para qué proyecto y herramienta, cuándo, qué se pidió, si terminó y qué tamaño tuvo el resultado. Nunca contiene el resultado, y el texto pegado de más de 2.000 caracteres se sustituye por su longitud. Solo la nube de Hi, Moose escribe estos registros, así que una app conectada o un miembro del equipo no pueden cambiarlos ni eliminarlos. Los planes gratuitos no tienen registro de actividad.
 - Las imágenes generadas se guardan en el almacenamiento en la nube de Hi, Moose de la cuenta y se devuelven como un enlace.
 - Las llamadas a modelos usan el mismo camino que la app: los modelos gestionados de tu plan, tus propias claves de modelo si las aportaste, o un modelo local si ejecutas uno. Conectar una app MCP no cambia qué modelos ven tu contenido.
 - Los registros propios del servidor guardan el nombre de la herramienta, cuánto tardó la llamada y si el cliente usó streaming. Nunca guardan la entrada ni el resultado.

@@ -1,5 +1,5 @@
 ---
-source_hash: ad46e40e72ad2b7b2419cc3412e58e92618718f92c9fe65d25441f5987556e64
+source_hash: 977a6ada886e819cd249d9998b4b2a595f0857e7471b53a7bae2bb4d8ec2d52a
 ---
 
 # Dépannage
@@ -48,7 +48,7 @@ L'accès expire de lui-même après 30 jours sans utilisation, et le propriétai
 
 ## Quelque chose s'est exécuté sans que vous l'attendiez
 
-Le tableau **Tâches récentes des agents** sous **Paramètres → Hi, Moose MCP** liste chaque tâche : ce qui a été demandé, par quelle application, quand, et si elle est terminée. Les tâches s'exécutent avec le compte connecté sur l'appareil hôte, donc une application connectée ne peut lire et écrire que la Library de ce compte.
+Le tableau **Tâches récentes des agents** sous **Paramètres → Hi, Moose MCP** liste les tâches les plus récentes : ce qui a été demandé, par quelle application, quand, et si chacune est terminée. Les tâches s'exécutent avec le compte connecté sur l'appareil hôte, donc une application connectée ne peut lire et écrire que la Library de ce compte.
 
 ## Toujours bloqué
 

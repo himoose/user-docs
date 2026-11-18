@@ -1,5 +1,5 @@
 ---
-source_hash: 83af6b82af4f2b400351f1edc3d19623b831784f5f6aa12eed64cca4907ea507
+source_hash: 92b709aa9110d9c3a7437a333bdd7dabed324b876e92fdc43d26ac88bd2ad3ad
 ---
 
 # Sicherheit und Datenverarbeitung
@@ -87,7 +87,8 @@ So verläuft eine Anfrage:
 
 Was das für Ihre Daten bedeutet:
 
-- Anfrage und Ergebnis laufen als Auftragsdatensatz durch die Cloud von Hi, Moose (Google Cloud, Region USA). Der Datensatz bleibt beim Projekt, damit die Tabelle **Letzte Agenten-Aufträge** in den Einstellungen zeigen kann, was angefragt wurde, von welcher App und welchem Konto, und ob es abgeschlossen ist.
+- Anfrage und Ergebnis laufen als Auftragsdatensatz durch die Cloud von Hi, Moose (Google Cloud, Region USA). Die Tabelle **Letzte Agenten-Aufträge** in den Einstellungen liest ihn, um zu zeigen, was angefragt wurde, von welcher App und welchem Konto, und ob es abgeschlossen ist. Auftragsdatensätze werden automatisch gelöscht, in der Regel innerhalb eines Tages. Arbeit, die in der Library gespeichert ist, bleibt dort und ist von dieser Löschung nicht betroffen.
+- In bezahlten Plänen bewahrt Hi, Moose außerdem 12 Monate lang einen Aktivitätsdatensatz zu jedem Auftrag auf: welches Konto und welche App angefragt haben, für welches Projekt und Werkzeug, wann, was angefragt wurde, ob der Auftrag abgeschlossen wurde und wie groß das Ergebnis war. Er enthält nie das Ergebnis, und eingefügter Text mit mehr als 2.000 Zeichen wird durch seine Länge ersetzt. Nur die Cloud von Hi, Moose schreibt diese Datensätze, eine verbundene App oder ein Teammitglied kann sie also weder ändern noch löschen. Kostenlose Pläne haben keinen Aktivitätsdatensatz.
 - Erzeugte Bilder werden im Hi, Moose-Cloud-Speicher des Kontos abgelegt und als Link zurückgegeben.
 - Modellaufrufe nutzen denselben Weg wie die App: die verwalteten Modelle Ihres Tarifs, Ihre eigenen Modellschlüssel, falls Sie welche hinterlegt haben, oder ein lokales Modell, falls Sie eines betreiben. Eine MCP-App zu verbinden ändert nicht, welche Modelle Ihre Inhalte sehen.
 - Die eigenen Protokolle des Servers halten den Werkzeugnamen, die Dauer des Aufrufs und ob der Client gestreamt hat. Sie halten nie die Eingabe oder das Ergebnis fest.

@@ -1,5 +1,5 @@
 ---
-source_hash: ad46e40e72ad2b7b2419cc3412e58e92618718f92c9fe65d25441f5987556e64
+source_hash: 977a6ada886e819cd249d9998b4b2a595f0857e7471b53a7bae2bb4d8ec2d52a
 ---
 
 # Fehlerbehebung
@@ -48,7 +48,7 @@ Der Zugriff läuft nach 30 Tagen ohne Nutzung von selbst ab, und der Kontoinhabe
 
 ## Etwas ist gelaufen, das Sie nicht erwartet haben
 
-Die Tabelle **Letzte Agenten-Aufträge** unter **Einstellungen → Hi, Moose MCP** listet jeden Auftrag: was angefragt wurde, von welcher App, wann, und ob er fertig wurde. Aufträge laufen unter dem Konto, das auf dem Host-Gerät angemeldet ist, eine verbundene App kann also nur die Library dieses Kontos lesen und beschreiben.
+Die Tabelle **Letzte Agenten-Aufträge** unter **Einstellungen → Hi, Moose MCP** listet die neuesten Aufträge: was angefragt wurde, von welcher App, wann, und ob sie fertig wurden. Aufträge laufen unter dem Konto, das auf dem Host-Gerät angemeldet ist, eine verbundene App kann also nur die Library dieses Kontos lesen und beschreiben.
 
 ## Immer noch nicht weiter
 

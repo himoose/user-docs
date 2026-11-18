@@ -1,5 +1,5 @@
 ---
-source_hash: ad46e40e72ad2b7b2419cc3412e58e92618718f92c9fe65d25441f5987556e64
+source_hash: 977a6ada886e819cd249d9998b4b2a595f0857e7471b53a7bae2bb4d8ec2d52a
 ---
 
 # Solução de problemas
@@ -48,7 +48,7 @@ O acesso expira sozinho depois de 30 dias sem uso, e o proprietário da conta po
 
 ## Algo rodou sem você esperar
 
-A tabela **Trabalhos recentes de agentes** em **Configurações → Hi, Moose MCP** lista todos os trabalhos: o que foi pedido, por qual app, quando e se terminou. Os trabalhos rodam com a conta que está com a sessão iniciada no dispositivo host, então um app conectado só pode ler e gravar na Library dessa conta.
+A tabela **Trabalhos recentes de agentes** em **Configurações → Hi, Moose MCP** lista os trabalhos mais recentes: o que foi pedido, por qual app, quando e se terminou. Os trabalhos rodam com a conta que está com a sessão iniciada no dispositivo host, então um app conectado só pode ler e gravar na Library dessa conta.
 
 ## Ainda com problemas
 

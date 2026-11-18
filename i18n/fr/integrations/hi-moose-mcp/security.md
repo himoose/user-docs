@@ -1,5 +1,5 @@
 ---
-source_hash: 83af6b82af4f2b400351f1edc3d19623b831784f5f6aa12eed64cca4907ea507
+source_hash: 92b709aa9110d9c3a7437a333bdd7dabed324b876e92fdc43d26ac88bd2ad3ad
 ---
 
 # Sécurité et traitement des données
@@ -87,7 +87,8 @@ Voici le chemin que suit une demande :
 
 Ce que cela signifie pour vos données :
 
-- La demande et le résultat transitent par le cloud de Hi, Moose (Google Cloud, région États-Unis) sous forme d'enregistrement de tâche. L'enregistrement reste avec le projet pour que le tableau **Tâches récentes des agents** des Paramètres puisse montrer ce qui a été demandé, depuis quelle application et quel compte, et si c'est terminé.
+- La demande et le résultat transitent par le cloud de Hi, Moose (Google Cloud, région États-Unis) sous forme d'enregistrement de tâche. Le tableau **Tâches récentes des agents** des Paramètres le lit pour montrer ce qui a été demandé, depuis quelle application et quel compte, et si c'est terminé. Les enregistrements de tâche sont supprimés automatiquement, en général en moins d'un jour. Le travail enregistré dans la Library y est conservé et n'est pas concerné par cette suppression.
+- Sur les offres payantes, Hi, Moose conserve aussi un enregistrement d'activité de chaque tâche pendant 12 mois : quel compte et quelle application l'ont demandée, pour quel projet et quel outil, quand, ce qui a été demandé, si elle s'est terminée et la taille du résultat. Il ne contient jamais le résultat, et un texte collé de plus de 2 000 caractères est remplacé par sa longueur. Seul le cloud de Hi, Moose écrit ces enregistrements, donc une application connectée ou un membre de l'équipe ne peut ni les modifier ni les supprimer. Les offres gratuites n'ont pas d'enregistrement d'activité.
 - Les images générées sont stockées dans le stockage cloud Hi, Moose du compte et renvoyées sous forme de lien.
 - Les appels aux modèles suivent le même chemin que l'application : les modèles gérés de votre forfait, vos propres clés de modèle si vous les avez apportées, ou un modèle local si vous en exécutez un. Connecter une application MCP ne change pas quels modèles voient votre contenu.
 - Les journaux du serveur lui-même conservent le nom de l'outil, la durée de l'appel et si le client a utilisé le streaming. Ils ne conservent jamais l'entrée ni le résultat.

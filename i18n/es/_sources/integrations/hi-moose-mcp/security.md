@@ -83,7 +83,8 @@ Here is the path a request takes:
 
 What that means for your data:
 
-- The request and the result travel through Hi, Moose's cloud (Google Cloud, United States region) as a job record. The job record stays with the project so the **Recent agent jobs** table in Settings can show what was asked, by which app and account, and whether it finished.
+- The request and the result travel through Hi, Moose's cloud (Google Cloud, United States region) as a job record. The **Recent agent jobs** table in Settings reads it to show what was asked, by which app and account, and whether it finished. Job records are deleted automatically, usually within a day. Work saved to the Library is kept there and is not part of this deletion.
+- On paid plans, Hi, Moose also keeps an activity record of each job for 12 months: which account and app asked, for which project and tool, when, what was asked, whether it finished, and how large the result was. It never holds the result, and pasted text longer than 2,000 characters is replaced by its length. Only Hi, Moose's cloud writes these records, so a connected app or a team member cannot change or delete them. Free plans have no activity record.
 - Generated images are stored in the account's Hi, Moose cloud storage and returned as a link.
 - Model calls use the same path as the app: the managed models of your plan, your own model keys if you brought them, or a local model if you run one. Connecting an MCP app does not change which models see your content.
 - The server's own logs hold the tool name, how long the call took and whether the client streamed. They never hold the input or the result.
