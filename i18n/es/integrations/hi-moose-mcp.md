@@ -1,5 +1,5 @@
 ---
-source_hash: 67d89041bb6247231a02d204fde74a2bacc0669eef840056ac42a02ee719a1e5
+source_hash: f6b60fa84f7159c860be50451695df1243a74140d9d22c9ceab1a3891bdd4231
 ---
 # Hi, Moose MCP
 
@@ -29,6 +29,7 @@ Con las herramientas actuales, una app conectada puede:
 - Responder a "¿aparecemos en la búsqueda con IA para este tema?" a partir de los resultados de visibilidad guardados: por motor, si tu marca fue mencionada o citada en la última ejecución y antes, con un breve extracto de la última respuesta
 - Leer el texto completo de una respuesta guardada de búsqueda con IA
 - Listar las oportunidades en las que merece la pena trabajar, las mismas filas priorizadas que la pestaña Oportunidades: la brecha exacta, el siguiente paso, la prioridad y la evidencia, con el detalle completo de cualquier fila si se pide
+- Leer los datos de rendimiento en la Búsqueda de Google de la propiedad de Search Console conectada al proyecto: clics, impresiones, porcentaje de clics y posición media, por consulta, página, fecha, país o dispositivo, con una comparación con un periodo anterior si se pide
 - Convertir una página publicada, un borrador guardado o un texto pegado en un episodio de audio "escucha este artículo", con el fragmento del reproductor insertable para la página; las voces, la duración, el idioma y el aspecto del reproductor se eligen en la [página de ajustes de audio](https://himoose.com/es/hi-moose-mcp/audio/) y se pegan en el chat como una sola línea de ajustes
 - Cambiar el estilo del reproductor de un episodio de audio existente sin volver a generar el audio
 - Recoger el trabajo terminado

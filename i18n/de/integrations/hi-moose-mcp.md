@@ -1,5 +1,5 @@
 ---
-source_hash: 67d89041bb6247231a02d204fde74a2bacc0669eef840056ac42a02ee719a1e5
+source_hash: f6b60fa84f7159c860be50451695df1243a74140d9d22c9ceab1a3891bdd4231
 ---
 # Hi, Moose MCP
 
@@ -29,6 +29,7 @@ Mit den aktuellen Werkzeugen kann eine verbundene App:
 - Die Frage „Erscheinen wir in der KI-Suche zu diesem Thema?“ aus den gespeicherten Sichtbarkeitsergebnissen beantworten: je Engine, ob Ihre Marke im letzten Lauf und davor erwähnt oder zitiert wurde, mit einem kurzen Auszug aus der letzten Antwort
 - Den vollständigen Text einer gespeicherten KI-Suchantwort lesen
 - Die Chancen auflisten, an denen sich Arbeit lohnt, dieselben priorisierten Zeilen wie der Tab Chancen: die genaue Lücke, der nächste Schritt, die Priorität und die Belege, auf Wunsch mit allen Details zu einer Zeile
+- Die Leistungsdaten aus der Google Suche für die mit dem Projekt verbundene Search-Console-Property lesen: Klicks, Impressionen, Klickrate und durchschnittliche Position, nach Suchanfrage, Seite, Datum, Land oder Gerät, auf Wunsch mit einem Vergleich zu einem früheren Zeitraum
 - Eine veröffentlichte Seite, einen gespeicherten Entwurf oder eingefügten Text in eine Audio-Episode „Diesen Artikel anhören“ verwandeln, mit dem einbettbaren Player-Snippet für die Seite; Stimmen, Länge, Sprache und das Aussehen des Players lassen sich auf der [Audio-Einstellungsseite](https://himoose.com/de/hi-moose-mcp/audio/) wählen und als eine Einstellungszeile in den Chat einfügen
 - Den Player einer vorhandenen Audio-Episode neu gestalten, ohne das Audio neu zu rendern
 - Fertige Arbeit abholen

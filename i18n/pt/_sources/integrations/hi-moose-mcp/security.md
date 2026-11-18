@@ -57,7 +57,7 @@ To disconnect an app, open Hi, Moose and go to **Settings → Hi, Moose MCP**. T
 
 ## What a connected app can and cannot do
 
-Everything a connected app can do is listed in the [setup guide](../hi-moose-mcp.md#what-a-connected-app-can-do) and described tool by tool in the [tool reference](tools.md). It is content and research work inside the account's projects: briefs, drafts, images, FAQs, key points, AEO audits, internal link plans, audio episodes, coverage checks, and reads of stored AI search results.
+Everything a connected app can do is listed in the [setup guide](../hi-moose-mcp.md#what-a-connected-app-can-do) and described tool by tool in the [tool reference](tools.md). It is content and research work inside the account's projects: briefs, drafts, images, FAQs, key points, AEO audits, internal link plans, audio episodes, coverage checks, reads of stored AI search results, and reads of Google Search Console data when Search Console is connected on the host device.
 
 It cannot:
 
@@ -92,7 +92,7 @@ What that means for your data:
 
 Some results contain text Hi, Moose did not write: passages from pages of your site, anchor text quoted from a page, short excerpts of what an AI engine answered, or the full text of a stored answer. Text like that could carry instructions aimed at an AI agent. The OWASP name for this is indirect prompt injection.
 
-Every result that carries outside text marks it. The text comes back between a start marker and an end marker, with a line in front naming where it came from and saying that everything between the markers is data, not instructions. The structured form of the same result carries a `dataNotice` field saying the same thing. This applies to `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `get_gap_analysis`, `visibility_list_tracked`, `visibility_get_summary` and `visibility_list_results`.
+Every result that carries outside text marks it. The text comes back between a start marker and an end marker, with a line in front naming where it came from and saying that everything between the markers is data, not instructions. The structured form of the same result carries a `dataNotice` field saying the same thing. This applies to `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `get_gap_analysis`, `visibility_list_tracked`, `visibility_get_summary`, `visibility_list_results`, `search_console_get_status` and `search_console_query`.
 
 Briefs, drafts, FAQs, key points and audio scripts are written by Hi, Moose for you. The research behind them is read on the host device and is not passed through to the agent.
 

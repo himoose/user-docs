@@ -1,5 +1,5 @@
 ---
-source_hash: 70ba857e17e62b095e697b27a613544a1ae26ade94b2df99d5a4b8a882eddbee
+source_hash: 83af6b82af4f2b400351f1edc3d19623b831784f5f6aa12eed64cca4907ea507
 ---
 
 # Sicurezza e trattamento dei dati
@@ -61,7 +61,7 @@ Per scollegare un'app, apri Hi, Moose e vai in **Impostazioni → Hi, Moose MCP*
 
 ## Cosa può e cosa non può fare un'app collegata
 
-Tutto ciò che un'app collegata può fare è elencato nella [guida alla configurazione](../hi-moose-mcp.md) e descritto strumento per strumento nel [riferimento degli strumenti](tools.md). È lavoro di contenuto e ricerca dentro i progetti dell'account: brief, bozze, immagini, FAQ, punti chiave, audit AEO, piani di link interni, episodi audio, verifiche di copertura e letture dei risultati di ricerca IA archiviati.
+Tutto ciò che un'app collegata può fare è elencato nella [guida alla configurazione](../hi-moose-mcp.md) e descritto strumento per strumento nel [riferimento degli strumenti](tools.md). È lavoro di contenuto e ricerca dentro i progetti dell'account: brief, bozze, immagini, FAQ, punti chiave, audit AEO, piani di link interni, episodi audio, verifiche di copertura, letture dei risultati di ricerca IA archiviati e letture dei dati di Google Search Console quando Search Console è collegato sul dispositivo host.
 
 Non può:
 
@@ -96,7 +96,7 @@ Cosa significa per i tuoi dati:
 
 Alcuni risultati contengono testo che Hi, Moose non ha scritto: passaggi di pagine del tuo sito, testo di ancoraggio citato da una pagina, brevi estratti di ciò che ha risposto un motore di IA, o il testo completo di una risposta archiviata. Un testo così potrebbe contenere istruzioni rivolte a un agente di IA. OWASP lo chiama prompt injection indiretta.
 
-Ogni risultato che contiene testo esterno lo contrassegna. Il testo torna tra un marcatore di inizio e uno di fine, preceduto da una riga che ne indica la provenienza e dice che tutto ciò che sta tra i marcatori sono dati, non istruzioni. La forma strutturata dello stesso risultato porta un campo `dataNotice` che dice la stessa cosa. Vale per `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `get_gap_analysis`, `visibility_list_tracked`, `visibility_get_summary` e `visibility_list_results`.
+Ogni risultato che contiene testo esterno lo contrassegna. Il testo torna tra un marcatore di inizio e uno di fine, preceduto da una riga che ne indica la provenienza e dice che tutto ciò che sta tra i marcatori sono dati, non istruzioni. La forma strutturata dello stesso risultato porta un campo `dataNotice` che dice la stessa cosa. Vale per `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `get_gap_analysis`, `visibility_list_tracked`, `visibility_get_summary`, `visibility_list_results`, `search_console_get_status` e `search_console_query`.
 
 Brief, bozze, FAQ, punti chiave e copioni audio sono scritti da Hi, Moose per te. La ricerca alle loro spalle viene letta sul dispositivo host e non viene passata all'agente.
 

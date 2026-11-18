@@ -1,5 +1,5 @@
 ---
-source_hash: 70ba857e17e62b095e697b27a613544a1ae26ade94b2df99d5a4b8a882eddbee
+source_hash: 83af6b82af4f2b400351f1edc3d19623b831784f5f6aa12eed64cca4907ea507
 ---
 
 # Sicherheit und Datenverarbeitung
@@ -61,7 +61,7 @@ Um eine App zu trennen, öffnen Sie Hi, Moose und gehen zu **Einstellungen → H
 
 ## Was eine verbundene App kann und nicht kann
 
-Alles, was eine verbundene App kann, steht in der [Einrichtungsanleitung](../hi-moose-mcp.md) und wird in der [Werkzeug-Referenz](tools.md) Werkzeug für Werkzeug beschrieben. Es ist Inhalts- und Recherchearbeit innerhalb der Projekte des Kontos: Briefings, Entwürfe, Bilder, FAQs, Kernaussagen, AEO-Audits, Pläne für interne Links, Audio-Episoden, Abdeckungsprüfungen und Lesezugriffe auf gespeicherte KI-Suchergebnisse.
+Alles, was eine verbundene App kann, steht in der [Einrichtungsanleitung](../hi-moose-mcp.md) und wird in der [Werkzeug-Referenz](tools.md) Werkzeug für Werkzeug beschrieben. Es ist Inhalts- und Recherchearbeit innerhalb der Projekte des Kontos: Briefings, Entwürfe, Bilder, FAQs, Kernaussagen, AEO-Audits, Pläne für interne Links, Audio-Episoden, Abdeckungsprüfungen, Lesezugriffe auf gespeicherte KI-Suchergebnisse und Lesezugriffe auf Daten der Google Search Console, wenn die Search Console auf dem Host-Gerät verbunden ist.
 
 Sie kann nicht:
 
@@ -96,7 +96,7 @@ Was das für Ihre Daten bedeutet:
 
 Manche Ergebnisse enthalten Text, den Hi, Moose nicht geschrieben hat: Passagen von Seiten Ihrer Website, aus einer Seite zitierten Ankertext, kurze Auszüge dessen, was eine KI-Suchmaschine geantwortet hat, oder den vollständigen Text einer gespeicherten Antwort. Solcher Text könnte Anweisungen enthalten, die sich an einen KI-Agenten richten. OWASP nennt das indirekte Prompt-Injection.
 
-Jedes Ergebnis mit fremdem Text markiert ihn. Der Text kommt zwischen einer Start- und einer Endmarkierung zurück, davor eine Zeile, die die Herkunft nennt und festhält, dass alles zwischen den Markierungen Daten sind, keine Anweisungen. Die strukturierte Form desselben Ergebnisses trägt ein Feld `dataNotice`, das dasselbe sagt. Das gilt für `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `get_gap_analysis`, `visibility_list_tracked`, `visibility_get_summary` und `visibility_list_results`.
+Jedes Ergebnis mit fremdem Text markiert ihn. Der Text kommt zwischen einer Start- und einer Endmarkierung zurück, davor eine Zeile, die die Herkunft nennt und festhält, dass alles zwischen den Markierungen Daten sind, keine Anweisungen. Die strukturierte Form desselben Ergebnisses trägt ein Feld `dataNotice`, das dasselbe sagt. Das gilt für `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `get_gap_analysis`, `visibility_list_tracked`, `visibility_get_summary`, `visibility_list_results`, `search_console_get_status` und `search_console_query`.
 
 Briefings, Entwürfe, FAQs, Kernaussagen und Audio-Skripte schreibt Hi, Moose für Sie. Die Recherche dahinter wird auf dem Host-Gerät gelesen und nicht an den Agenten durchgereicht.
 

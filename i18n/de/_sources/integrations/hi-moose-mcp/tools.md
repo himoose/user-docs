@@ -15,6 +15,7 @@ Every tool except `list_projects` and `get_result` takes a **project**, by the n
 | Opportunities list | A few seconds to a minute |
 | Competitor gap analysis | One to two minutes |
 | Tracked list, visibility summary, results list | A few seconds |
+| Search Console connection check, Search Console query | A few seconds |
 | Content brief, draft, FAQs, key points, featured image | One to three minutes |
 | AEO audit | Two to four minutes |
 | Content refresh | Three to six minutes |
@@ -313,6 +314,56 @@ Ask: "List every answer from the last two weeks where a competitor was named and
 
 The output schema of each tool is part of the tool list the server publishes at `https://mcp.himoose.com/tools.json`, so you can hand it to the assistant that writes your Skill or script.
 
+## Google Search Console
+
+Two tools read the Google Search performance data of the Search Console property connected to the project in Hi, Moose. Search Console must be connected on the project's host device, in Hi, Moose under **Connections**. See [Google Search Console](../google-search-console.md) for how to connect it. The host device asks Google for the data on each request, so the numbers are current. The result travels through the job record like every other tool's result, as described on the [security page](security.md). Nothing in Search Console is changed. Anyone on the team who can use Hi, Moose MCP for the project can read this data.
+
+These are Google Search numbers, not AI search, so keep them apart from the visibility numbers. Both tools return structured JSON with a published output schema.
+
+### search_console_get_status
+
+Says whether Search Console is connected for the project on its host device. It takes the project and nothing else.
+
+When Search Console is connected, it returns the property, today's date, the first day with data (about 16 months back), the last day whose numbers are final, and the allowed dimensions, search types, filter operators and sort fields. When it is not connected, it says what to do in Hi, Moose to connect it. It asks nothing of Google.
+
+Ask: "Is Search Console connected for Acme?"
+
+### search_console_query
+
+Runs one search performance query. It takes the same fields as Google's Search Analytics API, plus three additions that run on the host device: comparison, sorting, and merging URLs that differ only by a `#` part.
+
+| Input | Required | Meaning |
+|---|---|---|
+| startDate, endDate | yes | The window as YYYY-MM-DD |
+| dimensions | no | How to group rows: `query`, `page`, `date`, `country`, `device`, `searchAppearance`. Leave out for totals only. `date` gives a daily trend. |
+| searchType | no | `web` (default), `image`, `video`, `news`, `discover` or `googleNews` |
+| dimensionFilterGroups | no | Filters in Google's shape: each filter has a dimension, an operator (`equals`, `notEquals`, `contains`, `notContains`, `includingRegex`, `excludingRegex`) and an expression of up to 4,096 characters. Every filter must match. Regex uses RE2 syntax. |
+| aggregationType | no | `auto` (default), `byPage` or `byProperty` |
+| dataState | no | `final` (default) or `all`, which includes recent days whose numbers still change |
+| rowLimit | no | Rows to return. Default 100, up to 25,000. A result holds about 850 KB; when the rows do not fit they are cut and `nextStartRow` says where to continue. |
+| startRow | no | Rows to skip, for paging |
+| compare | no | true compares with the window of the same length just before |
+| compareStartDate, compareEndDate | no | A custom comparison window instead |
+| sortBy | no | `clicks` (default), `impressions`, `ctr`, `position`, and with a comparison `clicksChange`, `impressionsChange`, `ctrChange`, `positionChange` |
+| sortDirection | no | `desc` (largest first, default) or `asc`. Default `asc` for position. |
+| mergePageFragments | no | true adds rows such as /page#section into /page. Needs the page dimension. |
+
+Returns the rows, each with its keys (one value per dimension), clicks, impressions, CTR as a fraction (0.042 is 4.2%) and average position (lower is better). With a comparison each row also carries the previous numbers, the change, and whether it appeared in both periods or only one, so a query that disappeared is still listed. The result also carries the totals from Google for the whole window and filters, the comparison totals and their change, how many rows were read, a `nextStartRow` for paging, and notes on any limit that applies to the result.
+
+Good to know:
+
+- Google leaves rare queries out of the rows to protect the people searching, so the rows add up to less than the totals. Use the totals for overall numbers.
+- A day's numbers become final about three days later.
+- Search Console keeps about 16 months of data.
+- Sorting, comparison and merging read the first 25,000 rows Google returns for each period, which Google orders by most clicks first. The result says when Google had more rows than that and the most clicks any unread row can have.
+- A comparison cannot be combined with the `date` dimension.
+- When rows are grouped or filtered by page, Google counts each page shown in a search on its own, so the totals are higher than the totals for the whole property.
+- Country values are three-letter codes such as `usa`. Device values are `DESKTOP`, `MOBILE` and `TABLET`.
+
+Ask: "What were our top 20 Google queries last month for Acme?" or "Which queries lost the most clicks in the last 28 days compared with the 28 days before?"
+
+The output schema of both tools is part of the tool list the server publishes at `https://mcp.himoose.com/tools.json`.
+
 ## Audio
 
 ### create_audio
@@ -352,4 +403,4 @@ Ask: "Give me the compact light player for that episode."
 
 ## What the tools cannot do
 
-They cannot change settings or team members, change what Hi, Moose tracks, start visibility runs, or delete anything. For dashboards and automation, use the [Hi, Moose API](../developer-api.md).
+They cannot change settings or team members, change what Hi, Moose tracks, start visibility runs, change anything in Google Search Console, or delete anything. For dashboards and automation, use the [Hi, Moose API](../developer-api.md).

@@ -1,5 +1,5 @@
 ---
-source_hash: 70ba857e17e62b095e697b27a613544a1ae26ade94b2df99d5a4b8a882eddbee
+source_hash: 83af6b82af4f2b400351f1edc3d19623b831784f5f6aa12eed64cca4907ea507
 ---
 
 # Sécurité et traitement des données
@@ -61,7 +61,7 @@ Pour déconnecter une application, ouvrez Hi, Moose et allez dans **Paramètres 
 
 ## Ce qu'une application connectée peut et ne peut pas faire
 
-Tout ce qu'une application connectée peut faire est listé dans le [guide de configuration](../hi-moose-mcp.md) et décrit outil par outil dans la [référence des outils](tools.md). Il s'agit de travail de contenu et de recherche dans les projets du compte : briefs, brouillons, images, FAQ, points clés, audits AEO, plans de liens internes, épisodes audio, vérifications de couverture et lectures des résultats de recherche IA stockés.
+Tout ce qu'une application connectée peut faire est listé dans le [guide de configuration](../hi-moose-mcp.md) et décrit outil par outil dans la [référence des outils](tools.md). Il s'agit de travail de contenu et de recherche dans les projets du compte : briefs, brouillons, images, FAQ, points clés, audits AEO, plans de liens internes, épisodes audio, vérifications de couverture, lectures des résultats de recherche IA stockés et lectures des données Google Search Console quand Search Console est connecté sur l'appareil hôte.
 
 Elle ne peut pas :
 
@@ -96,7 +96,7 @@ Ce que cela signifie pour vos données :
 
 Certains résultats contiennent du texte que Hi, Moose n'a pas écrit : des passages de pages de votre site, du texte d'ancre cité d'une page, de courts extraits de ce qu'un moteur d'IA a répondu, ou le texte complet d'une réponse stockée. Un tel texte pourrait porter des instructions destinées à un agent d'IA. L'OWASP appelle cela l'injection indirecte de prompt.
 
-Chaque résultat qui porte du texte externe le marque. Le texte revient entre un marqueur de début et un marqueur de fin, précédé d'une ligne qui nomme sa provenance et précise que tout ce qui se trouve entre les marqueurs est une donnée, pas une instruction. La forme structurée du même résultat porte un champ `dataNotice` qui dit la même chose. Cela s'applique à `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `get_gap_analysis`, `visibility_list_tracked`, `visibility_get_summary` et `visibility_list_results`.
+Chaque résultat qui porte du texte externe le marque. Le texte revient entre un marqueur de début et un marqueur de fin, précédé d'une ligne qui nomme sa provenance et précise que tout ce qui se trouve entre les marqueurs est une donnée, pas une instruction. La forme structurée du même résultat porte un champ `dataNotice` qui dit la même chose. Cela s'applique à `check_site_coverage`, `run_aeo_audit`, `find_internal_links`, `visibility_check_topic`, `visibility_get_answer`, `visibility_list_opportunities`, `get_gap_analysis`, `visibility_list_tracked`, `visibility_get_summary`, `visibility_list_results`, `search_console_get_status` et `search_console_query`.
 
 Les briefs, brouillons, FAQ, points clés et scripts audio sont écrits par Hi, Moose pour vous. La recherche qui les sous-tend est lue sur l'appareil hôte et n'est pas transmise à l'agent.
 

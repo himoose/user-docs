@@ -26,6 +26,7 @@ With the current tools, a connected app can:
 - Answer "are we showing up in AI search for this topic" from the stored visibility results: per engine, whether your brand was mentioned or cited in the latest run and earlier, with a short excerpt from the latest answer
 - Read the full text of one stored AI search answer
 - List the opportunities worth working on, the same ranked rows as the Opportunities tab: the exact gap, the next step, the priority and the evidence, with the full detail for any one row on request
+- Read the Google Search performance data of the Search Console property connected to the project: clicks, impressions, click-through rate and average position, by query, page, date, country or device, with a comparison to an earlier period on request
 - Turn a live page, a saved draft or pasted text into a "listen to this article" audio episode, with the embeddable player snippet for the page; voices, length, language and the player look can be picked on the [audio settings page](https://himoose.com/hi-moose-mcp/audio/) and pasted back into the chat as one settings line
 - Restyle the player of an existing audio episode without re-rendering the audio
 - Pick up finished work

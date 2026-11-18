@@ -1,5 +1,5 @@
 ---
-source_hash: f728fd208d6c88924d2f4d16ecc591b09da226ac8f4f806a074a01277fd29d72
+source_hash: 780b3421a57ea7f13379e6beb69cb312371a853d9871504180935266ae4703a4
 ---
 !!! note "Maschinell übersetzt"
     Diese Seite wurde von einer KI übersetzt. Maßgeblich ist die englische Fassung.
@@ -24,6 +24,7 @@ Jedes Werkzeug außer `list_projects` und `get_result` braucht ein **Projekt**, 
 | Chancenliste | Wenige Sekunden bis eine Minute |
 | Lückenanalyse zu einem Wettbewerber | Ein bis zwei Minuten |
 | Verfolgungsliste, Sichtbarkeits-Zusammenfassung, Ergebnisliste | Wenige Sekunden |
+| Prüfung der Search-Console-Verbindung, Search-Console-Abfrage | Wenige Sekunden |
 | Content-Briefing, Entwurf, FAQs, Kernaussagen, Beitragsbild | Ein bis drei Minuten |
 | AEO-Audit | Zwei bis vier Minuten |
 | Inhaltsaktualisierung | Drei bis sechs Minuten |
@@ -322,6 +323,56 @@ Fragen Sie: „Liste jede Antwort der letzten zwei Wochen auf, in der ein Wettbe
 
 Das Ausgabeschema jedes Werkzeugs ist Teil der Werkzeugliste, die der Server unter `https://mcp.himoose.com/tools.json` veröffentlicht, Sie können es also dem Assistenten geben, der Ihren Skill oder Ihr Skript schreibt.
 
+## Google Search Console
+
+Zwei Werkzeuge lesen die Leistungsdaten aus der Google Suche für die Search-Console-Property, die in Hi, Moose mit dem Projekt verbunden ist. Die Search Console muss auf dem Host-Gerät des Projekts verbunden sein, in Hi, Moose unter **Verbindungen**. Wie Sie sie verbinden, steht unter [Google Search Console](../google-search-console.md). Das Host-Gerät fragt die Daten bei jeder Anfrage bei Google ab, die Zahlen sind also aktuell. Das Ergebnis läuft wie das Ergebnis jedes anderen Werkzeugs durch den Auftragsdatensatz, wie auf der [Sicherheitsseite](security.md) beschrieben. In der Search Console wird nichts geändert. Jede Person im Team, die Hi, Moose MCP für das Projekt nutzen kann, kann diese Daten lesen.
+
+Das sind Zahlen aus der Google Suche, nicht aus der KI-Suche, halten Sie sie also von den Sichtbarkeitszahlen getrennt. Beide Werkzeuge liefern strukturiertes JSON mit veröffentlichtem Ausgabeschema.
+
+### search_console_get_status
+
+Sagt, ob die Search Console für das Projekt auf seinem Host-Gerät verbunden ist. Es braucht das Projekt und sonst nichts.
+
+Ist die Search Console verbunden, gibt es die Property zurück, das heutige Datum, den ersten Tag mit Daten (etwa 16 Monate zurück), den letzten Tag, dessen Zahlen endgültig sind, und die erlaubten Dimensionen, Suchtypen, Filteroperatoren und Sortierfelder. Ist sie nicht verbunden, sagt es, was in Hi, Moose zu tun ist, um sie zu verbinden. Es fragt nichts bei Google ab.
+
+Fragen Sie: „Ist die Search Console für Acme verbunden?“
+
+### search_console_query
+
+Führt eine Abfrage zur Suchleistung aus. Es nimmt dieselben Felder wie die Search Analytics API von Google, plus drei Ergänzungen, die auf dem Host-Gerät laufen: Vergleich, Sortierung und das Zusammenführen von URLs, die sich nur durch einen `#`-Teil unterscheiden.
+
+| Eingabe | Pflicht | Bedeutung |
+|---|---|---|
+| startDate, endDate | ja | Der Zeitraum als YYYY-MM-DD |
+| dimensions | nein | Wie die Zeilen gruppiert werden: `query`, `page`, `date`, `country`, `device`, `searchAppearance`. Weglassen für nur die Summen. `date` ergibt einen Tagesverlauf. |
+| searchType | nein | `web` (Standard), `image`, `video`, `news`, `discover` oder `googleNews` |
+| dimensionFilterGroups | nein | Filter in der Form von Google: Jeder Filter hat eine Dimension, einen Operator (`equals`, `notEquals`, `contains`, `notContains`, `includingRegex`, `excludingRegex`) und einen Ausdruck mit bis zu 4.096 Zeichen. Jeder Filter muss zutreffen. Reguläre Ausdrücke nutzen die RE2-Syntax. |
+| aggregationType | nein | `auto` (Standard), `byPage` oder `byProperty` |
+| dataState | nein | `final` (Standard) oder `all`, das auch die letzten Tage einschließt, deren Zahlen sich noch ändern |
+| rowLimit | nein | Zurückgegebene Zeilen. Standard 100, bis zu 25.000. Ein Ergebnis fasst etwa 850 KB; passen die Zeilen nicht hinein, werden sie gekürzt, und `nextStartRow` sagt, wo es weitergeht. |
+| startRow | nein | Zeilen, die übersprungen werden, zum Blättern |
+| compare | nein | true vergleicht mit dem gleich langen Zeitraum unmittelbar davor |
+| compareStartDate, compareEndDate | nein | Ein eigener Vergleichszeitraum |
+| sortBy | nein | `clicks` (Standard), `impressions`, `ctr`, `position` und bei einem Vergleich `clicksChange`, `impressionsChange`, `ctrChange`, `positionChange` |
+| sortDirection | nein | `desc` (größte zuerst, Standard) oder `asc`. Standard `asc` für position. |
+| mergePageFragments | nein | true rechnet Zeilen wie /page#section zu /page hinzu. Braucht die Dimension page. |
+
+Gibt die Zeilen zurück, jede mit ihren Schlüsseln (ein Wert pro Dimension), Klicks, Impressionen, CTR als Anteil (0.042 sind 4,2 %) und durchschnittlicher Position (niedriger ist besser). Bei einem Vergleich enthält jede Zeile auch die vorherigen Zahlen, die Veränderung und ob sie in beiden Zeiträumen oder nur in einem vorkam, sodass eine verschwundene Suchanfrage weiter aufgeführt wird. Das Ergebnis enthält außerdem die Summen von Google für den gesamten Zeitraum und die Filter, die Summen des Vergleichs und ihre Veränderung, wie viele Zeilen gelesen wurden, einen `nextStartRow` zum Blättern und Hinweise auf jede Grenze, die für das Ergebnis gilt.
+
+Gut zu wissen:
+
+- Google lässt seltene Suchanfragen aus den Zeilen weg, um die suchenden Personen zu schützen, die Zeilen ergeben zusammen also weniger als die Summen. Nutzen Sie die Summen für Gesamtzahlen.
+- Die Zahlen eines Tages sind etwa drei Tage später endgültig.
+- Die Search Console bewahrt etwa 16 Monate Daten auf.
+- Sortierung, Vergleich und Zusammenführen lesen die ersten 25.000 Zeilen, die Google für jeden Zeitraum liefert; Google ordnet sie nach den meisten Klicks zuerst. Das Ergebnis sagt, wenn Google mehr Zeilen hatte, und wie viele Klicks eine ungelesene Zeile höchstens haben kann.
+- Ein Vergleich lässt sich nicht mit der Dimension `date` kombinieren.
+- Werden Zeilen nach Seite gruppiert oder gefiltert, zählt Google jede in einer Suche gezeigte Seite einzeln, die Summen sind also höher als die Summen für die gesamte Property.
+- Länderwerte sind dreibuchstabige Codes wie `usa`. Gerätewerte sind `DESKTOP`, `MOBILE` und `TABLET`.
+
+Fragen Sie: „Was waren letzten Monat unsere 20 wichtigsten Google-Suchanfragen für Acme?“ oder „Welche Suchanfragen haben in den letzten 28 Tagen im Vergleich zu den 28 Tagen davor die meisten Klicks verloren?“
+
+Das Ausgabeschema beider Werkzeuge ist Teil der Werkzeugliste, die der Server unter `https://mcp.himoose.com/tools.json` veröffentlicht.
+
 ## Audio
 
 ### create_audio
@@ -361,4 +412,4 @@ Fragen Sie: „Gib mir den kompakten hellen Player für diese Episode.“
 
 ## Was die Werkzeuge nicht können
 
-Sie können keine Einstellungen oder Teammitglieder ändern, nicht ändern, was Hi, Moose verfolgt, keine Sichtbarkeitsläufe starten und nichts löschen. Für Dashboards und Automatisierung nutzen Sie die [Hi, Moose API](../developer-api.md).
+Sie können keine Einstellungen oder Teammitglieder ändern, nicht ändern, was Hi, Moose verfolgt, keine Sichtbarkeitsläufe starten, nichts in der Google Search Console ändern und nichts löschen. Für Dashboards und Automatisierung nutzen Sie die [Hi, Moose API](../developer-api.md).
