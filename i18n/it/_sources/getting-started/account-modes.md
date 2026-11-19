@@ -10,7 +10,7 @@ Plans are grouped into two tabs in the **Upgrade** screen: **Startup** and **Ent
 
 You supply an [OpenRouter](https://openrouter.ai) API key, and model calls run **from the desktop app on your machine** using that key. Hi, Moose never proxies BYOK inference through its own servers, so your key stays local and inference goes straight to OpenRouter.
 
-Paying for a BYOK plan doesn't change that. You're paying for more workflow capability — projects, seats, memory, workflows, Search Console — not for Hi, Moose to run your model calls for you. Model costs go to OpenRouter directly, and there's no Hi, Moose token meter to watch.
+Paying for a BYOK plan doesn't change that. You're paying for more workflow capability — projects, seats, memory, workflows — not for Hi, Moose to run your model calls for you. Model costs go to OpenRouter directly, and there's no Hi, Moose token meter to watch.
 
 ### Managed — Hi, Moose runs the models
 
@@ -26,7 +26,7 @@ Preview Mode is the free way to try Hi, Moose. It is genuinely local: 1 project,
 - Free and local LLMs only
 - Local visibility runs
 - Context storage and recall, Brand Voice and Style Guide
-- Connections: WordPress, Webflow, Grav
+- Connections: WordPress, Webflow, Grav, [Google Search Console](../integrations/google-search-console.md)
 - Limited live search and competitor data, limited AI quality, limited export options
 
 !!! warning "Preview Mode needs a local model for scoring and audits"
@@ -40,9 +40,9 @@ The free way to run on your own key. Same 1-project, 1-seat shape as Preview Mod
 - Your own OpenRouter key, unlimited tokens
 - All LLMs, including local models
 - Local-only visibility runs
-- Connections: WordPress, Webflow, Grav
+- Connections: WordPress, Webflow, Grav, [Google Search Console](../integrations/google-search-console.md)
 - Limited context storage and recall, limited [Library](../library/overview.md)
-- No chat web search, no Workflows, no Google Search Console
+- No chat web search, no Workflows
 
 ### BYOK Premium — $39/month or $390/year
 
@@ -97,7 +97,7 @@ BYOK Premium at agency scale. Same local-first model and the same feature set, s
 | Team seats | 1 | 1 | 10 | 25 | Unlimited |
 | Chat web search | No | No | Yes | Yes | Yes |
 | [Workflows](../workflows/overview.md) | No | No | Yes | Yes | Yes |
-| [Google Search Console](../integrations/google-search-console.md) | No | No | Yes | Yes | Yes |
+| [Google Search Console](../integrations/google-search-console.md) | Yes | Yes | Yes | Yes | Yes |
 | [Audio](../audio/overview.md) | No | No | 15/month | 15/month | Unlimited |
 | [White-label branding](../agency/white-label.md) | No | No | Yes | Yes | Yes |
 

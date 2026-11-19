@@ -1,5 +1,5 @@
 ---
-source_hash: 07b1b5e8bf746dc48362fa004a86b7566ef960fafcbe265cebb6ecd32d7aff91
+source_hash: d45ebfbac11f6a0832273d11feef7a14c01f90d5d3f7178c73fd7290ee6fd4b6
 ---
 !!! note "Tradução automática"
     Esta página foi traduzida por IA. A versão em inglês é a versão oficial.
@@ -13,7 +13,7 @@ source_hash: 07b1b5e8bf746dc48362fa004a86b7566ef960fafcbe265cebb6ecd32d7aff91
 Conectar o Google Search Console para que o Hi, Moose traga seus dados de desempenho de busca do Google (impressões, cliques e consultas) para a mesma base local de evidências usada por [Visibilidade](../visibility/overview.md), [auditorias de AEO](../features/aeo-audits.md) e [briefings de conteúdo](../features/content-briefs.md).
 
 !!! note "Disponibilidade"
-    A conexão com o Google Search Console está incluída em todos os planos pagos: BYOK Premium, BYOK Agency e todos os planos gerenciados. Não está incluída no BYOK Free nem no Preview Mode. Veja [Tipos de conta e planos](../getting-started/account-modes.md).
+    A conexão com o Google Search Console está incluída em todos os planos, inclusive no Preview Mode e no BYOK Free. Veja [Tipos de conta e planos](../getting-started/account-modes.md).
 
 ## Por que isso fica local
 
@@ -39,8 +39,6 @@ Os dados do Search Console trazidos ao Hi, Moose ficam guardados **localmente no
 ## Escopo atual
 
 Esta conexão é somente leitura na versão 1: o Hi, Moose não escreve de volta no Search Console. Por ora, dá para vincular uma propriedade por projeto.
-
-O Search Console exige um plano pago. Não está incluído no Preview Mode nem no BYOK Free.
 
 !!! note "Atualize o aplicativo se a conexão falhar no Windows"
     Os instaladores para Windows anteriores à versão 0.3.245 saíram sem as credenciais do Google de que a conexão precisa, então conectar sempre falhava no aplicativo instalado. Atualizar resolve.

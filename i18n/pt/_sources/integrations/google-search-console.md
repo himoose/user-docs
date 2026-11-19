@@ -5,7 +5,7 @@
 Connect Google Search Console so Hi, Moose can bring your first-party Google search performance — impressions, clicks, and query data — into the same local evidence base used by [Visibility](../visibility/overview.md), [AEO audits](../features/aeo-audits.md), and [content briefs](../features/content-briefs.md).
 
 !!! note "Availability"
-    Google Search Console connection is included on every paid plan — BYOK Premium, BYOK Agency, and all managed plans. It isn't included on BYOK Free or Preview Mode. See [Account Types & Plans](../getting-started/account-modes.md).
+    Google Search Console connection is included on every plan, including Preview Mode and BYOK Free. See [Account Types & Plans](../getting-started/account-modes.md).
 
 ## Why this stays local
 
@@ -31,8 +31,6 @@ Search Console data pulled into Hi, Moose is stored **locally on your device**, 
 ## Current scope
 
 This connection is read-only in v1 — Hi, Moose does not write back to Search Console. One property can be bound per project at this time.
-
-Search Console requires a paid plan. It isn't included on Preview Mode or BYOK Free.
 
 !!! note "Update the app if connecting fails on Windows"
     Windows installers before v0.3.245 shipped without the Google credentials the connection needs, so connecting always failed on the installed app. Updating fixes it.

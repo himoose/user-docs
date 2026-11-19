@@ -1,5 +1,5 @@
 ---
-source_hash: 2ba70f00f21e9d4751be22470dd7212080bc851cf96917788479b101bf0c1896
+source_hash: 960f0dbd50173fe28dd1e5f45be647ca26e5498dfa1dda3cf154efbeb41ea704
 ---
 # Kontotypen und Tarife
 
@@ -13,7 +13,7 @@ Die Tarife sind im Bildschirm **Upgrade** in zwei Reitern gruppiert: **Startup**
 
 Sie stellen einen [OpenRouter](https://openrouter.ai)-API-Schlüssel bereit, und die Modellaufrufe laufen **aus der Desktop-App heraus auf Ihrem Rechner** mit diesem Schlüssel. Hi, Moose leitet BYOK-Inferenz niemals über eigene Server, Ihr Schlüssel bleibt also lokal, und die Inferenz geht direkt an OpenRouter.
 
-Daran ändert auch ein kostenpflichtiger BYOK-Tarif nichts. Sie zahlen für mehr Arbeitsmöglichkeiten (Projekte, Sitzplätze, Gedächtnis, Workflows, Search Console), nicht dafür, dass Hi, Moose Ihre Modellaufrufe ausführt. Die Modellkosten gehen direkt an OpenRouter, und es gibt keinen Hi, Moose-Tokenzähler, den Sie im Auge behalten müssten.
+Daran ändert auch ein kostenpflichtiger BYOK-Tarif nichts. Sie zahlen für mehr Arbeitsmöglichkeiten (Projekte, Sitzplätze, Gedächtnis, Workflows), nicht dafür, dass Hi, Moose Ihre Modellaufrufe ausführt. Die Modellkosten gehen direkt an OpenRouter, und es gibt keinen Hi, Moose-Tokenzähler, den Sie im Auge behalten müssten.
 
 ### Verwaltet: Hi, Moose führt die Modelle aus
 
@@ -29,7 +29,7 @@ Preview Mode ist die kostenlose Art, Hi, Moose auszuprobieren. Er ist wirklich l
 - Nur kostenlose und lokale LLMs
 - Lokale Sichtbarkeitsläufe
 - Kontextspeicherung und -abruf, Brand Voice und Styleguide
-- Verbindungen: WordPress, Webflow, Grav
+- Verbindungen: WordPress, Webflow, Grav, [Google Search Console](../integrations/google-search-console.md)
 - Eingeschränkte Live-Such- und Wettbewerbsdaten, eingeschränkte KI-Qualität, eingeschränkte Exportoptionen
 
 !!! warning "Preview Mode benötigt ein lokales Modell für Bewertung und Audits"
@@ -43,9 +43,9 @@ Die kostenlose Art, mit Ihrem eigenen Schlüssel zu arbeiten. Derselbe Zuschnitt
 - Ihr eigener OpenRouter-Schlüssel, unbegrenzte Token
 - Alle LLMs, einschließlich lokaler Modelle
 - Sichtbarkeitsläufe ausschließlich lokal
-- Verbindungen: WordPress, Webflow, Grav
+- Verbindungen: WordPress, Webflow, Grav, [Google Search Console](../integrations/google-search-console.md)
 - Eingeschränkte Kontextspeicherung und -abruf, eingeschränkte [Library](../library/overview.md)
-- Keine Websuche im Chat, keine Workflows, keine Google Search Console
+- Keine Websuche im Chat, keine Workflows
 
 ### BYOK Premium: 39 USD pro Monat oder 390 USD pro Jahr
 
@@ -100,7 +100,7 @@ BYOK Premium im Agenturmaßstab. Dasselbe lokale Prinzip und derselbe Funktionsu
 | Teamsitzplätze | 1 | 1 | 10 | 25 | Unbegrenzt |
 | Websuche im Chat | Nein | Nein | Ja | Ja | Ja |
 | [Workflows](../workflows/overview.md) | Nein | Nein | Ja | Ja | Ja |
-| [Google Search Console](../integrations/google-search-console.md) | Nein | Nein | Ja | Ja | Ja |
+| [Google Search Console](../integrations/google-search-console.md) | Ja | Ja | Ja | Ja | Ja |
 | [Audio](../audio/overview.md) | Nein | Nein | 15 pro Monat | 15 pro Monat | Unbegrenzt |
 | [White-Label-Branding](../agency/white-label.md) | Nein | Nein | Ja | Ja | Ja |
 
